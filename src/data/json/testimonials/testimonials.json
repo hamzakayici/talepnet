@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "quote": "TalepNET'in kullanıcı dostu arayüzü ve güçlü özellikleri satın alma süreçlerimizi tamamen dönüştürdü. Müşteri desteği her aşamada mükemmeldi.",
+    "avatar": "/images/business-avatars/avatar-1.jpg",
+    "name": "Ayşe Yılmaz",
+    "position": "Satın Alma Direktörü",
+    "rating": "4.9"
+  },
+  {
+    "id": 2,
+    "quote": "Orta ölçekli bir işletme olarak TalepNET, tedarikçi yönetimi ve teklif süreçlerimizde büyük kolaylık sağladı. Beklentilerimizin çok üstünde bir platform. Online teklif toplama ve sipariş takibi artık çok daha kolay ve şeffaf.",
+    "avatar": "/images/business-avatars/avatar-2.jpg",
+    "name": "Mehmet Kaya",
+    "position": "Operasyon Müdürü",
+    "rating": "5.0"
+  },
+  {
+    "id": 3,
+    "quote": "Satın alma onay süreçlerimiz eskiden günler alıyordu, artık TalepNET sayesinde saatler içinde tamamlanıyor. İş akışı sihirbazı ile kurduğumuz süreçler çok verimli çalışıyor.",
+    "avatar": "/images/business-avatars/avatar-3.jpg",
+    "name": "Elif Demir",
+    "position": "Tedarik Zinciri Yöneticisi",
+    "rating": "4.8"
+  },
+  {
+    "id": 4,
+    "quote": "Tedarikçi ağımızı genişletmek için TalepNET'i kullanıyoruz. Yeni tedarikçileri kategoriye göre arayıp, gerçek yorumları okuyabilmek büyük avantaj. Platform sayesinde maliyetlerimizi %25 düşürdük.",
+    "avatar": "/images/business-avatars/avatar-4.jpg",
+    "name": "Can Özkan",
+    "position": "Finans Müdürü",
+    "rating": "4.7"
+  },
+  {
+    "id": 5,
+    "quote": "Gerçek zamanlı analitik ve özelleştirilebilir kontrol panelleri sayesinde satın alma KPI'larımızı takip etmek çok daha kolay ve içgörülü hale geldi.",
+    "avatar": "/images/business-avatars/avatar-5.jpg",
+    "name": "Zeynep Arslan",
+    "position": "Veri Analisti",
+    "rating": "4.7"
+  },
+  {
+    "id": 6,
+    "quote": "Kurulumdan günlük kullanıma kadar deneyim son derece akıcı ve sezgisel oldu. Ekip işbirliğimiz önemli ölçüde iyileşti, satın alma süreçlerimiz artık çok daha şeffaf.",
+    "avatar": "/images/business-avatars/avatar-6.jpg",
+    "name": "Ali Çelik",
+    "position": "Proje Koordinatörü",
+    "rating": "4.6"
+  },
+  {
+    "id": 7,
+    "quote": "TalepNET ile tedarikçilerimize talep göndermek, teklifler almak ve siparişleri online olarak yönetmek artık çok kolay. Dijital dönüşüm yolculuğumuzda vazgeçilmez bir araç haline geldi.",
+    "avatar": "/images/business-avatars/avatar-7.jpg",
+    "name": "Selin Yıldız",
+    "position": "İş Geliştirme Uzmanı",
+    "rating": "4.6"
+  },
+  {
+    "id": 8,
+    "quote": "Kurulumdan günlük kullanıma kadar deneyim son derece akıcı ve sezgisel oldu. TalepNET ile satın alma süreçlerimiz artık tamamen dijital ve izlenebilir.",
+    "avatar": "/images/business-avatars/avatar-8.jpg",
+    "name": "Burak Şahin",
+    "position": "IT Yöneticisi",
+    "rating": "4.6"
+  },
+  {
+    "id": 9,
+    "quote": "Kurumsal satın alma süreçlerimizi oluşturmak ve yönetmek TalepNET ile çok kolaylaştı. Onay mekanizmaları ve raporlama özellikleri gerçekten etkileyici.",
+    "avatar": "/images/business-avatars/avatar-9.jpg",
+    "name": "Deniz Koç",
+    "position": "Genel Müdür Yardımcısı",
+    "rating": "4.8"
+  }
+]

@@ -1,0 +1,151 @@
+'use client';
+import RevealAnimation from '@/components/animation/RevealAnimation';
+import { MobileMenuProvider } from '@/context/MobileMenuContext';
+import { mobileMenuData } from '@/data/navbar-data';
+import { useNavbarScroll } from '@/hooks/useScrollHeader';
+import { cn } from '@/utils/cn';
+import mobileIcon from '@public/images/shared/talepnet-icon.png';
+import mainLogo from '@public/images/shared/talepnet-logo-v2.png';
+import Image from 'next/image';
+import Link from 'next/link';
+import { useState } from 'react';
+import MobileMenu from '../mobile-menu/MobileMenu';
+import EngageMenu from './EngageMenu';
+import ExploreMenu from './ExploreMenu';
+import InsightsMenu from './InsightsMenu';
+import MobileMenuButton from './MobileMenuButton';
+
+const Navbar = () => {
+  const { isScrolled } = useNavbarScroll(150);
+
+  const [menuDropdownId, setMenuDropdownId] = useState<string | null>(null);
+
+  const handleMenuHover = (dropdownId?: string | null) => {
+    setMenuDropdownId(dropdownId || null);
+  };
+  return (
+    <MobileMenuProvider>
+      <header
+        onMouseLeave={() => handleMenuHover(null)}
+        className={cn(
+          'lp:!max-w-[1290px] bg-background-2 dark:bg-background-6 fixed top-5 left-1/2 z-50 mx-auto w-full max-w-[350px] -translate-x-1/2 rounded-full transition-all duration-500 ease-in-out min-[425px]:max-w-[375px] min-[500px]:max-w-[450px] sm:max-w-[540px] md:max-w-[720px] lg:max-w-[960px] xl:max-w-[1140px]',
+          isScrolled && 'top-2',
+        )}>
+        <RevealAnimation direction="up" offset={100} delay={0.1} instant>
+          <div>
+            <div className="flex items-center justify-between bg-background-2 dark:bg-background-6 rounded-full px-2.5 py-2.5 backdrop-blur-[25px] xl:py-0">
+              <div>
+                <Link href="/">
+                  <span className="sr-only">Home</span>
+                  <figure className="hidden lg:block lg:max-w-[198px]">
+                    <Image src={mainLogo} alt="TalepNET" className="h-[34px] w-auto" priority />
+                  </figure>
+                  <figure className="block max-w-[44px] lg:hidden">
+                    <Image src={mobileIcon} alt="TalepNET" className="w-[34px] h-[34px]" priority />
+                  </figure>
+                </Link>
+              </div>
+              <nav className="hidden items-center xl:flex">
+                <ul className="flex items-center">
+                  <li
+                    onMouseEnter={() => handleMenuHover('explore-mega-menu')}
+                    data-menu="explore-mega-menu"
+                    className="group/nav-item relative cursor-pointer py-2.5">
+                    <Link
+                      href="#"
+                      onClick={(event) => event.preventDefault()}
+                      className="hover:border-stroke-2 dark:hover:border-stroke-7 text-tagline-1 text-secondary/60 hover:text-secondary dark:text-accent/60 dark:hover:text-accent flex items-center gap-1 rounded-full border border-transparent px-4 py-2 font-normal transition-all duration-200">
+                      <span>Çözümler</span>
+                      <span className="block origin-center translate-y-px transition-all duration-300 group-hover/nav-item:rotate-180">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          fill="none"
+                          viewBox="0 0 24 24"
+                          strokeWidth="1.5"
+                          stroke="currentColor"
+                          className="size-4">
+                          <path strokeLinecap="round" strokeLinejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+                        </svg>
+                      </span>
+                    </Link>
+                    <ExploreMenu menuDropdownId={menuDropdownId} setMenuDropdownId={setMenuDropdownId} />
+                  </li>
+                  <li
+                    onMouseEnter={() => handleMenuHover('engage-mega-menu')}
+                    data-menu="engage-mega-menu"
+                    className="group/nav-item relative cursor-pointer py-2.5">
+                    <Link
+                      href="#"
+                      onClick={(event) => event.preventDefault()}
+                      className="hover:border-stroke-2 dark:hover:border-stroke-7 text-tagline-1 text-secondary/60 hover:text-secondary dark:text-accent/60 dark:hover:text-accent flex items-center gap-1 rounded-full border border-transparent px-4 py-2 font-normal transition-all duration-200">
+                      <span>Platform</span>
+                      <span className="block origin-center translate-y-px transition-all duration-300 group-hover/nav-item:rotate-180">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          fill="none"
+                          viewBox="0 0 24 24"
+                          strokeWidth="1.5"
+                          stroke="currentColor"
+                          className="size-4">
+                          <path strokeLinecap="round" strokeLinejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+                        </svg>
+                      </span>
+                    </Link>
+                    <EngageMenu menuDropdownId={menuDropdownId} setMenuDropdownId={setMenuDropdownId} />
+                  </li>
+                  <li
+                    onMouseEnter={() => handleMenuHover('insights-mega-menu')}
+                    data-menu="insights-mega-menu"
+                    className="group/nav-item relative cursor-pointer py-2.5">
+                    <Link
+                      href="#"
+                      onClick={(event) => event.preventDefault()}
+                      className="hover:border-stroke-2 dark:hover:border-stroke-7 text-tagline-1 text-secondary/60 hover:text-secondary dark:text-accent/60 dark:hover:text-accent flex items-center gap-1 rounded-full border border-transparent px-4 py-2 font-normal transition-all duration-200">
+                      <span>Kaynaklar</span>
+                      <span className="block origin-center translate-y-px transition-all duration-300 group-hover/nav-item:rotate-180">
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          fill="none"
+                          viewBox="0 0 24 24"
+                          strokeWidth="1.5"
+                          stroke="currentColor"
+                          className="size-4">
+                          <path strokeLinecap="round" strokeLinejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+                        </svg>
+                      </span>
+                    </Link>
+                    <InsightsMenu menuDropdownId={menuDropdownId} setMenuDropdownId={setMenuDropdownId} />
+                  </li>
+                  <li className="py-2.5">
+                    <Link
+                      href="/blog"
+                      className="hover:border-stroke-2 dark:hover:border-stroke-7 text-tagline-1 text-secondary/60 hover:text-secondary dark:text-accent/60 dark:hover:text-accent flex items-center gap-1 rounded-full border border-transparent px-4 py-2 font-normal transition-all duration-200">
+                      Blog
+                    </Link>
+                  </li>
+                  <li className="py-2.5">
+                    <Link
+                      href="/contact-us"
+                      className="hover:border-stroke-2 dark:hover:border-stroke-7 text-tagline-1 text-secondary/60 hover:text-secondary dark:text-accent/60 dark:hover:text-accent flex items-center gap-1 rounded-full border border-transparent px-4 py-2 font-normal transition-all duration-200">
+                      Destek
+                    </Link>
+                  </li>
+                </ul>
+              </nav>
+              <div className="hidden items-center justify-center xl:flex">
+                <Link href="https://portal.talepnet.com/" className="btn btn-md btn-primary hover:btn-white-dark dark:hover:btn-white">
+                  <span>Tedarikçi Portalı</span>
+                </Link>
+              </div>
+              <MobileMenuButton />
+            </div>
+          </div>
+        </RevealAnimation>
+      </header>
+      <MobileMenu menuData={mobileMenuData} />
+    </MobileMenuProvider>
+  );
+};
+
+Navbar.displayName = 'Navbar';
+export default Navbar;

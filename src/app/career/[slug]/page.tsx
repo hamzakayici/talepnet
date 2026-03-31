@@ -1,0 +1,40 @@
+import CareerDetailsBody from '@/components/career/CareerDetailsBody';
+import CTAV1 from '@/components/shared/cta/CTAV1';
+import PageHero from '@/components/shared/PageHero';
+import { defaultMetadata } from '@/utils/generateMetaData';
+import getMarkDownData from '@/utils/getMarkDownData';
+import { Metadata } from 'next';
+
+export async function generateStaticParams() {
+  const careers = getMarkDownData('src/data/career');
+  return careers.map((career) => ({
+    slug: career.slug,
+  }));
+}
+
+export const metadata: Metadata = {
+  ...defaultMetadata,
+  title: 'Başvuru Yap | TalepNET',
+};
+
+const CareerDetails = async ({ params }: { params: Promise<{ slug: string }> }) => {
+  const slug = (await params).slug;
+
+  return (
+    <main className="bg-background-3 dark:bg-background-7">
+      <PageHero title="Başvuru Yap" heading="Başvuru Yap" link="/career" className="bg-background-3 dark:bg-background-7" />
+      <CareerDetailsBody slug={slug} />
+      <CTAV1
+        className="dark:bg-background-5 bg-white"
+        badgeClass="!badge-yellow-v2"
+        badgeText="Hemen Başlayın"
+        ctaHeading="TalepNET ile satın alma süreçlerinizi dijitalleştirin"
+        description="Ücretsiz denemenizi bugün başlatın ve satın alma süreçlerinizi kolayca dijitalleştirin."
+        btnClass="hover:btn-secondary dark:hover:btn-accent"
+        ctaBtnText="Ücretsiz Başlayın"
+      />
+    </main>
+  );
+};
+
+export default CareerDetails;

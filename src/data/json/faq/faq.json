@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "question": "TalepNET nedir ve ne işe yarar?",
+    "answer": "TalepNET, kurumsal satın alma süreçlerini dijitalleştiren ve otomatikleştiren bir satın alma yönetimi platformudur. İş akışı sihirbazı, tedarikçi ağı yönetimi, online teklif toplama ve sipariş yönetimi gibi özellikler sunar."
+  },
+  {
+    "id": 2,
+    "question": "TalepNET ile hangi süreçleri yönetebilirim?",
+    "answer": "Satın alma talepleri, tedarikçi yönetimi, teklif karşılaştırma, sipariş takibi, envanter yönetimi, bütçe kontrolü, onay süreçleri ve faturalama gibi tüm tedarik zinciri süreçlerinizi tek platformdan yönetebilirsiniz."
+  },
+  {
+    "id": 3,
+    "question": "TalepNET'i mevcut sistemlerimle entegre edebilir miyim?",
+    "answer": "Evet, TalepNET API üzerinden herhangi bir popüler muhasebe veya ERP sistemine kolayca entegre edilebilir. Entegrasyon desteği tüm planlarda mevcuttur."
+  },
+  {
+    "id": 4,
+    "question": "TalepNET'i ücretsiz deneyebilir miyim?",
+    "answer": "Evet, TalepNET 14 gün boyunca ücretsiz deneme imkânı sunar. Kredi kartı bilgisi gerekmez. Deneme süresinde platformun tüm özelliklerine erişebilirsiniz."
+  }
+]

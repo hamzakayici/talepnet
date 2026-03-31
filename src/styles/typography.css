@@ -1,0 +1,8 @@
+/* =========================
+Default Body and Typography styles
+=========================== */
+@layer base {
+  body {
+    @apply font-manrope antialiased tracking-tight;
+  }
+}

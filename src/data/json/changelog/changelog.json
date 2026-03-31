@@ -1,0 +1,130 @@
+[
+  {
+    "id": "june-2025",
+    "dataMonth": "haziran 2025",
+    "title": "Haziran 2025 Arayüz ve Performans İyileştirmeleri",
+    "tag": "Arayüz Yenileme",
+    "status": "Yayınlandı",
+    "summary": "Hız ve netliği artırmak için uygulama genelinde küçük ama etkili değişiklikler.",
+    "highlights": [
+      "Tıklama sayısını azaltmak için gruplandırılmış sayfa navigasyonu yeniden tasarlandı.",
+      "Daha hızlı kontrol paneli yükleme süreleri (ilk yükleme ~%30 azaltıldı).",
+      "Başlangıç akışları boyunca yeni yardımcı metin ve mikro metinler.",
+      "Küçük ekranlardaki çeşitli stil tutarsızlıkları düzeltildi."
+    ],
+    "image": {
+      "src": "/images/ns-img-381.jpg",
+      "alt": "degisiklik-gunlugu"
+    }
+  },
+  {
+    "id": "july-2025",
+    "dataMonth": "temmuz 2025",
+    "title": "Temmuz 2025 Entegrasyonlar ve API",
+    "tag": "API v2.0",
+    "status": "Beta",
+    "summary": "Otomasyonu basitleştirmek için yeni entegrasyon uç noktaları ve Webhook kontrolleri.",
+    "highlights": [
+      "Genel API v2 yayında.",
+      "OAuth2 akışı token rotasyon desteğiyle güçlendirildi.",
+      "Yaygın bulut depolama sağlayıcıları için yeni entegrasyon.",
+      "Genişletilmiş webhook yeniden deneme politikası ve dead-letter kuyruğu."
+    ],
+    "migration": ["v1 uç noktaları, otomatik dışa aktarmalar için geçiş planı kapsamında 90 gün boyunca kullanılabilir kalacaktır."],
+    "image": {
+      "src": "/images/ns-img-382.jpg",
+      "alt": "degisiklik-gunlugu"
+    }
+  },
+  {
+    "id": "august-2025",
+    "dataMonth": "ağustos 2025",
+    "title": "Ağustos 2025 Güvenlik ve Güvenilirlik",
+    "tag": "Güvenlik Güncellemesi",
+    "status": "Yayınlandı",
+    "summary": "Güçlendirme ve güvenilirliğe odaklanıldı.",
+    "highlights": [
+      "Oturum zaman aşımı uç durumu için acil yama.",
+      "Geliştirilmiş veritabanı yük devretme testi ve izleme.",
+      "Cihaz doğrulamalı yeni hesap kurtarma akışı.",
+      "Kurumsal müşteriler için genişletilmiş SSO günlüğü."
+    ],
+    "image": {
+      "src": "/images/ns-img-383.jpg",
+      "alt": "degisiklik-gunlugu"
+    }
+  },
+  {
+    "id": "september-2025",
+    "dataMonth": "eylül 2025",
+    "title": "Eylül 2025 Arayüz ve Performans İyileştirmeleri",
+    "tag": "Arayüz Yenileme",
+    "status": "Yayınlandı",
+    "summary": "Hız ve netliği artırmak için uygulama genelinde küçük ama etkili değişiklikler.",
+    "highlights": [
+      "Tıklama sayısını azaltmak için gruplandırılmış sayfa navigasyonu yeniden tasarlandı.",
+      "Daha hızlı kontrol paneli yükleme süreleri (ilk yükleme ~%30 azaltıldı).",
+      "Başlangıç akışları boyunca yeni yardımcı metin ve mikro metinler.",
+      "Küçük ekranlardaki çeşitli stil tutarsızlıkları düzeltildi."
+    ],
+    "image": {
+      "src": "/images/ns-img-381.jpg",
+      "alt": "degisiklik-gunlugu"
+    }
+  },
+  {
+    "id": "october-2025",
+    "dataMonth": "ekim 2025",
+    "title": "Ekim 2025 Entegrasyonlar ve API",
+    "tag": "API v2.0",
+    "status": "Beta",
+    "summary": "Otomasyonu basitleştirmek için yeni entegrasyon uç noktaları ve Webhook kontrolleri.",
+    "highlights": [
+      "Genel API v2 yayında.",
+      "OAuth2 akışı token rotasyon desteğiyle güçlendirildi.",
+      "Yaygın bulut depolama sağlayıcıları için yeni entegrasyon.",
+      "Genişletilmiş webhook yeniden deneme politikası ve dead-letter kuyruğu."
+    ],
+    "migration": ["v1 uç noktaları, otomatik dışa aktarmalar için geçiş planı kapsamında 90 gün boyunca kullanılabilir kalacaktır."],
+    "image": {
+      "src": "/images/ns-img-382.jpg",
+      "alt": "degisiklik-gunlugu"
+    }
+  },
+  {
+    "id": "november-2025",
+    "dataMonth": "kasım 2025",
+    "title": "Kasım 2025 Güvenlik ve Güvenilirlik",
+    "tag": "Güvenlik Güncellemesi",
+    "status": "Yayınlandı",
+    "summary": "Güçlendirme ve güvenilirliğe odaklanıldı.",
+    "highlights": [
+      "Oturum zaman aşımı uç durumu için acil yama.",
+      "Geliştirilmiş veritabanı yük devretme testi ve izleme.",
+      "Cihaz doğrulamalı yeni hesap kurtarma akışı.",
+      "Kurumsal müşteriler için genişletilmiş SSO günlüğü."
+    ],
+    "image": {
+      "src": "/images/ns-img-383.jpg",
+      "alt": "degisiklik-gunlugu"
+    }
+  },
+  {
+    "id": "january-2026",
+    "dataMonth": "ocak 2026",
+    "title": "Aralık 2025 Arayüz ve Performans İyileştirmeleri",
+    "tag": "Arayüz Yenileme",
+    "status": "Yayınlandı",
+    "summary": "Hız ve netliği artırmak için uygulama genelinde küçük ama etkili değişiklikler.",
+    "highlights": [
+      "Tıklama sayısını azaltmak için gruplandırılmış sayfa navigasyonu yeniden tasarlandı.",
+      "Daha hızlı kontrol paneli yükleme süreleri (ilk yükleme ~%30 azaltıldı).",
+      "Başlangıç akışları boyunca yeni yardımcı metin ve mikro metinler.",
+      "Küçük ekranlardaki çeşitli stil tutarsızlıkları düzeltildi."
+    ],
+    "image": {
+      "src": "/images/ns-img-381.jpg",
+      "alt": "degisiklik-gunlugu"
+    }
+  }
+]
