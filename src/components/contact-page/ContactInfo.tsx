@@ -118,7 +118,7 @@ const ContactInfo = () => {
                     htmlFor="terms"
                     className="text-tagline-3 text-secondary/60 dark:text-accent/60 cursor-pointer">
                     Şartları ve koşulları kabul ediyorum
-                    <Link href="/terms-conditions" className="text-primary-500 text-tagline-3 underline">
+                    <Link href="/terms" className="text-primary-500 text-tagline-3 underline">
                       {' '}
                       şartlar ve koşullar
                     </Link>

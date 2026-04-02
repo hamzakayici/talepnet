@@ -1,13 +1,6 @@
 'use client';
-import {
-  ExploreCompanyIcon,
-  ExplorePricingAndAccountIcon,
-  ExploreProductIcon,
-  ExploreResourcesIcon,
-} from '@/icons/menu-icon';
 import { cn } from '@/utils/cn';
 import Link from 'next/link';
-import type { ComponentType } from 'react';
 import HoverBgTransform from '../hover-bg-transform';
 
 type ExploreItem = {
@@ -18,73 +11,43 @@ type ExploreItem = {
 type ExploreSection = {
   title: string;
   items: ExploreItem[];
-  cta: {
-    href: string;
-    icon: ComponentType;
-    title: string;
-    description: string;
-  };
 };
 
 const exploreSections: ExploreSection[] = [
   {
-    title: 'Şirket',
+    title: 'Company',
     items: [
-      { label: 'Hakkımızda', href: '/about' },
-      { label: 'Ekibimiz', href: '/team' },
-      { label: 'Kariyer', href: '/career' },
-      { label: 'Başarı Hikayeleri', href: '/case-study' },
+      { label: 'About Us', href: '/about' },
+      { label: 'Contact Us', href: '/contact-us' },
+      { label: 'Careers', href: '/career' },
+      { label: 'Terms of Service', href: '/terms' },
+      { label: 'Privacy Policy', href: '/privacy' },
+      { label: 'Cookie Policy', href: '/cookies' },
     ],
-    cta: {
-      href: '/about',
-      icon: ExploreCompanyIcon,
-      title: 'Şirket',
-      description: 'Misyonumuzu keşfedin',
-    },
   },
   {
-    title: 'Ürün',
+    title: 'Product Overview',
     items: [
-      { label: 'Özellikler', href: '/features' },
-      { label: 'Entegrasyonlar', href: '/integration' },
-      { label: 'Süreç', href: '/process' },
-      { label: 'Basın', href: '/press' },
+      { label: 'Features', href: '/product' },
+      { label: 'Supplier Portal', href: '/features' },
+      { label: 'Purchase Requests', href: '/integration' },
+      { label: 'Approvals', href: '/process' },
+      { label: 'Purchase Forms', href: '/procurement-software' },
+      { label: 'Purchase Orders', href: '/purchase-orders' },
+      { label: 'Supplier Contracts', href: '/supplier-contracts' },
+      { label: 'Vendor Management', href: '/vendor-management' },
+      { label: 'Receiving', href: '/receiving' },
+      { label: 'Budget Management', href: '/budget-management' },
+      { label: 'Spend Insights', href: '/spend-insights' },
     ],
-    cta: {
-      href: '/services',
-      icon: ExploreProductIcon,
-      title: 'Ürün',
-      description: 'Neler yapabileceğinizi keşfedin',
-    },
   },
   {
-    title: 'Kaynaklar',
+    title: 'Account',
     items: [
-      { label: 'Blog', href: '/blog' },
-      { label: 'Dokümantasyon', href: '/documentation' },
-      { label: 'SSS', href: '/faq' },
-      { label: 'Eğitimler', href: '/tutorial' },
+      { label: 'Pricing', href: '/pricing' },
+      { label: 'Log In', href: '/login' },
+      { label: 'Sign Up', href: '/signup' },
     ],
-    cta: {
-      href: '/blog',
-      icon: ExploreResourcesIcon,
-      title: 'Kaynaklar',
-      description: 'Faydalı içeriklere göz atın',
-    },
-  },
-  {
-    title: 'Fiyatlandırma & Hesap',
-    items: [
-      { label: 'Planlar', href: '/pricing' },
-      { label: 'Giriş Yap', href: '/login' },
-      { label: 'Kayıt Ol', href: '/signup' },
-    ],
-    cta: {
-      href: '/pricing',
-      icon: ExplorePricingAndAccountIcon,
-      title: 'Fiyatlandırma & Hesap',
-      description: 'Abonelik planlarını görüntüleyin',
-    },
   },
 ];
 
@@ -114,8 +77,8 @@ const ExploreMenu = ({
             : 'pointer-events-none translate-y-2.5 opacity-0',
         )}>
         <div className="grid grid-cols-12 gap-x-6 gap-y-6">
-          {exploreSections.map(({ title, items, cta }) => (
-            <div className="col-span-3" key={title}>
+          {exploreSections.map(({ title, items }) => (
+            <div className="col-span-4" key={title}>
               <div className="flex h-full flex-col">
                 <p className="text-tagline-2 text-secondary/60 dark:text-accent/60 p-3 font-medium">{title}</p>
                 <ul className="my-8">
@@ -130,19 +93,6 @@ const ExploreMenu = ({
                     </li>
                   ))}
                 </ul>
-                <Link
-                  href={cta.href}
-                  className="border-stroke-1 dark:border-stroke-7 hover:border-secondary/30 dark:hover:border-stroke-8 shadow-14 mt-auto flex items-start gap-2 rounded-xl border p-3 transition-all duration-300">
-                  <div className="border-stroke-1 dark:border-stroke-7 mt-1 flex size-7 shrink-0 items-center justify-center rounded-lg border p-1">
-                    <cta.icon />
-                  </div>
-                  <div>
-                    <p className="text-tagline-1 text-secondary dark:text-accent font-normal">{cta.title}</p>
-                    <p className="text-tagline-2 text-secondary/80 dark:text-accent/80 font-normal">
-                      {cta.description}
-                    </p>
-                  </div>
-                </Link>
               </div>
             </div>
           ))}

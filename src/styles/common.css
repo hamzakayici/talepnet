@@ -418,3 +418,31 @@ Common Styles all over the sites
 .slider-handle.no-transition .handle-circle {
   transition: none !important;
 }
+
+/* ─── Product page: CSS marquee ─────────────────────────────── */
+@keyframes marquee-left {
+  from { transform: translateX(0); }
+  to   { transform: translateX(-50%); }
+}
+.animate-marquee-left {
+  animation: marquee-left linear infinite;
+}
+
+/* ─── Integration columns: vertical auto-scroll ─────────────── */
+@keyframes scroll-up {
+  from { transform: translateY(0); }
+  to   { transform: translateY(-50%); }
+}
+.animate-scroll-up {
+  animation: scroll-up linear infinite;
+  will-change: transform;
+}
+
+/* ─── Product page: slide-fade-in reveal ────────────────────── */
+@keyframes slide-fade-in {
+  from { opacity: 0; transform: translateY(24px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+.animate-slide-fade-in {
+  animation: slide-fade-in 0.55s ease forwards;
+}

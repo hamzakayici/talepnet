@@ -1,11 +1,11 @@
 'use client';
 import {
-  AffiliateIcon,
-  AffiliatePolicyIcon,
-  AnalyticsIcon,
-  ChangeLogIcon,
-  GlossaryIcon,
-  WhitePaperIcon,
+  BlogIcon,
+  ContactIcon,
+  DocsIcon,
+  FaqIcon,
+  SupportIcon,
+  TutorialIcon,
 } from '@/icons/menu-icon';
 import { cn } from '@/utils/cn';
 import Link from 'next/link';
@@ -21,40 +21,40 @@ type InsightsLink = {
 
 const insightLinks: InsightsLink[] = [
   {
-    title: 'İş Ortaklığı',
-    description: 'Bizimle iş ortağı olun',
-    href: '/affiliates',
-    icon: AffiliateIcon,
+    title: 'Help Center',
+    description: 'Find support resources',
+    href: '/support',
+    icon: SupportIcon,
   },
   {
-    title: 'İş Ortaklığı Politikası',
-    description: 'Ortaklık kurallarını inceleyin',
-    href: '/affiliate-policy',
-    icon: AffiliatePolicyIcon,
+    title: 'FAQ',
+    description: 'Browse common questions',
+    href: '/faq',
+    icon: FaqIcon,
   },
   {
-    title: 'Analizler',
-    description: 'Performans metriklerini takip edin',
-    href: '/analytics',
-    icon: AnalyticsIcon,
+    title: 'Blog',
+    description: 'Read the latest articles',
+    href: '/blog',
+    icon: BlogIcon,
   },
   {
-    title: 'Teknik Doküman',
-    description: 'Araştırma dokümanlarını indirin',
-    href: '/whitepaper',
-    icon: WhitePaperIcon,
+    title: 'Documentation',
+    description: 'Browse product documentation',
+    href: '/documentation',
+    icon: DocsIcon,
   },
   {
-    title: 'Sözlük',
-    description: 'Temel terim ve tanımlara göz atın',
-    href: '/glossary',
-    icon: GlossaryIcon,
+    title: 'Tutorials',
+    description: 'Explore guided tutorials',
+    href: '/tutorial',
+    icon: TutorialIcon,
   },
   {
-    title: 'Değişiklik Günlüğü',
-    description: 'Son güncellemeleri görüntüleyin',
-    href: '/changelog',
-    icon: ChangeLogIcon,
+    title: 'Contact Us',
+    description: 'Get in touch with our team',
+    href: '/contact-us',
+    icon: ContactIcon,
   },
 ];
 

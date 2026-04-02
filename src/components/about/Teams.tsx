@@ -1,7 +1,6 @@
 import { ITeamMember } from '@/interface';
 import getMarkDownData from '@/utils/getMarkDownData';
 import Image from 'next/image';
-import Link from 'next/link';
 import RevealAnimation from '../animation/RevealAnimation';
 import SocialLinks from '../shared/SocialLinks';
 
@@ -32,22 +31,20 @@ const Teams = () => {
               <div className="col-span-12 sm:col-span-6 lg:col-span-4">
                 <div className="group dark:bg-background-9 relative z-10 overflow-hidden rounded-[20px] bg-white p-3">
                   <figure className="mx-auto overflow-hidden lg:max-w-[408px]">
-                    <Link href={`/team/${team.slug}`}>
-                      <Image
-                        src={team.userImg}
-                        alt={`${team.name} profile img`}
-                        loading="lazy"
-                        width={600}
-                        height={600}
-                        quality={100}
-                        className="bg-background-1 dark:bg-background-5 h-full w-full rounded-2xl object-cover"
-                      />
-                    </Link>
+                    <Image
+                      src={team.userImg}
+                      alt={`${team.name} profile img`}
+                      loading="lazy"
+                      width={600}
+                      height={600}
+                      quality={100}
+                      className="bg-background-1 dark:bg-background-5 h-full w-full rounded-2xl object-cover"
+                    />
                   </figure>
                   <div className="shadow-1 dark:bg-background-9 ease-team-ease-1 absolute bottom-7 left-1/2 z-20 mx-auto w-[calc(100%-44px)] max-w-[384px] -translate-x-1/2 cursor-pointer space-y-3 rounded-xl bg-white p-6 transition-all duration-[400ms] sm:bottom-5 lg:translate-y-[30%] lg:scale-[90%] lg:opacity-0 lg:group-hover:translate-y-0 lg:group-hover:scale-100 lg:group-hover:opacity-100">
                     <div className="text-center">
                       <h3 className="text-heading-5 text-secondary dark:text-accent font-normal">
-                        <Link href={`/team/${team.slug}`}> {team.name} </Link>
+                        {team.name}
                       </h3>
                       <p className="text-tagline-2 text-secondary/40 dark:text-accent/40 font-normal">{team.role}</p>
                     </div>

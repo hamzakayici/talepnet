@@ -24,8 +24,8 @@ const Integration = () => {
           <div className="relative z-10 mx-auto w-fit max-w-[410px] text-center lg:mt-20">
             <RevealAnimation delay={0.2}>
               <h2 className="mb-3">
-                Zahmetsiz uygulama <br className="hidden lg:block" />
-                entegrasyonu.
+                Purchase requests, <br className="hidden lg:block" />
+                clearly organized.
               </h2>
             </RevealAnimation>
             <RevealAnimation delay={0.3}>

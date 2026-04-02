@@ -24,7 +24,7 @@ const Banner = () => {
             <RevealAnimation delay={0.3} instant>
               <div>
                 <LinkButton
-                  href="/services"
+                  href="/procurement-software"
                   className="btn btn-primary btn-xl hover:btn-secondary dark:hover:btn-accent">
                   Platformu keşfedin
                 </LinkButton>

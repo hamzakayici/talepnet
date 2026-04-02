@@ -4,18 +4,13 @@ import { FooterOneData } from '@/interface';
 export const mobileMenuData: MobileMenuGroup[] = [
   {
     id: 'company',
-    title: 'Şirket',
+    title: 'Company',
     submenu: [
-      { id: 'about-us', label: 'Hakkımızda', href: './about' },
-      { id: 'services', label: 'Çözümler', href: './services' },
-      { id: 'team', label: 'Ekibimiz', href: './team' },
-      { id: 'career', label: 'Kariyer', href: './career' },
-      { id: 'our-manifesto', label: 'Manifestomuz', href: './our-manifesto' },
-      { id: 'why-choose-us', label: 'Neden TalepNET?', href: './why-choose-us' },
-      { id: 'customers', label: 'Müşterilerimiz', href: './customer' },
-      { id: 'use-cases', label: 'Kullanım Senaryoları', href: './use-case' },
-      { id: 'case-studies', label: 'Başarı Hikayeleri', href: './case-study' },
-      { id: 'testimonials', label: 'Referanslar', href: './testimonial' },
+      { id: 'about-us', label: 'About Us', href: './about' },
+      { id: 'career', label: 'Careers', href: './career' },
+      { id: 'terms-conditions', label: 'Terms of Service', href: './terms' },
+      { id: 'privacy-policy', label: 'Privacy Policy', href: './privacy' },
+      { id: 'cookie-policy', label: 'Cookie Policy', href: './cookies' },
     ],
   },
 
@@ -23,6 +18,7 @@ export const mobileMenuData: MobileMenuGroup[] = [
     id: 'platform',
     title: 'Platform',
     submenu: [
+      { id: 'procurement', label: 'Procurement', href: './procurement-software' },
       { id: 'features', label: 'Özellikler', href: './features' },
       { id: 'integrations', label: 'Entegrasyonlar', href: './integration' },
       { id: 'process', label: 'Süreç', href: './process' },
@@ -56,10 +52,10 @@ export const mobileMenuData: MobileMenuGroup[] = [
       { id: 'referral-program', label: 'Referans Programı', href: './referral-program' },
       { id: 'affiliate', label: 'İş Ortaklığı', href: './affiliates' },
       { id: 'affiliate-policy', label: 'İş Ortaklığı Politikası', href: './affiliate-policy' },
-      { id: 'terms-conditions', label: 'Hizmet Şartları', href: './terms-conditions' },
-      { id: 'privacy-policy', label: 'Gizlilik Politikası', href: './privacy-policy' },
+      { id: 'terms-conditions', label: 'Hizmet Şartları', href: './terms' },
+      { id: 'privacy-policy', label: 'Gizlilik Politikası', href: './privacy' },
       { id: 'refund-policy', label: 'İade Politikası', href: './refund-policy' },
-      { id: 'gdpr', label: 'KVKK', href: './gdpr' },
+      { id: 'gdpr', label: 'KVKK', href: './cookies' },
       { id: 'legal', label: 'Yasal', href: './legal' },
     ],
   },
@@ -71,7 +67,6 @@ export const footerData: FooterOneData[] = [
     links: [
       { label: 'Hakkımızda', href: '/about' },
       { label: 'Kariyer', href: '/career' },
-      { label: 'Başarı Hikayeleri', href: '/case-study' },
       { label: 'İletişim', href: '/contact-us' },
     ],
   },
@@ -87,10 +82,10 @@ export const footerData: FooterOneData[] = [
   {
     title: 'Yasal Politikalar',
     links: [
-      { label: 'Hizmet Şartları', href: '/terms-conditions' },
-      { label: 'Gizlilik Politikası', href: '/privacy-policy' },
-      { label: 'Çerez Politikası', href: '/gdpr' },
-      { label: 'KVKK Uyumu', href: '/gdpr' },
+      { label: 'Hizmet Şartları', href: '/terms' },
+      { label: 'Gizlilik Politikası', href: '/privacy' },
+      { label: 'Çerez Politikası', href: '/cookies' },
+      { label: 'KVKK Uyumu', href: '/cookies' },
     ],
   },
 ];

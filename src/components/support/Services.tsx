@@ -47,7 +47,7 @@ const Services = () => {
                 </div>
                 <div className="text-center">
                   <LinkButton
-                    href="/services"
+                    href="/procurement-software"
                     className="btn btn-white hover:btn-secondary dark:btn-transparent dark:hover:btn-accent btn-md">
                     Sohbeti Başlatın
                   </LinkButton>
@@ -75,7 +75,7 @@ const Services = () => {
                 </div>
                 <div className="text-center">
                   <LinkButton
-                    href="/services"
+                    href="/procurement-software"
                     className="btn btn-white hover:btn-secondary dark:btn-transparent dark:hover:btn-accent btn-md">
                     Talep Oluşturun
                   </LinkButton>
@@ -103,7 +103,7 @@ const Services = () => {
                 </div>
                 <div className="text-center">
                   <LinkButton
-                    href="/services"
+                    href="/procurement-software"
                     className="btn btn-white hover:btn-secondary dark:btn-transparent dark:hover:btn-accent btn-md">
                     Bilgi Tabanını Ziyaret Edin
                   </LinkButton>

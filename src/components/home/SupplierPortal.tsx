@@ -118,7 +118,7 @@ const SupplierPortal = () => {
               <RevealAnimation delay={0.8}>
                 <div>
                   <LinkButton
-                    href="/services"
+                    href="/procurement-software"
                     className="btn btn-secondary hover:btn-white btn-md dark:btn-transparent dark:hover:btn-accent w-[85%] md:w-auto">
                     Tedarikçi Portalını Keşfet
                   </LinkButton>

@@ -52,7 +52,7 @@ const Feature = () => {
                 </h2>
                 <div>
                   <Link
-                    href="/services"
+                    href="/procurement-software"
                     className="btn btn-md dark:btn-dark dark:hover:btn-white hover:btn-primary btn-white border-0">
                     <span>Ücretsiz Başlayın</span>
                   </Link>

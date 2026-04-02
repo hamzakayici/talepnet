@@ -55,7 +55,7 @@ const Navbar = () => {
                       href="#"
                       onClick={(event) => event.preventDefault()}
                       className="hover:border-stroke-2 dark:hover:border-stroke-7 text-tagline-1 text-secondary/60 hover:text-secondary dark:text-accent/60 dark:hover:text-accent flex items-center gap-1 rounded-full border border-transparent px-4 py-2 font-normal transition-all duration-200">
-                      <span>Çözümler</span>
+                      <span>Platform</span>
                       <span className="block origin-center translate-y-px transition-all duration-300 group-hover/nav-item:rotate-180">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
@@ -78,7 +78,7 @@ const Navbar = () => {
                       href="#"
                       onClick={(event) => event.preventDefault()}
                       className="hover:border-stroke-2 dark:hover:border-stroke-7 text-tagline-1 text-secondary/60 hover:text-secondary dark:text-accent/60 dark:hover:text-accent flex items-center gap-1 rounded-full border border-transparent px-4 py-2 font-normal transition-all duration-200">
-                      <span>Platform</span>
+                      <span>Solutions</span>
                       <span className="block origin-center translate-y-px transition-all duration-300 group-hover/nav-item:rotate-180">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
@@ -101,7 +101,7 @@ const Navbar = () => {
                       href="#"
                       onClick={(event) => event.preventDefault()}
                       className="hover:border-stroke-2 dark:hover:border-stroke-7 text-tagline-1 text-secondary/60 hover:text-secondary dark:text-accent/60 dark:hover:text-accent flex items-center gap-1 rounded-full border border-transparent px-4 py-2 font-normal transition-all duration-200">
-                      <span>Kaynaklar</span>
+                      <span>Resources</span>
                       <span className="block origin-center translate-y-px transition-all duration-300 group-hover/nav-item:rotate-180">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
@@ -115,20 +115,6 @@ const Navbar = () => {
                       </span>
                     </Link>
                     <InsightsMenu menuDropdownId={menuDropdownId} setMenuDropdownId={setMenuDropdownId} />
-                  </li>
-                  <li className="py-2.5">
-                    <Link
-                      href="/blog"
-                      className="hover:border-stroke-2 dark:hover:border-stroke-7 text-tagline-1 text-secondary/60 hover:text-secondary dark:text-accent/60 dark:hover:text-accent flex items-center gap-1 rounded-full border border-transparent px-4 py-2 font-normal transition-all duration-200">
-                      Blog
-                    </Link>
-                  </li>
-                  <li className="py-2.5">
-                    <Link
-                      href="/contact-us"
-                      className="hover:border-stroke-2 dark:hover:border-stroke-7 text-tagline-1 text-secondary/60 hover:text-secondary dark:text-accent/60 dark:hover:text-accent flex items-center gap-1 rounded-full border border-transparent px-4 py-2 font-normal transition-all duration-200">
-                      Destek
-                    </Link>
                   </li>
                 </ul>
               </nav>

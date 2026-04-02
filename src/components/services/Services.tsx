@@ -14,17 +14,16 @@ const Services = () => {
       <div className="main-container">
         <div className="mb-[70px] space-y-3 text-center">
           <RevealAnimation delay={0.2}>
-            <span className="badge badge-green">Çözümlerimiz</span>
+            <span className="badge badge-green">Purchase Forms</span>
           </RevealAnimation>
           <RevealAnimation delay={0.3}>
             <h2 className="mx-auto max-w-[600px] xl:max-w-[878px]">
-              Dünya genelindeki lider şirketler TalepNET'e güveniyor.
+              Create and manage structured purchase forms with flexibility.
             </h2>
           </RevealAnimation>
           <RevealAnimation delay={0.4}>
             <p className="mx-auto max-w-[500px] xl:max-w-[700px]">
-              Kurumsal satın alma süreçlerinizi otomatikleştirin, tedarikçi ağınızı genişletin ve
-              harcamalarınızı optimize edin.
+              Standardize intake across teams and collect the right purchasing information from the start.
             </p>
           </RevealAnimation>
         </div>

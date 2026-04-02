@@ -33,7 +33,7 @@ const SpotlightStories = () => {
             <li className="w-[90%] md:w-auto">
               <RevealAnimation delay={0.3} direction="left" offset={70}>
                 <Link
-                  href={"/customer"}
+                  href={"/testimonial"}
                   className="btn btn-secondary hover:btn-primary dark:btn-white dark:hover:btn-primary btn-lg md:btn-xl mx-auto w-full md:mx-0 md:w-auto"
                 >
                   <span>Read customer stories</span>

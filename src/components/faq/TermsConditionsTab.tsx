@@ -29,7 +29,7 @@ const faqData = [
     id: 5,
     question: 'Tam hizmet şartlarını nerede okuyabilirim?',
     answer:
-      'Tam hizmet şartlarımıza web sitemizden /terms-conditions sayfasından veya hesap ayarlarınızdan erişebilirsiniz. Herhangi bir sorunuz varsa info@talepnet.com adresinden bize ulaşabilirsiniz.',
+      'Tam hizmet şartlarımıza web sitemizdeki /terms sayfasından veya hesap ayarlarınızdan erişebilirsiniz. Herhangi bir sorunuz varsa info@talepnet.com adresinden bize ulaşabilirsiniz.',
   },
   {
     id: 6,

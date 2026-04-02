@@ -1,165 +1,71 @@
-import privacy from '@public/images/ns-img-391.png';
-import Image from 'next/image';
 import Link from 'next/link';
 import RevealAnimation from '../animation/RevealAnimation';
-
-interface PrivacySection {
-  title: string;
-  content: string;
-}
-
-interface ListSection {
-  title: string;
-  description?: string;
-  items: ListItem[];
-}
-
-interface ListItem {
-  title?: string;
-  content: string;
-}
-
-interface FormField {
-  id: string;
-  name: string;
-  label: string;
-  placeholder: string;
-  type: string;
-}
-
-const personalInfoSection: PrivacySection = {
-  title: 'Topladığımız kişisel bilgiler',
-  content:
-    'Siteyi ziyaret ettiğinizde, cihazınız hakkında web tarayıcınız, IP adresiniz, saat diliminiz ve cihazınıza yüklenen çerezler gibi belirli bilgileri otomatik olarak toplarız. Ayrıca siteye göz atarken görüntülediğiniz sayfalar, sizi siteye yönlendiren web siteleri veya arama terimleri ve site ile nasıl etkileşim kurduğunuz hakkında bilgi toplarız.',
-};
-
-const deviceInfoItems: ListItem[] = [
+const sections = [
   {
-    title: 'Hesap ve İletişim Verileri',
-    content:
-      'Ad, şirket, e-posta, telefon, görev, fatura bilgileri.',
+    title: '1. Overview',
+    body: 'TalepNET is committed to protecting your privacy. This Policy applies to personal data we process about visitors, customers, and users of the Services. Additional terms may apply for specific features (e.g., a Data Processing Agreement for enterprise customers).',
   },
   {
-    title: 'Kullanım Verileri',
-    content:
-      'Ürün etkileşimleri, özellik kullanımı, ayarlar, cihaz bilgisi, görüntülenen sayfalar.',
+    title: '2. Information We Collect',
+    list: [
+      'Account & Contact Data: name, company, email, phone, role, billing details.',
+      'Usage Data: product interactions, feature usage, settings, device information, pages viewed.',
+      'Log & Diagnostic Data: IP address, browser type, ISP, timestamps, referrer/exit pages, and request IDs for security and reliability.',
+      'Cookies & Similar Technologies: identifiers to remember preferences, maintain sessions, and measure performance.',
+      'Support Content: messages, attachments, and feedback you provide to our support channels.',
+    ],
   },
   {
-    title: 'Günlük ve Teşhis Verileri',
-    content: 'IP adresi, tarayıcı türü, ISS, zaman damgaları, yönlendiren/çıkış sayfaları, güvenlik ve güvenilirlik için istek kimlikleri.',
+    title: '3. How We Use Information',
+    list: [
+      'Provide, operate, and maintain the Services.',
+      'Authenticate users, prevent fraud, and ensure security.',
+      'Process transactions, invoicing, and account administration.',
+      'Improve performance, develop new features, and conduct analytics.',
+      'Respond to inquiries and provide customer support.',
+      'Send important notices, updates, and service-related communications.',
+      'Comply with legal obligations and enforce our Terms of Service.',
+    ],
   },
   {
-    title: 'Çerezler ve Benzeri Teknolojiler',
-    content: 'Tercihleri hatırlamak, oturumları sürdürmek ve performansı ölçmek için tanımlayıcılar.',
+    title: '4. Cookies & Analytics',
+    body: 'We use cookies and similar technologies to remember preferences, maintain sessions, and measure effectiveness of our content. Cookie Policy. You can manage cookie settings in your browser for more control.',
   },
   {
-    title: 'Destek İçeriği',
-    content: 'Destek kanallarımıza ilettiğiniz mesajlar, ekler ve geri bildirimler.',
-  },
-];
-
-const orderInfoText =
-  'TalepNET olarak gizliliğinizi korumayı taahhüt ediyoruz. Bu Politika, ziyaretçiler, müşteriler ve hizmet kullanıcılarına ilişkin işlediğimiz kişisel veriler için geçerlidir. Bazı özellikler için ek hükümler uygulanabilir (ör. kurumsal müşteriler için Veri İşleme Sözleşmesi).';
-
-const formFields: FormField[] = [
-  {
-    id: 'name',
-    name: 'name',
-    label: 'Adınız',
-    placeholder: 'Adınızı girin',
-    type: 'text',
+    title: '5. Data Sharing & Processors',
+    body: 'We may share information with trusted service providers who process data on our behalf (e.g., hosting, customer support, analytics, email delivery, payment processing). These processors are bound by contractual obligations and may only process data per our instructions. We do not sell personal data.',
   },
   {
-    id: 'company',
-    name: 'company',
-    label: 'Şirket adı',
-    placeholder: 'Şirket adınızı girin',
-    type: 'text',
+    title: '6. International Transfers',
+    body: 'Where data is transferred internationally, we implement appropriate safeguards (such as Standard Contractual Clauses) to protect your information in accordance with applicable laws.',
   },
   {
-    id: 'phone',
-    name: 'phone',
-    label: 'Telefon numarası',
-    placeholder: '+90 (5XX) XXX XX XX',
-    type: 'tel',
+    title: '7. Data Retention',
+    body: 'We retain personal data for as long as necessary to fulfill the purposes described in this Policy, comply with legal obligations, resolve disputes, and enforce agreements. After retention periods end, data is deleted or anonymized in the ordinary course.',
   },
   {
-    id: 'email',
-    name: 'email',
-    label: 'E-posta adresi',
-    placeholder: 'E-posta adresinizi girin',
-    type: 'email',
-  },
-];
-
-const useInfoSection: ListSection = {
-  title: 'Bilgilerinizi nasıl kullanıyoruz',
-  description: 'Toplanan bilgileri şu amaçlarla kullanırız:',
-  items: [
-    { content: 'Hizmetleri sağlamak, işletmek ve sürdürmek' },
-    { content: 'Kullanıcıları doğrulamak, dolandırıcılığı önlemek ve güvenliği sağlamak' },
-    { content: 'İşlemleri, faturalamayı ve hesap yönetimini gerçekleştirmek' },
-    { content: 'Performansı iyileştirmek, yeni özellikler geliştirmek ve analiz yapmak' },
-    { content: 'Taleplere yanıt vermek ve müşteri desteği sunmak' },
-    { content: 'Yasal yükümlülüklere uymak ve Hizmet Şartlarımızı uygulamak' },
-  ],
-};
-
-const deviceInfoUsage: ListItem[] = [
-  { content: 'Site deneyimini iyileştirmek ve optimize etmek' },
-  { content: 'Müşteri etkileşimlerini performans takibi için analiz etmek' },
-  { content: 'Olası risk ve dolandırıcılığı taramak' },
-];
-
-const sharingInfoSection: ListSection = {
-  title: 'Kişisel bilgilerinizin paylaşımı',
-  description:
-    'Verileri bizim adımıza işleyen güvenilir hizmet sağlayıcılarla paylaşabiliriz:',
-  items: [
-    {
-      content:
-        'Barındırma, müşteri desteği, analitik, e-posta teslimi, ödeme işlemleri sağlayıcıları',
-    },
-    { content: 'Bu sağlayıcılar sözleşmesel yükümlülüklere tabidir ve verileri yalnızca talimatlarımız doğrultusunda işler' },
-    { content: 'Kişisel verileri satmayız' },
-  ],
-};
-
-const rightsSection: ListSection = {
-  title: 'Haklarınız',
-  description: 'Yürürlükteki hukuk uyarınca aşağıdaki haklara sahip olabilirsiniz:',
-  items: [
-    { content: 'Kişisel verilerinize erişme, düzeltme, silme, işlemeyi kısıtlama, itiraz etme veya taşınabilirlik talep etme' },
-    {
-      content:
-        'Bu hakları kullanmak için lütfen <a href="mailto:info@talepnet.com" class="text-secondary dark:text-accent">info@talepnet.com</a> adresinden bize ulaşın',
-    },
-  ],
-};
-
-const simpleSections: PrivacySection[] = [
-  {
-    title: 'Takip etme (Do Not Track)',
-    content:
-      'Hizmetlerimiz şu anda Do Not Track sinyallerine yanıt vermemektedir. Çerezleri tarayıcı ayarlarınızdan yönetebilirsiniz.',
+    title: '8. Security',
+    body: 'We apply administrative, technical, and physical safeguards to protect information. No method of transmission or storage is 100% secure; we cannot guarantee absolute security. If we become aware of a security incident affecting personal data, we will notify affected parties as required by law.',
   },
   {
-    title: 'Veri saklama',
-    content: 'Kişisel verileri, bu Politikada belirtilen amaçları yerine getirmek, yasal yükümlülüklere uymak, uyuşmazlıkları çözmek ve sözleşmeleri uygulamak için gerekli olduğu sürece saklarız.',
+    title: '9. Your Rights',
+    body: 'Subject to applicable law, you may have rights to access, correct, delete, or restrict processing of your personal data, and to object or request portability. To exercise these rights, please visit our Contact page. We may require identity verification and may be unable to comply with requests that conflict with legal obligations or legitimate interests.',
   },
   {
-    title: 'Çocukların gizliliği',
-    content: 'Hizmetler 16 yaşın altındaki çocuklara yönelik değildir ve bilerek kişisel veri toplamıyoruz.',
+    title: '10. Children’s Privacy',
+    body: 'The Services are not directed to children under the age of 16 and we do not knowingly collect personal data from them. If you believe a child has provided personal data to us, contact us and we will take appropriate steps.',
   },
   {
-    title: 'Güvenlik',
-    content:
-      'Bilgileri korumak için idari, teknik ve fiziksel tedbirler uygularız. Kişisel verileri etkileyen bir güvenlik olayı tespit edilirse, yasaların gerektirdiği şekilde etkilenen taraflara bildirimde bulunuruz.',
+    title: '11. Do Not Track',
+    body: 'Our Services do not currently respond to Do Not Track signals. You can manage cookies through your browser settings.',
   },
   {
-    title: 'Bu politikadaki değişiklikler',
-    content:
-      'Bu Politika zaman zaman güncellenebilir. Önemli değişiklikler Hizmetler veya e-posta yoluyla bildirilecektir. Yürürlük tarihinden sonra kullanımı sürdürmeniz, güncellenmiş Politikayı kabul ettiğiniz anlamına gelir.',
+    title: '12. Third-Party Links',
+    body: 'The Services may contain links to third-party websites or services. We are not responsible for their privacy practices. Review their policies for details on how they handle your information.',
+  },
+  {
+    title: '13. Changes to This Policy',
+    body: 'We may update this Policy from time to time. Material changes will be notified via the Services or email. Continued use after the effective date constitutes acceptance of the updated Policy.',
   },
 ];
 
@@ -168,177 +74,54 @@ const PrivacyContent = () => {
     <section className="pt-32 pb-[100px] sm:pt-36 md:pt-42 xl:pt-[180px]">
       <div className="main-container">
         <div className="privacy-policy space-y-[75px]">
-          {/* Header Section */}
-          <div className="space-y-2">
+          <div className="space-y-3">
             <RevealAnimation delay={0.1}>
-              <h2>Gizlilik Politikası</h2>
+              <h2>Privacy Policy</h2>
             </RevealAnimation>
             <RevealAnimation delay={0.2}>
               <p>
-                <span className="text-secondary dark:text-accent">TalepNET</span>,{' '}
-                <span className="text-secondary dark:text-accent">TalepNET Teknoloji A.Ş.</span> tarafından işletilen
-                kurumsal satın alma yönetimi platformudur. Gizliliğinizi korumak ve bilgilerinizi şeffaf bir şekilde
-                yönetmek en önemli önceliklerimizden biridir.
+                This Privacy Policy explains how TalepNET collects, uses, discloses, and safeguards information in
+                connection with our websites, products, and services (the &ldquo;Services&rdquo;). By using the Services, you
+                acknowledge that you have read and understood this Policy.
               </p>
             </RevealAnimation>
-          </div>
-
-          {/* Policy Intro */}
-          <RevealAnimation delay={0.3}>
-            <div className="space-y-2">
-              <h4>TalepNET Gizlilik Politikası</h4>
-              <p>
-                Bu Gizlilik Politikası, kişisel bilgilerinizin{' '}
-                <Link href="https://www.talepnet.com" className="text-secondary dark:text-accent">
-                  talepnet.com
-                </Link>
-                {' '}ziyaret ettiğinizde, abone olduğunuzda, kayıt olduğunuzda veya satın alma yaptığınızda nasıl
-                toplandığını, kullanıldığını ve paylaşıldığını açıklar.
-              </p>
-            </div>
-          </RevealAnimation>
-          {/* Personal Information Collection */}
-          <div className="space-y-6">
-            <RevealAnimation delay={0.4}>
-              <div className="space-y-2">
-                <h4>{personalInfoSection.title}</h4>
-                <p dangerouslySetInnerHTML={{ __html: personalInfoSection.content }} />
-              </div>
-            </RevealAnimation>
-            <RevealAnimation delay={0.5}>
-              <ul className="text-tagline-1 text-secondary/60 dark:text-accent/60 list-inside space-y-3 font-normal">
-                {deviceInfoItems.map((item, index) => (
-                  <li key={index + 1}>
-                    <strong className="text-secondary dark:text-accent font-normal">{item.title} – </strong>
-                    <span dangerouslySetInnerHTML={{ __html: item.content }} />
-                  </li>
-                ))}
-              </ul>
+            <RevealAnimation delay={0.3}>
+              <p>Last updated: October 25, 2025</p>
             </RevealAnimation>
           </div>
-          {/* Order Information Section with Form */}
-          <div>
-            <div className="grid grid-cols-12 gap-y-[100px] lg:gap-[100px]">
-              <div className="col-span-12 lg:col-span-6">
-                <RevealAnimation delay={0.6}>
-                  <div className="mb-[70px] text-left">
-                    <p className="max-w-[550px]">{orderInfoText}</p>
-                  </div>
-                </RevealAnimation>
-                <RevealAnimation delay={0.7}>
-                  <figure className="w-full max-w-[595px] self-end overflow-hidden rounded-[20px]">
-                    <Image src={privacy} className="size-full object-cover" alt="gizlilik-politikası" />
-                  </figure>
-                </RevealAnimation>
-              </div>
-              <RevealAnimation delay={0.8}>
-                <div className="col-span-12 lg:col-span-6">
-                  <form className="dark:bg-background-8 rounded-[20px] bg-white p-6 lg:p-[42px]">
-                    {formFields.map((field, index) => (
-                      <fieldset key={field.id} className={`space-y-2 ${index < formFields.length - 1 ? 'mb-8' : ''}`}>
-                        <label
-                          htmlFor={field.id}
-                          className="text-tagline-1 text-secondary dark:text-accent block font-medium">
-                          {field.label}
-                        </label>
-                        <input
-                          type={field.type}
-                          name={field.name}
-                          id={field.id}
-                          placeholder={field.placeholder}
-                          className="dark:text-accent dark:bg-background-6 border-stroke-3 dark:border-stroke-7 bg-background-1 focus-visible:outline-primary-500 placeholder:text-tagline-1 placeholder:text-secondary/60 dark:placeholder:text-accent/60 shadow-1 block h-12 w-full rounded-full border px-[18px] py-3 font-normal placeholder:font-normal focus-visible:outline"
-                        />
-                      </fieldset>
-                    ))}
-                    <fieldset className="mt-4 mb-4 flex items-center gap-2">
-                      <label htmlFor="agree-terms" className="flex items-center gap-x-3">
-                        <input id="agree-terms" type="checkbox" className="peer sr-only" required />
-                        <span className="border-stroke-3 dark:border-stroke-7 after:bg-primary-500 peer-checked:border-primary-500 relative size-4 cursor-pointer rounded-full border after:absolute after:top-1/2 after:left-1/2 after:size-2.5 after:-translate-x-1/2 after:-translate-y-1/2 after:rounded-full after:opacity-0 peer-checked:after:opacity-100" />
-                      </label>
-                      <label
-                        htmlFor="agree-terms"
-                        className="text-tagline-3 text-secondary/60 dark:text-accent/60 cursor-pointer">
-                        {' '}
-                        <Link href="/terms-conditions" className="text-primary-500 text-tagline-3 underline">
-                          Hizmet şartlarını
-                        </Link>
-                        {' '}kabul ediyorum
-                      </label>
-                    </fieldset>
-                    <button
-                      type="submit"
-                      className="btn dark:btn-accent btn-md btn-secondary hover:btn-primary w-full first-letter:uppercase before:content-none">
-                      Gönder
-                    </button>
-                  </form>
-                </div>
-              </RevealAnimation>
-            </div>
-          </div>
-          {/* How We Use Information */}
-          <RevealAnimation delay={0.5}>
-            <div className="space-y-6">
-              <div className="space-y-2">
-                <h4>{useInfoSection.title}</h4>
-                <p>{useInfoSection.description}</p>
-              </div>
-              <ul className="text-tagline-1 text-secondary/60 dark:text-accent/60 list-inside space-y-3 font-normal">
-                {useInfoSection.items.map((item, index) => (
-                  <li key={index + 1}>{item.content}</li>
-                ))}
-              </ul>
-              <div>
-                <p className="text-secondary dark:text-accent">Topladığımız cihaz bilgilerini şu amaçlarla kullanırız:</p>
-                <ul className="text-tagline-1 text-secondary/60 dark:text-accent/60 list-inside space-y-3 font-normal">
-                  {deviceInfoUsage.map((item, index) => (
-                    <li key={index + 1}>{item.content}</li>
-                  ))}
-                </ul>
-              </div>
-            </div>
-          </RevealAnimation>
 
-          {/* Sharing Information */}
-          <RevealAnimation delay={0.6}>
-            <div className="space-y-6">
-              <div className="space-y-2">
-                <h4>{sharingInfoSection.title}</h4>
-                <p>{sharingInfoSection.description}</p>
-              </div>
-              <ul className="text-tagline-1 text-secondary/60 dark:text-accent/60 list-inside space-y-3 font-normal">
-                {sharingInfoSection.items.map((item, index) => (
-                  <li key={index + 1} dangerouslySetInnerHTML={{ __html: item.content }} />
-                ))}
-              </ul>
-            </div>
-          </RevealAnimation>
-
-          {/* Your Rights */}
-          <RevealAnimation delay={0.8}>
-            <div className="space-y-6">
-              <div className="space-y-2">
-                <h4>{rightsSection.title}</h4>
-                <p>{rightsSection.description}</p>
-              </div>
-              <ul className="text-tagline-1 text-secondary/60 dark:text-accent/60 list-inside space-y-3 font-normal">
-                {rightsSection.items.map((item, index) => (
-                  <li key={index + 1} dangerouslySetInnerHTML={{ __html: item.content }} />
-                ))}
-              </ul>
-            </div>
-          </RevealAnimation>
-
-          {/* Simple Sections */}
-          {simpleSections.map((section, index) => (
-            <RevealAnimation key={section.title} delay={0.7 + index * 0.1}>
+          {sections.map((section, index) => (
+            <RevealAnimation key={section.title} delay={0.4 + index * 0.05}>
               <div className="space-y-6">
                 <div className="space-y-2">
                   <h4>{section.title}</h4>
-                  <p dangerouslySetInnerHTML={{ __html: section.content }} />
+                  {section.body ? <p>{section.body}</p> : null}
+                  {section.list ? (
+                    <ul className="text-tagline-1 text-secondary/60 dark:text-accent/60 list-inside space-y-3 font-normal">
+                      {section.list.map((item) => (
+                        <li key={item}>{item}</li>
+                      ))}
+                    </ul>
+                  ) : null}
                 </div>
               </div>
             </RevealAnimation>
           ))}
+
+          <RevealAnimation delay={1.1}>
+            <div className="space-y-6">
+              <div className="space-y-2">
+                <h4>14. Contact</h4>
+                <p>
+                  For questions about this Policy or our data practices, please visit our{' '}
+                  <Link href="/contact-us" className="text-secondary dark:text-accent">
+                    Contact page
+                  </Link>
+                  .
+                </p>
+              </div>
+            </div>
+          </RevealAnimation>
         </div>
       </div>
     </section>

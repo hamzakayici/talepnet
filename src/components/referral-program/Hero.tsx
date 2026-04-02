@@ -19,7 +19,7 @@ const Hero = () => {
           <RevealAnimation delay={0.2}>
             <div className="group mx-auto w-[90%] list-none pt-7 pb-6 md:inline-block md:w-auto lg:pt-14">
               <Link
-                href="/customer"
+                href="/testimonial"
                 className="btn btn-secondary hover:btn-primary dark:btn-white btn-lg md:btn-xl dark:hover:btn-primary mx-auto w-full md:mx-0 md:w-auto">
                 <span>Read customer stories</span>
               </Link>

@@ -6,7 +6,6 @@ export const footerLinks: FooterData[] = [
     links: [
       { label: 'Hakkımızda', href: '/about' },
       { label: 'Kariyer', href: '/career' },
-      { label: 'Başarı Hikayeleri', href: '/case-study' },
       { label: 'İletişim', href: '/contact-us' },
     ],
   },
@@ -22,10 +21,10 @@ export const footerLinks: FooterData[] = [
   {
     title: 'Yasal Politikalar',
     links: [
-      { label: 'Hizmet Şartları', href: '/terms-conditions' },
-      { label: 'Gizlilik Politikası', href: '/privacy-policy' },
-      { label: 'Çerez Politikası', href: '/gdpr' },
-      { label: 'KVKK Uyumu', href: '/gdpr' },
+      { label: 'Hizmet Şartları', href: '/terms' },
+      { label: 'Gizlilik Politikası', href: '/privacy' },
+      { label: 'Çerez Politikası', href: '/cookies' },
+      { label: 'KVKK Uyumu', href: '/cookies' },
     ],
   },
 ];

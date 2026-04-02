@@ -90,7 +90,7 @@ const Feature = () => {
               <RevealAnimation delay={0.6}>
                 <div className="data-visualization-feature-button mt-11 md:mt-[70px]">
                   <LinkButton
-                    href="/services"
+                    href="/procurement-software"
                     className="text-tagline-2 btn btn-secondary btn-md dark:btn-transparent hover:btn-primary mx-auto w-[90%] font-medium md:mx-0 md:w-auto">
                     Entegrasyonları keşfedin
                   </LinkButton>

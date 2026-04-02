@@ -58,7 +58,7 @@ const ProcessStep = () => {
       <div className="main-container">
         <div className="mb-[72px] space-y-3 text-center">
           <RevealAnimation delay={0.3}>
-            <h2 className="mx-auto max-w-[552px]">Kayıt olun, birkaç adımda başarıya ulaşın</h2>
+            <h2 className="mx-auto max-w-[552px]">Approvals made clear at every step</h2>
           </RevealAnimation>
           <RevealAnimation delay={0.4}>
             <p className="mx-auto max-w-[692px]">
