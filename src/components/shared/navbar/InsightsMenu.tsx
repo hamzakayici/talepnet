@@ -2,7 +2,6 @@
 import {
   BlogIcon,
   ContactIcon,
-  DocsIcon,
   FaqIcon,
   SupportIcon,
   TutorialIcon,
@@ -37,12 +36,6 @@ const insightLinks: InsightsLink[] = [
     description: 'Read the latest articles',
     href: '/blog',
     icon: BlogIcon,
-  },
-  {
-    title: 'Documentation',
-    description: 'Browse product documentation',
-    href: '/documentation',
-    icon: DocsIcon,
   },
   {
     title: 'Tutorials',

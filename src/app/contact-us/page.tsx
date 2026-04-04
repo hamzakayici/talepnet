@@ -1,24 +1,22 @@
 import ContactInfo from '@/components/contact-page/ContactInfo';
-import CTAV1 from '@/components/shared/cta/CTAV1';
+import LocationsSection from '@/components/shared/LocationsSection';
 import { defaultMetadata } from '@/utils/generateMetaData';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   ...defaultMetadata,
-  title: 'İletişim | TalepNET',
+  title: 'Contact Us | TalepNET',
 };
 
 const ContactUs = () => {
   return (
     <main className="bg-background-3 dark:bg-background-7">
       <ContactInfo />
-      <CTAV1
-        className="dark:bg-background-5 bg-white"
-        badgeClass="badge-yellow-v2"
-        badgeText="Hemen Başlayın"
-        ctaBtnText="Bize Ulaşın"
-        ctaHeading="Bize ulaşın"
-        description="Sorularınız ve ihtiyaçlarınız için buradayız. Aşağıdaki iletişim formunu kullanarak bize ulaşın, en kısa sürede size dönüş yapacağız."
+      <LocationsSection
+        className="bg-white dark:bg-background-6"
+        eyebrow="Our Locations"
+        title="Where TalepNET operates"
+        description="You can use this page for general inquiries, product conversations, and business contact. Our locations are included here for a clearer company presence."
       />
     </main>
   );

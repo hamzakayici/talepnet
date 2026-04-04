@@ -2,29 +2,37 @@ import { FooterData } from '@/interface';
 
 export const footerLinks: FooterData[] = [
   {
-    title: 'Firma',
+    title: 'Company',
     links: [
-      { label: 'Hakkımızda', href: '/about' },
-      { label: 'Kariyer', href: '/career' },
-      { label: 'İletişim', href: '/contact-us' },
+      { label: 'About', href: '/about' },
+      { label: 'Partnerships', href: '/partnerships' },
+      { label: 'Careers', href: '/career' },
+      { label: 'Contact Us', href: '/contact-us' },
     ],
   },
   {
-    title: 'Destek',
+    title: 'Explore',
     links: [
-      { label: 'SSS', href: '/faq' },
-      { label: 'Dokümantasyon', href: '/documentation' },
-      { label: 'Eğitimler', href: '/tutorial' },
-      { label: 'Tedarikçi Portalı', href: 'https://portal.talepnet.com' },
+      { label: 'Solutions', href: '/solutions' },
+      { label: 'Industries', href: '/industries' },
+      { label: 'Product Features', href: '/product-features' },
+      { label: 'Pricing', href: '/pricing' },
     ],
   },
   {
-    title: 'Yasal Politikalar',
+    title: 'Resources',
     links: [
-      { label: 'Hizmet Şartları', href: '/terms' },
-      { label: 'Gizlilik Politikası', href: '/privacy' },
-      { label: 'Çerez Politikası', href: '/cookies' },
-      { label: 'KVKK Uyumu', href: '/cookies' },
+      { label: 'Blog', href: '/blog' },
+      { label: 'FAQ', href: '/faq' },
+      { label: 'Tutorials', href: '/tutorial' },
+    ],
+  },
+  {
+    title: 'Legal',
+    links: [
+      { label: 'Terms of Service', href: '/terms' },
+      { label: 'Privacy Policy', href: '/privacy' },
+      { label: 'Cookie Policy', href: '/cookies' },
     ],
   },
 ];

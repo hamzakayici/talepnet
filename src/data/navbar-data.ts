@@ -6,11 +6,11 @@ export const mobileMenuData: MobileMenuGroup[] = [
     id: 'company',
     title: 'Company',
     submenu: [
-      { id: 'about-us', label: 'About Us', href: './about' },
+      { id: 'about-us', label: 'About', href: './about' },
+      { id: 'industries', label: 'Industries', href: './industries' },
+      { id: 'partnerships', label: 'Partnerships', href: './partnerships' },
+      { id: 'contact-us', label: 'Contact Us', href: './contact-us' },
       { id: 'career', label: 'Careers', href: './career' },
-      { id: 'terms-conditions', label: 'Terms of Service', href: './terms' },
-      { id: 'privacy-policy', label: 'Privacy Policy', href: './privacy' },
-      { id: 'cookie-policy', label: 'Cookie Policy', href: './cookies' },
     ],
   },
 
@@ -18,10 +18,9 @@ export const mobileMenuData: MobileMenuGroup[] = [
     id: 'platform',
     title: 'Platform',
     submenu: [
-      { id: 'procurement', label: 'Procurement', href: './procurement-software' },
-      { id: 'features', label: 'Özellikler', href: './features' },
+      { id: 'procurement', label: 'Procurement', href: './purchase-forms' },
       { id: 'integrations', label: 'Entegrasyonlar', href: './integration' },
-      { id: 'process', label: 'Süreç', href: './process' },
+      { id: 'process', label: 'Süreç', href: './approvals' },
       { id: 'analytics', label: 'Analizler', href: './analytics' },
       { id: 'security', label: 'Güvenlik', href: './security' },
       { id: 'whitepaper', label: 'Teknik Doküman', href: './whitepaper' },
@@ -43,20 +42,12 @@ export const mobileMenuData: MobileMenuGroup[] = [
   },
 
   {
-    id: 'plans-support',
-    title: 'Planlar & Destek',
+    id: 'access',
+    title: 'Access',
     submenu: [
-      { id: 'pricing', label: 'Fiyatlandırma', href: './pricing' },
-      { id: 'login', label: 'Giriş Yap', href: './login' },
-      { id: 'create-account', label: 'Hesap Oluştur', href: './signup' },
-      { id: 'referral-program', label: 'Referans Programı', href: './referral-program' },
-      { id: 'affiliate', label: 'İş Ortaklığı', href: './affiliates' },
-      { id: 'affiliate-policy', label: 'İş Ortaklığı Politikası', href: './affiliate-policy' },
-      { id: 'terms-conditions', label: 'Hizmet Şartları', href: './terms' },
-      { id: 'privacy-policy', label: 'Gizlilik Politikası', href: './privacy' },
-      { id: 'refund-policy', label: 'İade Politikası', href: './refund-policy' },
-      { id: 'gdpr', label: 'KVKK', href: './cookies' },
-      { id: 'legal', label: 'Yasal', href: './legal' },
+      { id: 'login', label: 'Log In', href: 'https://app.talepnet.com/sign-in' },
+      { id: 'create-account', label: 'Sign Up', href: 'https://app.talepnet.com/sign-up' },
+      { id: 'supplier-portal', label: 'Join as Supplier', href: 'https://portal.talepnet.com/sign-up' },
     ],
   },
 ];
@@ -74,7 +65,6 @@ export const footerData: FooterOneData[] = [
     title: 'Destek',
     links: [
       { label: 'SSS', href: '/faq' },
-      { label: 'Dokümantasyon', href: '/documentation' },
       { label: 'Eğitimler', href: '/tutorial' },
       { label: 'Tedarikçi Portalı', href: 'https://portal.talepnet.com' },
     ],
@@ -85,7 +75,6 @@ export const footerData: FooterOneData[] = [
       { label: 'Hizmet Şartları', href: '/terms' },
       { label: 'Gizlilik Politikası', href: '/privacy' },
       { label: 'Çerez Politikası', href: '/cookies' },
-      { label: 'KVKK Uyumu', href: '/cookies' },
     ],
   },
 ];

@@ -22,43 +22,43 @@ interface FeaturesProps {
 const data = [
   {
     id: 1,
-    title: 'Esnek çalışma modeli',
-    description: 'Uzaktan veya hibrit çalışma imkânı ile iş-yaşam dengenizi koruyun.',
+    title: 'Focused work',
+    description: 'A small team, direct communication, and less internal noise around the work that matters.',
     lightImage: featureAsset1,
     darkImage: featureAssetDark1,
   },
   {
     id: 2,
-    title: 'Sürekli öğrenme fırsatları',
-    description: 'Konferanslar, eğitimler ve sertifika programlarıyla kendinizi geliştirin.',
+    title: 'Real ownership',
+    description: 'Roles are not boxed in. You help shape decisions, priorities, and execution across the company.',
     lightImage: featureAsset2,
     darkImage: featureAssetDark2,
   },
   {
     id: 3,
-    title: 'Rekabetçi ücret paketi',
-    description: 'Sektör standardının üzerinde maaş ve yan haklar sunuyoruz.',
+    title: 'Product proximity',
+    description: 'You stay close to the product, the customer problem, and the impact of your work.',
     lightImage: featureAsset3,
     darkImage: featureAssetDark3,
   },
   {
     id: 4,
-    title: 'Kariyer gelişimi',
-    description: 'Net kariyer yolları ve mentorluk programlarıyla büyüyün.',
+    title: 'Early-stage momentum',
+    description: 'We are still building the foundation, which means the work is meaningful and the pace is real.',
     lightImage: featureAsset4,
     darkImage: featureAssetDark4,
   },
   {
     id: 5,
-    title: 'Küresel ekip',
-    description: 'Farklı ülkelerden yetenekli insanlarla birlikte çalışın.',
+    title: 'Clear communication',
+    description: 'We value direct thinking, good judgment, and people who can move work forward without drama.',
     lightImage: featureAsset5,
     darkImage: featureAssetDark5,
   },
   {
     id: 6,
-    title: 'Yenilikçi projeler',
-    description: 'Kurumsal satın alma dünyasını dönüştüren projelerde yer alın.',
+    title: 'B2B SaaS context',
+    description: 'You will work on a real operating problem for procurement, finance, and operations teams.',
     lightImage: featureAsset6,
     darkImage: featureAssetDark6,
   },
@@ -68,21 +68,6 @@ const Features: FC<FeaturesProps> = ({ className }) => {
   return (
     <section className={cn('dark:bg-background-6 bg-white', className)}>
       <div className="main-container">
-        <div className="mb-8 text-center md:mb-[52px]">
-          <RevealAnimation delay={0.1}>
-            <span className="badge badge-green mb-5">Avantajlarımız</span>
-          </RevealAnimation>
-          <RevealAnimation delay={0.2}>
-            <h2>
-              TalepNET’ta çalışmanın
-              <br className="hidden md:block" />
-              avantajları
-            </h2>
-          </RevealAnimation>
-          <RevealAnimation delay={0.3}>
-            <p>Ekibimize katılın ve kariyer yolculuğunuzu bizimle şekillendirin.</p>
-          </RevealAnimation>
-        </div>
         <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
           {data.map((item, index) => (
             <RevealAnimation key={item.id} delay={0.3 + index * 0.1}>

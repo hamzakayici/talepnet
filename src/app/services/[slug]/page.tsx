@@ -1,5 +1,4 @@
 import Contents from '@/components/service-details/Contents';
-import CTAV1 from '@/components/shared/cta/CTAV1';
 import { defaultMetadata } from '@/utils/generateMetaData';
 import getMarkDownData from '@/utils/getMarkDownData';
 import { Metadata } from 'next';
@@ -22,15 +21,6 @@ const page = async ({ params }: { params: Promise<{ slug: string }> }) => {
   return (
     <main className="bg-background-3 dark:bg-background-7">
       <Contents slug={slug} />
-      <CTAV1
-        className="dark:bg-background-6 bg-white"
-        badgeClass="hidden"
-        ctaHeading="TalepNET ile satın alma süreçlerinizi"
-        spanText="dijitalleştirin"
-        description="Ücretsiz denemenizi bugün başlatın ve satın alma süreçlerinizi kolayca dijitalleştirin."
-        btnClass="hover:btn-secondary dark:hover:btn-accent"
-        ctaBtnText="Ücretsiz Başlayın"
-      />
     </main>
   );
 };

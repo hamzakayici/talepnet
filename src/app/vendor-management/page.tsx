@@ -1,21 +1,15 @@
-import { defaultMetadata } from '@/utils/generateMetaData';
+import SupplierManagementPage from '@/components/supplier-management/SupplierManagementPage';
+import { generateMetadata } from '@/utils/generateMetaData';
 import { Metadata } from 'next';
 
-export const metadata: Metadata = {
-  ...defaultMetadata,
-  title: 'Vendor Management | TalepNET',
-};
+export const metadata: Metadata = generateMetadata(
+  'Supplier Management | TalepNET',
+  'Manage suppliers as part of the procurement operating system with contracts, RFQs, purchase orders, portal collaboration, and supplier visibility in TalepNET.',
+  'https://www.talepnet.com/supplier-management',
+);
 
 const page = () => {
-  return (
-    <main className="bg-background-3 dark:bg-background-7">
-      <section className="pt-32 pb-24 sm:pt-36 md:pt-42 xl:pt-[180px]">
-        <div className="main-container">
-          <h1>Vendor Management</h1>
-        </div>
-      </section>
-    </main>
-  );
+  return <SupplierManagementPage />;
 };
 
 export default page;

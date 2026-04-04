@@ -9,8 +9,8 @@ const CareerContent = () => {
         <div className="mb-[70px] space-y-3 text-center">
           <RevealAnimation delay={0.3}>
             <h2>
-              TalepNET’ın geleceğini inşa ediyoruz— <br className="hidden md:block" />
-              siz de bize katılın.
+              Build the next stage of TalepNET <br className="hidden md:block" />
+              with us.
             </h2>
           </RevealAnimation>
         </div>
@@ -21,31 +21,18 @@ const CareerContent = () => {
         </RevealAnimation>
         <RevealAnimation delay={0.5}>
           <div className="mx-auto max-w-[840px] space-y-8">
-            <h4>Ortak ilgi alanları ve tutku ile beslenen bir topluluğun parçası olun.</h4>
+            <h4>Join a small team building practical software for real procurement problems.</h4>
             <p>
-              TalepNET olarak, satın alma süreçlerinin geleceğini şekillendiriyoruz. Ekibimiz, teknoloji
-              tutkusuyla dolu, yenilikçi fikirlerle dolu ve müşterilerimize en iyi çözümleri sunma
-              konusunda kararlı kişilerden oluşuyor.
+              TalepNET is building a B2B SaaS product for companies that have outgrown fragmented purchasing processes. We care about workflows, clarity, and execution quality more than startup theatre.
             </p>
             <p>
-              Dinamik, hızlı tempolu ve sürekli öğrenen bir ortamda çalışmak istiyorsanız,
-              doğru yerdesiniz. Her takım üyesi, projelere doğrudan katkı sağlama ve gerçek
-              etkiler yaratma fırsatına sahiptir.
+              We are still early, which means the team is small, decisions are direct, and each role has visible impact. The work is hands-on and cross-functional, with room to shape how the company grows.
             </p>
             <p>
-              Açık iletişim, şeffaf yönetim ve esnek çalışma modüllerimizle ekip üyelerimizin
-              hem profesyonel hem de kişisel gelişimlerine yatırım yapıyoruz. Uzaktan çalışma
-              imkânı, rekabetçi ücret paketleri ve sürekli eğitim olanakları sunuyoruz.
+              If you are looking for a polished enterprise machine with layers of process, this is probably not the right fit. If you want to help build a disciplined product and company from an early stage, it probably is.
             </p>
             <p>
-              TalepNET’ta her gün yeni bir şey öğreniyoruz, birlikte büyüyoruz ve kurumsal
-              satın alma dünyasında fark yaratıyoruz. Sektörün en iyi çözümünü
-              geliştirmek için en iyi yetenekleri arıyoruz.
-            </p>
-            <p>
-              Eğer teknolojiyi kullanarak iş süreçlerini dönüştürmeye ilgi duyuyorsanız,
-              yenilikçi çözümler üretmeyi seviyorsanız ve küresel bir ekibin parçası olmak
-              istiyorsanız, açık pozisyonlarımıza göz atın.
+              We are looking for people who can work with ownership, communicate clearly, and improve how TalepNET goes to market and how the product evolves.
             </p>
           </div>
         </RevealAnimation>

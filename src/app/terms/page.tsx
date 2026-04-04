@@ -1,4 +1,3 @@
-import CTAV1 from '@/components/shared/cta/CTAV1';
 import TermsConditionContent from '@/components/terms-conditions/TermsConditionContent';
 import { defaultMetadata } from '@/utils/generateMetaData';
 import { Metadata } from 'next';
@@ -12,15 +11,7 @@ const page = () => {
   return (
     <main className="bg-background-3 dark:bg-background-7">
       <TermsConditionContent />
-      <CTAV1
-        className="dark:bg-background-5 bg-white"
-        badgeClass="badge-yellow-v2"
-        badgeText="Get Started"
-        ctaHeading="Ready to get started with TalepNET?"
-        description="If you have any questions, feel free to reach out to our team."
-        btnClass="hover:btn-secondary dark:hover:btn-accent"
-        ctaBtnText="Get Started Free"
-      />
+
     </main>
   );
 };

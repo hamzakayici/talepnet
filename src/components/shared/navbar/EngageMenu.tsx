@@ -9,32 +9,39 @@ type EngageItem = {
 };
 
 type EngageSection = {
+  ctaHref: string;
+  ctaLabel: string;
   title: string;
   items: EngageItem[];
 };
 
 const engageSections: EngageSection[] = [
   {
+    ctaHref: '/solutions',
+    ctaLabel: 'View all solutions',
     title: 'Solutions',
     items: [
-      { label: 'Accounts Payable', href: '/accounts-payable' },
-      { label: 'Expense Management', href: '/expense-management' },
-      { label: 'Procure-to-Pay', href: '/procure-to-pay' },
-      { label: 'Procurement', href: '/procurement-software' },
-      { label: 'Supplier Management', href: '/supplier-management' },
+      { label: 'Procure-to-Pay', href: '/solutions/procure-to-pay' },
+      { label: 'Request-to-Receipt', href: '/solutions/request-to-receipt' },
+      { label: 'Source-to-Order', href: '/solutions/source-to-order' },
+      { label: 'Approval Workflow', href: '/solutions/approval-workflow' },
+      { label: 'Spend Management', href: '/solutions/spend-management' },
+      { label: 'Budget Control', href: '/solutions/budget-control' },
+      { label: 'Accounts Payable', href: '/solutions/accounts-payable' },
     ],
   },
   {
+    ctaHref: '/industries',
+    ctaLabel: 'View all industries',
     title: 'Industry',
     items: [
-      { label: 'Automotive', href: '/automotive' },
-      { label: 'Construction', href: '/construction' },
-      { label: 'Education', href: '/education' },
-      { label: 'Healthcare', href: '/healthcare' },
-      { label: 'Hospitality', href: '/hospitality' },
-      { label: 'Logistics', href: '/logistics' },
-      { label: 'Non-Profit', href: '/non-profit' },
-      { label: 'Technology', href: '/technology' },
+      { label: 'Automotive', href: '/industries/automotive' },
+      { label: 'Construction', href: '/industries/construction' },
+      { label: 'Education', href: '/industries/education' },
+      { label: 'Healthcare', href: '/industries/healthcare' },
+      { label: 'Hospitality', href: '/industries/hospitality' },
+      { label: 'Non-Profit', href: '/industries/non-profit' },
+      { label: 'Technology', href: '/industries/technology' },
     ],
   },
 ];
@@ -65,11 +72,13 @@ const EngageMenu = ({
             : 'pointer-events-none translate-y-2.5 opacity-0',
         )}>
         <div className="grid grid-cols-2 gap-x-6 gap-y-6">
-          {engageSections.map(({ title, items }) => (
+          {engageSections.map(({ title, items, ctaHref, ctaLabel }) => (
             <div key={title}>
               <div className="flex h-full flex-col">
-                <p className="text-tagline-2 text-secondary/60 dark:text-accent/60 p-3 font-medium">{title}</p>
-                <ul className="my-4">
+                <div className="border-stroke-1/50 dark:border-background-7 border-b px-3 pb-3">
+                  <p className="text-tagline-2 text-secondary/40 dark:text-accent/45 font-medium">{title}</p>
+                </div>
+                <ul className="my-4 flex-1">
                   {items.map(({ label, href }) => (
                     <li key={label}>
                       <Link href={href} onClick={handleClose} className="group relative block p-3">
@@ -81,6 +90,14 @@ const EngageMenu = ({
                     </li>
                   ))}
                 </ul>
+                <div className="mt-auto border-t border-stroke-1/50 pt-4 dark:border-background-7">
+                  <Link href={ctaHref} onClick={handleClose} className="group relative block p-3">
+                    <HoverBgTransform className="group-hover:opacity-100" />
+                    <span className="text-tagline-1 relative z-10 font-normal text-primary-600 dark:text-primary-300">
+                      {ctaLabel}
+                    </span>
+                  </Link>
+                </div>
               </div>
             </div>
           ))}

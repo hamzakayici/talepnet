@@ -1,41 +1,23 @@
-import support from '@public/images/ns-img-401.jpg';
-import Image from 'next/image';
 import RevealAnimation from '../animation/RevealAnimation';
-import LinkButton from '../ui/button/LinkButton';
-
 const NeedHelp = () => {
   return (
-    <section className="pt-32 pb-[100px] sm:pt-36 md:pt-42 lg:pb-[200px] xl:pt-[180px]">
+    <section className="pt-32 pb-12 sm:pt-36 md:pt-40 md:pb-16 xl:pt-[180px] xl:pb-20">
       <div className="main-container">
-        <div className="mb-[70px] space-y-14 text-center">
-          <div className="space-y-3">
-            <RevealAnimation delay={0.3}>
-              <h2>TalepNET ile ilgili yardıma mı ihtiyacınız var?</h2>
-            </RevealAnimation>
-            <RevealAnimation delay={0.4}>
-              <p>
-                TalepNET Destek Merkezi'ne hoş geldiniz! Bir sorunuz veya probleminiz mi var? Size yardımcı olmaya
-                hazırız.
-              </p>
-            </RevealAnimation>
-          </div>
-          <RevealAnimation delay={0.5}>
-            <div>
-              <LinkButton
-                href="/contact-us"
-                className="btn btn-xl hover:btn-secondary dark:hover:btn-accent btn-primary">
-                Yardım Alın
-              </LinkButton>
-            </div>
+        <div className="mx-auto max-w-3xl text-center">
+          <RevealAnimation delay={0.12}>
+            <span className="badge badge-green !normal-case">Help Center</span>
+          </RevealAnimation>
+          <RevealAnimation delay={0.18}>
+            <h1 className="mt-5 text-4xl font-normal leading-tight text-secondary dark:text-accent sm:text-5xl xl:text-6xl">
+              Support resources for getting more out of TalepNET
+            </h1>
+          </RevealAnimation>
+          <RevealAnimation delay={0.24}>
+            <p className="mx-auto mt-6 max-w-2xl text-base leading-8 text-secondary/72 dark:text-accent/70 sm:text-lg">
+              Use this page as a starting point for product guidance, tutorials, blog content, and common questions.
+            </p>
           </RevealAnimation>
         </div>
-        <RevealAnimation delay={0.6} instant>
-          <div className="section-reveal">
-            <figure className="overflow-hidden rounded-[20px]">
-              <Image src={support} alt="support" />
-            </figure>
-          </div>
-        </RevealAnimation>
       </div>
     </section>
   );

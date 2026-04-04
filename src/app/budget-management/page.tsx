@@ -1,21 +1,15 @@
-import { defaultMetadata } from '@/utils/generateMetaData';
+import BudgetManagementPage from '@/components/budget-management/BudgetManagementPage';
+import { generateMetadata } from '@/utils/generateMetaData';
 import { Metadata } from 'next';
 
-export const metadata: Metadata = {
-  ...defaultMetadata,
-  title: 'Budget Management | TalepNET',
-};
+export const metadata: Metadata = generateMetadata(
+  'Budget Management | TalepNET',
+  'Connect cost centers, fiscal years, approvals, and spend visibility to build budget-aware procurement in TalepNET.',
+  'https://www.talepnet.com/budget-management',
+);
 
 const page = () => {
-  return (
-    <main className="bg-background-3 dark:bg-background-7">
-      <section className="pt-32 pb-24 sm:pt-36 md:pt-42 xl:pt-[180px]">
-        <div className="main-container">
-          <h1>Budget Management</h1>
-        </div>
-      </section>
-    </main>
-  );
+  return <BudgetManagementPage />;
 };
 
 export default page;

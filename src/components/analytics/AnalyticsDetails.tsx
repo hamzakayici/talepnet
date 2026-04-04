@@ -10,7 +10,7 @@ const AnalyticsDetails = () => {
     facebook: 'https://www.facebook.com',
     dribble: 'https://dribbble.com',
     github: 'https://github.com',
-    linkedin: 'https://www.linkedin.com',
+    linkedin: 'https://www.linkedin.com/company/talepnet/',
   };
   return (
     <section className="analytics pt-[70px] pb-[100px]">

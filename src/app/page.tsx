@@ -1,4 +1,3 @@
-import Blog from '@/components/home/Blog';
 import CTA from '@/components/home/CTA';
 import Feature from '@/components/home/Feature';
 import FeatureV2 from '@/components/home/FeatureV2';
@@ -9,6 +8,7 @@ import Process from '@/components/home/Process';
 import Services from '@/components/home/Services';
 import SupplierPortal from '@/components/home/SupplierPortal';
 import ReviewsV1 from '@/components/shared/reviews/ReviewsV1';
+import Integration from '@/components/tutorial/Integration';
 import { defaultMetadata } from '@/utils/generateMetaData';
 import { Metadata } from 'next';
 
@@ -25,6 +25,7 @@ const page = () => {
       <Highlights />
       <Feature />
       <FeatureV2 />
+      <Integration />
       <Process />
       <SupplierPortal />
       <ReviewsV1
@@ -33,7 +34,6 @@ const page = () => {
         sliderClassName="bg-white dark:bg-background-5"
       />
       <CTA />
-      <Blog />
       <NewsLetter />
     </main>
   );

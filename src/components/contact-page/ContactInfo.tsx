@@ -1,4 +1,3 @@
-import Link from 'next/link';
 import RevealAnimation from '../animation/RevealAnimation';
 
 const ContactInfo = () => {
@@ -11,12 +10,11 @@ const ContactInfo = () => {
           {/* heading  */}
           <div className="mx-auto max-w-[680px] space-y-3 text-center">
             <RevealAnimation delay={0.2}>
-              <h2>Destek ekibimize ulaşın.</h2>
+              <h2>Get in touch with our team.</h2>
             </RevealAnimation>
             <RevealAnimation delay={0.3}>
               <p>
-                Bir sorunuz mu var, teknik desteğe mi ihtiyacınız var yoksa sadece rehberlik mi istiyorsunuz,
-                destek ekibimiz yardımcı olmak için burada. Hızlı ve samimi destek sağlamak için 7/24 hazırız.
+                Use this form for demo requests, product questions, partnership conversations, or general inquiries.
               </p>
             </RevealAnimation>
           </div>
@@ -33,13 +31,13 @@ const ContactInfo = () => {
                     <label
                       htmlFor="fullname"
                       className="text-tagline-2 text-secondary dark:text-accent block font-medium">
-                      Adınız
+                      Full name
                     </label>
                     <input
                       type="text"
                       id="fullname"
                       name="fullname"
-                      placeholder="Adınızı girin"
+                      placeholder="Enter your full name"
                       required={true}
                       autoComplete="name"
                       className="dark:focus-visible:border-stroke-4/20 dark:border-stroke-7 dark:bg-background-6 border-stroke-3 bg-background-1 text-tagline-2 placeholder:text-secondary/60 focus:border-secondary placeholder:text-tagline-2 dark:placeholder:text-accent/60 dark:text-accent h-[48px] w-full rounded-full border px-[18px] py-3 font-normal placeholder:font-normal focus:outline-none xl:h-[41px]"
@@ -50,13 +48,13 @@ const ContactInfo = () => {
                     <label
                       htmlFor="number"
                       className="text-tagline-2 text-secondary dark:text-accent block font-medium">
-                      Telefon numaranız
+                      Phone number
                     </label>
                     <input
                       type="text"
                       id="number"
                       name="number"
-                      placeholder="Telefon numaranızı girin"
+                      placeholder="Enter your phone number"
                       required={true}
                       autoComplete="tel"
                       className="dark:focus-visible:border-stroke-4/20 dark:border-stroke-7 dark:bg-background-6 border-stroke-3 bg-background-1 text-tagline-2 placeholder:text-secondary/60 focus:border-secondary placeholder:text-tagline-2 dark:placeholder:text-accent/60 dark:text-accent h-[48px] w-full rounded-full border px-[18px] py-3 font-normal placeholder:font-normal focus:outline-none xl:h-[41px]"
@@ -66,13 +64,13 @@ const ContactInfo = () => {
                 {/* email  */}
                 <div className="space-y-2">
                   <label htmlFor="email" className="text-tagline-2 text-secondary dark:text-accent block font-medium">
-                    E-posta adresi
+                    Email address
                   </label>
                   <input
                     type="email"
                     id="email"
                     name="email"
-                    placeholder="E-posta adresinizi girin"
+                    placeholder="Enter your email address"
                     required={true}
                     autoComplete="email"
                     className="dark:focus-visible:border-stroke-4/20 dark:border-stroke-7 dark:bg-background-6 border-stroke-3 bg-background-1 text-tagline-2 placeholder:text-secondary/60 focus:border-secondary placeholder:text-tagline-2 dark:placeholder:text-accent/60 dark:text-accent h-[48px] w-full rounded-full border px-[18px] py-3 font-normal placeholder:font-normal focus:outline-none xl:h-[41px]"
@@ -81,13 +79,13 @@ const ContactInfo = () => {
                 {/* subject  */}
                 <div className="space-y-2">
                   <label htmlFor="subject" className="text-tagline-2 text-secondary dark:text-accent block font-medium">
-                    Konu
+                    Subject
                   </label>
                   <input
                     type="text"
                     id="subject"
                     name="subject"
-                    placeholder="Konuyu girin"
+                    placeholder="Enter the subject"
                     required={true}
                     className="dark:focus-visible:border-stroke-4/20 dark:border-stroke-7 dark:bg-background-6 border-stroke-3 bg-background-1 text-tagline-2 placeholder:text-secondary/60 focus:border-secondary placeholder:text-tagline-2 dark:placeholder:text-accent/60 dark:text-accent h-[48px] w-full rounded-full border px-[18px] py-3 font-normal placeholder:font-normal focus:outline-none xl:h-[41px]"
                   />
@@ -95,40 +93,23 @@ const ContactInfo = () => {
                 {/* message */}
                 <div className="space-y-2">
                   <label htmlFor="message" className="text-tagline-2 text-secondary dark:text-accent block font-medium">
-                    Mesajınız
+                    Message
                   </label>
                   <textarea
                     id="message"
                     name="message"
                     rows={7}
-                    placeholder="Mesajınızı yazın"
+                    placeholder="Write the details of your request or question"
                     required={true}
                     className="dark:bg-background-6 dark:border-stroke-7 border-stroke-3 bg-background-1 text-tagline-2 placeholder:text-secondary/60 focus:border-secondary dark:focus-visible:border-stroke-4/20 placeholder:text-tagline-2 dark:placeholder:text-accent/60 dark:text-accent w-full rounded-xl border px-[18px] py-3 font-normal placeholder:font-normal focus:outline-none"
                     defaultValue={''}
                   />
                 </div>
-                {/* terms checkbox */}
-                <fieldset className="mb-4 flex items-center gap-2">
-                  <label className="flex items-center gap-x-3">
-                    <input id="terms" type="checkbox" className="peer sr-only" required={true} />
-                    <span className="border-stroke-3 dark:border-stroke-7 after:bg-primary-500 peer-checked:border-primary-500 relative size-4 cursor-pointer rounded-full border after:absolute after:top-1/2 after:left-1/2 after:size-2.5 after:-translate-x-1/2 after:-translate-y-1/2 after:rounded-full after:opacity-0 peer-checked:after:opacity-100" />
-                    <span className="sr-only">Agree to the terms and conditions</span>
-                  </label>
-                  <label
-                    htmlFor="terms"
-                    className="text-tagline-3 text-secondary/60 dark:text-accent/60 cursor-pointer">
-                    Şartları ve koşulları kabul ediyorum
-                    <Link href="/terms" className="text-primary-500 text-tagline-3 underline">
-                      {' '}
-                      şartlar ve koşullar
-                    </Link>
-                  </label>
-                </fieldset>
                 {/* submit button */}
                 <button
                   type="submit"
                   className="btn btn-md btn-secondary hover:btn-primary dark:btn-accent w-full first-letter:uppercase before:content-none">
-                  Gönder
+                  Send Message
                 </button>
               </form>
             </RevealAnimation>

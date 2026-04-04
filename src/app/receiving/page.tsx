@@ -1,21 +1,15 @@
-import { defaultMetadata } from '@/utils/generateMetaData';
+import ReceivingPage from '@/components/receiving/ReceivingPage';
+import { generateMetadata } from '@/utils/generateMetaData';
 import { Metadata } from 'next';
 
-export const metadata: Metadata = {
-  ...defaultMetadata,
-  title: 'Receiving | TalepNET',
-};
+export const metadata: Metadata = generateMetadata(
+  'Receiving | TalepNET',
+  'Turn purchase completion into a controlled receiving process with line-level receipt recording, partial receipt support, and workflow traceability in TalepNET.',
+  'https://www.talepnet.com/receiving',
+);
 
 const page = () => {
-  return (
-    <main className="bg-background-3 dark:bg-background-7">
-      <section className="pt-32 pb-24 sm:pt-36 md:pt-42 xl:pt-[180px]">
-        <div className="main-container">
-          <h1>Receiving</h1>
-        </div>
-      </section>
-    </main>
-  );
+  return <ReceivingPage />;
 };
 
 export default page;

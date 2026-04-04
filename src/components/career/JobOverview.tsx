@@ -55,7 +55,7 @@ const JobOverview = ({ data }: { data: Partial<IPosition> }) => {
           </div>
           <div className="w-full">
             <Link
-              href="#"
+              href="/contact-us"
               className="hover:btn-secondary dark:hover:btn-accent btn btn-primary btn-md w-full first-letter:uppercase before:content-none">
               Apply Now
             </Link>

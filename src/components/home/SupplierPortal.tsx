@@ -1,7 +1,5 @@
-import cursor from '@public/images/ns-img-156.svg';
 import featureImage1 from '@public/images/ns-img-158.png';
 import profitChart from '@public/images/ns-img-159.png';
-import cursorDark from '@public/images/ns-img-dark-110.svg';
 import featureImage1Dark from '@public/images/ns-img-dark-112.png';
 import profitChartDark from '@public/images/ns-img-dark-113.png';
 import Image from 'next/image';
@@ -52,12 +50,6 @@ const SupplierPortal = () => {
           <div className="col-span-12 max-md:mb-18 lg:col-span-7">
             <div>
               <div className="relative w-full max-w-[300px] md:ms-16 md:max-w-[400px] lg:ms-0 lg:max-w-[500px]">
-                <RevealAnimation delay={0.5} duration={1.5} useSpring>
-                  <figure className="absolute top-[12%] -right-[20px] w-[100px] md:top-[20%] md:-right-[130px] lg:top-[17%] lg:-right-[15px] xl:top-[20%] xl:-right-[130px]">
-                    <Image src={cursor} alt="Tedarikçi portalı" className="h-full w-full dark:hidden" />
-                    <Image src={cursorDark} alt="Tedarikçi portalı" className="hidden h-full w-full dark:block" />
-                  </figure>
-                </RevealAnimation>
                 <RevealAnimation delay={0.6}>
                   <figure className="w-full md:max-w-[500px] lg:max-w-[400px] xl:max-w-[500px]">
                     <Image src={featureImage1} alt="Tedarikçi portalı paneli" className="w-full dark:hidden" />
@@ -85,7 +77,7 @@ const SupplierPortal = () => {
             <div className="space-y-8">
               <div className="space-y-5">
                 <RevealAnimation delay={0.2}>
-                  <span className="badge badge-green">Tedarikçi Portalı</span>
+                  <span className="badge badge-green">Tedarikçi Yönetimi</span>
                 </RevealAnimation>
                 <RevealAnimation delay={0.3}>
                   <div className="space-y-3">
@@ -96,7 +88,7 @@ const SupplierPortal = () => {
                 </RevealAnimation>
                 <RevealAnimation delay={0.35}>
                   <p className="max-w-[480px]">
-                    TalepNET Tedarikçi Portalı ile tedarikçi ilişkilerinizi güçlendirin, teklif süreçlerinizi
+                    TalepNET ile tedarikçi ilişkilerinizi güçlendirin, teklif süreçlerinizi
                     hızlandırın ve tedarik zincirinizi uçtan uca kontrol altına alın.
                   </p>
                 </RevealAnimation>
@@ -118,9 +110,9 @@ const SupplierPortal = () => {
               <RevealAnimation delay={0.8}>
                 <div>
                   <LinkButton
-                    href="/procurement-software"
+                    href="/supplier-management"
                     className="btn btn-secondary hover:btn-white btn-md dark:btn-transparent dark:hover:btn-accent w-[85%] md:w-auto">
-                    Tedarikçi Portalını Keşfet
+                    Tedarikçi Yönetimini Keşfet
                   </LinkButton>
                 </div>
               </RevealAnimation>

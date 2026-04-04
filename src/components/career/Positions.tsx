@@ -7,18 +7,14 @@ const Positions = () => {
   const positions = getMarkDownData<IPosition & { [key: string]: unknown }>('src/data/career');
 
   return (
-    <section className="py-[100px] xl:py-[200px]">
+    <section className="pt-10 pb-20 xl:pt-14 xl:pb-28">
       <div className="main-container">
         <div className="mb-14 text-center">
           <RevealAnimation delay={0.1}>
-            <span className="badge badge-green mb-5">Açık Pozisyonlar</span>
+            <span className="badge badge-green mb-5">Open Roles</span>
           </RevealAnimation>
           <RevealAnimation delay={0.2}>
-            <h2>
-              Hayalinizdeki ekibin
-              <br className="hidden md:block" />
-              parçası olun
-            </h2>
+            <h2>Current openings</h2>
           </RevealAnimation>
         </div>
         <div className="grid grid-cols-1 gap-8 md:grid-cols-2">
@@ -41,7 +37,7 @@ const Positions = () => {
                     <LinkButton
                       href={`/career/${singlePost?.slug}`}
                       className="btn hover:btn-secondary dark:btn-transparent dark:hover:btn-accent btn-md btn-white">
-                      Detayları İncele
+                      View Role
                     </LinkButton>
                   </div>
                 </div>

@@ -7,22 +7,22 @@ import TermsConditionsTab from './TermsConditionsTab';
 const data = [
   {
     id: 1,
-    tabTitle: 'General',
+    tabTitle: 'Product',
     tabContent: <GeneralTab />,
   },
   {
     id: 2,
-    tabTitle: 'Changelog',
+    tabTitle: 'Pricing',
     tabContent: <ChangelogTab />,
   },
   {
     id: 3,
-    tabTitle: 'Privacy',
+    tabTitle: 'Security',
     tabContent: <PrivacyTab />,
   },
   {
     id: 4,
-    tabTitle: 'Terms & Conditions',
+    tabTitle: 'Supplier Portal',
     tabContent: <TermsConditionsTab />,
   },
 ];

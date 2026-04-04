@@ -112,13 +112,13 @@ const AccordionTrigger: React.FC<AccordionTriggerProps> = ({
 
   return (
     <button
-      className={cn(isDisabled && 'cursor-not-allowed opacity-50', className)}
+      className={cn('flex w-full items-center justify-between gap-4 text-left', isDisabled && 'cursor-not-allowed opacity-50', className)}
       onClick={handleClick}
       aria-expanded={isActive}
       aria-controls={`accordion-content-${value}`}
       id={`accordion-trigger-${value}`}
       disabled={isDisabled}>
-      <span className={cn(titleClassName)}>{children}</span>
+      <span className={cn('min-w-0 flex-1', titleClassName)}>{children}</span>
       {renderIcon()}
     </button>
   );

@@ -17,8 +17,7 @@ const FaqTab = () => {
             </RevealAnimation>
             <RevealAnimation delay={0.4}>
               <p className="mx-auto max-w-[600px]">
-                By offering concise and informative responses, this section helps users find solutions without the need
-                to contact customer support, saving time
+                Find clear answers about TalepNET across product scope, pricing, security, and supplier-side collaboration.
               </p>
             </RevealAnimation>
           </div>

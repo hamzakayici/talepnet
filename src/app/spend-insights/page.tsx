@@ -1,21 +1,15 @@
-import { defaultMetadata } from '@/utils/generateMetaData';
+import SpendInsightsPage from '@/components/spend-insights/SpendInsightsPage';
+import { generateMetadata } from '@/utils/generateMetaData';
 import { Metadata } from 'next';
 
-export const metadata: Metadata = {
-  ...defaultMetadata,
-  title: 'Spend Insights | TalepNET',
-};
+export const metadata: Metadata = generateMetadata(
+  'Spend Insights | TalepNET',
+  'Turn procurement activity into spend visibility with supplier, contract, budget, and workflow context in TalepNET.',
+  'https://www.talepnet.com/spend-insights',
+);
 
 const page = () => {
-  return (
-    <main className="bg-background-3 dark:bg-background-7">
-      <section className="pt-32 pb-24 sm:pt-36 md:pt-42 xl:pt-[180px]">
-        <div className="main-container">
-          <h1>Spend Insights</h1>
-        </div>
-      </section>
-    </main>
-  );
+  return <SpendInsightsPage />;
 };
 
 export default page;

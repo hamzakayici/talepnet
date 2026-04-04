@@ -6,16 +6,15 @@
 |---|---|---|
 | Ana Sayfa | / | TalepNET |
 | Çözümler | /services | satın alma çözümlerimiz |
-| Özellikler | /features | platform özellikleri |
 | Fiyatlandırma | /pricing | fiyatlandırma planları |
 | Hakkımızda | /about | hakkımızda |
 | İletişim | /contact-us | bize ulaşın |
 | SSS | /faq | sıkça sorulan sorular |
 | Blog | /blog | blog yazılarımız |
-| Entegrasyonlar | /integration | entegrasyon seçenekleri |
+| Purchase Requests | /purchase-requests | purchase request workflow |
 | Güvenlik | /security | güvenlik standartlarımız |
 | Neden TalepNET? | /why-choose-us | neden TalepNET |
-| Süreç | /process | satın alma süreci |
+| Approval Workflow | /solutions/approval-workflow | satın alma onay akışı |
 | Başarı Hikayeleri | /case-study | başarı hikayelerimiz |
 | Referanslar | /testimonial | müşteri referansları |
 | Destek | /support | destek merkezi |
@@ -24,14 +23,14 @@
 ## Konu Küme Bağlantıları
 
 ### Satın Alma Yönetimi Kümesi
-- /services → /features → /process → /pricing
-- /services → /integration → /security
+- /services → /solutions/approval-workflow → /pricing
+- /services → /purchase-requests → /security
 
 ### Güven & Sosyal Kanıt Kümesi
 - /testimonial → /case-study → /customer → /why-choose-us
 
 ### Destek & Eğitim Kümesi
-- /faq → /support → /documentation → /tutorial
+- /faq → /support → /tutorial
 
 ### Yasal Kümesi
 - /terms-conditions → /privacy-policy → /gdpr → /refund-policy
@@ -40,7 +39,7 @@
 | Platform | URL |
 |---|---|
 | X / Twitter | https://x.com/TalepNET |
-| LinkedIn | https://www.linkedin.com/showcase/talepnet |
+| LinkedIn | https://www.linkedin.com/company/talepnet/ |
 | YouTube | https://www.youtube.com/@talepnet |
 | Uygulama | https://app.talepnet.com |
 | Tedarikçi Portalı | https://portal.talepnet.com |

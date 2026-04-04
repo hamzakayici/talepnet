@@ -43,7 +43,7 @@ const FeatureList = ({ className, btnClassName }: { className?: string; btnClass
                 <h2 className="text-accent sm:text-heading-5 text-heading-6 mb-8">
                   Değerli müşterilerimize en iyi hizmeti sunmak için çalışıyoruz.
                 </h2>
-                <LinkButton href="/procurement-software" className={cn('btn btn-primary', btnClassName)}>
+                <LinkButton href="/purchase-forms" className={cn('btn btn-primary', btnClassName)}>
                   Ücretsiz Başlayın
                 </LinkButton>
               </div>

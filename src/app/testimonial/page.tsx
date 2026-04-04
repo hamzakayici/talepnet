@@ -1,4 +1,3 @@
-import CTAV1 from '@/components/shared/cta/CTAV1';
 import Client from '@/components/testimonial/Client';
 import Integration from '@/components/testimonial/Integration';
 import Reviews from '@/components/testimonial/Reviews';
@@ -19,15 +18,6 @@ const page = () => {
       />
       <Client />
       <Integration />
-      <CTAV1
-        className="dark:bg-background-6 bg-white"
-        badgeClass="badge-green"
-        badgeText="Hemen Başlayın"
-        ctaHeading="TalepNET ile satın alma süreçlerinizi dijitalleştirin"
-        description="Ücretsiz denemenizi bugün başlatın ve satın alma süreçlerinizi kolayca dijitalleştirin."
-        ctaBtnText="Ücretsiz Başlayın"
-        btnClass="hover:btn-secondary dark:hover:btn-accent"
-      />
     </main>
   );
 };

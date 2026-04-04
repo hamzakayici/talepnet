@@ -11,7 +11,7 @@ const CareerDetailsBody = ({ slug }: { slug: string }) => {
   return (
     <section className="pt-[100px] pb-[200px]">
       <div className="main-container">
-        <CareerDetailsHeading />
+        <CareerDetailsHeading title={typeof position.data.title === 'string' ? position.data.title : undefined} />
         <div className="grid grid-cols-12 items-start gap-y-[70px] md:gap-x-8 md:gap-y-0 lg:gap-x-[70px] xl:gap-[100px]">
           {/* Career details   */}
           <JobOverview data={position.data} />

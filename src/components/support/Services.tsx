@@ -1,116 +1,65 @@
-import gradient16 from '@public/images/ns-img-495.png';
-import gradient3 from '@public/images/ns-img-508.png';
-import gradient27 from '@public/images/ns-img-515.png';
-import Image from 'next/image';
 import RevealAnimation from '../animation/RevealAnimation';
 import LinkButton from '../ui/button/LinkButton';
 
+const resources = [
+  {
+    title: 'FAQ',
+    text: 'Find answers about product scope, pricing, security, and supplier portal workflows.',
+    href: '/faq',
+    cta: 'Go to FAQ',
+  },
+  {
+    title: 'Tutorials',
+    text: 'Explore guided tutorials for key workflows and day-to-day usage.',
+    href: '/tutorial',
+    cta: 'Open Tutorials',
+  },
+  {
+    title: 'Blog',
+    text: 'Read product updates, procurement insights, and practical best practices.',
+    href: '/blog',
+    cta: 'Read the Blog',
+  },
+  {
+    title: 'Contact Us',
+    text: 'Reach the team directly when you need help, guidance, or a follow-up conversation.',
+    href: '/contact-us',
+    cta: 'Open Contact',
+  },
+];
+
 const Services = () => {
   return (
-    <section className="py-[100px]">
+    <section className="py-12 md:py-16 xl:py-20">
       <div className="main-container">
-        <div className="mb-[70px] space-y-5 text-center">
-          <RevealAnimation delay={0.1}>
-            <span className="badge badge-green">Hizmetlerimiz</span>
+        <div className="mb-14 max-w-3xl">
+          <RevealAnimation delay={0.12}>
+            <span className="text-tagline-1 text-primary-500">Resources</span>
           </RevealAnimation>
-          <div className="space-y-3">
-            <RevealAnimation delay={0.2}>
-              <h2 className="mx-auto max-w-[810px]">Dünya genelindeki lider şirketler TalepNET'e güveniyor.</h2>
-            </RevealAnimation>
-            <RevealAnimation delay={0.3}>
-              <p className="mx-auto max-w-[542px]">
-                Satın alma süreçlerinizi dijitalleştirmek ve tedarik yönetiminizi optimize etmek için
-                ihtiyacınız olan tüm araçları sunuyoruz.
-              </p>
-            </RevealAnimation>
-          </div>
+          <RevealAnimation delay={0.18}>
+            <h2 className="mt-4 text-3xl font-normal leading-tight text-secondary dark:text-accent sm:text-4xl">
+              Start from the resource that fits what you need
+            </h2>
+          </RevealAnimation>
         </div>
-        <div className="grid grid-cols-12 max-md:gap-y-8 md:gap-8">
-          <RevealAnimation delay={0.4}>
-            <div className="col-span-12 md:col-span-4">
-              <div className="bg-background-2 dark:bg-background-6 relative z-10 space-y-6 overflow-hidden rounded-[20px] px-6 py-8">
-                {/* bg gradient */}
-                <figure className="pointer-events-none absolute -top-[66%] -left-[60%] -z-10 size-[410px] rotate-[304deg] select-none">
-                  <Image src={gradient3} className="size-full object-contain" alt="gradient-16" />
-                </figure>
-                <div>
-                  <div className="flex items-center justify-center">
-                    <span className="ns-shape-9 text-secondary dark:text-accent text-[52px]"> </span>
-                  </div>
-                </div>
-                <div className="space-y-2 text-center">
-                  <h3 className="text-heading-5">Canlı Sohbet</h3>
-                  <p className="line-clamp-2">
-                    Satış öncesi sorularınız için anlık yardım alın. Canlı sohbetimiz üzerinden her türlü
-                    sorunuzu iletebilirsiniz.
-                  </p>
-                </div>
-                <div className="text-center">
+
+        <div className="grid gap-5 md:grid-cols-2">
+          {resources.map((item, index) => (
+            <RevealAnimation key={item.title} delay={0.22 + index * 0.05}>
+              <article className="flex h-full flex-col rounded-[28px] border border-stroke-3 bg-white p-7 dark:border-stroke-7 dark:bg-background-6">
+                <h3 className="text-2xl font-normal text-secondary dark:text-accent">{item.title}</h3>
+                <p className="mt-4 text-base leading-7 text-secondary/72 dark:text-accent/70">{item.text}</p>
+                <div className="mt-7">
                   <LinkButton
-                    href="/procurement-software"
-                    className="btn btn-white hover:btn-secondary dark:btn-transparent dark:hover:btn-accent btn-md">
-                    Sohbeti Başlatın
+                    href={item.href}
+                    className="btn btn-white btn-md hover:btn-secondary dark:btn-transparent dark:hover:btn-accent"
+                  >
+                    {item.cta}
                   </LinkButton>
                 </div>
-              </div>
-            </div>
-          </RevealAnimation>
-          <RevealAnimation delay={0.5}>
-            <div className="col-span-12 md:col-span-4">
-              <div className="bg-background-2 dark:bg-background-6 relative z-10 space-y-6 overflow-hidden rounded-[20px] px-6 py-8">
-                <figure className="pointer-events-none absolute -top-[74%] -right-[70%] -z-10 size-[410px] rotate-[175deg] select-none">
-                  <Image src={gradient27} className="size-full object-contain" alt="gradient-16" />
-                </figure>
-                <div>
-                  <div className="flex items-center justify-center">
-                    <span className="ns-shape-3 text-secondary dark:text-accent text-[52px]"> </span>
-                  </div>
-                </div>
-                <div className="space-y-2 text-center">
-                  <h3 className="text-heading-5">Destek Talebi</h3>
-                  <p className="line-clamp-2">
-                    Detaylı teknik destek için bir talep oluşturun. Kişiye özel ve ayrıntılı bir
-                    çözüm sunacağız.
-                  </p>
-                </div>
-                <div className="text-center">
-                  <LinkButton
-                    href="/procurement-software"
-                    className="btn btn-white hover:btn-secondary dark:btn-transparent dark:hover:btn-accent btn-md">
-                    Talep Oluşturun
-                  </LinkButton>
-                </div>
-              </div>
-            </div>
-          </RevealAnimation>
-          <RevealAnimation delay={0.6}>
-            <div className="col-span-12 md:col-span-4">
-              <div className="bg-background-2 dark:bg-background-6 relative z-10 space-y-6 overflow-hidden rounded-[20px] px-6 py-8">
-                <figure className="pointer-events-none absolute -top-[74%] -right-[35%] -z-10 size-[410px] rotate-[175deg] select-none">
-                  <Image src={gradient16} className="size-full object-contain" alt="gradient-16" />
-                </figure>
-                <div>
-                  <div className="flex items-center justify-center">
-                    <span className="ns-shape-12 text-secondary dark:text-accent text-[52px]"> </span>
-                  </div>
-                </div>
-                <div className="space-y-2 text-center">
-                  <h3 className="text-heading-5">Bilgi Tabanı</h3>
-                  <p className="line-clamp-2">
-                    Kapsamlı kılavuzlar ve dokümantasyon. En yaygın konular için adım adım talimatlar
-                    ve çözümler bulun.
-                  </p>
-                </div>
-                <div className="text-center">
-                  <LinkButton
-                    href="/procurement-software"
-                    className="btn btn-white hover:btn-secondary dark:btn-transparent dark:hover:btn-accent btn-md">
-                    Bilgi Tabanını Ziyaret Edin
-                  </LinkButton>
-                </div>
-              </div>
-            </div>
-          </RevealAnimation>
+              </article>
+            </RevealAnimation>
+          ))}
         </div>
       </div>
     </section>

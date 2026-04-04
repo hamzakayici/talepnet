@@ -1,21 +1,15 @@
-import { defaultMetadata } from '@/utils/generateMetaData';
+import PurchaseOrdersPage from '@/components/purchase-orders/PurchaseOrdersPage';
+import { generateMetadata } from '@/utils/generateMetaData';
 import { Metadata } from 'next';
 
-export const metadata: Metadata = {
-  ...defaultMetadata,
-  title: 'Purchase Orders | TalepNET',
-};
+export const metadata: Metadata = generateMetadata(
+  'Purchase Orders | TalepNET',
+  'Turn approved purchases into structured purchase orders with supplier-ready communication, receiving integration, and controlled execution in TalepNET.',
+  'https://www.talepnet.com/purchase-orders',
+);
 
 const page = () => {
-  return (
-    <main className="bg-background-3 dark:bg-background-7">
-      <section className="pt-32 pb-24 sm:pt-36 md:pt-42 xl:pt-[180px]">
-        <div className="main-container">
-          <h1>Purchase Orders</h1>
-        </div>
-      </section>
-    </main>
-  );
+  return <PurchaseOrdersPage />;
 };
 
 export default page;

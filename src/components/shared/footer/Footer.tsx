@@ -28,7 +28,7 @@ const Footer = () => {
                   <Image src={footerLogo} alt="TalepNET" className="h-[30px] w-auto" />
                 </figure>
                 <p className="text-secondary dark:text-accent mt-4 mb-7">
-                  Kurumlar İçin Akıllı Satın Alma Yönetimi. Satın alma süreçlerinizi yapay zeka destekli iş akışları ile otomatikleştirin.
+                  AI-powered procurement software for teams that need stronger control, clearer visibility, and less workflow friction.
                 </p>
                 <div className="flex items-center gap-3">
                   <Link target="_blank" href="https://x.com/TalepNET" className="footer-social-link">
@@ -41,7 +41,7 @@ const Footer = () => {
                     </svg>
                   </Link>
                   <div className="bg-stroke-1 dark:bg-stroke-8 h-5 w-px"></div>
-                  <Link target="_blank" href="https://www.linkedin.com/showcase/talepnet" className="footer-social-link">
+                  <Link target="_blank" href="https://www.linkedin.com/company/talepnet/" className="footer-social-link">
                     <span className="sr-only">LinkedIn</span>
                     <svg xmlns="http://www.w3.org/2000/svg" width="13" height="11" viewBox="0 0 13 11" fill="none">
                       <path
@@ -80,7 +80,7 @@ const Footer = () => {
           </div>
           <div className="col-span-12 grid grid-cols-12 gap-x-0 gap-y-8 lg:col-span-8">
             {footerLinks.map(({ title, links }, index) => (
-              <div className="col-span-12 md:col-span-4" key={title}>
+              <div className="col-span-12 md:col-span-6 xl:col-span-3" key={title}>
                 <RevealAnimation delay={0.4 + index * 0.1}>
                   <div className="space-y-8">
                     <p className="sm:text-heading-6 text-tagline-1 text-secondary dark:text-accent font-normal">
@@ -105,7 +105,7 @@ const Footer = () => {
           <FooterDivider className="bg-stroke-2 dark:bg-accent/5" />
           <RevealAnimation delay={0.7} offset={10} start="top 105%">
             <p className="text-secondary dark:text-accent/60">
-              Telif Hakkı &copy; 2026 TalepNET. Tüm hakları saklıdır.
+              Copyright &copy; 2026 TalepNET. All rights reserved.
             </p>
           </RevealAnimation>
         </div>

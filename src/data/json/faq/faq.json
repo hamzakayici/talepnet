@@ -1,22 +1,92 @@
 [
   {
     "id": 1,
-    "question": "TalepNET nedir ve ne işe yarar?",
-    "answer": "TalepNET, kurumsal satın alma süreçlerini dijitalleştiren ve otomatikleştiren bir satın alma yönetimi platformudur. İş akışı sihirbazı, tedarikçi ağı yönetimi, online teklif toplama ve sipariş yönetimi gibi özellikler sunar."
+    "question": "What is TalepNET?",
+    "answer": "TalepNET is procurement software that helps organizations manage requests, approvals, sourcing, suppliers, purchase orders, receiving, budgets, and spend visibility in one connected workflow."
   },
   {
     "id": 2,
-    "question": "TalepNET ile hangi süreçleri yönetebilirim?",
-    "answer": "Satın alma talepleri, tedarikçi yönetimi, teklif karşılaştırma, sipariş takibi, envanter yönetimi, bütçe kontrolü, onay süreçleri ve faturalama gibi tüm tedarik zinciri süreçlerinizi tek platformdan yönetebilirsiniz."
+    "question": "Is TalepNET an online marketplace or procurement software?",
+    "answer": "TalepNET is primarily procurement software. It is designed to help organizations control purchasing workflows, while also supporting supplier-facing collaboration through portal and marketplace-style interactions where relevant."
   },
   {
     "id": 3,
-    "question": "TalepNET'i mevcut sistemlerimle entegre edebilir miyim?",
-    "answer": "Evet, TalepNET API üzerinden herhangi bir popüler muhasebe veya ERP sistemine kolayca entegre edilebilir. Entegrasyon desteği tüm planlarda mevcuttur."
+    "question": "What processes can I manage with TalepNET?",
+    "answer": "Teams can manage purchase requests, approval workflows, supplier coordination, quotation comparison, purchase orders, receiving, budget-aware controls, and procurement reporting from a single system."
   },
   {
     "id": 4,
-    "question": "TalepNET'i ücretsiz deneyebilir miyim?",
-    "answer": "Evet, TalepNET 14 gün boyunca ücretsiz deneme imkânı sunar. Kredi kartı bilgisi gerekmez. Deneme süresinde platformun tüm özelliklerine erişebilirsiniz."
+    "question": "How does the onboarding process work?",
+    "answer": "Onboarding is designed to help teams get operational quickly. Depending on scope, this can include workspace setup, process configuration, initial data preparation, and rollout guidance for the relevant stakeholders."
+  },
+  {
+    "id": 5,
+    "question": "Does TalepNET support system integrations?",
+    "answer": "Yes. TalepNET can support integration needs across finance, ERP, and related systems depending on the rollout scope and technical requirements."
+  },
+  {
+    "id": 6,
+    "question": "What pricing plans are available?",
+    "answer": "TalepNET currently supports a free starting point for 1 user, followed by Team, Business, and Enterprise options depending on workflow depth, operational scale, reporting, security, and rollout requirements."
+  },
+  {
+    "id": 7,
+    "question": "Are there any setup fees?",
+    "answer": "Setup depends on the scope of the rollout. Smaller teams can start more simply, while broader implementations, configuration work, or integration needs may involve additional setup planning."
+  },
+  {
+    "id": 8,
+    "question": "Can I try TalepNET for free?",
+    "answer": "Yes. TalepNET supports a free starting point for 1 user so teams can begin exploring the platform before expanding access."
+  },
+  {
+    "id": 9,
+    "question": "Can I get a custom plan for a large number of users?",
+    "answer": "Yes. Larger teams, multi-entity organizations, and more complex procurement environments can be supported through a tailored Enterprise setup."
+  },
+  {
+    "id": 10,
+    "question": "Can I change my plan later?",
+    "answer": "Yes. Teams can move into a higher plan as usage, workflow complexity, reporting needs, or security requirements grow."
+  },
+  {
+    "id": 11,
+    "question": "How does TalepNET ensure data security?",
+    "answer": "TalepNET is designed with controlled access, workflow traceability, and role-aware procurement records in mind. Security capabilities can expand further depending on the plan and rollout scope."
+  },
+  {
+    "id": 12,
+    "question": "Where is my data stored?",
+    "answer": "Data storage and environment details depend on the deployment and service setup. If your team has specific hosting, compliance, or security requirements, TalepNET can discuss those during evaluation."
+  },
+  {
+    "id": 13,
+    "question": "How qualified are the leads I receive through TalepNET?",
+    "answer": "Lead quality depends on the buyer demand entering the workflow. TalepNET is designed to create more structured supplier interaction so incoming opportunities are clearer and easier to evaluate."
+  },
+  {
+    "id": 14,
+    "question": "Do I need to respond to customers through TalepNET?",
+    "answer": "TalepNET is designed to make supplier response easier inside the platform, especially for RFQs, order follow-up, and related commercial interactions. Using the structured workflow helps both sides keep better visibility."
+  },
+  {
+    "id": 15,
+    "question": "Does TalepNET charge a commission on sales?",
+    "answer": "Commercial terms depend on the specific model and partnership structure involved. If your team is evaluating supplier-side participation, the right setup can be discussed directly."
+  },
+  {
+    "id": 16,
+    "question": "Is my quotation data confidential?",
+    "answer": "TalepNET is designed to keep procurement records and supplier interactions structured inside the platform rather than scattered across disconnected channels. Quotation visibility follows the workflow and access model defined in the system."
+  },
+  {
+    "id": 17,
+    "question": "Does TalepNET guarantee payment from buyers?",
+    "answer": "No. TalepNET supports procurement and supplier collaboration workflows, but it does not act as a payment guarantor between buyers and suppliers."
+  },
+  {
+    "id": 18,
+    "question": "We already work with major enterprises. How can TalepNET help us further?",
+    "answer": "TalepNET can help extend those relationships through more structured RFQ handling, supplier portal workflows, order visibility, agreement alignment, and cleaner buyer-supplier collaboration over time."
   }
 ]
