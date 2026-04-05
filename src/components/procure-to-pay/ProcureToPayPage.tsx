@@ -5,6 +5,7 @@ import { localizeHref } from '@/i18n/pathnames';
 import RevealAnimation from '@/components/animation/RevealAnimation';
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/components/ui/accordion';
 import LinkButton from '@/components/ui/button/LinkButton';
+import { SpotlightCard } from '@/components/ui/SpotlightCard';
 import {
   CheckCircle2,
   ClipboardList,
@@ -135,8 +136,8 @@ export default function ProcureToPayPage() {
       <section className="relative overflow-hidden bg-[linear-gradient(135deg,#0f172a_0%,#11283c_42%,#183b52_100%)] pt-32 text-white dark:bg-[linear-gradient(135deg,#09111c_0%,#102135_46%,#163a4d_100%)] md:pt-40 xl:pt-48">
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_left,rgba(59,130,246,0.22),transparent_28%),radial-gradient(circle_at_bottom_right,rgba(16,185,129,0.16),transparent_24%)]" />
         <div className="main-container relative z-10 pb-18 md:pb-22 xl:pb-24">
-          <div className="grid gap-14 lg:grid-cols-[0.88fr_1.12fr] lg:items-end">
-            <div className="max-w-2xl">
+          <div className="grid gap-14 lg:grid-cols-[0.88fr_1.12fr] lg:items-stretch">
+            <div className="flex max-w-2xl flex-col items-start justify-center">
               <RevealAnimation delay={0.1}>
                 <span className="badge badge-green mb-6">{page.badge}</span>
               </RevealAnimation>
@@ -165,11 +166,74 @@ export default function ProcureToPayPage() {
               </RevealAnimation>
             </div>
 
-            <RevealAnimation delay={0.35} direction="right">
-              <div className="overflow-hidden rounded-[30px] border border-white/10 bg-white/6 backdrop-blur-sm">
-                <ImagePlaceholder label={page.heroPlaceholder} className="min-h-[320px] sm:min-h-[390px]" />
+            <div className="h-full relative">
+              <style>{`
+                @keyframes ptp-marquee-up {
+                  from { transform: translateY(0); }
+                  to { transform: translateY(-50%); }
+                }
+                @keyframes ptp-marquee-down {
+                  from { transform: translateY(-50%); }
+                  to { transform: translateY(0); }
+                }
+                .ptp-animate-marquee-up {
+                  animation: ptp-marquee-up 35s linear infinite;
+                }
+                .ptp-animate-marquee-down {
+                  animation: ptp-marquee-down 40s linear infinite;
+                }
+              `}</style>
+              
+              <RevealAnimation className="w-full lg:h-full" delay={0.35} direction="right">
+                <div className="relative h-[340px] w-full overflow-hidden [mask-image:linear-gradient(to_bottom,transparent,black_10%,black_90%,transparent)] sm:h-[400px] md:h-[450px] lg:absolute lg:inset-y-0 lg:-right-6 lg:h-full lg:w-[calc(100%+1.5rem)]">
+                  <div className="grid h-full grid-cols-2 gap-4 lg:grid-cols-3">
+                  
+                  {/* Sütun 1 - Yukarı */}
+                  <div className="flex ptp-animate-marquee-up flex-col pt-12">
+                    {[page.features.slice(0, 4), page.features.slice(0, 4)].map((group: any[], gIdx: number) => (
+                      <div key={`col1-${gIdx}`} className="flex flex-col gap-4 pb-4">
+                        {group.map((item: any, i: number) => (
+                          <div key={i} className="rounded-[22px] border border-white/10 bg-white/5 p-5 shadow-[0_8px_30px_rgba(0,0,0,0.12)] backdrop-blur-md">
+                            <h4 className="text-sm font-medium text-white xl:text-base">{item.title}</h4>
+                            <p className="mt-2 text-xs leading-relaxed text-white/50 2xl:text-sm">{item.description}</p>
+                          </div>
+                        ))}
+                      </div>
+                    ))}
+                  </div>
+
+                  {/* Sütun 2 - Aşağı */}
+                  <div className="flex ptp-animate-marquee-down flex-col">
+                    {[page.features.slice(4, 8), page.features.slice(4, 8)].map((group: any[], gIdx: number) => (
+                      <div key={`col2-${gIdx}`} className="flex flex-col gap-4 pb-4">
+                        {group.map((item: any, i: number) => (
+                          <div key={i} className="rounded-[22px] border border-white/10 bg-white/5 p-5 shadow-[0_8px_30px_rgba(0,0,0,0.12)] backdrop-blur-md">
+                            <h4 className="text-sm font-medium text-white xl:text-base">{item.title}</h4>
+                            <p className="mt-2 text-xs leading-relaxed text-white/50 2xl:text-sm">{item.description}</p>
+                          </div>
+                        ))}
+                      </div>
+                    ))}
+                  </div>
+
+                  {/* Sütun 3 - Yukarı (büyük ekranlar) */}
+                  <div className="hidden ptp-animate-marquee-up flex-col pt-24 lg:flex">
+                    {[page.features.slice(8, 12), page.features.slice(8, 12)].map((group: any[], gIdx: number) => (
+                      <div key={`col3-${gIdx}`} className="flex flex-col gap-4 pb-4">
+                        {group.map((item: any, i: number) => (
+                          <div key={i} className="rounded-[22px] border border-white/10 bg-white/5 p-5 shadow-[0_8px_30px_rgba(0,0,0,0.12)] backdrop-blur-md">
+                            <h4 className="text-sm font-medium text-white xl:text-base">{item.title}</h4>
+                            <p className="mt-2 text-xs leading-relaxed text-white/50 2xl:text-sm">{item.description}</p>
+                          </div>
+                        ))}
+                      </div>
+                    ))}
+                  </div>
+
+                </div>
               </div>
             </RevealAnimation>
+            </div>
           </div>
         </div>
       </section>
@@ -189,15 +253,34 @@ export default function ProcureToPayPage() {
             </RevealAnimation>
           </div>
 
-          <RevealAnimation delay={0.24}>
-            <div className="space-y-5 border-l border-stroke-3 pl-6 dark:border-stroke-7 md:pl-8">
-              {page.introParagraphs.map((paragraph: string) => (
-                <p key={paragraph} className="text-base leading-7 text-secondary/72 dark:text-accent/70">
-                  {paragraph}
-                </p>
-              ))}
-            </div>
-          </RevealAnimation>
+          <div className="relative">
+            <style>{`
+              @keyframes ptp-shooting-star {
+                0% { top: -8rem; opacity: 1; }
+                40% { top: 100%; opacity: 0; }
+                100% { top: 100%; opacity: 0; }
+              }
+            `}</style>
+            
+            <RevealAnimation className="relative" delay={0.24}>
+              <div className="relative pl-6 md:pl-8">
+                {/* Animasyonlu Çizgi Yolu */}
+                <div className="absolute bottom-0 left-0 top-0 w-[2px] overflow-hidden rounded-full bg-stroke-3 dark:bg-stroke-7">
+                  {/* Kayan Yıldız Efekti */}
+                  <div className="absolute -top-32 left-0 h-32 w-full animate-[ptp-shooting-star_3s_ease-out_infinite] bg-gradient-to-t from-purple-600 to-transparent opacity-0 dark:from-purple-400" />
+                </div>
+
+                {/* Paragraflar */}
+                <div className="space-y-5">
+                  {page.introParagraphs.map((paragraph: string) => (
+                    <p key={paragraph} className="text-base leading-7 text-secondary/72 dark:text-accent/70">
+                      {paragraph}
+                    </p>
+                  ))}
+                </div>
+              </div>
+            </RevealAnimation>
+          </div>
         </div>
       </section>
 
@@ -214,9 +297,69 @@ export default function ProcureToPayPage() {
             </div>
           </RevealAnimation>
 
-          <RevealAnimation delay={0.18}>
-            <div className="overflow-hidden rounded-[28px] border border-stroke-3 bg-white dark:border-stroke-7 dark:bg-background-6">
-              <ImagePlaceholder label={page.corePlaceholder} className="min-h-[280px]" />
+          <RevealAnimation delay={0.18} className="h-full">
+            <div className="relative flex h-full min-h-[380px] w-full flex-col items-center justify-center p-6 lg:min-h-[460px] lg:p-10">
+              
+              <style>{`
+                @keyframes ptp-float-1 {
+                  0%, 100% { transform: translateY(0px) rotate(-2deg); }
+                  50% { transform: translateY(-12px) rotate(-1deg); }
+                }
+                @keyframes ptp-float-2 {
+                  0%, 100% { transform: translateY(0px) rotate(3deg); }
+                  50% { transform: translateY(-15px) rotate(2deg); }
+                }
+                @keyframes ptp-float-3 {
+                  0%, 100% { transform: translateY(0px) rotate(-1deg); }
+                  50% { transform: translateY(-8px) rotate(0deg); }
+                }
+              `}</style>
+              
+              {/* Arkada dönen yumuşak neon yansıma */}
+              <div className="absolute left-1/2 top-1/2 h-[500px] w-[500px] -translate-x-1/2 -translate-y-1/2 animate-[spin_12s_linear_infinite] rounded-full bg-[conic-gradient(var(--tw-gradient-stops))] from-blue-500/10 via-transparent to-green-500/10 opacity-70 blur-3xl dark:from-blue-500/20 dark:to-green-500/20" />
+
+              <div className="relative flex w-full max-w-sm flex-col pl-4 md:max-w-md md:pl-0">
+                 
+                 {/* Kart 1: Talep */}
+                 <div className="z-10 flex w-[85%] animate-[ptp-float-1_7s_ease-in-out_infinite] items-center gap-4 self-start rounded-[22px] border border-white/60 bg-white/70 p-5 shadow-xl backdrop-blur-md dark:border-white/10 dark:bg-black/50">
+                   <div className="flex h-12 w-12 flex-shrink-0 items-center justify-center rounded-2xl bg-blue-50 text-blue-600 dark:bg-blue-500/20 dark:text-blue-400">
+                     <ClipboardList className="h-6 w-6" />
+                   </div>
+                   <div className="flex-1">
+                     <div className="text-[15px] font-semibold text-secondary dark:text-white">{locale === 'tr' ? 'Satın Alma Talebi #4021' : 'Purchase Request #4021'}</div>
+                     <div className="mt-1 text-xs font-medium text-secondary/60 dark:text-white/60">{locale === 'tr' ? 'Maliyet merkezi onaylandı' : 'Cost center approved'}</div>
+                   </div>
+                   <div className="flex h-7 w-7 items-center justify-center rounded-full bg-green-50 text-green-600 dark:bg-green-500/20 dark:text-green-400">
+                     <CheckCircle2 className="h-4 w-4" />
+                   </div>
+                 </div>
+                 
+                 {/* Kart 2: Sipariş */}
+                 <div className="z-20 mt-2 flex w-[88%] animate-[ptp-float-2_6s_ease-in-out_infinite_1s] items-center gap-4 self-end rounded-[22px] border border-white/80 bg-white/80 p-5 shadow-[0_15px_40px_rgba(0,0,0,0.12)] backdrop-blur-md dark:border-white/10 dark:bg-background-6/80">
+                   <div className="flex h-12 w-12 flex-shrink-0 items-center justify-center rounded-2xl bg-orange-50 text-orange-600 dark:bg-orange-500/20 dark:text-orange-400">
+                     <ShoppingCart className="h-6 w-6" />
+                   </div>
+                   <div className="flex-1">
+                     <div className="text-[15px] font-semibold text-secondary dark:text-white">{locale === 'tr' ? 'Otomatik Sipariş İletildi' : 'Auto-PO Dispatched'}</div>
+                     <div className="mt-1 text-xs font-medium text-secondary/60 dark:text-white/60">{locale === 'tr' ? 'Tedarikçi: TechFlow A.Ş.' : 'Supplier: TechFlow Inc.'}</div>
+                   </div>
+                   <div className="flex h-7 w-7 items-center justify-center rounded-full bg-green-50 text-green-600 dark:bg-green-500/20 dark:text-green-400">
+                     <CheckCircle2 className="h-4 w-4" />
+                   </div>
+                 </div>
+
+                 {/* Kart 3: Fatura */}
+                 <div className="z-30 mt-4 flex w-[95%] animate-[ptp-float-3_8s_ease-in-out_infinite_2s] items-center gap-4 self-center rounded-[22px] border border-primary-500/30 bg-white p-6 shadow-[0_20px_50px_rgba(59,130,246,0.18)] ring-1 ring-primary-500/20 backdrop-blur-md dark:border-primary-500/50 dark:bg-[#0c141f]">
+                   <div className="flex h-12 w-12 flex-shrink-0 items-center justify-center rounded-2xl bg-primary-500 text-white shadow-lg shadow-primary-500/30">
+                     <Receipt className="h-6 w-6" />
+                   </div>
+                   <div className="flex-1">
+                     <div className="text-[15px] font-semibold text-secondary dark:text-white">{locale === 'tr' ? 'Fatura & Seçilen GRN Eşleşti' : 'Invoice & Selected GRN Matched'}</div>
+                     <div className="mt-1 text-xs font-medium text-primary-600 dark:text-primary-400">{locale === 'tr' ? 'Ödemeye Hazır - Çakışma Yok' : 'Ready for Payment - No Mismatch'}</div>
+                   </div>
+                 </div>
+
+              </div>
             </div>
           </RevealAnimation>
         </div>
@@ -293,13 +436,13 @@ export default function ProcureToPayPage() {
           <div className="grid gap-5 lg:grid-cols-4">
             {page.steps.map((item: { title: string; text: string }, index: number) => (
               <RevealAnimation key={item.title} delay={0.24 + index * 0.08}>
-                <article className="rounded-[24px] border border-white/10 bg-white/5 p-7">
+                <SpotlightCard className="h-full rounded-[24px] border border-white/10 bg-white/5 p-7">
                   <span className="mb-5 inline-flex h-8 items-center rounded-full border border-white/10 px-3 text-sm text-white/70">
-                    Step {index + 1}
+                    {locale === 'tr' ? 'Adım' : 'Step'} {index + 1}
                   </span>
                   <h3 className="mb-3 text-2xl font-normal text-white">{item.title}</h3>
                   <p className="text-base leading-7 text-white/70">{item.text}</p>
-                </article>
+                </SpotlightCard>
               </RevealAnimation>
             ))}
           </div>

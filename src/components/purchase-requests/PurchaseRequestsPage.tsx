@@ -9,5 +9,12 @@ const featureIcons = [FileText, Route, CircleDot, FileCheck2, ShieldCheck, Check
 export default function PurchaseRequestsPage() {
   const { messages } = useI18n();
 
-  return <ProductWorkflowPage page={messages.product.purchaseRequests} featureIcons={featureIcons} />;
+  const customPageData = {
+    ...messages.product.purchaseRequests,
+    heroImage: '/images/req-intro-hero.png',
+    introImage: '/images/req-intro-custom.jpg',
+    testimonialImage: '/images/req-test-custom.jpg',
+  };
+
+  return <ProductWorkflowPage page={customPageData} featureIcons={featureIcons} />;
 }

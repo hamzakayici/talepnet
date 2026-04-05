@@ -5,6 +5,8 @@ import { localizeHref } from '@/i18n/pathnames';
 import RevealAnimation from '@/components/animation/RevealAnimation';
 import LinkButton from '@/components/ui/button/LinkButton';
 import { ArrowRight, Check, LucideIcon } from 'lucide-react';
+import Image from 'next/image';
+import { SpotlightCard } from '@/components/ui/SpotlightCard';
 
 type ProductWorkflowContent = {
   badge: string;
@@ -51,6 +53,9 @@ type ProductWorkflowContent = {
   rolesEyebrow?: string;
   rolesTitle?: string;
   roles?: { title: string; text: string }[];
+  heroImage?: string;
+  introImage?: string;
+  testimonialImage?: string;
 };
 
 function ImagePlaceholder({ label, className = '' }: { label: string; className?: string }) {
@@ -67,16 +72,18 @@ function ImagePlaceholder({ label, className = '' }: { label: string; className?
 type Props = {
   page: ProductWorkflowContent;
   featureIcons: LucideIcon[];
+  heroVisual?: React.ReactNode;
+  introVisual?: React.ReactNode;
 };
 
-export default function ProductWorkflowPage({ page, featureIcons }: Props) {
+export default function ProductWorkflowPage({ page, featureIcons, heroVisual, introVisual }: Props) {
   const { locale } = useI18n();
 
   return (
     <main className="overflow-x-hidden bg-white dark:bg-background-6">
       <section className="relative overflow-hidden bg-[radial-gradient(circle_at_top_left,rgba(24,138,141,0.24),transparent_34%),radial-gradient(circle_at_top_right,rgba(59,130,246,0.2),transparent_30%),linear-gradient(180deg,#f4fbfb_0%,#ffffff_52%,#f7f8fc_100%)] pt-32 dark:bg-background-7 md:pt-40 xl:pt-48">
         <div className="main-container relative z-10 pb-16 md:pb-20 xl:pb-24">
-          <div className="grid items-end gap-12 lg:grid-cols-[0.92fr_1.08fr]">
+          <div className="grid items-center gap-12 lg:grid-cols-[0.92fr_1.08fr]">
             <div className="max-w-2xl">
               <RevealAnimation delay={0.1}>
                 <span className="badge badge-green mb-6">{page.badge}</span>
@@ -106,8 +113,19 @@ export default function ProductWorkflowPage({ page, featureIcons }: Props) {
             </div>
 
             <RevealAnimation delay={0.35} direction="right">
-              <div className="overflow-hidden rounded-[28px] border border-stroke-3 bg-white shadow-[0_30px_80px_rgba(15,23,42,0.08)] dark:border-stroke-7 dark:bg-background-5">
-                <ImagePlaceholder label={page.heroPlaceholder} className="min-h-[320px] sm:min-h-[420px]" />
+              <div
+                className={
+                  page.heroImage || heroVisual
+                    ? 'overflow-hidden rounded-[28px]'
+                    : 'overflow-hidden rounded-[28px] border border-stroke-3 bg-white shadow-[0_30px_80px_rgba(15,23,42,0.08)] dark:border-stroke-7 dark:bg-background-5'
+                }>
+                {heroVisual ? (
+                  heroVisual
+                ) : page.heroImage ? (
+                  <Image src={page.heroImage} alt="Dashboard Overview" width={1200} height={800} className="h-full w-full object-cover" />
+                ) : (
+                  <ImagePlaceholder label={page.heroPlaceholder} className="min-h-[320px] sm:min-h-[420px]" />
+                )}
               </div>
             </RevealAnimation>
           </div>
@@ -149,8 +167,17 @@ export default function ProductWorkflowPage({ page, featureIcons }: Props) {
           </RevealAnimation>
 
           <RevealAnimation delay={0.25}>
-            <div className="flex h-full flex-col justify-between overflow-hidden rounded-[28px] border border-stroke-3 bg-white dark:border-stroke-7 dark:bg-background-6">
-              <div className="space-y-5 p-8 lg:p-10">
+            <div className="relative flex h-full flex-col justify-between overflow-hidden rounded-[28px]">
+              {/* Masked Background & Border */}
+              <div 
+                className="pointer-events-none absolute inset-0 z-0 rounded-[28px] border border-stroke-3 bg-white dark:border-stroke-7 dark:bg-background-6"
+                style={{
+                  maskImage: 'linear-gradient(to top, transparent, black 45%, black)',
+                  WebkitMaskImage: 'linear-gradient(to top, transparent, black 45%, black)'
+                }}
+              />
+              
+              <div className="relative z-10 space-y-5 p-8 lg:p-10">
                 <span className="hero-badge text-tagline-1 inline-block text-secondary dark:text-accent">
                   {page.introEyebrow}
                 </span>
@@ -159,7 +186,16 @@ export default function ProductWorkflowPage({ page, featureIcons }: Props) {
                 </h2>
                 <p className="max-w-xl text-base leading-7 text-secondary/72 dark:text-accent/70">{page.introText}</p>
               </div>
-              <ImagePlaceholder label={page.introPlaceholder} className="min-h-[260px] sm:min-h-[320px]" />
+              
+              <div className="relative z-10 w-full">
+                {introVisual ? (
+                  introVisual
+                ) : page.introImage ? (
+                  <Image src={page.introImage} alt="Workflow Diagram" width={800} height={600} className="h-full w-full object-cover" />
+                ) : (
+                  <ImagePlaceholder label={page.introPlaceholder} className="min-h-[260px] sm:min-h-[320px]" />
+                )}
+              </div>
             </div>
           </RevealAnimation>
         </div>
@@ -212,11 +248,15 @@ export default function ProductWorkflowPage({ page, featureIcons }: Props) {
           <div className="grid gap-5 lg:grid-cols-4">
             {page.steps.map((step, index) => (
               <RevealAnimation key={step.title} delay={0.24 + index * 0.08}>
-                <article className="rounded-[24px] border border-white/10 bg-white/5 p-7">
-                  <span className="mb-5 inline-flex h-8 items-center rounded-full border border-white/10 px-3 text-sm text-accent/70">Step {index + 1}</span>
+                <SpotlightCard
+                  as="article"
+                  spotlightColor="rgba(255, 255, 255, 0.05)"
+                  className="rounded-[24px] border border-white/10 bg-white/5 p-7 transition-colors hover:border-white/20 hover:bg-white/10"
+                >
+                  <span className="mb-5 inline-flex h-8 items-center rounded-full border border-white/10 px-3 text-sm text-accent/70">Adım {index + 1}</span>
                   <h3 className="mb-3 text-2xl font-normal text-accent">{step.title}</h3>
                   <p className="text-base leading-7 text-accent/70">{step.text}</p>
-                </article>
+                </SpotlightCard>
               </RevealAnimation>
             ))}
           </div>
@@ -304,7 +344,13 @@ export default function ProductWorkflowPage({ page, featureIcons }: Props) {
             <RevealAnimation delay={0.12}>
               <div className="overflow-hidden rounded-[32px] border border-stroke-3 bg-white dark:border-stroke-7 dark:bg-background-6">
                 <div className="grid gap-0 lg:grid-cols-[0.82fr_1.18fr]">
-                  <ImagePlaceholder label={page.testimonialPlaceholder || 'Testimonial placeholder'} className="min-h-[280px] lg:min-h-full" />
+                  {page.testimonialImage ? (
+                    <div className="relative min-h-[280px] w-full lg:min-h-full">
+                      <Image src={page.testimonialImage} alt="User Testimonial" fill className="object-cover" />
+                    </div>
+                  ) : (
+                    <ImagePlaceholder label={page.testimonialPlaceholder || 'Testimonial placeholder'} className="min-h-[280px] lg:min-h-full" />
+                  )}
                   <div className="flex flex-col justify-center p-8 lg:p-12">
                     <span className="hero-badge text-tagline-1 inline-block text-secondary dark:text-accent">{page.testimonialEyebrow}</span>
                     <blockquote className="mt-5 text-2xl font-normal leading-tight text-secondary dark:text-accent lg:text-3xl">“{page.testimonialQuote}”</blockquote>
@@ -373,7 +419,7 @@ export default function ProductWorkflowPage({ page, featureIcons }: Props) {
               <span className="text-tagline-1 inline-block text-white/62">{page.finalEyebrow}</span>
               <div className="mt-6 grid gap-8 lg:grid-cols-[1.08fr_0.92fr] lg:items-end">
                 <div>
-                  <h2 className="max-w-[13ch] text-4xl font-normal leading-tight lg:text-heading-3">{page.finalTitle}</h2>
+                  <h2 className="max-w-[13ch] text-4xl font-normal leading-tight text-white lg:text-heading-3">{page.finalTitle}</h2>
                   <p className="mt-4 max-w-2xl text-base leading-7 text-white/72">{page.finalText}</p>
                 </div>
                 <div className="flex flex-wrap gap-3 lg:justify-end">

@@ -1,6 +1,6 @@
 import { localizeHref } from '@/i18n/pathnames';
 import LinkButton from '@/components/ui/button/LinkButton';
-import bannerImage from '@public/images/ns-img-379.png';
+import bannerImage from '@public/images/ns-img-379.jpg';
 import Image from 'next/image';
 import RevealAnimation from '../animation/RevealAnimation';
 

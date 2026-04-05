@@ -3,6 +3,8 @@
 import { useI18n } from '@/i18n/I18nProvider';
 import { localizeHref } from '@/i18n/pathnames';
 import RevealAnimation from '@/components/animation/RevealAnimation';
+import Image from 'next/image';
+import { SpotlightCard } from '@/components/ui/SpotlightCard';
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/components/ui/accordion';
 import LinkButton from '@/components/ui/button/LinkButton';
 import {
@@ -21,16 +23,7 @@ import {
   Wallet,
 } from 'lucide-react';
 
-function ImagePlaceholder({ label, className = '' }: { label: string; className?: string }) {
-  return (
-    <div
-      className={`flex min-h-[220px] items-center justify-center bg-[linear-gradient(135deg,#f2f5fb_0%,#fbfcfe_100%)] dark:bg-[linear-gradient(135deg,#171d2a_0%,#0f141c_100%)] ${className}`}>
-      <div className="rounded-full border border-dashed border-secondary/20 px-4 py-2 text-sm tracking-[0.14em] uppercase text-secondary/45 dark:border-accent/15 dark:text-accent/40">
-        {label}
-      </div>
-    </div>
-  );
-}
+
 
 const features = [
   {
@@ -115,6 +108,14 @@ const features = [
   },
 ];
 
+const chainItems = [
+  { title: 'İç Talep', icon: FileText, color: 'text-blue-500', bg: 'bg-blue-500/10 text-blue-600 dark:text-blue-400' },
+  { title: 'Tedarikçi Seçimi', icon: Globe2, color: 'text-indigo-500', bg: 'bg-indigo-500/10 text-indigo-600 dark:text-indigo-400' },
+  { title: 'Teklif Yönetimi', icon: FileSearch, color: 'text-violet-500', bg: 'bg-violet-500/10 text-violet-600 dark:text-violet-400' },
+  { title: 'Satın Alma Onayı', icon: ShieldCheck, color: 'text-emerald-500', bg: 'bg-emerald-500/10 text-emerald-600 dark:text-emerald-400' },
+  { title: 'Sipariş Oluşturma', icon: ShoppingCart, color: 'text-amber-500', bg: 'bg-amber-500/10 text-amber-600 dark:text-amber-400' },
+];
+
 export default function SourceToOrderPage() {
   const { locale, messages } = useI18n();
   const page = messages.solutions.sourceToOrder;
@@ -154,8 +155,28 @@ export default function SourceToOrderPage() {
 
             <RevealAnimation delay={0.35} direction="right">
               <div className="grid gap-4">
-                <div className="overflow-hidden rounded-[28px] border border-stroke-3 bg-white shadow-[0_30px_80px_rgba(15,23,42,0.08)] dark:border-stroke-7 dark:bg-background-5">
-                  <ImagePlaceholder label={page.heroPlaceholder} className="min-h-[320px] sm:min-h-[390px]" />
+                <style>{`
+                  @property --glow-angle {
+                    syntax: '<angle>';
+                    initial-value: 0deg;
+                    inherits: false;
+                  }
+                  @keyframes revolve-border {
+                    100% { --glow-angle: 360deg; }
+                  }
+                  .animate-border-glow {
+                    animation: revolve-border 3.5s linear infinite;
+                    background: conic-gradient(from var(--glow-angle) at 50% 50%, transparent 0%, transparent 80%, rgba(168,85,247,0.8) 96%, rgba(255,255,255,1) 100%);
+                  }
+                `}</style>
+                <div className="relative overflow-hidden rounded-[30px] p-[2px] bg-stroke-3/50 dark:bg-white/5">
+                  {/* Shooting Star Trace Layer */}
+                  <div className="absolute inset-0 animate-border-glow pointer-events-none" />
+                  
+                  {/* Inner Image (Masked) */}
+                  <div className="relative z-10 h-full w-full overflow-hidden rounded-[28px] bg-white dark:bg-background-6">
+                    <Image src="/images/source-to-order-hero.jpg" alt="Source to Order Overview" width={1200} height={800} className="h-full w-full object-cover" />
+                  </div>
                 </div>
                 <div className="grid gap-4 sm:grid-cols-2">
                   {page.heroHighlights.map((item: string) => (
@@ -197,19 +218,25 @@ export default function SourceToOrderPage() {
 
       <section className="bg-background-12 py-20 dark:bg-background-5 md:py-24 xl:py-28">
         <div className="main-container grid gap-10 lg:grid-cols-3">
-          {page.valueStatements.map((item: { title: string; text: string }, index: number) => (
-            <RevealAnimation key={item.title} delay={0.18 + index * 0.06}>
-              <article className="space-y-5">
-                <span className="inline-flex size-12 items-center justify-center rounded-full bg-primary-100 text-primary-600 dark:bg-primary-500/15 dark:text-primary-300">
-                  <ShoppingCart className="size-5" />
-                </span>
-                <div>
-                  <h3 className="text-2xl font-normal text-secondary dark:text-accent">{item.title}</h3>
-                  <p className="mt-3 text-base leading-7 text-secondary/72 dark:text-accent/70">{item.text}</p>
-                </div>
-              </article>
-            </RevealAnimation>
-          ))}
+          {page.valueStatements.map((item: { title: string; text: string }, index: number) => {
+            // Konuya göre ikon eşleşmesi
+            const icons = [Globe2, ShoppingCart, ShieldCheck];
+            const DynamicIcon = icons[index] || ShoppingCart;
+            
+            return (
+              <RevealAnimation key={item.title} delay={0.18 + index * 0.06}>
+                <article className="space-y-5">
+                  <span className="inline-flex size-12 items-center justify-center rounded-full bg-primary-100 text-primary-600 dark:bg-primary-500/15 dark:text-primary-300">
+                    <DynamicIcon className="size-5" />
+                  </span>
+                  <div>
+                    <h3 className="text-2xl font-normal text-secondary dark:text-accent">{item.title}</h3>
+                    <p className="mt-3 text-base leading-7 text-secondary/72 dark:text-accent/70">{item.text}</p>
+                  </div>
+                </article>
+              </RevealAnimation>
+            );
+          })}
         </div>
       </section>
 
@@ -227,8 +254,63 @@ export default function SourceToOrderPage() {
           </RevealAnimation>
 
           <RevealAnimation delay={0.18}>
-            <div className="overflow-hidden rounded-[28px] border border-stroke-3 bg-white dark:border-stroke-7 dark:bg-background-6">
-              <ImagePlaceholder label={page.summaryPlaceholder} className="min-h-[280px]" />
+            <div className="relative flex h-[400px] overflow-hidden rounded-[28px]">
+              {/* Fade masks blending smoothly with the page background */}
+              <div className="pointer-events-none absolute inset-x-0 top-0 z-10 h-20 bg-gradient-to-b from-white to-transparent dark:from-background-6" />
+              <div className="pointer-events-none absolute inset-x-0 bottom-0 z-10 h-20 bg-gradient-to-t from-white to-transparent dark:from-background-6" />
+
+              <style>{`
+                @keyframes verticalMarquee {
+                  from { transform: translateY(0); }
+                  to { transform: translateY(-50%); }
+                }
+                .animate-vertical-marquee {
+                  animation: verticalMarquee 15s linear infinite;
+                }
+              `}</style>
+
+              <div className="flex w-full animate-vertical-marquee flex-col px-2 lg:px-4">
+                <div className="flex flex-col gap-4 pb-4">
+                  {chainItems.map((item, i) => {
+                    const Icon = item.icon;
+                    return (
+                      <div
+                        key={`og-${i}`}
+                        className="flex flex-row items-center gap-5 rounded-[22px] border border-stroke-3 bg-white p-5 shadow-[0_8px_30px_rgba(15,23,42,0.06)] dark:border-stroke-7 dark:bg-background-5">
+                        <div className={`flex size-14 shrink-0 items-center justify-center rounded-2xl ${item.bg}`}>
+                          <Icon className="size-6" />
+                        </div>
+                        <div className="flex flex-col">
+                          <span className="mb-0.5 text-xs font-semibold tracking-wider text-secondary/50 dark:text-accent/40 uppercase">
+                            ADIM 0{(i % 5) + 1}
+                          </span>
+                          <span className="text-lg font-medium text-secondary dark:text-accent">{item.title}</span>
+                        </div>
+                      </div>
+                    );
+                  })}
+                </div>
+                <div className="flex flex-col gap-4 pb-4">
+                  {chainItems.map((item, i) => {
+                    const Icon = item.icon;
+                    return (
+                      <div
+                        key={`clone-${i}`}
+                        className="flex flex-row items-center gap-5 rounded-[22px] border border-stroke-3 bg-white p-5 shadow-[0_8px_30px_rgba(15,23,42,0.06)] dark:border-stroke-7 dark:bg-background-5">
+                        <div className={`flex size-14 shrink-0 items-center justify-center rounded-2xl ${item.bg}`}>
+                          <Icon className="size-6" />
+                        </div>
+                        <div className="flex flex-col">
+                          <span className="mb-0.5 text-xs font-semibold tracking-wider text-secondary/50 dark:text-accent/40 uppercase">
+                            ADIM 0{(i % 5) + 1}
+                          </span>
+                          <span className="text-lg font-medium text-secondary dark:text-accent">{item.title}</span>
+                        </div>
+                      </div>
+                    );
+                  })}
+                </div>
+              </div>
             </div>
           </RevealAnimation>
         </div>
@@ -286,13 +368,17 @@ export default function SourceToOrderPage() {
           <div className="grid gap-5 lg:grid-cols-4">
             {page.steps.map((step: { title: string; text: string }, index: number) => (
               <RevealAnimation key={step.title} delay={0.24 + index * 0.08}>
-                <article className="rounded-[24px] border border-white/10 bg-white/5 p-7">
+                <SpotlightCard
+                  as="article"
+                  spotlightColor="rgba(255, 255, 255, 0.08)"
+                  className="rounded-[24px] border border-white/10 bg-white/5 p-7"
+                >
                   <span className="mb-5 inline-flex h-8 items-center rounded-full border border-white/10 px-3 text-sm text-accent/70">
-                    Step {index + 1}
+                    {locale === 'tr' ? 'Adım' : 'Step'} {index + 1}
                   </span>
                   <h3 className="mb-3 text-2xl font-normal text-accent">{step.title}</h3>
                   <p className="text-base leading-7 text-accent/70">{step.text}</p>
-                </article>
+                </SpotlightCard>
               </RevealAnimation>
             ))}
           </div>
@@ -302,7 +388,11 @@ export default function SourceToOrderPage() {
       <section className="bg-background-12 py-20 dark:bg-background-5 md:py-24 xl:py-28">
         <div className="main-container grid gap-8 lg:grid-cols-[1.02fr_0.98fr] lg:items-start">
           <RevealAnimation delay={0.12}>
-            <div className="rounded-[30px] bg-[linear-gradient(135deg,#10222d_0%,#17384b_52%,#0d1720_100%)] p-8 text-white lg:p-10">
+            <SpotlightCard
+              as="div"
+              spotlightColor="rgba(255, 255, 255, 0.08)"
+              className="rounded-[30px] bg-[linear-gradient(135deg,#10222d_0%,#17384b_52%,#0d1720_100%)] p-8 text-white lg:p-10"
+            >
               <span className="text-tagline-1 inline-block text-white/62">
                 {page.whyEyebrow}
               </span>
@@ -312,7 +402,7 @@ export default function SourceToOrderPage() {
               <p className="mt-5 max-w-2xl text-base leading-7 text-white/72">
                 {page.whyText}
               </p>
-            </div>
+            </SpotlightCard>
           </RevealAnimation>
 
           <div className="grid gap-4">

@@ -1,10 +1,9 @@
 'use client';
 import { useTranslations } from '@/i18n/useTranslations';
 import heroBg from '@public/images/ns-img-150.png';
-import heroImage from '@public/images/ns-img-151.png';
+import heroImage from '@public/images/hero-dashboard-v2.jpg';
 import heroBgDark from '@public/images/ns-img-dark-104.png';
-import heroImageDark from '@public/images/ns-img-dark-105.png';
-import { Play } from 'lucide-react';
+import { Play, BellRing, CheckCircle2 } from 'lucide-react';
 import Image from 'next/image';
 import RevealAnimation from '../animation/RevealAnimation';
 import LinkButton from '../ui/button/LinkButton';
@@ -15,14 +14,14 @@ const Hero = () => {
   const t = useTranslations('home');
 
   return (
-    <section className="relative flex h-screen min-h-[700px] flex-col overflow-hidden">
+    <section className="relative flex min-h-[100vh] flex-col overflow-hidden pb-10 xl:pb-16">
       <RevealAnimation delay={0.3}>
         <div className="absolute top-20 left-1/2 -translate-x-1/2">
           <Image src={heroBg} alt="Hero background pattern" className="block object-cover dark:hidden" />
           <Image src={heroBgDark} alt="Hero background pattern" className="hidden object-cover dark:block" />
         </div>
       </RevealAnimation>
-      <div className="main-container relative z-10 flex flex-1 flex-col pt-[120px] md:pt-[140px] lg:pt-[140px] xl:pt-[140px] 2xl:pt-[200px]">
+      <div className="main-container relative z-10 flex flex-1 flex-col pt-[120px] md:pt-[140px] lg:pt-[140px] xl:pt-[140px]">
         {/* Metin ve Butonlar */}
         <div className="relative z-20 flex shrink-0 flex-col items-center justify-center">
           <div className="mx-auto mb-6 w-full max-w-[1075px] space-y-4 text-center md:mb-10 lg:mb-14">
@@ -38,23 +37,23 @@ const Hero = () => {
               </p>
             </RevealAnimation>
           </div>
-          <ul className="mb-8 flex w-[90%] flex-col gap-4 text-center max-md:items-center max-md:justify-center md:mb-10 lg:mb-14 md:w-auto md:flex-row">
+          <ul className="mb-8 flex w-full flex-col items-center justify-center gap-4 text-center md:mb-10 lg:mb-14 md:flex-row">
             <RevealAnimation delay={0.4}>
-              <li className="w-full sm:w-auto">
+              <li className="flex w-full justify-center md:w-auto">
                 <LinkButton
                   href="https://app.talepnet.com/"
-                  className="btn btn-xl btn-secondary dark:btn-accent hover:btn-white dark:hover:btn-white-dark w-[90%] md:w-auto"
+                  className="btn btn-xl btn-secondary dark:btn-accent hover:btn-white dark:hover:btn-white-dark w-[90%] max-w-[320px] md:w-auto"
                   aria-label={t('hero.startFreeAria')}>
                   {t('hero.startFree')}
                 </LinkButton>
               </li>
             </RevealAnimation>
             <RevealAnimation delay={0.5}>
-              <li className="w-full sm:w-auto">
+              <li className="flex w-full justify-center md:w-auto">
                 <button
                   onClick={openModal}
                   type="button"
-                  className="btn btn-xl dark:btn-white-dark hover:btn-secondary btn-white dark:hover:btn-accent w-[90%] md:w-auto flex items-center justify-center gap-3 group"
+                  className="btn btn-xl dark:btn-white-dark hover:btn-secondary btn-white dark:hover:btn-accent w-[90%] max-w-[320px] md:w-auto flex items-center justify-center gap-3 group"
                   aria-label={t('hero.watchVideoAria')}>
                   <div className="flex h-7 w-7 items-center justify-center rounded-full border-[1.5px] border-current transition-transform duration-300 group-hover:scale-110">
                     <Play className="size-[14px] fill-current ml-[2px]" />
@@ -65,20 +64,55 @@ const Hero = () => {
             </RevealAnimation>
           </ul>
         </div>
-        {/* Dashboard Görseli — kalan alanı doldurarak viewport'un dibine oturur */}
-        <div className="relative mt-auto flex-1">
+        {/* Dashboard Görseli ve İnteraktif Katmanlar */}
+        <div className="relative z-20 mx-auto mt-12 w-full max-w-[95vw] xl:max-w-7xl perspective-[2000px]">
+          
+
+
+          {/* Yüzen Mini UI Kartı 1 (Sol Üst) */}
+          <div className="absolute -left-6 top-8 z-30 hidden animate-[bounce_5s_ease-in-out_infinite] items-center gap-3 rounded-2xl border border-gray-200/50 bg-white/70 p-4 shadow-[0_20px_40px_-20px_rgba(0,0,0,0.15)] backdrop-blur-xl dark:border-white/10 dark:bg-background-6/70 sm:flex xl:-left-12 xl:top-16">
+            <div className="flex h-10 w-10 items-center justify-center rounded-full bg-primary-500/10 text-primary-500">
+              <BellRing size={20} />
+            </div>
+            <div className="flex flex-col">
+              <span className="text-sm font-bold text-heading">Yeni Talep</span>
+              <span className="text-xs font-medium text-text">Az önce ulaştı</span>
+            </div>
+          </div>
+
+          {/* Yüzen Mini UI Kartı 2 (Sağ Orta) */}
+          <div className="absolute -right-6 top-[40%] z-30 hidden animate-[bounce_6s_ease-in-out_infinite_reverse] items-center gap-3 rounded-2xl border border-gray-200/50 bg-white/70 p-4 shadow-[0_20px_40px_-20px_rgba(0,0,0,0.15)] backdrop-blur-xl dark:border-white/10 dark:bg-background-6/70 sm:flex xl:-right-12">
+            <div className="flex h-10 w-10 items-center justify-center rounded-full bg-green-500/10 text-green-500">
+              <CheckCircle2 size={20} />
+            </div>
+            <div className="flex flex-col">
+              <span className="text-sm font-bold text-heading">12 Etkileşim</span>
+              <span className="text-xs font-medium text-text">Teklifler hazır</span>
+            </div>
+          </div>
+
           <RevealAnimation delay={0.6}>
-            <figure className="absolute inset-x-0 bottom-0 mx-auto w-full max-w-none scale-[1.2] origin-bottom sm:scale-[1.25] md:scale-[1.3] lg:scale-[1.3] xl:scale-[1.35] 2xl:scale-[2.2]">
-              <Image
-                src={heroImage}
-                alt="TalepNET Dashboard"
-                className="size-full object-cover object-top dark:hidden"
-              />
-              <Image
-                src={heroImageDark}
-                alt="TalepNET Dashboard"
-                className="hidden size-full object-cover object-top dark:block"
-              />
+            <figure 
+              className="group relative z-10 mx-auto w-full overflow-hidden rounded-xl p-[2px] shadow-[0_0_50px_-10px_rgba(99,102,241,0.25)] transition-all duration-1000 ease-out hover:-translate-y-3 hover:scale-[1.01] hover:shadow-[0_40px_80px_-20px_rgba(99,102,241,0.3)] md:rounded-2xl xl:rounded-3xl"
+              style={{
+                WebkitMaskImage: 'linear-gradient(to bottom, black 35%, transparent 100%)',
+                maskImage: 'linear-gradient(to bottom, black 35%, transparent 100%)',
+              }}
+            >
+              {/* Animasyonlu Işık Efekti (Conic Gradient) */}
+              <span className="absolute inset-[-150%] animate-[spin_4s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,transparent_0%,transparent_50%,#6366f1_100%)] opacity-80 duration-500 group-hover:opacity-100 dark:bg-[conic-gradient(from_90deg_at_50%_50%,transparent_0%,transparent_50%,#8b5cf6_100%)]" />
+              
+              {/* İç Görsel Konteyneri */}
+              <div className="relative h-full w-full overflow-hidden rounded-[10px] bg-background md:rounded-[14px] xl:rounded-[22px] dark:bg-background-6">
+                <Image
+                  src={heroImage}
+                  alt="TalepNET Dashboard"
+                  priority
+                  quality={100}
+                  unoptimized
+                  className="h-auto w-full object-contain"
+                />
+              </div>
             </figure>
           </RevealAnimation>
         </div>

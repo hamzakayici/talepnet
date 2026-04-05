@@ -77,6 +77,7 @@ type Props = {
   flowId: string;
   featureIcons: LucideIcon[];
   theme?: 'green' | 'teal';
+  heroVisual?: React.ReactNode;
 };
 
 export default function ProductManagementPage({
@@ -84,6 +85,7 @@ export default function ProductManagementPage({
   flowId,
   featureIcons,
   theme = 'green',
+  heroVisual,
 }: Props) {
   const { locale } = useI18n();
 
@@ -127,8 +129,12 @@ export default function ProductManagementPage({
 
             <RevealAnimation delay={0.35} direction="right">
               <div className="grid gap-4">
-                <div className="overflow-hidden rounded-[28px] border border-stroke-3 bg-white shadow-[0_30px_80px_rgba(15,23,42,0.08)] dark:border-stroke-7 dark:bg-background-5">
-                  <ImagePlaceholder label={page.heroPlaceholder} className="min-h-[320px] sm:min-h-[390px]" />
+                <div className="relative overflow-hidden rounded-[28px] border border-stroke-3 bg-white shadow-[0_30px_80px_rgba(15,23,42,0.08)] dark:border-stroke-7 dark:bg-background-5">
+                  {heroVisual ? (
+                    heroVisual
+                  ) : (
+                    <ImagePlaceholder label={page.heroPlaceholder} className="min-h-[320px] sm:min-h-[390px]" />
+                  )}
                 </div>
                 <div className={`grid gap-4 ${page.heroCards.length === 3 ? 'sm:grid-cols-3' : 'sm:grid-cols-2'}`}>
                   {page.heroCards.map((card) => (
@@ -241,15 +247,41 @@ export default function ProductManagementPage({
               <h2 className="text-4xl font-normal leading-tight text-accent lg:text-heading-3">{page.sections.flowTitle}</h2>
             </RevealAnimation>
           </div>
-          <div className="grid gap-5 lg:grid-cols-4">
+          <div 
+            className="group/spotlight grid gap-5 lg:grid-cols-4"
+            onMouseMove={(e: React.MouseEvent<HTMLDivElement>) => {
+              const cards = e.currentTarget.querySelectorAll('.spotlight-card');
+              cards.forEach((card) => {
+                if (card instanceof HTMLElement) {
+                  const rect = card.getBoundingClientRect();
+                  const x = e.clientX - rect.left;
+                  const y = e.clientY - rect.top;
+                  card.style.setProperty('--mouse-x', `${x}px`);
+                  card.style.setProperty('--mouse-y', `${y}px`);
+                }
+              });
+            }}
+          >
             {page.steps.map((step, index) => (
               <RevealAnimation key={step.title} delay={0.24 + index * 0.08}>
-                <article className="rounded-[24px] border border-white/10 bg-white/5 p-7">
-                  <span className="mb-5 inline-flex h-8 items-center rounded-full border border-white/10 px-3 text-sm text-accent/70">
-                    {page.sections.stepLabel} {index + 1}
-                  </span>
-                  <h3 className="mb-3 text-2xl font-normal text-accent">{step.title}</h3>
-                  <p className="text-base leading-7 text-accent/70">{step.text}</p>
+                <article className="spotlight-card relative h-full overflow-hidden rounded-[24px] border border-white/5 bg-[#111] p-7 transition-colors hover:border-white/10 hover:bg-[#161616]">
+                  
+                  {/* Spotlight Parlaması */}
+                  <div 
+                    className="pointer-events-none absolute -inset-px opacity-0 transition duration-300 group-hover/spotlight:opacity-100"
+                    style={{
+                      background: 'radial-gradient(400px circle at var(--mouse-x, 0) var(--mouse-y, 0), rgba(255,255,255,0.06), transparent 40%)'
+                    }}
+                  />
+                  
+                  {/* Kart İçeriği */}
+                  <div className="relative z-10 flex h-full flex-col">
+                    <span className="mb-5 inline-flex w-fit items-center rounded-full border border-white/10 bg-white/5 px-3 py-1 text-xs font-semibold tracking-wide text-accent/70">
+                      {page.sections.stepLabel} {index + 1}
+                    </span>
+                    <h3 className="mb-3 text-2xl font-normal text-accent">{step.title}</h3>
+                    <p className="text-base leading-7 text-accent/70">{step.text}</p>
+                  </div>
                 </article>
               </RevealAnimation>
             ))}

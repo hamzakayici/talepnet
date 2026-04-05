@@ -1,5 +1,7 @@
+import type { Locale } from '@/i18n/config';
+
 type PageModule = {
-  default: (props?: { locale?: string; params?: unknown }) => Promise<React.ReactNode> | React.ReactNode;
+  default: (props?: { locale?: Locale; params?: unknown }) => Promise<React.ReactNode> | React.ReactNode;
 };
 
 type PageLoader = () => Promise<PageModule>;

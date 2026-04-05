@@ -16,7 +16,8 @@
     "openRolesTitle": "Current openings",
     "viewRole": "View Role",
     "finalCtaEyebrow": "Join TalepNET",
-    "finalCtaTitle": "We are building AI-powered procurement software with better visibility, stronger control, and less friction across the workflow."
+    "finalCtaTitle": "We are building AI-powered procurement software with better visibility, stronger control, and less friction across the workflow.",
+    "emptyRolesMessage": "There are no open positions at the moment. You can send your resume to our talent pool for future opportunities in our team."
   },
   "detailsPage": {
     "breadcrumbTitle": "Careers",
@@ -35,72 +36,5 @@
     "sectionLookingFor": "What we're looking for",
     "sectionWhyMatters": "Why this role matters"
   },
-  "roles": [
-    {
-      "slug": "growth-marketing-partnerships-lead",
-      "title": "Growth Marketing & Partnerships Lead",
-      "datePosted": "April 9, 2026",
-      "expirationDate": "Open until filled",
-      "location": "Istanbul or Remote",
-      "offeredSalary": "Competitive, based on experience",
-      "experience": "5+ years in B2B SaaS growth, demand generation, or commercial marketing",
-      "qualification": "Strong track record in pipeline-building roles for B2B software companies",
-      "shortDescription": "Own growth programs, sharpen our market presence, and help turn early traction into a repeatable commercial engine.",
-      "employmentType": ["full-time", "hybrid"],
-      "jobSkills": ["Demand Generation", "B2B SaaS Marketing", "Paid Acquisition", "Content and Messaging", "CRM and Funnel Operations", "Partnerships", "Sales Collaboration"],
-      "overview": [
-        "We are hiring a Growth Marketing & Partnerships Lead to help shape how TalepNET grows. This role sits across marketing, commercial strategy, and early revenue operations. You will help us clarify positioning, improve demand generation, and build the right partnerships around an early-stage B2B SaaS product.",
-        "This is not a pure brand role and it is not a narrow campaign role. We need someone who can think strategically and still execute directly. You should be comfortable moving between messaging, landing pages, paid experiments, outbound support, CRM hygiene, and partnership conversations.",
-        "You will work closely with founders, product, and commercial stakeholders. The goal is to build a more disciplined go-to-market motion around a product that solves a real operational problem for procurement teams."
-      ],
-      "workOn": [
-        "Improve how TalepNET is positioned across core ICPs and use cases.",
-        "Build and test growth programs across paid, content, outbound, and partner channels.",
-        "Support early pipeline creation with stronger messaging and campaign structure.",
-        "Help tighten the handoff between marketing activity and commercial follow-up.",
-        "Build a more consistent reporting layer around traffic, lead quality, and pipeline signals."
-      ],
-      "lookingFor": [
-        "Experience in a B2B SaaS environment with visible ownership of growth outcomes.",
-        "Strong commercial judgment, not just channel execution.",
-        "Confidence writing and refining product-facing and market-facing messaging.",
-        "Ability to operate with limited structure and improve it while moving.",
-        "Comfort working closely with founders in an MVP-to-scale transition."
-      ],
-      "whyMatters": "TalepNET is at a stage where go-to-market quality matters more than volume theater. We want someone who can help turn early product direction into a clearer commercial engine and do it with discipline."
-    },
-    {
-      "slug": "product-manager",
-      "title": "Product Manager",
-      "datePosted": "April 9, 2026",
-      "expirationDate": "Open until filled",
-      "location": "Istanbul or Remote",
-      "offeredSalary": "Competitive, based on experience",
-      "experience": "4+ years in SaaS product management",
-      "qualification": "Experience shaping product direction in workflow, operations, or B2B software products",
-      "shortDescription": "Lead product thinking across workflows, priorities, and delivery as TalepNET evolves into a stronger procurement operating system.",
-      "employmentType": ["full-time", "hybrid"],
-      "jobSkills": ["Product Strategy", "Discovery", "Workflow Design", "User Research", "Prioritization", "Cross-functional Delivery", "B2B SaaS"],
-      "overview": [
-        "We are hiring a Product Manager to help shape the next stage of TalepNET. This role is about turning product direction into a clearer roadmap, tighter priorities, and better execution across a workflow-heavy B2B SaaS product.",
-        "TalepNET sits in a part of software where teams care about structure, visibility, and control. That means product work needs more than feature shipping. It needs good judgment about process design, user roles, operational friction, and where complexity should or should not live.",
-        "You will work closely with design, engineering, founders, and go-to-market teams. We are looking for someone who can understand the product deeply, ask better questions, and make the roadmap sharper without overcomplicating it."
-      ],
-      "workOn": [
-        "Drive discovery across procurement workflows, user roles, and operational pain points.",
-        "Translate product direction into clear scopes, priorities, and release decisions.",
-        "Improve how features connect across requests, approvals, purchasing, receiving, and spend visibility.",
-        "Work with engineering and design to keep delivery practical and quality-focused.",
-        "Support product communication across internal teams and customer-facing conversations."
-      ],
-      "lookingFor": [
-        "Strong product judgment in B2B SaaS or workflow-heavy software.",
-        "Experience balancing discovery, prioritization, and delivery in growing product teams.",
-        "Ability to simplify complex operational problems into usable product decisions.",
-        "Comfort working in a direct, low-ceremony environment.",
-        "Clear written and verbal communication across technical and non-technical stakeholders."
-      ],
-      "whyMatters": "TalepNET is moving from a promising foundation toward a more mature product system. This role matters because product quality will depend on better prioritization, clearer workflow thinking, and more disciplined decision-making across the roadmap."
-    }
-  ]
+  "roles": []
 }

@@ -26,7 +26,7 @@ const CareerDetails = async ({ params }: { params: Promise<{ slug: string }> }) 
   const headerList = await headers();
   const locale = (headerList.get('x-locale') as Locale | null) ?? defaultLocale;
   const { career } = await getMessages(locale);
-  const role = career.roles.find((item) => item.slug === slug);
+  const role = career.roles.find((item: any) => item.slug === slug);
 
   if (!role) {
     notFound();

@@ -38,7 +38,7 @@ const Services = () => {
 
   return (
     <RevealAnimation delay={0.1}>
-      <section className="pt-[90px] pb-[50px] sm:pt-[100px] md:pt-[130px] md:pb-[100px] xl:pt-[200px]">
+      <section className="pt-12 pb-[50px] sm:pt-16 md:pt-24 md:pb-[100px] xl:pt-24">
         <div className="main-container">
           <div className="mb-11 space-y-3 text-center md:mb-[70px]">
             <RevealAnimation delay={0.1}>

@@ -55,7 +55,7 @@ const Footer = () => {
   return (
     <footer className="dark:bg-background-8 relative overflow-hidden bg-white">
       <div className="main-container">
-        <RevealAnimation delay={0.7} offset={100} direction="right">
+        <RevealAnimation delay={0.7} offset={100} direction="right" instant={true}>
           <figure
             className={cn(
               'pointer-events-none absolute top-[-237px] right-[-321px] !block size-[600px] rotate-[-38deg] overflow-hidden select-none md:top-[-485px] md:right-[-693px] md:size-[1220px]',
@@ -66,7 +66,7 @@ const Footer = () => {
 
         <div className="grid grid-cols-12 justify-between gap-x-0 gap-y-16 pt-16 pb-16 lg:gap-x-8 xl:gap-x-0 xl:pt-[100px]">
           <div className="col-span-12 lg:col-span-4">
-            <RevealAnimation delay={0.3}>
+            <RevealAnimation delay={0.3} instant={true}>
               <div className="xl:max-w-[306px]">
                 <figure>
                   <Image src={footerLogo} alt="TalepNET" className="h-[30px] w-auto" />
@@ -125,7 +125,7 @@ const Footer = () => {
           <div className="col-span-12 grid grid-cols-12 gap-x-0 gap-y-8 lg:col-span-8">
             {footerLinks.map(({ title, links }, index) => (
               <div className="col-span-12 md:col-span-6 xl:col-span-3" key={title}>
-                <RevealAnimation delay={0.4 + index * 0.1}>
+                <RevealAnimation delay={0.4 + index * 0.1} instant={true}>
                   <div className="space-y-8">
                     <p className="sm:text-heading-6 text-tagline-1 text-secondary dark:text-accent font-normal">
                       {title}
@@ -147,7 +147,7 @@ const Footer = () => {
         </div>
         <div className="relative overflow-hidden pt-6 pb-[60px] text-center">
           <FooterDivider className="bg-stroke-2 dark:bg-accent/5" />
-          <RevealAnimation delay={0.7} offset={10} start="top 105%">
+          <RevealAnimation delay={0.7} offset={10} start="top 105%" instant={true}>
             <p className="text-secondary dark:text-accent/60">
               {t('rights')}
             </p>

@@ -129,7 +129,7 @@ const Navbar = () => {
                       href="#"
                       onClick={(event) => event.preventDefault()}
                       className="hover:border-stroke-2 dark:hover:border-stroke-7 text-tagline-1 text-secondary/60 hover:text-secondary dark:text-accent/60 dark:hover:text-accent flex items-center gap-1 rounded-full border border-transparent px-4 py-2 font-normal transition-all duration-200">
-                      <span>{t('topLevel.platform')}</span>
+                      <span className="uppercase tracking-wide text-xs font-medium">{t('topLevel.platform')}</span>
                       <span className="block origin-center translate-y-px transition-all duration-300 group-hover/nav-item:rotate-180">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
@@ -152,7 +152,7 @@ const Navbar = () => {
                       href="#"
                       onClick={(event) => event.preventDefault()}
                       className="hover:border-stroke-2 dark:hover:border-stroke-7 text-tagline-1 text-secondary/60 hover:text-secondary dark:text-accent/60 dark:hover:text-accent flex items-center gap-1 rounded-full border border-transparent px-4 py-2 font-normal transition-all duration-200">
-                      <span>{t('topLevel.solutions')}</span>
+                      <span className="uppercase tracking-wide text-xs font-medium">{t('topLevel.solutions')}</span>
                       <span className="block origin-center translate-y-px transition-all duration-300 group-hover/nav-item:rotate-180">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
@@ -175,7 +175,7 @@ const Navbar = () => {
                       href="#"
                       onClick={(event) => event.preventDefault()}
                       className="hover:border-stroke-2 dark:hover:border-stroke-7 text-tagline-1 text-secondary/60 hover:text-secondary dark:text-accent/60 dark:hover:text-accent flex items-center gap-1 rounded-full border border-transparent px-4 py-2 font-normal transition-all duration-200">
-                      <span>{t('topLevel.resources')}</span>
+                      <span className="uppercase tracking-wide text-xs font-medium">{t('topLevel.resources')}</span>
                       <span className="block origin-center translate-y-px transition-all duration-300 group-hover/nav-item:rotate-180">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
@@ -198,7 +198,7 @@ const Navbar = () => {
                       href="#"
                       onClick={(event) => event.preventDefault()}
                       className="hover:border-stroke-2 dark:hover:border-stroke-7 text-tagline-1 text-secondary/60 hover:text-secondary dark:text-accent/60 dark:hover:text-accent flex items-center gap-1 rounded-full border border-transparent px-4 py-2 font-normal transition-all duration-200">
-                      <span>{t('topLevel.pricing')}</span>
+                      <span className="uppercase tracking-wide text-xs font-medium">{t('topLevel.pricing')}</span>
                       <span className="block origin-center translate-y-px transition-all duration-300 group-hover/nav-item:rotate-180">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"

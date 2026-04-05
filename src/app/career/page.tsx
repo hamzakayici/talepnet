@@ -32,6 +32,7 @@ const Career = async ({ locale: localeProp }: { locale?: Locale } = {}) => {
         badge={career.listPage.openRolesBadge}
         title={career.listPage.openRolesTitle}
         viewRoleLabel={career.listPage.viewRole}
+        emptyMessage={career.listPage.emptyRolesMessage}
         locale={locale}
       />
       <section className="bg-white py-20 dark:bg-background-6 md:py-24 xl:py-28">

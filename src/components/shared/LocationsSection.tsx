@@ -42,7 +42,7 @@ const LocationsSection = ({
 }: LocationsSectionProps) => {
   return (
     <section className={className}>
-      <div className="main-container grid gap-8 pb-8 lg:grid-cols-[0.78fr_1.22fr] lg:items-start">
+      <div className="main-container grid gap-8 pb-20 lg:pb-32 lg:grid-cols-[0.78fr_1.22fr] lg:items-start">
         <RevealAnimation delay={0.12}>
           <div className="max-w-xl pt-6">
             <span className="text-tagline-1 text-primary-500">{eyebrow}</span>
