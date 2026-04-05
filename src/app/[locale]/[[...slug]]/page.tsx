@@ -1,4 +1,4 @@
-import { isLocale, locales } from '@/i18n/config';
+import { isLocale } from '@/i18n/config';
 import { dynamicRouteLoaders, staticRouteLoaders } from '@/i18n/routeMap';
 import { localizeMetadata } from '@/utils/generateMetaData';
 import { Metadata } from 'next';
@@ -14,9 +14,7 @@ type PageModule = {
   metadata?: Metadata;
 };
 
-export function generateStaticParams() {
-  return locales.map((locale) => ({ locale }));
-}
+
 
 export async function generateMetadata({ params }: { params: Params }): Promise<Metadata> {
   const { locale, slug = [] } = await params;

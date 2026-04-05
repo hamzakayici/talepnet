@@ -11,6 +11,8 @@ import { Metadata } from 'next';
 import { ReactNode, Suspense } from 'react';
 import './globals.css';
 
+export const dynamic = 'force-dynamic';
+
 export const metadata: Metadata = {
   ...generateMetadata(),
 };
