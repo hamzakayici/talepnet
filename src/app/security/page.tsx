@@ -5,7 +5,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   ...defaultMetadata,
-  title: 'Güvenlik | TalepNET',
+  title: 'Security | TalepNET',
 };
 
 const page = () => {

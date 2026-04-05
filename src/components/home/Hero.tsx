@@ -1,4 +1,5 @@
 'use client';
+import { useTranslations } from '@/i18n/useTranslations';
 import heroBg from '@public/images/ns-img-150.png';
 import heroImage from '@public/images/ns-img-151.png';
 import heroBgDark from '@public/images/ns-img-dark-104.png';
@@ -11,6 +12,7 @@ import { useModal } from '@/hooks/useModal';
 
 const Hero = () => {
   const { isOpen, openModal, closeModal, modalRef, contentRef } = useModal();
+  const t = useTranslations('home');
 
   return (
     <section className="relative flex h-screen min-h-[700px] flex-col overflow-hidden">
@@ -26,13 +28,13 @@ const Hero = () => {
           <div className="mx-auto mb-6 w-full max-w-[1075px] space-y-4 text-center md:mb-10 lg:mb-14">
             <RevealAnimation delay={0.2}>
               <h1>
-                Akıllı otomasyon ve izlenebilirlikle <span className="text-primary-500 font-extrabold">satın alma süreçlerinizi</span> dönüştürün
+                {t('hero.titleBefore')} <span className="text-primary-500 font-extrabold">{t('hero.titleHighlight')}</span>{' '}
+                {t('hero.titleAfter')}
               </h1>
             </RevealAnimation>
             <RevealAnimation delay={0.3}>
               <p className="mx-auto max-w-[650px]">
-                TalepNET, her ölçekteki işletmenin satın alma süreçlerini yapay zeka destekli iş akışları,
-                izlenebilirlik ve tedarikçi ağı ile otomatikleştirmesini sağlar.
+                {t('hero.description')}
               </p>
             </RevealAnimation>
           </div>
@@ -42,8 +44,8 @@ const Hero = () => {
                 <LinkButton
                   href="https://app.talepnet.com/"
                   className="btn btn-xl btn-secondary dark:btn-accent hover:btn-white dark:hover:btn-white-dark w-[90%] md:w-auto"
-                  aria-label="Ücretsiz başlayın">
-                  Ücretsiz Başlayın
+                  aria-label={t('hero.startFreeAria')}>
+                  {t('hero.startFree')}
                 </LinkButton>
               </li>
             </RevealAnimation>
@@ -53,11 +55,11 @@ const Hero = () => {
                   onClick={openModal}
                   type="button"
                   className="btn btn-xl dark:btn-white-dark hover:btn-secondary btn-white dark:hover:btn-accent w-[90%] md:w-auto flex items-center justify-center gap-3 group"
-                  aria-label="Videoyu izleyin">
+                  aria-label={t('hero.watchVideoAria')}>
                   <div className="flex h-7 w-7 items-center justify-center rounded-full border-[1.5px] border-current transition-transform duration-300 group-hover:scale-110">
                     <Play className="size-[14px] fill-current ml-[2px]" />
                   </div>
-                  <span>Videoyu İzleyin</span>
+                  <span>{t('hero.watchVideo')}</span>
                 </button>
               </li>
             </RevealAnimation>
@@ -95,7 +97,7 @@ const Hero = () => {
           <button 
             onClick={closeModal} 
             className="absolute top-4 right-4 z-50 rounded-full bg-black/40 p-2 text-white/70 transition-colors hover:bg-black/60 hover:text-white md:top-6 md:right-6"
-            aria-label="Kapat"
+            aria-label={t('hero.closeAria')}
           >
             <svg xmlns="http://www.w3.org/2000/svg" className="size-6 md:size-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
@@ -106,7 +108,7 @@ const Hero = () => {
             <iframe
               className="size-full"
               src="https://www.youtube.com/embed/bypL2ka9mEw?autoplay=1"
-              title="TalepNET Tanıtım Videosu"
+              title={t('hero.videoTitle')}
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               allowFullScreen
             />

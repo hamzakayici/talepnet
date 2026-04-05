@@ -1,0 +1,25 @@
+{
+  "metadata": {
+    "title": "Sektörler | TalepNET",
+    "description": "Otomotiv, inşaat, eğitim, sağlık, konaklama, sivil toplum ve teknoloji ekipleri için TalepNET sektör çözümlerini keşfedin."
+  },
+  "hub": {
+    "badge": "Sektörler",
+    "title": "Her sektörün gerçek çalışma biçimine uyarlanmış satın alma iş akışları",
+    "description": "TalepNET; talepleri, onayları, kaynak bulma süreçlerini, tedarikçileri, siparişleri, teslim almayı, bütçeleri ve harcama görünürlüğünü operasyonel gerçeğe uygun tek bir iş akışı modelinde birleştirir.",
+    "primaryCta": "Demo Talep Et",
+    "secondaryCta": "Sektörleri İncele",
+    "sectionEyebrow": "Sektör çözümleri",
+    "sectionTitle": "Sektöre özel satın alma sayfaları için daha düzgün bir yapı",
+    "viewIndustry": "Sektörü Gör",
+    "items": [
+      { "title": "Otomotiv", "href": "/industries/automotive", "text": "Fabrikalar, şubeler, depolar ve servis operasyonları için bağlantılı satın alma kontrolü." },
+      { "title": "İnşaat", "href": "/industries/construction", "text": "Projeler, sahalar, tedarikçiler ve bütçe hassasiyeti yüksek yürütme için yapılandırılmış satın alma." },
+      { "title": "Eğitim", "href": "/industries/education", "text": "Okullar, kolejler ve çok kampüslü kurumlar için satın alma iş akışları." },
+      { "title": "Sağlık", "href": "/industries/healthcare", "text": "Hastaneler, klinikler, laboratuvarlar ve bakım odaklı operasyonlar için satın alma yapısı." },
+      { "title": "Konaklama", "href": "/industries/hospitality", "text": "Otel, restoran, tatil köyü ve destek ekipleri için çok lokasyonlu satın alma kontrolü." },
+      { "title": "Sivil Toplum", "href": "/industries/non-profit", "text": "Daha güçlü hesap verebilirlik, bütçe ve harcama görünürlüğü ile misyon odaklı satın alma." },
+      { "title": "Teknoloji", "href": "/industries/technology", "text": "Hızlı büyüyen teknoloji ekipleri ve iş birimleri için iş birlikçi harcama kontrolü." }
+    ]
+  }
+}

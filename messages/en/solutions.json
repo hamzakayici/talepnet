@@ -1,0 +1,789 @@
+{
+  "hub": {
+    "badge": "Solutions",
+    "title": "Procurement and finance solutions built on the same operational backbone",
+    "description": "TalepNET groups purchasing control, supplier visibility, budget discipline, and AP readiness into connected solution areas that share the same workflow model.",
+    "primaryCta": "Request a Demo",
+    "secondaryCta": "Explore Solutions",
+    "sectionEyebrow": "Solution Areas",
+    "sectionTitle": "Explore the solution areas TalepNET supports",
+    "viewSolution": "View Solution",
+    "items": [
+      {
+        "title": "Procure-to-Pay",
+        "href": "/solutions/procure-to-pay",
+        "text": "Connect request, sourcing, ordering, receiving, and finance control in one spend workflow."
+      },
+      {
+        "title": "Request-to-Receipt",
+        "href": "/solutions/request-to-receipt",
+        "text": "Move from structured request intake to verified receipt without losing visibility in between."
+      },
+      {
+        "title": "Source-to-Order",
+        "href": "/solutions/source-to-order",
+        "text": "Run sourcing, supplier selection, and order execution through one connected path."
+      },
+      {
+        "title": "Approval Workflow",
+        "href": "/solutions/approval-workflow",
+        "text": "Route decisions with better context, policy control, and end-to-end traceability."
+      },
+      {
+        "title": "Spend Management",
+        "href": "/solutions/spend-management",
+        "text": "Turn procurement activity into budget, supplier, and category visibility you can act on."
+      },
+      {
+        "title": "Budget Control",
+        "href": "/solutions/budget-control",
+        "text": "Bring cost centers, fiscal years, and approval logic closer to purchasing decisions."
+      },
+      {
+        "title": "Accounts Payable",
+        "href": "/solutions/accounts-payable",
+        "text": "Build AP automation on top of cleaner purchasing records, receiving data, and supplier context."
+      }
+    ]
+  },
+  "sourceToOrder": {
+    "badge": "Solutions",
+    "title": "Bring sourcing and purchasing into one connected operating flow",
+    "description": "TalepNET helps procurement teams move from approved demand to supplier selection and purchase order execution with more structure, better visibility, and less manual coordination across sourcing, approvals, supplier collaboration, and order management.",
+    "primaryCta": "Request a Demo",
+    "secondaryCta": "See the Workflow",
+    "heroPlaceholder": "Source-to-order placeholder",
+    "heroHighlights": [
+      "Move from approved demand to supplier selection in one chain",
+      "Compare suppliers with stronger contract and history context",
+      "Carry sourcing outcomes into purchase approvals and order execution",
+      "Keep supplier collaboration and receiving visible after the sourcing event"
+    ],
+    "introEyebrow": "One solution for sourcing decisions and purchasing execution",
+    "introTitle": "Move from approved demand to supplier-facing execution without leaving the same record",
+    "introText": "In many organizations, sourcing and ordering still happen across separate tools, disconnected spreadsheets, and fragmented supplier communication. TalepNET closes that gap by connecting purchase forms, quotations, RFQs, supplier records, contracts, purchase approvals, purchase orders, and receiving into one continuous procurement workflow.",
+    "valueStatements": [
+      {
+        "title": "Source with better context",
+        "text": "TalepNET helps teams compare suppliers with stronger decision support. Buyers can work from approved demand, collect multiple quotations, reuse contracted suppliers, review previous order history, and evaluate the commercial picture in one sourcing workspace."
+      },
+      {
+        "title": "Order with more control",
+        "text": "Once supplier selection is complete, TalepNET carries that decision forward into structured purchase order workflows. Supplier communication, delivery branch context, document generation, and downstream receiving remain connected to the same purchasing chain."
+      },
+      {
+        "title": "Reduce workflow breaks between teams",
+        "text": "Procurement often slows down when requesters, approvers, buyers, and receiving teams work from different process records. TalepNET keeps each stage linked, helping teams move from source to order without rebuilding data or losing visibility."
+      }
+    ],
+    "summaryEyebrow": "From approved demand to supplier-facing execution",
+    "summaryText": "TalepNET’s Source-to-Order capability begins when purchasing demand is ready for sourcing and continues through quotation management, supplier comparison, purchase approval where needed, purchase order placement, and receipt-related follow-through. This gives procurement teams a more complete control layer between internal demand and external supplier commitment.",
+    "summaryPlaceholder": "Purchasing chain placeholder",
+    "featuresEyebrow": "What buyers can do in this flow",
+    "featuresTitle": "A unified sourcing and order execution platform built for buyers",
+    "features": [
+      {
+        "title": "Approved Demand as the Starting Point",
+        "description": "Source from real, workflow-approved purchasing demand instead of rebuilding requirements manually before every sourcing event."
+      },
+      {
+        "title": "Purchase Form Workspace",
+        "description": "Convert selected requests into purchase forms where buyers can manage sourcing activity, quotations, notes, totals, and supplier decisions in one place."
+      },
+      {
+        "title": "Multi-Quotation Handling",
+        "description": "Collect and compare multiple supplier quotations across the same purchase need to improve commercial evaluation and sourcing discipline."
+      },
+      {
+        "title": "Manual and Portal-Based Quote Intake",
+        "description": "Combine manually entered quotations with supplier portal responses inside the same sourcing flow."
+      },
+      {
+        "title": "RFQ Email Workflows",
+        "description": "Send RFQs directly to suppliers from TalepNET, reducing fragmented outreach and keeping quote activity tied to the purchase record."
+      },
+      {
+        "title": "RFQ Monitor",
+        "description": "Track supplier-facing RFQ activity and import supplier portal quotes back into the sourcing workflow."
+      },
+      {
+        "title": "Supplier Portal Collaboration",
+        "description": "Extend sourcing into a more structured supplier collaboration model through portal-enabled RFQ participation and linked order experiences."
+      },
+      {
+        "title": "Contracted Supplier Visibility",
+        "description": "Surface suppliers with active contract coverage directly inside the sourcing process so negotiated commercial structures are easier to reuse."
+      },
+      {
+        "title": "Previous Order Intelligence",
+        "description": "Review historical supplier pricing and order context while sourcing, helping teams make stronger commercial decisions with less guesswork."
+      },
+      {
+        "title": "Lowest-Price Selection Support",
+        "description": "Accelerate sourcing decisions by selecting the lowest available quote lines where speed matters, while preserving buyer control."
+      },
+      {
+        "title": "Best vs Selected Total Visibility",
+        "description": "Compare best available total against final selected total to make sourcing quality more visible before the process moves forward."
+      },
+      {
+        "title": "Purchase Approval Continuity",
+        "description": "Route sourced purchases into purchase approval when the workflow design requires financial or managerial review before order placement."
+      },
+      {
+        "title": "Purchase Order Execution",
+        "description": "Move cleanly from sourced and approved purchases into purchase order creation and supplier-facing execution."
+      },
+      {
+        "title": "Supplier Communication at Order Stage",
+        "description": "Communicate purchase orders through structured email, secure links, and portal-linked collaboration instead of disconnected follow-up."
+      },
+      {
+        "title": "Delivery and Branch Context",
+        "description": "Include delivery branch details in purchase order execution so downstream fulfillment and receiving remain aligned with the actual operational destination."
+      },
+      {
+        "title": "Receiving Continuity",
+        "description": "Carry the order through to receiving so procurement teams can see not only what was sourced and ordered, but what was actually received."
+      }
+    ],
+    "flowEyebrow": "How the process moves",
+    "flowTitle": "From sourcing start to post-order visibility inside one governed flow",
+    "steps": [
+      {
+        "title": "Start from approved demand",
+        "text": "TalepNET brings approved purchase needs into the purchasing workspace, creating a cleaner and more traceable starting point for sourcing."
+      },
+      {
+        "title": "Collect and compare supplier offers",
+        "text": "Buyers manage quotations, RFQs, contracts, and supplier context inside the purchase form to build a better sourcing decision."
+      },
+      {
+        "title": "Move into controlled execution",
+        "text": "Once sourcing is complete, the process continues into purchase approval where needed and then into purchase order execution."
+      },
+      {
+        "title": "Track what happens after the order",
+        "text": "Purchase orders, supplier communication, and receiving remain connected so the organization has visibility beyond the sourcing event itself."
+      }
+    ],
+    "whyEyebrow": "Why this matters for procurement performance",
+    "whyTitle": "Procurement quality depends on whether sourcing and execution remain connected",
+    "whyText": "Sourcing quality does not depend only on supplier quotes. It depends on whether the process is connected. If requirements are unclear, approvals are fragmented, supplier context is missing, or orders are placed outside the same record, procurement teams lose both speed and confidence. TalepNET helps reduce those breaks by turning sourcing and ordering into one governed process.",
+    "whyMessages": [
+      "Better supplier comparison",
+      "Better continuity from sourcing to execution",
+      "Less manual handoff between teams",
+      "Better traceability across commercial decisions",
+      "Better visibility into what happens after supplier selection"
+    ],
+    "benefitsEyebrow": "What teams gain from a connected process",
+    "benefitsTitle": "Better sourcing quality, execution confidence, and supplier collaboration",
+    "benefits": [
+      {
+        "title": "Faster sourcing cycles",
+        "text": "Buyers spend less time rebuilding demand, reformatting supplier input, or chasing fragmented communication."
+      },
+      {
+        "title": "Better supplier decisions",
+        "text": "Quotations, contracts, previous orders, and RFQ responses stay in one decision space, improving sourcing quality."
+      },
+      {
+        "title": "Better execution confidence",
+        "text": "The selected sourcing outcome carries directly into order placement, reducing rework and process ambiguity."
+      },
+      {
+        "title": "Better procurement control",
+        "text": "Approvals, supplier decisions, purchase orders, and receiving all remain part of the same process chain."
+      },
+      {
+        "title": "Better supplier collaboration",
+        "text": "RFQ and order communication become more structured, trackable, and easier to manage across teams and suppliers."
+      }
+    ],
+    "useCasesEyebrow": "Designed for organizations that need more than standalone sourcing",
+    "useCasesText": "TalepNET’s Source-to-Order solution is especially well suited for organizations that want a stronger connection between internal procurement governance and external supplier execution.",
+    "useCases": [
+      "Teams running frequent quotation and supplier comparison processes",
+      "Organizations with purchase approvals before ordering",
+      "Businesses needing stronger continuity between sourcing and execution",
+      "Procurement teams that want contract and supplier intelligence during sourcing",
+      "Companies that need receiving visibility after the order is placed"
+    ],
+    "faqEyebrow": "FAQ",
+    "faqs": [
+      {
+        "question": "What is Source-to-Order in TalepNET?",
+        "answer": "Source-to-Order in TalepNET is the connected process that takes approved demand through sourcing, quotation handling, supplier selection, purchase approval where needed, purchase order execution, and receiving continuity."
+      },
+      {
+        "question": "How is TalepNET different from a standalone sourcing tool?",
+        "answer": "TalepNET does not stop at supplier comparison. It connects sourcing to approvals, purchase orders, supplier communication, and downstream receiving so procurement teams can manage the full path from decision to execution."
+      },
+      {
+        "question": "Can TalepNET support multi-supplier quotation workflows?",
+        "answer": "Yes. Buyers can manage multiple quotations in the purchase form, compare offers, use previous order context, and bring contracted suppliers into the sourcing process."
+      },
+      {
+        "question": "How does TalepNET support supplier collaboration during sourcing?",
+        "answer": "TalepNET supports RFQ email workflows, supplier portal participation, RFQ monitoring, and structured quote import back into the sourcing flow."
+      },
+      {
+        "question": "Does Source-to-Order include order execution?",
+        "answer": "Yes. The process continues into purchase approval where applicable, purchase order placement, supplier communication, and receiving-linked follow-through."
+      }
+    ],
+    "finalEyebrow": "Connect sourcing decisions to real purchasing execution",
+    "finalTitle": "TalepNET helps procurement teams move from supplier comparison to order placement with stronger visibility, cleaner workflows, and more controlled supplier collaboration.",
+    "finalSecondaryCta": "Contact Us"
+  },
+  "requestToReceipt": {
+    "badge": "Solutions",
+    "title": "Turn internal demand into controlled procurement execution from request to receipt",
+    "description": "TalepNET helps organizations manage the full flow from purchase request to receiving through connected request intake, approvals, sourcing, purchasing, order execution, and receipt tracking in one structured procurement workflow.",
+    "primaryCta": "Request a Demo",
+    "secondaryCta": "See the Workflow",
+    "heroPanelTitle": "One continuous process from request creation to operational closure.",
+    "heroPanelText": "In many organizations, requests, approvals, supplier decisions, purchase orders, and receiving happen in different tools or disconnected routines. That breaks visibility and creates unnecessary delays. TalepNET brings those stages together into one governed process so procurement teams can move faster without losing control.",
+    "valueStatements": [
+      {
+        "title": "Start with better request quality",
+        "text": "TalepNET standardizes request intake through structured request workflows and purchase forms, helping organizations capture demand more clearly before it moves into approval and purchasing."
+      },
+      {
+        "title": "Keep every step connected",
+        "text": "Approvals, sourcing, supplier decisions, purchase orders, and receiving stay tied to the same procurement chain, reducing manual handoff and making workflow progress easier to follow."
+      },
+      {
+        "title": "Close the loop with real execution visibility",
+        "text": "TalepNET does not stop at approval or ordering. It carries the process through receiving so teams can see what was actually delivered and how the request concluded operationally."
+      }
+    ],
+    "summaryEyebrow": "From request to confirmed receipt",
+    "summaryTitle": "A controlled flow from need recognition to confirmed receipt",
+    "summaryText": "TalepNET’s Request-to-Receipt solution begins when an internal need is submitted and continues through request approvals, purchasing actions, sourcing decisions, purchase approvals where needed, purchase order execution, and receiving. This creates a clearer and more measurable procurement operating model from start to finish.",
+    "featuresEyebrow": "What the flow includes",
+    "featuresTitle": "The connected controls behind request, purchasing, and receipt",
+    "capabilities": [
+      {
+        "title": "Structured Request Creation",
+        "description": "Capture internal demand through controlled request workflows instead of fragmented emails, spreadsheets, or informal follow-up."
+      },
+      {
+        "title": "Cost Center-Aware Requests",
+        "description": "Bring financial ownership into the process early by attaching cost center context at request stage."
+      },
+      {
+        "title": "Role-Based Approval Routing",
+        "description": "Route requests through the right approvers based on organizational structure, responsibility, and workflow design."
+      },
+      {
+        "title": "Multi-Level Request Approvals",
+        "description": "Support approval processes that can reflect real organizational governance before demand moves into purchasing."
+      },
+      {
+        "title": "Workflow Designer Flexibility",
+        "description": "Configure request, approval, purchasing, warehouse, purchase approval, purchase order, and receiving paths through a visual workflow model."
+      },
+      {
+        "title": "Purchasing Queue Continuity",
+        "description": "Carry approved demand directly into purchasing instead of forcing teams to recreate the requirement manually."
+      },
+      {
+        "title": "Purchase Form Workspace",
+        "description": "Convert approved requests into purchase forms where buyers can manage quotations, sourcing notes, supplier comparisons, and commercial decisions."
+      },
+      {
+        "title": "Supplier Quotation Handling",
+        "description": "Collect and compare multiple quotations across suppliers to improve sourcing discipline and commercial evaluation."
+      },
+      {
+        "title": "Contracted Supplier Visibility",
+        "description": "Surface contracted suppliers and previous order intelligence during sourcing so procurement teams can make better-informed supplier decisions."
+      },
+      {
+        "title": "RFQ and Supplier Collaboration",
+        "description": "Send RFQs by email, monitor supplier responses, and support portal-enabled quote participation within the same sourcing flow."
+      },
+      {
+        "title": "Purchase Approval Where Needed",
+        "description": "Route sourced purchases into purchase approval before order placement when the workflow requires additional governance."
+      },
+      {
+        "title": "Purchase Order Execution",
+        "description": "Move from sourcing and approval into supplier-facing purchase order workflows without breaking the process chain."
+      },
+      {
+        "title": "Supplier Communication Connected to Orders",
+        "description": "Keep order communication tied to the workflow through structured email, secure links, and portal-linked collaboration."
+      },
+      {
+        "title": "Receiving from Placed Orders",
+        "description": "Start receiving directly from placed-order context so delivery recording reflects real purchasing commitments."
+      },
+      {
+        "title": "Partial and Complete Receipt Handling",
+        "description": "Record actual delivered quantities with clearer visibility into remaining quantities and completion status."
+      },
+      {
+        "title": "Receipt Traceability",
+        "description": "Preserve receiving references, receipt numbering, and workflow history so operational closure remains auditable and easy to review."
+      }
+    ],
+    "flowEyebrow": "How it works",
+    "flowTitle": "The flow stays visible from request submission to confirmed delivery.",
+    "steps": [
+      {
+        "title": "Submit the request",
+        "text": "Employees or departments create procurement requests with the right operational and financial context."
+      },
+      {
+        "title": "Approve the demand",
+        "text": "Requests move through the configured approval flow so the organization can validate demand before purchasing begins."
+      },
+      {
+        "title": "Source and execute",
+        "text": "Approved demand enters purchasing, where teams manage quotations, suppliers, approvals, and purchase orders."
+      },
+      {
+        "title": "Record receipt and close the loop",
+        "text": "Receiving records what actually arrived and completes the operational chain from internal request to confirmed delivery."
+      }
+    ],
+    "whyEyebrow": "Why this flow matters for procurement control",
+    "whyTitle": "A connected process prevents demand and execution from drifting apart",
+    "whyText": "Organizations lose control when demand and execution are disconnected. A request may be approved, but if sourcing, ordering, and receiving happen outside the same process, visibility drops and accountability weakens. TalepNET reduces those gaps by creating a continuous workflow from internal request to actual receipt.",
+    "whyMessages": [
+      "Better continuity across procurement stages",
+      "Better visibility into request progress and execution status",
+      "Less duplication between teams",
+      "Better traceability across approvals, sourcing, orders, and receipt",
+      "Better confidence that requests are fully closed, not just approved"
+    ],
+    "benefitsEyebrow": "What teams gain with a connected Request-to-Receipt process",
+    "benefitsTitle": "Business outcomes that go beyond faster approvals",
+    "benefits": [
+      {
+        "title": "Faster process completion",
+        "text": "Requests move forward with less manual handoff and fewer gaps between internal teams."
+      },
+      {
+        "title": "Better procurement accuracy",
+        "text": "Demand, approvals, supplier decisions, and receipts stay connected to the same process record."
+      },
+      {
+        "title": "Better accountability",
+        "text": "Teams can see who requested, who approved, who sourced, who ordered, and what was actually received."
+      },
+      {
+        "title": "Better supplier execution visibility",
+        "text": "The organization gains a clearer view of how supplier decisions translated into real operational delivery."
+      },
+      {
+        "title": "Better budget and spend control",
+        "text": "Financial ownership and purchasing activity remain visible throughout the process, not only at the end."
+      }
+    ],
+    "useCasesEyebrow": "Who it's for",
+    "useCasesTitle": "Designed for organizations that need end-to-end procurement continuity",
+    "useCasesText": "TalepNET’s Request-to-Receipt solution is ideal for organizations that want one operational model from initial demand through supplier delivery.",
+    "useCases": [
+      "Organizations with fragmented request and receiving processes",
+      "Procurement teams needing stronger control across approvals and execution",
+      "Businesses that want sourcing and order stages tied back to real demand",
+      "Companies that need operational closure visibility after delivery",
+      "Teams that want a more measurable procurement lifecycle from start to finish"
+    ],
+    "faqEyebrow": "FAQ",
+    "faqTitle": "Common questions about Request-to-Receipt",
+    "faqs": [
+      {
+        "question": "What is Request-to-Receipt in TalepNET?",
+        "answer": "Request-to-Receipt in TalepNET is the connected procurement process that starts with internal request creation and continues through approvals, sourcing, purchase execution, and receiving."
+      },
+      {
+        "question": "How is TalepNET different from a basic requisition workflow?",
+        "answer": "TalepNET does not stop at request approval. It carries the process through purchasing, supplier decisions, order placement, and receipt confirmation so the organization can manage the full operational chain."
+      },
+      {
+        "question": "Can TalepNET support both request approvals and purchase approvals?",
+        "answer": "Yes. TalepNET supports request approvals and purchase approvals as separate but connected control points within the workflow."
+      },
+      {
+        "question": "How does TalepNET connect requests to purchasing?",
+        "answer": "Approved requests move directly into the purchasing flow, where they can be converted into purchase forms for sourcing and supplier evaluation."
+      },
+      {
+        "question": "Does Request-to-Receipt include receiving?",
+        "answer": "Yes. Receiving is part of the process, helping teams record what was actually delivered and close the workflow with real execution data."
+      }
+    ],
+    "finalEyebrow": "Connect demand, purchasing, and delivery in one controlled flow",
+    "finalTitle": "TalepNET helps organizations manage procurement from request creation to actual receipt with stronger continuity, cleaner workflows, and better operational visibility.",
+    "finalSecondaryCta": "Contact Us"
+  },
+  "procureToPay": {
+    "badge": "Strategic Solution",
+    "title": "Procure-to-pay works best when every step stays connected",
+    "description": "TalepNET helps teams connect request intake, approvals, sourcing, supplier coordination, orders, receiving, budget visibility, and AP control in one procurement system designed to reduce uncertainty across the full spend cycle.",
+    "primaryCta": "Request a Demo",
+    "secondaryCta": "See the P2P Flow",
+    "heroPlaceholder": "Procure-to-pay placeholder",
+    "introEyebrow": "One operational chain from demand to payable readiness",
+    "introTitle": "Procurement control should be in place before AP inherits the process",
+    "introParagraphs": [
+      "Procure-to-pay is often described as a finance process, but in practice it breaks down much earlier. By the time an invoice reaches accounts payable, the most important controls should already be in place. The need should be clearly requested, properly approved, financially owned, commercially sourced, supplier-aligned, ordered, and, where relevant, received. TalepNET strengthens procure-to-pay by connecting those upstream decisions instead of leaving finance to reconstruct them later.",
+      "A stronger P2P model is not only about faster processing. It is about reducing ambiguity across teams. Procurement needs traceability. Finance needs confidence. Approvers need context. Requesters need visibility. Suppliers need structured engagement. TalepNET brings those conditions together in one system so the process feels usable for operations while remaining visible to finance and leadership."
+    ],
+    "coreEyebrow": "P2P discipline starts long before the invoice lands in finance",
+    "coreText": "TalepNET connects the operational side of procurement with the control side of finance. That means requests are governed earlier, supplier decisions stay visible, orders and receipts support downstream review, and spend is easier to understand while commitments are still moving. Instead of treating procure-to-pay as a series of disconnected handoffs, TalepNET helps organizations manage it as one continuous chain.",
+    "corePlaceholder": "P2P chain placeholder",
+    "pillarsEyebrow": "How TalepNET strengthens procure-to-pay",
+    "pillars": [
+      {
+        "title": "Demand enters with structure",
+        "text": "Requests, approvals, and cost center context start the process before spending turns into downstream cleanup. Teams do not need to rely on informal channels or partial information to begin procurement activity."
+      },
+      {
+        "title": "Purchasing stays traceable",
+        "text": "Sourcing, supplier decisions, quotations, purchase orders, and receiving all stay connected to the same procurement chain. This creates a stronger operational record and reduces the number of blind spots between departments."
+      },
+      {
+        "title": "Finance gets cleaner inputs",
+        "text": "Budgets, supplier visibility, execution records, and spend tracking create stronger conditions for reconciliation, review, and payment control. Finance works from a more complete process history rather than an isolated payable event."
+      }
+    ],
+    "summaryEyebrow": "From internal demand to payment preparation",
+    "summaryTitle": "A connected process from request creation to AP-ready records",
+    "summaryParagraphs": [
+      "In TalepNET, procure-to-pay begins with request creation and approval discipline, moves through sourcing and purchasing execution, continues into purchase orders and receiving, and creates a cleaner operational basis for downstream AP handling. The platform’s value is not that it replaces every finance system. Its value is that it improves the quality and traceability of the procurement record before payment decisions are finalized.",
+      "That matters because AP teams do not want more documents. They want fewer unknowns. Procurement leaders do not want more dashboards. They want a process they can trust. TalepNET supports both goals by connecting the procurement side of the chain to the financial side more coherently."
+    ],
+    "flowEyebrow": "How the flow moves from request to payment control",
+    "flowTitle": "One visible chain from demand validation to execution proof",
+    "steps": [
+      {
+        "title": "Requests enter with context",
+        "text": "Employees and teams submit requests with organizational and cost-center context."
+      },
+      {
+        "title": "Approvals validate demand",
+        "text": "Approvals route requests through the right stakeholders before commitments move forward."
+      },
+      {
+        "title": "Purchasing selects the commercial path",
+        "text": "Purchasing teams source demand, compare suppliers, and select the right commercial path."
+      },
+      {
+        "title": "Orders and receipts support payment control",
+        "text": "Purchase orders and receiving records create operational proof before AP and finance close the loop."
+      }
+    ],
+    "featuresEyebrow": "What TalepNET brings into the procure-to-pay flow",
+    "featuresTitle": "The connected controls behind request, purchasing, receiving, and payment readiness",
+    "features": [
+      {
+        "title": "Purchase Requests",
+        "description": "Standardize demand capture so procurement begins from structured, reviewable requests rather than fragmented emails or spreadsheets."
+      },
+      {
+        "title": "Approval Workflow",
+        "description": "Route requests and purchases through configurable approval paths shaped by roles, departments, thresholds, and organizational logic."
+      },
+      {
+        "title": "Cost Center and Budget Context",
+        "description": "Tie financial ownership to requests and purchases early so spend can be understood in relation to cost centers, budgets, and fiscal periods."
+      },
+      {
+        "title": "Purchase Forms and Sourcing",
+        "description": "Convert approved demand into purchase forms where buyers can manage quotations, compare suppliers, and make sourcing decisions with stronger context."
+      },
+      {
+        "title": "Supplier Management",
+        "description": "Keep suppliers, contacts, contracts, quotation activity, and commercial history connected to the same procurement system."
+      },
+      {
+        "title": "RFQ and Quote Collaboration",
+        "description": "Send RFQs, collect supplier responses, monitor portal activity, and manage quotations inside a more traceable sourcing workflow."
+      },
+      {
+        "title": "Contracted Supplier Visibility",
+        "description": "Surface negotiated supplier relationships during sourcing so contract-backed purchasing decisions are easier to apply in practice."
+      },
+      {
+        "title": "Purchase Approvals",
+        "description": "Add an additional governance layer before order placement where the process design requires more financial or managerial control."
+      },
+      {
+        "title": "Purchase Orders",
+        "description": "Move from sourcing and approval into supplier-facing order workflows that keep execution tied to the procurement chain."
+      },
+      {
+        "title": "Receiving",
+        "description": "Record what was actually delivered so procurement and finance can work from operational proof rather than assumptions about fulfillment."
+      },
+      {
+        "title": "Spend Visibility",
+        "description": "Use dashboards and spend insights to understand supplier concentration, category movement, budget pressure, and contract utilization while the process is still active."
+      },
+      {
+        "title": "AP-Ready Procurement Traceability",
+        "description": "Strengthen downstream payable control by ensuring that requests, approvals, supplier decisions, orders, and receipt records remain connected and reviewable."
+      }
+    ],
+    "areasEyebrow": "The connected capabilities that make P2P work",
+    "areas": [
+      "Purchase Requests",
+      "Approval Workflow",
+      "Source-to-Order",
+      "Supplier Management",
+      "Budget Control",
+      "Accounts Payable Foundation"
+    ],
+    "mattersEyebrow": "Procure-to-pay fails when teams inherit uncertainty",
+    "mattersParagraphs": [
+      "The biggest weakness in many P2P environments is not missing software. It is missing continuity. Procurement may approve demand, but AP cannot see why the purchase happened. Finance may see the invoice, but not the sourcing decision behind it. Suppliers may be selected, but receiving data remains incomplete. The problem is rarely one broken step. It is the lack of connection between steps.",
+      "TalepNET addresses that by bringing operational continuity into the procurement chain. Requests do not disappear after approval. Supplier decisions do not become disconnected from purchase execution. Receiving does not sit outside the record. Cost center context does not vanish after intake. This is what makes procure-to-pay more governable and more useful for both procurement and finance."
+    ],
+    "procurementEyebrow": "For procurement leaders",
+    "procurementTitle": "Create stronger purchasing discipline without slowing the business",
+    "procurementText": "Procurement leaders need a system that helps teams move faster while preserving control. TalepNET supports that by giving buyers a structured sourcing workspace, by keeping approvals and supplier decisions visible, and by reducing workflow breaks between demand intake and order execution. That makes the commercial side of P2P more resilient and easier to manage at scale.",
+    "financeEyebrow": "For finance and AP teams",
+    "financeTitle": "Give finance cleaner records and fewer surprises",
+    "financeText": "Finance teams do not want to spend time decoding incomplete procurement decisions. They want clarity around who requested something, who approved it, what was sourced, what was ordered, what was received, and where the cost belongs. TalepNET improves those conditions by preserving procurement context across the chain. While TalepNET is not yet a full invoice automation suite, it creates a much stronger foundation for downstream AP review, matching logic, and payment preparation.",
+    "apFoundationEyebrow": "Why TalepNET is a strong foundation for AP control",
+    "apFoundationTitle": "Stronger procure-to-pay depends on better upstream procurement data",
+    "apFoundationParagraphs": [
+      "A mature AP process depends on good upstream procurement data. That is why TalepNET fits naturally into procure-to-pay positioning even before full invoice automation is expanded. The platform already supports the process evidence that finance depends on: approved demand, supplier identity, quotation history, purchase approvals, purchase orders, receiving records, cost centers, and spend visibility.",
+      "Over time, this foundation can support deeper finance-side extensions such as invoice capture, invoice approval workflows, matching against PO and receiving data, exception handling, and payment preparation logic. But even today, TalepNET improves the part of procure-to-pay that most often creates the downstream problem: fragmented procurement execution."
+    ],
+    "outcomesEyebrow": "Business outcomes across procurement and finance",
+    "outcomesTitle": "What teams gain when the chain stays connected",
+    "outcomes": [
+      {
+        "title": "Less fragmented coordination between procurement and finance",
+        "text": "Both teams work from a more connected chain of decisions, reducing manual clarification and cross-functional friction."
+      },
+      {
+        "title": "Better approval discipline before commitments become liabilities",
+        "text": "Requests and purchases are governed earlier, making it easier to control spending before it reaches the final payable stage."
+      },
+      {
+        "title": "Stronger visibility from intake to payment preparation",
+        "text": "Leadership can understand how procurement commitments were formed, not just what eventually appeared in reporting."
+      },
+      {
+        "title": "Cleaner spend control across suppliers, budgets, and execution records",
+        "text": "Spend becomes easier to interpret when it remains tied to suppliers, contracts, approvals, orders, and receipts."
+      },
+      {
+        "title": "Better readiness for AP review and reconciliation",
+        "text": "Finance works from better procurement inputs, which reduces uncertainty and improves downstream control conditions."
+      }
+    ],
+    "seoEyebrow": "What is procure-to-pay software?",
+    "seoTitle": "P2P software should improve both procurement efficiency and finance control",
+    "seoText": "Procure-to-pay software helps organizations manage the process from internal purchasing need through approval, supplier selection, order execution, receipt, and financial follow-through. A strong P2P system should improve both procurement efficiency and finance control. TalepNET supports this by connecting request workflows, sourcing, supplier management, purchase orders, receiving, budget control, and AP-ready traceability in one platform.",
+    "faqEyebrow": "FAQ",
+    "faqTitle": "Common questions about Procure-to-Pay",
+    "faqs": [
+      {
+        "question": "What does procure-to-pay mean in TalepNET?",
+        "answer": "In TalepNET, procure-to-pay refers to the connected chain from request intake and approval through sourcing, supplier selection, purchase orders, receiving, and the procurement traceability finance needs before payment review."
+      },
+      {
+        "question": "Does TalepNET support the full procure-to-pay process?",
+        "answer": "TalepNET strongly supports the procurement side of P2P, including requests, approvals, sourcing, suppliers, purchase orders, receiving, budgets, and spend visibility. It creates an AP-ready procurement foundation, even if invoice-side automation is not yet the strongest part of the product."
+      },
+      {
+        "question": "How is TalepNET different from a standalone AP tool?",
+        "answer": "TalepNET improves the upstream side of procure-to-pay by reducing uncertainty before invoices reach finance. It helps teams create cleaner purchasing conditions rather than asking AP to resolve fragmented procurement history later."
+      },
+      {
+        "question": "How does TalepNET support finance control?",
+        "answer": "Through cost centers, fiscal years, budget visibility, approval discipline, supplier traceability, purchase orders, and receiving records that keep financial ownership and operational evidence visible across the process."
+      },
+      {
+        "question": "Why is receiving important in procure-to-pay?",
+        "answer": "Because payment control is much stronger when finance can see what was actually delivered, not only what was requested or ordered."
+      },
+      {
+        "question": "Can TalepNET evolve toward deeper AP automation?",
+        "answer": "Yes. The existing procurement structure provides a strong base for future invoice workflows, matching logic, exception handling, and broader accounts payable automation."
+      }
+    ],
+    "finalEyebrow": "Build procure-to-pay on top of connected decisions, not disconnected handoffs",
+    "finalTitle": "TalepNET helps organizations improve procurement discipline, strengthen finance visibility, and create cleaner payment conditions by connecting every step from request to receipt.",
+    "finalSecondaryCta": "Contact Us"
+  },
+  "accountsPayable": {
+    "badge": "Strategic Solution",
+    "title": "Accounts payable automation starts with procurement control, not at the invoice",
+    "description": "TalepNET helps finance and procurement teams centralize purchasing context, approvals, supplier records, order history, receiving data, and spend visibility so invoice processing becomes faster, more accurate, and easier to trust.",
+    "primaryCta": "Request a Demo",
+    "secondaryCta": "See the AP Workflow",
+    "heroPlaceholder": "AP workflow placeholder",
+    "heroHighlights": [
+      "Purchasing context stays visible before invoice review starts",
+      "Approvals, supplier choices, POs, and receiving remain connected",
+      "Cost center and budget ownership carry into finance control",
+      "AP teams spend less time reconstructing payable history"
+    ],
+    "introEyebrow": "Centralize invoice control and trust every payment decision",
+    "introTitle": "AP moves faster when invoice review starts with real purchasing history",
+    "introParagraphs": [
+      "Most AP tools enter the process too late. By the time an invoice arrives, the hard questions should already be answered: what was requested, who approved it, which supplier was selected, what was ordered, and what was actually received.",
+      "TalepNET strengthens accounts payable automation by connecting AP control to the full procurement lifecycle before invoices become payment risk."
+    ],
+    "pillarsEyebrow": "What finance teams need before AP can really move faster",
+    "pillars": [
+      {
+        "title": "Verified purchasing context",
+        "text": "Every invoice should point back to a real purchasing decision. TalepNET connects requests, approvals, quotations, purchase orders, and receiving history in one operational record."
+      },
+      {
+        "title": "Audit-ready process visibility",
+        "text": "Workflow actions, approval steps, supplier decisions, and execution history stay tied together, making it easier to understand why a payable exists and how it moved through the organization."
+      },
+      {
+        "title": "Unified finance and procurement control",
+        "text": "Cost centers, fiscal years, budget visibility, supplier records, and procurement activity contribute to a cleaner AP environment where finance does not need to rebuild context manually."
+      }
+    ],
+    "flowEyebrow": "How the process gets cleaner before AP review",
+    "flowTitle": "The payable record becomes easier to trust because the procurement record is already clean.",
+    "steps": [
+      {
+        "title": "Control spend before it becomes payable",
+        "text": "Requests are captured with approval logic, organizational routing, and cost-center context before purchasing commitments are made."
+      },
+      {
+        "title": "Connect sourcing and supplier decisions",
+        "text": "Purchase forms, quotations, contracted suppliers, and previous order context keep the commercial side of the transaction visible and traceable."
+      },
+      {
+        "title": "Tie orders to real execution",
+        "text": "Purchase orders and receiving records create a stronger operational basis for invoice validation and downstream finance review."
+      },
+      {
+        "title": "Give AP cleaner reconciliation conditions",
+        "text": "Finance teams work from procurement-backed records rather than isolated invoice documents, reducing uncertainty, follow-up effort, and approval ambiguity."
+      }
+    ],
+    "featuresEyebrow": "The AP automation foundation your finance team actually needs",
+    "features": [
+      {
+        "title": "Procurement-to-AP visibility",
+        "text": "TalepNET connects invoice-relevant context to the full purchasing chain, from request intake and approvals to sourcing, ordering, and receiving."
+      },
+      {
+        "title": "Approval workflows with policy logic",
+        "text": "Approval workflows can reflect real business rules such as departments, thresholds, and organizational roles, giving finance better confidence that payable commitments were properly authorized."
+      },
+      {
+        "title": "Purchase order and receiving continuity",
+        "text": "Orders and receipts remain visible in the system, giving AP teams stronger evidence of what was committed and what was actually delivered."
+      },
+      {
+        "title": "Supplier clarity in one place",
+        "text": "Supplier records, contacts, contracts, quotations, RFQ activity, and order communication remain connected, making vendor-side invoice review easier to validate and follow."
+      },
+      {
+        "title": "Budget and cost center control",
+        "text": "Cost centers, fiscal years, and budget visibility help finance teams understand where payables belong and how they relate to budget ownership."
+      },
+      {
+        "title": "Spend visibility for finance leadership",
+        "text": "Budget overview, managed cost center spend, supplier spend, and contracted versus non-contracted patterns support a more informed AP and finance control model."
+      }
+    ],
+    "strengthsEyebrow": "Current strengths that directly support AP automation",
+    "strengths": [
+      "Request and approval workflows before purchasing commitments are made",
+      "Purchase forms with quotation comparison and supplier decision traceability",
+      "Purchase approvals before execution where configured",
+      "Purchase order generation and supplier communication",
+      "Receiving records with quantity and document context",
+      "Supplier master data, contacts, and contract visibility",
+      "Cost center and fiscal year structures for budget-aware procurement",
+      "Workflow history and operational traceability across purchasing stages"
+    ],
+    "futureEyebrow": "Natural extensions for a fuller AP automation layer",
+    "futureText": "If TalepNET expands this solution area further, the next logical capabilities would sit on top of the procurement foundation that already exists.",
+    "futureReady": [
+      "Invoice intake inbox with document capture",
+      "OCR-assisted invoice extraction",
+      "Invoice-specific approval flows",
+      "Two-way and three-way matching against PO and receiving data",
+      "Duplicate invoice detection",
+      "Payment scheduling and status tracking",
+      "ERP or accounting sync for approved payable records",
+      "Exception queues for mismatches, deposits, and prepayments"
+    ],
+    "whyEyebrow": "Why settle for half the process?",
+    "whyTitle": "TalepNET can shift AP control upstream instead of asking finance to fix ambiguity later",
+    "whyMessages": [
+      "Not just invoice visibility, but procurement visibility",
+      "Not just approval of bills, but approval of demand and supplier commitment",
+      "Not just reconciliation support, but operational context for reconciliation",
+      "Not just finance reporting, but workflow-linked spend control"
+    ],
+    "stakeholdersEyebrow": "What this means for each team",
+    "stakeholderBenefits": [
+      {
+        "title": "Finance Leadership",
+        "text": "Gain better visibility into unpaid commitments, budget pressure, and supplier-related spend with stronger confidence in the underlying process."
+      },
+      {
+        "title": "Accounts Payable Team",
+        "text": "Spend less time chasing requesters, buyers, and approvers to understand what an invoice refers to and whether it should move forward."
+      },
+      {
+        "title": "Procurement Team",
+        "text": "Create a cleaner purchasing record that supports reconciliation later, while maintaining stronger supplier, contract, and sourcing discipline."
+      },
+      {
+        "title": "Approvers and Budget Owners",
+        "text": "Review requests and purchases earlier in the lifecycle so financial control happens before invoices become a problem."
+      },
+      {
+        "title": "IT and Systems Teams",
+        "text": "Build AP automation on top of a structured procurement backbone instead of stitching together fragmented process data."
+      }
+    ],
+    "useCasesEyebrow": "Where TalepNET supports AP automation best",
+    "useCases": [
+      "Organizations that already want stronger procure-to-pay discipline",
+      "Finance teams struggling with weak PO and receiving visibility",
+      "Procurement-heavy businesses where invoice context is frequently unclear",
+      "Companies needing better cost center and budget alignment before payment",
+      "Teams that want to reduce manual reconciliation effort by cleaning up upstream purchasing behavior"
+    ],
+    "faqEyebrow": "Common questions about AP automation",
+    "faqs": [
+      {
+        "question": "How is TalepNET’s AP automation approach different from a traditional AP tool?",
+        "answer": "TalepNET improves AP control by strengthening the procurement chain before invoice processing begins, connecting requests, approvals, supplier decisions, purchase orders, and receiving context to the payable record."
+      },
+      {
+        "question": "Does TalepNET already support invoice-side automation end to end?",
+        "answer": "Today, TalepNET’s strongest AP value comes from procurement-side control, traceability, supplier visibility, and execution context. It creates a stronger foundation for AP automation and can naturally be extended into deeper invoice automation workflows."
+      },
+      {
+        "question": "Why does procurement visibility matter so much for AP?",
+        "answer": "Invoice validation is far easier when finance can clearly see what was requested, approved, ordered, and received instead of working from disconnected invoice documents alone."
+      },
+      {
+        "question": "How does TalepNET support budget-aware AP control?",
+        "answer": "Cost centers, fiscal years, budget visibility, and managed spend views help finance teams understand how payable activity relates to ownership and financial limits."
+      },
+      {
+        "question": "Can TalepNET support three-way matching in the future?",
+        "answer": "Yes. The existing structure around purchase orders and receiving already creates the core process data needed for future PO-receipt-invoice matching workflows."
+      }
+    ],
+    "finalEyebrow": "Build accounts payable automation on top of cleaner procurement control",
+    "finalTitle": "TalepNET helps finance and procurement teams reduce uncertainty, improve traceability, and create stronger payable conditions before invoices ever reach the final approval stage.",
+    "finalSecondaryCta": "Contact Us"
+  }
+}

@@ -20,7 +20,7 @@ export interface MobileMenuGroup {
   submenu: MobileMenuItem[];
 }
 
-const MobileMenu = ({ menuData }: { menuData: MobileMenuGroup[] }) => {
+const MobileMenu = ({ menuData, menuLabel }: { menuData: MobileMenuGroup[]; menuLabel: string }) => {
   const { isOpen } = useMobileMenuContext();
   return (
     <aside
@@ -43,7 +43,7 @@ const MobileMenu = ({ menuData }: { menuData: MobileMenuGroup[] }) => {
         {/* menu items list  */}
         <div className="scroll-bar mt-6 h-[85vh] w-full overflow-x-hidden pb-10">
           <p className="text-secondary dark:text-accent text-tagline-1 before:bg-stroke-4 dark:before:bg-stroke-6 relative mb-2 block font-normal before:absolute before:top-1/2 before:-right-16 before:h-px before:w-full before:-translate-y-1/2 before:content-['']">
-            Menu
+            {menuLabel}
           </p>
           <ul className="space-y-2">
             {menuData.map((item) => (

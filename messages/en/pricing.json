@@ -1,0 +1,93 @@
+{
+  "badge": "Pricing",
+  "title": "Flexible plans for different team needs",
+  "description": "Choose the plan that fits your team, workflows, and operational requirements.",
+  "plans": [
+    {
+      "name": "Free",
+      "subtitle": "Start with 1 user",
+      "summary": "A simple starting point for teams that want to explore TalepNET.",
+      "ctaLabel": "Get Started Free",
+      "ctaHref": "https://app.talepnet.com/sign-up",
+      "featured": true
+    },
+    {
+      "name": "Team",
+      "subtitle": "For growing teams",
+      "summary": "A practical option for teams that need more structure and day-to-day control.",
+      "ctaLabel": "Get Started",
+      "ctaHref": "https://app.talepnet.com/sign-up",
+      "featured": false
+    },
+    {
+      "name": "Business",
+      "subtitle": "For broader team needs",
+      "summary": "Designed for organizations that need broader workflow coverage, higher limits, and more reporting.",
+      "ctaLabel": "Get Started",
+      "ctaHref": "https://app.talepnet.com/sign-up",
+      "featured": false
+    },
+    {
+      "name": "Enterprise",
+      "subtitle": "For advanced organizational needs",
+      "summary": "For organizations that need advanced security, integrations, and dedicated support.",
+      "ctaLabel": "Get Started",
+      "ctaHref": "https://app.talepnet.com/sign-up",
+      "featured": false
+    }
+  ],
+  "comparison": {
+    "title": "Compare plans in detail",
+    "description": "Review key limits and capabilities side by side.",
+    "featureColumn": "Feature",
+    "columns": {
+      "team": "Team",
+      "business": "Business",
+      "enterprise": "Enterprise"
+    },
+    "sections": {
+      "coreLimits": "Core limits",
+      "workflowAndOperations": "Workflow and operations",
+      "reports": "Reports",
+      "securityAndSupport": "Security and support"
+    },
+    "customQuote": {
+      "title": "Need a custom quote?",
+      "description": "Contact our team for custom pricing, integrations, or specific implementation needs.",
+      "cta": "Request a Quote"
+    }
+  },
+  "coreLimits": [
+    { "feature": "Procurement contracts", "team": "100", "business": "Unlimited", "enterprise": "Unlimited" },
+    { "feature": "Cost centers", "team": "100", "business": "Unlimited", "enterprise": "Unlimited" },
+    { "feature": "RFQ per month", "team": "200", "business": "1000", "enterprise": "Unlimited" },
+    { "feature": "Purchase orders per month", "team": "200", "business": "1000", "enterprise": "Unlimited" },
+    { "feature": "Storage", "team": "100 GB", "business": "500 GB", "enterprise": "Unlimited" }
+  ],
+  "workflowAndOperations": [
+    { "feature": "Workflow: Request", "team": true, "business": true, "enterprise": true },
+    { "feature": "Workflow: Approvals", "team": true, "business": true, "enterprise": true },
+    { "feature": "Workflow: Purchase", "team": true, "business": true, "enterprise": true },
+    { "feature": "Workflow: Warehouse", "team": false, "business": true, "enterprise": true },
+    { "feature": "Workflow: Receiving", "team": true, "business": true, "enterprise": true },
+    { "feature": "Workflow: Advanced rules", "team": false, "business": true, "enterprise": true },
+    { "feature": "Proxy approval", "team": false, "business": true, "enterprise": true },
+    { "feature": "Approval reminder / escalation", "team": false, "business": true, "enterprise": true },
+    { "feature": "Budget control", "team": true, "business": true, "enterprise": true },
+    { "feature": "Supplier onboarding", "team": true, "business": true, "enterprise": true },
+    { "feature": "Supplier performance", "team": false, "business": true, "enterprise": true }
+  ],
+  "reports": [
+    { "feature": "Dashboard", "team": "Standard", "business": "Advanced", "enterprise": "Advanced" },
+    { "feature": "Analytics", "team": "Standard", "business": "Operational + spend basics", "enterprise": "Advanced" },
+    { "feature": "Scheduled reports", "team": false, "business": true, "enterprise": true },
+    { "feature": "Excel/CSV export", "team": false, "business": true, "enterprise": true }
+  ],
+  "securityAndSupport": [
+    { "feature": "2FA support", "team": false, "business": true, "enterprise": true },
+    { "feature": "Webhooks / API", "team": false, "business": false, "enterprise": true },
+    { "feature": "SSO / SAML", "team": false, "business": false, "enterprise": true },
+    { "feature": "IP allowlist + session management", "team": false, "business": false, "enterprise": true },
+    { "feature": "Support", "team": "Standard", "business": "Priority", "enterprise": "Dedicated" }
+  ]
+}

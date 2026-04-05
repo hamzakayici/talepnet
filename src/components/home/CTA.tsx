@@ -1,3 +1,6 @@
+'use client';
+
+import { useTranslations } from '@/i18n/useTranslations';
 import ctaImage from '@public/images/ns-img-290.png';
 import Image from 'next/image';
 import RevealAnimation from '../animation/RevealAnimation';
@@ -8,22 +11,23 @@ interface CTAFeature {
   text: string;
 }
 
-const ctaFeatures: CTAFeature[] = [
-  {
-    id: 1,
-    text: 'Satın alma siparişlerinizi kolayca yönetin',
-  },
-  {
-    id: 2,
-    text: 'Tedarikçi ağınızı genişletin ve yeni tedarikçiler bulun',
-  },
-  {
-    id: 3,
-    text: 'Dakikalar içinde başlayın',
-  },
-];
-
 const CTA = () => {
+  const t = useTranslations('home');
+  const ctaFeatures: CTAFeature[] = [
+    {
+      id: 1,
+      text: t('cta.items.0'),
+    },
+    {
+      id: 2,
+      text: t('cta.items.1'),
+    },
+    {
+      id: 3,
+      text: t('cta.items.2'),
+    },
+  ];
+
   return (
     <RevealAnimation delay={0.1}>
       <section className="py-20 md:py-[100px] lg:py-[150px]">
@@ -32,7 +36,7 @@ const CTA = () => {
             <div className="col-span-12 md:col-span-6">
               <div className="mb-11 space-y-8 md:mb-14">
                 <RevealAnimation delay={0.1}>
-                  <h2 className="max-w-[400px] lg:max-w-[595px]">TalepNET&apos;i hemen ücretsiz deneyin</h2>
+                  <h2 className="max-w-[400px] lg:max-w-[595px]">{t('cta.title')}</h2>
                 </RevealAnimation>
                 <ul className="space-y-2">
                   {ctaFeatures.map((feature, index) => (
@@ -65,7 +69,7 @@ const CTA = () => {
                   <LinkButton
                     href="https://app.talepnet.com/sign-up"
                     className="btn btn-secondary dark:btn-accent md:btn-xl btn-lg hover:btn-primary mx-auto w-[90%] md:mx-0 md:w-auto">
-                    Ücretsiz Başlayın
+                    {t('cta.button')}
                   </LinkButton>
                 </div>
               </RevealAnimation>
@@ -76,7 +80,7 @@ const CTA = () => {
                   <figure className="w-full overflow-hidden rounded-2xl lg:max-w-[597px]">
                     <Image
                       src={ctaImage}
-                      alt="TalepNET satın alma yönetim paneli"
+                      alt="TalepNET procurement dashboard"
                       className="h-full w-full object-cover"
                       width={597}
                       height={400}

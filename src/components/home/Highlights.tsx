@@ -1,7 +1,12 @@
+'use client';
+
+import { useTranslations } from '@/i18n/useTranslations';
 import NumberAnimation from '../animation/NumberAnimation';
 import RevealAnimation from '../animation/RevealAnimation';
 
 const Highlights = () => {
+  const t = useTranslations('home');
+
   return (
     <section className="xl:pt-[100px] pt-[50px] xl:pb-[160px] sm:pb-[100px] md:pb-[70px] pb-16">
       <div className="main-container">
@@ -29,7 +34,7 @@ const Highlights = () => {
               <div className="text-center">
                 <h3 className="text-white flex items-center justify-center lg:text-heading-6 text-[19px] font-normal">
                   <NumberAnimation number={500} speed={1000} interval={180} rooms={3} heightSpaceRatio={2.5} /> +
-                  Aktif Şirket
+                  {t('highlights.activeCompanies')}
                 </h3>
               </div>
             </div>
@@ -69,7 +74,7 @@ const Highlights = () => {
               <div className="text-center">
                 <h3 className="text-white flex items-center justify-center lg:text-heading-6 text-[19px] font-normal">
                   %<NumberAnimation number={98} speed={1000} interval={180} rooms={2} heightSpaceRatio={2.5} />
-                  {' '}Müşteri Memnuniyeti
+                  {' '}{t('highlights.customerSatisfaction')}
                 </h3>
               </div>
             </div>
@@ -88,7 +93,7 @@ const Highlights = () => {
               <div className="text-center">
                 <h3 className="text-white flex items-center justify-center lg:text-heading-6 text-[19px] font-normal">
                   <NumberAnimation number={10} speed={1000} interval={180} rooms={2} heightSpaceRatio={2.5} /> K+
-                  İşlenen Sipariş
+                  {t('highlights.processedOrders')}
                 </h3>
               </div>
             </div>

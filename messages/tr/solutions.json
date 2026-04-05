@@ -1,0 +1,789 @@
+{
+  "hub": {
+    "badge": "Çözümler",
+    "title": "Aynı operasyonel yapı üzerinde çalışan satın alma ve finans çözümleri",
+    "description": "TalepNET, satın alma kontrolünü, tedarikçi görünürlüğünü, bütçe disiplinini ve ödeme süreçlerine hazırlığı aynı işleyiş modeli içinde birbirine bağlayan çözüm alanlarını bir araya getirir.",
+    "primaryCta": "Demo Talep Et",
+    "secondaryCta": "Çözümleri İncele",
+    "sectionEyebrow": "Çözüm Alanları",
+    "sectionTitle": "TalepNET’in desteklediği çözüm alanlarını inceleyin",
+    "viewSolution": "Çözümü Gör",
+    "items": [
+      {
+        "title": "Procure-to-Pay",
+        "href": "/solutions/procure-to-pay",
+        "text": "Talep, tedarik, sipariş, teslim alma ve finans kontrolünü tek bir harcama akışında bir araya getirin."
+      },
+      {
+        "title": "Request-to-Receipt",
+        "href": "/solutions/request-to-receipt",
+        "text": "Yapılandırılmış talep girişinden doğrulanmış teslim almaya kadar görünürlüğü koruyarak ilerleyin."
+      },
+      {
+        "title": "Source-to-Order",
+        "href": "/solutions/source-to-order",
+        "text": "Tedarikçi seçimi ve sipariş yürütmeyi tek bir bağlı satın alma akışı içinde yönetin."
+      },
+      {
+        "title": "Onay İş Akışı",
+        "href": "/solutions/approval-workflow",
+        "text": "Kararları daha güçlü bağlam, politika kontrolü ve uçtan uca izlenebilirlikle yönetin."
+      },
+      {
+        "title": "Harcama Yönetimi",
+        "href": "/solutions/spend-management",
+        "text": "Satın alma faaliyetini aksiyon alınabilir bütçe, tedarikçi ve kategori görünürlüğüne dönüştürün."
+      },
+      {
+        "title": "Bütçe Kontrolü",
+        "href": "/solutions/budget-control",
+        "text": "Masraf merkezi, mali yıl ve onay mantığını satın alma kararlarına daha yakın hale getirin."
+      },
+      {
+        "title": "Ödeme Süreçleri",
+        "href": "/solutions/accounts-payable",
+        "text": "Ödeme öncesi kontrol süreçlerini daha düzenli satın alma kayıtları, teslim alma verileri ve tedarikçi bağlamı üzerinde güçlendirin."
+      }
+    ]
+  },
+  "sourceToOrder": {
+    "badge": "Çözümler",
+    "title": "Tedarikçi seçimi ve satın alma süreçlerini tek bir bağlı operasyon akışında yönetin",
+    "description": "TalepNET, satın alma ekiplerinin onaylanmış talepten tedarikçi seçimine ve sipariş yürütmeye kadar daha fazla yapı, daha iyi görünürlük ve daha az manuel koordinasyonla ilerlemesini sağlar.",
+    "primaryCta": "Demo Talep Et",
+    "secondaryCta": "Akışı Gör",
+    "heroPlaceholder": "Source-to-order placeholder",
+    "heroHighlights": [
+      "Onaylanmış talepten tedarikçi seçimine kadar tek bir zincirde ilerleyin",
+      "Tedarikçileri sözleşme bilgisi ve geçmiş sipariş bağlamıyla daha sağlıklı karşılaştırın",
+      "Tedarik kararını satın alma onayı ve sipariş sürecine taşıyın",
+      "Tedarikçi iş birliği ve teslim alma görünürlüğünü süreç sonrasında da koruyun"
+    ],
+    "introEyebrow": "Tedarik kararları ve satın alma süreci için tek çözüm",
+    "introTitle": "Onaylanmış talepten tedarikçiye dönük yürütmeye aynı kayıt içinde ilerleyin",
+    "introText": "Birçok organizasyonda tedarik ve sipariş süreçleri hâlâ ayrı araçlar, dağınık tablolar ve kesintili tedarikçi iletişimi üzerinden ilerler. TalepNET bu boşluğu satın alma formları, teklifler, teklif talepleri, tedarikçi kayıtları, sözleşmeler, satın alma onayları, satın alma siparişleri ve teslim alma süreçlerini tek bir sürekli satın alma akışında birleştirerek kapatır.",
+    "valueStatements": [
+      {
+        "title": "Tedarikçi seçimini daha güçlü bir zemine oturtun",
+        "text": "TalepNET, ekiplerin tedarikçileri daha güçlü karar desteğiyle karşılaştırmasını sağlar. Satın alma ekipleri onaylanmış talepten çalışabilir, birden fazla teklif toplayabilir, sözleşmeli tedarikçileri yeniden kullanabilir, geçmiş siparişleri inceleyebilir ve ticari tabloyu tek bir çalışma alanında değerlendirebilir."
+      },
+      {
+        "title": "Satın alma sipariş sürecini daha kontrollü yönetin",
+        "text": "Tedarikçi seçimi tamamlandığında TalepNET bu kararı yapılandırılmış satın alma siparişi akışlarına taşır. Tedarikçi iletişimi, teslimat lokasyonu bilgisi, belge üretimi ve teslim alma süreçleri aynı satın alma zincirine bağlı kalır."
+      },
+      {
+        "title": "Ekipler arası iş akışı uyumsuzluklarını azaltın",
+        "text": "Talep açanlar, onaylayanlar, satın alma ekipleri ve teslim alma ekipleri farklı kayıtlar üzerinden çalıştığında süreç yavaşlar. TalepNET her aşamayı birbirine bağlı tutarak ekiplerin veriyi yeniden kurmadan ve görünürlüğü kaybetmeden ilerlemesini sağlar."
+      }
+    ],
+    "summaryEyebrow": "Onaylanmış talepten tedarikçiye dönük yürütmeye",
+    "summaryText": "TalepNET’in Source-to-Order yaklaşımı, satın alma ihtiyacı tedarik sürecine hazır olduğunda başlar; teklif yönetimi, tedarikçi karşılaştırması, gerektiğinde satın alma onayı, satın alma siparişi oluşturma ve teslim alma takibiyle devam eder. Bu yapı satın alma ekiplerine iç talep ile dış tedarikçi taahhüdü arasında daha güçlü bir kontrol katmanı sunar.",
+    "summaryPlaceholder": "Purchasing chain placeholder",
+    "featuresEyebrow": "Satın alma ekiplerinin bu akış içinde yapabildikleri",
+    "featuresTitle": "Satın alma organizasyonu için tasarlanmış, birleşik bir tedarik ve sipariş yürütme platformu",
+    "features": [
+      {
+        "title": "Başlangıç noktası olarak onaylanmış talep",
+        "description": "Her tedarik sürecinden önce ihtiyacı yeniden tanımlamak yerine iş akışında onaylanmış gerçek satın alma talebinden başlayın."
+      },
+      {
+        "title": "Satın alma formu çalışma alanı",
+        "description": "Seçilen talepleri satın alma formuna dönüştürün; ekipler tedarik faaliyetlerini, teklifleri, notları, toplamları ve tedarikçi kararlarını tek yerde yönetsin."
+      },
+      {
+        "title": "Çoklu teklif yönetimi",
+        "description": "Aynı satın alma ihtiyacı için birden fazla tedarikçi teklifini toplayıp karşılaştırarak ticari değerlendirmeyi güçlendirin."
+      },
+      {
+        "title": "Manuel ve portal tabanlı teklif alımı",
+        "description": "Manuel girilen teklifleri tedarikçi portalı yanıtlarıyla aynı tedarik akışı içinde birleştirin."
+      },
+      {
+        "title": "Teklif talebi e-posta akışları",
+        "description": "Teklif taleplerini doğrudan TalepNET içinden tedarikçilere gönderin; dağınık yazışmalar yerine teklif süreci satın alma kaydına bağlı kalsın."
+      },
+      {
+        "title": "Teklif talebi takibi",
+        "description": "Tedarikçi tarafındaki teklif talebi hareketlerini izleyin ve portal üzerinden gelen teklifleri yeniden tedarik sürecine dahil edin."
+      },
+      {
+        "title": "Tedarikçi portalı iş birliği",
+        "description": "Portal destekli teklif talebi ve entegre sipariş deneyimiyle tedarik sürecini daha düzenli bir tedarikçi iş birliği modeline dönüştürün."
+      },
+      {
+        "title": "Sözleşmeli tedarikçi görünürlüğü",
+        "description": "Aktif sözleşme kapsamındaki tedarikçileri tedarik süreci içinde görünür kılın; üzerinde anlaşılmış ticari koşulları daha kolay yeniden kullanın."
+      },
+      {
+        "title": "Geçmiş sipariş içgörüleri",
+        "description": "Tedarik süreci sırasında geçmiş tedarikçi fiyatlarını ve sipariş geçmişini inceleyin; ekipler ticari kararları daha sağlam bir zeminde alsın."
+      },
+      {
+        "title": "En düşük fiyat seçimi desteği",
+        "description": "Hızın kritik olduğu durumlarda en düşük teklif kalemlerini seçerek karar sürecini hızlandırın; satın alma kontrolü yine de korunsun."
+      },
+      {
+        "title": "En iyi toplam ile seçilen toplam karşılaştırması",
+        "description": "En iyi toplam teklif ile nihai seçilen toplamı karşılaştırın; süreç ilerlemeden önce kararın kalitesi daha görünür hale gelsin."
+      },
+      {
+        "title": "Satın alma onayına kesintisiz geçiş",
+        "description": "İş akışının gerektirdiği durumlarda seçilen satın alma işlemlerini siparişten önce satın alma onayına yönlendirin."
+      },
+      {
+        "title": "Satın alma siparişi oluşturma",
+        "description": "Seçilmiş ve onaylanmış satın almalardan düzenli biçimde satın alma siparişi oluşturmaya ve tedarikçiye dönük işleyişe geçin."
+      },
+      {
+        "title": "Sipariş aşamasında tedarikçi iletişimi",
+        "description": "Satın alma siparişi iletişimini dağınık yazışmalar yerine yapılandırılmış e-posta, güvenli bağlantılar ve portal destekli iş birliği üzerinden yönetin."
+      },
+      {
+        "title": "Teslimat ve lokasyon bilgisi",
+        "description": "Satın alma siparişi içinde teslimat lokasyonu bilgisini koruyun; sonraki karşılama ve teslim alma süreçleri gerçek operasyonel hedefe bağlı kalsın."
+      },
+      {
+        "title": "Teslim almaya kadar uzanan görünürlük",
+        "description": "Siparişi teslim almaya kadar taşıyın; satın alma ekipleri yalnızca neyin seçilip sipariş edildiğini değil, neyin gerçekten teslim alındığını da görebilsin."
+      }
+    ],
+    "flowEyebrow": "Süreç nasıl ilerler",
+    "flowTitle": "Tedarik sürecinin başlangıcından sipariş sonrasına kadar tek bir yönetilen akışta ilerleyin",
+    "steps": [
+      {
+        "title": "Onaylanmış taleple başlayın",
+        "text": "TalepNET onaylanmış satın alma ihtiyaçlarını satın alma çalışma alanına taşır ve tedarik süreci için daha düzenli, daha izlenebilir bir başlangıç oluşturur."
+      },
+      {
+        "title": "Tedarikçi tekliflerini toplayıp karşılaştırın",
+        "text": "Satın alma ekipleri teklifleri, teklif taleplerini, sözleşmeleri ve tedarikçi bağlamını satın alma formu içinde yöneterek daha sağlam kararlar verir."
+      },
+      {
+        "title": "Kontrollü ilerleyin",
+        "text": "Tedarik süreci tamamlandığında akış gerektiğinde satın alma onayıyla devam eder ve ardından satın alma siparişi oluşturma aşamasına geçer."
+      },
+      {
+        "title": "Sipariş sonrasını da izleyin",
+        "text": "Satın alma siparişleri, tedarikçi iletişimi ve teslim alma süreçleri birbirine bağlı kalır; organizasyon tedarik aşamasının sonrasında da görünürlük kazanır."
+      }
+    ],
+    "whyEyebrow": "Bu neden satın alma performansı için önemli",
+    "whyTitle": "Satın alma kalitesi, tedarik ve sipariş adımlarının birbirine bağlı kalmasına bağlıdır",
+    "whyText": "Tedarik sürecinin kalitesi yalnızca tedarikçi tekliflerine bağlı değildir. Sürecin ne kadar tutarlı ve bağlantılı ilerlediği de belirleyicidir. Gereksinimler net değilse, onaylar parçalıysa, tedarikçi bağlamı eksikse veya siparişler aynı kayıt dışında ilerliyorsa satın alma ekipleri hem hız hem güven kaybeder. TalepNET bu kopmaları azaltarak tedarik ve sipariş süreçlerini tek bir yönetilen yapıda birleştirir.",
+    "whyMessages": [
+      "Daha iyi tedarikçi karşılaştırması",
+      "Tedarikten siparişe daha güçlü süreklilik",
+      "Ekipler arasında daha az manuel aktarım",
+      "Ticari kararlar boyunca daha iyi izlenebilirlik",
+      "Tedarikçi seçimi sonrasında süreci daha net izleme"
+    ],
+    "benefitsEyebrow": "Bağlantılı süreçle ekiplerin kazandıkları",
+    "benefitsTitle": "Daha güçlü karar kalitesi, daha yüksek operasyonel güven ve daha düzenli tedarikçi iş birliği",
+    "benefits": [
+      {
+        "title": "Daha hızlı tedarik döngüleri",
+        "text": "Satın alma ekipleri talebi yeniden kurmaya, tedarikçi bilgisini yeniden biçimlendirmeye veya dağınık iletişimin peşinden koşmaya daha az zaman harcar."
+      },
+      {
+        "title": "Daha iyi tedarikçi kararları",
+        "text": "Teklifler, sözleşmeler, geçmiş siparişler ve teklif talebi yanıtları tek bir karar alanında kalır; karar kalitesi yükselir."
+      },
+      {
+        "title": "Daha yüksek operasyonel güven",
+        "text": "Verilen tedarik kararı doğrudan sipariş oluşturma aşamasına taşınır; yeniden iş yapma ihtiyacı ve süreç belirsizliği azalır."
+      },
+      {
+        "title": "Daha iyi satın alma kontrolü",
+        "text": "Onay, tedarikçi kararı, satın alma siparişi ve teslim alma aynı süreç zinciri içinde kalır."
+      },
+      {
+        "title": "Daha iyi tedarikçi iş birliği",
+        "text": "Teklif talebi ve sipariş iletişimi daha düzenli, daha izlenebilir ve ekiplerle tedarikçiler arasında yönetilmesi daha kolay hale gelir."
+      }
+    ],
+    "useCasesEyebrow": "Yalnızca teklif toplamaktan fazlasına ihtiyaç duyan organizasyonlar için tasarlandı",
+    "useCasesText": "TalepNET’in Source-to-Order çözümü, iç satın alma yönetimi ile dış tedarikçi işleyişi arasında daha güçlü bir bağ kurmak isteyen organizasyonlar için özellikle uygundur.",
+    "useCases": [
+      "Sık teklif toplama ve tedarikçi karşılaştırması yapan ekipler",
+      "Sipariş öncesinde satın alma onayı kullanan organizasyonlar",
+      "Tedarik ve sipariş süreçleri arasında daha güçlü bir bağ isteyen işletmeler",
+      "Tedarik aşamasında sözleşme ve tedarikçi geçmişini görmek isteyen satın alma ekipleri",
+      "Sipariş sonrasında teslim alma görünürlüğüne ihtiyaç duyan şirketler"
+    ],
+    "faqEyebrow": "SSS",
+    "faqs": [
+      {
+        "question": "TalepNET’te Source-to-Order neyi ifade eder?",
+        "answer": "TalepNET’te Source-to-Order; onaylanmış talepten teklif yönetimine, tedarikçi seçimine, gerektiğinde satın alma onayına, sipariş oluşturma aşamasına ve teslim almaya kadar uzanan bağlı süreci ifade eder."
+      },
+      {
+        "question": "TalepNET, yalnızca teklif toplama odaklı araçlardan nasıl ayrılır?",
+        "answer": "TalepNET tedarikçi karşılaştırmasıyla sınırlı kalmaz. Tedarik sürecini onaylara, satın alma siparişlerine, tedarikçi iletişimine ve teslim alma süreçlerine bağlayarak ekiplerin karardan uygulamaya kadar tüm akışı yönetmesini sağlar."
+      },
+      {
+        "question": "TalepNET birden fazla tedarikçiden teklif toplama süreçlerini destekler mi?",
+        "answer": "Evet. Satın alma ekipleri satın alma formu içinde birden fazla teklifi yönetebilir, teklifleri karşılaştırabilir, geçmiş sipariş bağlamını kullanabilir ve sözleşmeli tedarikçileri sürece dahil edebilir."
+      },
+      {
+        "question": "TalepNET tedarik süreci boyunca tedarikçi iş birliğini nasıl destekler?",
+        "answer": "TalepNET teklif talebi e-posta akışları, tedarikçi portalı katılımı, teklif talebi takibi ve yapılandırılmış teklif aktarımıyla tedarik sürecini destekler."
+      },
+      {
+        "question": "Source-to-Order sipariş oluşturma aşamasını da kapsar mı?",
+        "answer": "Evet. Süreç gerektiğinde satın alma onayıyla devam eder; ardından sipariş oluşturma, tedarikçi iletişimi ve teslim alma ile bağlantılı takip adımlarıyla tamamlanır."
+      }
+    ],
+    "finalEyebrow": "Tedarik kararlarını gerçek satın alma sürecine bağlayın",
+    "finalTitle": "TalepNET, satın alma ekiplerinin tedarikçi karşılaştırmasından sipariş oluşturmaya kadar daha güçlü görünürlük, daha düzenli iş akışları ve daha kontrollü tedarikçi iş birliğiyle ilerlemesini sağlar.",
+    "finalSecondaryCta": "İletişime Geçin"
+  },
+  "requestToReceipt": {
+    "badge": "Çözümler",
+    "title": "İç talebi, talep aşamasından teslim almaya kadar kontrollü bir satın alma sürecine dönüştürün",
+    "description": "TalepNET, organizasyonların satın alma talebinden teslim almaya kadar uzanan süreci; bağlı talep girişi, onaylar, tedarik, satın alma, sipariş işlemleri ve teslim alma takibiyle tek bir yapılandırılmış akış içinde yönetmesini sağlar.",
+    "primaryCta": "Demo Talep Et",
+    "secondaryCta": "Akışı Gör",
+    "heroPanelTitle": "Talep oluşturmadan operasyonel kapanışa uzanan tek bir kesintisiz süreç.",
+    "heroPanelText": "Birçok organizasyonda talep, onay, tedarikçi kararı, satın alma siparişi ve teslim alma süreçleri farklı araçlar veya birbirinden bağımsız rutinler üzerinden yürür. Bu durum görünürlüğü azaltır ve gereksiz gecikmeler yaratır. TalepNET bu aşamaları tek bir yönetilen süreç içinde bir araya getirerek satın alma ekiplerinin kontrolü kaybetmeden daha hızlı ilerlemesini sağlar.",
+    "valueStatements": [
+      {
+        "title": "Daha güçlü bir talep yapısıyla başlayın",
+        "text": "TalepNET, yapılandırılmış talep akışları ve satın alma formlarıyla talep girişini standart hale getirir; organizasyonlar ihtiyacı onay ve satın alma aşamasına geçmeden daha net yakalar."
+      },
+      {
+        "title": "Her adımı bağlı tutun",
+        "text": "Onaylar, tedarikçi kararları, satın alma siparişleri ve teslim alma süreçleri aynı zincire bağlı kalır; manuel aktarım azalır ve ilerlemeyi takip etmek kolaylaşır."
+      },
+      {
+        "title": "Süreci gerçek teslimat görünürlüğüyle tamamlayın",
+        "text": "TalepNET onay veya sipariş aşamasında durmaz. Süreci teslim almaya kadar taşır; ekipler neyin gerçekten teslim edildiğini ve talebin operasyonel olarak nasıl sonuçlandığını görebilir."
+      }
+    ],
+    "summaryEyebrow": "Talep aşamasından doğrulanmış teslim almaya",
+    "summaryTitle": "İhtiyacın ortaya çıkmasından teslim almanın doğrulanmasına kadar kontrollü bir akış",
+    "summaryText": "TalepNET’in Request-to-Receipt çözümü, iç ihtiyaç oluştuğunda başlar; talep onayı, satın alma işlemleri, tedarikçi kararı, gerektiğinde satın alma onayı, sipariş oluşturma ve teslim alma ile devam eder. Böylece baştan sona daha net ve daha ölçülebilir bir satın alma modeli oluşur.",
+    "featuresEyebrow": "Akışın içerdiği yapı",
+    "featuresTitle": "Talep, satın alma ve teslim almanın arkasındaki ilişkisel kontrol yapısı",
+    "capabilities": [
+      {
+        "title": "Yapılandırılmış Talep Oluşturma",
+        "description": "İç talebi parçalı e-postalar, tablolar veya gayriresmî takipler yerine kontrollü talep iş akışlarıyla yakalayın."
+      },
+      {
+        "title": "Maliyet Merkezi Bağlantılı Talepler",
+        "description": "Maliyet merkezi bilgisini talep aşamasında bağlayarak finansal sahipliği sürece erken taşıyın."
+      },
+      {
+        "title": "Rol Bazlı Onay Yönlendirmesi",
+        "description": "Talepleri organizasyon yapısına, sorumluluklara ve iş akışı tasarımına göre doğru onaylayıcılara yönlendirin."
+      },
+      {
+        "title": "Çok Adımlı Talep Onayları",
+        "description": "Talep satın alma aşamasına geçmeden önce kurumsal yönetimi yansıtan çok adımlı onay süreçlerini destekleyin."
+      },
+      {
+        "title": "Esnek Workflow Tasarımı",
+        "description": "Talep, onay, satın alma, depo, satın alma onayı, sipariş ve teslim alma adımlarını görsel iş akışı modeli üzerinden yapılandırın."
+      },
+      {
+        "title": "Satın Alma Kuyruğu Sürekliliği",
+        "description": "Onaylanmış talebi ekipleri ihtiyacı yeniden kurmaya zorlamadan doğrudan satın alma aşamasına taşıyın."
+      },
+      {
+        "title": "Satın Alma Formu Çalışma Alanı",
+        "description": "Onaylanmış talepleri satın alma formuna dönüştürün; ekipler teklifleri, tedarik notlarını, tedarikçi karşılaştırmalarını ve ticari kararları tek yerde yönetsin."
+      },
+      {
+        "title": "Tedarikçi Teklif Yönetimi",
+        "description": "Birden fazla tedarikçi teklifini toplayıp karşılaştırarak tedarik disiplinini ve ticari değerlendirmeyi güçlendirin."
+      },
+      {
+        "title": "Sözleşmeli Tedarikçi Görünürlüğü",
+        "description": "Tedarik süreci sırasında sözleşmeli tedarikçileri ve geçmiş sipariş bilgisini görünür kılın; satın alma ekipleri daha bilinçli karar verebilsin."
+      },
+      {
+        "title": "Teklif talebi ve tedarikçi iş birliği",
+        "description": "Teklif taleplerini e-posta ile gönderin, tedarikçi yanıtlarını izleyin ve portal destekli teklif katılımını aynı tedarik akışı içinde yönetin."
+      },
+      {
+        "title": "Gerektiğinde Satın Alma Onayı",
+        "description": "İş akışı ek kontrol gerektiriyorsa seçilen satın alma işlemlerini sipariş öncesinde satın alma onayına yönlendirin."
+      },
+      {
+        "title": "Satın alma siparişi oluşturma",
+        "description": "Tedarik ve onay aşamasından, sürecin bütünlüğünü bozmadan tedarikçiye dönük satın alma siparişi adımına geçin."
+      },
+      {
+        "title": "Siparişlere Bağlı Tedarikçi İletişimi",
+        "description": "Sipariş iletişimini yapılandırılmış e-posta, güvenli bağlantılar ve portal destekli iş birliği ile sürece bağlı tutun."
+      },
+      {
+        "title": "Verilmiş siparişlerden teslim alma kaydı",
+        "description": "Teslim alma sürecini doğrudan verilmiş siparişten başlatın; teslimat kaydı gerçek satın alma taahhüdünü yansıtsın."
+      },
+      {
+        "title": "Kısmi ve tam teslimat yönetimi",
+        "description": "Gerçekte teslim edilen miktarları, kalan miktar ve tamamlanma durumu görünürlüğüyle birlikte kaydedin."
+      },
+      {
+        "title": "Teslim alma izlenebilirliği",
+        "description": "Teslim alma referanslarını, kayıt numaralarını ve iş akışı geçmişini koruyun; operasyonel kapanış incelenebilir ve denetlenebilir kalsın."
+      }
+    ],
+    "flowEyebrow": "Nasıl çalışır",
+    "flowTitle": "Akış, talep girişinden teslimatın doğrulanmasına kadar görünür kalır.",
+    "steps": [
+      {
+        "title": "Talebi oluşturun",
+        "text": "Çalışanlar veya departmanlar satın alma taleplerini doğru operasyonel ve finansal bağlamla oluşturur."
+      },
+      {
+        "title": "İhtiyacı onaylayın",
+        "text": "Talepler tanımlı onay akışından ilerler; organizasyon satın alma başlamadan önce ihtiyacı doğrular."
+      },
+      {
+        "title": "Tedarik edin ve ilerletin",
+        "text": "Onaylanmış ihtiyaç satın alma sürecine girer; ekipler teklifleri, tedarikçileri, onayları ve satın alma siparişlerini yönetir."
+      },
+      {
+        "title": "Teslim alma kaydını girip süreci kapatın",
+        "text": "Teslim alma adımı, gerçekte neyin teslim edildiğini kaydeder ve iç talepten doğrulanmış teslimata uzanan operasyonel zinciri tamamlar."
+      }
+    ],
+    "whyEyebrow": "Bu akış neden procurement control için önemli",
+    "whyTitle": "Bağlı bir süreç, ihtiyaç ile uygulamanın birbirinden kopmasını önler",
+    "whyText": "İhtiyaç ile uygulama birbirinden koptuğunda organizasyon kontrol kaybeder. Bir talep onaylanmış olabilir; ancak tedarik, sipariş ve teslim alma aynı süreç dışında ilerliyorsa görünürlük azalır, sorumluluk alanları belirsizleşir. TalepNET bu boşlukları azaltarak iç talepten gerçek teslim almaya kadar uzanan kesintisiz bir iş akışı kurar.",
+    "whyMessages": [
+      "Satın alma aşamaları boyunca daha güçlü süreklilik",
+      "Talep ilerleyişi ve uygulama durumu üzerinde daha iyi görünürlük",
+      "Ekipler arasında daha az tekrar iş",
+      "Onay, tedarik, sipariş ve teslim alma boyunca daha iyi izlenebilirlik",
+      "Taleplerin yalnızca onaylanmadığı, gerçekten kapandığına dair daha yüksek güven"
+    ],
+    "benefitsEyebrow": "Bağlı bir Request-to-Receipt süreciyle ekiplerin kazandıkları",
+    "benefitsTitle": "Sadece daha hızlı onayın ötesine geçen iş sonuçları",
+    "benefits": [
+      {
+        "title": "Daha hızlı süreç tamamlama",
+        "text": "Talepler daha az manuel aktarım ve ekipler arası daha az kopuklukla ilerler."
+      },
+      {
+        "title": "Daha yüksek süreç doğruluğu",
+        "text": "İhtiyaç, onay, tedarikçi kararı ve teslim alma aynı süreç kaydına bağlı kalır."
+      },
+      {
+        "title": "Daha güçlü sorumluluk görünürlüğü",
+        "text": "Ekipler kimin talep açtığını, kimin onay verdiğini, kimin tedarik sürecini yönettiğini, kimin siparişi verdiğini ve gerçekte neyin teslim alındığını görebilir."
+      },
+      {
+        "title": "Tedarikçi uygulaması üzerinde daha net görünürlük",
+        "text": "Organizasyon, tedarikçi kararlarının gerçek operasyonel teslimata nasıl dönüştüğünü daha net görür."
+      },
+      {
+        "title": "Daha iyi bütçe ve harcama kontrolü",
+        "text": "Finansal sahiplik ve satın alma hareketi yalnızca sonunda değil, süreç boyunca görünür kalır."
+      }
+    ],
+    "useCasesEyebrow": "Kimler için",
+    "useCasesTitle": "Uçtan uca satın alma sürekliliği isteyen organizasyonlar için tasarlandı",
+    "useCasesText": "TalepNET’in Request-to-Receipt çözümü, ilk ihtiyaçtan tedarikçi teslimatına kadar tek bir operasyonel model kurmak isteyen organizasyonlar için idealdir.",
+    "useCases": [
+      "Parçalı talep ve teslim alma süreçlerine sahip organizasyonlar",
+      "Onay ve uygulama boyunca daha güçlü kontrol isteyen satın alma ekipleri",
+      "Tedarik ve sipariş aşamalarını gerçek ihtiyaca bağlamak isteyen işletmeler",
+      "Teslimat sonrasında operasyonel kapanış görünürlüğüne ihtiyaç duyan şirketler",
+      "Baştan sona daha ölçülebilir bir satın alma yaşam döngüsü isteyen ekipler"
+    ],
+    "faqEyebrow": "SSS",
+    "faqTitle": "Request-to-Receipt hakkında sık sorulan sorular",
+    "faqs": [
+      {
+        "question": "TalepNET’te Request-to-Receipt nedir?",
+        "answer": "Request-to-Receipt, iç talebin oluşturulmasıyla başlayıp onay, tedarik, satın alma işlemleri ve teslim almaya kadar devam eden bağlı satın alma sürecidir."
+      },
+      {
+        "question": "TalepNET temel talep onay akışından nasıl ayrılır?",
+        "answer": "TalepNET yalnızca talep onayında durmaz. Süreci satın alma, tedarikçi kararı, sipariş oluşturma ve teslim alma doğrulamasına kadar taşıyarak organizasyonun tüm operasyonel zinciri yönetmesini sağlar."
+      },
+      {
+        "question": "TalepNET hem talep onayını hem satın alma onayını destekler mi?",
+        "answer": "Evet. TalepNET talep onayı ile satın alma onayını, iş akışı içindeki ayrı ama birbiriyle bağlantılı kontrol noktaları olarak destekler."
+      },
+      {
+        "question": "TalepNET talepleri satın alma sürecine nasıl bağlar?",
+        "answer": "Onaylanmış talepler doğrudan satın alma akışına geçer ve tedarik ile tedarikçi değerlendirmesi için satın alma formuna dönüştürülebilir."
+      },
+      {
+        "question": "Request-to-Receipt receiving’i de içerir mi?",
+        "answer": "Evet. Teslim alma sürecin bir parçasıdır; ekiplerin gerçekte neyin teslim edildiğini kaydetmesine ve iş akışını gerçek uygulama verisiyle kapatmasına yardımcı olur."
+      }
+    ],
+    "finalEyebrow": "İhtiyacı, satın alma sürecini ve teslimatı tek kontrollü akışta birleştirin",
+    "finalTitle": "TalepNET, organizasyonların talep oluşturma aşamasından gerçek teslim almaya kadar satın alma sürecini daha güçlü süreklilik, daha düzenli iş akışları ve daha iyi operasyonel görünürlükle yönetmesini sağlar.",
+    "finalSecondaryCta": "İletişime Geçin"
+  },
+  "procureToPay": {
+    "badge": "Stratejik Çözüm",
+    "title": "Tedarikten ödemeye kadar olan süreç, her aşama birbirine bağlı olduğunda en iyi şekilde işler.",
+    "description": "TalepNET, ekiplerin talep girişi, onaylar, tedarik, tedarikçi koordinasyonu, siparişler, teslim alma, bütçe görünürlüğü ve ödeme öncesi kontrolü tek bir satın alma sistemi içinde birleştirmesine yardımcı olur.",
+    "primaryCta": "Demo Talep Et",
+    "secondaryCta": "P2P akışını gör",
+    "heroPlaceholder": "Temin-ödeme yer tutucu",
+    "introEyebrow": "İhtiyaçtan ödeme hazırlığına uzanan tek operasyonel zincir",
+    "introTitle": "Ödeme süreci başlamadan önce satın alma kontrolü sağlanmış olmalı",
+    "introParagraphs": [
+      "Procure-to-pay çoğu zaman bir finans süreci gibi anlatılır; ancak uygulamada asıl kırılma çok daha erken yaşanır. Bir fatura ödeme kontrolü aşamasına geldiğinde, en kritik kontrol noktalarının zaten sağlanmış olması gerekir. İhtiyaç açık biçimde talep edilmiş, doğru şekilde onaylanmış, finansal olarak sahiplenilmiş, ticari açıdan değerlendirilmiş, uygun tedarikçiyle eşleştirilmiş, siparişe dönüştürülmüş ve gerekiyorsa teslim alınmış olmalıdır. TalepNET, procure-to-pay sürecini güçlendirirken finans ekibinin bu geçmişi sonradan yeniden kurmasına gerek bırakmaz.",
+      "Daha güçlü bir P2P modeli yalnızca daha hızlı işlem yapmak anlamına gelmez. Ekipler arasındaki belirsizliği azaltmak anlamına gelir. Satın alma ekipleri izlenebilirlik ister. Finans ekipleri güven ister. Onaylayıcılar bağlam görmek ister. Talep sahipleri görünürlük ister. Tedarikçiler daha düzenli bir etkileşim ister. TalepNET bu koşulları tek sistemde bir araya getirir."
+    ],
+    "coreEyebrow": "P2P disiplini, fatura finans ekibine düşmeden çok önce başlar",
+    "coreText": "TalepNET, satın almanın operasyonel tarafını finansın kontrol ihtiyacıyla bağlar. Böylece talepler daha erken yönetilir, tedarikçi kararları görünür kalır, sipariş ve teslim alma kayıtları sonraki incelemeleri destekler ve harcama taahhütleri hareket hâlindeyken daha anlaşılır olur. Procure-to-pay sürecini birbirinden bağımsız aşamalar yerine tek bir sürekli zincir olarak yönetmeye yardımcı olur.",
+    "corePlaceholder": "P2P zinciri yer tutucu",
+    "pillarsEyebrow": "TalepNET procure-to-pay sürecini nasıl güçlendirir",
+    "pillars": [
+      {
+        "title": "İhtiyaç sürece yapılı biçimde girer",
+        "text": "Talepler, onaylar ve maliyet merkezi bilgisi harcama sonradan toparlanacak bir soruna dönüşmeden önce süreci başlatır. Ekipler eksik bilgi veya dağınık kanallarla satın alma sürecini başlatmak zorunda kalmaz."
+      },
+      {
+        "title": "Satın alma süreci izlenebilir kalır",
+        "text": "Tedarik, tedarikçi kararı, teklifler, satın alma siparişleri ve teslim alma aynı satın alma zincirine bağlı kalır. Bu daha güçlü bir operasyonel kayıt oluşturur ve departmanlar arasındaki kör noktaları azaltır."
+      },
+      {
+        "title": "Finans daha sağlıklı veriyle çalışır",
+        "text": "Bütçe bilgisi, tedarikçi görünürlüğü, uygulama kayıtları ve harcama takibi; mutabakat, inceleme ve ödeme kontrolü için daha güçlü bir zemin oluşturur. Finans ekipleri izole bir ödeme kaydı yerine daha bütünlüklü bir süreç geçmişiyle çalışır."
+      }
+    ],
+    "summaryEyebrow": "İç talepten ödeme hazırlığına",
+    "summaryTitle": "Talep oluşturmadan ödeme öncesi hazır kayıtlara uzanan bağlı süreç",
+    "summaryParagraphs": [
+      "TalepNET’te procure-to-pay süreci talep oluşturma ve onay disipliniyle başlar, tedarik ve satın alma uygulamasıyla devam eder, satın alma siparişleri ve teslim alma adımına uzanır ve ödeme öncesi inceleme için daha sağlam bir operasyonel temel oluşturur. Platformun değeri her finans sisteminin yerini alması değil; ödeme kararı verilmeden önce satın alma kaydının kalitesini ve izlenebilirliğini yükseltmesidir.",
+      "Bu önemlidir çünkü ödeme hazırlığı ekipleri daha fazla belge istemez; daha az belirsizlik ister. Satın alma liderleri daha fazla gösterge paneli istemez; güvenebilecekleri bir süreç ister. TalepNET bu iki ihtiyacı da satın alma zincirini finans tarafıyla daha tutarlı biçimde bağlayarak destekler."
+    ],
+    "flowEyebrow": "Akış talep aşamasından ödeme kontrolüne nasıl ilerler",
+    "flowTitle": "İhtiyacın doğrulanmasından uygulamanın kanıtlanmasına uzanan tek görünür zincir",
+    "steps": [
+      {
+        "title": "Talepler gerekli bağlamla oluşturulur",
+        "text": "Çalışanlar ve ekipler taleplerini kurumsal yapı ve maliyet merkezi bilgisiyle birlikte sisteme girer."
+      },
+      {
+        "title": "Onaylar ihtiyacı doğrular",
+        "text": "Onay akışı, talepleri doğru paydaşlara yönlendirir; taahhüt oluşmadan önce doğrulama tamamlanır."
+      },
+      {
+        "title": "Satın alma ekibi ticari yolu belirler",
+        "text": "Satın alma ekipleri ihtiyacı tedarik sürecine alır, tedarikçileri karşılaştırır ve en uygun ticari yolu seçer."
+      },
+      {
+        "title": "Sipariş ve teslim alma kayıtları ödeme kontrolünü destekler",
+        "text": "Satın alma siparişleri ve teslim alma kayıtları, finans süreci kapanmadan önce operasyonel kanıt oluşturur."
+      }
+    ],
+    "featuresEyebrow": "TalepNET’in procure-to-pay akışına getirdikleri",
+    "featuresTitle": "Talep, satın alma, teslim alma ve ödeme hazırlığının arkasındaki ilişkisel kontrol yapısı",
+    "features": [
+      {
+        "title": "Satın Alma Talepleri",
+        "description": "Satın alma sürecinin dağınık e-postalar veya tablolar yerine yapılandırılmış ve incelenebilir taleplerle başlamasını sağlayın."
+      },
+      {
+        "title": "Onay İş Akışı",
+        "description": "Talepleri ve satın alma işlemlerini rol, departman, limit ve organizasyon mantığına göre kurgulanmış onay akışları üzerinden yönlendirin."
+      },
+      {
+        "title": "Maliyet Merkezi ve Bütçe Bağlamı",
+        "description": "Finansal sahipliği talep ve satın alma aşamasına erken bağlayın; harcama maliyet merkezi, bütçe ve mali dönem bağlamında izlenebilsin."
+      },
+      {
+        "title": "Satın Alma Formları ve Tedarik",
+        "description": "Onaylanmış ihtiyacı satın alma formuna dönüştürün; ekipler teklifleri yönetebilsin, tedarikçileri karşılaştırabilsin ve daha güçlü bir bağlamla karar verebilsin."
+      },
+      {
+        "title": "Tedarikçi Yönetimi",
+        "description": "Tedarikçileri, ilgili kişileri, sözleşmeleri, teklif hareketlerini ve ticari geçmişi aynı satın alma sistemi içinde bağlı tutun."
+      },
+      {
+        "title": "Teklif talebi ve teklif yönetimi",
+        "description": "Teklif taleplerini gönderin, tedarikçi yanıtlarını toplayın, portal hareketlerini izleyin ve teklifleri daha izlenebilir bir tedarik akışı içinde yönetin."
+      },
+      {
+        "title": "Sözleşmeli Tedarikçi Görünürlüğü",
+        "description": "Tedarik sırasında üzerinde anlaşılmış tedarikçi ilişkilerini görünür kılın; sözleşmeye dayalı satın alma kararlarını uygulamaya geçirmek kolaylaşsın."
+      },
+      {
+        "title": "Satın Alma Onayları",
+        "description": "Süreç tasarımı gerektiriyorsa sipariş öncesinde ek bir kontrol katmanı ekleyin."
+      },
+      {
+        "title": "Satın Alma Siparişleri",
+        "description": "Tedarik ve onay aşamasından tedarikçiye dönük sipariş akışına geçin; uygulama satın alma zincirine bağlı kalsın."
+      },
+      {
+        "title": "Mal Kabul",
+        "description": "Gerçekte neyin teslim edildiğini kaydedin; satın alma ve finans ekipleri varsayımla değil, operasyonel kanıtla çalışsın."
+      },
+      {
+        "title": "Harcama Görünürlüğü",
+        "description": "Gösterge panelleri ve harcama içgörüleriyle tedarikçi yoğunlaşmasını, kategori hareketlerini, bütçe baskısını ve sözleşme kullanımını süreç devam ederken izleyin."
+      },
+      {
+        "title": "Ödeme öncesi incelemeye hazır satın alma izlenebilirliği",
+        "description": "Talep, onay, tedarikçi kararı, sipariş ve teslim alma kayıtlarını birbirine bağlı ve incelenebilir tutarak sonraki ödeme kontrolünü güçlendirin."
+      }
+    ],
+    "areasEyebrow": "P2P’yi mümkün kılan bağlı yetkinlikler",
+    "areas": [
+      "Satın Alma Talepleri",
+      "Onay İş Akışı",
+      "Tedarikten Siparişe",
+      "Tedarikçi Yönetimi",
+      "Bütçe Kontrolü",
+      "Ödeme Süreçleri"
+    ],
+    "mattersEyebrow": "Ekipler belirsizliği devraldığında procure-to-pay zayıflar",
+    "mattersParagraphs": [
+      "Birçok P2P ortamındaki en büyük zayıflık eksik yazılım değil, eksik sürekliliktir. Satın alma ekipleri ihtiyacı onaylayabilir; ancak ödeme öncesi ekip neden satın alım yapıldığını göremeyebilir. Finans ekipleri faturayı görebilir ama arkasındaki tedarik kararını göremez. Tedarikçi seçilmiş olabilir ama teslim alma verisi eksik kalabilir. Sorun çoğu zaman tek bir kırık adım değil, adımlar arasındaki bağın zayıf olmasıdır.",
+      "TalepNET bu sorunu satın alma zincirine operasyonel süreklilik getirerek çözer. Talepler onaydan sonra kaybolmaz. Tedarikçi kararları sipariş uygulamasından kopmaz. Teslim alma süreç dışında kalmaz. Maliyet merkezi bilgisi talep girişinden sonra ortadan kaybolmaz. Procure-to-pay sürecini hem satın alma hem finans için daha yönetilebilir ve daha kullanışlı yapan da budur."
+    ],
+    "procurementEyebrow": "Satın alma liderleri için",
+    "procurementTitle": "İşi yavaşlatmadan daha güçlü bir satın alma disiplini kurun",
+    "procurementText": "Satın alma liderlerinin, ekipleri hızlandırırken kontrolü koruyan bir sisteme ihtiyacı vardır. TalepNET bunu ekipler için düzenli bir tedarik çalışma alanı sunarak, onayları ve tedarikçi kararlarını görünür tutarak ve talep girişi ile sipariş uygulaması arasındaki kopmaları azaltarak destekler.",
+    "financeEyebrow": "Finans ve ödeme ekipleri için",
+    "financeTitle": "Finans ekiplerine daha düzenli kayıtlar ve daha az sürpriz sunun",
+    "financeText": "Finans ekipleri eksik satın alma kararlarını çözmek için zaman harcamak istemez. Kimin talep açtığı, kimin onay verdiği, neyin tedarik edildiği, neyin sipariş edildiği, neyin teslim alındığı ve maliyetin nereye ait olduğu konusunda netlik ister. TalepNET bu koşulları süreç boyunca satın alma bağlamını koruyarak iyileştirir.",
+    "apFoundationEyebrow": "TalepNET neden ödeme kontrolü için güçlü bir temel oluşturur",
+    "apFoundationTitle": "Daha güçlü bir procure-to-pay yapısı, daha iyi satın alma verisine bağlıdır",
+    "apFoundationParagraphs": [
+      "Olgun bir ödeme kontrol süreci, iyi yapılandırılmış satın alma verisine bağlıdır. Bu nedenle TalepNET, tam kapsamlı fatura otomasyonu genişlemeden önce bile procure-to-pay yaklaşımı içinde doğal bir yere oturur. Platform zaten finansın ihtiyaç duyduğu kanıtları destekler: onaylanmış ihtiyaç, tedarikçi kimliği, teklif geçmişi, satın alma onayları, satın alma siparişleri, teslim alma kayıtları, maliyet merkezleri ve harcama görünürlüğü.",
+      "Zaman içinde bu temel; fatura yakalama, faturaya özel onay akışları, satın alma siparişi ve teslim alma verisiyle eşleştirme, istisna yönetimi ve ödeme hazırlığı mantığı gibi finans tarafı uzantıları destekleyebilir. Ancak bugün bile TalepNET, parçalı satın alma uygulamasının yarattığı sonraki aşama sorunlarını önemli ölçüde azaltır."
+    ],
+    "outcomesEyebrow": "Satın alma ve finans boyunca ortaya çıkan sonuçlar",
+    "outcomesTitle": "Zincir bağlı kaldığında ekiplerin kazandıkları",
+    "outcomes": [
+      {
+        "title": "Satın alma ve finans arasında daha az parçalanmış koordinasyon",
+        "text": "Her iki ekip de daha bağlı bir karar zinciriyle çalışır; manuel açıklama ihtiyacı ve ekipler arası sürtünme azalır."
+      },
+      {
+        "title": "Taahhütler yükümlülüğe dönüşmeden daha iyi onay disiplini",
+        "text": "Talepler ve satın alma işlemleri daha erken yönetilir; harcama son ödeme aşamasına gelmeden kontrol altına alınır."
+      },
+      {
+        "title": "Talep girişinden ödeme hazırlığına kadar daha güçlü görünürlük",
+        "text": "Yöneticiler, satın alma taahhütlerinin nasıl oluştuğunu görebilir; yalnızca raporlarda görünen nihai sonuçları değil."
+      },
+      {
+        "title": "Tedarikçi, bütçe ve uygulama kayıtları boyunca daha sağlıklı harcama kontrolü",
+        "text": "Harcama; tedarikçiye, sözleşmeye, onaya, siparişe ve teslim alma kaydına bağlı kaldığında yorumlamak kolaylaşır."
+      },
+      {
+        "title": "Ödeme öncesi inceleme ve mutabakat için daha iyi hazırlık",
+        "text": "Finans ekipleri daha güçlü satın alma verisiyle çalışır; belirsizlik azalır ve sonraki kontrol adımları güçlenir."
+      }
+    ],
+    "seoEyebrow": "Procure-to-pay yazılımı nedir?",
+    "seoTitle": "P2P yazılımı hem satın alma verimliliğini hem finans kontrolünü iyileştirmelidir",
+    "seoText": "Procure-to-pay yazılımı, organizasyonların iç satın alma ihtiyacından onay, tedarikçi seçimi, sipariş uygulaması, teslim alma ve finansal takibe kadar uzanan süreci yönetmesine yardımcı olur. Güçlü bir P2P sistemi hem satın alma verimliliğini hem finans kontrolünü iyileştirmelidir. TalepNET bunu talep akışlarını, tedarik süreçlerini, tedarikçi yönetimini, satın alma siparişlerini, teslim alma kayıtlarını, bütçe kontrolünü ve ödeme öncesi hazır izlenebilirliği tek platformda birleştirerek sağlar.",
+    "faqEyebrow": "SSS",
+    "faqTitle": "Procure-to-Pay hakkında sık sorulan sorular",
+    "faqs": [
+      {
+        "question": "TalepNET’te procure-to-pay ne anlama gelir?",
+        "answer": "TalepNET’te procure-to-pay; talep girişi ve onaydan başlayıp tedarik, tedarikçi seçimi, satın alma siparişleri, teslim alma ve finansın ödeme öncesinde ihtiyaç duyduğu satın alma izlenebilirliğine uzanan bağlı zinciri ifade eder."
+      },
+      {
+        "question": "TalepNET tam procure-to-pay sürecini destekler mi?",
+        "answer": "TalepNET, P2P sürecinin satın alma tarafını güçlü biçimde destekler: talepler, onaylar, tedarik, tedarikçiler, satın alma siparişleri, teslim alma, bütçeler ve harcama görünürlüğü. Fatura tarafındaki otomasyon henüz ürünün en güçlü alanı olmasa da ödeme öncesi hazır bir satın alma temeli oluşturur."
+      },
+      {
+        "question": "TalepNET yalnızca ödeme süreçlerine odaklanan araçlardan nasıl ayrılır?",
+        "answer": "TalepNET, faturalar finans ekibine ulaşmadan önce belirsizliği azaltarak procure-to-pay sürecinin önceki aşamalarını iyileştirir. Ödeme ekibinin parçalı satın alma geçmişini sonradan çözmesini beklemek yerine daha düzenli satın alma koşulları oluşturur."
+      },
+      {
+        "question": "TalepNET finans kontrolünü nasıl destekler?",
+        "answer": "Maliyet merkezi, mali yıl, bütçe görünürlüğü, onay disiplini, tedarikçi izlenebilirliği, satın alma siparişleri ve teslim alma kayıtları sayesinde finansal sahiplik ve operasyonel kanıt süreç boyunca görünür kalır."
+      },
+      {
+        "question": "Receiving procure-to-pay içinde neden önemlidir?",
+        "answer": "Çünkü finans ekipleri yalnızca neyin talep edildiğini veya sipariş edildiğini değil, gerçekte neyin teslim edildiğini de gördüğünde ödeme kontrolü çok daha güçlü hale gelir."
+      },
+      {
+        "question": "TalepNET zamanla daha ileri bir ödeme otomasyonuna evrilebilir mi?",
+        "answer": "Evet. Mevcut satın alma yapısı; gelecekte fatura akışları, eşleştirme mantığı, istisna yönetimi ve daha kapsamlı ödeme otomasyonu için güçlü bir temel sağlar."
+      }
+    ],
+    "finalEyebrow": "Procure-to-pay sürecini birbirinden bağımsız aşamalar yerine bağlı kararlar üzerine kurun",
+    "finalTitle": "TalepNET, talep aşamasından teslim almaya kadar her adımı birbirine bağlayarak organizasyonların satın alma disiplinini iyileştirmesine, finans görünürlüğünü güçlendirmesine ve daha sağlam ödeme koşulları oluşturmasına yardımcı olur.",
+    "finalSecondaryCta": "İletişime Geçin"
+  },
+  "accountsPayable": {
+    "badge": "Stratejik Çözüm",
+    "title": "Ödeme otomasyonu, faturada değil satın alma kontrolünde başlar",
+    "description": "TalepNET, finans ve satın alma ekiplerinin satın alma bağlamını, onayları, tedarikçi kayıtlarını, sipariş geçmişini, teslim alma verisini ve harcama görünürlüğünü merkezileştirmesine yardımcı olur; böylece fatura işlemleri daha hızlı, daha doğru ve daha güvenilir hale gelir.",
+    "primaryCta": "Demo Talep Et",
+    "secondaryCta": "AP akışını gör",
+    "heroPlaceholder": "AP iş akışı yer tutucu",
+    "heroHighlights": [
+      "Satın alma bağlamı, fatura incelemesi başlamadan görünür kalır",
+      "Onaylar, tedarikçi seçimleri, siparişler ve teslim alma kayıtları bağlı kalır",
+      "Maliyet merkezi ve bütçe sahipliği finans kontrolüne taşınır",
+      "Ödeme hazırlığı ekipleri geçmişi yeniden kurmak için daha az zaman harcar"
+    ],
+    "introEyebrow": "Fatura kontrolünü merkezileştirin ve her ödeme kararına güvenin",
+    "introTitle": "Fatura incelemesi gerçek satın alma geçmişiyle başladığında süreç daha hızlı ilerler",
+    "introParagraphs": [
+      "Çoğu ödeme aracı sürece çok geç dahil olur. Bir fatura geldiğinde asıl soruların zaten yanıtlanmış olması gerekir: ne istendi, kim onayladı, hangi tedarikçi seçildi, ne sipariş edildi ve gerçekte ne teslim alındı.",
+      "TalepNET, ödeme otomasyonunu güçlendirirken ödeme kontrolünü faturalar risk unsuruna dönüşmeden önce tüm satın alma yaşam döngüsüne bağlar."
+    ],
+    "pillarsEyebrow": "Ödeme sürecinin gerçekten hızlanması için finans ekiplerinin ihtiyaç duyduğu temel",
+    "pillars": [
+      {
+        "title": "Doğrulanmış satın alma bağlamı",
+        "text": "Her fatura gerçek bir satın alma kararına dayanmalıdır. TalepNET; talepleri, onayları, teklifleri, satın alma siparişlerini ve teslim alma geçmişini tek bir operasyonel kayıt içinde bir araya getirir."
+      },
+      {
+        "title": "Denetime Hazır Süreç Görünürlüğü",
+        "text": "İş akışı adımları, onaylar, tedarikçi kararları ve uygulama geçmişi birlikte kaldığı için bir ödemenin neden oluştuğu ve organizasyon içinde nasıl ilerlediği daha kolay anlaşılır."
+      },
+      {
+        "title": "Birleşik finans ve satın alma kontrolü",
+        "text": "Maliyet merkezleri, mali yıllar, bütçe görünürlüğü, tedarikçi kayıtları ve satın alma hareketi daha düzenli bir ödeme ortamı oluşturur; finans ekipleri bağlamı manuel olarak yeniden kurmak zorunda kalmaz."
+      }
+    ],
+    "flowEyebrow": "Ödeme incelemesinden önce süreç nasıl daha sağlam hale gelir",
+    "flowTitle": "Ödeme kaydına güvenmek kolaylaşır; çünkü satın alma kaydı zaten düzenlidir.",
+    "steps": [
+      {
+        "title": "Harcama, ödemeye dönüşmeden önce kontrol edilir",
+        "text": "Talepler; onay mantığı, kurumsal yönlendirme ve maliyet merkezi bilgisiyle kayda alınır. Böylece satın alma taahhüdü oluşmadan önce kontrol sağlanır."
+      },
+      {
+        "title": "Tedarik ve tedarikçi kararları birbirine bağlanır",
+        "text": "Satın alma formları, teklifler, sözleşmeli tedarikçiler ve geçmiş sipariş bilgisi işlemin ticari tarafını görünür ve izlenebilir tutar."
+      },
+      {
+        "title": "Siparişler gerçek uygulamaya bağlanır",
+        "text": "Satın alma siparişleri ve teslim alma kayıtları, fatura doğrulaması ve sonraki finans incelemesi için daha güçlü bir operasyonel temel oluşturur."
+      },
+      {
+        "title": "Ödeme ekipleri daha sağlıklı mutabakat koşullarıyla çalışır",
+        "text": "Finans ekipleri izole fatura belgeleri yerine satın alma kayıtlarıyla çalışır; belirsizlik, takip yükü ve onay karmaşası azalır."
+      }
+    ],
+    "featuresEyebrow": "Finans ekibinizin gerçekten ihtiyaç duyduğu ödeme otomasyonu temeli",
+    "features": [
+      {
+        "title": "Satın almadan ödeme öncesi kontrole uzanan görünürlük",
+        "text": "TalepNET, fatura açısından kritik bağlamı talep girişi ve onaylardan başlayarak tedarik, sipariş ve teslim alma süreçlerinin tamamına bağlar."
+      },
+      {
+        "title": "Politika mantığına dayalı onay iş akışları",
+        "text": "Onay akışları departman, limit ve organizasyonel rol gibi gerçek iş kurallarını yansıtabilir; finans ekipleri ödeme taahhütlerinin doğru biçimde onaylandığına daha fazla güven duyar."
+      },
+      {
+        "title": "Satın alma siparişi ve teslim alma sürekliliği",
+        "text": "Siparişler ve teslim alma kayıtları sistem içinde görünür kalır; ödeme ekipleri neye taahhüt verildiğini ve gerçekte ne teslim edildiğini daha net görür."
+      },
+      {
+        "title": "Tedarikçi bilgisinin tek yerde toplanması",
+        "text": "Tedarikçi kayıtları, ilgili kişiler, sözleşmeler, teklifler, teklif talebi hareketleri ve sipariş iletişimi bağlı kaldığı için tedarikçi tarafındaki fatura incelemesi daha kolay doğrulanır."
+      },
+      {
+        "title": "Bütçe ve Maliyet Merkezi Kontrolü",
+        "text": "Maliyet merkezleri, mali yıllar ve bütçe görünürlüğü; finans ekiplerinin ödemelerin nereye ait olduğunu ve bütçe sahipliğiyle nasıl ilişkili olduğunu anlamasını sağlar."
+      },
+      {
+        "title": "Finans yönetimi için harcama görünürlüğü",
+        "text": "Bütçe görünümü, yönetilen maliyet merkezi harcamaları, tedarikçi bazlı harcamalar ve sözleşmeli-sözleşmesiz kalıplar; finans yönetimi için daha bilinçli bir kontrol modeli oluşturur."
+      }
+    ],
+    "strengthsEyebrow": "Bugün itibarıyla ödeme otomasyonunu doğrudan destekleyen güçlü yönler",
+    "strengths": [
+      "Satın alma taahhüdü öncesinde işleyen talep ve onay akışları",
+      "Teklif karşılaştırması ve tedarikçi kararı izlenebilirliği sağlayan satın alma formları",
+      "Gerektiğinde uygulama öncesinde çalışan satın alma onayları",
+      "Satın alma siparişi oluşturma ve tedarikçi iletişimi",
+      "Miktar ve belge bağlamı içeren teslim alma kayıtları",
+      "Tedarikçi ana verisi, ilgili kişiler ve sözleşme görünürlüğü",
+      "Bütçe duyarlı satın alma için maliyet merkezi ve mali yıl yapıları",
+      "Satın alma aşamaları boyunca iş akışı geçmişi ve operasyonel izlenebilirlik"
+    ],
+    "futureEyebrow": "Daha kapsamlı bir ödeme otomasyonu katmanı için doğal uzantılar",
+    "futureText": "TalepNET bu çözüm alanını daha da genişletirse, sıradaki mantıklı yetkinlikler mevcut satın alma temeli üzerine oturur.",
+    "futureReady": [
+      "Belge yakalama destekli fatura giriş kutusu",
+      "OCR destekli fatura veri çıkarımı",
+      "Faturaya özel onay akışları",
+      "Satın alma siparişi ve teslim alma verisine karşı iki yönlü ve üç yönlü eşleştirme",
+      "Mükerrer fatura tespiti",
+      "Ödeme planlama ve durum takibi",
+      "Onaylanmış ödeme kayıtları için ERP veya muhasebe entegrasyonu",
+      "Uyuşmazlıklar, avanslar ve ön ödemeler için istisna kuyrukları"
+    ],
+    "whyEyebrow": "Neden sürecin yalnızca yarısını yönetelim?",
+    "whyTitle": "TalepNET, finans ekibinin belirsizliği sonradan çözmesini beklemek yerine ödeme kontrolünü daha erken aşamalara taşıyabilir",
+    "whyMessages": [
+      "Sadece fatura görünürlüğü değil, satın alma görünürlüğü",
+      "Sadece fatura onayı değil, ihtiyaç ve tedarikçi taahhüdü onayı",
+      "Sadece mutabakat desteği değil, mutabakat için operasyonel bağlam",
+      "Sadece finans raporlaması değil, iş akışına bağlı harcama kontrolü"
+    ],
+    "stakeholdersEyebrow": "Bu yapı her ekip için ne anlama geliyor",
+    "stakeholderBenefits": [
+      {
+        "title": "Finans yönetimi",
+        "text": "Alttaki sürece daha fazla güvenerek ödenmemiş taahhütler, bütçe baskısı ve tedarikçi kaynaklı harcamalar üzerinde daha iyi görünürlük elde edin."
+      },
+      {
+        "title": "Ödeme hazırlığı ekibi",
+        "text": "Bir faturanın neye karşılık geldiğini ve ilerleyip ilerlememesi gerektiğini anlamak için talep sahibi, satın alma ekibi ve onay veren kişilerle daha az zaman harcayın."
+      },
+      {
+        "title": "Satın alma ekibi",
+        "text": "Sonraki mutabakatı destekleyen daha düzenli satın alma kayıtları oluştururken tedarikçi, sözleşme ve tedarik disiplinini koruyun."
+      },
+      {
+        "title": "Onaylayıcılar ve bütçe sorumluları",
+        "text": "Finansal kontrol, faturalar sorun hâline gelmeden önce gerçekleşsin diye talepleri ve satın alma işlemlerini yaşam döngüsünün daha erken aşamasında gözden geçirin."
+      },
+      {
+        "title": "BT ve sistem ekipleri",
+        "text": "Ödeme otomasyonunu parçalı süreç verisini birleştirmek yerine düzenli bir satın alma omurgası üzerine kurun."
+      }
+    ],
+    "useCasesEyebrow": "TalepNET’in ödeme otomasyonunu en iyi desteklediği alanlar",
+    "useCases": [
+      "Zaten daha güçlü procure-to-pay disiplini isteyen organizasyonlar",
+      "Satın alma siparişi ve teslim alma görünürlüğünün zayıf olduğu finans ekipleri",
+      "Fatura bağlamının sık sık belirsiz kaldığı satın alma yoğun işletmeler",
+      "Ödeme öncesinde daha iyi maliyet merkezi ve bütçe uyumu isteyen şirketler",
+      "Satın alma davranışını daha erken aşamada düzenleyerek manuel mutabakat yükünü azaltmak isteyen ekipler"
+    ],
+    "faqEyebrow": "Ödeme otomasyonu hakkında sık sorulan sorular",
+    "faqs": [
+      {
+        "question": "TalepNET’in ödeme otomasyonu yaklaşımı geleneksel araçlardan nasıl ayrılır?",
+        "answer": "TalepNET, fatura işleme başlamadan önce satın alma zincirini güçlendirerek ödeme kontrolünü iyileştirir; talep, onay, tedarikçi kararı, satın alma siparişi ve teslim alma bağlamını ödeme kaydına bağlar."
+      },
+      {
+        "question": "TalepNET bugün fatura tarafındaki otomasyonu uçtan uca destekliyor mu?",
+        "answer": "Bugün TalepNET’in en güçlü değeri; satın alma tarafındaki kontrol, izlenebilirlik, tedarikçi görünürlüğü ve operasyonel bağlamdan gelir. Daha derin fatura otomasyonu iş akışları için de güçlü bir temel oluşturur."
+      },
+      {
+        "question": "Satın alma görünürlüğü ödeme kontrolü için neden bu kadar önemlidir?",
+        "answer": "Finans ekipleri, parçalı fatura belgeleriyle çalışmak yerine neyin talep edildiğini, onaylandığını, sipariş edildiğini ve teslim alındığını net gördüğünde fatura doğrulaması çok daha kolay hâle gelir."
+      },
+      {
+        "question": "TalepNET bütçe duyarlı ödeme kontrolünü nasıl destekler?",
+        "answer": "Maliyet merkezleri, mali yıllar, bütçe görünürlüğü ve yönetilen harcama görünümleri; finans ekiplerinin ödeme hareketinin sahiplik ve finansal sınırlarla ilişkisini anlamasına yardımcı olur."
+      },
+      {
+        "question": "TalepNET gelecekte üç yönlü eşleştirmeyi destekleyebilir mi?",
+        "answer": "Evet. Satın alma siparişi ve teslim alma etrafındaki mevcut yapı, gelecekte sipariş-teslim alma-fatura eşleştirmesi için gereken çekirdek süreç verisini zaten oluşturur."
+      }
+    ],
+    "finalEyebrow": "Ödeme otomasyonunu daha sağlam bir satın alma kontrolü üzerine kurun",
+    "finalTitle": "TalepNET, finans ve satın alma ekiplerinin belirsizliği azaltmasına, izlenebilirliği güçlendirmesine ve faturalar son onay aşamasına ulaşmadan önce daha sağlam ödeme koşulları oluşturmasına yardımcı olur.",
+    "finalSecondaryCta": "İletişime Geçin"
+  }
+}

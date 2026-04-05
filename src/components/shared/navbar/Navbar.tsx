@@ -1,7 +1,9 @@
 'use client';
 import RevealAnimation from '@/components/animation/RevealAnimation';
 import { MobileMenuProvider } from '@/context/MobileMenuContext';
-import { mobileMenuData } from '@/data/navbar-data';
+import { useLocale } from '@/i18n/I18nProvider';
+import { localizeHref } from '@/i18n/pathnames';
+import { useTranslations } from '@/i18n/useTranslations';
 import { useNavbarScroll } from '@/hooks/useScrollHeader';
 import { cn } from '@/utils/cn';
 import mobileIcon from '@public/images/shared/talepnet-icon.png';
@@ -13,17 +15,88 @@ import MobileMenu from '../mobile-menu/MobileMenu';
 import EngageMenu from './EngageMenu';
 import ExploreMenu from './ExploreMenu';
 import InsightsMenu from './InsightsMenu';
+import LocaleSwitcher from './LocaleSwitcher';
 import MobileMenuButton from './MobileMenuButton';
 import PricingMenu from './PricingMenu';
 
 const Navbar = () => {
   const { isScrolled } = useNavbarScroll(150);
+  const locale = useLocale();
+  const t = useTranslations('navbar');
 
   const [menuDropdownId, setMenuDropdownId] = useState<string | null>(null);
 
   const handleMenuHover = (dropdownId?: string | null) => {
     setMenuDropdownId(dropdownId || null);
   };
+
+  const mobileMenuData = [
+    {
+      id: 'company',
+      title: t('mobile.company'),
+      submenu: [
+        { id: 'about', label: t('explore.about'), href: localizeHref('/about', locale) },
+        { id: 'solutions', label: t('explore.solutions'), href: localizeHref('/solutions', locale) },
+        { id: 'industries', label: t('explore.industries'), href: localizeHref('/industries', locale) },
+        { id: 'partnerships', label: t('explore.partnerships'), href: localizeHref('/partnerships', locale) },
+        { id: 'contact-us', label: t('explore.contactUs'), href: localizeHref('/contact-us', locale) },
+        { id: 'careers', label: t('explore.careers'), href: localizeHref('/career', locale) },
+      ],
+    },
+    {
+      id: 'product-overview',
+      title: t('mobile.productOverview'),
+      submenu: [
+        { id: 'purchase-requests', label: t('explore.purchaseRequests'), href: localizeHref('/purchase-requests', locale) },
+        { id: 'approvals', label: t('explore.approvals'), href: localizeHref('/approvals', locale) },
+        { id: 'purchase-forms', label: t('explore.purchaseForms'), href: localizeHref('/purchase-forms', locale) },
+        { id: 'purchase-orders', label: t('explore.purchaseOrders'), href: localizeHref('/purchase-orders', locale) },
+        { id: 'contract-management', label: t('explore.contractManagement'), href: localizeHref('/contract-management', locale) },
+        { id: 'supplier-management', label: t('explore.supplierManagement'), href: localizeHref('/supplier-management', locale) },
+        { id: 'budget-management', label: t('explore.budgetManagement'), href: localizeHref('/budget-management', locale) },
+      ],
+    },
+    {
+      id: 'for-suppliers',
+      title: t('mobile.forSuppliers'),
+      submenu: [
+        { id: 'supplier-portal', label: t('explore.supplierPortal'), href: localizeHref('/supplier-portal', locale) },
+        { id: 'respond-to-rfqs', label: t('explore.respondToRfqs'), href: localizeHref('/respond-to-rfqs', locale) },
+        { id: 'track-orders', label: t('explore.trackOrders'), href: localizeHref('/track-orders', locale) },
+        { id: 'manage-agreements', label: t('explore.manageAgreements'), href: localizeHref('/manage-agreements', locale) },
+        { id: 'create-catalogs', label: t('explore.createCatalogs'), href: localizeHref('/create-catalogs', locale) },
+        { id: 'collaborate', label: t('explore.collaborate'), href: localizeHref('/collaborate', locale) },
+      ],
+    },
+    {
+      id: 'resources',
+      title: t('mobile.resources'),
+      submenu: [
+        { id: 'support', label: t('resources.helpCenter'), href: localizeHref('/support', locale) },
+        { id: 'faq', label: t('resources.faq'), href: localizeHref('/faq', locale) },
+        { id: 'blog', label: t('resources.blog'), href: localizeHref('/blog', locale) },
+        { id: 'tutorials', label: t('resources.tutorials'), href: localizeHref('/tutorial', locale) },
+        { id: 'contact', label: t('resources.contactUs'), href: localizeHref('/contact-us', locale) },
+      ],
+    },
+    {
+      id: 'pricing',
+      title: t('mobile.pricing'),
+      submenu: [
+        { id: 'view-plans', label: t('pricingMenu.viewPlans'), href: localizeHref('/pricing', locale) },
+        { id: 'get-started-free', label: t('pricingMenu.getStartedFree'), href: 'https://app.talepnet.com/sign-up' },
+      ],
+    },
+    {
+      id: 'access',
+      title: t('mobile.access'),
+      submenu: [
+        { id: 'login', label: t('explore.logIn'), href: 'https://app.talepnet.com/sign-in' },
+        { id: 'sign-up', label: t('explore.signUp'), href: 'https://app.talepnet.com/sign-up' },
+        { id: 'join-as-supplier', label: t('explore.joinAsSupplier'), href: 'https://portal.talepnet.com/sign-up' },
+      ],
+    },
+  ];
   return (
     <MobileMenuProvider>
       <header
@@ -36,7 +109,7 @@ const Navbar = () => {
           <div>
             <div className="flex items-center justify-between bg-background-2 dark:bg-background-6 rounded-full px-2.5 py-2.5 backdrop-blur-[25px] xl:py-0">
               <div>
-                <Link href="/">
+                <Link href={localizeHref('/', locale)}>
                   <span className="sr-only">Home</span>
                   <figure className="hidden lg:block lg:max-w-[198px]">
                     <Image src={mainLogo} alt="TalepNET" className="h-[34px] w-auto" priority />
@@ -56,7 +129,7 @@ const Navbar = () => {
                       href="#"
                       onClick={(event) => event.preventDefault()}
                       className="hover:border-stroke-2 dark:hover:border-stroke-7 text-tagline-1 text-secondary/60 hover:text-secondary dark:text-accent/60 dark:hover:text-accent flex items-center gap-1 rounded-full border border-transparent px-4 py-2 font-normal transition-all duration-200">
-                      <span>Platform</span>
+                      <span>{t('topLevel.platform')}</span>
                       <span className="block origin-center translate-y-px transition-all duration-300 group-hover/nav-item:rotate-180">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
@@ -79,7 +152,7 @@ const Navbar = () => {
                       href="#"
                       onClick={(event) => event.preventDefault()}
                       className="hover:border-stroke-2 dark:hover:border-stroke-7 text-tagline-1 text-secondary/60 hover:text-secondary dark:text-accent/60 dark:hover:text-accent flex items-center gap-1 rounded-full border border-transparent px-4 py-2 font-normal transition-all duration-200">
-                      <span>Solutions</span>
+                      <span>{t('topLevel.solutions')}</span>
                       <span className="block origin-center translate-y-px transition-all duration-300 group-hover/nav-item:rotate-180">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
@@ -102,7 +175,7 @@ const Navbar = () => {
                       href="#"
                       onClick={(event) => event.preventDefault()}
                       className="hover:border-stroke-2 dark:hover:border-stroke-7 text-tagline-1 text-secondary/60 hover:text-secondary dark:text-accent/60 dark:hover:text-accent flex items-center gap-1 rounded-full border border-transparent px-4 py-2 font-normal transition-all duration-200">
-                      <span>Resources</span>
+                      <span>{t('topLevel.resources')}</span>
                       <span className="block origin-center translate-y-px transition-all duration-300 group-hover/nav-item:rotate-180">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
@@ -125,7 +198,7 @@ const Navbar = () => {
                       href="#"
                       onClick={(event) => event.preventDefault()}
                       className="hover:border-stroke-2 dark:hover:border-stroke-7 text-tagline-1 text-secondary/60 hover:text-secondary dark:text-accent/60 dark:hover:text-accent flex items-center gap-1 rounded-full border border-transparent px-4 py-2 font-normal transition-all duration-200">
-                      <span>Pricing</span>
+                      <span>{t('topLevel.pricing')}</span>
                       <span className="block origin-center translate-y-px transition-all duration-300 group-hover/nav-item:rotate-180">
                         <svg
                           xmlns="http://www.w3.org/2000/svg"
@@ -143,16 +216,22 @@ const Navbar = () => {
                 </ul>
               </nav>
               <div className="hidden items-center justify-center xl:flex">
-                <Link href="https://portal.talepnet.com/" className="btn btn-md btn-primary hover:btn-white-dark dark:hover:btn-white">
-                  <span>Tedarikçi Portalı</span>
-                </Link>
+                <div className="flex items-center gap-3">
+                  <LocaleSwitcher />
+                  <Link href="https://portal.talepnet.com/" className="btn btn-md btn-primary hover:btn-white-dark dark:hover:btn-white">
+                    <span>{t('topLevel.supplierPortal')}</span>
+                  </Link>
+                </div>
               </div>
-              <MobileMenuButton />
+              <div className="flex items-center gap-2 xl:hidden">
+                <LocaleSwitcher />
+                <MobileMenuButton />
+              </div>
             </div>
           </div>
         </RevealAnimation>
       </header>
-      <MobileMenu menuData={mobileMenuData} />
+      <MobileMenu menuData={mobileMenuData} menuLabel={t('mobile.menu')} />
     </MobileMenuProvider>
   );
 };

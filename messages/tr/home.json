@@ -1,0 +1,116 @@
+{
+  "hero": {
+    "titleBefore": "Akıllı otomasyon ve izlenebilirlikle",
+    "titleHighlight": "satın alma süreçlerinizi",
+    "titleAfter": "dönüştürün",
+    "description": "TalepNET, her ölçekteki işletmenin satın alma süreçlerini yapay zeka destekli iş akışları, izlenebilirlik ve tedarikçi ağı ile otomatikleştirmesini sağlar.",
+    "startFree": "Ücretsiz Başlayın",
+    "watchVideo": "Videoyu İzleyin",
+    "startFreeAria": "Ücretsiz başlayın",
+    "watchVideoAria": "Videoyu izleyin",
+    "closeAria": "Kapat",
+    "videoTitle": "TalepNET Tanıtım Videosu"
+  },
+  "services": {
+    "title": "Satın alma süreçlerinizi iş akışı sihirbazı ile kolayca oluşturun",
+    "description": "TalepNET, tedarik sürecinizi basitleştiren sezgisel araçlar ve ihtiyaçlarınıza özel akıllı bir yaklaşım sunar.",
+    "items": [
+      {
+        "title": "Kurumsal Satın Alma Süreçleri",
+        "description": "İşletmenizin satın alma süreçlerini oluşturun ve TalepNET ile süreç onaylarını kolayca yönetin."
+      },
+      {
+        "title": "Online Teklif ve Siparişler",
+        "description": "Tedarikçilerinize talep gönderin, teklifler alın, onaylayın ve siparişleri online olarak gönderin."
+      },
+      {
+        "title": "Tedarikçi Ağı",
+        "description": "Yeni tedarikçileri kategoriye göre arayın, gerçek yorumları okuyun ve talep gönderin."
+      }
+    ],
+    "cta": "Ücretsiz denemeye başlayın"
+  },
+  "highlights": {
+    "activeCompanies": "Aktif Şirket",
+    "customerSatisfaction": "Müşteri Memnuniyeti",
+    "processedOrders": "İşlenen Sipariş"
+  },
+  "feature": {
+    "title": "Tüm araçlarınızdan verileri tek yerden takip edin",
+    "description": "İster startup ister kurumsal olun, TalepNET favori veri kaynaklarınızı birleştirerek her şeyi tek bir görsel komuta merkezinde toplar.",
+    "items": [
+      "Özelleştirilmiş iş akışları",
+      "Esnek entegrasyonlar",
+      "Her ekip için ölçeklenebilir"
+    ],
+    "cta": "Entegrasyonları keşfedin"
+  },
+  "featureV2": {
+    "title": "Satın alma süreçleri artık çok daha kolay",
+    "description": "TalepNET iş akışınızı daha akıllı bir şekilde optimize eder.",
+    "items": [
+      {
+        "title": "Talep Yönetimi",
+        "description": "Satın alma talepleri, kimin neye, ne kadar ihtiyaç duyduğunu anlamanızı sağlar."
+      },
+      {
+        "title": "Sipariş Yönetimi",
+        "description": "Satın alma taleplerinden tek tıklamayla siparişlerinizi oluşturun ve yönetin."
+      },
+      {
+        "title": "Onay Süreçleri",
+        "description": "Otomatik veya özelleştirilmiş iş akışında onayları kolayca takip edin."
+      }
+    ]
+  },
+  "integration": {
+    "badge": "Entegrasyon",
+    "title": "Şablonlar & araçlar",
+    "description": "Çeşitli projeler için kullanıma hazır şablonlar ile kurulumu basitleştirin. ERP, muhasebe ve lojistik sistemlerinizle sorunsuz entegrasyon sağlayın.",
+    "cta": "Uygulamada görün"
+  },
+  "process": {
+    "title": "Satın alma sürecinizi 3 adımda başlatın",
+    "description": "TalepNET ile satın alma yönetiminizi hızla dijitalleştirin.",
+    "steps": [
+      "İş akışınızı tasarlayın",
+      "Tedarikçi ağınızı oluşturun",
+      "Online sipariş verin"
+    ]
+  },
+  "supplierManagement": {
+    "badge": "Tedarikçi Yönetimi",
+    "titleBefore": "Tedarikçilerinizi",
+    "titleHighlight": "tek platformdan",
+    "titleAfter": "yönetin",
+    "description": "TalepNET ile tedarikçi ilişkilerinizi güçlendirin, teklif süreçlerinizi hızlandırın ve tedarik zincirinizi uçtan uca kontrol altına alın.",
+    "items": [
+      "Tedarikçi performans puanlama ve değerlendirme",
+      "Otomatik teklif toplama ve karşılaştırma",
+      "Gerçek zamanlı sipariş takibi ve bildirimler",
+      "Güvenli belge paylaşımı ve sözleşme yönetimi"
+    ],
+    "cta": "Tedarikçi Yönetimini Keşfet"
+  },
+  "reviews": {
+    "badge": "Müşteri Başarısı",
+    "title": "Gerçek çözümler. Gerçek sonuçlar.",
+    "description": "\"TalepNET, satın alma süreçlerimizi dijitalleştirmemize yardımcı oldu. Kusursuz bir uygulama ve gerçek bir iş ortaklığı.\"",
+    "cta": "Tüm değerlendirmeleri gör"
+  },
+  "cta": {
+    "title": "TalepNET'i hemen ücretsiz deneyin",
+    "items": [
+      "Satın alma siparişlerinizi kolayca yönetin",
+      "Tedarikçi ağınızı genişletin ve yeni tedarikçiler bulun",
+      "Dakikalar içinde başlayın"
+    ],
+    "button": "Ücretsiz Başlayın"
+  },
+  "newsletter": {
+    "badge": "Hemen Başlayın",
+    "title": "Satın alma süreçleriniz dönüşmeye hazır mı?",
+    "description": "Ücretsiz kaydolun ve TalepNET ile satın alma siparişlerinizi yönetmenin kolaylığını yaşayın. Hemen başlayın ve tedarik sürecinizi hızlandırın.",
+    "button": "Ücretsiz Başlayın"
+  }
+}

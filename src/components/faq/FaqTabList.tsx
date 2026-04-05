@@ -1,36 +1,41 @@
+'use client';
+
+import { useTranslations } from '@/i18n/useTranslations';
 import { Fragment } from 'react';
 import Tab from '../ui/tab/Tab';
 import TabList from '../ui/tab/TabList';
 
 const FaqTabList = () => {
+  const t = useTranslations('faq');
+
   return (
     <Fragment>
       <TabList variant="desktop">
         <Tab index={0} variant="desktop">
-          Product
+          {t('tabs.product')}
         </Tab>
         <Tab index={1} variant="desktop">
-          Pricing
+          {t('tabs.pricing')}
         </Tab>
         <Tab index={2} variant="desktop">
-          Security
+          {t('tabs.security')}
         </Tab>
         <Tab index={3} variant="desktop">
-          Supplier Portal
+          {t('tabs.supplierPortal')}
         </Tab>
       </TabList>
       <TabList variant="mobile">
         <Tab index={0} variant="mobile">
-          Product
+          {t('tabs.product')}
         </Tab>
         <Tab index={1} variant="mobile">
-          Pricing
+          {t('tabs.pricing')}
         </Tab>
         <Tab index={2} variant="mobile">
-          Security
+          {t('tabs.security')}
         </Tab>
         <Tab index={3} variant="mobile" className="text-nowrap">
-          Supplier Portal
+          {t('tabs.supplierPortal')}
         </Tab>
       </TabList>
     </Fragment>

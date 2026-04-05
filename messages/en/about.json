@@ -1,0 +1,120 @@
+{
+  "hero": {
+    "badge": "About TalepNET",
+    "title": "A more structured and reliable approach to procurement",
+    "description": "TalepNET brings requests, approvals, suppliers, and purchasing into a single, connected workflow. It helps organizations maintain control, improve visibility, and reduce the operational friction caused by fragmented processes.",
+    "primaryCta": "Request a Demo",
+    "secondaryCta": "Explore the Product"
+  },
+
+  "introCard": {
+    "eyebrow": "Why we started TalepNET",
+    "text": "In many organizations, procurement is still managed through emails, spreadsheets, and informal coordination. While processes continue to move, they often lack consistency, visibility, and control. TalepNET was created to provide a more structured and dependable way to manage procurement workflows end to end."
+  },
+
+  "beliefsSection": {
+    "eyebrow": "What we believe procurement software should do",
+    "title": "Support real procurement workflows with clarity and control"
+  },
+
+  "beliefs": [
+    {
+      "title": "Reflect how organizations actually operate",
+      "text": "Procurement involves multiple stakeholders, approval layers, suppliers, and exceptions. A system should support this structure without forcing teams into disconnected or manual workarounds."
+    },
+    {
+      "title": "Enable both speed and oversight",
+      "text": "Procurement processes need to move efficiently while remaining visible and accountable. Systems should allow procurement, finance, and operations teams to work in alignment without creating additional coordination overhead."
+    },
+    {
+      "title": "Remain practical and usable",
+      "text": "Adoption depends on usability. Procurement systems should be straightforward for all participants, including requesters, approvers, buyers, and finance teams."
+    }
+  ],
+
+  "focusSection": {
+    "eyebrow": "What we are building",
+    "title": "A unified system across the key stages of procurement",
+    "description": "TalepNET connects the core stages of procurement into a single operational flow, reducing fragmentation and maintaining continuity across the process."
+  },
+
+  "focusAreas": [
+    "Request and approval workflows",
+    "Approval and purchasing coordination",
+    "Supplier management and sourcing",
+    "Order creation and execution",
+    "Receiving and financial visibility"
+  ],
+
+  "audienceSection": {
+    "eyebrow": "Who we are building for",
+    "title": "Organizations that require structure without losing flexibility",
+    "description": "TalepNET is designed for organizations that have moved beyond informal purchasing practices and require a more structured approach, while still maintaining flexibility across teams, departments, and operational workflows."
+  },
+
+  "audiences": [
+    "Procurement teams seeking better supplier and sourcing control",
+    "Finance teams requiring clearer spend and budget visibility",
+    "Operations teams that depend on reliable and timely purchasing",
+    "Growing organizations establishing structured procurement processes"
+  ],
+
+  "productThinking": {
+    "eyebrow": "How we think about product",
+    "title": "Improve control, maintain usability, and support real workflows",
+    "description": "TalepNET is designed as an operational procurement system rather than a simple form-based tool. Each stage of the process remains connected, allowing teams to manage procurement activities with greater clarity and continuity."
+  },
+
+  "today": {
+    "eyebrow": "Where we are today",
+    "description1": "TalepNET continues to evolve with a clear focus on connecting procurement workflows and improving their day-to-day manageability. The product is built on a foundation that prioritizes structure, visibility, and operational reliability.",
+    "description2": "Our approach is to address meaningful workflow challenges step by step, ensuring the system remains practical, usable, and aligned with real organizational needs."
+  },
+
+  "locations": {
+    "eyebrow": "Our Locations",
+    "title": "Where TalepNET operates",
+    "description": "TalepNET operates with a focus on developing practical procurement solutions supported by strong operational and technical infrastructure.",
+    "items": [
+      {
+        "city": "Istanbul",
+        "place": "Bilgiyi Ticarilestirme Merkezi",
+        "address": "Fulya, Yesilcimen Sok. Polat Tower Residence No:12/430, 34394 Sisli/Istanbul",
+        "cta": "View Istanbul location"
+      },
+      {
+        "city": "Antalya",
+        "place": "Antalya Teknokent",
+        "address": "Pinarbasi Mah. Hurriyet Cad. Akdeniz Universitesi Antalya Teknokent Ar-Ge 2 Ulugbey Binasi No:3A/31, Konyaalti/Antalya",
+        "cta": "View Antalya location"
+      }
+    ]
+  },
+
+  "expectationsSection": {
+    "eyebrow": "What you can expect from us",
+    "title": "A consistent and practical approach to procurement software"
+  },
+
+  "expectations": [
+    {
+      "title": "Clarity",
+      "text": "We aim to make procurement processes easier to understand and manage for all stakeholders involved."
+    },
+    {
+      "title": "Practicality",
+      "text": "We focus on improvements that deliver tangible value in day-to-day procurement operations."
+    },
+    {
+      "title": "Continuity",
+      "text": "We ensure that requests, approvals, suppliers, orders, receiving, and financial data remain connected throughout the process."
+    }
+  ],
+
+  "finalCta": {
+    "eyebrow": "A more structured way to manage procurement",
+    "title": "If your organization is looking to move beyond fragmented processes and establish a more controlled and visible procurement workflow, TalepNET provides a solid foundation.",
+    "primaryCta": "Request a Demo",
+    "secondaryCta": "Contact Us"
+  }
+}

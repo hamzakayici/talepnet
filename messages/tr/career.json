@@ -1,0 +1,106 @@
+{
+  "metadata": {
+    "title": "Kariyer | TalepNET",
+    "description": "TalepNET'te büyüme ve ürün ekiplerindeki açık rolleri keşfedin."
+  },
+  "listPage": {
+    "heroTitle": "TalepNET’in bir sonraki aşamasını bizimle birlikte inşa edin.",
+    "introTitle": "Gerçek satın alma problemleri için pratik yazılım geliştiren küçük bir ekibe katılın.",
+    "paragraphs": [
+      "TalepNET, parçalı satın alma süreçlerini geride bırakmış şirketler için bir B2B hizmet olarak yazılım ürünü geliştiriyor. Başlangıç aşaması gösterişinden çok iş akışlarına, netliğe ve uygulama kalitesine önem veriyoruz.",
+      "Hâlâ erken aşamadayız. Bu da ekibin küçük, kararların doğrudan ve her rolün etkisinin görünür olduğu anlamına geliyor. İş, uygulamalı ve çapraz fonksiyonlu; şirketin nasıl büyüyeceğini şekillendirme alanı var.",
+      "Katmanlı süreçleri olan cilalı bir kurumsal yapı arıyorsanız, burası muhtemelen doğru yer değil. Erken aşamada disiplinli bir ürün ve şirket inşa etmek istiyorsanız, büyük ihtimalle doğru yer burası.",
+      "Sahiplenerek çalışabilen, açık iletişim kuran ve TalepNET’in pazara gidişini ve ürünün evrimini geliştirebilecek kişiler arıyoruz."
+    ],
+    "openRolesBadge": "Açık Roller",
+    "openRolesTitle": "Güncel pozisyonlar",
+    "viewRole": "Rolü Gör",
+    "finalCtaEyebrow": "TalepNET’e Katılın",
+    "finalCtaTitle": "Daha iyi görünürlük, daha güçlü kontrol ve iş akışında daha az sürtünme sağlayan yapay zekâ destekli satın alma yazılımı geliştiriyoruz."
+  },
+  "detailsPage": {
+    "breadcrumbTitle": "Kariyer",
+    "heading": "Açık Rol",
+    "jobOverview": "Pozisyon Özeti",
+    "datePosted": "Yayın tarihi",
+    "expirationDate": "Son başvuru",
+    "location": "Lokasyon",
+    "offeredSalary": "Ücret",
+    "experience": "Deneyim",
+    "qualification": "Nitelik",
+    "jobSkills": "Yetkinlikler",
+    "applyNow": "Başvur",
+    "sectionOverview": "Rol özeti",
+    "sectionWorkOn": "Neler üzerinde çalışacaksınız",
+    "sectionLookingFor": "Aradığımız profil",
+    "sectionWhyMatters": "Bu rol neden önemli"
+  },
+  "roles": [
+    {
+      "slug": "growth-marketing-partnerships-lead",
+      "title": "Growth Marketing & Partnerships Lead",
+      "datePosted": "9 Nisan 2026",
+      "expirationDate": "Pozisyon dolana kadar açık",
+      "location": "İstanbul veya Uzaktan",
+      "offeredSalary": "Deneyime göre rekabetçi",
+      "experience": "B2B SaaS growth, demand generation veya ticari pazarlama tarafında 5+ yıl",
+      "qualification": "B2B yazılım şirketlerinde pipeline oluşturan rollerde güçlü geçmiş",
+      "shortDescription": "Growth programlarını sahiplenin, pazar görünürlüğümüzü güçlendirin ve erken ivmeyi tekrar edilebilir bir ticari motora dönüştürün.",
+      "employmentType": ["tam zamanlı", "hibrit"],
+      "jobSkills": ["Demand Generation", "B2B SaaS Marketing", "Paid Acquisition", "Content and Messaging", "CRM and Funnel Operations", "Partnerships", "Sales Collaboration"],
+      "overview": [
+        "TalepNET’in nasıl büyüdüğünü şekillendirecek bir Growth Marketing & Partnerships Lead arıyoruz. Bu rol pazarlama, ticari strateji ve erken gelir operasyonlarının kesişiminde yer alıyor. Konumlandırmayı netleştirmenize, talep yaratımını geliştirmenize ve erken aşama bir B2B SaaS ürün etrafında doğru iş ortaklıklarını kurmanıza ihtiyaç var.",
+        "Bu rol ne saf bir marka rolü ne de dar kapsamlı bir kampanya rolü. Stratejik düşünebilen ama aynı zamanda doğrudan uygulama yapabilen birine ihtiyacımız var. Mesajlaşma, landing page’ler, ücretli deneyler, outbound desteği, CRM disiplini ve partner görüşmeleri arasında rahat hareket edebilmelisiniz.",
+        "Kurucular, ürün ve ticari ekiplerle yakın çalışacaksınız. Amaç, satın alma ekiplerinin gerçek bir operasyonel problemini çözen ürün etrafında daha disiplinli bir go-to-market kurgusu oluşturmak."
+      ],
+      "workOn": [
+        "TalepNET’in ana ICP’ler ve kullanım senaryolarındaki konumlandırmasını geliştirmek.",
+        "Ücretli, içerik, outbound ve partner kanallarında growth programları kurmak ve test etmek.",
+        "Daha güçlü mesajlaşma ve kampanya yapısıyla erken pipeline oluşumunu desteklemek.",
+        "Pazarlama aktivitesi ile ticari takip arasındaki devri daha sıkı hale getirmek.",
+        "Trafik, lead kalitesi ve pipeline sinyalleri için daha tutarlı bir raporlama katmanı kurmak."
+      ],
+      "lookingFor": [
+        "Sonuç sahipliği görünür olan bir B2B SaaS ortamında deneyim.",
+        "Sadece kanal icrası değil, güçlü ticari muhakeme.",
+        "Ürün ve pazar odaklı mesajları yazma ve geliştirme konusunda güven.",
+        "Sınırlı yapı içinde çalışıp ilerlerken yapıyı iyileştirebilme becerisi.",
+        "Kurucularla MVP’den ölçeklemeye geçiş döneminde yakın çalışabilme rahatlığı."
+      ],
+      "whyMatters": "TalepNET, go-to-market kalitesinin hacim gösterisinden daha önemli olduğu bir aşamada. Erken ürün yönünü daha net bir ticari motora dönüştürebilecek ve bunu disiplinle yapabilecek birine ihtiyacımız var."
+    },
+    {
+      "slug": "product-manager",
+      "title": "Product Manager",
+      "datePosted": "9 Nisan 2026",
+      "expirationDate": "Pozisyon dolana kadar açık",
+      "location": "İstanbul veya Uzaktan",
+      "offeredSalary": "Deneyime göre rekabetçi",
+      "experience": "SaaS product management tarafında 4+ yıl",
+      "qualification": "Workflow, operasyon veya B2B yazılım ürünlerinde ürün yönünü şekillendirme deneyimi",
+      "shortDescription": "TalepNET daha güçlü bir satın alma işletim sistemine dönüşürken iş akışları, öncelikler ve teslimat üzerinde ürün düşüncesine liderlik edin.",
+      "employmentType": ["tam zamanlı", "hibrit"],
+      "jobSkills": ["Product Strategy", "Discovery", "Workflow Design", "User Research", "Prioritization", "Cross-functional Delivery", "B2B SaaS"],
+      "overview": [
+        "TalepNET’in bir sonraki aşamasını şekillendirecek bir Product Manager arıyoruz. Bu rol, ürün yönünü daha net bir yol haritasına, daha sıkı önceliklere ve iş akışı yoğun bir B2B SaaS ürününde daha iyi uygulamaya dönüştürmekle ilgili.",
+        "TalepNET, ekiplerin yapı, görünürlük ve kontrole önem verdiği bir yazılım alanında yer alıyor. Bu nedenle ürün işi sadece feature çıkarmaktan ibaret değil. Süreç tasarımı, kullanıcı rolleri, operasyonel sürtünme ve karmaşıklığın nerede yaşaması gerektiğine dair güçlü muhakeme gerekiyor.",
+        "Tasarım, mühendislik, kurucular ve go-to-market ekipleriyle yakın çalışacaksınız. Ürünü derinlemesine anlayan, daha iyi sorular soran ve yol haritasını gereksiz karmaşıklık yaratmadan keskinleştiren birini arıyoruz."
+      ],
+      "workOn": [
+        "Satın alma iş akışları, kullanıcı rolleri ve operasyonel problem noktaları üzerinde discovery yürütmek.",
+        "Ürün yönünü net kapsam, öncelik ve release kararlarına dönüştürmek.",
+        "İstekler, onaylar, satın alma, teslim alma ve spend visibility arasındaki feature bağlantılarını güçlendirmek.",
+        "Mühendislik ve tasarımla birlikte teslimatı pratik ve kalite odaklı tutmak.",
+        "Ürün iletişimini iç ekipler ve müşteri temaslı görüşmeler arasında desteklemek."
+      ],
+      "lookingFor": [
+        "B2B SaaS veya workflow ağırlıklı yazılımlarda güçlü ürün muhakemesi.",
+        "Büyüyen ürün ekiplerinde discovery, önceliklendirme ve teslimatı dengeleme deneyimi.",
+        "Karmaşık operasyonel problemleri kullanılabilir ürün kararlarına sadeleştirebilme becerisi.",
+        "Doğrudan ve düşük seremonili bir ortamda çalışma rahatlığı.",
+        "Teknik ve teknik olmayan paydaşlarla net yazılı ve sözlü iletişim."
+      ],
+      "whyMatters": "TalepNET umut veren bir temelden daha olgun bir ürün sistemine doğru ilerliyor. Bu rol önemli çünkü ürün kalitesi daha iyi önceliklendirmeye, daha net workflow düşüncesine ve yol haritasında daha disiplinli karar almaya bağlı olacak."
+    }
+  ]
+}

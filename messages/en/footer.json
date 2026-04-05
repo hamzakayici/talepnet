@@ -1,0 +1,26 @@
+{
+  "titles": {
+    "company": "Company",
+    "explore": "Explore",
+    "resources": "Resources",
+    "legal": "Legal"
+  },
+  "links": {
+    "about": "About",
+    "partnerships": "Partnerships",
+    "careers": "Careers",
+    "contactUs": "Contact Us",
+    "solutions": "Solutions",
+    "industries": "Industries",
+    "productFeatures": "Product Features",
+    "pricing": "Pricing",
+    "blog": "Blog",
+    "faq": "FAQ",
+    "tutorials": "Tutorials",
+    "terms": "Terms of Service",
+    "privacy": "Privacy Policy",
+    "cookies": "Cookie Policy"
+  },
+  "description": "AI-powered procurement platform for teams that need greater control, better visibility, and smoother workflows.",
+  "rights": "Copyright © 2026 TalepNET. All rights reserved."
+}

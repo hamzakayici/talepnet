@@ -1,4 +1,7 @@
 'use client';
+import { useLocale } from '@/i18n/I18nProvider';
+import { localizeHref } from '@/i18n/pathnames';
+import { useTranslations } from '@/i18n/useTranslations';
 import { cn } from '@/utils/cn';
 import { Euro, Rocket } from 'lucide-react';
 import Link from 'next/link';
@@ -11,6 +14,8 @@ const PricingMenu = ({
   menuDropdownId: string | null;
   setMenuDropdownId: (id: string | null) => void;
 }) => {
+  const locale = useLocale();
+  const t = useTranslations('navbar');
   return (
     <div>
       <div
@@ -29,7 +34,7 @@ const PricingMenu = ({
         )}>
         <li>
           <Link
-            href="/pricing"
+            href={localizeHref('/pricing', locale)}
             onClick={() => setMenuDropdownId(null)}
             className="group relative flex items-start gap-3 rounded-2xl p-3 transition-all duration-300">
             <HoverBgTransform className="group-hover:opacity-100" />
@@ -37,9 +42,9 @@ const PricingMenu = ({
               <Euro className="size-5 text-secondary dark:text-accent" />
             </div>
             <div className="relative z-10">
-              <p className="text-tagline-1 text-secondary dark:text-accent font-normal">View Plans</p>
+              <p className="text-tagline-1 text-secondary dark:text-accent font-normal">{t('pricingMenu.viewPlans')}</p>
               <p className="text-tagline-2 text-secondary/60 dark:text-accent/60 font-normal">
-                Choose the best plan for your team
+                {t('pricingMenu.viewPlansDesc')}
               </p>
             </div>
           </Link>
@@ -54,9 +59,9 @@ const PricingMenu = ({
               <Rocket className="size-5 text-secondary dark:text-accent" />
             </div>
             <div className="relative z-10">
-              <p className="text-tagline-1 text-secondary dark:text-accent font-normal">Get Started Free</p>
+              <p className="text-tagline-1 text-secondary dark:text-accent font-normal">{t('pricingMenu.getStartedFree')}</p>
               <p className="text-tagline-2 text-secondary/60 dark:text-accent/60 font-normal">
-                Start with one user at no cost
+                {t('pricingMenu.getStartedFreeDesc')}
               </p>
             </div>
           </Link>

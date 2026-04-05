@@ -1,4 +1,7 @@
 'use client';
+import { useLocale } from '@/i18n/I18nProvider';
+import { localizeHref } from '@/i18n/pathnames';
+import { useTranslations } from '@/i18n/useTranslations';
 import { cn } from '@/utils/cn';
 import Link from 'next/link';
 import HoverBgTransform from '../hover-bg-transform';
@@ -15,37 +18,6 @@ type EngageSection = {
   items: EngageItem[];
 };
 
-const engageSections: EngageSection[] = [
-  {
-    ctaHref: '/solutions',
-    ctaLabel: 'View all solutions',
-    title: 'Solutions',
-    items: [
-      { label: 'Procure-to-Pay', href: '/solutions/procure-to-pay' },
-      { label: 'Request-to-Receipt', href: '/solutions/request-to-receipt' },
-      { label: 'Source-to-Order', href: '/solutions/source-to-order' },
-      { label: 'Approval Workflow', href: '/solutions/approval-workflow' },
-      { label: 'Spend Management', href: '/solutions/spend-management' },
-      { label: 'Budget Control', href: '/solutions/budget-control' },
-      { label: 'Accounts Payable', href: '/solutions/accounts-payable' },
-    ],
-  },
-  {
-    ctaHref: '/industries',
-    ctaLabel: 'View all industries',
-    title: 'Industry',
-    items: [
-      { label: 'Automotive', href: '/industries/automotive' },
-      { label: 'Construction', href: '/industries/construction' },
-      { label: 'Education', href: '/industries/education' },
-      { label: 'Healthcare', href: '/industries/healthcare' },
-      { label: 'Hospitality', href: '/industries/hospitality' },
-      { label: 'Non-Profit', href: '/industries/non-profit' },
-      { label: 'Technology', href: '/industries/technology' },
-    ],
-  },
-];
-
 const EngageMenu = ({
   menuDropdownId,
   setMenuDropdownId,
@@ -53,7 +25,40 @@ const EngageMenu = ({
   menuDropdownId: string | null;
   setMenuDropdownId: (id: string | null) => void;
 }) => {
+  const locale = useLocale();
+  const t = useTranslations('navbar');
   const handleClose = () => setMenuDropdownId(null);
+
+  const engageSections: EngageSection[] = [
+    {
+      ctaHref: localizeHref('/solutions', locale),
+      ctaLabel: t('engage.viewAllSolutions'),
+      title: t('engage.solutions'),
+      items: [
+        { label: t('engage.procureToPay'), href: localizeHref('/solutions/procure-to-pay', locale) },
+        { label: t('engage.requestToReceipt'), href: localizeHref('/solutions/request-to-receipt', locale) },
+        { label: t('engage.sourceToOrder'), href: localizeHref('/solutions/source-to-order', locale) },
+        { label: t('engage.approvalWorkflow'), href: localizeHref('/solutions/approval-workflow', locale) },
+        { label: t('engage.spendManagement'), href: localizeHref('/solutions/spend-management', locale) },
+        { label: t('engage.budgetControl'), href: localizeHref('/solutions/budget-control', locale) },
+        { label: t('engage.accountsPayable'), href: localizeHref('/solutions/accounts-payable', locale) },
+      ],
+    },
+    {
+      ctaHref: localizeHref('/industries', locale),
+      ctaLabel: t('engage.viewAllIndustries'),
+      title: t('engage.industry'),
+      items: [
+        { label: t('engage.automotive'), href: localizeHref('/industries/automotive', locale) },
+        { label: t('engage.construction'), href: localizeHref('/industries/construction', locale) },
+        { label: t('engage.education'), href: localizeHref('/industries/education', locale) },
+        { label: t('engage.healthcare'), href: localizeHref('/industries/healthcare', locale) },
+        { label: t('engage.hospitality'), href: localizeHref('/industries/hospitality', locale) },
+        { label: t('engage.nonProfit'), href: localizeHref('/industries/non-profit', locale) },
+        { label: t('engage.technology'), href: localizeHref('/industries/technology', locale) },
+      ],
+    },
+  ];
 
   return (
     <div>

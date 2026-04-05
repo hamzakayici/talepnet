@@ -1,0 +1,28 @@
+{
+  "metadata": {
+    "title": "İletişim | TalepNET",
+    "description": "Demo talebi, ürün soruları, iş ortaklığı görüşmeleri veya genel iletişim için TalepNET ekibiyle iletişime geçin."
+  },
+  "hero": {
+    "title": "Ekibimizle iletişime geçin.",
+    "description": "Bu formu demo talepleri, ürün soruları, iş ortaklığı görüşmeleri veya genel iletişim için kullanabilirsiniz."
+  },
+  "form": {
+    "fullName": "Ad soyad",
+    "fullNamePlaceholder": "Ad soyad girin",
+    "phoneNumber": "Telefon numarası",
+    "phoneNumberPlaceholder": "Telefon numaranızı girin",
+    "emailAddress": "E-posta adresi",
+    "emailAddressPlaceholder": "E-posta adresinizi girin",
+    "subject": "Konu",
+    "subjectPlaceholder": "Konuyu girin",
+    "message": "Mesaj",
+    "messagePlaceholder": "Talebinizin veya sorunuzun detaylarını yazın",
+    "submit": "Mesaj Gönder"
+  },
+  "locations": {
+    "eyebrow": "Ofislerimiz",
+    "title": "TalepNET nerede faaliyet gösteriyor?",
+    "description": "Sorularınız için ekibimizle iletişime geçin."
+  }
+}

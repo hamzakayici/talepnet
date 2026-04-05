@@ -1,0 +1,116 @@
+{
+  "hero": {
+    "titleBefore": "Transform",
+    "titleHighlight": "procurement workflows",
+    "titleAfter": "with intelligent automation and traceability",
+    "description": "TalepNET helps organizations of every size automate procurement with AI-supported workflows, stronger traceability, and a connected supplier network.",
+    "startFree": "Get Started Free",
+    "watchVideo": "Watch the Video",
+    "startFreeAria": "Get started free",
+    "watchVideoAria": "Watch the video",
+    "closeAria": "Close",
+    "videoTitle": "TalepNET Overview Video"
+  },
+  "services": {
+    "title": "Build procurement workflows with a guided setup",
+    "description": "TalepNET gives teams a more structured way to manage requests, approvals, supplier collaboration, and orders in one connected system.",
+    "items": [
+      {
+        "title": "Procurement Workflows",
+        "description": "Set up procurement flows that fit your organization and manage approval paths with more control."
+      },
+      {
+        "title": "Online RFQs and Orders",
+        "description": "Send RFQs, collect supplier responses, approve decisions, and place orders through one workflow."
+      },
+      {
+        "title": "Supplier Network",
+        "description": "Find suppliers by category, review commercial context, and expand your vendor base more efficiently."
+      }
+    ],
+    "cta": "Start the free trial"
+  },
+  "highlights": {
+    "activeCompanies": "Active companies",
+    "customerSatisfaction": "Customer satisfaction",
+    "processedOrders": "Processed orders"
+  },
+  "feature": {
+    "title": "Track key procurement data in one place",
+    "description": "Whether you are scaling fast or coordinating a larger organization, TalepNET brings operational data into one clearer control layer.",
+    "items": [
+      "Configurable workflows",
+      "Flexible integrations",
+      "Built to scale across teams"
+    ],
+    "cta": "Explore integrations"
+  },
+  "featureV2": {
+    "title": "Procurement gets easier when the flow stays connected",
+    "description": "TalepNET helps teams move from demand to approval and execution with fewer breaks in the process.",
+    "items": [
+      {
+        "title": "Request Management",
+        "description": "Capture purchasing demand with clearer structure and better visibility."
+      },
+      {
+        "title": "Order Management",
+        "description": "Move from approved demand into purchase orders with less manual handoff."
+      },
+      {
+        "title": "Approval Flows",
+        "description": "Keep approvals visible through automated or configurable workflow paths."
+      }
+    ]
+  },
+  "integration": {
+    "badge": "Integrations",
+    "title": "Templates and tools",
+    "description": "Simplify setup with ready-to-use templates and connect more easily with ERP, accounting, and logistics systems.",
+    "cta": "View in app"
+  },
+  "process": {
+    "title": "Get your procurement flow running in three steps",
+    "description": "Move procurement into a cleaner digital workflow with TalepNET.",
+    "steps": [
+      "Design your workflow",
+      "Build your supplier network",
+      "Place orders online"
+    ]
+  },
+  "supplierManagement": {
+    "badge": "Supplier Management",
+    "titleBefore": "Manage your suppliers",
+    "titleHighlight": "from one platform",
+    "titleAfter": "",
+    "description": "Strengthen supplier relationships, speed up quotation activity, and keep more control across your procurement chain with TalepNET.",
+    "items": [
+      "Supplier performance scoring and evaluation",
+      "Automated quote collection and comparison",
+      "Real-time order tracking and notifications",
+      "Secure document sharing and agreement management"
+    ],
+    "cta": "Explore supplier management"
+  },
+  "reviews": {
+    "badge": "Customer Success",
+    "title": "Real teams. Real outcomes.",
+    "description": "\"TalepNET helped us digitize procurement with a cleaner workflow and a reliable operating model.\"",
+    "cta": "View all testimonials"
+  },
+  "cta": {
+    "title": "Try TalepNET for free today",
+    "items": [
+      "Manage purchase orders with less manual effort",
+      "Expand your supplier network and discover new vendors",
+      "Get started in minutes"
+    ],
+    "button": "Start Free"
+  },
+  "newsletter": {
+    "badge": "Get Started",
+    "title": "Ready to modernize your procurement workflows?",
+    "description": "Create your free account and see how TalepNET makes requests, approvals, suppliers, and orders easier to manage.",
+    "button": "Start Free"
+  }
+}

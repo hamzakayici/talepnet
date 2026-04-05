@@ -1,5 +1,9 @@
+'use client';
+
 import RevealAnimation from '@/components/animation/RevealAnimation';
-import { footerLinks } from '@/data/footer-data';
+import { useLocale } from '@/i18n/I18nProvider';
+import { localizeHref } from '@/i18n/pathnames';
+import { useTranslations } from '@/i18n/useTranslations';
 import { cn } from '@/utils/cn';
 import bgGradientImg from '@public/images/ns-img-524.png';
 import footerLogo from '@public/images/shared/talepnet-logo-v2.png';
@@ -8,6 +12,46 @@ import Link from 'next/link';
 import FooterDivider from './FooterDivider';
 
 const Footer = () => {
+  const locale = useLocale();
+  const t = useTranslations('footer');
+
+  const footerLinks = [
+    {
+      title: t('titles.company'),
+      links: [
+        { label: t('links.about'), href: localizeHref('/about', locale) },
+        { label: t('links.partnerships'), href: localizeHref('/partnerships', locale) },
+        { label: t('links.careers'), href: localizeHref('/career', locale) },
+        { label: t('links.contactUs'), href: localizeHref('/contact-us', locale) },
+      ],
+    },
+    {
+      title: t('titles.explore'),
+      links: [
+        { label: t('links.solutions'), href: localizeHref('/solutions', locale) },
+        { label: t('links.industries'), href: localizeHref('/industries', locale) },
+        { label: t('links.productFeatures'), href: localizeHref('/product-features', locale) },
+        { label: t('links.pricing'), href: localizeHref('/pricing', locale) },
+      ],
+    },
+    {
+      title: t('titles.resources'),
+      links: [
+        { label: t('links.blog'), href: localizeHref('/blog', locale) },
+        { label: t('links.faq'), href: localizeHref('/faq', locale) },
+        { label: t('links.tutorials'), href: localizeHref('/tutorial', locale) },
+      ],
+    },
+    {
+      title: t('titles.legal'),
+      links: [
+        { label: t('links.terms'), href: localizeHref('/terms', locale) },
+        { label: t('links.privacy'), href: localizeHref('/privacy', locale) },
+        { label: t('links.cookies'), href: localizeHref('/cookies', locale) },
+      ],
+    },
+  ];
+
   return (
     <footer className="dark:bg-background-8 relative overflow-hidden bg-white">
       <div className="main-container">
@@ -28,7 +72,7 @@ const Footer = () => {
                   <Image src={footerLogo} alt="TalepNET" className="h-[30px] w-auto" />
                 </figure>
                 <p className="text-secondary dark:text-accent mt-4 mb-7">
-                  AI-powered procurement software for teams that need stronger control, clearer visibility, and less workflow friction.
+                  {t('description')}
                 </p>
                 <div className="flex items-center gap-3">
                   <Link target="_blank" href="https://x.com/TalepNET" className="footer-social-link">
@@ -105,7 +149,7 @@ const Footer = () => {
           <FooterDivider className="bg-stroke-2 dark:bg-accent/5" />
           <RevealAnimation delay={0.7} offset={10} start="top 105%">
             <p className="text-secondary dark:text-accent/60">
-              Copyright &copy; 2026 TalepNET. All rights reserved.
+              {t('rights')}
             </p>
           </RevealAnimation>
         </div>

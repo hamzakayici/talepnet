@@ -13,9 +13,7 @@
 | Blog | /blog | blog yazılarımız |
 | Purchase Requests | /purchase-requests | purchase request workflow |
 | Güvenlik | /security | güvenlik standartlarımız |
-| Neden TalepNET? | /why-choose-us | neden TalepNET |
 | Approval Workflow | /solutions/approval-workflow | satın alma onay akışı |
-| Başarı Hikayeleri | /case-study | başarı hikayelerimiz |
 | Referanslar | /testimonial | müşteri referansları |
 | Destek | /support | destek merkezi |
 | Kayıt | https://app.talepnet.com/sign-up | ücretsiz başlayın |
@@ -24,16 +22,16 @@
 
 ### Satın Alma Yönetimi Kümesi
 - /services → /solutions/approval-workflow → /pricing
-- /services → /purchase-requests → /security
+- /purchase-requests → /solutions/approval-workflow → /pricing
 
 ### Güven & Sosyal Kanıt Kümesi
-- /testimonial → /case-study → /customer → /why-choose-us
+- /testimonial → /about → /pricing
 
 ### Destek & Eğitim Kümesi
 - /faq → /support → /tutorial
 
 ### Yasal Kümesi
-- /terms-conditions → /privacy-policy → /gdpr → /refund-policy
+- /terms → /privacy → /cookies → /refund-policy
 
 ## Dış Bağlantılar
 | Platform | URL |

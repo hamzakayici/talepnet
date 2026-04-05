@@ -1,0 +1,1897 @@
+{
+  "purchaseRequests": {
+    "badge": "Procurement Workflow",
+    "title": "Make every purchase request clear, fast, and controlled",
+    "description": "TalepNET helps teams create, submit, track, and manage purchase requests in one structured workflow, so nothing gets lost between need, approval, and procurement.",
+    "primaryCta": "Request a Demo",
+    "secondaryCta": "See How It Works",
+    "heroPlaceholder": "Hero visual placeholder",
+    "heroHighlights": [
+      "Standardize how employees request goods and services",
+      "Reduce back-and-forth with complete, structured request forms",
+      "Track request status from submission to approval and purchasing",
+      "Improve visibility and control across teams and departments"
+    ],
+    "problemEyebrow": "Why purchase requests often become a bottleneck",
+    "problemText": "In many organizations, purchase requests still arrive through emails, messages, spreadsheets, or incomplete forms. This creates delays, missing information, and limited visibility for procurement and finance teams.",
+    "painPoints": [
+      "Requests are submitted in different formats with inconsistent information",
+      "Teams waste time chasing missing details and approvals",
+      "Employees do not know the status of their requests",
+      "Procurement teams struggle to prioritize and manage incoming demand",
+      "Finance lacks early visibility into upcoming spending"
+    ],
+    "introEyebrow": "A structured request flow from day one",
+    "introTitle": "Give every team one reliable way to request what they need",
+    "introText": "TalepNET gives every department a consistent way to submit purchase needs. Requesters provide the right details upfront, managers review with full context, and procurement teams can move faster with fewer manual follow-ups.",
+    "introPlaceholder": "Workflow preview placeholder",
+    "featuresEyebrow": "Everything needed to manage purchase requests efficiently",
+    "featuresTitle": "Built for requesters, approvers, procurement, and finance",
+    "features": [
+      {
+        "title": "Guided Request Creation",
+        "description": "Help employees submit complete purchase requests with standardized fields, categories, quantities, delivery expectations, attachments, and business justification."
+      },
+      {
+        "title": "Smart Request Routing",
+        "description": "Automatically direct requests to the right approvers, departments, or procurement teams based on rules, budget ownership, or request type."
+      },
+      {
+        "title": "Central Request Tracking",
+        "description": "Follow every request in one place with clear statuses, ownership, and timestamps from submission to final processing."
+      },
+      {
+        "title": "Supporting Documents",
+        "description": "Attach specifications, quotes, technical files, and internal notes to keep all request context together."
+      },
+      {
+        "title": "Role-Based Visibility",
+        "description": "Give requesters, managers, procurement, and finance teams the exact visibility they need without exposing unnecessary information."
+      },
+      {
+        "title": "Audit-Ready Records",
+        "description": "Maintain a clear history of who requested, reviewed, updated, and approved each purchase need."
+      }
+    ],
+    "flowEyebrow": "How purchase requests move through TalepNET",
+    "flowTitle": "One request flow, clearly visible from start to finish",
+    "steps": [
+      {
+        "title": "Submit",
+        "text": "Employees create a request using a structured form tailored to company policies and purchasing needs."
+      },
+      {
+        "title": "Review",
+        "text": "Managers or designated approvers review the request with full business context and attached documents."
+      },
+      {
+        "title": "Process",
+        "text": "Procurement teams receive validated requests and move forward with sourcing, ordering, or supplier coordination."
+      },
+      {
+        "title": "Track",
+        "text": "Everyone involved can monitor progress, status changes, and next steps without relying on email follow-ups."
+      }
+    ],
+    "benefitsEyebrow": "What teams gain",
+    "benefitsTitle": "Better control without slowing the business down",
+    "benefits": [
+      {
+        "title": "Faster request cycles",
+        "text": "Complete information at submission reduces delays and repeated clarification."
+      },
+      {
+        "title": "Better internal alignment",
+        "text": "Requesters, approvers, procurement, and finance work from the same workflow and data."
+      },
+      {
+        "title": "More spending control",
+        "text": "Requests become visible earlier, before purchasing decisions are finalized."
+      },
+      {
+        "title": "Less manual coordination",
+        "text": "Standardization reduces emails, spreadsheets, and disconnected approval chains."
+      }
+    ],
+    "useCasesEyebrow": "Common purchase request scenarios",
+    "useCases": [
+      "Office equipment and IT hardware requests",
+      "Operational supply requests from departments",
+      "Service procurement requests",
+      "Project-based purchasing needs",
+      "Recurring internal purchase demands",
+      "Multi-department purchasing workflows"
+    ],
+    "metricsEyebrow": "Built to improve procurement efficiency",
+    "metrics": [
+      "Shorter request turnaround times",
+      "Fewer incomplete submissions",
+      "Better visibility into incoming demand",
+      "Stronger policy and process compliance",
+      "Reduced manual follow-up across teams"
+    ],
+    "modulesEyebrow": "Connected to the rest of the procurement process",
+    "modulesTitle": "Purchase requests that connect cleanly with the next step",
+    "modulesText": "Purchase Requests work seamlessly with approvals, purchase orders, vendor workflows, budget controls, and reporting, helping your team manage the full purchasing lifecycle in one platform.",
+    "modules": [
+      "Approvals",
+      "Purchase Orders",
+      "Supplier Management",
+      "Budget Management",
+      "Spend Insights"
+    ],
+    "testimonialEyebrow": "Customer perspective",
+    "testimonialQuote": "Before TalepNET, purchase requests were scattered across emails and spreadsheets. Now every request follows a clear workflow, and our team has much better visibility from the start.",
+    "testimonialRole": "Procurement Manager",
+    "testimonialPlaceholder": "Testimonial visual placeholder",
+    "faqEyebrow": "FAQ",
+    "faqTitle": "Common questions about purchase requests",
+    "faqs": [
+      {
+        "question": "What is a purchase request?",
+        "answer": "A purchase request is the formal internal process of requesting goods or services before procurement or purchasing begins."
+      },
+      {
+        "question": "Who can create purchase requests in TalepNET?",
+        "answer": "Any authorized employee or department can submit requests based on your organization’s workflow and access rules."
+      },
+      {
+        "question": "Can purchase requests include documents and specifications?",
+        "answer": "Yes. Users can attach quotes, technical files, justifications, and other supporting documents."
+      },
+      {
+        "question": "Can requests be routed for approval automatically?",
+        "answer": "Yes. TalepNET can route requests based on approval rules, department structures, or request criteria."
+      },
+      {
+        "question": "Can requesters track status updates?",
+        "answer": "Yes. Requesters can see where their request stands and what step comes next."
+      }
+    ],
+    "finalEyebrow": "Start with better internal demand control",
+    "finalTitle": "Turn purchase requests into a clearer procurement starting point",
+    "finalText": "TalepNET gives every team a better way to submit and track purchase needs, while giving procurement and finance stronger visibility from the very first step."
+  },
+  "approvals": {
+    "badge": "Procurement Workflow",
+    "title": "Keep approvals moving without losing control",
+    "description": "TalepNET helps organizations manage approval workflows with clarity, speed, and accountability, so every request reaches the right decision-makers on time.",
+    "primaryCta": "Request a Demo",
+    "secondaryCta": "See the Workflow",
+    "heroPlaceholder": "Approval workflow placeholder",
+    "heroHighlights": [
+      "Route approvals to the right people automatically",
+      "Reduce delays with structured, trackable workflows",
+      "Give approvers full context before they decide",
+      "Maintain control with complete approval history"
+    ],
+    "problemEyebrow": "Why approval processes slow teams down",
+    "problemText": "Approval workflows often break when decisions depend on email chains, chat messages, or disconnected tools. Requests get stuck, ownership becomes unclear, and teams lose time following up manually.",
+    "painPoints": [
+      "Approval requests are sent through scattered channels",
+      "Decision-makers do not have enough context to act quickly",
+      "Teams cannot see who is blocking the next step",
+      "Manual follow-up creates delays and frustration",
+      "There is no reliable record of approval actions and timing"
+    ],
+    "introEyebrow": "A clear approval flow for every request",
+    "introTitle": "Centralize decisions without creating more friction",
+    "introText": "TalepNET centralizes approvals into a structured workflow where each step is visible, rules are defined, and every decision is recorded. Approvers see the right information at the right time, and teams always know what comes next.",
+    "introPlaceholder": "Approval stage preview placeholder",
+    "featuresEyebrow": "Everything needed to manage approvals with confidence",
+    "featuresTitle": "Structured approvals built for real operational use",
+    "features": [
+      {
+        "title": "Configurable Approval Flows",
+        "description": "Build approval workflows based on department, request type, amount, budget ownership, or internal policy requirements."
+      },
+      {
+        "title": "Automatic Routing",
+        "description": "Send requests directly to the correct approvers without relying on manual forwarding or email chains."
+      },
+      {
+        "title": "Full Request Context",
+        "description": "Give approvers access to request details, documents, budgets, comments, and related records before making a decision."
+      },
+      {
+        "title": "Status Visibility",
+        "description": "Track every approval stage in real time so requesters, managers, and procurement teams can see where things stand."
+      },
+      {
+        "title": "Approval History",
+        "description": "Keep a clear, auditable record of who approved, rejected, reviewed, or sent back each request."
+      },
+      {
+        "title": "Exception Handling",
+        "description": "Manage rejections, revisions, escalations, and special approval scenarios without breaking the workflow."
+      }
+    ],
+    "flowEyebrow": "How approvals move through TalepNET",
+    "flowTitle": "One decision flow, visible from trigger to outcome",
+    "steps": [
+      {
+        "title": "Trigger",
+        "text": "A purchase request, form, or related workflow enters the approval process based on predefined rules."
+      },
+      {
+        "title": "Route",
+        "text": "TalepNET assigns the request to the right approver or approval chain automatically."
+      },
+      {
+        "title": "Decide",
+        "text": "Approvers review the request with full context and approve, reject, or request revision."
+      },
+      {
+        "title": "Continue",
+        "text": "Once approved, the request moves forward to the next workflow stage such as purchasing, vendor action, or budget follow-up."
+      }
+    ],
+    "benefitsEyebrow": "What better approvals change",
+    "benefitsTitle": "Less waiting, more forward motion",
+    "benefits": [
+      {
+        "title": "Faster decisions",
+        "text": "Clear ownership and complete request data reduce waiting time and back-and-forth."
+      },
+      {
+        "title": "Better governance",
+        "text": "Approval rules are applied consistently across teams, departments, and spending categories."
+      },
+      {
+        "title": "Stronger accountability",
+        "text": "Every decision is timestamped and traceable for internal control and audit readiness."
+      },
+      {
+        "title": "Less operational friction",
+        "text": "Teams spend less time chasing approvals and more time moving work forward."
+      }
+    ],
+    "useCasesEyebrow": "Common approval scenarios",
+    "useCases": [
+      "Purchase request approvals",
+      "Budget-related approval steps",
+      "Department manager approvals",
+      "Multi-level financial approvals",
+      "Procurement review and sign-off",
+      "Exception and escalation approvals"
+    ],
+    "metricsEyebrow": "Built to improve approval performance",
+    "metrics": [
+      "Shorter approval turnaround times",
+      "Fewer stalled requests",
+      "Better process transparency",
+      "More consistent policy enforcement",
+      "Reduced manual coordination across teams"
+    ],
+    "modulesEyebrow": "Connected to the full procurement lifecycle",
+    "modulesTitle": "Approvals that connect directly to what happens next",
+    "modulesText": "Approvals in TalepNET are not isolated steps. They connect directly with purchase requests, forms, purchase orders, budget management, vendor workflows, and reporting, helping your organization move from request to execution in one continuous process.",
+    "modules": [
+      "Purchase Requests",
+      "Purchase Forms",
+      "Purchase Orders",
+      "Budget Management",
+      "Supplier Management",
+      "Spend Insights"
+    ],
+    "rolesEyebrow": "Built for every decision-maker in the flow",
+    "rolesTitle": "Approvals that work for requesters, managers, procurement, and finance",
+    "roles": [
+      {
+        "title": "Requester",
+        "text": "Submit requests and follow approval progress without chasing updates."
+      },
+      {
+        "title": "Manager",
+        "text": "Review requests with business context and make timely, informed decisions."
+      },
+      {
+        "title": "Procurement Team",
+        "text": "Receive approved requests in a more organized, actionable format."
+      },
+      {
+        "title": "Finance Team",
+        "text": "Gain visibility into financial commitments before purchasing moves ahead."
+      }
+    ],
+    "faqEyebrow": "FAQ",
+    "faqTitle": "Common questions about approvals",
+    "faqs": [
+      {
+        "question": "What can be approved in TalepNET?",
+        "answer": "TalepNET supports approvals for purchase requests, forms, budget-related workflows, and other procurement-driven processes."
+      },
+      {
+        "question": "Can approval workflows be customized?",
+        "answer": "Yes. Approval flows can be configured based on organizational rules, departments, spending limits, and workflow conditions."
+      },
+      {
+        "question": "Can multiple approvers be involved?",
+        "answer": "Yes. TalepNET supports multi-step and multi-role approval processes."
+      },
+      {
+        "question": "Can approvers reject or request changes?",
+        "answer": "Yes. Approvers can approve, reject, or return requests for revision depending on your workflow design."
+      },
+      {
+        "question": "Is the approval history recorded?",
+        "answer": "Yes. Every approval action is logged with clear visibility into decisions and timing."
+      }
+    ],
+    "finalEyebrow": "Make approvals easier to manage and easier to trust",
+    "finalTitle": "Turn every approval step into a clearer operational decision",
+    "finalText": "TalepNET gives organizations a more structured way to route, review, and track approvals, so decisions move faster without sacrificing control."
+  },
+  "purchaseForms": {
+    "badge": "Purchasing Execution",
+    "title": "Build purchase forms from real demand, then source with control",
+    "description": "TalepNET turns approved demand into structured purchase forms where purchasing teams can collect quotations, compare suppliers, reuse contract intelligence, and move selected lines into the next workflow step.",
+    "primaryCta": "Request a Demo",
+    "secondaryCta": "See Purchasing Flow",
+    "heroPlaceholder": "Purchase form workspace placeholder",
+    "heroHighlights": [
+      "Generate purchase forms directly from selected requests",
+      "Collect and compare multiple supplier quotations in one workspace",
+      "Reuse contracted suppliers and previous order intelligence",
+      "Send RFQs by email or supplier portal link",
+      "Submit selected quotations into the next approval or execution step"
+    ],
+    "heroCards": [
+      {
+        "eyebrow": "RFQ Flow",
+        "text": "Email, portal, monitor, compare, select"
+      },
+      {
+        "eyebrow": "Buying Context",
+        "text": "Contracts, prior orders, totals, line history"
+      }
+    ],
+    "sections": {
+      "introEyebrow": "Where sourcing decisions actually happen",
+      "introText": "Purchase Forms are the working surface for procurement teams after request intake and request approvals. Instead of jumping between spreadsheets, inboxes, and supplier chats, buyers manage item lines, quotations, totals, and supplier outreach in one connected view.",
+      "coreEyebrow": "From pending requests to sourcing-ready purchase forms",
+      "corePointsPlaceholder": "Demand-to-sourcing placeholder",
+      "featuresEyebrow": "What teams can do inside Purchase Forms",
+      "featuresTitle": "A sourcing workspace, not just another procurement document",
+      "flowEyebrow": "How Purchase Forms work in TalepNET",
+      "flowTitle": "From approved demand to sourcing decision to next-step execution",
+      "supportEyebrow": "More than a form, a sourcing decision workspace",
+      "supportTitle": "TalepNET keeps commercial, operational, and workflow context together before your team commits to a supplier decision.",
+      "supportText": "TalepNET does not treat purchase forms as static documents. The form is an active buying workspace where procurement teams can validate supplier options, compare totals, check historical context, and decide with better visibility before committing to orders.",
+      "benefitsEyebrow": "What improves with better purchase forms",
+      "benefitsTitle": "Better sourcing decisions with less fragmentation",
+      "useCasesEyebrow": "Typical Purchase Form scenarios",
+      "modulesEyebrow": "Connected to the next steps, not isolated from them",
+      "modulesText": "Purchase Forms sit in the middle of TalepNET’s procurement lifecycle. They start from request demand, connect to request approvals and purchasing queues, and feed the next stages such as purchase approvals, order placement, supplier communication, and receiving.",
+      "metricsEyebrow": "Built to improve sourcing quality",
+      "metricsTitle": "Purchase forms should improve the decision, not just document it",
+      "faqEyebrow": "FAQ",
+      "faqTitle": "Common questions about purchase forms",
+      "finalEyebrow": "Turn purchase forms into a real sourcing workspace",
+      "finalTitle": "Collect quotations, compare suppliers, reuse purchasing intelligence, and move every selected line forward with more speed and control.",
+      "finalText": "",
+      "stepLabel": "Step"
+    },
+    "corePoints": [
+      "Convert selected requests into a new purchase form",
+      "Group required items into one purchasing workspace",
+      "Keep every line tied to the original request context",
+      "Prepare sourcing decisions before purchase approval, order placement, and receiving"
+    ],
+    "features": [
+      {
+        "title": "Generate Forms from Requests",
+        "description": "Create purchase forms from selected pending requests so purchasing starts from live operational demand instead of manual re-entry."
+      },
+      {
+        "title": "Multi-Quotation Comparison",
+        "description": "Add multiple quotation forms per purchase form and compare supplier responses line by line across the same purchasing need."
+      },
+      {
+        "title": "Manual and Portal Quote Sources",
+        "description": "Manage quotations entered manually by the team or imported from supplier portal responses inside the same sourcing workspace."
+      },
+      {
+        "title": "RFQ Email Sending",
+        "description": "Send RFQs directly to suppliers from the purchase form, including PDF support and optional supplier portal access for online quote submission."
+      },
+      {
+        "title": "RFQ Monitor",
+        "description": "Track RFQ outreach and portal activity in a dedicated monitor so buyers can follow response progress and import portal quotes back into the form."
+      },
+      {
+        "title": "Contracted Supplier Suggestions",
+        "description": "Surface matching contracts for purchase items and quickly bring contracted suppliers into the sourcing decision process."
+      },
+      {
+        "title": "Previous Order Intelligence",
+        "description": "Review previous supplier orders for the same items to reuse pricing history and compare current sourcing decisions against past buying behavior."
+      },
+      {
+        "title": "Lowest-Price Selection",
+        "description": "Automatically select the lowest available quotation lines when speed matters, while still keeping buyer control over final supplier choice."
+      },
+      {
+        "title": "Best vs Selected Total Visibility",
+        "description": "See the best available total and the final selected total side by side to understand sourcing quality before submission."
+      },
+      {
+        "title": "Item-Level Trends and History",
+        "description": "Open purchasing trends and inventory history for each item directly from the form to support better commercial decisions."
+      },
+      {
+        "title": "Purchase Notes and Line Control",
+        "description": "Add internal notes, remove items when needed, and keep the form aligned with the real sourcing scenario."
+      },
+      {
+        "title": "Workflow Submission",
+        "description": "Submit the purchase form into the configured workflow so selected quotations move into the next approval or purchasing execution step."
+      }
+    ],
+    "steps": [
+      {
+        "title": "Create from demand",
+        "text": "Buyers generate a purchase form from selected requests waiting in the purchasing queue."
+      },
+      {
+        "title": "Collect quotations",
+        "text": "The team adds supplier quotations manually or receives them through RFQ email and supplier portal responses."
+      },
+      {
+        "title": "Compare and decide",
+        "text": "Buyers review contract matches, previous orders, item trends, supplier options, and total comparisons before selecting the winning quotes."
+      },
+      {
+        "title": "Submit forward",
+        "text": "Once every line has a selected quotation, the purchase form is submitted and moves into the next workflow step such as purchase approval or order preparation."
+      }
+    ],
+    "supportBlocks": [
+      "Contract context from matched supplier agreements",
+      "Commercial context from previous orders",
+      "Market context from multiple quotations",
+      "Operational context from request-linked demand",
+      "Workflow context from the next configured process step"
+    ],
+    "benefits": [
+      {
+        "title": "Faster sourcing cycles",
+        "text": "Buyers work from a single sourcing surface instead of rebuilding demand and quote data manually."
+      },
+      {
+        "title": "Better supplier decisions",
+        "text": "Teams compare quotations with contract and order history context, not price in isolation."
+      },
+      {
+        "title": "Stronger process continuity",
+        "text": "Purchase forms connect request intake, sourcing, approvals, and downstream execution in one workflow."
+      },
+      {
+        "title": "Better commercial visibility",
+        "text": "Best-available and selected totals make tradeoffs visible before the process moves forward."
+      },
+      {
+        "title": "Less fragmented supplier communication",
+        "text": "RFQ emails, portal responses, and quote imports stay tied to the same purchasing record."
+      }
+    ],
+    "useCases": [
+      "Running competitive quotes for a group of requested items",
+      "Building a sourcing package from multiple approved requests",
+      "Reusing contracted suppliers for recurring purchases",
+      "Checking previous supplier pricing before selecting a new quote",
+      "Sending RFQs to suppliers and tracking responses in one place",
+      "Preparing selected lines for purchase approval and order placement"
+    ],
+    "modules": [
+      "Purchase Requests",
+      "Approvals",
+      "Purchase Approvals",
+      "Purchase Orders",
+      "Contract Management",
+      "Supplier Management",
+      "Receiving",
+      "Spend Insights"
+    ],
+    "metrics": [
+      "Shorter sourcing cycle time",
+      "Better quote coverage per purchase form",
+      "Higher reuse of contracted suppliers",
+      "More informed supplier selection",
+      "Less manual quote consolidation",
+      "Better transition from sourcing to execution"
+    ],
+    "faqs": [
+      {
+        "question": "What is a purchase form in TalepNET?",
+        "answer": "It is the sourcing workspace created from selected requests where buyers collect quotations, compare supplier options, and prepare purchases for the next workflow step."
+      },
+      {
+        "question": "Can one purchase form include multiple suppliers?",
+        "answer": "Yes. Purchase forms support multiple quotation forms and multi-supplier comparison across the same purchasing need."
+      },
+      {
+        "question": "Can suppliers respond online?",
+        "answer": "Yes. RFQs can be sent with supplier portal access, and portal quotes can be monitored and imported back into the purchase form."
+      },
+      {
+        "question": "Can buyers use past purchasing data while sourcing?",
+        "answer": "Yes. Buyers can review previous orders, matched contracts, and item-level purchasing insights directly from the form."
+      },
+      {
+        "question": "What happens after submission?",
+        "answer": "The purchase form moves into the next configured workflow step, such as purchase approval or purchasing execution."
+      }
+    ]
+  },
+  "purchaseOrders": {
+    "badge": "Purchasing Execution",
+    "title": "Place purchase orders with full workflow control and supplier-ready communication",
+    "description": "TalepNET helps purchasing teams turn approved purchases into structured purchase orders, notify suppliers through the right channels, track downstream progress, and connect ordering directly to receiving.",
+    "primaryCta": "Request a Demo",
+    "secondaryCta": "See Order Workflow",
+    "heroPlaceholder": "Purchase order workspace placeholder",
+    "heroHighlights": [
+      "Convert approved purchases into purchase orders",
+      "Generate preview and final order PDFs",
+      "Assign delivery branch before issuing the order",
+      "Notify suppliers by email, portal link, or WhatsApp sharing",
+      "Track orders through placed, receiving, and completion stages",
+      "Cancel orders with controlled workflow options when needed"
+    ],
+    "heroCards": [
+      {
+        "eyebrow": "Documents",
+        "text": "Preview and final PO PDFs"
+      },
+      {
+        "eyebrow": "Delivery",
+        "text": "Branch-based execution context"
+      },
+      {
+        "eyebrow": "Follow-through",
+        "text": "Placed, received, completed"
+      }
+    ],
+    "sections": {
+      "introEyebrow": "Where approved purchasing turns into supplier action",
+      "introText": "Purchase Orders in TalepNET are the execution step after sourcing and purchase approval. This is where selected purchases become formal order documents, supplier communication starts, delivery branch details are locked in, and the process moves toward receipt and fulfillment.",
+      "coreEyebrow": "From approved purchase to traceable supplier execution",
+      "corePointsPlaceholder": "Order execution placeholder",
+      "featuresEyebrow": "What teams can do with Purchase Orders",
+      "featuresTitle": "Built for supplier communication, downstream execution, and operational control",
+      "flowEyebrow": "How Purchase Orders move through TalepNET",
+      "flowTitle": "From ready-to-order approval to receipt and closure",
+      "supportEyebrow": "Supplier communication built into the order flow",
+      "supportTitle": "TalepNET keeps contact handling, document sharing, and supplier-facing outreach inside the PO step.",
+      "supportText": "TalepNET does not treat the PO as just a static PDF. The order step includes supplier contact handling, secure document sharing, portal-linked collaboration, and alternate channels like WhatsApp when buyers need a faster operational path.",
+      "benefitsEyebrow": "What improves with better purchase order management",
+      "benefitsTitle": "Better supplier handoff and cleaner execution follow-through",
+      "useCasesEyebrow": "Typical Purchase Order scenarios",
+      "modulesEyebrow": "Connected to the full downstream process",
+      "modulesText": "Purchase Orders in TalepNET are connected to the earlier sourcing and approval stages as well as the later operational stages. They sit between purchase approvals and receiving, while keeping supplier communication and workflow history tied to the same procurement record.",
+      "metricsEyebrow": "Built to improve order execution quality",
+      "metricsTitle": "Purchase orders should keep execution visible after the document is sent",
+      "faqEyebrow": "FAQ",
+      "faqTitle": "Common questions about purchase orders",
+      "finalEyebrow": "Keep purchase orders visible after placement",
+      "finalTitle": "Turn approved purchases into structured supplier communication and cleaner execution follow-through.",
+      "finalText": "",
+      "stepLabel": "Step"
+    },
+    "corePoints": [
+      "Place orders directly from ready-to-order purchases",
+      "Generate formal PO documents with item lines and delivery branch details",
+      "Use structured supplier communication instead of disconnected email threads",
+      "Move seamlessly from order placement into receiving and completion"
+    ],
+    "features": [
+      {
+        "title": "Order Placement from Approved Purchases",
+        "description": "Buyers place orders directly from the ready-to-order queue once purchasing decisions are complete and workflow permissions allow execution."
+      },
+      {
+        "title": "Preview and Final Order PDFs",
+        "description": "Generate separate preview and final purchase order PDFs so teams can review draft documents before issuing the official order."
+      },
+      {
+        "title": "Delivery Branch Selection",
+        "description": "Set the delivery branch during order placement so each order reflects the correct receiving location and branch-level execution context."
+      },
+      {
+        "title": "Supplier Contact Selection",
+        "description": "Choose supplier contacts directly during order communication to keep outreach structured and tied to real vendor records."
+      },
+      {
+        "title": "Email-Based Order Communication",
+        "description": "Send purchase orders through the platform with controlled messaging and supplier-facing document delivery."
+      },
+      {
+        "title": "WhatsApp Order Sharing",
+        "description": "Share purchase orders through WhatsApp with formatted links and document access for faster supplier communication when needed."
+      },
+      {
+        "title": "Secure Share Links",
+        "description": "Generate secure public order links so suppliers can view or download the purchase order through a controlled access flow."
+      },
+      {
+        "title": "Supplier Portal-Linked Orders",
+        "description": "Link purchase orders to the supplier portal so vendors can interact through a more structured collaboration channel instead of relying only on manual communication."
+      },
+      {
+        "title": "Placed Order Tracking",
+        "description": "Manage issued orders inside the placed-orders workflow, where teams can follow open execution and prepare the next operational action."
+      },
+      {
+        "title": "Receiving Integration",
+        "description": "Move directly from placed orders into receiving, with receipt handling tied to actual ordered quantities and workflow progress."
+      },
+      {
+        "title": "Receiving Controls",
+        "description": "Support operational receiving with receipt numbering, document references, and over-receipt tolerance handling where configured."
+      },
+      {
+        "title": "Controlled Cancellation Flow",
+        "description": "Cancel purchases and orders with workflow-aware options, including returning requisitions back to purchasing instead of forcing full cancellation."
+      },
+      {
+        "title": "Cancellation Notes and Reason Rules",
+        "description": "Require cancellation reasons based on system settings and keep cancellation actions more auditable and operationally clear."
+      },
+      {
+        "title": "Order List Documents",
+        "description": "Generate grouped order list documents with richer metadata for workspace review and execution follow-up."
+      }
+    ],
+    "steps": [
+      {
+        "title": "Select approved purchases",
+        "text": "Buyers work from ready-to-order purchases that have already completed the required sourcing and approval steps."
+      },
+      {
+        "title": "Prepare the order",
+        "text": "The team chooses the delivery branch, reviews the order document, and generates a preview before final placement."
+      },
+      {
+        "title": "Notify the supplier",
+        "text": "Purchase orders are shared with the supplier through email, portal-linked access, or WhatsApp-supported document sharing."
+      },
+      {
+        "title": "Track and receive",
+        "text": "Once placed, orders move into active execution and then into receiving, where teams record delivered quantities and close the loop."
+      }
+    ],
+    "supportBlocks": [
+      "Supplier contact selection from vendor records",
+      "Purchase order email delivery",
+      "Secure share-link generation",
+      "WhatsApp sharing for faster outreach",
+      "Supplier portal-linked order collaboration"
+    ],
+    "executionSection": {
+      "placeholder": "Execution controls placeholder",
+      "eyebrow": "Built for execution, not just document creation",
+      "title": "The PO stays connected to the real operational path after issue",
+      "text": "A purchase order only matters if the operational follow-through is clear. TalepNET connects order placement to delivery branch context, receiving actions, workflow history, and cancellation controls so procurement teams can manage the full execution path after the PO is issued.",
+      "bullets": [
+        "Delivery branch context stays attached to the order",
+        "Receiving actions continue from placed orders",
+        "Workflow history stays tied to the same record",
+        "Cancellation paths remain controlled and auditable"
+      ]
+    },
+    "benefits": [
+      {
+        "title": "Faster supplier handoff",
+        "text": "Buyers can move from approved purchases to supplier-ready orders without rebuilding documents outside the workflow."
+      },
+      {
+        "title": "Better communication discipline",
+        "text": "Orders, contacts, links, and notifications stay inside one structured process."
+      },
+      {
+        "title": "Stronger execution visibility",
+        "text": "Teams can follow orders after placement instead of losing visibility once the document is sent."
+      },
+      {
+        "title": "Better branch-level coordination",
+        "text": "Delivery branch assignment makes downstream receiving and local execution clearer."
+      },
+      {
+        "title": "Cleaner operational recovery",
+        "text": "Cancellation paths and return-to-purchasing options help teams fix issues without breaking the whole procurement chain."
+      }
+    ],
+    "useCases": [
+      "Issuing supplier orders after purchase approval",
+      "Sending official PO documents to selected vendor contacts",
+      "Sharing orders through secure links or WhatsApp",
+      "Managing branch-specific delivery destinations",
+      "Tracking open orders before receiving",
+      "Recording receipts against placed orders",
+      "Cancelling or rerouting purchases when execution changes"
+    ],
+    "modules": [
+      "Purchase Forms",
+      "Purchase Approvals",
+      "Supplier Portal",
+      "Supplier Management",
+      "Receiving",
+      "Spend Insights"
+    ],
+    "metrics": [
+      "Faster order placement after approval",
+      "Better supplier communication traceability",
+      "Stronger order-to-receipt visibility",
+      "Fewer disconnected PO follow-ups",
+      "Better control over cancellations and exceptions",
+      "Smoother transition from purchasing to receiving"
+    ],
+    "faqs": [
+      {
+        "question": "How are purchase orders created in TalepNET?",
+        "answer": "Purchase orders are placed from approved purchases in the ready-to-order workflow after sourcing and approval steps are complete."
+      },
+      {
+        "question": "Can teams preview the order before sending it?",
+        "answer": "Yes. TalepNET supports separate preview and final PDF modes for purchase orders."
+      },
+      {
+        "question": "Can suppliers receive orders through different channels?",
+        "answer": "Yes. Orders can be handled through email, secure share links, WhatsApp sharing, and supplier portal-linked collaboration."
+      },
+      {
+        "question": "Does the order include delivery branch information?",
+        "answer": "Yes. Delivery branch selection is part of the order flow and is reflected in the order details and documents."
+      },
+      {
+        "question": "What happens after the order is placed?",
+        "answer": "The order moves into placed-order tracking and can then continue into receiving and completion workflows."
+      },
+      {
+        "question": "Can orders be cancelled in a controlled way?",
+        "answer": "Yes. TalepNET supports cancellation notes, configurable reason rules, and options such as returning requisitions back to purchasing."
+      }
+    ]
+  },
+  "contractManagement": {
+    "badge": "Purchasing Management",
+    "title": "Turn supplier contracts into active procurement control",
+    "description": "TalepNET brings supplier contracts out of static files and into the operational flow of procurement, connecting negotiated terms to sourcing decisions, catalog visibility, and contract-aware purchasing behavior.",
+    "primaryCta": "Request a Demo",
+    "secondaryCta": "See Contract Management",
+    "heroPlaceholder": "Contract workspace placeholder",
+    "heroHighlights": [
+      "Make negotiated supplier terms usable inside daily procurement",
+      "Connect contract coverage to sourcing and purchase execution",
+      "Control which contracted items appear in Catalog",
+      "Surface contract-backed suppliers during purchasing decisions",
+      "Track active, expiring, expired, and terminated agreements with clarity"
+    ],
+    "heroCards": [
+      {
+        "eyebrow": "Coverage",
+        "text": "Items, pricing, discounts, visibility"
+      },
+      {
+        "eyebrow": "Influence",
+        "text": "Catalog guidance and sourcing inputs"
+      }
+    ],
+    "sections": {
+      "introEyebrow": "Contracts should guide procurement, not sit outside it",
+      "introText": "In many organizations, supplier contracts exist as reference documents rather than operational tools. Buyers may know a contract exists, but that knowledge rarely appears at the moment sourcing decisions are made. TalepNET closes that gap by turning contracts into structured procurement signals that remain visible where teams actually work.",
+      "coreEyebrow": "From agreement management to procurement influence",
+      "corePointsPlaceholder": "Contract influence placeholder",
+      "featuresEyebrow": "How TalepNET operationalizes supplier contracts",
+      "featuresTitle": "Contracts become procurement controls only when they influence actual behavior",
+      "flowEyebrow": "How supplier contracts become operational in TalepNET",
+      "flowTitle": "From contract record to sourcing influence",
+      "supportEyebrow": "Visible where decisions are made",
+      "supportTitle": "Contract value appears at the point of discovery and sourcing, not only in stored records.",
+      "supportText": "The value of a supplier contract is not in storing it. The value is in making it present at the point of action. TalepNET connects contracts to both Catalog discovery and Purchase Form sourcing flows, helping teams see negotiated supplier coverage at the exact moment they are deciding what to buy and from whom.",
+      "benefitsEyebrow": "What changes when contracts become operational",
+      "benefitsTitle": "Better commercial discipline with less reliance on memory",
+      "useCasesEyebrow": "Where Supplier Contracts create real value",
+      "modulesEyebrow": "Connected to procurement, not isolated from it",
+      "modulesText": "Supplier Contracts in TalepNET connect directly to the wider procurement operating model. They strengthen supplier records, improve Catalog guidance, support Purchase Form decisions, and contribute to KPI-level visibility around contract usage and spend behavior.",
+      "metricsEyebrow": "Built to improve commercial control",
+      "metricsTitle": "Negotiated terms should keep influencing procurement after the deal is signed",
+      "faqEyebrow": "FAQ",
+      "faqTitle": "Common questions about contract management",
+      "finalEyebrow": "Make supplier contracts part of procurement execution",
+      "finalTitle": "Keep negotiated terms visible at the point of decision, strengthen contract utilization, and give procurement teams a more disciplined commercial foundation.",
+      "finalText": "",
+      "stepLabel": "Step"
+    },
+    "corePoints": [
+      "Centralize supplier agreements in a structured operational record",
+      "Translate negotiated item terms into usable purchasing context",
+      "Make contract coverage visible during item discovery and sourcing",
+      "Reduce dependence on tribal knowledge when selecting suppliers",
+      "Create a clearer view of which spend is contract-backed and which is not"
+    ],
+    "features": [
+      {
+        "title": "Structured Contract Records",
+        "description": "Capture each supplier agreement as a controlled procurement record with supplier ownership, commercial context, validity period, and operational notes."
+      },
+      {
+        "title": "Lifecycle-Based Contract Control",
+        "description": "Manage contracts through draft, active, terminated, expired, and expiring states so teams always understand whether an agreement is commercially usable, nearing risk, or no longer valid."
+      },
+      {
+        "title": "Activation and Termination Workflow",
+        "description": "Move contracts into operational use only when they are ready, and retire them deliberately when coverage should no longer influence procurement behavior."
+      },
+      {
+        "title": "Item-Level Commercial Coverage",
+        "description": "Define which items are covered under each agreement so negotiated terms can be applied with more precision instead of relying on broad supplier assumptions."
+      },
+      {
+        "title": "Contract Pricing and Discount Logic",
+        "description": "Store item-level prices and discount structures in a format procurement teams can actually use during evaluation and sourcing."
+      },
+      {
+        "title": "Catalog Visibility Governance",
+        "description": "Decide whether contract-backed items should be discoverable in Catalog, giving organizations control over how broadly negotiated coverage is exposed internally."
+      },
+      {
+        "title": "Optional Price Exposure in Catalog",
+        "description": "Separate discoverability from price transparency by choosing whether contract prices are shown to end users in Catalog results."
+      },
+      {
+        "title": "Contract-Aware Sourcing Inputs",
+        "description": "Surface matching contracted suppliers inside Purchase Forms so procurement teams can start from negotiated coverage before expanding to wider supplier comparison."
+      },
+      {
+        "title": "Contract-Backed Supplier Suggestions",
+        "description": "Help buyers pull relevant contracted suppliers directly into sourcing workflows instead of manually reconstructing commercial history."
+      },
+      {
+        "title": "Expiry Visibility and Follow-Up",
+        "description": "Make expiring agreements easier to identify so teams can renew, replace, or reassess coverage before procurement value is lost."
+      },
+      {
+        "title": "Dashboard-Level Contract Visibility",
+        "description": "Support broader procurement oversight through active contract KPIs and contracted-versus-non-contracted spend visibility."
+      },
+      {
+        "title": "Integrated Supplier and Purchasing Context",
+        "description": "Keep contract data connected to supplier records, Catalog behavior, and purchasing workflows so commercial agreements remain part of the operating system, not a separate archive."
+      }
+    ],
+    "steps": [
+      {
+        "title": "Define the agreement",
+        "text": "Procurement teams create a contract record with supplier, currency, commercial timeframe, and policy-level visibility settings."
+      },
+      {
+        "title": "Add covered items and terms",
+        "text": "Contract items are defined with unit-level pricing and discount logic so commercial coverage can be applied at the line level."
+      },
+      {
+        "title": "Activate the contract",
+        "text": "Once the agreement is ready for use, it becomes active and enters the operational procurement environment."
+      },
+      {
+        "title": "Use it in procurement decisions",
+        "text": "Active contracts can influence item discovery, contracted item visibility, and supplier selection during sourcing and purchasing."
+      }
+    ],
+    "supportBlocks": [
+      "Contracted items can be surfaced in Catalog",
+      "Contract prices can be shown or intentionally hidden",
+      "Contract status remains visible as part of item context",
+      "Matching contracted suppliers appear during sourcing",
+      "Buyers can import contract-backed supplier options into the form workflow"
+    ],
+    "benefits": [
+      {
+        "title": "Higher contract utilization",
+        "text": "Negotiated supplier agreements are more likely to shape actual procurement behavior when they appear inside sourcing and discovery workflows."
+      },
+      {
+        "title": "Stronger sourcing discipline",
+        "text": "Buyers start from known commercial coverage instead of defaulting immediately to fragmented supplier outreach."
+      },
+      {
+        "title": "Better continuity across teams",
+        "text": "Contract knowledge becomes institutional rather than dependent on individual buyers remembering past agreements."
+      },
+      {
+        "title": "Better visibility into coverage risk",
+        "text": "Expiring and inactive agreements become easier to identify before they create procurement gaps."
+      },
+      {
+        "title": "Clearer spend intelligence",
+        "text": "Contracted and non-contracted purchasing patterns can be understood with more confidence at the management layer."
+      }
+    ],
+    "useCases": [
+      "Managing negotiated item pricing with strategic suppliers",
+      "Exposing contract-backed items in internal catalog discovery",
+      "Guiding buyers toward preferred commercial coverage during sourcing",
+      "Monitoring expiring agreements that require renewal or replacement",
+      "Improving visibility into contracted versus non-contracted spend",
+      "Reducing commercial leakage caused by disconnected contract knowledge"
+    ],
+    "modules": [
+      "Supplier Management",
+      "Purchase Forms",
+      "Catalog",
+      "Spend Insights",
+      "Dashboard KPIs"
+    ],
+    "metrics": [
+      "Better visibility into active contract coverage",
+      "Stronger follow-up on expiring agreements",
+      "Greater contract reuse in sourcing decisions",
+      "Clearer contracted item discoverability",
+      "Better understanding of contracted vs non-contracted spend",
+      "Less commercial value loss from disconnected workflows"
+    ],
+    "faqs": [
+      {
+        "question": "How does TalepNET make supplier contracts operational?",
+        "answer": "TalepNET turns supplier contracts into live procurement controls by connecting commercial terms, covered items, contract validity, catalog visibility, and sourcing workflows in one structured record."
+      },
+      {
+        "question": "Why manage supplier contracts inside TalepNET instead of offline files?",
+        "answer": "Because contract value is only realized when it shapes procurement behavior. TalepNET brings contract intelligence into the decision flow itself, helping teams reuse negotiated coverage instead of relying on memory, email trails, or disconnected documents."
+      },
+      {
+        "question": "How do contracts influence sourcing decisions?",
+        "answer": "Active matching contracts can surface contracted suppliers during Purchase Form workflows, giving buyers immediate visibility into existing commercial coverage before they widen supplier evaluation."
+      },
+      {
+        "question": "Can contract visibility be controlled across the organization?",
+        "answer": "Yes. TalepNET allows teams to decide whether contracted items appear in Catalog and whether contract prices should be visible to end users."
+      },
+      {
+        "question": "How does TalepNET help teams manage contract risk over time?",
+        "answer": "By separating active, expiring, expired, and terminated agreements more clearly, TalepNET helps procurement teams monitor contract coverage before it quietly falls out of use."
+      },
+      {
+        "question": "Does contract data contribute to broader procurement visibility?",
+        "answer": "Yes. Contract records support KPI-level visibility such as active contract tracking and contracted-versus-non-contracted spend analysis."
+      }
+    ]
+  },
+  "receiving": {
+    "badge": "Execution & Control",
+    "title": "Turn purchase completion into a controlled receiving process",
+    "description": "TalepNET connects receiving directly to placed orders, giving teams a structured way to record delivered quantities, manage exceptions, create receipt records, and close the loop between purchasing and operational fulfillment.",
+    "primaryCta": "Request a Demo",
+    "secondaryCta": "See Receiving Flow",
+    "heroPlaceholder": "Receiving workspace placeholder",
+    "heroHighlights": [
+      "Move directly from placed orders into receiving",
+      "Record actual received quantities against ordered lines",
+      "Support partial receipt and completion decisions",
+      "Use receipt numbering and document references for traceability",
+      "Apply over-receipt tolerance controls where configured",
+      "Keep receiving connected to workflow history and downstream visibility"
+    ],
+    "heroCards": [
+      {
+        "eyebrow": "Quantities",
+        "text": "Ordered, remaining, receive-now"
+      },
+      {
+        "eyebrow": "Controls",
+        "text": "Tolerance, completion, references"
+      },
+      {
+        "eyebrow": "Traceability",
+        "text": "Order, supplier, workflow history"
+      }
+    ],
+    "sections": {
+      "introEyebrow": "Receiving is where procurement becomes reality",
+      "introText": "A purchase is not complete when the order is sent. It is complete when the organization knows what was actually received, in what quantity, under which document, and against which supplier commitment. TalepNET makes receiving a structured operational control point rather than an afterthought outside the procurement workflow.",
+      "coreEyebrow": "From placed order to verified receipt",
+      "corePointsPlaceholder": "Order-to-receipt placeholder",
+      "featuresEyebrow": "How TalepNET structures receiving",
+      "featuresTitle": "Receiving stays tied to real order data, controls, and execution truth",
+      "flowEyebrow": "How Receiving works in TalepNET",
+      "flowTitle": "From placed order to operational closure",
+      "supportEyebrow": "Receiving as a control layer, not a checkbox",
+      "supportTitle": "The receipt step validates what really arrived, not what should have arrived.",
+      "supportText": "TalepNET treats receiving as the point where supplier commitment meets operational proof. That means the process is not just about confirming delivery. It is about validating quantities, managing partial outcomes, preserving traceability, and ensuring the purchasing record reflects execution truth.",
+      "benefitsEyebrow": "What improves with structured receiving",
+      "benefitsTitle": "Better closure, stronger traceability, clearer execution reality",
+      "useCasesEyebrow": "Where Receiving creates real value",
+      "modulesEyebrow": "Connected to the execution side of procurement",
+      "modulesText": "Receiving in TalepNET is connected to Purchase Orders, supplier execution, workflow history, and procurement visibility. It gives the organization a structured completion layer between ordering and final operational closure.",
+      "metricsEyebrow": "Built to improve execution visibility",
+      "metricsTitle": "Receiving should make the final procurement outcome visible, not ambiguous",
+      "faqEyebrow": "FAQ",
+      "faqTitle": "Common questions about receiving",
+      "finalEyebrow": "Make receiving the final control point in procurement execution",
+      "finalTitle": "Record what actually arrived, manage exceptions with discipline, and close the gap between ordering and operational completion.",
+      "finalText": "",
+      "stepLabel": "Step"
+    },
+    "corePoints": [
+      "Start receiving from real placed-order data",
+      "Record delivered quantities at line level",
+      "Distinguish open, partial, and complete receipt outcomes",
+      "Keep receipt activity tied to supplier and order context",
+      "Improve closure between purchasing execution and operational completion"
+    ],
+    "features": [
+      {
+        "title": "Receiving from Placed Orders",
+        "description": "Launch receiving directly from active placed-order workflows so goods receipt starts from committed purchasing data, not from manual reconstruction."
+      },
+      {
+        "title": "Line-Level Receipt Recording",
+        "description": "Capture received quantities against each purchase line so teams can reflect actual delivery outcomes with precision."
+      },
+      {
+        "title": "Partial Receiving Support",
+        "description": "Record incomplete deliveries without forcing artificial closure, allowing the process to reflect operational reality instead of idealized assumptions."
+      },
+      {
+        "title": "Completion Control",
+        "description": "Mark receipt completion when the remaining quantity has been satisfied, giving teams a clearer path from open order to closed execution."
+      },
+      {
+        "title": "Remaining Quantity Visibility",
+        "description": "Show ordered, remaining, and receive-now quantities together so receiving teams can act with better context and fewer mistakes."
+      },
+      {
+        "title": "Receipt Numbering",
+        "description": "Generate clearer receipt records with numbering support, making receiving activity easier to track, reference, and audit later."
+      },
+      {
+        "title": "Document References",
+        "description": "Attach document-level context to receiving flows so physical or supporting receipt records stay tied to the procurement process."
+      },
+      {
+        "title": "Over-Receipt Tolerance Controls",
+        "description": "Apply configured tolerance rules to prevent uncontrolled receiving while still supporting real-world exceptions where needed."
+      },
+      {
+        "title": "Supplier-Linked Receiving Context",
+        "description": "Keep receiving tied to supplier and order identity so operational closure remains connected to the commercial source of the purchase."
+      },
+      {
+        "title": "Workflow-Aware Receiving",
+        "description": "Make receiving part of the configured procurement workflow rather than a disconnected warehouse-side activity."
+      },
+      {
+        "title": "Receiving History and Traceability",
+        "description": "Keep receipt actions visible in workflow and purchase history so teams can understand how execution progressed after ordering."
+      },
+      {
+        "title": "Inventory-Aware Behavior",
+        "description": "Support stock-sensitive receiving behavior, including environments where stock control settings affect how receipt activity is applied operationally."
+      }
+    ],
+    "steps": [
+      {
+        "title": "Start from a placed order",
+        "text": "Receiving begins from purchases that have already been ordered and are now waiting for operational completion."
+      },
+      {
+        "title": "Record delivered quantities",
+        "text": "Teams enter received quantities line by line, with visibility into ordered and remaining amounts."
+      },
+      {
+        "title": "Apply controls and exceptions",
+        "text": "TalepNET validates receipt behavior using the configured process logic, including over-receipt tolerance and completion handling."
+      },
+      {
+        "title": "Close the execution loop",
+        "text": "Receipt activity updates the operational state of the purchase and keeps downstream workflow visibility aligned with what actually happened."
+      }
+    ],
+    "supportBlocks": [
+      "Starts from placed-order context",
+      "Remains linked to supplier execution",
+      "Preserves receipt-level traceability",
+      "Feeds workflow and purchase history",
+      "Strengthens order-to-completion visibility"
+    ],
+    "benefits": [
+      {
+        "title": "Better execution accuracy",
+        "text": "Procurement and receiving teams work against actual order lines instead of disconnected manual notes."
+      },
+      {
+        "title": "Better control over partial delivery",
+        "text": "Teams can reflect what was really delivered without distorting the procurement record."
+      },
+      {
+        "title": "Better traceability",
+        "text": "Receipt numbering, document references, and workflow history create a stronger operational record."
+      },
+      {
+        "title": "Better supplier accountability",
+        "text": "The organization can see more clearly whether supplier commitments translated into actual receipt outcomes."
+      },
+      {
+        "title": "Better downstream visibility",
+        "text": "Receiving brings clarity to the final stage of purchasing execution instead of leaving completion ambiguous."
+      }
+    ],
+    "useCases": [
+      "Recording goods received against placed purchase orders",
+      "Handling partial deliveries without losing workflow continuity",
+      "Applying tolerance controls for operational exceptions",
+      "Closing open purchases only when receipt is actually complete",
+      "Tracking receipt references for audit and follow-up",
+      "Improving order-to-receipt visibility across suppliers and branches"
+    ],
+    "modules": [
+      "Purchase Orders",
+      "Supplier Management",
+      "Workflow History",
+      "Warehouse / Fulfillment",
+      "Spend Insights"
+    ],
+    "metrics": [
+      "Better order-to-receipt traceability",
+      "Clearer partial vs complete delivery visibility",
+      "Stronger receiving discipline",
+      "Better supplier execution transparency",
+      "Fewer ambiguous completion states",
+      "Stronger operational closure across procurement"
+    ],
+    "faqs": [
+      {
+        "question": "How does TalepNET handle receiving differently from a simple delivery confirmation?",
+        "answer": "TalepNET treats receiving as an operational control point, tying delivered quantities, completion status, receipt references, and workflow traceability back to the original purchase and supplier commitment."
+      },
+      {
+        "question": "Can TalepNET support partial receiving?",
+        "answer": "Yes. Receiving is designed to reflect real delivery outcomes, including partial receipt scenarios that should remain operationally open until completion."
+      },
+      {
+        "question": "How does TalepNET control receiving exceptions?",
+        "answer": "The receiving flow can enforce configured rules such as over-receipt tolerance, helping teams manage exceptions without losing process discipline."
+      },
+      {
+        "question": "Does receiving stay connected to the purchase history?",
+        "answer": "Yes. Receipt activity remains visible in workflow and purchase history so teams can follow execution after ordering."
+      },
+      {
+        "question": "Is receiving linked to supplier and order context?",
+        "answer": "Yes. Receiving starts from placed orders and remains tied to supplier-linked purchasing records rather than operating as a disconnected warehouse note."
+      },
+      {
+        "question": "Why does receiving matter in procurement visibility?",
+        "answer": "Because procurement performance is only fully visible when the organization can see not just what was ordered, but what was actually received and how the process concluded."
+      }
+    ]
+  },
+  "budgetManagement": {
+    "badge": "Finance-Aligned Procurement",
+    "title": "Bring budget control into the procurement workflow, not after it",
+    "description": "TalepNET connects budget management to cost centers, fiscal years, request creation, approval logic, and spend visibility, helping organizations control purchasing before commitments turn into financial surprises.",
+    "primaryCta": "Request a Demo",
+    "secondaryCta": "See Budget Workflow",
+    "heroPlaceholder": "Budget control workspace placeholder",
+    "heroHighlights": [
+      "Manage budget structures through cost centers and fiscal years",
+      "Bring cost center ownership into request and approval flows",
+      "Track spend against budget with live operational context",
+      "Use budget signals in approval design and workflow policy",
+      "Keep budget visibility connected to procurement activity, not only reporting"
+    ],
+    "heroCards": [
+      {
+        "eyebrow": "Structure",
+        "text": "Cost centers and fiscal years"
+      },
+      {
+        "eyebrow": "Workflow",
+        "text": "Ownership, thresholds, approvals"
+      },
+      {
+        "eyebrow": "Visibility",
+        "text": "Used, remaining, over-budget"
+      }
+    ],
+    "sections": {
+      "introEyebrow": "Budget management only works when it is connected to procurement behavior",
+      "introText": "In many organizations, budgets live in finance files while procurement decisions happen elsewhere. That disconnect weakens control. TalepNET closes the gap by connecting budget structures to the operating flow of requests, approvals, purchases, and spend visibility, so budget control becomes part of decision-making rather than a retrospective exercise.",
+      "coreEyebrow": "From budget definition to budget-aware procurement",
+      "corePointsPlaceholder": "Budget-aware procurement placeholder",
+      "featuresEyebrow": "How TalepNET operationalizes budget management",
+      "featuresTitle": "Budget structures become live procurement signals, not background accounting fields",
+      "flowEyebrow": "How Budget Management works in TalepNET",
+      "flowTitle": "From financial structure to live spend visibility",
+      "supportEyebrow": "Budget discipline is also a workflow design problem",
+      "supportTitle": "Financial control becomes stronger when approvals reflect ownership, thresholds, and real organizational logic.",
+      "supportText": "TalepNET’s workflow model is designed to reflect how organizations actually govern purchasing. Approval flows can be shaped by organizational structure, department logic, and amount thresholds, which is exactly where budget-sensitive control usually lives. Budget management is therefore not isolated from approvals. It informs how financial responsibility is represented inside the process.",
+      "insightsEyebrow": "Operational budget visibility, not just accounting hindsight",
+      "insightsText": "TalepNET does not position budget management as a passive finance module. It connects budget structures to procurement activity and dashboard visibility, helping teams understand how spend is accumulating against owned cost centers and planned periods before control is lost.",
+      "insightsListEyebrow": "Budget visibility section",
+      "benefitsEyebrow": "What changes when budget control is connected to procurement",
+      "benefitsTitle": "Better ownership, better approval quality, earlier control",
+      "useCasesEyebrow": "Where Budget Management creates real value",
+      "modulesEyebrow": "Connected across procurement and finance",
+      "modulesText": "Budget Management in TalepNET is connected to Cost Centers, Fiscal Years, Request Creation, Approval Workflows, Purchasing data, and dashboard-level spend visibility. It acts as a financial control layer across the full procurement operating model.",
+      "metricsEyebrow": "Built to strengthen budget-aware procurement",
+      "metricsTitle": "Budget control should influence procurement while the process is still moving",
+      "faqEyebrow": "FAQ",
+      "faqTitle": "Common questions about budget management",
+      "finalEyebrow": "Make budget control part of procurement execution",
+      "finalTitle": "Connect cost centers, fiscal years, approvals, and spend visibility in one procurement model that keeps financial control close to operational decisions.",
+      "finalText": "",
+      "stepLabel": "Step"
+    },
+    "corePoints": [
+      "Structure budget ownership through cost centers",
+      "Control planning periods through fiscal years",
+      "Carry budget context from request creation into downstream procurement",
+      "Expose spend and utilization through operational dashboards",
+      "Support workflow logic shaped by department, thresholds, and organizational structure"
+    ],
+    "features": [
+      {
+        "title": "Cost Center Management",
+        "description": "Build a structured cost center model for procurement ownership, spend tracking, and budget control rather than treating departmental responsibility as informal metadata."
+      },
+      {
+        "title": "Hierarchical Cost Center Structure",
+        "description": "Organize cost centers as expandable groups and leaf-level spending entities, allowing budget control to reflect real organizational structures instead of flat accounting lists."
+      },
+      {
+        "title": "Leaf-Level Budget Definition",
+        "description": "Assign budgets at the actual cost center level where spend should be controlled, while higher-level groups roll up budget and spend visibility across the hierarchy."
+      },
+      {
+        "title": "Cost Center Ownership",
+        "description": "Attach operational ownership to cost centers through organizational positions, creating a clearer accountability model around purchasing responsibility."
+      },
+      {
+        "title": "Fiscal Year Management",
+        "description": "Define the time boundary for budget control through managed fiscal years, giving procurement and finance a shared operational period for spend governance."
+      },
+      {
+        "title": "Fiscal Year Locking",
+        "description": "Lock fiscal years to prevent new spending or budget entries in closed periods, turning historical budget windows into controlled, read-only records."
+      },
+      {
+        "title": "Budget-Enabled System Controls",
+        "description": "Enable budget management at the system level to unlock budget-related controls across finance and purchasing workflows."
+      },
+      {
+        "title": "Cost Center Capture at Request Level",
+        "description": "Assign cost centers directly during request creation so budget ownership starts at intake rather than being reconstructed later in the process."
+      },
+      {
+        "title": "Default Cost Center by Position",
+        "description": "Pre-fill request lines with a position’s default cost center, reducing manual input while keeping budget ownership aligned with organizational roles."
+      },
+      {
+        "title": "Cost Center Snapshots Across the Flow",
+        "description": "Preserve cost center data on requests, purchases, and purchase-order items so budget context remains intact as procurement moves from intake to execution."
+      },
+      {
+        "title": "Budget-Aware Procurement Foundations",
+        "description": "Use cost centers and fiscal years as prerequisites for budget-aware procurement, ensuring spend control is built on governed financial structures."
+      },
+      {
+        "title": "Workflow Rule Alignment",
+        "description": "Support procurement workflows that reflect real approval logic, including departments, amount thresholds, and organizational ownership patterns that often sit behind budget-sensitive decisions."
+      },
+      {
+        "title": "Approval Context with Budget Signals",
+        "description": "Give approvers better context by keeping department and cost-center ownership visible where purchasing decisions require stronger financial discipline."
+      },
+      {
+        "title": "Budget Overview Dashboarding",
+        "description": "Surface budget status through dedicated dashboard widgets that show used, remaining, and over-budget conditions in an operational format."
+      },
+      {
+        "title": "Managed Cost Center Spend Visibility",
+        "description": "Give responsible users a view of spend across the cost centers they manage, making budget control more actionable and less abstract."
+      },
+      {
+        "title": "Spend by Cost Center and Department",
+        "description": "Extend budget visibility into procurement analytics through cost-center- and department-oriented spend views, helping teams understand where budget pressure is forming."
+      }
+    ],
+    "steps": [
+      {
+        "title": "Define the financial structure",
+        "text": "Finance and operations teams create fiscal years and cost center hierarchies that reflect real responsibility and planning boundaries."
+      },
+      {
+        "title": "Attach budget ownership to procurement",
+        "text": "Requests capture cost center context from the start, with default organizational assignments reducing friction and improving consistency."
+      },
+      {
+        "title": "Carry budget context through workflow",
+        "text": "Cost center information remains attached as requests become purchases and purchase-order activity, preserving financial ownership across the flow."
+      },
+      {
+        "title": "Monitor spend and budget status",
+        "text": "Dashboards and operational views show budget utilization, managed cost center spend, and over-budget pressure while procurement is still in motion."
+      }
+    ],
+    "supportBlocks": [
+      "Department-aware workflow design",
+      "Threshold-based approval logic",
+      "Cost center ownership in request context",
+      "Better financial clarity for approvers",
+      "Stronger continuity between policy and execution"
+    ],
+    "insightBlocks": [
+      "Budget overview widgets",
+      "Managed cost center spend views",
+      "Spend by cost center visibility",
+      "Department-oriented spend analysis",
+      "Over-budget and remaining-budget signals",
+      "Budget variance context for management review"
+    ],
+    "benefits": [
+      {
+        "title": "Better financial ownership",
+        "text": "Purchasing activity is tied more clearly to who owns the spend and which cost center should carry it."
+      },
+      {
+        "title": "Better approval quality",
+        "text": "Approvers can evaluate requests with stronger financial context instead of reviewing demand in isolation."
+      },
+      {
+        "title": "Better control before commitment",
+        "text": "Budget signals appear earlier in the workflow, where they can influence decisions rather than merely explain them afterward."
+      },
+      {
+        "title": "Better period governance",
+        "text": "Fiscal-year controls help teams separate active planning windows from locked historical periods."
+      },
+      {
+        "title": "Better spend visibility",
+        "text": "Budget status becomes easier to monitor across departments, cost centers, and managed procurement responsibility."
+      }
+    ],
+    "useCases": [
+      "Assigning annual budgets to operational cost centers",
+      "Structuring cost center groups for roll-up visibility",
+      "Prefilling requests with default departmental cost center ownership",
+      "Keeping cost center identity attached through request, purchase, and PO flows",
+      "Supporting approval logic shaped by budget-sensitive thresholds and ownership",
+      "Monitoring managed spend against available budget",
+      "Locking closed fiscal periods to protect budget integrity",
+      "Understanding over-budget pressure before procurement activity drifts too far"
+    ],
+    "modules": [
+      "Cost Centers",
+      "Fiscal Years",
+      "Purchase Requests",
+      "Approvals",
+      "Purchase Orders",
+      "Spend Insights"
+    ],
+    "metrics": [
+      "Better spend visibility by cost center",
+      "Stronger alignment between approvals and financial ownership",
+      "Earlier detection of over-budget pressure",
+      "Better managed cost center oversight",
+      "Cleaner continuity from request to financial control",
+      "Stronger fiscal-period discipline"
+    ],
+    "faqs": [
+      {
+        "question": "How does TalepNET make budget management operational instead of purely financial?",
+        "answer": "TalepNET connects budget structures to procurement execution by tying cost centers, fiscal years, request context, workflow ownership, and spend visibility into the same operating model."
+      },
+      {
+        "question": "What sits at the core of budget management in TalepNET?",
+        "answer": "The foundation is built on cost centers and fiscal years. Together, they define who owns spend, where it should be tracked, and which planning period governs budget activity."
+      },
+      {
+        "question": "How does budget context enter the procurement workflow?",
+        "answer": "Budget context begins at request creation through cost center assignment, can be prefilled from organizational positions, and remains attached through downstream purchasing records."
+      },
+      {
+        "question": "Does budget management affect approvals and workflow design?",
+        "answer": "Indirectly, yes. TalepNET’s workflow model supports rules shaped by departments, organizational ownership, and amount thresholds, which are central to how budget-sensitive approval logic is usually enforced."
+      },
+      {
+        "question": "How does TalepNET support budget visibility after setup?",
+        "answer": "Through dashboard widgets and spend views such as budget overview, managed cost center spend, and cost-center-oriented spend visibility that help teams monitor utilization while procurement is active."
+      },
+      {
+        "question": "Why do fiscal year locks matter?",
+        "answer": "Because they prevent new spending or budget entries in closed periods, helping organizations maintain stronger period control and cleaner financial governance."
+      }
+    ]
+  },
+  "supplierManagement": {
+    "badge": "Supplier Management",
+    "title": "Manage suppliers as part of the procurement operating system",
+    "description": "TalepNET turns supplier management into a connected procurement capability, linking supplier records, contacts, contracts, RFQ participation, purchase forms, purchase orders, receiving activity, and supplier-facing insights in one structured environment.",
+    "primaryCta": "Request a Demo",
+    "secondaryCta": "See Supplier Workflows",
+    "heroPlaceholder": "Supplier workspace placeholder",
+    "heroHighlights": [
+      "Build a structured supplier master with approval and control signals",
+      "Connect suppliers directly to RFQ, quotation, and order workflows",
+      "Bring contracts and contracted items into sourcing decisions",
+      "Manage supplier contacts for operational outreach",
+      "Extend collaboration through the supplier portal",
+      "Track supplier activity through purchasing and receiving workflows"
+    ],
+    "heroCards": [
+      {
+        "eyebrow": "Relationships",
+        "text": "Records, contacts, status, tier"
+      },
+      {
+        "eyebrow": "Collaboration",
+        "text": "RFQs, quotes, portal, orders"
+      },
+      {
+        "eyebrow": "Visibility",
+        "text": "Spend, delivery, participation"
+      }
+    ],
+    "sections": {
+      "introEyebrow": "Supplier management should not stop at the vendor card",
+      "introText": "In most systems, supplier management means storing company details and maybe a few contacts. In TalepNET, suppliers are not passive records. They are active participants in sourcing, ordering, fulfillment, and procurement visibility. That makes supplier management part of execution, not just administration.",
+      "coreEyebrow": "A supplier layer connected to direct and indirect procurement",
+      "corePointsPlaceholder": "Supplier layer placeholder",
+      "featuresEyebrow": "How TalepNET handles supplier management end to end",
+      "featuresTitle": "Supplier records become active procurement actors, not static directory entries",
+      "flowEyebrow": "How Supplier Management works in TalepNET",
+      "flowTitle": "From supplier setup to sourcing, ordering, and visibility",
+      "middleEyebrow": "Built for both direct and indirect supplier workflows",
+      "middleTitle": "One supplier foundation across different purchasing realities",
+      "middleText": "TalepNET’s supplier model is not limited to one procurement style. It supports the operational reality of organizations managing recurring indirect purchasing as well as more structured, item- and delivery-sensitive direct procurement. The same supplier foundation can support quoting, contracted sourcing, ordering, and receipt handling across both environments.",
+      "middlePlaceholder": "Direct and indirect procurement placeholder",
+      "supportEyebrow": "A supplier layer that continues into collaboration",
+      "supportTitle": "RFQ outreach, quote import, orders, and portal interactions all stay tied to the supplier layer.",
+      "supportText": "TalepNET connects suppliers to the full collaboration path, not just the master-data layer. That includes RFQ outreach, supplier quote participation, quote import, order communication, and portal-linked interactions that reduce fragmentation between procurement decisions and supplier response.",
+      "insightsEyebrow": "Where supplier data becomes procurement action",
+      "insightsText": "The real value of supplier management appears when supplier records influence live purchasing work. In TalepNET, supplier context flows into Purchase Forms, contract matching, quotation handling, purchase orders, and receiving. That creates continuity between supplier setup and actual procurement execution.",
+      "insightsListEyebrow": "Supplier visibility beyond record keeping",
+      "benefitsEyebrow": "What changes when supplier management is connected",
+      "benefitsTitle": "Better continuity across supplier records, collaboration, and execution",
+      "useCasesEyebrow": "Where Supplier Management creates the most value",
+      "modulesEyebrow": "Connected to every major procurement stage",
+      "modulesText": "Supplier Management in TalepNET connects directly to Contracts, Purchase Forms, RFQ flows, Purchase Orders, Receiving, Catalog and Discover, and Spend Insights. It is the supplier spine of the procurement operating model.",
+      "metricsEyebrow": "Built to improve supplier-side procurement control",
+      "metricsTitle": "Supplier management should improve participation, visibility, and execution continuity",
+      "faqEyebrow": "FAQ",
+      "faqTitle": "Common questions about supplier management",
+      "finalEyebrow": "Build supplier management into the procurement flow itself",
+      "finalTitle": "Unify supplier records, contracts, sourcing, orders, and insights in one operational system that keeps supplier relationships connected to real procurement work.",
+      "finalText": "",
+      "stepLabel": "Step"
+    },
+    "corePoints": [
+      "Maintain supplier records as operational master data",
+      "Carry supplier context into purchase forms, RFQs, and purchase orders",
+      "Reuse contracts and historical order context during sourcing",
+      "Support both direct material and indirect purchasing scenarios",
+      "Keep buyer-supplier interaction tied to the process record"
+    ],
+    "features": [
+      {
+        "title": "Structured Supplier Master",
+        "description": "Maintain supplier records with code, status, tier, company information, tax data, location, communication details, and operational identity in one managed profile."
+      },
+      {
+        "title": "Supplier Status and Tiering",
+        "description": "Distinguish suppliers by operational state and commercial positioning, including status control and tier-based segmentation such as standard and preferred suppliers."
+      },
+      {
+        "title": "Supplier Contact Management",
+        "description": "Keep supplier contacts attached to the supplier record so RFQ and order communication can use the right operational recipients instead of relying on personal inbox memory."
+      },
+      {
+        "title": "Supplier Contracts",
+        "description": "Connect suppliers to structured purchase contracts with item-level terms, negotiated pricing logic, and lifecycle control so agreements remain usable in real procurement workflows."
+      },
+      {
+        "title": "Contract-Aware Sourcing",
+        "description": "Surface contracted suppliers during Purchase Form workflows so buyers can bring negotiated coverage directly into supplier selection and quote comparison."
+      },
+      {
+        "title": "RFQ Email Collaboration",
+        "description": "Send RFQs to suppliers directly from the purchasing workflow, with document support and structured communication tied to the sourcing record."
+      },
+      {
+        "title": "Supplier Portal RFQ Participation",
+        "description": "Let suppliers receive RFQ access through portal-enabled flows, submit quotes online, and contribute to a more structured sourcing process."
+      },
+      {
+        "title": "RFQ Monitoring and Quote Import",
+        "description": "Track RFQ response activity and import supplier portal quotes back into Purchase Forms for clearer comparison and faster sourcing progression."
+      },
+      {
+        "title": "Multi-Supplier Quotation Workflows",
+        "description": "Support side-by-side quotation handling across multiple suppliers so procurement teams can compare commercial options in a more disciplined way."
+      },
+      {
+        "title": "Purchase Form Integration",
+        "description": "Carry supplier context directly into Purchase Forms, where buyers can compare offers, reuse contracts, review previous orders, and prepare purchases for approval or execution."
+      },
+      {
+        "title": "Purchase Order Execution",
+        "description": "Move from selected supplier quotations into structured purchase order workflows with supplier-specific order placement, communication, and follow-through."
+      },
+      {
+        "title": "Supplier Portal Order Collaboration",
+        "description": "Link purchase orders to the supplier portal to support more structured buyer-supplier interaction after sourcing, not just before it."
+      },
+      {
+        "title": "Receiving and Fulfillment Continuity",
+        "description": "Keep supplier-linked purchases visible through placed-order and receiving flows so supplier execution remains connected to operational closure."
+      },
+      {
+        "title": "Supplier Discovery and Expansion",
+        "description": "Support supplier discovery surfaces and searchable supplier experiences to help teams evaluate and expand the supplier base in a more organized way."
+      },
+      {
+        "title": "Supplier-Facing Intelligence Signals",
+        "description": "Surface supplier-related performance context across the platform, including response-oriented and delivery-oriented metrics used in dashboards and discovery experiences."
+      },
+      {
+        "title": "Procurement Visibility by Supplier",
+        "description": "Connect suppliers to spend, order, delivery, and sourcing visibility so teams can understand not just who suppliers are, but how they perform inside the procurement system."
+      }
+    ],
+    "steps": [
+      {
+        "title": "Build the supplier base",
+        "text": "Procurement teams create supplier records, define status and tier, and maintain the contact structure needed for operational communication."
+      },
+      {
+        "title": "Connect commercial coverage",
+        "text": "Contracts, contracted items, and supplier-specific sourcing context are attached to the supplier layer so negotiated value is usable during procurement."
+      },
+      {
+        "title": "Engage suppliers in sourcing and ordering",
+        "text": "Suppliers participate through RFQ emails, portal-enabled quote submission, order communication, and downstream execution workflows."
+      },
+      {
+        "title": "Track supplier impact across procurement",
+        "text": "Supplier activity stays visible across sourcing, ordering, receiving, and dashboard-level procurement visibility."
+      }
+    ],
+    "supportBlocks": [
+      "RFQ email workflows",
+      "Portal-enabled quote submission",
+      "Quote comparison across suppliers",
+      "Public or secure supplier-facing document sharing",
+      "Portal-linked purchase order collaboration"
+    ],
+    "insightBlocks": [
+      "Top supplier spend visibility",
+      "Supplier delivery trend views",
+      "Supplier performance widgets",
+      "Supplier vs target dashboards",
+      "Contracted vs non-contracted spend context",
+      "RFQ response and participation visibility"
+    ],
+    "benefits": [
+      {
+        "title": "Better sourcing continuity",
+        "text": "Supplier records, outreach, quotes, and selection logic stay tied to the same procurement chain."
+      },
+      {
+        "title": "Better commercial reuse",
+        "text": "Buyers can act on contracts, contacts, and prior supplier knowledge without rebuilding context every time."
+      },
+      {
+        "title": "Better execution visibility",
+        "text": "Supplier involvement remains visible after sourcing, through orders, receiving, and operational follow-up."
+      },
+      {
+        "title": "Better control over supplier communication",
+        "text": "RFQ and PO communication becomes structured, traceable, and less dependent on informal channels."
+      },
+      {
+        "title": "Better supplier intelligence",
+        "text": "Procurement teams gain a clearer picture of supplier contribution, responsiveness, and operational relevance across the platform."
+      }
+    ],
+    "useCases": [
+      "Managing approved, blocked, preferred, and operational supplier records",
+      "Running RFQs across multiple suppliers from the same purchase need",
+      "Reusing contracted suppliers during sourcing",
+      "Selecting the right supplier contacts for RFQ and order communication",
+      "Moving from supplier quotation to purchase order without process fragmentation",
+      "Tracking supplier-linked purchases into receiving",
+      "Understanding supplier performance through procurement dashboards and discovery surfaces",
+      "Supporting both direct and indirect purchasing relationships in one system"
+    ],
+    "modules": [
+      "Contract Management",
+      "Purchase Forms",
+      "RFQ / Quotations",
+      "Purchase Orders",
+      "Receiving",
+      "Catalog & Discover",
+      "Spend Insights"
+    ],
+    "metrics": [
+      "Stronger supplier response visibility",
+      "Better supplier participation in sourcing",
+      "Better contract-backed supplier utilization",
+      "Clearer supplier-linked spend visibility",
+      "Better continuity from quote to order to receipt",
+      "Less fragmented supplier communication"
+    ],
+    "faqs": [
+      {
+        "question": "How does TalepNET define supplier management differently from a standard vendor list?",
+        "answer": "TalepNET treats suppliers as active participants in procurement execution, connecting supplier records to contracts, RFQs, quotations, purchase forms, orders, receiving, and procurement visibility rather than limiting them to static profile data."
+      },
+      {
+        "question": "How do suppliers participate in sourcing inside TalepNET?",
+        "answer": "Suppliers can be engaged through RFQ email workflows, portal-enabled quote submission, and quotation comparison flows that keep supplier responses tied to the sourcing process record."
+      },
+      {
+        "question": "How does supplier management connect to contracts and purchase forms?",
+        "answer": "Supplier records connect directly to purchase contracts and contract-backed sourcing inputs, allowing buyers to surface contracted suppliers and negotiated terms while working inside Purchase Forms."
+      },
+      {
+        "question": "Does TalepNET support supplier interaction after the quote stage?",
+        "answer": "Yes. Supplier involvement continues into purchase order communication, portal-linked order collaboration, and downstream receiving-related execution."
+      },
+      {
+        "question": "Can TalepNET support both direct and indirect supplier relationships?",
+        "answer": "Yes. The supplier model is designed to support operational complexity across both direct and indirect procurement scenarios."
+      },
+      {
+        "question": "What kind of supplier insights does TalepNET support?",
+        "answer": "TalepNET supports supplier-related visibility across spend, sourcing participation, delivery-oriented views, contracted usage, and dashboard-level supplier performance signals."
+      }
+    ]
+  },
+  "spendInsights": {
+    "badge": "Product Overview",
+    "title": "Turn procurement activity into spend visibility you can act on",
+    "description": "TalepNET helps organizations understand how spending forms across requests, approvals, purchasing, suppliers, contracts, cost centers, and execution so teams can act on live procurement signals instead of relying only on static finance reports.",
+    "primaryCta": "Request a Demo",
+    "secondaryCta": "See Spend Visibility in Action",
+    "heroPlaceholder": "Spend visibility workspace placeholder",
+    "heroIntro": "Spend visibility is most valuable when it is connected to the process that created it. TalepNET links demand, approvals, supplier choice, budget structure, contracts, and execution so teams can see not only what was spent, but how procurement behavior is shaping spend in real time.",
+    "heroHighlights": [
+      "See spend formation across requests, approvals, and purchasing activity",
+      "Connect budget status to live procurement behavior",
+      "Understand supplier concentration before it becomes dependency",
+      "Compare contracted and non-contracted spending patterns",
+      "Trace cost-center behavior through active workflows",
+      "Turn procurement data into usable management signals"
+    ],
+    "heroCards": [
+      {
+        "eyebrow": "Coverage",
+        "text": "Budget, contract, supplier context"
+      },
+      {
+        "eyebrow": "Patterns",
+        "text": "Concentration, drift, category pressure"
+      },
+      {
+        "eyebrow": "Action",
+        "text": "Intervene before control is lost"
+      }
+    ],
+    "sections": {
+      "introEyebrow": "What is spend visibility in procurement?",
+      "introText": "Spend visibility is not only about seeing totals after the fact. It is about understanding how requests, approvals, sourcing choices, contracts, suppliers, and execution behavior shape spending while procurement is still active. TalepNET gives teams that operational context instead of limiting visibility to static reporting outputs.",
+      "problemEyebrow": "Why spend insights are hard to trust in disconnected systems",
+      "problemText": "Spend reporting becomes weaker when the procurement process behind it is fragmented. Teams may see the final number, but not whether it came from repeated manual buying, contract leakage, supplier concentration, weak approvals, or budget drift. TalepNET improves that by connecting spend insight to the procurement record itself.",
+      "problemPlaceholder": "Spend analysis placeholder",
+      "featuresEyebrow": "A procurement intelligence layer, not just a reporting layer",
+      "featuresTitle": "Spend insight is more useful when it stays connected to requests, suppliers, contracts, and execution",
+      "featuresText": "TalepNET approaches spend insights as part of procurement control. The goal is not only to summarize spending after it happens, but to expose the procurement patterns that created it so organizations can intervene earlier and manage spend with more confidence.",
+      "flowEyebrow": "How Spend Insights work in TalepNET",
+      "flowTitle": "See how spend forms across the workflow before weak control becomes expensive",
+      "budgetEyebrow": "Spend insights connected to budget control",
+      "budgetTitle": "Budget status becomes more useful when it is reviewed with live procurement activity",
+      "budgetText": "TalepNET connects spend visibility to finance-aligned procurement structure, including fiscal years, cost centers, budgets, and active purchasing records. That gives teams a clearer way to understand not only whether spending is happening, but how budget behavior is evolving while procurement moves forward.",
+      "supplierEyebrow": "See spend in the context of suppliers and contracts",
+      "supplierTitle": "Spend visibility becomes more useful when supplier and contract context stay attached",
+      "supplierText": "Spend data is more actionable when teams can see which suppliers, agreements, and purchasing patterns sit behind it. TalepNET keeps supplier concentration, vendor dominance, contracted structures, and sourcing behavior closer to the spend record, helping organizations spot commercial and operational risk earlier.",
+      "benefitsEyebrow": "What better spend insight changes",
+      "useCasesEyebrow": "Where Spend Insights deliver the most value",
+      "metricsEyebrow": "More than spend reporting",
+      "metricsTitle": "Traditional reporting shows totals. TalepNET helps explain the procurement behavior behind them.",
+      "metricsText": "That difference matters because spend quality depends on the process behind it, not just the final number.",
+      "faqEyebrow": "FAQ",
+      "faqTitle": "Common questions about Spend Insights",
+      "finalEyebrow": "Make spend visibility part of procurement control",
+      "finalTitle": "TalepNET helps organizations move beyond static reporting with spend insights connected to budgets, suppliers, contracts, approvals, and procurement execution.",
+      "finalText": "",
+      "stepLabel": "Step"
+    },
+    "painPoints": [
+      "Finance can see totals, but procurement cannot always see the behavior behind them",
+      "Contract leakage is harder to detect when spend sits outside sourcing context",
+      "Supplier concentration risk becomes visible too late",
+      "Budget pressure is harder to interpret without cost-center workflow visibility",
+      "Category-level reporting can miss operational purchasing patterns",
+      "Teams often work from reports that are already outdated when decisions are made"
+    ],
+    "features": [
+      {
+        "title": "Spend Overview by Procurement Activity",
+        "description": "See spend in the context of requests, approvals, sourcing actions, purchase forms, orders, and receiving instead of relying only on final finance totals."
+      },
+      {
+        "title": "Top Supplier Spend Visibility",
+        "description": "Understand which suppliers dominate purchasing activity so teams can spot concentration patterns earlier."
+      },
+      {
+        "title": "Top Spend Categories",
+        "description": "Track where spend volume is forming across categories to identify pressure areas and procurement priorities."
+      },
+      {
+        "title": "Managed Cost Center Spend",
+        "description": "Review spending by cost center through a procurement-aware view that helps teams understand ownership and budget behavior."
+      },
+      {
+        "title": "Budget Consumption Tracking",
+        "description": "Monitor how active procurement is affecting available budget instead of waiting for period-end reporting alone."
+      },
+      {
+        "title": "Spend Linked to Fiscal Structure",
+        "description": "Keep fiscal year and budget structure attached to procurement activity so spend is easier to evaluate in the right financial context."
+      },
+      {
+        "title": "Contracted vs Non-Contracted Spend Context",
+        "description": "See whether purchasing behavior is aligned with negotiated contracts or drifting into less controlled supplier execution."
+      },
+      {
+        "title": "Supplier Concentration Signals",
+        "description": "Spot dependency risk by reviewing how much spending is flowing through a narrow supplier base."
+      },
+      {
+        "title": "Spend by Order and Execution Pattern",
+        "description": "Follow how purchasing decisions translate into order activity and operational execution instead of treating spend as an isolated accounting result."
+      },
+      {
+        "title": "Approval-Linked Spend Visibility",
+        "description": "Understand how approved demand is turning into real spending and where control points are working or weakening."
+      },
+      {
+        "title": "Cost-Center-Oriented Spend Analysis",
+        "description": "Use procurement-linked cost center views to understand who is driving spend and how spending behavior differs across the organization."
+      },
+      {
+        "title": "Dashboard Widgets for Live Monitoring",
+        "description": "Track the most important spend and procurement signals through dashboards that reflect current operational activity."
+      },
+      {
+        "title": "Operational and Spend Analytics",
+        "description": "Move beyond simple totals with analytics that connect spend patterns to procurement process performance."
+      },
+      {
+        "title": "Scheduled Reporting",
+        "description": "Distribute recurring spend views and procurement signals without rebuilding the same analysis manually each time."
+      },
+      {
+        "title": "Exportable Spend Data",
+        "description": "Export spend-related views when teams need to extend analysis or share procurement insight outside the platform."
+      },
+      {
+        "title": "Buyer Behavior Visibility",
+        "description": "Identify where purchasing behavior is creating avoidable fragmentation, repeated manual work, or inconsistent commercial discipline."
+      },
+      {
+        "title": "Procurement-to-Finance Continuity",
+        "description": "Keep spend insight tied to the upstream procurement chain so finance and procurement can work from a more coherent picture."
+      },
+      {
+        "title": "Supplier Performance Context",
+        "description": "Bring supplier-side response and delivery visibility closer to spend analysis so teams can evaluate not just volume, but execution quality."
+      },
+      {
+        "title": "Category and Contract Implications",
+        "description": "Understand whether category movement reflects strategic sourcing behavior, contract utilization, or unmanaged purchasing drift."
+      },
+      {
+        "title": "Control-Oriented Visibility",
+        "description": "Use spend insight as a management signal that supports intervention, not only retrospective reporting."
+      }
+    ],
+    "steps": [
+      {
+        "title": "Procurement activity creates structured records",
+        "text": "Requests, approvals, sourcing decisions, suppliers, contracts, purchase orders, and receiving create the operational data behind spend visibility."
+      },
+      {
+        "title": "Spend signals form inside the workflow",
+        "text": "TalepNET connects procurement activity to budgets, cost centers, supplier patterns, and contract context so spend can be interpreted earlier."
+      },
+      {
+        "title": "Teams review live patterns",
+        "text": "Dashboards and spend views surface concentration, drift, category movement, and budget pressure while purchasing is still active."
+      },
+      {
+        "title": "Management acts with better context",
+        "text": "Procurement and finance teams can intervene with more confidence because spend is tied back to the decisions and behaviors that created it."
+      }
+    ],
+    "budgetMessages": [
+      "See budget behavior while purchasing is still active",
+      "Review cost-center consumption in a procurement-aware view",
+      "Use fiscal structure to interpret spend in the right period context",
+      "Spot pressure earlier instead of waiting for static reports"
+    ],
+    "supplierMessages": [
+      "Understand which suppliers dominate active purchasing",
+      "See whether spending aligns with contracted relationships",
+      "Track vendor concentration before it becomes operational risk",
+      "Keep sourcing behavior closer to spend interpretation"
+    ],
+    "benefits": [
+      {
+        "title": "Stronger procurement visibility",
+        "text": "Teams can see how spend forms across requests, approvals, sourcing, and execution instead of reviewing only final totals."
+      },
+      {
+        "title": "Better budget awareness",
+        "text": "Budget status becomes more useful when it stays connected to live cost-center and purchasing activity."
+      },
+      {
+        "title": "Earlier supplier risk signals",
+        "text": "Supplier concentration and contract leakage become easier to identify before they become harder to correct."
+      },
+      {
+        "title": "Clearer category movement",
+        "text": "Organizations can understand where spend is building and which procurement behaviors are driving it."
+      },
+      {
+        "title": "More actionable reporting",
+        "text": "Spend visibility becomes something teams can act on, not just review after the fact."
+      }
+    ],
+    "useCases": [
+      "Monitoring budget pressure while procurement is still moving",
+      "Reviewing spend by supplier, category, and cost center",
+      "Detecting supplier concentration before dependency grows",
+      "Understanding contract-backed versus unmanaged purchasing behavior",
+      "Giving procurement and finance a shared view of spend formation",
+      "Using dashboards and scheduled reports for ongoing spend review",
+      "Connecting execution, approvals, and sourcing behavior to financial visibility"
+    ],
+    "metrics": [
+      "Not just finance totals, but procurement-linked spend context",
+      "Not just historical visibility, but live operational signals",
+      "Not just supplier names, but supplier concentration and performance context",
+      "Not just budgets, but budget behavior inside purchasing workflows",
+      "Not just category totals, but sourcing and contract implications"
+    ],
+    "faqs": [
+      {
+        "question": "What makes Spend Insights different from a standard spend report?",
+        "answer": "TalepNET connects spend visibility to the procurement process behind it, including requests, approvals, suppliers, contracts, budgets, and execution behavior, so teams can understand how spend forms instead of only seeing totals afterward."
+      },
+      {
+        "question": "How does TalepNET connect spend insight to budgets?",
+        "answer": "By linking spend visibility to fiscal years, cost centers, budgets, and live purchasing activity so teams can review budget behavior while procurement is still active."
+      },
+      {
+        "question": "Can Spend Insights help identify supplier concentration risk?",
+        "answer": "Yes. TalepNET surfaces top supplier spend and related patterns so organizations can recognize dependency and concentration issues earlier."
+      },
+      {
+        "question": "Does Spend Insights include contract context?",
+        "answer": "Yes. TalepNET helps teams compare contracted and non-contracted purchasing behavior so contract leakage is easier to detect."
+      },
+      {
+        "question": "Who benefits most from Spend Insights?",
+        "answer": "Procurement leaders, finance teams, and operational managers benefit when spend visibility is tied to the workflow and can be used for earlier control decisions."
+      },
+      {
+        "question": "Can teams export or schedule spend-related reporting?",
+        "answer": "Yes. TalepNET supports dashboard-driven visibility as well as export and scheduled reporting capabilities for broader spend review."
+      }
+    ],
+    "finalSecondaryCta": "Contact Us"
+  }
+}

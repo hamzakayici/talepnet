@@ -1,0 +1,1897 @@
+{
+  "purchaseRequests": {
+    "badge": "Satın Alma İş Akışı",
+    "title": "Her satın alma talebini daha net, daha hızlı ve daha kontrollü hale getirin",
+    "description": "TalepNET, ekiplerin satın alma taleplerini tek bir yapılandırılmış iş akışında oluşturmasına, göndermesine, izlemesine ve yönetmesine yardımcı olur; böylece ihtiyaç, onay ve satın alma arasında hiçbir şey kaybolmaz.",
+    "primaryCta": "Demo Talep Et",
+    "secondaryCta": "Nasıl çalıştığını görün",
+    "heroPlaceholder": "Hero görseli yer tutucusu",
+    "heroHighlights": [
+      "Çalışanların mal ve hizmet taleplerini standartlaştırın",
+      "Eksiksiz ve yapılandırılmış talep formlarıyla gidip gelmeleri azaltın",
+      "Talep durumunu gönderimden onaya ve satın almaya kadar takip edin",
+      "Ekipler ve departmanlar arasında görünürlük ve kontrolü artırın"
+    ],
+    "problemEyebrow": "Satın alma talepleri neden sık sık darboğaza dönüşür?",
+    "problemText": "Birçok organizasyonda satın alma talepleri hâlâ e-postalar, mesajlar, e-tablolar veya eksik formlar aracılığıyla gelir. Bu durum, satın alma ve finans ekipleri için gecikmelere, eksik bilgilere ve sınırlı görünürlüğe neden olur.",
+    "painPoints": [
+      "Talepler farklı formatlarda ve tutarsız bilgilerle gönderilir",
+      "Ekipler eksik detay ve onay peşinde zaman kaybeder",
+      "Çalışanlar taleplerinin durumunu bilemez",
+      "Satın alma ekipleri gelen talebi önceliklendirmekte ve yönetmekte zorlanır",
+      "Finans ekipleri yaklaşan harcamalar hakkında erken görünürlüğe sahip olmaz"
+    ],
+    "introEyebrow": "İlk günden yapılandırılmış talep akışı",
+    "introTitle": "Her ekibe ihtiyaçlarını istemek için tek güvenilir yol verin",
+    "introText": "TalepNET, her departmana satın alma ihtiyaçlarını iletmek için tutarlı bir yol sunar. Talep sahipleri doğru bilgileri en başta girer, yöneticiler tam bağlamla inceler ve satın alma ekipleri daha az manuel takiple daha hızlı hareket edebilir.",
+    "introPlaceholder": "İş akışı önizleme yer tutucusu",
+    "featuresEyebrow": "Satın alma taleplerini verimli yönetmek için gereken her şey",
+    "featuresTitle": "Talep edenler, onaylayanlar, satın alma ve finans için tasarlandı",
+    "features": [
+      {
+        "title": "Yönlendirmeli talep oluşturma",
+        "description": "Çalışanların standartlaştırılmış alanlar, kategoriler, miktarlar, teslimat beklentileri, ekler ve iş gerekçesi ile eksiksiz satın alma talepleri göndermesine yardımcı olun."
+      },
+      {
+        "title": "Akıllı talep yönlendirme",
+        "description": "Talepleri kurallara, bütçe sahipliğine veya talep türüne göre doğru onaylayanlara, departmanlara veya satın alma ekiplerine otomatik olarak yönlendirin."
+      },
+      {
+        "title": "Merkezi talep takibi",
+        "description": "Her talebi gönderimden nihai işleme kadar açık durum, sahiplik ve zaman damgalarıyla tek yerde takip edin."
+      },
+      {
+        "title": "Destekleyici dokümanlar",
+        "description": "Tüm talep bağlamını bir arada tutmak için şartnameleri, teklifleri, teknik dosyaları ve iç notları ekleyin."
+      },
+      {
+        "title": "Rol bazlı görünürlük",
+        "description": "Talep edenlere, yöneticilere, satın alma ve finans ekiplerine gereksiz bilgileri göstermeden tam olarak ihtiyaç duydukları görünürlüğü sağlayın."
+      },
+      {
+        "title": "Denetime hazır kayıtlar",
+        "description": "Her satın alma ihtiyacını kimin talep ettiğini, incelediğini, güncellediğini ve onayladığını gösteren net bir geçmiş tutun."
+      }
+    ],
+    "flowEyebrow": "Satın alma talepleri TalepNET içinde nasıl ilerler?",
+    "flowTitle": "Baştan sona net görülen tek bir talep akışı",
+    "steps": [
+      {
+        "title": "Gönder",
+        "text": "Çalışanlar, şirket politikalarına ve satın alma ihtiyaçlarına göre uyarlanmış yapılandırılmış bir form kullanarak talep oluşturur."
+      },
+      {
+        "title": "İncele",
+        "text": "Yöneticiler veya atanmış onaylayanlar, talebi tam iş bağlamı ve ekli belgelerle birlikte inceler."
+      },
+      {
+        "title": "İşle",
+        "text": "Satın alma ekipleri doğrulanmış talepleri alır ve kaynak bulma, sipariş verme veya tedarikçi koordinasyonu ile ilerler."
+      },
+      {
+        "title": "Takip et",
+        "text": "İlgili herkes, e-posta takibine gerek kalmadan ilerlemeyi, durum değişikliklerini ve sonraki adımları izleyebilir."
+      }
+    ],
+    "benefitsEyebrow": "Ekiplerin kazandığı şeyler",
+    "benefitsTitle": "İşi yavaşlatmadan daha iyi kontrol",
+    "benefits": [
+      {
+        "title": "Daha hızlı talep döngüleri",
+        "text": "Gönderim anında eksiksiz bilgi olması, gecikmeleri ve tekrarlanan açıklamaları azaltır."
+      },
+      {
+        "title": "Daha iyi iç hizalanma",
+        "text": "Talep edenler, onaylayanlar, satın alma ve finans ekipleri aynı iş akışı ve veriler üzerinden çalışır."
+      },
+      {
+        "title": "Daha güçlü harcama kontrolü",
+        "text": "Talepler, satın alma kararları kesinleşmeden önce daha erken görünür hale gelir."
+      },
+      {
+        "title": "Daha az manuel koordinasyon",
+        "text": "Standartlaşma; e-postaları, e-tabloları ve kopuk onay zincirlerini azaltır."
+      }
+    ],
+    "useCasesEyebrow": "Yaygın satın alma talebi senaryoları",
+    "useCases": [
+      "Ofis ekipmanı ve BT donanım talepleri",
+      "Departmanlardan operasyonel malzeme talepleri",
+      "Hizmet tedarik talepleri",
+      "Proje bazlı satın alma ihtiyaçları",
+      "Tekrarlayan iç satın alma talepleri",
+      "Çok departmanlı satın alma iş akışları"
+    ],
+    "metricsEyebrow": "Satın alma verimliliğini artırmak için tasarlandı",
+    "metrics": [
+      "Daha kısa talep dönüş süreleri",
+      "Daha az eksik gönderim",
+      "Gelen talep üzerinde daha iyi görünürlük",
+      "Daha güçlü süreç ve politika uyumu",
+      "Ekipler arası daha az manuel takip"
+    ],
+    "modulesEyebrow": "Satın alma sürecinin geri kalanına bağlı",
+    "modulesTitle": "Sonraki adımla sorunsuz bağlanan satın alma talepleri",
+    "modulesText": "Satın Alma Talepleri; onaylar, satın alma siparişleri, tedarikçi iş akışları, bütçe kontrolleri ve raporlama ile sorunsuz bir şekilde çalışarak ekibinizin tüm satın alma yaşam döngüsünü tek bir platformda yönetmesine yardımcı olur.",
+    "modules": [
+      "Onaylar",
+      "Satın Alma Siparişleri",
+      "Tedarikçi Yönetimi",
+      "Bütçe Yönetimi",
+      "Harcama İçgörüleri"
+    ],
+    "testimonialEyebrow": "Müşteri bakışı",
+    "testimonialQuote": "TalepNET'ten önce satın alma talepleri e-postalara ve e-tablolara dağılmıştı. Şimdi her talep net bir iş akışını takip ediyor ve ekibimiz en başından itibaren çok daha iyi bir görünürlüğe sahip.",
+    "testimonialRole": "Satın Alma Müdürü",
+    "testimonialPlaceholder": "Referans görseli yer tutucusu",
+    "faqEyebrow": "SSS",
+    "faqTitle": "Satın alma talepleri hakkında sık sorulan sorular",
+    "faqs": [
+      {
+        "question": "Satın alma talebi nedir?",
+        "answer": "Satın alma talebi, tedarik veya satın alma başlamadan önce mal veya hizmet talep etme amaçlı resmi iç süreçtir."
+      },
+      {
+        "question": "TalepNET’te kimler satın alma talebi oluşturabilir?",
+        "answer": "Organizasyonunuzun iş akışı ve erişim kurallarına göre yetkilendirilmiş çalışanlar veya departmanlar talep gönderebilir."
+      },
+      {
+        "question": "Satın alma taleplerine belge ve şartname eklenebilir mi?",
+        "answer": "Evet. Kullanıcılar teklifleri, teknik dosyaları, gerekçeleri ve diğer destekleyici belgeleri ekleyebilir."
+      },
+      {
+        "question": "Talepler otomatik onaya yönlendirilebilir mi?",
+        "answer": "Evet. TalepNET, talepleri onay kurallarına, departman yapılarına veya talep kriterlerine göre yönlendirebilir."
+      },
+      {
+        "question": "Talep edenler durum güncellemelerini takip edebilir mi?",
+        "answer": "Evet. Talep edenler, taleplerinin nerede durduğunu ve bir sonraki adımın ne olduğunu görebilir."
+      }
+    ],
+    "finalEyebrow": "Daha iyi iç talep kontrolü ile başlayın",
+    "finalTitle": "Satın alma taleplerini daha net bir tedarik başlangıç noktasına dönüştürün",
+    "finalText": "TalepNET, her ekibe satın alma ihtiyaçlarını göndermek ve takip etmek için daha iyi bir yol sunarken, satın alma ve finansa ilk adımdan itibaren daha güçlü bir görünürlük sağlar."
+  },
+  "approvals": {
+    "badge": "Satın Alma İş Akışı",
+    "title": "Kontrolü kaybetmeden onay süreçlerini devam ettirin",
+    "description": "TalepNET, kuruluşların onay süreçlerini netlik, hız ve denetlenebilir şekilde yönetmelerine yardımcı olarak her talebin doğru karar vericilere zamanında ulaşmasını sağlar",
+    "primaryCta": "Demo Talep Et",
+    "secondaryCta": "İş akışını görün",
+    "heroPlaceholder": "Onay iş akışı yer tutucu",
+    "heroHighlights": [
+      "Onayları doğru kişilere otomatik yönlendirin",
+      "Yapılandırılmış ve izlenebilir iş akışlarıyla gecikmeleri azaltın",
+      "Onaylayanlara karar vermeden önce tam bağlam sunun",
+      "Eksiksiz onay geçmişi ile kontrolü koruyun"
+    ],
+    "problemEyebrow": "Onay süreci neden ekipleri yavaşlatır?",
+    "problemText": "Onay iş akışları genellikle kararlar e-posta zincirlerine, sohbet mesajlarına veya bağlantısız araçlara dayandığında bozulur. Talepler takılır, sahiplik belirsizleşir ve ekipler manuel olarak takip ederek zaman kaybeder.",
+    "painPoints": [
+      "Onay talepleri dağınık kanallardan gönderilir",
+      "Karar vericilerin hızlı hareket etmek için yeterli bağlamı yoktur",
+      "Ekipler sonraki adımı kimin beklettiğini göremez",
+      "Manuel takip gecikmelere ve hayal kırıklığına neden olur",
+      "Onay eylemleri ve zamanlaması hakkında güvenilir bir kayıt yoktur"
+    ],
+    "introEyebrow": "Her talep için net onay akışı",
+    "introTitle": "Daha fazla sürtünme yaratmadan kararları merkezileştirin",
+    "introText": "TalepNET, onayları her adımın görünür, kuralların tanımlı ve her kararın kaydedildiği yapılandırılmış bir iş akışında merkezileştirir. Onaylayanlar doğru bilgiyi doğru zamanda görür ve ekipler her zaman bir sonraki adımı bilir.",
+    "introPlaceholder": "Onay aşaması önizleme yer tutucusu",
+    "featuresEyebrow": "Onayları güvenle yönetmek için gereken her şey",
+    "featuresTitle": "Gerçek operasyon kullanımı için tasarlanmış yapılandırılmış onay iş akışları",
+    "features": [
+      {
+        "title": "Yapılandırılabilir onay akışları",
+        "description": "Departman, talep türü, tutar, bütçe sahipliği veya iç politika gereksinimlerine göre onay iş akışları oluşturun."
+      },
+      {
+        "title": "Otomatik yönlendirme",
+        "description": "Talepleri manuel yönlendirmeye veya e-posta zincirlerine gerek kalmadan doğrudan doğru onaylayanlara gönderin."
+      },
+      {
+        "title": "Tam talep bağlamı",
+        "description": "Onaylayanlara karar vermeden önce talep ayrıntılarına, belgelere, bütçelere, yorumlara ve ilgili kayıtlara erişim sağlayın."
+      },
+      {
+        "title": "Durum görünürlüğü",
+        "description": "Her onay aşamasını gerçek zamanlı olarak takip edin, böylece talep edenler, yöneticiler ve satın alma ekipleri işlerin nerede durduğunu görebilir."
+      },
+      {
+        "title": "Onay geçmişi",
+        "description": "Her talebi kimin onayladığı, reddettiği, incelediği veya geri gönderdiğine dair net ve denetlenebilir bir kayıt tutun."
+      },
+      {
+        "title": "İstisna yönetimi",
+        "description": "Retleri, revizyonları, üst mercilere yönlendirmeleri ve özel onay senaryolarını iş akışını bozmadan yönetin."
+      }
+    ],
+    "flowEyebrow": "Onaylar TalepNET içinde nasıl ilerler?",
+    "flowTitle": "Tetikten sonuca görülen tek karar akışı",
+    "steps": [
+      {
+        "title": "Tetikle",
+        "text": "Bir satın alma talebi, form veya ilgili iş akışı, önceden tanımlanmış kurallara göre onay sürecine girer."
+      },
+      {
+        "title": "Yönlendir",
+        "text": "TalepNET, talebi otomatik olarak doğru onaylayıcıya veya onay zincirine atar."
+      },
+      {
+        "title": "Karar ver",
+        "text": "Onaylayanlar, talebi tam bağlamla inceler ve onaylar, reddeder veya revizyon talep eder."
+      },
+      {
+        "title": "Devam et",
+        "text": "Onaylandıktan sonra talep, satın alma, tedarikçi eylemi veya bütçe takibi gibi bir sonraki iş akışı aşamasına geçer."
+      }
+    ],
+    "benefitsEyebrow": "Daha iyi onaylar neyi değiştirir?",
+    "benefitsTitle": "Daha az bekleme, daha çok ilerleme",
+    "benefits": [
+      {
+        "title": "Daha hızlı kararlar",
+        "text": "Net sahiplik ve eksiksiz talep verileri, bekleme süresini ve karşılıklı gidip gelmeleri azaltır."
+      },
+      {
+        "title": "Daha iyi yönetim",
+        "text": "Onay kuralları ekipler, departmanlar ve harcama kategorileri arasında tutarlı bir şekilde uygulanır."
+      },
+      {
+        "title": "Daha güçlü hesap verebilirlik",
+        "text": "Her karar, iç kontrol ve denetime hazırlık için zaman damgalı ve izlenebilirdir."
+      },
+      {
+        "title": "Daha az operasyonel sürtünme",
+        "text": "Ekipler onayları kovalamak için daha az, işi ileriye taşımak için daha çok zaman harcar."
+      }
+    ],
+    "useCasesEyebrow": "Yaygın onay senaryoları",
+    "useCases": [
+      "Satın alma talep onayları",
+      "Bütçe ile ilgili onay adımları",
+      "Departman müdürü onayları",
+      "Çok aşamalı finansal onaylar",
+      "Satın alma incelemesi ve onayı",
+      "İstisna ve üst mercilere yönlendirme onayları"
+    ],
+    "metricsEyebrow": "Onay performansını geliştirmek için tasarlandı",
+    "metrics": [
+      "Daha kısa onay dönüş süreleri",
+      "Daha az takılı kalan talep",
+      "Daha iyi süreç şeffaflığı",
+      "Daha tutarlı politika uygulaması",
+      "Ekipler arası daha az manuel koordinasyon"
+    ],
+    "modulesEyebrow": "Tam satın alma yaşam döngüsüne bağlı",
+    "modulesTitle": "Sonraki adıma doğrudan bağlanan onaylar",
+    "modulesText": "TalepNET'teki onaylar izole adımlar değildir. Satın alma talepleri, formlar, satın alma siparişleri, bütçe yönetimi, tedarikçi iş akışları ve raporlama ile doğrudan bağlantı kurarak kuruluşunuzun talepten uygulamaya tek bir kesintisiz süreçte geçmesine yardımcı olur.",
+    "modules": [
+      "Satın Alma Talepleri",
+      "Satın Alma Formları",
+      "Satın Alma Siparişleri",
+      "Bütçe Yönetimi",
+      "Tedarikçi Yönetimi",
+      "Harcama İçgörüleri"
+    ],
+    "rolesEyebrow": "Akıştaki her karar verici için tasarlandı",
+    "rolesTitle": "Talep edenler, yöneticiler, satın alma ve finans için çalışan onaylar",
+    "roles": [
+      {
+        "title": "Talep Eden",
+        "text": "Talepleri gönderin ve güncellemeleri kovalamadan onay ilerlemesini takip edin."
+      },
+      {
+        "title": "Yönetici",
+        "text": "Talepleri iş bağlamıyla inceleyin ve zamanında, bilinçli kararlar verin."
+      },
+      {
+        "title": "Satın Alma Ekibi",
+        "text": "Onaylanmış talepleri daha organize, eyleme geçirilebilir bir formatta alın."
+      },
+      {
+        "title": "Finans Ekibi",
+        "text": "Satın alma ilerlemeden önce finansal taahhütler hakkında görünürlük kazanın."
+      }
+    ],
+    "faqEyebrow": "SSS",
+    "faqTitle": "Onaylar hakkında sık sorulan sorular",
+    "faqs": [
+      {
+        "question": "TalepNET’te neler onaylanabilir?",
+        "answer": "TalepNET, satın alma talepleri, formlar, bütçeyle ilgili iş akışları ve diğer tedarik odaklı süreçler için onayları destekler."
+      },
+      {
+        "question": "Onay iş akışları özelleştirilebilir mi?",
+        "answer": "Evet. Onay akışları, organizasyon kurallarına, departmanlara, harcama limitlerine ve iş akışı koşullarına göre yapılandırılabilir."
+      },
+      {
+        "question": "Birden fazla onaycı dahil olabilir mi?",
+        "answer": "Evet. TalepNET, çok adımlı ve çok rollü onay süreçlerini destekler."
+      },
+      {
+        "question": "Onaycılar reddedebilir veya değişiklik isteyebilir mi?",
+        "answer": "Evet. Onaylayanlar, iş akışı tasarımınıza bağlı olarak talepleri onaylayabilir, reddedebilir veya revizyon için geri gönderebilir."
+      },
+      {
+        "question": "Onay geçmişi kaydediliyor mu?",
+        "answer": "Evet. Her onay işlemi kararlara ve zamana net görünürlük sağlayacak şekilde loglanır."
+      }
+    ],
+    "finalEyebrow": "Onayları yönetmeyi ve güvenmeyi kolaylaştırın",
+    "finalTitle": "Her onay adımını daha net operasyonel karara dönüştürün",
+    "finalText": "TalepNET, organizasyonların onayları daha yapılandırılmış şekilde yönlendirmesine, incelemesine ve takip etmesine yardımcı olur; böylece kararlar kontrol kaybetmeden daha hızlı ilerler."
+  },
+  "purchaseForms": {
+    "badge": "Satın Alma Operasyonu",
+    "title": "Gerçek ihtiyaçtan satın alma formu oluşturun, ardından tedariki kontrollü yönetin",
+    "description": "TalepNET, onaylı ihtiyaçları yapılandırılmış satın alma formlarına dönüştürür. Böylece satın alma ekipleri teklif toplayabilir, tedarikçileri karşılaştırabilir, sözleşme bilgisini yeniden kullanabilir ve seçilen satırları bir sonraki iş akışı adımına taşıyabilir.",
+    "primaryCta": "Demo Talep Et",
+    "secondaryCta": "Satın alma akışını görün",
+    "heroPlaceholder": "Satın alma formu çalışma alanı yer tutucusu",
+    "heroHighlights": [
+      "Seçilen taleplerden doğrudan satın alma formu oluşturun",
+      "Birden fazla tedarikçi teklifini tek çalışma alanında toplayıp karşılaştırın",
+      "Sözleşmeli tedarikçileri ve önceki sipariş bilgisini yeniden kullanın",
+      "RFQ'ları e-posta veya tedarikçi portalı bağlantısıyla gönderin",
+      "Seçilen teklifleri bir sonraki onay veya uygulama adımına taşıyın"
+    ],
+    "heroCards": [
+      {
+        "eyebrow": "RFQ Akışı",
+        "text": "E-posta, portal, izleme, karşılaştırma, seçim"
+      },
+      {
+        "eyebrow": "Satın Alma Bağlamı",
+        "text": "Sözleşmeler, geçmiş siparişler, toplamlar, satır geçmişi"
+      }
+    ],
+    "sections": {
+      "introEyebrow": "Tedarik kararlarının gerçekten verildiği yer",
+      "introText": "Satın Alma Formları, talep toplama ve talep onayları sonrasında satın alma ekiplerinin ana çalışma alanıdır. Ekipler; e-tablolar, gelen kutuları ve tedarikçi mesajları arasında dağılmak yerine kalem satırlarını, teklifleri, toplamları ve tedarikçi iletişimini tek görünümde yönetir.",
+      "coreEyebrow": "Bekleyen taleplerden tedarike hazır satın alma formlarına",
+      "corePointsPlaceholder": "Talepten tedarike yer tutucusu",
+      "featuresEyebrow": "Ekiplerin Satın Alma Formları içinde yapabilecekleri",
+      "featuresTitle": "Yalnızca bir satın alma belgesi değil, gerçek bir tedarik çalışma alanı",
+      "flowEyebrow": "Satın Alma Formları TalepNET içinde nasıl çalışır",
+      "flowTitle": "Onaylı ihtiyaçtan tedarik kararına ve sonraki işlem adımına",
+      "supportEyebrow": "Formdan fazlası, bir tedarik karar alanı",
+      "supportTitle": "TalepNET, ekip tedarikçi kararı vermeden önce ticari, operasyonel ve iş akışı bağlamını bir arada tutar.",
+      "supportText": "TalepNET, satın alma formlarını statik belgeler gibi ele almaz. Form; satın alma ekiplerinin tedarikçi seçeneklerini doğruladığı, toplamları karşılaştırdığı, geçmiş bağlamı kontrol ettiği ve siparişi kesinleştirmeden önce daha görünür biçimde karar verdiği aktif bir satın alma çalışma alanıdır.",
+      "benefitsEyebrow": "Daha iyi satın alma formları neyi geliştirir",
+      "benefitsTitle": "Daha az parçalanmayla daha iyi tedarik kararları",
+      "useCasesEyebrow": "Tipik Satın Alma Formu senaryoları",
+      "modulesEyebrow": "Sonraki adımlara bağlı, onlardan kopuk değil",
+      "modulesText": "Satın Alma Formları, TalepNET satın alma yaşam döngüsünün ortasında yer alır. Talep edilen ihtiyaçtan başlar, talep onayları ve satın alma kuyruklarına bağlanır; ardından satın alma onayları, sipariş oluşturma, tedarikçi iletişimi ve mal kabul gibi sonraki aşamaları besler.",
+      "metricsEyebrow": "Tedarik kalitesini geliştirmek için tasarlandı",
+      "metricsTitle": "Satın alma formu yalnızca kararı belgelememeli, kararı iyileştirmelidir",
+      "faqEyebrow": "SSS",
+      "faqTitle": "Satın alma formları hakkında sık sorulan sorular",
+      "finalEyebrow": "Satın alma formunu gerçek bir tedarik çalışma alanına dönüştürün",
+      "finalTitle": "Teklif toplayın, tedarikçileri karşılaştırın, satın alma bilgisini yeniden kullanın ve seçilen her satırı daha hızlı ve kontrollü şekilde ileri taşıyın.",
+      "finalText": "",
+      "stepLabel": "Adım"
+    },
+    "corePoints": [
+      "Seçilen taleplerden yeni bir satın alma formu oluşturun",
+      "Gerekli kalemleri tek bir satın alma çalışma alanında gruplayın",
+      "Her satırı özgün talep bağlamına bağlı tutun",
+      "Satın alma onayı, sipariş oluşturma ve mal kabul öncesinde tedarik kararını hazırlayın"
+    ],
+    "features": [
+      {
+        "title": "Taleplerden form oluşturma",
+        "description": "Satın alma formlarını seçilen bekleyen taleplerden oluşturun; böylece satın alma süreci manuel veri girişi yerine canlı operasyonel ihtiyaçtan başlasın."
+      },
+      {
+        "title": "Çoklu teklif karşılaştırması",
+        "description": "Aynı satın alma ihtiyacı için bir satın alma formuna birden fazla teklif formu ekleyin ve tedarikçi yanıtlarını satır satır karşılaştırın."
+      },
+      {
+        "title": "Manuel ve portal teklif kaynakları",
+        "description": "Ekip tarafından manuel girilen teklifleri veya tedarikçi portalı yanıtlarından gelen teklifleri aynı tedarik çalışma alanı içinde yönetin."
+      },
+      {
+        "title": "RFQ e-posta gönderimi",
+        "description": "PDF desteği ve isteğe bağlı tedarikçi portalı erişimiyle RFQ'ları satın alma formu üzerinden doğrudan tedarikçilere gönderin."
+      },
+      {
+        "title": "RFQ izleme",
+        "description": "Ekiplerin yanıt ilerlemesini takip edebilmesi ve portal tekliflerini forma geri alabilmesi için RFQ iletişimini ve portal etkinliğini özel izleme alanında görün."
+      },
+      {
+        "title": "Sözleşmeli tedarikçi önerileri",
+        "description": "Satın alma kalemleri için eşleşen sözleşmeleri görün ve sözleşmeli tedarikçileri tedarik karar sürecine hızlıca dahil edin."
+      },
+      {
+        "title": "Önceki sipariş bilgisi",
+        "description": "Aynı kalemler için önceki tedarikçi siparişlerini inceleyin; fiyat geçmişini yeniden kullanın ve mevcut tedarik kararlarını geçmiş satın alma davranışıyla karşılaştırın."
+      },
+      {
+        "title": "En düşük fiyat seçimi",
+        "description": "Hız gerektiğinde en uygun en düşük teklif satırlarını otomatik seçin; yine de nihai tedarikçi seçimini ekip kontrolünde bırakın."
+      },
+      {
+        "title": "En iyi ve seçilen toplam görünürlüğü",
+        "description": "Gönderim öncesinde tedarik kalitesini anlamak için en iyi toplam ile seçilen toplamı yan yana görün."
+      },
+      {
+        "title": "Kalem bazlı eğilim ve geçmiş",
+        "description": "Daha iyi ticari kararlar için kalem başına satın alma eğilimlerini ve stok geçmişini form içinden görüntüleyin."
+      },
+      {
+        "title": "Satın alma notları ve satır kontrolü",
+        "description": "İç not ekleyin, gerekirse kalem çıkarın ve formu gerçek tedarik senaryosuyla uyumlu tutun."
+      },
+      {
+        "title": "İş akışına gönderim",
+        "description": "Satın alma formunu yapılandırılmış iş akışına gönderin; böylece seçilen teklifler bir sonraki onay veya satın alma uygulama adımına geçsin."
+      }
+    ],
+    "steps": [
+      {
+        "title": "İhtiyaçtan oluştur",
+        "text": "Ekipler, satın alma kuyruğunda bekleyen seçili taleplerden satın alma formu oluşturur."
+      },
+      {
+        "title": "Teklifleri topla",
+        "text": "Ekip teklifleri manuel ekler veya RFQ e-postaları ve tedarikçi portalı yanıtları üzerinden alır."
+      },
+      {
+        "title": "Karşılaştır ve karar ver",
+        "text": "Ekipler sözleşme eşleşmelerini, önceki siparişleri, kalem eğilimlerini, tedarikçi seçeneklerini ve toplam karşılaştırmalarını inceleyerek kazanan teklifleri seçer."
+      },
+      {
+        "title": "İleri taşı",
+        "text": "Her satır için seçilen teklif tamamlandığında satın alma formu gönderilir ve satın alma onayı veya sipariş hazırlığı gibi sonraki iş akışı adımına geçer."
+      }
+    ],
+    "supportBlocks": [
+      "Eşleşen tedarikçi sözleşmelerinden gelen sözleşme bağlamı",
+      "Önceki siparişlerden gelen ticari bağlam",
+      "Çoklu tekliflerden gelen pazar bağlamı",
+      "Talebe bağlı ihtiyaçtan gelen operasyonel bağlam",
+      "Bir sonraki yapılandırılmış süreç adımından gelen iş akışı bağlamı"
+    ],
+    "benefits": [
+      {
+        "title": "Daha hızlı tedarik döngüleri",
+        "text": "Ekipler ihtiyaç ve teklif verisini manuel yeniden kurmak yerine tek bir tedarik yüzeyi üzerinden çalışır."
+      },
+      {
+        "title": "Daha iyi tedarikçi kararları",
+        "text": "Ekipler teklifleri yalnızca fiyatla değil, sözleşme ve sipariş geçmişi bağlamıyla karşılaştırır."
+      },
+      {
+        "title": "Daha güçlü süreç sürekliliği",
+        "text": "Satın alma formları; talep alımı, tedarik, onaylar ve sonraki uygulama adımlarını tek iş akışında birleştirir."
+      },
+      {
+        "title": "Daha iyi ticari görünürlük",
+        "text": "En iyi ve seçilen toplamlar, süreç ilerlemeden önce tercihlerin etkisini görünür kılar."
+      },
+      {
+        "title": "Daha az parçalı tedarikçi iletişimi",
+        "text": "RFQ e-postaları, portal yanıtları ve teklif içe aktarımları aynı satın alma kaydına bağlı kalır."
+      }
+    ],
+    "useCases": [
+      "Bir grup talep edilen kalem için rekabetçi teklif süreci yürütmek",
+      "Birden fazla onaylı talepten tedarik paketi oluşturmak",
+      "Tekrarlayan alımlarda sözleşmeli tedarikçileri yeniden kullanmak",
+      "Yeni teklif seçmeden önce önceki tedarikçi fiyatlarını kontrol etmek",
+      "RFQ gönderip yanıtları tek yerde takip etmek",
+      "Seçilen satırları satın alma onayı ve sipariş oluşturma için hazırlamak"
+    ],
+    "modules": [
+      "Satın Alma Talepleri",
+      "Onaylar",
+      "Satın Alma Onayları",
+      "Satın Alma Siparişleri",
+      "Sözleşme Yönetimi",
+      "Tedarikçi Yönetimi",
+      "Mal Kabul",
+      "Harcama İçgörüleri"
+    ],
+    "metrics": [
+      "Daha kısa tedarik döngü süresi",
+      "Satın alma formu başına daha iyi teklif kapsamı",
+      "Sözleşmeli tedarikçi kullanımında artış",
+      "Daha bilinçli tedarikçi seçimi",
+      "Daha az manuel teklif konsolidasyonu",
+      "Tedarikten uygulamaya daha iyi geçiş"
+    ],
+    "faqs": [
+      {
+        "question": "TalepNET'te satın alma formu nedir?",
+        "answer": "Seçilen taleplerden oluşturulan, tekliflerin toplandığı, tedarikçi seçeneklerinin karşılaştırıldığı ve satın almanın bir sonraki iş akışı adımına hazırlandığı tedarik çalışma alanıdır."
+      },
+      {
+        "question": "Bir satın alma formu birden fazla tedarikçi içerebilir mi?",
+        "answer": "Evet. Satın alma formları, aynı satın alma ihtiyacı için çoklu teklif formlarını ve çoklu tedarikçi karşılaştırmasını destekler."
+      },
+      {
+        "question": "Tedarikçiler çevrimiçi yanıt verebilir mi?",
+        "answer": "Evet. RFQ'lar tedarikçi portalı erişimiyle gönderilebilir; portal teklifleri izlenip satın alma formuna geri alınabilir."
+      },
+      {
+        "question": "Ekipler tedarik sırasında geçmiş satın alma verisini kullanabilir mi?",
+        "answer": "Evet. Ekipler form içinden önceki siparişleri, eşleşen sözleşmeleri ve kalem bazlı satın alma içgörülerini inceleyebilir."
+      },
+      {
+        "question": "Gönderim sonrasında ne olur?",
+        "answer": "Satın alma formu, satın alma onayı veya satın alma uygulaması gibi yapılandırılmış bir sonraki iş akışı adımına geçer."
+      }
+    ]
+  },
+  "purchaseOrders": {
+    "badge": "Satın Alma Operasyonu",
+    "title": "Satın alma siparişlerini tam iş akışı kontrolü ve tedarikçi iletişimiyle yönetin",
+    "description": "TalepNET, satın alma ekiplerinin onaylı alımları yapılandırılmış satın alma siparişlerine dönüştürmesine, tedarikçileri doğru kanallardan bilgilendirmesine, sonraki ilerlemeyi izlemesine ve sipariş sürecini doğrudan mal kabule bağlamasına yardımcı olur.",
+    "primaryCta": "Demo Talep Et",
+    "secondaryCta": "Sipariş iş akışını görün",
+    "heroPlaceholder": "Satın alma siparişi çalışma alanı yer tutucusu",
+    "heroHighlights": [
+      "Onaylı alımları satın alma siparişine dönüştürün",
+      "Ön izleme ve nihai sipariş PDF'leri üretin",
+      "Siparişi göndermeden önce teslimat şubesini atayın",
+      "Tedarikçileri e-posta, portal bağlantısı veya WhatsApp paylaşımıyla bilgilendirin",
+      "Siparişleri verildi, teslim alındı ve tamamlandı aşamalarında takip edin",
+      "Gerektiğinde siparişleri kontrollü iş akışı seçenekleriyle iptal edin"
+    ],
+    "heroCards": [
+      {
+        "eyebrow": "Dokümanlar",
+        "text": "Ön izleme ve nihai PO PDF'leri"
+      },
+      {
+        "eyebrow": "Teslimat",
+        "text": "Şube bazlı uygulama bağlamı"
+      },
+      {
+        "eyebrow": "Takip",
+        "text": "Verildi, alındı, tamamlandı"
+      }
+    ],
+    "sections": {
+      "introEyebrow": "Onaylı satın almanın tedarikçi aksiyonuna dönüştüğü yer",
+      "introText": "Satın Alma Siparişleri, TalepNET'te tedarik ve satın alma onayı sonrasındaki uygulama adımıdır. Seçilen alımlar burada resmi sipariş belgesine dönüşür, tedarikçi iletişimi başlar, teslimat şubesi detayları netleşir ve süreç mal kabul ile tamamlanmaya ilerler.",
+      "coreEyebrow": "Onaylı alımdan izlenebilir tedarikçi uygulamasına",
+      "corePointsPlaceholder": "Sipariş yürütme yer tutucusu",
+      "featuresEyebrow": "Ekiplerin Satın Alma Siparişleri ile yapabilecekleri",
+      "featuresTitle": "Tedarikçi iletişimi, sonraki uygulama adımları ve operasyonel kontrol için tasarlandı",
+      "flowEyebrow": "Satın Alma Siparişleri TalepNET içinde nasıl ilerler",
+      "flowTitle": "Siparişe hazır onaydan mal kabule ve kapanışa",
+      "supportEyebrow": "Tedarikçi iletişimi sipariş akışının içine yerleşik",
+      "supportTitle": "TalepNET, iletişim yönetimini, belge paylaşımını ve tedarikçiye dönük etkileşimi satın alma siparişi adımının içinde tutar.",
+      "supportText": "TalepNET, satın alma siparişini yalnızca statik bir PDF olarak ele almaz. Sipariş adımı; tedarikçi kişi yönetimini, güvenli belge paylaşımını, portala bağlı iş birliğini ve ekiplerin daha hızlı operasyonel yol istediği durumlarda WhatsApp gibi alternatif kanalları da kapsar.",
+      "benefitsEyebrow": "Daha iyi satın alma siparişi yönetimi neyi geliştirir",
+      "benefitsTitle": "Daha iyi tedarikçi devri ve daha temiz uygulama sürekliliği",
+      "useCasesEyebrow": "Tipik Satın Alma Siparişi senaryoları",
+      "modulesEyebrow": "Tüm sonraki sürece bağlı",
+      "modulesText": "TalepNET içindeki Satın Alma Siparişleri; önceki tedarik ve onay aşamalarına, ayrıca sonraki operasyonel aşamalara bağlıdır. Satın alma onayı ile mal kabul arasında yer alır; tedarikçi iletişimi ve iş akışı geçmişi aynı satın alma kaydına bağlı kalır.",
+      "metricsEyebrow": "Sipariş uygulama kalitesini geliştirmek için tasarlandı",
+      "metricsTitle": "Satın alma siparişi, belge gönderildikten sonra da uygulamayı görünür tutmalıdır",
+      "faqEyebrow": "SSS",
+      "faqTitle": "Satın alma siparişleri hakkında sık sorulan sorular",
+      "finalEyebrow": "Satın alma siparişlerini gönderim sonrasında da görünür tutun",
+      "finalTitle": "Onaylı alımları yapılandırılmış tedarikçi iletişimine ve daha temiz operasyonel takibe dönüştürün.",
+      "finalText": "",
+      "stepLabel": "Adım"
+    },
+    "corePoints": [
+      "Siparişe hazır alımlardan doğrudan sipariş verin",
+      "Kalem satırları ve teslimat şubesi detaylarıyla resmi PO belgesi üretin",
+      "Kopuk e-posta zincirleri yerine yapılandırılmış tedarikçi iletişimi kullanın",
+      "Sipariş oluşturma adımından mal kabule ve tamamlanmaya kesintisiz geçin"
+    ],
+    "features": [
+      {
+        "title": "Onaylı alımlardan sipariş oluşturma",
+        "description": "Satın alma kararı tamamlandığında ve iş akışı izin verdiğinde ekipler, siparişe hazır kuyruktan doğrudan sipariş oluşturabilir."
+      },
+      {
+        "title": "Ön izleme ve nihai sipariş PDF'leri",
+        "description": "Ekiplerin resmi siparişi göndermeden önce taslak belgeyi inceleyebilmesi için ön izleme ve nihai satın alma siparişi PDF'lerini ayrı üretin."
+      },
+      {
+        "title": "Teslimat şubesi seçimi",
+        "description": "Sipariş oluşturma sırasında teslimat şubesini belirleyin; böylece her sipariş doğru mal kabul noktasını ve şube bazlı uygulama bağlamını taşısın."
+      },
+      {
+        "title": "Tedarikçi kişi seçimi",
+        "description": "İletişimi yapılandırılmış ve gerçek tedarikçi kayıtlarına bağlı tutmak için sipariş iletişimi sırasında ilgili tedarikçi kişisini seçin."
+      },
+      {
+        "title": "E-posta tabanlı sipariş iletişimi",
+        "description": "Satın alma siparişlerini kontrollü mesajlaşma ve tedarikçiye dönük belge teslimiyle platform üzerinden gönderin."
+      },
+      {
+        "title": "WhatsApp ile sipariş paylaşımı",
+        "description": "Gerektiğinde daha hızlı tedarikçi iletişimi için satın alma siparişlerini biçimlendirilmiş bağlantı ve belge erişimiyle WhatsApp üzerinden paylaşın."
+      },
+      {
+        "title": "Güvenli paylaşım bağlantıları",
+        "description": "Tedarikçilerin satın alma siparişini kontrollü erişim akışında görüntüleyebilmesi veya indirebilmesi için güvenli genel sipariş bağlantıları oluşturun."
+      },
+      {
+        "title": "Tedarikçi portalına bağlı siparişler",
+        "description": "Satın alma siparişlerini tedarikçi portalına bağlayın; tedarikçiler yalnızca manuel iletişime bağlı kalmadan daha yapılandırılmış bir iş birliği kanalı üzerinden ilerleyebilsin."
+      },
+      {
+        "title": "Verilen siparişlerin takibi",
+        "description": "Yayınlanan siparişleri verilen siparişler iş akışı içinde yönetin; ekipler açık uygulamayı takip edip sonraki operasyonel adımı hazırlayabilsin."
+      },
+      {
+        "title": "Mal kabul entegrasyonu",
+        "description": "Verilen siparişten doğrudan mal kabule geçin; teslim alma süreci gerçek sipariş miktarlarına ve iş akışı ilerlemesine bağlı kalsın."
+      },
+      {
+        "title": "Mal kabul kontrolleri",
+        "description": "Yapılandırmaya göre teslim alma numaralandırması, belge referansı ve fazla teslim toleransı desteğiyle operasyonel mal kabulü yönetin."
+      },
+      {
+        "title": "Kontrollü iptal akışı",
+        "description": "Alım ve siparişleri iş akışını dikkate alan seçeneklerle iptal edin; talebi tamamen kesmek yerine satın alma sürecine geri döndürmek de mümkün olsun."
+      },
+      {
+        "title": "İptal notları ve gerekçe kuralları",
+        "description": "Sistem ayarlarına göre iptal gerekçesini zorunlu kılın ve iptal adımlarını daha denetlenebilir ve operasyonel olarak daha net hale getirin."
+      },
+      {
+        "title": "Sipariş listesi belgeleri",
+        "description": "Çalışma alanı incelemesi ve uygulama takibi için daha zengin üst veriler içeren gruplanmış sipariş listesi belgeleri üretin."
+      }
+    ],
+    "steps": [
+      {
+        "title": "Onaylı alımları seç",
+        "text": "Ekipler, gerekli tedarik ve onay adımlarını tamamlamış siparişe hazır alımlardan çalışır."
+      },
+      {
+        "title": "Siparişi hazırla",
+        "text": "Ekip teslimat şubesini seçer, sipariş belgesini gözden geçirir ve nihai gönderim öncesinde ön izleme oluşturur."
+      },
+      {
+        "title": "Tedarikçiyi bilgilendir",
+        "text": "Satın alma siparişi; e-posta, portala bağlı erişim veya WhatsApp destekli belge paylaşımı üzerinden tedarikçiye iletilir."
+      },
+      {
+        "title": "Takip et ve teslim al",
+        "text": "Sipariş verildikten sonra aktif uygulama sürecine geçer; ardından mal kabul aşamasında teslim edilen miktarlar kaydedilir ve süreç kapanır."
+      }
+    ],
+    "supportBlocks": [
+      "Tedarikçi kayıtlarından kişi seçimi",
+      "Satın alma siparişi e-posta teslimi",
+      "Güvenli paylaşım bağlantısı üretimi",
+      "Daha hızlı iletişim için WhatsApp paylaşımı",
+      "Tedarikçi portalına bağlı sipariş iş birliği"
+    ],
+    "executionSection": {
+      "placeholder": "Yürütme kontrolleri yer tutucusu",
+      "eyebrow": "Sadece belge üretimi için değil, uygulama için tasarlandı",
+      "title": "PO oluşturulduktan sonra da gerçek operasyonel yola bağlı kalır",
+      "text": "Bir satın alma siparişi ancak operasyonel takip netse anlamlıdır. TalepNET, sipariş oluşturmayı teslimat şubesi bağlamına, mal kabul adımlarına, iş akışı geçmişine ve iptal kontrollerine bağlayarak satın alma ekiplerinin PO oluşturulduktan sonra da uygulama yolunu yönetmesini sağlar.",
+      "bullets": [
+        "Teslimat şubesi bağlamı siparişe bağlı kalır",
+        "Mal kabul adımları verilen sipariş üzerinden devam eder",
+        "İş akışı geçmişi aynı kayda bağlı kalır",
+        "İptal yolları kontrollü ve denetlenebilir kalır"
+      ]
+    },
+    "benefits": [
+      {
+        "title": "Daha hızlı tedarikçi devri",
+        "text": "Ekipler onaylı alımdan tedarikçiye hazır siparişe, belgeleri iş akışı dışında yeniden kurmadan geçebilir."
+      },
+      {
+        "title": "Daha iyi iletişim disiplini",
+        "text": "Siparişler, kişiler, bağlantılar ve bildirimler tek yapılandırılmış süreçte kalır."
+      },
+      {
+        "title": "Daha güçlü uygulama görünürlüğü",
+        "text": "Ekipler sipariş gönderildikten sonra görünürlüğü kaybetmek yerine sonraki süreci takip eder."
+      },
+      {
+        "title": "Daha iyi şube bazlı koordinasyon",
+        "text": "Teslimat şubesi ataması, sonraki mal kabul ve yerel uygulamayı daha net hale getirir."
+      },
+      {
+        "title": "Daha temiz operasyonel toparlanma",
+        "text": "İptal yolları ve satın alma sürecine geri dönüş seçenekleri, tüm satın alma zincirini bozmadan sorun çözmeye yardımcı olur."
+      }
+    ],
+    "useCases": [
+      "Satın alma onayı sonrasında tedarikçiye sipariş iletmek",
+      "Resmi PO belgelerini seçilen tedarikçi kişilerine göndermek",
+      "Siparişleri güvenli bağlantı veya WhatsApp üzerinden paylaşmak",
+      "Şubeye özel teslimat noktalarını yönetmek",
+      "Mal kabul öncesinde açık siparişleri takip etmek",
+      "Verilen siparişe karşılık teslim alma kaydı oluşturmak",
+      "Uygulama değiştiğinde alımı iptal etmek veya yeniden yönlendirmek"
+    ],
+    "modules": [
+      "Satın Alma Formları",
+      "Satın Alma Onayları",
+      "Tedarikçi Portalı",
+      "Tedarikçi Yönetimi",
+      "Mal Kabul",
+      "Harcama İçgörüleri"
+    ],
+    "metrics": [
+      "Onay sonrasında daha hızlı sipariş oluşturma",
+      "Daha iyi tedarikçi iletişimi izlenebilirliği",
+      "Daha güçlü siparişten mal kabule görünürlük",
+      "Daha az kopuk PO takibi",
+      "İptaller ve istisnalar üzerinde daha iyi kontrol",
+      "Satın almadan mal kabule daha akıcı geçiş"
+    ],
+    "faqs": [
+      {
+        "question": "TalepNET'te satın alma siparişleri nasıl oluşturulur?",
+        "answer": "Satın alma siparişleri, tedarik ve onay adımları tamamlandıktan sonra siparişe hazır iş akışı içindeki onaylı alımlardan oluşturulur."
+      },
+      {
+        "question": "Ekipler siparişi göndermeden önce ön izleme görebilir mi?",
+        "answer": "Evet. TalepNET, satın alma siparişleri için ayrı ön izleme ve nihai PDF modlarını destekler."
+      },
+      {
+        "question": "Tedarikçiler siparişi farklı kanallardan alabilir mi?",
+        "answer": "Evet. Siparişler e-posta, güvenli paylaşım bağlantısı, WhatsApp paylaşımı ve tedarikçi portalına bağlı iş birliği ile iletilebilir."
+      },
+      {
+        "question": "Sipariş içinde teslimat şubesi bilgisi olur mu?",
+        "answer": "Evet. Teslimat şubesi seçimi sipariş akışının bir parçasıdır ve sipariş detaylarına ve belgelere yansır."
+      },
+      {
+        "question": "Sipariş verildikten sonra ne olur?",
+        "answer": "Sipariş, verilen sipariş takibine geçer ve ardından mal kabul ile tamamlanma iş akışlarında devam eder."
+      },
+      {
+        "question": "Siparişler kontrollü biçimde iptal edilebilir mi?",
+        "answer": "Evet. TalepNET, iptal notu, yapılandırılabilir gerekçe kuralı ve talebi yeniden satın almaya döndürme gibi seçenekleri destekler."
+      }
+    ]
+  },
+  "contractManagement": {
+    "badge": "Satın Alma Yönetimi",
+    "title": "Tedarikçi sözleşmelerini aktif satın alma kontrolüne dönüştürün",
+    "description": "TalepNET, tedarikçi sözleşmelerini statik dosyaların dışına çıkarıp satın alma operasyonunun akışına taşır; müzakere edilmiş şartları tedarik kararlarına, katalog görünürlüğüne ve sözleşme bilinçli satın alma davranışına bağlar.",
+    "primaryCta": "Demo Talep Et",
+    "secondaryCta": "Sözleşme Yönetimini Görün",
+    "heroPlaceholder": "Sözleşme çalışma alanı yer tutucusu",
+    "heroHighlights": [
+      "Günlük satın alma içinde müzakere edilmiş tedarikçi şartlarını kullanılabilir hale getirin",
+      "Sözleşme kapsamını tedarik ve satın alma uygulamasına bağlayın",
+      "Sözleşmeli kalemlerin katalogda görünüp görünmeyeceğini kontrol edin",
+      "Satın alma kararları sırasında sözleşme destekli tedarikçileri görün",
+      "Aktif, süresi dolmak üzere olan, süresi dolmuş ve sonlandırılmış anlaşmaları net biçimde izleyin"
+    ],
+    "heroCards": [
+      {
+        "eyebrow": "Kapsam",
+        "text": "Kalemler, fiyatlandırma, indirimler, görünürlük"
+      },
+      {
+        "eyebrow": "Etkisi",
+        "text": "Katalog yönlendirmesi ve tedarik girdileri"
+      }
+    ],
+    "sections": {
+      "introEyebrow": "Sözleşmeler satın almaya yön vermeli, onun dışında kalmamalı",
+      "introText": "Birçok organizasyonda tedarikçi sözleşmeleri operasyonel araçlar yerine referans belgeler olarak kalır. Ekipler bir sözleşmenin varlığını biliyor olabilir, ancak bu bilgi çoğu zaman tedarik kararının verildiği anda görünmez. TalepNET bu boşluğu kapatır ve sözleşmeleri, ekiplerin gerçekten çalıştığı yerde görünür kalan yapılandırılmış satın alma sinyallerine dönüştürür.",
+      "coreEyebrow": "Anlaşma yönetiminden satın alma etkisine",
+      "corePointsPlaceholder": "Sözleşme etkisi yer tutucusu",
+      "featuresEyebrow": "TalepNET tedarikçi sözleşmelerini nasıl operasyonelleştirir",
+      "featuresTitle": "Sözleşmeler ancak gerçek davranışı etkilediğinde satın alma kontrolüne dönüşür",
+      "flowEyebrow": "Tedarikçi sözleşmeleri TalepNET içinde nasıl operasyonel hale gelir",
+      "flowTitle": "Sözleşme kaydından tedarik etkisine",
+      "supportEyebrow": "Kararların verildiği yerde görünür",
+      "supportTitle": "Sözleşme değeri, yalnızca kaydedilmiş dosyada değil; keşif ve tedarik anında görünür olduğunda ortaya çıkar.",
+      "supportText": "Bir tedarikçi sözleşmesinin değeri onu yalnızca saklamakta değil, aksiyon anında görünür kılmaktadır. TalepNET, sözleşmeleri hem katalog keşfine hem de Satın Alma Formları tedarik akışına bağlayarak ekiplerin ne alacaklarına ve kimden alacaklarına karar verdikleri anda müzakere edilmiş tedarikçi kapsamını görmelerini sağlar.",
+      "benefitsEyebrow": "Sözleşmeler operasyonel olduğunda ne değişir",
+      "benefitsTitle": "Daha az hafıza bağımlılığıyla daha iyi ticari disiplin",
+      "useCasesEyebrow": "Tedarikçi sözleşmelerinin gerçek değer ürettiği yerler",
+      "modulesEyebrow": "Satın almaya bağlı, ondan kopuk değil",
+      "modulesText": "TalepNET içindeki Tedarikçi Sözleşmeleri daha geniş satın alma işletim modeline doğrudan bağlanır. Tedarikçi kayıtlarını güçlendirir, katalog yönlendirmesini iyileştirir, satın alma formu kararlarını destekler ve sözleşme kullanımı ile harcama davranışı etrafında KPI düzeyinde görünürlük sağlar.",
+      "metricsEyebrow": "Ticari kontrolü geliştirmek için tasarlandı",
+      "metricsTitle": "Müzakere edilmiş şartlar, anlaşma imzalandıktan sonra da satın alma davranışını etkilemeye devam etmelidir",
+      "faqEyebrow": "SSS",
+      "faqTitle": "Sözleşme yönetimi hakkında sık sorulan sorular",
+      "finalEyebrow": "Tedarikçi sözleşmelerini satın alma uygulamasının bir parçası yapın",
+      "finalTitle": "Müzakere edilmiş şartları karar anında görünür tutun, sözleşme kullanımını güçlendirin ve satın alma ekiplerine daha disiplinli bir ticari zemin sağlayın.",
+      "finalText": "",
+      "stepLabel": "Adım"
+    },
+    "corePoints": [
+      "Tedarikçi anlaşmalarını yapılandırılmış operasyonel kayıtta merkezileştirin",
+      "Müzakere edilmiş kalem şartlarını kullanılabilir satın alma bağlamına çevirin",
+      "Sözleşme kapsamını kalem keşfi ve tedarik sırasında görünür hale getirin",
+      "Tedarikçi seçerken kişisel hafıza bağımlılığını azaltın",
+      "Hangi harcamanın sözleşme destekli, hangisinin olmadığını daha net görün"
+    ],
+    "features": [
+      {
+        "title": "Yapılandırılmış sözleşme kayıtları",
+        "description": "Her tedarikçi anlaşmasını; sahiplik, ticari bağlam, geçerlilik süresi ve operasyonel notlar içeren kontrollü bir satın alma kaydı olarak yönetin."
+      },
+      {
+        "title": "Yaşam döngüsü tabanlı sözleşme kontrolü",
+        "description": "Sözleşmeleri taslak, aktif, sonlandırılmış, süresi dolmuş ve süresi dolmak üzere durumlarıyla yönetin; ekipler anlaşmanın ticari olarak kullanılabilir mi, risk altında mı, artık geçersiz mi olduğunu net bilsin."
+      },
+      {
+        "title": "Aktivasyon ve sonlandırma akışı",
+        "description": "Sözleşmeyi ancak hazır olduğunda operasyonel kullanıma alın ve kapsam artık satın alma davranışını etkilememesi gerektiğinde bilinçli şekilde devreden çıkarın."
+      },
+      {
+        "title": "Kalem bazlı ticari kapsam",
+        "description": "Müzakere edilmiş şartların genel tedarikçi varsayımlarına değil daha hassas uygulamaya dayanması için her anlaşma altında hangi kalemlerin kapsandığını tanımlayın."
+      },
+      {
+        "title": "Sözleşme fiyatı ve indirim mantığı",
+        "description": "Kalem bazlı fiyat ve indirim yapılarını, satın alma ekiplerinin değerlendirme ve tedarik sırasında gerçekten kullanabileceği biçimde tutun."
+      },
+      {
+        "title": "Katalog görünürlüğü yönetimi",
+        "description": "Sözleşme destekli kalemlerin katalogda bulunabilir olup olmayacağına karar verin; müzakere edilmiş kapsamın iç kullanıcıya ne kadar açılacağını kontrollü yönetin."
+      },
+      {
+        "title": "Katalogda isteğe bağlı fiyat görünürlüğü",
+        "description": "Sözleşme fiyatlarının son kullanıcılara gösterilip gösterilmeyeceğini seçerek bulunabilirlik ile fiyat şeffaflığını birbirinden ayırın."
+      },
+      {
+        "title": "Sözleşme bilinçli tedarik girdileri",
+        "description": "Eşleşen sözleşmeli tedarikçileri Satın Alma Formları içinde görünür yapın; ekipler daha geniş tedarikçi karşılaştırmasına geçmeden önce müzakere edilmiş kapsamla başlasın."
+      },
+      {
+        "title": "Sözleşme destekli tedarikçi önerileri",
+        "description": "Ekiplerin ilgili sözleşmeli tedarikçileri manuel ticari geçmiş kurmadan tedarik iş akışına çekmesini kolaylaştırın."
+      },
+      {
+        "title": "Bitiş tarihi görünürlüğü ve takip",
+        "description": "Süresi dolmak üzere olan anlaşmaları görünür kılın; ekipler satın alma değeri kaybolmadan önce yenileme, değiştirme veya kapsam gözden geçirme aksiyonu alabilsin."
+      },
+      {
+        "title": "Gösterge paneli düzeyinde sözleşme görünürlüğü",
+        "description": "Aktif sözleşme KPI'ları ve sözleşmeli-sözleşmesiz harcama görünürlüğüyle daha geniş satın alma gözetimi sağlayın."
+      },
+      {
+        "title": "Entegre tedarikçi ve satın alma bağlamı",
+        "description": "Sözleşme verisini tedarikçi kayıtları, katalog davranışı ve satın alma iş akışlarıyla bağlantılı tutun; ticari anlaşmalar ayrı bir arşiv değil, işletim sisteminin parçası olsun."
+      }
+    ],
+    "steps": [
+      {
+        "title": "Anlaşmayı tanımla",
+        "text": "Satın alma ekipleri; tedarikçi, para birimi, ticari dönem ve politika düzeyinde görünürlük ayarlarıyla sözleşme kaydı oluşturur."
+      },
+      {
+        "title": "Kapsanan kalemleri ve şartları ekle",
+        "text": "Sözleşme kalemleri birim düzeyinde fiyat ve indirim mantığıyla tanımlanır; ticari kapsam satır düzeyinde uygulanabilir hale gelir."
+      },
+      {
+        "title": "Sözleşmeyi etkinleştir",
+        "text": "Anlaşma kullanıma hazır olduğunda aktif hale gelir ve operasyonel satın alma ortamına girer."
+      },
+      {
+        "title": "Satın alma kararlarında kullan",
+        "text": "Aktif sözleşmeler, kalem keşfini, sözleşmeli kalem görünürlüğünü ve tedarik ile satın alma sırasında tedarikçi seçimini etkileyebilir."
+      }
+    ],
+    "supportBlocks": [
+      "Sözleşmeli kalemler katalogda gösterilebilir",
+      "Sözleşme fiyatları gösterilebilir ya da bilinçli şekilde gizlenebilir",
+      "Sözleşme durumu kalem bağlamının parçası olarak görünür kalır",
+      "Eşleşen sözleşmeli tedarikçiler tedarik sırasında görünür",
+      "Ekipler sözleşme destekli tedarikçi seçeneklerini form iş akışına alabilir"
+    ],
+    "benefits": [
+      {
+        "title": "Daha yüksek sözleşme kullanımı",
+        "text": "Müzakere edilmiş tedarikçi anlaşmaları, tedarik ve keşif iş akışlarında göründüğünde gerçek satın alma davranışını daha güçlü biçimde şekillendirir."
+      },
+      {
+        "title": "Daha güçlü tedarik disiplini",
+        "text": "Ekipler doğrudan parçalı tedarikçi iletişimine gitmek yerine bilinen ticari kapsamla başlar."
+      },
+      {
+        "title": "Ekipler arasında daha iyi süreklilik",
+        "text": "Sözleşme bilgisi, bireysel hafızaya bağlı kalmak yerine kurumsal hale gelir."
+      },
+      {
+        "title": "Kapsam riskinde daha iyi görünürlük",
+        "text": "Süresi dolmak üzere olan ve pasif durumdaki anlaşmaları satın alma boşluğu yaratmadan önce görmek kolaylaşır."
+      },
+      {
+        "title": "Daha net harcama içgörüsü",
+        "text": "Sözleşmeli ve sözleşmesiz satın alma kalıpları yönetim seviyesinde daha güvenle anlaşılır."
+      }
+    ],
+    "useCases": [
+      "Stratejik tedarikçilerle müzakere edilmiş kalem fiyatlarını yönetmek",
+      "Sözleşme destekli kalemleri iç katalog keşfinde görünür kılmak",
+      "Ekipleri tedarik sırasında tercih edilen ticari kapsama yönlendirmek",
+      "Yenileme veya değiştirme gerektiren süresi dolmak üzere olan anlaşmaları izlemek",
+      "Sözleşmeli ve sözleşmesiz harcama görünürlüğünü iyileştirmek",
+      "Kopuk sözleşme bilgisi nedeniyle oluşan ticari kayıpları azaltmak"
+    ],
+    "modules": [
+      "Tedarikçi Yönetimi",
+      "Satın Alma Formları",
+      "Katalog",
+      "Harcama İçgörüleri",
+      "Gösterge Paneli KPI'ları"
+    ],
+    "metrics": [
+      "Aktif sözleşme kapsamı üzerinde daha iyi görünürlük",
+      "Süresi dolmak üzere olan anlaşmalarda daha güçlü takip",
+      "Tedarik kararlarında daha yüksek sözleşme tekrar kullanımı",
+      "Sözleşmeli kalem bulunabilirliğinde daha net görünürlük",
+      "Sözleşmeli ve sözleşmesiz harcamayı daha iyi anlama",
+      "Kopuk iş akışlarından kaynaklanan daha az ticari değer kaybı"
+    ],
+    "faqs": [
+      {
+        "question": "TalepNET tedarikçi sözleşmelerini nasıl operasyonel hale getiriyor?",
+        "answer": "TalepNET, ticari şartları, kapsanan kalemleri, sözleşme geçerliliğini, katalog görünürlüğünü ve tedarik iş akışlarını tek yapılandırılmış kayıtta birleştirerek tedarikçi sözleşmelerini canlı satın alma kontrollerine dönüştürür."
+      },
+      {
+        "question": "Tedarikçi sözleşmeleri neden çevrimdışı dosyalar yerine TalepNET içinde yönetilmeli?",
+        "answer": "Çünkü sözleşmenin değeri ancak satın alma davranışını şekillendirdiğinde ortaya çıkar. TalepNET, sözleşme bilgisini karar akışının içine taşıyarak ekiplerin müzakere edilmiş kapsamı hafıza, e-posta zinciri veya kopuk belgeler yerine sistem içinden yeniden kullanmasını sağlar."
+      },
+      {
+        "question": "Sözleşmeler tedarik kararlarını nasıl etkiler?",
+        "answer": "Aktif ve eşleşen sözleşmeler, Satın Alma Formları iş akışlarında sözleşmeli tedarikçileri görünür kılar; ekipler tedarikçi değerlendirmesini genişletmeden önce mevcut ticari kapsamı hemen görür."
+      },
+      {
+        "question": "Sözleşme görünürlüğü organizasyon genelinde kontrol edilebilir mi?",
+        "answer": "Evet. TalepNET, sözleşmeli kalemlerin katalogda görünüp görünmeyeceğine ve sözleşme fiyatlarının son kullanıcılara açılıp açılmayacağına karar vermeyi destekler."
+      },
+      {
+        "question": "TalepNET ekiplerin zaman içinde sözleşme riskini yönetmesine nasıl yardımcı olur?",
+        "answer": "Aktif, süresi dolmak üzere olan, süresi dolmuş ve sonlandırılmış anlaşmaları daha net ayırarak satın alma ekiplerinin kapsam düşmeden önce sözleşmeleri izlemesini sağlar."
+      },
+      {
+        "question": "Sözleşme verisi daha geniş satın alma görünürlüğüne katkı verir mi?",
+        "answer": "Evet. Sözleşme kayıtları, aktif sözleşme takibi ve sözleşmeli-sözleşmesiz harcama analizi gibi KPI düzeyinde görünürlüğü destekler."
+      }
+    ]
+  },
+  "receiving": {
+    "badge": "Yürütme ve Kontrol",
+    "title": "Satın alma tamamlanmasını kontrollü bir mal kabul sürecine dönüştürün",
+    "description": "TalepNET, mal kabulü doğrudan verilen siparişlere bağlayarak ekiplere teslim edilen miktarları kaydetmek, istisnaları yönetmek, teslim alma kayıtları oluşturmak ve satın alma ile operasyonel tamamlama arasındaki döngüyü kapatmak için yapılandırılmış bir yol sunar.",
+    "primaryCta": "Demo Talep Et",
+    "secondaryCta": "Mal kabul akışını görün",
+    "heroPlaceholder": "Mal kabul çalışma alanı yer tutucusu",
+    "heroHighlights": [
+      "Verilen siparişlerden doğrudan mal kabule geçin",
+      "Gerçek teslim alınan miktarları sipariş edilen satırlara karşı kaydedin",
+      "Kısmi teslim alma ve tamamlama kararlarını destekleyin",
+      "İzlenebilirlik için teslim alma numaralandırması ve belge referansları kullanın",
+      "Yapılandırılmışsa fazla teslim toleransı kontrolleri uygulayın",
+      "Mal kabulü iş akışı geçmişi ve sonraki görünürlüğe bağlı tutun"
+    ],
+    "heroCards": [
+      {
+        "eyebrow": "Miktarlar",
+        "text": "Sipariş edildi, kalan, şimdi al"
+      },
+      {
+        "eyebrow": "Kontroller",
+        "text": "Tolerans, tamamlama, referanslar"
+      },
+      {
+        "eyebrow": "İzlenebilirlik",
+        "text": "Sipariş, tedarikçi, iş akışı geçmişi"
+      }
+    ],
+    "sections": {
+      "introEyebrow": "Mal kabul, satın almanın gerçeğe dönüştüğü yerdir",
+      "introText": "Bir satın alma siparişi gönderildiğinde süreç tamamlanmış sayılmaz. Organizasyon, gerçekte neyin, hangi miktarda, hangi belgeyle ve hangi tedarikçi taahhüdüne karşı teslim alındığını bildiğinde süreç tamamlanır. TalepNET, mal kabulü satın alma iş akışının dışında kalan sonradan düşünülmüş bir adım değil, yapılandırılmış operasyonel kontrol noktası haline getirir.",
+      "coreEyebrow": "Verilen siparişten doğrulanmış teslim almaya",
+      "corePointsPlaceholder": "Siparişten kabule yer tutucusu",
+      "featuresEyebrow": "TalepNET mal kabulü nasıl yapılandırır",
+      "featuresTitle": "Mal kabul, gerçek sipariş verisine, kontrollere ve uygulama gerçeğine bağlı kalır",
+      "flowEyebrow": "Mal Kabul TalepNET içinde nasıl çalışır",
+      "flowTitle": "Verilen siparişten operasyonel kapanışa",
+      "supportEyebrow": "Onay kutusu değil, kontrol katmanı olarak mal kabul",
+      "supportTitle": "Teslim alma adımı, gelmiş olması gerekeni değil gerçekten geleni doğrular.",
+      "supportText": "TalepNET mal kabulü, tedarikçi taahhüdü ile operasyonel kanıtın buluştuğu nokta olarak ele alır. Süreç sadece teslimatı onaylamakla ilgili değildir; miktarları doğrulamak, kısmi sonuçları yönetmek, izlenebilirliği korumak ve satın alma kaydının uygulama gerçeğini yansıtmasını sağlamakla ilgilidir.",
+      "benefitsEyebrow": "Yapılandırılmış mal kabul neyi geliştirir",
+      "benefitsTitle": "Daha iyi kapanış, daha güçlü izlenebilirlik, daha net uygulama gerçeği",
+      "useCasesEyebrow": "Mal kabulün gerçek değer ürettiği yerler",
+      "modulesEyebrow": "Satın almanın uygulama tarafına bağlı",
+      "modulesText": "TalepNET içindeki Mal Kabul; Satın Alma Siparişleri, tedarikçi uygulaması, iş akışı geçmişi ve satın alma görünürlüğü ile bağlantılıdır. Organizasyona sipariş verme ile nihai operasyonel kapanış arasında yapılandırılmış bir tamamlama katmanı sunar.",
+      "metricsEyebrow": "Uygulama görünürlüğünü geliştirmek için tasarlandı",
+      "metricsTitle": "Mal kabul, nihai satın alma sonucunu görünür yapmalı; belirsiz bırakmamalıdır",
+      "faqEyebrow": "SSS",
+      "faqTitle": "Mal kabul hakkında sık sorulan sorular",
+      "finalEyebrow": "Mal kabulü satın alma uygulamasının son kontrol noktası yapın",
+      "finalTitle": "Gerçekte geleni kaydedin, istisnaları disiplinle yönetin ve sipariş ile operasyonel tamamlama arasındaki boşluğu kapatın.",
+      "finalText": "",
+      "stepLabel": "Adım"
+    },
+    "corePoints": [
+      "Mal kabulü gerçek verilen sipariş verisinden başlatın",
+      "Teslim edilen miktarları satır düzeyinde kaydedin",
+      "Açık, kısmi ve tamamlanmış teslim alma sonuçlarını ayırın",
+      "Teslim alma faaliyetini tedarikçi ve sipariş bağlamına bağlı tutun",
+      "Satın alma uygulaması ile operasyonel tamamlama arasında daha iyi kapanış sağlayın"
+    ],
+    "features": [
+      {
+        "title": "Verilen siparişler üzerinden mal kabul",
+        "description": "Mal kabulü aktif verilen sipariş iş akışlarından başlatın; teslim alma süreci manuel yeniden kurulumdan değil, kesinleşmiş satın alma verisinden başlasın."
+      },
+      {
+        "title": "Satır düzeyinde teslim alma kaydı",
+        "description": "Gerçek teslimat sonuçlarını hassas şekilde yansıtmak için teslim alınan miktarları her satın alma satırına karşı kaydedin."
+      },
+      {
+        "title": "Kısmi mal kabul desteği",
+        "description": "Eksik teslimatları yapay kapanışa zorlamadan kaydedin; süreç ideal varsayımlar yerine operasyonel gerçeği yansıtsın."
+      },
+      {
+        "title": "Tamamlama kontrolü",
+        "description": "Kalan miktar karşılandığında teslim almayı tamamlandı olarak işaretleyin; ekipler açık siparişten kapalı uygulamaya daha net ilerlesin."
+      },
+      {
+        "title": "Kalan miktar görünürlüğü",
+        "description": "Sipariş edilen, kalan ve şimdi teslim alınacak miktarları birlikte gösterin; ekipler daha iyi bağlamla ve daha az hatayla aksiyon alsın."
+      },
+      {
+        "title": "Teslim alma numaralandırması",
+        "description": "Mal kabul faaliyetinin daha kolay izlenmesi, referans verilmesi ve denetlenmesi için numaralandırma destekli daha net teslim alma kayıtları oluşturun."
+      },
+      {
+        "title": "Belge referansları",
+        "description": "Fiziksel veya destekleyici teslim alma kayıtları satın alma sürecine bağlı kalsın diye mal kabul akışına belge düzeyinde bağlam ekleyin."
+      },
+      {
+        "title": "Fazla teslim toleransı kontrolleri",
+        "description": "Kontrolsüz teslim almayı engellemek için yapılandırılmış tolerans kuralları uygulayın; gerektiğinde gerçek dünya istisnalarını yine de destekleyin."
+      },
+      {
+        "title": "Tedarikçiye bağlı mal kabul bağlamı",
+        "description": "Mal kabulü tedarikçi ve sipariş kimliğine bağlı tutun; operasyonel kapanış alımın ticari kaynağına bağlı kalsın."
+      },
+      {
+        "title": "İş akışı bilinçli mal kabul",
+        "description": "Mal kabulü kopuk bir depo etkinliği yerine yapılandırılmış satın alma iş akışının parçası haline getirin."
+      },
+      {
+        "title": "Mal kabul geçmişi ve izlenebilirlik",
+        "description": "Teslim alma adımlarını iş akışı ve satın alma geçmişi içinde görünür tutun; ekipler sipariş sonrası uygulamanın nasıl ilerlediğini anlayabilsin."
+      },
+      {
+        "title": "Stok bilinçli davranış",
+        "description": "Stok kontrol ayarlarının teslim alma faaliyetini operasyonel olarak etkilediği ortamlarda stok hassasiyetli mal kabul davranışını destekleyin."
+      }
+    ],
+    "steps": [
+      {
+        "title": "Verilen siparişten başla",
+        "text": "Mal kabul, artık operasyonel tamamlama bekleyen ve daha önce sipariş edilmiş alımlardan başlar."
+      },
+      {
+        "title": "Teslim edilen miktarları kaydet",
+        "text": "Ekipler teslim alınan miktarları satır satır girer; sipariş edilen ve kalan miktarlar görünür kalır."
+      },
+      {
+        "title": "Kontrolleri ve istisnaları uygula",
+        "text": "TalepNET, fazla teslim toleransı ve tamamlama yönetimi dahil yapılandırılmış süreç mantığıyla teslim alma davranışını doğrular."
+      },
+      {
+        "title": "Uygulama döngüsünü kapat",
+        "text": "Teslim alma faaliyeti, alımın operasyonel durumunu günceller ve sonraki iş akışı görünürlüğünü gerçekte olanla uyumlu tutar."
+      }
+    ],
+    "supportBlocks": [
+      "Verilen sipariş bağlamından başlar",
+      "Tedarikçi uygulamasına bağlı kalır",
+      "Teslim alma düzeyinde izlenebilirliği korur",
+      "İş akışı ve satın alma geçmişini besler",
+      "Siparişten tamamlanmaya görünürlüğü güçlendirir"
+    ],
+    "benefits": [
+      {
+        "title": "Daha iyi uygulama doğruluğu",
+        "text": "Satın alma ve mal kabul ekipleri kopuk manuel notlar yerine gerçek sipariş satırları üzerinden çalışır."
+      },
+      {
+        "title": "Kısmi teslimat üzerinde daha iyi kontrol",
+        "text": "Ekipler satın alma kaydını bozmadan gerçekte teslim edileni yansıtabilir."
+      },
+      {
+        "title": "Daha iyi izlenebilirlik",
+        "text": "Teslim alma numaralandırması, belge referansları ve iş akışı geçmişi daha güçlü operasyonel kayıt oluşturur."
+      },
+      {
+        "title": "Daha iyi tedarikçi hesap verebilirliği",
+        "text": "Organizasyon, tedarikçi taahhütlerinin gerçek teslim alma sonuçlarına dönüşüp dönüşmediğini daha net görebilir."
+      },
+      {
+        "title": "Daha iyi sonraki görünürlük",
+        "text": "Mal kabul, satın alma uygulamasının son aşamasına netlik getirir; tamamlanmayı belirsiz bırakmaz."
+      }
+    ],
+    "useCases": [
+      "Verilen satın alma siparişlerine karşı mal kabul kaydı oluşturmak",
+      "İş akışı sürekliliğini kaybetmeden kısmi teslimat yönetmek",
+      "Operasyonel istisnalar için tolerans kontrolleri uygulamak",
+      "Açık alımı ancak teslim alma gerçekten tamamlandığında kapatmak",
+      "Denetim ve takip için teslim alma referanslarını izlemek",
+      "Tedarikçi ve şube bazında siparişten teslime görünürlüğü iyileştirmek"
+    ],
+    "modules": [
+      "Satın Alma Siparişleri",
+      "Tedarikçi Yönetimi",
+      "İş Akışı Geçmişi",
+      "Depo / Fulfillment",
+      "Harcama İçgörüleri"
+    ],
+    "metrics": [
+      "Daha iyi siparişten teslim almaya izlenebilirlik",
+      "Kısmi ve tam teslimatta daha net görünürlük",
+      "Daha güçlü mal kabul disiplini",
+      "Daha iyi tedarikçi uygulama şeffaflığı",
+      "Daha az belirsiz tamamlanma durumu",
+      "Satın alma genelinde daha güçlü operasyonel kapanış"
+    ],
+    "faqs": [
+      {
+        "question": "TalepNET mal kabulü basit teslimat onayından farklı olarak nasıl ele alıyor?",
+        "answer": "TalepNET, mal kabulü teslim edilen miktarları, tamamlama durumunu, teslim alma referanslarını ve iş akışı izlenebilirliğini özgün alım ve tedarikçi taahhüdüne bağlayan operasyonel kontrol noktası olarak ele alır."
+      },
+      {
+        "question": "TalepNET kısmi mal kabulü destekliyor mu?",
+        "answer": "Evet. Mal kabul, tamamlanana kadar operasyonel olarak açık kalması gereken kısmi teslim alma senaryoları dahil gerçek teslimat sonuçlarını yansıtacak şekilde tasarlanmıştır."
+      },
+      {
+        "question": "TalepNET mal kabul istisnalarını nasıl kontrol eder?",
+        "answer": "Mal kabul akışı, fazla teslim toleransı gibi yapılandırılmış kuralları uygulayabilir; ekipler süreç disiplinini kaybetmeden istisnaları yönetebilir."
+      },
+      {
+        "question": "Mal kabul satın alma geçmişine bağlı kalır mı?",
+        "answer": "Evet. Teslim alma faaliyeti iş akışı ve satın alma geçmişinde görünür kalır; ekipler sipariş sonrası uygulamayı takip edebilir."
+      },
+      {
+        "question": "Mal kabul tedarikçi ve sipariş bağlamına bağlı mı?",
+        "answer": "Evet. Mal kabul, verilen siparişten başlar ve kopuk depo notları yerine tedarikçiye bağlı satın alma kayıtlarına bağlı kalır."
+      },
+      {
+        "question": "Mal kabul neden satın alma görünürlüğü için önemlidir?",
+        "answer": "Çünkü satın alma performansı, organizasyon yalnızca neyin sipariş edildiğini değil, neyin gerçekten teslim alındığını ve sürecin nasıl sonuçlandığını da görebildiğinde tam olarak anlaşılır."
+      }
+    ]
+  },
+  "budgetManagement": {
+    "badge": "Finans Uyumlu Satın Alma",
+    "title": "Bütçe kontrolünü sonradan değil, satın alma iş akışının içine yerleştirin",
+    "description": "TalepNET, bütçe yönetimini maliyet merkezleri, mali yıllar, talep oluşturma, onay mantığı ve harcama görünürlüğüyle ilişkilendirir. Böylece kuruluşlar, taahhütler finansal sürprizlere dönüşmeden önce satın alma süreçlerini kontrol edebilir.",
+    "primaryCta": "Demo Talep Et",
+    "secondaryCta": "Bütçe iş akışını görün",
+    "heroPlaceholder": "Bütçe kontrol çalışma alanı yer tutucu",
+    "heroHighlights": [
+      "Bütçe yapısını maliyet merkezleri ve mali yıllar üzerinden yönetin",
+      "Maliyet merkezi sahipliğini talep ve onay akışlarına taşıyın",
+      "Harcamayı canlı operasyonel bağlamla bütçeye karşı izleyin",
+      "Onay tasarımında ve iş akışı politikalarında bütçe sinyallerini kullanın",
+      "Bütçe görünürlüğünü yalnızca raporlamaya değil, satın alma faaliyetlerine bağlayın"
+    ],
+    "heroCards": [
+      {
+        "eyebrow": "Yapı",
+        "text": "Maliyet merkezleri ve mali yıllar"
+      },
+      {
+        "eyebrow": "İş Akışı",
+        "text": "Sahiplik, eşikler, onaylar"
+      },
+      {
+        "eyebrow": "Görünürlük",
+        "text": "Kullanılan, kalan, bütçe aşımı"
+      }
+    ],
+    "sections": {
+      "introEyebrow": "Bütçe yönetimi ancak satın alma davranışına bağlandığında çalışır",
+      "introText": "Birçok kuruluşta bütçeler finans dosyalarında yaşarken satın alma kararları başka yerlerde alınır. Bu kopukluk kontrolü zayıflatır. TalepNET, bütçe yapılarını talep, onay, satın alma ve harcama görünürlüğünün operasyonel akışına bağlayarak bütçe kontrolünü geriye dönük bir egzersiz olmaktan çıkarır ve karar sürecinin parçası haline getirir.",
+      "coreEyebrow": "Bütçe tanımından bütçe bilinçli satın almaya",
+      "corePointsPlaceholder": "Bütçe-bilinçli satın alma yer tutucu",
+      "featuresEyebrow": "TalepNET bütçe yönetimini nasıl operasyonel hale getirir",
+      "featuresTitle": "Bütçe yapıları arka plandaki muhasebe alanları değil, canlı satın alma sinyallerine dönüşür",
+      "flowEyebrow": "Bütçe Yönetimi TalepNET içinde nasıl çalışır",
+      "flowTitle": "Finansal yapıdan canlı harcama görünürlüğüne",
+      "supportEyebrow": "Bütçe disiplini aynı zamanda bir iş akışı tasarımı meselesidir",
+      "supportTitle": "Finansal kontrol, onaylar sahiplik, eşikler ve gerçek organizasyon mantığını yansıttığında güçlenir.",
+      "supportText": "TalepNET’in iş akışı modeli, kuruluşların satın alma süreçlerini gerçekte nasıl yönettiğini yansıtacak şekilde tasarlanmıştır. Onay akışları organizasyon yapısına, departman mantığına ve tutar eşiklerine göre şekillenebilir. Bütçe hassasiyetine dayalı kontrol tam da burada yaşar. Bu nedenle bütçe yönetimi onaylardan izole değildir; finansal sorumluluğun süreç içinde nasıl temsil edildiğini belirler.",
+      "insightsEyebrow": "Yalnızca geriye dönük muhasebe değil, operasyonel bütçe görünürlüğü",
+      "insightsText": "TalepNET, bütçe yönetimini pasif bir finans modülü olarak konumlamaz. Bütçe yapısını satın alma faaliyetlerine ve gösterge paneli görünürlüğüne bağlayarak ekiplerin, sorumlu oldukları maliyet merkezleri ve planlanan dönemler karşısında harcamanın nasıl biriktiğini kontrol kaybolmadan önce anlamasını sağlar.",
+      "insightsListEyebrow": "Bütçe görünürlüğü bölümü",
+      "benefitsEyebrow": "Bütçe kontrolü satın almaya bağlandığında ne değişir",
+      "benefitsTitle": "Daha iyi sahiplik, daha iyi onay kalitesi, daha erken kontrol",
+      "useCasesEyebrow": "Bütçe Yönetiminin gerçek değer yarattığı yerler",
+      "modulesEyebrow": "Satın alma ve finans genelinde bağlantılı",
+      "modulesText": "TalepNET içindeki Bütçe Yönetimi; Maliyet Merkezleri, Mali Yıllar, Talep Oluşturma, Onay İş Akışları, satın alma verileri ve gösterge paneli düzeyinde harcama görünürlüğüyle bağlantılıdır. Tüm satın alma işletim modeli boyunca finansal bir kontrol katmanı olarak çalışır.",
+      "metricsEyebrow": "Bütçe bilinçli satın almayı güçlendirmek için tasarlandı",
+      "metricsTitle": "Bütçe kontrolü, süreç hâlâ ilerlerken satın alma kararlarını etkilemelidir",
+      "faqEyebrow": "SSS",
+      "faqTitle": "Bütçe yönetimi hakkında sık sorulan sorular",
+      "finalEyebrow": "Bütçe kontrolünü satın alma uygulamasının parçası yapın",
+      "finalTitle": "Maliyet merkezlerini, mali yılları, onayları ve harcama görünürlüğünü; finansal kontrolü operasyonel kararlara yakın tutan tek bir satın alma modelinde birleştirin.",
+      "finalText": "",
+      "stepLabel": "Adım"
+    },
+    "corePoints": [
+      "Bütçe sahipliğini maliyet merkezleri üzerinden yapılandırın",
+      "Planlama dönemlerini mali yıllar üzerinden yönetin",
+      "Bütçe bağlamını talep oluşturmadan sonraki satın alma adımlarına taşıyın",
+      "Harcama ve kullanım durumunu operasyonel panolarda görünür kılın",
+      "Departman, eşikler ve organizasyon yapısına göre şekillenen iş akışı mantığını destekleyin"
+    ],
+    "features": [
+      {
+        "title": "Maliyet Merkezi Yönetimi",
+        "description": "Departman sorumluluğunu gayriresmî bir üst veri gibi görmek yerine, satın alma sahipliği, harcama takibi ve bütçe kontrolü için yapılandırılmış bir maliyet merkezi modeli kurun."
+      },
+      {
+        "title": "Hiyerarşik Maliyet Merkezi Yapısı",
+        "description": "Maliyet merkezlerini genişletilebilir gruplar ve en alt düzey harcama birimleri olarak organize edin; böylece bütçe kontrolü düz bir muhasebe listesi yerine gerçek organizasyon yapısını yansıtsın."
+      },
+      {
+        "title": "Yaprak Seviyesi Bütçe Tanımı",
+        "description": "Bütçeyi, harcamanın gerçekten kontrol edilmesi gereken fiilî maliyet merkezi seviyesinde tanımlayın; üst seviyedeki gruplar ise hiyerarşi boyunca bütçe ve harcama görünürlüğünü toplasın."
+      },
+      {
+        "title": "Maliyet Merkezi Sahipliği",
+        "description": "Maliyet merkezlerine organizasyon içindeki pozisyonlar üzerinden operasyonel sahiplik atayın; böylece satın alma sorumluluğu etrafında daha net bir hesap verebilirlik modeli oluşsun."
+      },
+      {
+        "title": "Mali Yıl Yönetimi",
+        "description": "Bütçe kontrolü için zaman sınırını yönetilen mali yıllarla tanımlayın; satın alma ve finans ekipleri harcama yönetimi için ortak bir operasyonel dönem kullansın."
+      },
+      {
+        "title": "Mali Yıl Kilitleme",
+        "description": "Kapalı dönemlerde yeni harcama veya bütçe kaydı oluşmasını engellemek için mali yılları kilitleyin; geçmiş bütçe dönemlerini kontrollü ve salt okunur kayıtlara dönüştürün."
+      },
+      {
+        "title": "Bütçe Etkin Sistem Kontrolleri",
+        "description": "Finans ve satın alma iş akışları genelinde bütçeyle ilgili kontrolleri devreye almak için sistem düzeyinde bütçe yönetimini etkinleştirin."
+      },
+      {
+        "title": "Talep Düzeyinde Maliyet Merkezi Ataması",
+        "description": "Maliyet merkezini doğrudan talep oluşturma sırasında atayın; böylece bütçe sahipliği sonradan yeniden kurgulanmak yerine giriş noktasında başlasın."
+      },
+      {
+        "title": "Pozisyona Göre Varsayılan Maliyet Merkezi",
+        "description": "Manuel girişi azaltırken bütçe sahipliğini organizasyon rolleriyle uyumlu tutmak için talep satırlarını pozisyona bağlı varsayılan maliyet merkeziyle önceden doldurun."
+      },
+      {
+        "title": "Akış Boyunca Maliyet Merkezi Anlık Görüntüleri",
+        "description": "Satın alma süreci girişten uygulamaya ilerlerken bütçe bağlamı bozulmasın diye maliyet merkezi verisini taleplerde, satın almalarda ve sipariş satırlarında koruyun."
+      },
+      {
+        "title": "Bütçe Bilinçli Satın Alma Temelleri",
+        "description": "Harcama kontrolünün yönetilen bir finansal yapı üzerine kurulması için maliyet merkezlerini ve mali yılları bütçe bilinçli satın almanın ön koşulu olarak kullanın."
+      },
+      {
+        "title": "İş Akışı Kuralı Uyumu",
+        "description": "Bütçe hassasiyetine sahip kararların arkasında sıkça yer alan departmanları, tutar eşiklerini ve organizasyonel sahiplik düzenlerini yansıtan satın alma iş akışlarını destekleyin."
+      },
+      {
+        "title": "Bütçe Sinyalleriyle Onay Bağlamı",
+        "description": "Satın alma kararlarında daha güçlü finansal disiplin gerektiğinde departman ve maliyet merkezi sahipliğini görünür tutarak onaylayanlara daha iyi bağlam sağlayın."
+      },
+      {
+        "title": "Bütçe Genel Bakış Panosu",
+        "description": "Kullanılan, kalan ve bütçe aşımı durumlarını operasyonel bir formatta gösteren gösterge paneli bileşenleriyle bütçe durumunu görünür hale getirin."
+      },
+      {
+        "title": "Yönetilen Maliyet Merkezi Harcama Görünürlüğü",
+        "description": "Sorumlu kullanıcıların yönettikleri maliyet merkezlerindeki harcamayı görebilmesini sağlayın; böylece bütçe kontrolü daha eyleme dönük hale gelsin."
+      },
+      {
+        "title": "Maliyet Merkezi ve Departmana Göre Harcama",
+        "description": "Bütçe görünürlüğünü maliyet merkezi ve departman odaklı harcama görünümleriyle satın alma analizlerine taşıyın; böylece harcama baskısının nerede oluştuğu daha net görülsün."
+      }
+    ],
+    "steps": [
+      {
+        "title": "Finansal yapıyı tanımla",
+        "text": "Finans ve operasyon ekipleri, gerçek sorumlulukları ve planlama sınırlarını yansıtan mali yıl ve maliyet merkezi hiyerarşilerini oluşturur."
+      },
+      {
+        "title": "Bütçe sahipliğini satın almaya bağla",
+        "text": "Talepler, maliyet merkezi bağlamını en baştan yakalar; varsayılan organizasyon atamaları sürtünmeyi azaltır ve tutarlılığı artırır."
+      },
+      {
+        "title": "Bütçe bağlamını iş akışı boyunca taşı",
+        "text": "Maliyet merkezi bilgisi, talepler satın alma ve sipariş faaliyetlerine dönüşürken bağlı kalır; finansal sahiplik akış boyunca korunur."
+      },
+      {
+        "title": "Harcama ve bütçe durumunu izle",
+        "text": "Gösterge panoları ve operasyonel görünümler, satın alma süreci devam ederken bütçe kullanımını, yönetilen maliyet merkezi harcamalarını ve bütçe aşımı baskısını gösterir."
+      }
+    ],
+    "supportBlocks": [
+      "Departman bilinçli iş akışı tasarımı",
+      "Eşik tabanlı onay mantığı",
+      "Talep bağlamında maliyet merkezi sahipliği",
+      "Onaylayanlar için daha iyi finansal netlik",
+      "Politika ile uygulama arasında daha güçlü süreklilik"
+    ],
+    "insightBlocks": [
+      "Bütçe genel bakış bileşenleri",
+      "Yönetilen maliyet merkezi harcama görünümleri",
+      "Maliyet merkezine göre harcama görünürlüğü",
+      "Departman odaklı harcama analizi",
+      "Bütçe aşımı ve kalan bütçe sinyalleri",
+      "Yönetim değerlendirmesi için bütçe sapma bağlamı"
+    ],
+    "benefits": [
+      {
+        "title": "Daha iyi finansal sahiplik",
+        "text": "Satın alma faaliyetleri, harcamanın kime ait olduğu ve hangi maliyet merkezinin bunu taşıması gerektiğiyle daha net biçimde ilişkilendirilir."
+      },
+      {
+        "title": "Daha iyi onay kalitesi",
+        "text": "Onaylayanlar talepleri, ihtiyacı tek başına görmek yerine daha güçlü bir finansal bağlamla değerlendirebilir."
+      },
+      {
+        "title": "Taahhüt öncesi daha iyi kontrol",
+        "text": "Bütçe sinyalleri, sonradan açıklama yapmak için gelmek yerine kararları etkileyecek kadar erken görünür hale gelir."
+      },
+      {
+        "title": "Daha iyi dönem yönetimi",
+        "text": "Mali yıl kontrolleri, aktif planlama dönemlerini kilitlenmiş geçmiş dönemlerden ayırmaya yardımcı olur."
+      },
+      {
+        "title": "Daha iyi harcama görünürlüğü",
+        "text": "Bütçe durumu, departmanlar, maliyet merkezleri ve yönetilen satın alma sorumlulukları genelinde daha kolay izlenebilir hale gelir."
+      }
+    ],
+    "useCases": [
+      "Operasyonel maliyet merkezlerine yıllık bütçe atamak",
+      "Toplu görünürlük için maliyet merkezi grupları yapılandırmak",
+      "Talepleri varsayılan departman maliyet merkezi sahipliğiyle önceden doldurmak",
+      "Maliyet merkezi kimliğini talep, satın alma ve sipariş akışları boyunca bağlı tutmak",
+      "Bütçe hassasiyetine sahip eşik ve sahiplikle şekillenen onay mantığını desteklemek",
+      "Yönetilen harcamayı kullanılabilir bütçeye karşı izlemek",
+      "Bütçe bütünlüğünü korumak için kapanmış mali dönemleri kilitlemek",
+      "Satın alma faaliyeti fazla sapmadan önce bütçe aşımı baskısını anlamak"
+    ],
+    "modules": [
+      "Maliyet Merkezleri",
+      "Mali Yıllar",
+      "Satın Alma Talepleri",
+      "Onaylar",
+      "Satın Alma Siparişleri",
+      "Harcama İçgörüleri"
+    ],
+    "metrics": [
+      "Maliyet merkezi bazında daha iyi harcama görünürlüğü",
+      "Onaylar ile finansal sahiplik arasında daha güçlü hizalanma",
+      "Bütçe aşımı baskısının daha erken tespiti",
+      "Yönetilen maliyet merkezlerinde daha iyi gözetim görünürlüğü",
+      "Talepten finansal kontrole daha temiz süreklilik",
+      "Daha güçlü mali dönem disiplini"
+    ],
+    "faqs": [
+      {
+        "question": "TalepNET bütçe yönetimini yalnızca finansal değil, operasyonel hale nasıl getiriyor?",
+        "answer": "TalepNET, maliyet merkezlerini, mali yılları, talep bağlamını, iş akışı sahipliğini ve harcama görünürlüğünü aynı işletim modelinde birleştirerek bütçe yapılarını satın alma uygulamasına bağlar."
+      },
+      {
+        "question": "TalepNET’te bütçe yönetiminin temelinde ne var?",
+        "answer": "Temel yapı maliyet merkezleri ve mali yıllardır. Birlikte, harcamanın kime ait olduğunu, nerede izleneceğini ve hangi planlama döneminin bütçe faaliyetini yönettiğini tanımlarlar."
+      },
+      {
+        "question": "Bütçe bağlamı satın alma iş akışına nasıl girer?",
+        "answer": "Bütçe bağlamı, talep oluşturma sırasında maliyet merkezi atamasıyla başlar; organizasyon pozisyonlarından otomatik doldurulabilir ve sonraki satın alma kayıtları boyunca bağlı kalır."
+      },
+      {
+        "question": "Bütçe yönetimi onayları ve iş akışı tasarımını etkiler mi?",
+        "answer": "Dolaylı olarak evet. TalepNET’in iş akışı modeli; bütçe hassasiyetine sahip onay mantığının merkezinde yer alan departmanlar, organizasyonel sahiplik ve tutar eşikleriyle şekillenen kuralları destekler."
+      },
+      {
+        "question": "TalepNET kurulumdan sonra bütçe görünürlüğünü nasıl destekler?",
+        "answer": "Bütçe genel görünümü, yönetilen maliyet merkezi harcaması ve maliyet merkezi odaklı harcama görünümleri gibi gösterge paneli bileşenleriyle ekiplerin, satın alma süreci aktifken bütçe kullanımını izlemesini sağlar."
+      },
+      {
+        "question": "Mali yıl kilitleri neden önemlidir?",
+        "answer": "Kapalı dönemlerde yeni harcama veya bütçe kaydı oluşmasını engelledikleri için kuruluşların daha güçlü dönem kontrolü ve daha düzenli finansal yönetim sürdürmesine yardımcı olurlar."
+      }
+    ]
+  },
+  "supplierManagement": {
+    "badge": "Tedarikçi Yönetimi",
+    "title": "Tedarikçileri satın alma işletim sisteminin bir parçası olarak yönetin",
+    "description": "TalepNET, tedarikçi yönetimini bağlantılı bir satın alma yeteneğine dönüştürür; tedarikçi kayıtlarını, kişileri, sözleşmeleri, RFQ katılımını, satın alma formlarını, satın alma siparişlerini, mal kabul faaliyetlerini ve tedarikçi odaklı içgörüleri tek bir yapılandırılmış ortamda birleştirir.",
+    "primaryCta": "Demo Talep Et",
+    "secondaryCta": "Tedarikçi iş akışlarını görün",
+    "heroPlaceholder": "Tedarikçi çalışma alanı yer tutucu",
+    "heroHighlights": [
+      "Onay ve kontrol sinyalleriyle yapılandırılmış bir tedarikçi ana veri yapısı kurun",
+      "Tedarikçileri doğrudan RFQ, teklif ve sipariş iş akışlarına bağlayın",
+      "Sözleşmeleri ve sözleşmeli kalemleri tedarik kararlarına taşıyın",
+      "Operasyonel iletişim için tedarikçi kişilerini yönetin",
+      "İş birliğini tedarikçi portalı üzerinden genişletin",
+      "Tedarikçi faaliyetlerini satın alma ve mal kabul iş akışları boyunca izleyin"
+    ],
+    "heroCards": [
+      {
+        "eyebrow": "İlişkiler",
+        "text": "Kayıtlar, kişiler, durum, katman"
+      },
+      {
+        "eyebrow": "İşbirliği",
+        "text": "RFQ'lar, teklifler, portal, siparişler"
+      },
+      {
+        "eyebrow": "Görünürlük",
+        "text": "Harcama, teslimat, katılım"
+      }
+    ],
+    "sections": {
+      "introEyebrow": "Tedarikçi yönetimi satıcı kartında bitmemeli",
+      "introText": "Çoğu sistemde tedarikçi yönetimi, şirket bilgilerini ve belki birkaç kişiyi saklamaktan ibarettir. TalepNET’te ise tedarikçiler pasif kayıtlar değildir. Tedarik, sipariş, teslimat ve satın alma görünürlüğünün aktif katılımcılarıdır. Bu da tedarikçi yönetimini yalnızca yönetim işi değil, uygulamanın bir parçası haline getirir.",
+      "coreEyebrow": "Doğrudan ve dolaylı satın almaya bağlı bir tedarikçi katmanı",
+      "corePointsPlaceholder": "Tedarikçi katmanı yer tutucu",
+      "featuresEyebrow": "TalepNET tedarikçi yönetimini uçtan uca nasıl ele alır",
+      "featuresTitle": "Tedarikçi kayıtları, statik dizin girdileri değil; aktif satın alma aktörlerine dönüşür",
+      "flowEyebrow": "Tedarikçi Yönetimi TalepNET içinde nasıl çalışır",
+      "flowTitle": "Tedarikçi kurulumundan tedarik, sipariş ve görünürlüğe",
+      "middleEyebrow": "Hem doğrudan hem dolaylı tedarikçi iş akışları için tasarlandı",
+      "middleTitle": "Farklı satın alma gerçeklikleri için tek bir tedarikçi temeli",
+      "middleText": "TalepNET’in tedarikçi modeli tek bir satın alma tarzıyla sınırlı değildir. Düzenli dolaylı satın alma yapan kuruluşların operasyonel gerçekliğini de, kalem ve teslimat açısından daha hassas doğrudan satın alma senaryolarını da destekler. Aynı tedarikçi temeli; teklif toplama, sözleşmeli tedarik, sipariş verme ve teslim alma işlemlerini her iki ortamda da destekleyebilir.",
+      "middlePlaceholder": "Doğrudan ve dolaylı satın alma yer tutucu",
+      "supportEyebrow": "İş birliğine uzanan bir tedarikçi katmanı",
+      "supportTitle": "RFQ iletişimi, teklif içe aktarma, siparişler ve portal etkileşimleri tedarikçi katmanına bağlı kalır.",
+      "supportText": "TalepNET, tedarikçileri yalnızca ana veri katmanına değil, tüm iş birliği yolculuğuna bağlar. Buna RFQ iletişimi, tedarikçi teklif katılımı, teklif içe aktarma, sipariş iletişimi ve portal bağlantılı etkileşimler de dahildir; böylece satın alma kararları ile tedarikçi yanıtı arasındaki kopukluk azalır.",
+      "insightsEyebrow": "Tedarikçi verisinin satın alma aksiyonuna dönüştüğü yer",
+      "insightsText": "Tedarikçi yönetiminin gerçek değeri, tedarikçi kayıtları canlı satın alma işini etkilediğinde ortaya çıkar. TalepNET’te tedarikçi bağlamı Satın Alma Formlarına, sözleşme eşleştirmeye, teklif yönetimine, satın alma siparişlerine ve mal kabule akar. Böylece tedarikçi kurulumu ile gerçek satın alma uygulaması arasında süreklilik oluşur.",
+      "insightsListEyebrow": "Kayıt tutmanın ötesinde tedarikçi görünürlüğü",
+      "benefitsEyebrow": "Tedarikçi yönetimi bağlantılı olduğunda ne değişir",
+      "benefitsTitle": "Tedarikçi kayıtları, iş birliği ve uygulama boyunca daha iyi süreklilik",
+      "useCasesEyebrow": "Tedarikçi Yönetiminin en çok değer yarattığı yerler",
+      "modulesEyebrow": "Her büyük satın alma aşamasına bağlı",
+      "modulesText": "TalepNET içindeki Tedarikçi Yönetimi; Sözleşmeler, Satın Alma Formları, RFQ akışları, Satın Alma Siparişleri, Mal Kabul, Katalog ve Keşfet ile Harcama İçgörüleri modüllerine doğrudan bağlanır. Bu yapı, satın alma işletim modelinin tedarikçi omurgasını oluşturur.",
+      "metricsEyebrow": "Tedarikçi tarafındaki satın alma kontrolünü geliştirmek için tasarlandı",
+      "metricsTitle": "Tedarikçi yönetimi; katılımı, görünürlüğü ve uygulama sürekliliğini iyileştirmelidir",
+      "faqEyebrow": "SSS",
+      "faqTitle": "Tedarikçi yönetimi hakkında sık sorulan sorular",
+      "finalEyebrow": "Tedarikçi yönetimini doğrudan satın alma akışının içine kurun",
+      "finalTitle": "Tedarikçi kayıtlarını, sözleşmeleri, tedariki, siparişleri ve içgörüleri; tedarikçi ilişkilerini gerçek satın alma işiyle bağlı tutan tek bir operasyonel sistemde birleştirin.",
+      "finalText": "",
+      "stepLabel": "Adım"
+    },
+    "corePoints": [
+      "Tedarikçi kayıtlarını operasyonel ana veri olarak yönetin",
+      "Tedarikçi bağlamını satın alma formlarına, RFQ'lara ve satın alma siparişlerine taşıyın",
+      "Sözleşmeleri ve geçmiş sipariş bağlamını tedarik sırasında yeniden kullanın",
+      "Hem doğrudan malzeme hem dolaylı satın alma senaryolarını destekleyin",
+      "Alıcı-tedarikçi etkileşimini süreç kaydına bağlı tutun"
+    ],
+    "features": [
+      {
+        "title": "Yapılandırılmış Tedarikçi Kaydı",
+        "description": "Tedarikçi kayıtlarını kod, durum, kademe, şirket bilgileri, vergi verileri, konum, iletişim detayları ve operasyonel kimlikle tek bir yönetilen profil altında tutun."
+      },
+      {
+        "title": "Tedarikçi Durumu ve Kademelendirme",
+        "description": "Tedarikçileri operasyonel durumlarına ve ticari konumlarına göre ayırın; buna standart ve tercih edilen tedarikçi gibi kademe bazlı segmentasyon da dahildir."
+      },
+      {
+        "title": "Tedarikçi İletişim Yönetimi",
+        "description": "RFQ ve sipariş iletişiminin doğru operasyonel alıcılara gitmesi için tedarikçi kişilerini tedarikçi kaydına bağlı tutun."
+      },
+      {
+        "title": "Tedarikçi Sözleşmeleri",
+        "description": "Tedarikçileri kalem düzeyinde şartlar, müzakere edilmiş fiyatlandırma mantığı ve yaşam döngüsü kontrolü içeren yapılandırılmış satın alma sözleşmelerine bağlayın; böylece anlaşmalar gerçek satın alma iş akışlarında kullanılabilir kalsın."
+      },
+      {
+        "title": "Sözleşme Bilinçli Tedarik",
+        "description": "Satın Alma Formu iş akışlarında sözleşmeli tedarikçileri görünür kılın; böylece alıcılar müzakere edilmiş kapsamı doğrudan tedarikçi seçimine ve teklif karşılaştırmasına taşıyabilsin."
+      },
+      {
+        "title": "RFQ E-posta İşbirliği",
+        "description": "RFQ'ları satın alma iş akışının içinden doğrudan tedarikçilere gönderin; belge desteği ve yapılandırılmış iletişim tedarik kaydına bağlı kalsın."
+      },
+      {
+        "title": "Tedarikçi Portalı RFQ Katılımı",
+        "description": "Tedarikçilerin portal destekli akışlar üzerinden RFQ erişimi almasını, çevrimiçi teklif göndermesini ve daha yapılandırılmış bir tedarik sürecine katılmasını sağlayın."
+      },
+      {
+        "title": "RFQ Takibi ve Teklif İçe Aktarma",
+        "description": "RFQ yanıt faaliyetlerini izleyin ve tedarikçi portalı tekliflerini Satın Alma Formlarına geri aktararak karşılaştırmayı netleştirin ve tedarik ilerlemesini hızlandırın."
+      },
+      {
+        "title": "Çok Tedarikçi Teklif İş Akışları",
+        "description": "Satın alma ekiplerinin ticari seçenekleri daha disiplinli karşılaştırabilmesi için birden fazla tedarikçi arasında yan yana teklif yönetimini destekleyin."
+      },
+      {
+        "title": "Satın Alma Formu Entegrasyonu",
+        "description": "Tedarikçi bağlamını doğrudan Satın Alma Formlarına taşıyın; alıcılar teklifleri karşılaştırabilsin, sözleşmeleri yeniden kullanabilsin, önceki siparişleri görebilsin ve satın almayı onay ya da uygulama için hazırlayabilsin."
+      },
+      {
+        "title": "Satın Alma Siparişi Düzenleme",
+        "description": "Seçilen tedarikçi tekliflerinden, tedarikçiye özel sipariş verme, iletişim ve takip adımlarını içeren yapılandırılmış bir satın alma siparişi iş akışına geçin."
+      },
+      {
+        "title": "Tedarikçi Portalı Sipariş İşbirliği",
+        "description": "Satın alma siparişlerini tedarikçi portalına bağlayın; böylece tedarik sonrasında da daha yapılandırılmış alıcı-tedarikçi etkileşimi devam etsin."
+      },
+      {
+        "title": "Mal Kabul ve Fulfillment Sürekliliği",
+        "description": "Tedarikçiye bağlı satın almaları verilmiş sipariş ve mal kabul akışları boyunca görünür tutun; böylece tedarikçi uygulaması operasyonel kapanışa bağlı kalsın."
+      },
+      {
+        "title": "Tedarikçi Keşfi ve Genişleme",
+        "description": "Ekiplerin tedarikçi tabanını daha düzenli değerlendirmesi ve genişletmesi için tedarikçi keşif alanlarını ve aranabilir tedarikçi deneyimlerini destekleyin."
+      },
+      {
+        "title": "Tedarikçi Odaklı İstihbarat Sinyalleri",
+        "description": "Gösterge panolarında ve keşif deneyimlerinde kullanılan yanıt ve teslimat odaklı metrikler dahil olmak üzere, tedarikçi performans bağlamını platform genelinde görünür hale getirin."
+      },
+      {
+        "title": "Tedarikçiye Göre Satın Alma Görünürlüğü",
+        "description": "Tedarikçileri harcama, sipariş, teslimat ve tedarik görünürlüğüne bağlayın; böylece ekipler yalnızca tedarikçinin kim olduğunu değil, satın alma sistemi içinde nasıl performans gösterdiğini de anlayabilsin."
+      }
+    ],
+    "steps": [
+      {
+        "title": "Tedarikçi tabanını kur",
+        "text": "Satın alma ekipleri tedarikçi kayıtlarını oluşturur, durum ve kademe tanımlar ve operasyonel iletişim için gereken kişi yapısını kurar."
+      },
+      {
+        "title": "Ticari kapsamı bağla",
+        "text": "Sözleşmeler, sözleşmeli kalemler ve tedarikçiye özel tedarik bağlamı tedarikçi katmanına bağlanır; böylece müzakere edilmiş değer satın alma sırasında kullanılabilir hale gelir."
+      },
+      {
+        "title": "Tedarikçileri tedarik ve sipariş sürecine dahil et",
+        "text": "Tedarikçiler RFQ e-postaları, portal destekli teklif gönderimi, sipariş iletişimi ve sonraki uygulama iş akışları üzerinden sürece katılır."
+      },
+      {
+        "title": "Tedarikçi etkisini satın alma boyunca izle",
+        "text": "Tedarikçi faaliyetleri; tedarik, sipariş, mal kabul ve gösterge paneli düzeyindeki satın alma görünürlüğü boyunca görünür kalır."
+      }
+    ],
+    "supportBlocks": [
+      "RFQ e-posta iş akışları",
+      "Portal üzerinden teklif gönderimi",
+      "Tedarikçiler arası teklif karşılaştırması",
+      "Açık veya güvenli tedarikçi doküman paylaşımı",
+      "Portala bağlı satın alma siparişi işbirliği"
+    ],
+    "insightBlocks": [
+      "En yüksek tedarikçi harcama görünürlüğü",
+      "Tedarikçi teslimat trendi görünümleri",
+      "Tedarikçi performans bileşenleri",
+      "Tedarikçi ile hedef karşılaştırma panoları",
+      "Sözleşmeli ve sözleşmesiz harcama bağlamı",
+      "RFQ yanıt ve katılım görünürlüğü"
+    ],
+    "benefits": [
+      {
+        "title": "Daha iyi tedarik sürekliliği",
+        "text": "Tedarikçi kayıtları, iletişim, teklifler ve seçim mantığı aynı satın alma zincirine bağlı kalır."
+      },
+      {
+        "title": "Daha iyi ticari yeniden kullanım",
+        "text": "Alıcılar, sözleşmeleri, kişileri ve önceki tedarikçi bilgisini her seferinde bağlamı yeniden kurmadan kullanabilir."
+      },
+      {
+        "title": "Daha iyi uygulama görünürlüğü",
+        "text": "Tedarikçi katılımı, tedarik sonrasında da siparişler, mal kabul ve operasyonel takip boyunca görünür kalır."
+      },
+      {
+        "title": "Tedarikçi iletişimi üzerinde daha iyi kontrol",
+        "text": "RFQ ve PO iletişimi daha yapılandırılmış, izlenebilir ve gayriresmî kanallara daha az bağımlı hale gelir."
+      },
+      {
+        "title": "Daha iyi tedarikçi içgörüsü",
+        "text": "Satın alma ekipleri, tedarikçi katkısı, yanıt verme düzeyi ve operasyonel önem hakkında daha net görünürlük kazanır."
+      }
+    ],
+    "useCases": [
+      "Onaylı, engelli, tercih edilen ve operasyonel tedarikçi kayıtlarını yönetmek",
+      "Aynı satın alma ihtiyacı için birden fazla tedarikçiyle RFQ yürütmek",
+      "Tedarik sırasında sözleşmeli tedarikçileri yeniden kullanmak",
+      "RFQ ve sipariş iletişimi için doğru tedarikçi kişisini seçmek",
+      "Tedarikçi teklifinden satın alma siparişine süreç kopukluğu olmadan geçmek",
+      "Tedarikçiye bağlı satın almaları mal kabule kadar takip etmek",
+      "Satın alma panoları ve keşif alanları üzerinden tedarikçi performansını anlamak",
+      "Tek sistem içinde hem doğrudan hem dolaylı satın alma ilişkilerini desteklemek"
+    ],
+    "modules": [
+      "Sözleşme Yönetimi",
+      "Satın Alma Formları",
+      "RFQ / Teklifler",
+      "Satın Alma Siparişleri",
+      "Mal Kabul",
+      "Katalog ve Keşfet",
+      "Harcama İçgörüleri"
+    ],
+    "metrics": [
+      "Daha güçlü tedarikçi yanıt görünürlüğü",
+      "Tedarikte daha iyi tedarikçi katılımı",
+      "Daha iyi sözleşme destekli tedarikçi kullanımı",
+      "Daha net tedarikçiye bağlı harcama görünürlüğü",
+      "Tekliften siparişe ve teslim almaya daha iyi süreklilik",
+      "Daha az parçalanmış tedarikçi iletişimi"
+    ],
+    "faqs": [
+      {
+        "question": "TalepNET tedarikçi yönetimini standart bir satıcı listesinden nasıl farklı tanımlar?",
+        "answer": "TalepNET, tedarikçileri statik profil verileriyle sınırlamaz; tedarikçi kayıtlarını sözleşmeler, RFQ'lar, teklifler, satın alma formları, siparişler, mal kabul ve satın alma görünürlüğüyle bağlayarak onları satın alma uygulamasının aktif katılımcıları haline getirir."
+      },
+      {
+        "question": "Tedarikçiler TalepNET içinde tedarik sürecine nasıl katılır?",
+        "answer": "Tedarikçiler, RFQ e-posta iş akışları, portal destekli teklif gönderimi ve tedarikçi yanıtlarını tedarik süreci kaydına bağlı tutan teklif karşılaştırma akışları üzerinden sürece dahil olabilir."
+      },
+      {
+        "question": "Tedarikçi yönetimi sözleşmeler ve satın alma formlarıyla nasıl bağlanır?",
+        "answer": "Tedarikçi kayıtları doğrudan satın alma sözleşmelerine ve sözleşme destekli tedarik girdilerine bağlanır; böylece alıcılar Satın Alma Formları içinde sözleşmeli tedarikçileri ve müzakere edilmiş şartları görünür hale getirebilir."
+      },
+      {
+        "question": "TalepNET teklif aşamasından sonra da tedarikçi etkileşimini destekler mi?",
+        "answer": "Evet. Tedarikçi katılımı, satın alma siparişi iletişimi, portal bağlantılı sipariş iş birliği ve sonraki mal kabul odaklı uygulama boyunca devam eder."
+      },
+      {
+        "question": "TalepNET hem doğrudan hem dolaylı tedarikçi ilişkilerini destekleyebilir mi?",
+        "answer": "Evet. Tedarikçi modeli, hem doğrudan hem dolaylı satın alma senaryolarındaki operasyonel karmaşıklığı destekleyecek şekilde tasarlanmıştır."
+      },
+      {
+        "question": "TalepNET ne tür tedarikçi içgörüleri sunar?",
+        "answer": "TalepNET; harcama, tedarik katılımı, teslimat odaklı görünümler, sözleşmeli kullanım ve gösterge paneli düzeyindeki tedarikçi performans sinyalleri boyunca tedarikçi odaklı görünürlük sağlar."
+      }
+    ]
+  },
+  "spendInsights": {
+    "badge": "Ürüne Genel Bakış",
+    "title": "Satın alma faaliyetlerini aksiyon alınabilir harcama görünürlüğüne dönüştürün",
+    "description": "TalepNET, kuruluşların harcamanın talepler, onaylar, satın alma işlemleri, tedarikçiler, sözleşmeler, maliyet merkezleri ve uygulama boyunca nasıl oluştuğunu anlamasına yardımcı olur. Böylece ekipler, yalnızca statik finans raporlarına değil, canlı satın alma sinyallerine göre hareket edebilir.",
+    "primaryCta": "Demo Talep Et",
+    "secondaryCta": "Harcama görünürlüğünü görün",
+    "heroPlaceholder": "Harcama görünürlüğü çalışma alanı yer tutucu",
+    "heroIntro": "Harcama görünürlüğü, onu oluşturan sürece bağlı olduğunda en değerlidir. TalepNET; talebi, onayları, tedarikçi seçimini, bütçe yapısını, sözleşmeleri ve uygulamayı bir araya getirir. Böylece ekipler yalnızca ne kadar harcandığını değil, satın alma davranışının harcamayı gerçek zamanlı olarak nasıl şekillendirdiğini de görebilir.",
+    "heroHighlights": [
+      "Talepler, onaylar ve satın alma faaliyetleri boyunca harcamanın nasıl oluştuğunu görün",
+      "Bütçe durumunu canlı satın alma davranışına bağlayın",
+      "Tedarikçi yoğunlaşmasını bağımlılığa dönüşmeden anlayın",
+      "Sözleşmeli ve sözleşmesiz harcama örüntülerini karşılaştırın",
+      "Maliyet merkezi davranışını aktif iş akışları boyunca izleyin",
+      "Satın alma verilerini kullanılabilir yönetim sinyallerine dönüştürün"
+    ],
+    "heroCards": [
+      {
+        "eyebrow": "Kapsam",
+        "text": "Bütçe, sözleşme, tedarikçi bağlamı"
+      },
+      {
+        "eyebrow": "Örüntüler",
+        "text": "Konsantrasyon, kayma, kategori baskısı"
+      },
+      {
+        "eyebrow": "Eylem",
+        "text": "Control kaybolmadan müdahale edin"
+      }
+    ],
+    "sections": {
+      "introEyebrow": "Satın almada harcama görünürlüğü nedir?",
+      "introText": "Harcama görünürlüğü, yalnızca sonradan toplamları görmek değildir. Taleplerin, onayların, tedarik seçimlerinin, sözleşmelerin, tedarikçilerin ve uygulama davranışlarının; satın alma süreci hâlâ aktifken harcamayı nasıl şekillendirdiğini anlamaktır. TalepNET, görünürlüğü statik raporlama çıktılarıyla sınırlamak yerine bu operasyonel bağlamı sunar.",
+      "problemEyebrow": "Kopuk sistemlerde harcama içgörülerine neden güvenmek zordur?",
+      "problemText": "Arkasındaki satın alma süreci parçalı olduğunda harcama raporlaması zayıflar. Ekipler nihai sayıyı görebilir; ancak bunun tekrarlanan manuel alımlardan mı, sözleşme sızıntısından mı, tedarikçi yoğunlaşmasından mı, zayıf onaylardan mı yoksa bütçe sapmasından mı kaynaklandığını anlayamayabilir. TalepNET bunu, harcama içgörüsünü doğrudan satın alma kaydına bağlayarak iyileştirir.",
+      "problemPlaceholder": "Harcama analizi yer tutucu",
+      "featuresEyebrow": "Yalnızca bir raporlama katmanı değil, bir satın alma zekâsı katmanı",
+      "featuresTitle": "Harcama içgörüsü; taleplere, tedarikçilere, sözleşmelere ve uygulamaya bağlı kaldığında daha kullanışlı hale gelir",
+      "featuresText": "TalepNET, harcama içgörülerini satın alma kontrolünün bir parçası olarak ele alır. Amaç yalnızca harcama gerçekleştikten sonra onu özetlemek değil, onu oluşturan satın alma örüntülerini görünür kılmaktır. Böylece kuruluşlar daha erken müdahale edebilir ve harcamayı daha güvenli yönetebilir.",
+      "flowEyebrow": "Harcama İçgörüleri TalepNET içinde nasıl çalışır",
+      "flowTitle": "Zayıf kontrol pahalı hale gelmeden önce harcamanın iş akışı boyunca nasıl oluştuğunu görün",
+      "budgetEyebrow": "Bütçe kontrolüne bağlı harcama içgörüleri",
+      "budgetTitle": "Bütçe durumu, canlı satın alma faaliyetiyle birlikte incelendiğinde daha anlamlı hale gelir",
+      "budgetText": "TalepNET, harcama görünürlüğünü mali yıllar, maliyet merkezleri, bütçeler ve aktif satın alma kayıtları gibi finansla uyumlu satın alma yapısına bağlar. Böylece ekipler yalnızca harcama olup olmadığını değil, bütçe davranışının satın alma ilerlerken nasıl geliştiğini de daha net anlar.",
+      "supplierEyebrow": "Harcamayı tedarikçi ve sözleşme bağlamında görün",
+      "supplierTitle": "Tedarikçi ve sözleşme bağlamı bağlı kaldığında harcama görünürlüğü daha kullanışlı olur",
+      "supplierText": "Harcama verisi, arkasında hangi tedarikçilerin, anlaşmaların ve satın alma örüntülerinin yer aldığı görülebildiğinde daha eyleme dönük hale gelir. TalepNET; tedarikçi yoğunlaşmasını, tedarikçi baskınlığını, sözleşmeli yapıları ve tedarik davranışını harcama kaydına daha yakın tutar. Böylece kuruluşlar ticari ve operasyonel riski daha erken fark eder.",
+      "benefitsEyebrow": "Daha iyi harcama içgörüsü neyi değiştirir",
+      "useCasesEyebrow": "Harcama İçgörülerinin en çok değer yarattığı yerler",
+      "metricsEyebrow": "Harcama raporlamasından fazlası",
+      "metricsTitle": "Geleneksel raporlama toplamları gösterir. TalepNET ise bunların arkasındaki satın alma davranışını açıklar.",
+      "metricsText": "Bu fark önemlidir; çünkü harcamanın kalitesi yalnızca nihai sayıya değil, arkasındaki sürece bağlıdır.",
+      "faqEyebrow": "SSS",
+      "faqTitle": "Harcama İçgörüleri hakkında sık sorulan sorular",
+      "finalEyebrow": "Harcama görünürlüğünü satın alma kontrolünün parçası haline getirin",
+      "finalTitle": "TalepNET, bütçelere, tedarikçilere, sözleşmelere, onaylara ve satın alma uygulamasına bağlı harcama içgörüleriyle kuruluşların statik raporlamanın ötesine geçmesine yardımcı olur.",
+      "finalText": "",
+      "stepLabel": "Adım"
+    },
+    "painPoints": [
+      "Finans toplamları görebilir; ancak satın alma ekipleri bu sayıların arkasındaki davranışı her zaman göremez",
+      "Harcama, tedarik bağlamının dışında kaldığında sözleşme sızıntısını görmek zorlaşır",
+      "Tedarikçi yoğunlaşması riski çok geç görünür hale gelir",
+      "Maliyet merkezi iş akışı görünürlüğü olmadan bütçe baskısını yorumlamak zorlaşır",
+      "Kategori düzeyindeki raporlama, operasyonel satın alma örüntülerini kaçırabilir",
+      "Ekipler çoğu zaman karar alındığında zaten eskimiş raporlarla çalışır"
+    ],
+    "features": [
+      {
+        "title": "Satın Alma Faaliyetine Göre Harcama Genel Görünümü",
+        "description": "Harcamayı yalnızca nihai finans toplamlarıyla değil; talep, onay, tedarik aksiyonu, satın alma formu, sipariş ve mal kabul bağlamı içinde görün."
+      },
+      {
+        "title": "En Yüksek Tedarikçi Harcama Görünürlüğü",
+        "description": "Hangi tedarikçilerin satın alma faaliyetlerine hâkim olduğunu anlayın ve yoğunlaşma örüntülerini daha erken görün."
+      },
+      {
+        "title": "En Yüksek Harcama Kategorileri",
+        "description": "Harcama hacminin hangi kategorilerde oluştuğunu izleyin; baskı alanlarını ve satın alma önceliklerini belirleyin."
+      },
+      {
+        "title": "Yönetilen Maliyet Merkezi Harcaması",
+        "description": "Harcamayı maliyet merkezi bazında, satın alma bilincine sahip bir görünümle inceleyin; sahiplik ve bütçe davranışı daha net görülsün."
+      },
+      {
+        "title": "Bütçe Tüketim Takibi",
+        "description": "Yalnızca dönem sonu raporunu beklemek yerine, aktif satın alma sürecinin kullanılabilir bütçeyi nasıl etkilediğini izleyin."
+      },
+      {
+        "title": "Mali Yapıya Bağlı Harcama",
+        "description": "Harcamayı doğru finansal bağlamda değerlendirmek için mali yılı ve bütçe yapısını satın alma faaliyetlerine bağlı tutun."
+      },
+      {
+        "title": "Sözleşmeli ve Sözleşmesiz Harcama Bağlamı",
+        "description": "Satın alma davranışının müzakere edilmiş sözleşmelerle uyumlu mu, yoksa daha az kontrollü tedarikçi uygulamalarına mı kaydığını görün."
+      },
+      {
+        "title": "Tedarikçi Konsantrasyon Sinyalleri",
+        "description": "Harcamanın dar bir tedarikçi tabanı üzerinden ne kadar aktığını görerek bağımlılık riskini erken fark edin."
+      },
+      {
+        "title": "Sipariş ve Uygulama Örüntüsüne Göre Harcama",
+        "description": "Satın alma kararlarının sipariş faaliyetlerine ve operasyonel uygulamaya nasıl dönüştüğünü izleyin; harcamayı izole bir muhasebe sonucu olarak görmeyin."
+      },
+      {
+        "title": "Onaya Bağlı Harcama Görünürlüğü",
+        "description": "Onaylanmış talebin gerçek harcamaya nasıl dönüştüğünü ve kontrol noktalarının nerede çalıştığını ya da zayıfladığını anlayın."
+      },
+      {
+        "title": "Maliyet Merkezi Odaklı Harcama Analizi",
+        "description": "Satın alma ile bağlantılı maliyet merkezi görünümleriyle harcamayı kimin yönlendirdiğini ve davranışın organizasyon genelinde nasıl farklılaştığını görün."
+      },
+      {
+        "title": "Canlı İzleme için Gösterge Paneli Bileşenleri",
+        "description": "En önemli harcama ve satın alma sinyallerini, mevcut operasyonel faaliyeti yansıtan panolar üzerinden izleyin."
+      },
+      {
+        "title": "Operasyonel ve Harcama Analitiği",
+        "description": "Basit toplamların ötesine geçin; harcama örüntülerini satın alma süreci performansıyla birlikte analiz edin."
+      },
+      {
+        "title": "Zamanlanmış Raporlama",
+        "description": "Aynı analizi her seferinde elle kurmadan, tekrarlayan harcama görünümlerini ve satın alma sinyallerini düzenli olarak dağıtın."
+      },
+      {
+        "title": "Dışa Aktarılabilir Harcama Verisi",
+        "description": "Ekiplerin analizi genişletmesi veya platform dışına taşıması gerektiğinde harcamayla ilgili görünümleri dışa aktarın."
+      },
+      {
+        "title": "Alıcı Davranışı Görünürlüğü",
+        "description": "Hangi satın alma davranışlarının kaçınılabilir parçalanma, tekrarlanan manuel iş veya tutarsız ticari disiplin yarattığını belirleyin."
+      },
+      {
+        "title": "Tedarikten Finansmana Süreklilik",
+        "description": "Harcama içgörüsünü yukarı akıştaki satın alma zincirine bağlı tutun; böylece finans ve satın alma ekipleri daha tutarlı tek bir görünümden çalışabilsin."
+      },
+      {
+        "title": "Tedarikçi Performans Bağlamı",
+        "description": "Tedarikçi tarafındaki yanıt ve teslimat görünürlüğünü harcama analizine yaklaştırın; ekipler yalnızca hacmi değil, uygulama kalitesini de değerlendirebilsin."
+      },
+      {
+        "title": "Kategori ve Sözleşme Etkileri",
+        "description": "Kategori hareketinin stratejik tedarik davranışını mı, sözleşme kullanımını mı yoksa kontrolsüz satın alma sapmasını mı yansıttığını anlayın."
+      },
+      {
+        "title": "Kontrol Odaklı Görünürlük",
+        "description": "Harcama içgörüsünü yalnızca geriye dönük raporlama için değil, müdahale ve yönetim sinyali olarak kullanın."
+      }
+    ],
+    "steps": [
+      {
+        "title": "Satın alma faaliyetleri yapılandırılmış kayıtlar üretir",
+        "text": "Talepler, onaylar, tedarik kararları, tedarikçiler, sözleşmeler, satın alma siparişleri ve mal kabul; harcama görünürlüğünün arkasındaki operasyonel veriyi oluşturur."
+      },
+      {
+        "title": "Harcama sinyalleri iş akışı içinde oluşur",
+        "text": "TalepNET, satın alma faaliyetlerini bütçelere, maliyet merkezlerine, tedarikçi örüntülerine ve sözleşme bağlamına bağlar; böylece harcama daha erken yorumlanabilir."
+      },
+      {
+        "title": "Ekipler canlı örüntüleri inceler",
+        "text": "Gösterge panoları ve harcama görünümleri, satın alma hâlâ aktifken yoğunlaşmayı, sapmayı, kategori hareketini ve bütçe baskısını görünür kılar."
+      },
+      {
+        "title": "Yönetim daha iyi bağlamla aksiyon alır",
+        "text": "Satın alma ve finans ekipleri, harcamayı oluşturan karar ve davranışlara geri bağlanan görünürlük sayesinde daha güvenli müdahale edebilir."
+      }
+    ],
+    "budgetMessages": [
+      "Satın alma hâlâ aktifken bütçe davranışını görün",
+      "Maliyet merkezi tüketimini satın alma bilincine sahip bir görünümle inceleyin",
+      "Harcamayı doğru dönem bağlamında yorumlamak için mali yapıyı kullanın",
+      "Statik raporları beklemek yerine baskıyı daha erken fark edin"
+    ],
+    "supplierMessages": [
+      "Hangi tedarikçilerin aktif satın alma sürecine hâkim olduğunu anlayın",
+      "Harcamaların sözleşmeli ilişkilerle ne kadar uyumlu olduğunu görün",
+      "Tedarikçi yoğunlaşmasını operasyonel riske dönüşmeden izleyin",
+      "Tedarik davranışını harcama yorumuna daha yakın tutun"
+    ],
+    "benefits": [
+      {
+        "title": "Daha güçlü satın alma görünürlüğü",
+        "text": "Ekipler, harcamanın yalnızca nihai toplamlarını değil; talep, onay, tedarik ve uygulama boyunca nasıl oluştuğunu da görebilir."
+      },
+      {
+        "title": "Daha iyi bütçe farkındalığı",
+        "text": "Bütçe durumu, canlı maliyet merkezi ve satın alma faaliyetlerine bağlı kaldığında daha anlamlı hale gelir."
+      },
+      {
+        "title": "Daha erken tedarikçi risk sinyalleri",
+        "text": "Tedarikçi yoğunlaşması ve sözleşme sızıntısı, düzeltilmesi zor hale gelmeden önce daha kolay fark edilir."
+      },
+      {
+        "title": "Daha net kategori hareketi",
+        "text": "Kuruluşlar harcamanın nerede oluştuğunu ve bunu hangi satın alma davranışının yönlendirdiğini anlayabilir."
+      },
+      {
+        "title": "Daha eyleme dönük raporlama",
+        "text": "Harcama görünürlüğü, sonradan incelenen bir rapor olmaktan çıkar; ekiplerin üzerinde aksiyon alabildiği bir yönetim sinyaline dönüşür."
+      }
+    ],
+    "useCases": [
+      "Satın alma süreci hâlâ sürerken bütçe baskısını izlemek",
+      "Harcamayı tedarikçi, kategori ve maliyet merkezi bazında incelemek",
+      "Bağımlılık büyümeden tedarikçi yoğunlaşmasını tespit etmek",
+      "Sözleşme destekli ve kontrolsüz satın alma davranışlarını anlamak",
+      "Satın alma ve finans ekiplerine harcama oluşumu için ortak görünüm sağlamak",
+      "Gösterge panoları ve zamanlanmış raporlarla sürekli harcama değerlendirmesi yapmak",
+      "Uygulama, onaylar ve tedarik davranışını finansal görünürlüğe bağlamak"
+    ],
+    "metrics": [
+      "Yalnızca finans toplamları değil, satın alma bağlantılı harcama bağlamı",
+      "Yalnızca geçmiş görünürlük değil, canlı operasyonel sinyaller",
+      "Yalnızca tedarikçi adları değil, yoğunlaşma ve performans bağlamı",
+      "Yalnızca bütçeler değil, satın alma iş akışları içindeki bütçe davranışı",
+      "Yalnızca kategori toplamları değil, tedarik ve sözleşme etkileri"
+    ],
+    "faqs": [
+      {
+        "question": "Harcama İçgörüleri'ni standart harcama raporundan farklı kılan nedir?",
+        "answer": "TalepNET, harcama görünürlüğünü arkasındaki satın alma sürecine bağlar; buna talepler, onaylar, tedarikçiler, sözleşmeler, bütçeler ve uygulama davranışı dahildir. Böylece ekipler sonradan yalnızca toplamları görmek yerine harcamanın nasıl oluştuğunu anlayabilir."
+      },
+      {
+        "question": "TalepNET harcama içgörüsünü bütçelere nasıl bağlar?",
+        "answer": "Harcama görünürlüğünü mali yıllara, maliyet merkezlerine, bütçelere ve canlı satın alma faaliyetlerine bağlayarak ekiplerin, satın alma süreci hâlâ aktifken bütçe davranışını incelemesini sağlar."
+      },
+      {
+        "question": "Harcama İçgörüleri tedarikçi yoğunlaşması riskini belirlemeye yardımcı olur mu?",
+        "answer": "Evet. TalepNET, en yüksek tedarikçi harcamalarını ve ilgili örüntüleri görünür kılar; böylece kuruluşlar bağımlılık ve yoğunlaşma sorunlarını daha erken fark eder."
+      },
+      {
+        "question": "Harcama İçgörüleri sözleşme bağlamını içerir mi?",
+        "answer": "Evet. TalepNET, sözleşmeli ve sözleşmesiz satın alma davranışlarını karşılaştırmayı kolaylaştırır; böylece sözleşme sızıntısı daha görünür hale gelir."
+      },
+      {
+        "question": "Harcama İçgörüleri'nden en çok kim yararlanır?",
+        "answer": "Harcama görünürlüğü iş akışına bağlı olduğunda ve daha erken kontrol kararları için kullanılabildiğinde; satın alma liderleri, finans ekipleri ve operasyon yöneticileri en yüksek faydayı görür."
+      },
+      {
+        "question": "Ekipler harcamayla ilgili raporları dışa aktarabilir veya zamanlayabilir mi?",
+        "answer": "Evet. TalepNET, gösterge paneli odaklı görünürlüğün yanı sıra daha geniş harcama değerlendirmeleri için dışa aktarma ve zamanlanmış raporlama yeteneklerini de destekler."
+      }
+    ],
+    "finalSecondaryCta": "İletişime Geçin"
+  }
+}

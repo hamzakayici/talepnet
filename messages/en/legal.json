@@ -1,0 +1,373 @@
+{
+  "notice": {
+    "hero": "Legal Notice",
+    "sections": [
+      {
+        "title": "Publisher",
+        "lines": [
+          "TalepNET",
+          "Website: https://www.talepnet.com",
+          "Contact email: contact@talepnet.com",
+          "Operations in Istanbul and Antalya, Türkiye"
+        ]
+      },
+      {
+        "title": "Company information",
+        "lines": [
+          "TalepNET operates procurement software and related digital services for organizations managing requests, approvals, sourcing, purchasing, suppliers, and spend visibility.",
+          "For company or legal inquiries, please use our Contact Us page."
+        ]
+      },
+      {
+        "title": "Hosting provider",
+        "lines": [
+          "This website is hosted on infrastructure provided by Vercel, Inc.",
+          "Headquarters: 440 N Barranca Ave #4133, Covina, CA 91723, USA",
+          "Support: support@vercel.com"
+        ]
+      },
+      {
+        "title": "Intellectual property",
+        "lines": [
+          "All content, branding, software materials, and website elements made available on this site are the property of TalepNET or its licensors unless stated otherwise.",
+          "Any unauthorized use, reproduction, or distribution is prohibited."
+        ]
+      }
+    ]
+  },
+  "terms": {
+    "title": "Terms of Service",
+    "intro": "These Terms of Service (\"Terms\") govern your access to and use of TalepNET's products, websites, and services (\"Services\"). By accessing or using our Services, you agree to be bound by these Terms. Please read carefully.",
+    "updated": "Last updated: October 25, 2025",
+    "privacyCta": "Read our Privacy Policy",
+    "contactLabel": "Contact Us",
+    "sections": [
+      {
+        "title": "1. Acceptance & Contract",
+        "body": "By creating an account, clicking \"I agree\", or otherwise using the Services, you confirm that you have read, understood, and agree to these Terms and our Privacy Policy. If you use the Services on behalf of an organization, you represent that you have authority to bind that organization. If you do not agree, do not use the Services."
+      },
+      {
+        "title": "2. Account Eligibility & Security",
+        "body": "You must be at least 18 years old or the age of majority in your jurisdiction to use the Services. You are responsible for safeguarding your account credentials and all activities under your account. Notify us immediately of any unauthorized use or security breach."
+      },
+      {
+        "title": "3. Subscriptions, Fees & Cancellations",
+        "body": "Some features require a paid subscription. Fees, billing cycles, and renewal terms are disclosed at the point of purchase. Subscriptions renew automatically unless canceled before the renewal date. Applicable taxes may be added. Cancellations and refunds are subject to our Refund Policy. You may access invoices in your account settings."
+      },
+      {
+        "title": "4. Permitted & Prohibited Use",
+        "body": "Use the Services in compliance with all applicable laws and regulations.",
+        "list": [
+          "Do not attempt to reverse engineer, access non-public areas, or disrupt Service integrity.",
+          "Do not upload malicious code, infringe on third-party rights, or misuse confidential data.",
+          "Do not use the Services for spam, fraud, or any illegal, deceptive, or abusive activities.",
+          "Do not use bots, scraping, or other automated means without express permission."
+        ]
+      },
+      {
+        "title": "5. API Usage & Fair Use",
+        "body": "If API access is provided, usage may be rate-limited or subject to quotas. You agree not to circumvent technical limitations or exceed fair-use thresholds. We may suspend keys or throttle requests that negatively impact platform stability or security."
+      },
+      {
+        "title": "6. Content & Intellectual Property",
+        "body": "You own the content you submit to the Services but grant TalepNET a worldwide, non-exclusive license to use, process, display, and distribute your content as necessary to provide the Services, in accordance with our Privacy Policy. We do not claim ownership of your data, but you are responsible for the legality and accuracy of your content. TalepNET and its licensors retain all rights in the platform, software, branding, and documentation."
+      },
+      {
+        "title": "7. Data Privacy, DPA & Security",
+        "body": "TalepNET implements industry-standard administrative, technical, and physical safeguards to protect personal data. Use of the Services is subject to our Privacy Policy. Where applicable, a separate Data Processing Agreement (DPA) governs processing of personal data as a processor under GDPR. You are responsible for maintaining the confidentiality of confidential information you may access."
+      },
+      {
+        "title": "8. Third-Party Services & Integrations",
+        "body": "The Services may integrate with third-party tools (e.g., payment providers, identity services). We are not responsible for third-party terms, privacy policies, or performance. Use of third-party services is at your own risk and discretion."
+      },
+      {
+        "title": "9. Service Levels & Support (SLA Disclaimer)",
+        "body": "While we strive for high availability, we do not guarantee 100% uptime. Any service level targets or support response times apply only if separately documented in an executed order form or SLA. We may modify, suspend, or discontinue features from time to time."
+      },
+      {
+        "title": "10. Termination & Suspension",
+        "body": "We may suspend or terminate your access if you violate these Terms or pose risk to the Service or others. You may close your account at any time; prepaid fees may be non-refundable unless required by law. Sections regarding intellectual property, limitation of liability, and indemnity survive termination."
+      },
+      {
+        "title": "11. Indemnification",
+        "body": "You agree to indemnify, defend, and hold harmless TalepNET, its affiliates, officers, and employees from any claims, damages, or expenses arising out of your misuse of the Services, your content, or your violation of these Terms or applicable law."
+      },
+      {
+        "title": "12. Disclaimer & Limitation of Liability",
+        "body": "The Services are provided \"as is\" and \"as available\" without warranties of any kind, express or implied. To the fullest extent permitted by law, TalepNET disclaims all liability and shall not be responsible for any damages of any kind, whether direct, indirect, incidental, special, consequential, exemplary or punitive, or for any loss of profits, revenues, business, goodwill or data, arising out of or in connection with the Services or these Terms, even if advised of the possibility of such damages. Nothing in these Terms excludes or limits liability that cannot be excluded or limited under applicable law."
+      },
+      {
+        "title": "13. Export Controls & Sanctions Compliance",
+        "body": "You represent that you are not located in, under the control of, or a national or resident of any country or entity subject to embargoes or sanctions. You will not use the Services in violation of export control or sanctions laws and will not permit access by prohibited persons."
+      },
+      {
+        "title": "14. Governing Law & Disputes",
+        "body": "These Terms are governed by the laws of the Republic of Türkiye. The exclusive jurisdiction and venue shall be the courts of İstanbul, Türkiye."
+      },
+      {
+        "title": "15. Changes to These Terms",
+        "body": "We may update these Terms from time to time. Material changes will be notified via the Services or email. Continued use after changes are effective means you accept the revised Terms."
+      },
+      {
+        "title": "16. Contact",
+        "body": "For questions or legal notices regarding these Terms, please visit our Contact page."
+      }
+    ]
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "intro": "This Privacy Policy explains how TalepNET collects, uses, discloses, and safeguards information in connection with our websites, products, and services (the \"Services\"). By using the Services, you acknowledge that you have read and understood this Policy.",
+    "updated": "Last updated: October 25, 2025",
+    "contactLabel": "Contact Us",
+    "sections": [
+      {
+        "title": "1. Overview",
+        "body": "TalepNET is committed to protecting your privacy. This Policy applies to personal data we process about visitors, customers, and users of the Services. Additional terms may apply for specific features (e.g., a Data Processing Agreement for enterprise customers)."
+      },
+      {
+        "title": "2. Information We Collect",
+        "list": [
+          "Account & Contact Data: name, company, email, phone, role, billing details.",
+          "Usage Data: product interactions, feature usage, settings, device information, pages viewed.",
+          "Log & Diagnostic Data: IP address, browser type, ISP, timestamps, referrer/exit pages, and request IDs for security and reliability.",
+          "Cookies & Similar Technologies: identifiers to remember preferences, maintain sessions, and measure performance.",
+          "Support Content: messages, attachments, and feedback you provide to our support channels."
+        ]
+      },
+      {
+        "title": "3. How We Use Information",
+        "list": [
+          "Provide, operate, and maintain the Services.",
+          "Authenticate users, prevent fraud, and ensure security.",
+          "Process transactions, invoicing, and account administration.",
+          "Improve performance, develop new features, and conduct analytics.",
+          "Respond to inquiries and provide customer support.",
+          "Send important notices, updates, and service-related communications.",
+          "Comply with legal obligations and enforce our Terms of Service."
+        ]
+      },
+      {
+        "title": "4. Cookies & Analytics",
+        "body": "We use cookies and similar technologies to remember preferences, maintain sessions, and measure effectiveness of our content. You can manage cookie settings in your browser for more control."
+      },
+      {
+        "title": "5. Data Sharing & Processors",
+        "body": "We may share information with trusted service providers who process data on our behalf (e.g., hosting, customer support, analytics, email delivery, payment processing). These processors are bound by contractual obligations and may only process data per our instructions. We do not sell personal data."
+      },
+      {
+        "title": "6. International Transfers",
+        "body": "Where data is transferred internationally, we implement appropriate safeguards (such as Standard Contractual Clauses) to protect your information in accordance with applicable laws."
+      },
+      {
+        "title": "7. Data Retention",
+        "body": "We retain personal data for as long as necessary to fulfill the purposes described in this Policy, comply with legal obligations, resolve disputes, and enforce agreements. After retention periods end, data is deleted or anonymized in the ordinary course."
+      },
+      {
+        "title": "8. Security",
+        "body": "We apply administrative, technical, and physical safeguards to protect information. No method of transmission or storage is 100% secure; we cannot guarantee absolute security. If we become aware of a security incident affecting personal data, we will notify affected parties as required by law."
+      },
+      {
+        "title": "9. Your Rights",
+        "body": "Subject to applicable law, you may have rights to access, correct, delete, or restrict processing of your personal data, and to object or request portability. To exercise these rights, please visit our Contact page. We may require identity verification and may be unable to comply with requests that conflict with legal obligations or legitimate interests."
+      },
+      {
+        "title": "10. Children's Privacy",
+        "body": "The Services are not directed to children under the age of 16 and we do not knowingly collect personal data from them. If you believe a child has provided personal data to us, contact us and we will take appropriate steps."
+      },
+      {
+        "title": "11. Do Not Track",
+        "body": "Our Services do not currently respond to Do Not Track signals. You can manage cookies through your browser settings."
+      },
+      {
+        "title": "12. Third-Party Links",
+        "body": "The Services may contain links to third-party websites or services. We are not responsible for their privacy practices. Review their policies for details on how they handle your information."
+      },
+      {
+        "title": "13. Changes to This Policy",
+        "body": "We may update this Policy from time to time. Material changes will be notified via the Services or email. Continued use after the effective date constitutes acceptance of the updated Policy."
+      },
+      {
+        "title": "14. Contact",
+        "body": "For questions about this Policy or our data practices, please visit our Contact page."
+      }
+    ]
+  },
+  "cookies": {
+    "title": "Cookie Policy",
+    "intro": "This Cookie Policy explains how TalepNET uses cookies and similar technologies on our websites and Services. It should be read together with our Privacy Policy.",
+    "updated": "Last updated: October 25, 2025",
+    "privacyIntro": "For more information about how we handle personal data, please review our Privacy Policy.",
+    "privacyLabel": "Privacy Policy",
+    "contactLabel": "Contact Us",
+    "sections": [
+      {
+        "title": "1. Overview",
+        "body": "Cookies are small text files placed on your device when you visit a website. We use cookies and similar technologies to make our Services work, remember your preferences, analyze performance, and personalize your experience where permitted."
+      },
+      {
+        "title": "2. Types of Cookies We Use",
+        "list": [
+          "Strictly Necessary: Required for core functionality such as page navigation, secure login, load balancing, and fraud prevention. These cannot be disabled.",
+          "Functional (Preferences): Remember your settings (e.g., language, region) and improve usability.",
+          "Analytics & Performance: Help us understand usage, debug issues, and improve services.",
+          "Marketing: Used to deliver and measure ads or social media content. We use these only where legally permitted."
+        ]
+      },
+      {
+        "title": "3. Cookies We Set",
+        "list": [
+          "Session cookies (essential): Maintain your session and login state during navigation.",
+          "Preference cookies: Save language, region, and cookie consent settings.",
+          "Analytics cookies: Collect anonymized usage data to improve site performance and usability."
+        ]
+      },
+      {
+        "title": "4. Third-Party Cookies",
+        "body": "We may allow trusted third parties to set cookies to provide analytics, embedded media, or social integrations. Examples include Analytics: Google Analytics (audience measurement, performance tracking). Social & Video: LinkedIn, YouTube (embeds, sharing, engagement metrics). These cookies are managed under the providers' own privacy and cookie policies. You can manage them via browser settings or the providers' control pages."
+      },
+      {
+        "title": "5. Managing Cookies",
+        "body": "Most browsers allow you to control cookies—block, delete, or limit them. Note that disabling certain cookies may affect core functionality. Refer to your browser's help pages for instructions. If your jurisdiction requires consent for non-essential cookies, you can update your preferences or contact us via our Contact page."
+      },
+      {
+        "title": "6. Do Not Track",
+        "body": "Our Services currently do not respond to Do Not Track signals. You can manage cookies through your browser and privacy settings."
+      },
+      {
+        "title": "7. Updates to This Policy",
+        "body": "We may revise this Cookie Policy from time to time. Material updates will be communicated via the Services or by email. Continued use after changes take effect indicates acceptance of the revised Policy."
+      },
+      {
+        "title": "8. Contact",
+        "body": "For questions regarding this Cookie Policy, please visit our Contact page."
+      }
+    ]
+  },
+  "refund": {
+    "title": "Refund Policy",
+    "updated": "Last updated: April 4, 2026",
+    "sections": [
+      {
+        "title": "Overview",
+        "body": "TalepNET aims to keep plan selection and subscription management clear. Where refunds are offered, they are handled under the conditions below."
+      },
+      {
+        "title": "14-day review window",
+        "body": "For eligible purchases, refund requests may be reviewed within 14 days of the original transaction date."
+      }
+    ],
+    "eligibility": {
+      "title": "Eligibility",
+      "description": "Refund requests may be considered where:",
+      "items": [
+        "The request is made within 14 days of the purchase date",
+        "The request relates to a valid billing concern or service issue",
+        "The purchase was made directly through TalepNET"
+      ]
+    },
+    "steps": {
+      "title": "How to request a refund",
+      "description": "Use the following process:",
+      "items": [
+        {
+          "step": "1",
+          "title": "Contact our team",
+          "description": "Submit your request through the Contact Us page."
+        },
+        {
+          "step": "2",
+          "title": "Share your billing details",
+          "description": "Include the account email, order or invoice reference, and a short explanation."
+        },
+        {
+          "step": "3",
+          "title": "Review and processing",
+          "description": "Our team will review the request and respond with the outcome."
+        }
+      ],
+      "footer": "Approved refunds are returned to the original payment method."
+    },
+    "nonRefundable": {
+      "title": "Non-refundable situations",
+      "description": "Refunds may not be available where:",
+      "items": [
+        "The request falls outside the review period",
+        "The account has materially violated the Terms of Service",
+        "The issue relates to features outside the purchased plan scope",
+        "The purchase was made through an unauthorized channel"
+      ]
+    },
+    "additional": [
+      {
+        "title": "Processing time",
+        "body": "Once approved, refunds may take several business days to appear depending on the payment provider."
+      },
+      {
+        "title": "Feedback",
+        "body": "TalepNET may ask for feedback to better understand the request and improve the product."
+      }
+    ]
+  },
+  "affiliate": {
+    "heroBadge": "Partnership terms",
+    "heroTitle": "Affiliate and referral policy",
+    "heroDescription": "This page outlines the basic terms, expectations, and operating model for affiliate or referral relationships connected to TalepNET.",
+    "footerNote": "TalepNET may approve, pause, or end affiliate or referral participation where program rules, brand guidelines, or commercial obligations are not met.",
+    "sections": [
+      {
+        "title": "How the program works",
+        "body": "Approved partners may refer organizations to TalepNET. Where a commercial arrangement exists, compensation is governed by the relevant partner or referral agreement."
+      },
+      {
+        "title": "Tracking and attribution",
+        "body": "TalepNET may use referral identifiers, campaign links, or other attribution methods to determine whether a referral is eligible under an affiliate or referral arrangement."
+      },
+      {
+        "title": "Payment arrangements",
+        "body": "Any commission, fee, or revenue-share structure is defined by the applicable agreement. TalepNET may require identity, banking, and tax information before payout."
+      },
+      {
+        "title": "Payout timing",
+        "body": "Payout schedules, thresholds, and approval conditions depend on the partner arrangement and may include validation of customer status, payment receipt, or contract activation."
+      },
+      {
+        "title": "Program restrictions",
+        "body": "Partners may not make misleading claims, misuse TalepNET branding, misrepresent pricing or product capability, or engage in deceptive acquisition practices."
+      }
+    ]
+  },
+  "security": {
+    "hero": "Security and compliance at TalepNET",
+    "eyebrow": "Security foundation",
+    "sideLabel": "Security overview",
+    "sideValue": "Operational controls",
+    "sections": [
+      {
+        "title": "Customer trust comes first",
+        "description": "TalepNET treats security, privacy, and data protection as product foundations rather than add-on claims."
+      },
+      {
+        "title": "Built for controlled operations",
+        "description": "TalepNET is designed to support structured procurement operations with clear roles, controlled workflows, and stronger visibility across activity."
+      },
+      {
+        "title": "How we strengthen security",
+        "description": "TalepNET continues to improve the platform through operational and technical controls such as:",
+        "listItems": [
+          "Role-based access and account security controls",
+          "Infrastructure, monitoring, and availability practices",
+          "Ongoing product and operational improvements to reduce risk"
+        ],
+        "additionalText": "Specific enterprise controls, support commitments, or integration requirements may depend on plan level or separate commercial agreement."
+      },
+      {
+        "title": "Transparency and communication",
+        "description": "TalepNET aims to communicate clearly about how data, access, and operational practices are handled across the platform."
+      },
+      {
+        "title": "Cloud infrastructure",
+        "description": "TalepNET uses modern cloud infrastructure and operational tooling to support reliability, secure delivery, and ongoing service performance."
+      }
+    ]
+  }
+}

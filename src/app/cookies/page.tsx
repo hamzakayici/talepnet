@@ -4,7 +4,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   ...defaultMetadata,
-  title: 'Cookie Policy | TalepNET',
+  title: 'Çerez Politikası | TalepNET',
 };
 
 const page = () => {

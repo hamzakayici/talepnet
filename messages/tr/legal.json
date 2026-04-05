@@ -1,0 +1,373 @@
+{
+  "notice": {
+    "hero": "Yasal Bildirim",
+    "sections": [
+      {
+        "title": "Yayıncı",
+        "lines": [
+          "TalepNET",
+          "Web sitesi: https://www.talepnet.com",
+          "İletişim e-postası: contact@talepnet.com",
+          "İstanbul ve Antalya, Türkiye'de operasyon"
+        ]
+      },
+      {
+        "title": "Şirket bilgileri",
+        "lines": [
+          "TalepNET, organizasyonların talep, onay, satın alma, tedarikçi ve harcama görünürlüğü süreçlerini yönetmesi için satın alma yazılımı ve ilgili dijital hizmetler sunar.",
+          "Şirket veya hukuki konular için lütfen İletişim sayfamızı kullanın."
+        ]
+      },
+      {
+        "title": "Barındırma sağlayıcısı",
+        "lines": [
+          "Bu web sitesi Vercel, Inc. tarafından sağlanan altyapıda barındırılmaktadır.",
+          "Merkez: 440 N Barranca Ave #4133, Covina, CA 91723, USA",
+          "Destek: support@vercel.com"
+        ]
+      },
+      {
+        "title": "Fikri mülkiyet",
+        "lines": [
+          "Aksi belirtilmedikçe bu sitede yer alan tüm içerik, marka unsurları, yazılım materyalleri ve web sitesi öğeleri TalepNET'e veya lisans verenlerine aittir.",
+          "İzinsiz kullanım, çoğaltma veya dağıtım yasaktır."
+        ]
+      }
+    ]
+  },
+  "terms": {
+    "title": "Hizmet Şartları",
+    "intro": "Bu Hizmet Şartları (\"Şartlar\"), TalepNET'in ürünlerine, web sitelerine ve hizmetlerine (\"Hizmetler\") erişiminizi ve kullanımınızı düzenler. Hizmetlerimize erişerek veya bunları kullanarak bu Şartlara bağlı olmayı kabul etmiş olursunuz. Lütfen dikkatlice okuyunuz.",
+    "updated": "Son güncelleme: 25 Ekim 2025",
+    "privacyCta": "Gizlilik Politikamızı okuyun",
+    "contactLabel": "İletişim",
+    "sections": [
+      {
+        "title": "1. Kabul ve Sözleşme",
+        "body": "Hesap oluşturarak, \"Kabul ediyorum\" butonuna tıklayarak veya Hizmetleri başka şekilde kullanarak, bu Şartları ve Gizlilik Politikamızı okuduğunuzu, anladığınızı ve kabul ettiğinizi beyan edersiniz. Hizmetleri bir kuruluş adına kullanıyorsanız, o kuruluşu bağlama yetkiniz olduğunu taahhüt edersiniz. Kabul etmiyorsanız Hizmetleri kullanmayınız."
+      },
+      {
+        "title": "2. Hesap Uygunluğu ve Güvenlik",
+        "body": "Hizmetleri kullanmak için en az 18 yaşında olmalı veya bulunduğunuz ülkenin reşit olma yaşını doldurmuş olmalısınız. Hesap kimlik bilgilerinizin korunmasından ve hesabınız altında gerçekleşen tüm faaliyetlerden siz sorumlusunuz. Yetkisiz kullanım veya güvenlik ihlali durumunda derhal bizi bilgilendirin."
+      },
+      {
+        "title": "3. Abonelikler, Ücretler ve İptaller",
+        "body": "Bazı özellikler ücretli abonelik gerektirir. Ücretler, faturalama döngüleri ve yenileme koşulları satın alma noktasında açıklanır. Abonelikler, yenileme tarihinden önce iptal edilmediği sürece otomatik olarak yenilenir. Uygulanabilir vergiler ayrıca eklenebilir. İptal ve iadelere İade Politikamız uygulanır. Faturalarınıza hesap ayarlarınızdan erişebilirsiniz."
+      },
+      {
+        "title": "4. İzin Verilen ve Yasak Kullanım",
+        "body": "Hizmetleri yürürlükteki tüm yasa ve düzenlemelere uygun şekilde kullanın.",
+        "list": [
+          "Tersine mühendislik yapmaya, kamuya açık olmayan alanlara erişmeye veya Hizmet bütünlüğünü bozmaya çalışmayın.",
+          "Zararlı kod yüklemeyin, üçüncü taraf haklarını ihlal etmeyin veya gizli verileri kötüye kullanmayın.",
+          "Hizmetleri spam, dolandırıcılık veya yasa dışı, aldatıcı ya da kötüye kullanım faaliyetleri için kullanmayın.",
+          "Açık izin olmaksızın botlar, kazıma (scraping) veya diğer otomasyon yöntemlerini kullanmayın."
+        ]
+      },
+      {
+        "title": "5. API Kullanımı ve Adil Kullanım",
+        "body": "API erişimi sağlanırsa, kullanım oran sınırlamalarına veya kotalara tabi olabilir. Teknik kısıtlamaları aşmamayı ve adil kullanım eşiklerini geçmemeyi kabul edersiniz. Platform kararlılığını veya güvenliğini olumsuz etkileyen anahtarlar askıya alınabilir veya istekler yavaşlatılabilir."
+      },
+      {
+        "title": "6. İçerik ve Fikri Mülkiyet",
+        "body": "Hizmetlere gönderdiğiniz içerik size aittir; ancak bu içerikleri Hizmetleri sunabilmek için Gizlilik Politikamıza uygun şekilde kullanma, işleme, görüntüleme ve dağıtma amacıyla TalepNET'e dünya çapında, münhasır olmayan bir lisans verirsiniz. Verileriniz üzerinde mülkiyet iddiasında bulunmayız; ancak içeriğinizin hukuka uygunluğu ve doğruluğundan siz sorumlusunuz. TalepNET ve lisans verenleri, platform, yazılım, marka öğeleri ve dokümantasyon üzerindeki tüm hakları saklı tutar."
+      },
+      {
+        "title": "7. Veri Gizliliği, VİS (DPA) ve Güvenlik",
+        "body": "TalepNET, kişisel verilerin korunması için sektörde kabul gören idari, teknik ve fiziksel önlemleri uygular. Hizmetlerin kullanımı Gizlilik Politikamıza tabidir. Uygulanabildiği hallerde, kişisel verilerin GDPR kapsamında veri işleyen sıfatıyla işlenmesine ilişkin ayrı bir Veri İşleme Sözleşmesi (VİS/DPA) geçerlidir. Erişebileceğiniz gizli bilgilerin gizliliğini korumakla yükümlüsünüz."
+      },
+      {
+        "title": "8. Üçüncü Taraf Hizmetler ve Entegrasyonlar",
+        "body": "Hizmetler, üçüncü taraf araçlarla (ör. ödeme sağlayıcıları, kimlik hizmetleri) entegre olabilir. Üçüncü tarafların şartları, gizlilik politikaları veya performanslarından sorumlu değiliz. Üçüncü taraf hizmetlerin kullanımı kendi riskiniz ve takdirinizdedir."
+      },
+      {
+        "title": "9. Hizmet Düzeyleri ve Destek (SLA Feragati)",
+        "body": "Yüksek erişilebilirlik için çabalasak da %100 çalışma süresi garanti edilmez. Herhangi bir hizmet düzeyi hedefi veya destek yanıt süresi yalnızca imzalanmış bir sipariş formu veya SLA'de ayrıca belirtilmişse uygulanır. Zaman zaman özellikleri değiştirebilir, askıya alabilir veya sonlandırabiliriz."
+      },
+      {
+        "title": "10. Fesih ve Askıya Alma",
+        "body": "Bu Şartların ihlali veya Hizmete ya da üçüncü kişilere risk oluşturmanız halinde erişiminizi askıya alabilir veya sonlandırabiliriz. Hesabınızı dilediğiniz zaman kapatabilirsiniz; ön ödemeli ücretler, kanunen zorunlu olmadıkça iade edilmeyebilir. Fikri mülkiyet, sorumluluk sınırlamaları ve tazmin hükümleri fesih sonrasında da yürürlükte kalır."
+      },
+      {
+        "title": "11. Tazmin",
+        "body": "Hizmetleri kötüye kullanımınızdan, içeriğinizden veya bu Şartları ya da yürürlükteki mevzuatı ihlalinizden kaynaklanan tüm iddia, zarar ve masraflara karşı TalepNET'i, iştiraklerini, yöneticilerini ve çalışanlarını tazmin etmeyi ve zarara uğratmamayı kabul edersiniz."
+      },
+      {
+        "title": "12. Sorumluluk Reddi ve Sorumluluğun Sınırlandırılması",
+        "body": "Hizmetler, her tür açık veya zımni garanti olmaksızın \"olduğu gibi\" ve \"mevcut haliyle\" sunulmaktadır. Yürürlükteki hukukun izin verdiği azami ölçüde, TalepNET her türlü sorumluluğu reddeder ve Hizmetler veya bu Şartlarla bağlantılı olarak doğrudan, dolaylı, arızi, özel, netice kabilinden, örnek teşkil eden veya cezai nitelikteki zararlar ya da kâr, gelir, iş, itibar veya veri kaybından—bu tür zararların meydana gelebileceği önceden bildirilmiş olsa dahi—sorumlu tutulamaz. Bu Şartlardaki hiçbir hüküm, yürürlükteki hukuk uyarınca sınırlandırılamayan veya hariç bırakılamayan sorumlulukları ortadan kaldırmaz."
+      },
+      {
+        "title": "13. İhracat Kontrolleri ve Yaptırım Uyum",
+        "body": "Ambargo veya yaptırıma tabi ülke ya da kuruluşların kontrolü altında bulunmadığınızı veya bunların vatandaşı/ikamet edeni olmadığınızı beyan edersiniz. Hizmetleri ihracat kontrol veya yaptırım yasalarını ihlal edecek şekilde kullanmayacak ve yasaklı kişilerin erişimine izin vermeyeceksiniz."
+      },
+      {
+        "title": "14. Uygulanacak Hukuk ve Uyuşmazlıklar",
+        "body": "Bu Şartlar, Türkiye Cumhuriyeti hukukuna tabidir. Uyuşmazlıklarda münhasır yetkili yargı mercii İstanbul mahkemeleri ve icra daireleridir."
+      },
+      {
+        "title": "15. Şartlarda Değişiklikler",
+        "body": "Bu Şartlar zaman zaman güncellenebilir. Önemli değişiklikler Hizmetler üzerinden veya e-posta yoluyla bildirilecektir. Değişiklikler yürürlüğe girdikten sonra Hizmetleri kullanmaya devam etmeniz, güncellenmiş Şartları kabul ettiğiniz anlamına gelir."
+      },
+      {
+        "title": "16. İletişim",
+        "body": "Bu Şartlara ilişkin sorularınız veya hukuki bildirimler için lütfen İletişim sayfamızı ziyaret edin."
+      }
+    ]
+  },
+  "privacy": {
+    "title": "Gizlilik Politikası",
+    "intro": "Bu Gizlilik Politikası, TalepNET'in web siteleri, ürünleri ve hizmetleri (\"Hizmetler\") kapsamında bilgileri nasıl topladığını, kullandığını, açıkladığını ve koruduğunu açıklar. Hizmetleri kullanarak bu Politikayı okuduğunuzu ve anladığınızı kabul edersiniz.",
+    "updated": "Son güncelleme: 25 Ekim 2025",
+    "contactLabel": "İletişim",
+    "sections": [
+      {
+        "title": "1. Genel Bakış",
+        "body": "TalepNET olarak gizliliğinizi korumayı taahhüt ediyoruz. Bu Politika, ziyaretçiler, müşteriler ve Hizmet kullanıcılarına ilişkin işlediğimiz kişisel veriler için geçerlidir. Bazı özellikler için ek hükümler uygulanabilir (ör. kurumsal müşteriler için Veri İşleme Sözleşmesi)."
+      },
+      {
+        "title": "2. Topladığımız Bilgiler",
+        "list": [
+          "Hesap ve İletişim Verileri: ad, şirket, e-posta, telefon, görev, fatura bilgileri.",
+          "Kullanım Verileri: ürün etkileşimleri, özellik kullanımı, ayarlar, cihaz bilgisi, görüntülenen sayfalar.",
+          "Günlük ve Teşhis Verileri: IP adresi, tarayıcı türü, ISS, zaman damgaları, yönlendiren/çıkış sayfaları, güvenlik ve güvenilirlik için istek kimlikleri.",
+          "Çerezler ve Benzeri Teknolojiler: tercihleri hatırlamak, oturumları sürdürmek ve performansı ölçmek için tanımlayıcılar.",
+          "Destek İçeriği: destek kanallarımıza ilettiğiniz mesajlar, ekler ve geri bildirimler."
+        ]
+      },
+      {
+        "title": "3. Bilgileri Nasıl Kullanıyoruz",
+        "list": [
+          "Hizmetleri sağlamak, işletmek ve sürdürmek.",
+          "Kullanıcıları doğrulamak, dolandırıcılığı önlemek ve güvenliği sağlamak.",
+          "İşlemleri, faturalamayı ve hesap yönetimini gerçekleştirmek.",
+          "Performansı iyileştirmek, yeni özellikler geliştirmek ve analiz yapmak.",
+          "Taleplere yanıt vermek ve müşteri desteği sunmak.",
+          "Önemli bildirimler, güncellemeler ve hizmete ilişkin mesajlar göndermek.",
+          "Yasal yükümlülüklere uymak ve Hizmet Şartlarımızı uygulamak."
+        ]
+      },
+      {
+        "title": "4. Çerezler ve Analitik",
+        "body": "Tercihleri hatırlamak, oturumları sürdürmek ve içerik etkinliğini ölçmek için çerezler ve benzeri teknolojiler kullanırız. Daha fazla kontrol için çerez ayarlarını tarayıcınızdan yönetebilirsiniz."
+      },
+      {
+        "title": "5. Veri Paylaşımı ve Veri İşleyenler",
+        "body": "Verileri bizim adımıza işleyen güvenilir hizmet sağlayıcılarla (ör. barındırma, müşteri desteği, analitik, e-posta teslimi, ödeme işlemleri) paylaşabiliriz. Bu sağlayıcılar sözleşmesel yükümlülüklere tabidir ve verileri yalnızca talimatlarımız doğrultusunda işler. Kişisel verileri satmayız."
+      },
+      {
+        "title": "6. Uluslararası Aktarımlar",
+        "body": "Verilerin uluslararası aktarımı gereken hallerde, geçerli yasalara uygun olarak uygun koruma önlemleri (ör. Standart Sözleşme Maddeleri) uygulanır."
+      },
+      {
+        "title": "7. Saklama Süresi",
+        "body": "Kişisel verileri, bu Politikada belirtilen amaçları yerine getirmek, yasal yükümlülüklere uymak, uyuşmazlıkları çözmek ve sözleşmeleri uygulamak için gerekli olduğu sürece saklarız. Sürelerin sonunda veriler olağan süreçte silinir veya anonimleştirilir."
+      },
+      {
+        "title": "8. Güvenlik",
+        "body": "Bilgileri korumak için idari, teknik ve fiziksel tedbirler uygularız. Ancak hiçbir iletim veya depolama yöntemi %100 güvenli değildir; mutlak güvenlik garanti edilmez. Kişisel verileri etkileyen bir güvenlik olayı tespit edilirse, yasaların gerektirdiği şekilde etkilenen taraflara bildirimde bulunuruz."
+      },
+      {
+        "title": "9. Haklarınız",
+        "body": "Yürürlükteki hukuk uyarınca kişisel verilerinize erişme, düzeltme, silme, işlemeyi kısıtlama, itiraz etme veya taşınabilirlik talep etme haklarına sahip olabilirsiniz. Bu hakları kullanmak için lütfen İletişim sayfamızı ziyaret edin. Kimlik doğrulaması talep edilebilir ve yasal yükümlülükler veya meşru menfaatlerle çelişen talepler karşılanamayabilir."
+      },
+      {
+        "title": "10. Çocukların Gizliliği",
+        "body": "Hizmetler 16 yaşın altındaki çocuklara yönelik değildir ve bilerek kişisel veri toplamıyoruz. Bir çocuğun bize kişisel veri sağladığını düşünüyorsanız bizimle iletişime geçiniz; gerekli adımlar atılacaktır."
+      },
+      {
+        "title": "11. Do Not Track",
+        "body": "Hizmetlerimiz şu anda Do Not Track sinyallerine yanıt vermemektedir. Çerezleri tarayıcı ayarlarınızdan yönetebilirsiniz."
+      },
+      {
+        "title": "12. Üçüncü Taraf Bağlantıları",
+        "body": "Hizmetler, üçüncü taraf web sitelerine veya hizmetlerine bağlantılar içerebilir. Bu tarafların gizlilik uygulamalarından sorumlu değiliz. Bilgilerinizi nasıl işlediklerini öğrenmek için kendi politikalarını inceleyiniz."
+      },
+      {
+        "title": "13. Bu Politikada Değişiklikler",
+        "body": "Bu Politika zaman zaman güncellenebilir. Önemli değişiklikler Hizmetler veya e-posta yoluyla bildirilecektir. Yürürlük tarihinden sonra kullanımı sürdürmeniz, güncellenmiş Politikayı kabul ettiğiniz anlamına gelir."
+      },
+      {
+        "title": "14. İletişim",
+        "body": "Bu Politika veya veri işleme uygulamalarımız hakkında sorularınız için lütfen İletişim sayfamızı ziyaret edin."
+      }
+    ]
+  },
+  "cookies": {
+    "title": "Çerez Politikası",
+    "intro": "Bu Çerez Politikası, TalepNET'in web sitelerinde ve Hizmetlerinde çerezleri ve benzeri teknolojileri nasıl kullandığını açıklar. Gizlilik Politikamız ile birlikte okunmalıdır.",
+    "updated": "Son güncelleme: 25 Ekim 2025",
+    "privacyIntro": "Kişisel verilerinizi nasıl işlediğimiz hakkında daha fazla bilgi için lütfen Gizlilik Politikamızı inceleyin.",
+    "privacyLabel": "Gizlilik Politikası",
+    "contactLabel": "İletişim",
+    "sections": [
+      {
+        "title": "1. Genel Bakış",
+        "body": "Çerezler, bir web sitesini ziyaret ettiğinizde cihazınıza yerleştirilen küçük metin dosyalarıdır. Hizmetlerimizin çalışmasını sağlamak, tercihlerinizi hatırlamak, performansı analiz etmek ve izin verilen durumlarda deneyiminizi kişiselleştirmek için çerezler ve benzeri teknolojiler kullanırız."
+      },
+      {
+        "title": "2. Kullandığımız Çerez Türleri",
+        "list": [
+          "Zorunlu Çerezler: Sayfa gezinmesi, güvenli oturum açma, yük dengeleme ve sahtekarlık önleme gibi temel işlevler için gereklidir. Devre dışı bırakılamazlar.",
+          "Fonksiyonel (Tercihler): Dil, bölge gibi ayarlarınızı hatırlar ve kullanım deneyimini geliştirir.",
+          "Analitik ve Performans: Kullanım biçimlerini anlamamıza, sorunları gidermemize ve hizmetleri iyileştirmemize yardımcı olur.",
+          "Pazarlama: Reklamları veya sosyal medya içeriklerini sunmak ve ölçmek için kullanılır. Bu çerezler yalnızca yasal olarak izin verilen durumlarda kullanılmaktadır."
+        ]
+      },
+      {
+        "title": "3. Kendi Koyduğumuz Çerezler",
+        "list": [
+          "Oturum çerezleri (zorunlu): Siteyi gezinirken oturumunuzu ve güvenli giriş durumunuzu korur.",
+          "Tercih çerezleri: Dil, bölge ve çerez izin ayarlarınızı kaydeder.",
+          "Analitik çerezler: Site performansını ve kullanılabilirliği geliştirmek amacıyla anonim kullanım verileri toplar."
+        ]
+      },
+      {
+        "title": "4. Üçüncü Taraf Çerezleri",
+        "body": "Analiz, gömülü medya veya sosyal medya entegrasyonları sağlamak amacıyla güvenilir üçüncü tarafların çerez yerleştirmesine izin verebiliriz. Örnekler: Analitik: Google Analytics (kitle ölçümü, performans takibi). Sosyal ve Video: LinkedIn, YouTube (gömülü içerikler, paylaşım, etkileşim ölçümü). Bu çerezler, ilgili sağlayıcıların kendi gizlilik ve çerez politikalarına tabidir. Bunları tarayıcı ayarları veya sağlayıcıların kontrol sayfaları aracılığıyla yönetebilirsiniz."
+      },
+      {
+        "title": "5. Çerezleri Yönetme",
+        "body": "Çoğu tarayıcı çerezleri kontrol etmenize (engelleme, silme veya sınırlama) olanak tanır. Bazı çerezleri devre dışı bırakmak, temel site işlevlerini etkileyebilir. Ayrıntılı talimatlar için tarayıcınızın yardım sayfalarına bakın. Zorunlu olmayan çerezler için açık onay gerektiren bir bölgede bulunuyorsanız, tercihlerinizi güncelleyebilir veya bizimle iletişime geçmek için İletişim sayfamızı ziyaret edebilirsiniz."
+      },
+      {
+        "title": "6. Takip Etme Talebi (Do Not Track)",
+        "body": "Hizmetlerimiz şu anda 'Do Not Track' sinyallerine yanıt vermemektedir. Çerezleri tarayıcı veya gizlilik ayarlarınızdan yönetebilirsiniz."
+      },
+      {
+        "title": "7. Bu Politikanın Güncellenmesi",
+        "body": "Bu Çerez Politikası zaman zaman güncellenebilir. Önemli değişiklikler Hizmetler veya e-posta yoluyla bildirilecektir. Değişikliklerden sonra Hizmetleri kullanmaya devam etmeniz, güncellenmiş politikayı kabul ettiğiniz anlamına gelir."
+      },
+      {
+        "title": "8. İletişim",
+        "body": "Bu Çerez Politikası hakkında sorularınız varsa lütfen İletişim sayfamızı ziyaret edin."
+      }
+    ]
+  },
+  "refund": {
+    "title": "İade Politikası",
+    "updated": "Son güncelleme: 4 Nisan 2026",
+    "sections": [
+      {
+        "title": "Genel bakış",
+        "body": "TalepNET, plan seçimi ve abonelik yönetimini mümkün olduğunca net tutmayı amaçlar. İade sunulan durumlarda aşağıdaki koşullar geçerlidir."
+      },
+      {
+        "title": "14 günlük değerlendirme süresi",
+        "body": "Uygun satın almalarda, orijinal işlem tarihinden itibaren 14 gün içinde iletilen iade talepleri değerlendirilebilir."
+      }
+    ],
+    "eligibility": {
+      "title": "Uygunluk",
+      "description": "İade talepleri şu durumlarda değerlendirilebilir:",
+      "items": [
+        "Talep satın alma tarihinden itibaren 14 gün içinde iletilmişse",
+        "Talep geçerli bir faturalandırma konusu veya hizmet problemiyle ilgiliyse",
+        "Satın alma doğrudan TalepNET üzerinden yapıldıysa"
+      ]
+    },
+    "steps": {
+      "title": "İade talebi nasıl yapılır",
+      "description": "Aşağıdaki adımları izleyin:",
+      "items": [
+        {
+          "step": "1",
+          "title": "Ekibimizle iletişime geçin",
+          "description": "Talebinizi İletişim sayfası üzerinden iletin."
+        },
+        {
+          "step": "2",
+          "title": "Faturalandırma bilgilerinizi paylaşın",
+          "description": "Hesap e-postası, sipariş veya fatura referansı ve kısa bir açıklama ekleyin."
+        },
+        {
+          "step": "3",
+          "title": "İnceleme ve işleme",
+          "description": "Ekibimiz talebi inceleyip sonucu sizinle paylaşacaktır."
+        }
+      ],
+      "footer": "Onaylanan iadeler orijinal ödeme yöntemine yapılır."
+    },
+    "nonRefundable": {
+      "title": "İade kapsamı dışında kalan durumlar",
+      "description": "Aşağıdaki durumlarda iade mümkün olmayabilir:",
+      "items": [
+        "Talebin değerlendirme süresinin dışında kalması",
+        "Hesabın Hizmet Şartlarını önemli ölçüde ihlal etmesi",
+        "Sorunun satın alınan plan kapsamı dışındaki özelliklerle ilgili olması",
+        "Satın almanın yetkisiz bir kanal üzerinden yapılması"
+      ]
+    },
+    "additional": [
+      {
+        "title": "İşlem süresi",
+        "body": "Onay sonrasında iade tutarının ödeme sağlayıcısına bağlı olarak birkaç iş günü içinde görünmesi beklenir."
+      },
+      {
+        "title": "Geri bildirim",
+        "body": "TalepNET, talebi daha iyi anlamak ve ürünü geliştirmek için geri bildirim isteyebilir."
+      }
+    ]
+  },
+  "affiliate": {
+    "heroBadge": "İş ortaklığı şartları",
+    "heroTitle": "Affiliate ve referral politikası",
+    "heroDescription": "Bu sayfa, TalepNET ile bağlantılı affiliate veya referral ilişkileri için temel şartları, beklentileri ve çalışma modelini özetler.",
+    "footerNote": "TalepNET, program kuralları, marka yönergeleri veya ticari yükümlülükler karşılanmadığında affiliate ya da referral katılımını onaylamayabilir, duraklatabilir veya sonlandırabilir.",
+    "sections": [
+      {
+        "title": "Program nasıl çalışır",
+        "body": "Onaylı iş ortakları TalepNET'e organizasyon yönlendirebilir. Ticari bir anlaşma bulunduğunda ödeme veya komisyon ilgili partner veya referral sözleşmesine göre belirlenir."
+      },
+      {
+        "title": "Takip ve atıf",
+        "body": "TalepNET, bir yönlendirmenin affiliate veya referral düzenlemesi kapsamında uygun olup olmadığını belirlemek için referral kimlikleri, kampanya bağlantıları veya benzer atıf yöntemleri kullanabilir."
+      },
+      {
+        "title": "Ödeme düzeni",
+        "body": "Komisyon, ücret veya gelir paylaşımı yapısı ilgili sözleşmede tanımlanır. TalepNET ödeme öncesinde kimlik, banka ve vergi bilgileri talep edebilir."
+      },
+      {
+        "title": "Ödeme zamanı",
+        "body": "Ödeme takvimi, eşikler ve onay koşulları partner düzenlemesine bağlıdır; müşteri durumu, ödeme tahsilatı veya sözleşme aktivasyonu doğrulaması içerebilir."
+      },
+      {
+        "title": "Program kısıtları",
+        "body": "İş ortakları yanıltıcı iddialarda bulunamaz, TalepNET markasını kötüye kullanamaz, fiyat veya ürün yeteneklerini yanlış yansıtamaz ya da aldatıcı edinim yöntemleri kullanamaz."
+      }
+    ]
+  },
+  "security": {
+    "hero": "TalepNET'te güvenlik ve uyumluluk",
+    "eyebrow": "Güvenlik temeli",
+    "sideLabel": "Güvenlik özeti",
+    "sideValue": "Operasyonel kontroller",
+    "sections": [
+      {
+        "title": "Müşteri güveni önce gelir",
+        "description": "TalepNET, güvenlik, gizlilik ve veri korumasını sonradan eklenen iddialar değil ürünün temeli olarak ele alır."
+      },
+      {
+        "title": "Kontrollü operasyonlar için tasarlandı",
+        "description": "TalepNET; net roller, kontrollü iş akışları ve faaliyet genelinde daha güçlü görünürlük sunan yapılandırılmış satın alma operasyonlarını destekleyecek şekilde tasarlanmıştır."
+      },
+      {
+        "title": "Güvenliği nasıl güçlendiriyoruz",
+        "description": "TalepNET platformu, aşağıdaki gibi operasyonel ve teknik kontrollerle sürekli iyileştirilir:",
+        "listItems": [
+          "Rol bazlı erişim ve hesap güvenliği kontrolleri",
+          "Altyapı, izleme ve erişilebilirlik uygulamaları",
+          "Riski azaltmaya yönelik sürekli ürün ve operasyon iyileştirmeleri"
+        ],
+        "additionalText": "Belirli kurumsal kontroller, destek taahhütleri veya entegrasyon gereksinimleri plan seviyesine ya da ayrı ticari sözleşmelere bağlı olabilir."
+      },
+      {
+        "title": "Şeffaflık ve iletişim",
+        "description": "TalepNET, veri, erişim ve operasyonel uygulamaların platform genelinde nasıl ele alındığını mümkün olduğunca açık şekilde anlatmayı hedefler."
+      },
+      {
+        "title": "Bulut altyapısı",
+        "description": "TalepNET, güvenilirlik, güvenli teslimat ve sürekli servis performansını desteklemek için modern bulut altyapısı ve operasyonel araçlar kullanır."
+      }
+    ]
+  }
+}

@@ -1,8 +1,16 @@
+'use client';
+
+import { useLocale } from '@/i18n/I18nProvider';
+import { localizeHref } from '@/i18n/pathnames';
+import { useTranslations } from '@/i18n/useTranslations';
 import Image from 'next/image';
 import RevealAnimation from '../animation/RevealAnimation';
 import LinkButton from '../ui/button/LinkButton';
 
 const Feature = () => {
+  const locale = useLocale();
+  const t = useTranslations('home');
+
   return (
     <RevealAnimation delay={0.1}>
       <section className="pt-[50px] sm:pb-8 md:pt-[100px] md:pb-14 lg:pb-24 xl:pb-0">
@@ -11,13 +19,10 @@ const Feature = () => {
             <div className="px-8 py-8 sm:py-10 md:py-16 lg:flex-1/2 lg:px-0 lg:pl-14">
               <div className="mb-9 max-w-[587px] space-y-3">
                 <RevealAnimation delay={0.1}>
-                  <h2>Tüm araçlarınızdan verileri tek yerden takip edin</h2>
+                  <h2>{t('feature.title')}</h2>
                 </RevealAnimation>
                 <RevealAnimation delay={0.2}>
-                  <p>
-                    &nbsp;İster startup ister kurumsal olun, TalepNET favori veri kaynaklarınızı birleştirerek
-                    her şeyi tek bir görsel komuta merkezinde toplar.
-                  </p>
+                  <p>{t('feature.description')}</p>
                 </RevealAnimation>
               </div>
               <div>
@@ -39,7 +44,7 @@ const Feature = () => {
                         </svg>
                       </span>
                       <span className="text-tagline-1 text-secondary/60 dark:text-accent/60 font-normal">
-                        Özelleştirilmiş iş akışları
+                        {t('feature.items.0')}
                       </span>
                     </li>
                   </RevealAnimation>
@@ -60,7 +65,7 @@ const Feature = () => {
                         </svg>
                       </span>
                       <span className="text-tagline-1 text-secondary/60 dark:text-accent/60 font-normal">
-                        Esnek entegrasyonlar
+                        {t('feature.items.1')}
                       </span>
                     </li>
                   </RevealAnimation>
@@ -81,7 +86,7 @@ const Feature = () => {
                         </svg>
                       </span>
                       <span className="text-tagline-1 text-secondary/60 dark:text-accent/60 font-normal">
-                        Her ekip için ölçeklenebilir
+                        {t('feature.items.2')}
                       </span>
                     </li>
                   </RevealAnimation>
@@ -90,9 +95,9 @@ const Feature = () => {
               <RevealAnimation delay={0.6}>
                 <div className="data-visualization-feature-button mt-11 md:mt-[70px]">
                   <LinkButton
-                    href="/purchase-forms"
+                    href={localizeHref('/purchase-forms', locale)}
                     className="text-tagline-2 btn btn-secondary btn-md dark:btn-transparent hover:btn-primary mx-auto w-[90%] font-medium md:mx-0 md:w-auto">
-                    Entegrasyonları keşfedin
+                    {t('feature.cta')}
                   </LinkButton>
                 </div>
               </RevealAnimation>

@@ -1,0 +1,120 @@
+{
+  "hero": {
+    "badge": "TalepNET Hakkında",
+    "title": "Satın alma süreçlerine daha yapılandırılmış ve güvenilir bir yaklaşım",
+    "description": "TalepNET, talepleri, onayları, tedarikçileri ve satın alma süreçlerini tek bir bağlantılı yapı içinde toplar. Kurumların kontrolü artırmasına, görünürlüğü güçlendirmesine ve parçalı süreçlerden kaynaklanan operasyonel aksaklıkları azaltmasına yardımcı olur.",
+    "primaryCta": "Demo Talep Et",
+    "secondaryCta": "Ürünü İncele"
+  },
+
+  "introCard": {
+    "eyebrow": "TalepNET’in misyonu",
+    "text": "Birçok kurumda satın alma süreçleri hâlen e-posta, excel ve dağınık iletişim kanalları üzerinden yürütülüyor. Süreçler ilerlese de çoğu zaman tutarlılık, görünürlük ve kontrol eksik kalıyor. TalepNET, satın alma süreçlerini uçtan uca daha yapılandırılmış ve güvenilir bir şekilde yönetmek için geliştirildi."
+  },
+
+  "beliefsSection": {
+    "eyebrow": "Satın alma yazılımına bakışımız",
+    "title": "Gerçek süreçleri destekleyen, netlik ve kontrol sağlayan bir sistem olması gerektiğine inanıyoruz"
+  },
+
+  "beliefs": [
+    {
+      "title": "Gerçek işleyişi yansıtmalı",
+      "text": "Satın alma; farklı ekipleri, onay adımlarını, tedarikçileri ve istisnaları içerir. Bir sistem, ekipleri ek çözümler üretmeye zorlamak yerine bu yapıyı doğal şekilde desteklemelidir."
+    },
+    {
+      "title": "Hız ve kontrol birlikte sağlanmalı",
+      "text": "Süreçler hızlı ilerlerken aynı zamanda izlenebilir ve denetlenebilir olmalıdır. Satın alma, finans ve operasyon ekipleri aynı akış içinde, ek koordinasyon yükü oluşmadan çalışabilmelidir."
+    },
+    {
+      "title": "Kullanımı pratik olmalı",
+      "text": "Bir sistemin benimsenmesi, kullanım kolaylığına bağlıdır. Talep oluşturanlardan onaylayanlara, satın alma ve finans ekiplerine kadar herkes için anlaşılır ve uygulanabilir olmalıdır."
+    }
+  ],
+
+  "focusSection": {
+    "eyebrow": "Ne inşa ediyoruz?",
+    "title": "Satın alma sürecinin temel aşamalarını birleştiren tek bir sistem",
+    "description": "TalepNET, satın almanın ana aşamalarını tek bir operasyonel akışta birleştirir ve süreç boyunca kopukluk oluşmasını engeller."
+  },
+
+  "focusAreas": [
+    "Talep ve onay süreçleri",
+    "Onay sonrası satın alma koordinasyonu",
+    "Tedarikçi yönetimi ve teklif süreçleri",
+    "Sipariş oluşturma ve uygulama",
+    "Teslimat ve finansal görünürlük"
+  ],
+
+  "audienceSection": {
+    "eyebrow": "Kimler için geliştiriyoruz?",
+    "title": "Esnekliğini kaybetmeden sistemi korumayı amaçlayan kurumlar",
+    "description": "TalepNET, dağınık satın alma alışkanlıklarının ötesine geçmiş ancak ekipler, departmanlar ve operasyonlar arasında esnekliği korumak isteyen kurumlar için tasarlanmıştır."
+  },
+
+  "audiences": [
+    "Tedarikçi ve teklif süreçlerinde daha fazla kontrol isteyen satın alma ekipleri",
+    "Harcamaları ve bütçeleri daha net görmek isteyen finans ekipleri",
+    "Satın alma süreçlerinin aksamasını istemeyen operasyon ekipleri",
+    "Büyürken satın alma süreçlerini yapılandırmak isteyen kurumlar"
+  ],
+
+  "productThinking": {
+    "eyebrow": "Ürün yaklaşımımız",
+    "title": "Kontrolü artır, kullanımı sade tut, gerçek iş akışlarını destekle",
+    "description": "TalepNET, sadece formları dijitalleştiren bir araç değil, operasyonel bir satın alma sistemidir. Sürecin her adımı birbiriyle bağlantılı kalır ve ekipler tüm akışı daha net şekilde yönetebilir."
+  },
+
+  "today": {
+    "eyebrow": "Bugün geldiğimiz nokta",
+    "description1": "TalepNET, satın alma süreçlerini daha bağlantılı, görünür ve yönetilebilir hale getirme hedefiyle gelişmeye devam ediyor. Ürün, yapı, görünürlük ve operasyonel güvenilirlik üzerine kurulu bir temel ile ilerliyor.",
+    "description2": "Yaklaşımımız, tüm problemleri aynı anda çözmeye çalışmak yerine, gerçek iş akışı problemlerini adım adım ve kalıcı şekilde ele almaktır."
+  },
+
+  "locations": {
+    "eyebrow": "Ofislerimiz",
+    "title": "TalepNET’in faaliyet gösterdiği lokasyonlar",
+    "description": "TalepNET, pratik satın alma çözümleri geliştirmeye odaklanan operasyonel ve teknik altyapı ile faaliyet göstermektedir.",
+    "items": [
+      {
+        "city": "İstanbul",
+        "place": "Bilgiyi Ticarileştirme Merkezi",
+        "address": "Fulya, Yeşilçimen Sok. Polat Tower Residence No:12/430, 34394 Şişli/İstanbul",
+        "cta": "İstanbul ofisini görüntüle"
+      },
+      {
+        "city": "Antalya",
+        "place": "Antalya Teknokent",
+        "address": "Pınarbaşı Mah. Hürriyet Cad. Akdeniz Üniversitesi Antalya Teknokent Ar-Ge 2 Ulugbey Binası No:3A/31, Konyaaltı/Antalya",
+        "cta": "Antalya ofisini görüntüle"
+      }
+    ]
+  },
+
+  "expectationsSection": {
+    "eyebrow": "Bizden ne bekleyebilirsiniz?",
+    "title": "Tutarlı ve uygulanabilir bir ürün yaklaşımı"
+  },
+
+  "expectations": [
+    {
+      "title": "Netlik",
+      "text": "Satın alma süreçlerini tüm paydaşlar için daha anlaşılır ve yönetilebilir hale getirmeye odaklanırız."
+    },
+    {
+      "title": "Uygulanabilirlik",
+      "text": "Günlük operasyonlarda somut fayda sağlayan iyileştirmelere öncelik veririz."
+    },
+    {
+      "title": "Süreklilik",
+      "text": "Talep, onay, tedarikçi, sipariş, teslimat ve finansal verilerin süreç boyunca bağlantılı kalmasını sağlarız."
+    }
+  ],
+
+  "finalCta": {
+    "eyebrow": "Satın alma süreçlerinde daha yapılandırılmış bir yaklaşım",
+    "title": "Eğer kurumunuzda satın alma süreçleri hâlâ dağınık ilerliyorsa, TalepNET bu süreci daha kontrollü ve görünür hale getirmek için güçlü bir temel sunar.",
+    "primaryCta": "Demo Talep Et",
+    "secondaryCta": "İletişime Geç"
+  }
+}

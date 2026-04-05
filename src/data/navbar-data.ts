@@ -4,29 +4,24 @@ import { FooterOneData } from '@/interface';
 export const mobileMenuData: MobileMenuGroup[] = [
   {
     id: 'company',
-    title: 'Company',
+    title: 'Şirket',
     submenu: [
-      { id: 'about-us', label: 'About', href: './about' },
-      { id: 'industries', label: 'Industries', href: './industries' },
-      { id: 'partnerships', label: 'Partnerships', href: './partnerships' },
-      { id: 'contact-us', label: 'Contact Us', href: './contact-us' },
-      { id: 'career', label: 'Careers', href: './career' },
+      { id: 'about-us', label: 'Hakkımızda', href: './about' },
+      { id: 'industries', label: 'Sektörler', href: './industries' },
+      { id: 'partnerships', label: 'İş Ortaklıkları', href: './partnerships' },
+      { id: 'contact-us', label: 'Bize Ulaşın', href: './contact-us' },
+      { id: 'career', label: 'Kariyer', href: './career' },
     ],
   },
 
   {
     id: 'platform',
-    title: 'Platform',
+    title: 'Yapı',
     submenu: [
-      { id: 'procurement', label: 'Procurement', href: './purchase-forms' },
+      { id: 'procurement', label: 'Satın Alma', href: './purchase-forms' },
       { id: 'integrations', label: 'Entegrasyonlar', href: './integration' },
       { id: 'process', label: 'Süreç', href: './approvals' },
-      { id: 'analytics', label: 'Analizler', href: './analytics' },
       { id: 'security', label: 'Güvenlik', href: './security' },
-      { id: 'whitepaper', label: 'Teknik Doküman', href: './whitepaper' },
-      { id: 'build-overview', label: 'Genel Bakış', href: './signup' },
-      { id: 'brandkit', label: 'Marka Kiti', href: './brandkit' },
-      { id: 'download', label: 'İndirin', href: './download' },
     ],
   },
 
@@ -37,17 +32,16 @@ export const mobileMenuData: MobileMenuGroup[] = [
       { id: 'blog', label: 'Blog', href: './blog' },
       { id: 'tutorial', label: 'Eğitimler', href: './tutorial' },
       { id: 'faq', label: 'SSS', href: './faq' },
-      { id: 'glossary', label: 'Sözlük', href: './glossary' },
     ],
   },
 
   {
     id: 'access',
-    title: 'Access',
+    title: 'Erişim',
     submenu: [
-      { id: 'login', label: 'Log In', href: 'https://app.talepnet.com/sign-in' },
-      { id: 'create-account', label: 'Sign Up', href: 'https://app.talepnet.com/sign-up' },
-      { id: 'supplier-portal', label: 'Join as Supplier', href: 'https://portal.talepnet.com/sign-up' },
+      { id: 'login', label: 'Giriş Yap', href: 'https://app.talepnet.com/sign-in' },
+      { id: 'create-account', label: 'Kayıt Ol', href: 'https://app.talepnet.com/sign-up' },
+      { id: 'supplier-portal', label: 'Tedarikçi Olarak Katılın', href: 'https://portal.talepnet.com/sign-up' },
     ],
   },
 ];

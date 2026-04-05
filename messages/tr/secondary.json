@@ -1,0 +1,34 @@
+{
+  "partnerships": {
+    "badge": "İş Ortaklıkları",
+    "title": "Ekiplerin satın alma süreçlerini modernize etmesine yardımcı olmak için TalepNET ile iş ortaklığı kurun",
+    "description": "Doğru partner modeli için ticari değer üretirken müşterilerin daha güçlü satın alma iş akışlarını benimsemesine yardımcı olabilecek seçici ortaklıklara açığız.",
+    "fit": "Danışmanlar, implementasyon partnerleri ve satın alma odaklı ekosistem iş birlikleri için daha uygun bir yapı.",
+    "areas": [
+      {
+        "title": "Referral ortaklıkları",
+        "text": "Satın alma iş akışı ihtiyacı olan ekipleri TalepNET ile tanıştırmak ve nitelikli talep etrafında yeni gelir fırsatları yaratmak isteyen danışmanlar, operatörler ve danışmanlık ekipleri için."
+      },
+      {
+        "title": "Implementasyon desteği",
+        "text": "Kurulum, yapılandırma, onboarding ve değişim yönetimi desteğiyle hizmet kapsamını genişletmek isteyen partnerler için."
+      },
+      {
+        "title": "Ekosistem iş birliği",
+        "text": "Modern satın alma operasyonları etrafında tamamlayıcı entegrasyon, co-sell veya kanal fırsatları değerlendiren organizasyonlar için."
+      }
+    ],
+    "ctaTitle": "İş ortaklığıyla ilgileniyor musunuz?",
+    "ctaText": "Referral, implementasyon veya daha geniş kapsamlı iş birlikleri için bir uyum görüyorsanız bize ulaşın, doğru modeli birlikte değerlendirelim.",
+    "ctaLabel": "İş Ortaklığını Konuşalım"
+  },
+  "testimonial": {
+    "badge": "Referanslar",
+    "title": "Müşteri geri bildirimleri ve ürün güven sinyalleri",
+    "description": "Ekiplerin TalepNET deneyimini nasıl anlattığını, günlük kullanımdan daha net satın alma kontrolüne kadar tek yerde görün."
+  },
+  "changelog": {
+    "title": "Değişiklik Günlüğü",
+    "description": "Ürün güncellemelerini, düzeltmeleri ve sürüm notlarını tek yerde takip ederek TalepNET'te nelerin değiştiğini görün."
+  }
+}

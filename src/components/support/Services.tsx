@@ -1,44 +1,52 @@
+'use client';
+
+import { useLocale } from '@/i18n/I18nProvider';
+import { localizeHref } from '@/i18n/pathnames';
+import { useTranslations } from '@/i18n/useTranslations';
 import RevealAnimation from '../animation/RevealAnimation';
 import LinkButton from '../ui/button/LinkButton';
 
-const resources = [
-  {
-    title: 'FAQ',
-    text: 'Find answers about product scope, pricing, security, and supplier portal workflows.',
-    href: '/faq',
-    cta: 'Go to FAQ',
-  },
-  {
-    title: 'Tutorials',
-    text: 'Explore guided tutorials for key workflows and day-to-day usage.',
-    href: '/tutorial',
-    cta: 'Open Tutorials',
-  },
-  {
-    title: 'Blog',
-    text: 'Read product updates, procurement insights, and practical best practices.',
-    href: '/blog',
-    cta: 'Read the Blog',
-  },
-  {
-    title: 'Contact Us',
-    text: 'Reach the team directly when you need help, guidance, or a follow-up conversation.',
-    href: '/contact-us',
-    cta: 'Open Contact',
-  },
-];
-
 const Services = () => {
+  const locale = useLocale();
+  const t = useTranslations('support');
+
+  const resources = [
+    {
+      title: t('resources.faqTitle'),
+      text: t('resources.faqText'),
+      href: localizeHref('/faq', locale),
+      cta: t('resources.faqCta'),
+    },
+    {
+      title: t('resources.tutorialsTitle'),
+      text: t('resources.tutorialsText'),
+      href: localizeHref('/tutorial', locale),
+      cta: t('resources.tutorialsCta'),
+    },
+    {
+      title: t('resources.blogTitle'),
+      text: t('resources.blogText'),
+      href: localizeHref('/blog', locale),
+      cta: t('resources.blogCta'),
+    },
+    {
+      title: t('resources.contactTitle'),
+      text: t('resources.contactText'),
+      href: localizeHref('/contact-us', locale),
+      cta: t('resources.contactCta'),
+    },
+  ];
+
   return (
     <section className="py-12 md:py-16 xl:py-20">
       <div className="main-container">
         <div className="mb-14 max-w-3xl">
           <RevealAnimation delay={0.12}>
-            <span className="text-tagline-1 text-primary-500">Resources</span>
+            <span className="text-tagline-1 text-primary-500">{t('resources.badge')}</span>
           </RevealAnimation>
           <RevealAnimation delay={0.18}>
             <h2 className="mt-4 text-3xl font-normal leading-tight text-secondary dark:text-accent sm:text-4xl">
-              Start from the resource that fits what you need
+              {t('resources.title')}
             </h2>
           </RevealAnimation>
         </div>

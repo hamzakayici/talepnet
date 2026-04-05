@@ -18,10 +18,18 @@ const locations = [
   },
 ];
 
+type LocationItem = {
+  city: string;
+  place: string;
+  address: string;
+  cta?: string;
+};
+
 type LocationsSectionProps = {
   eyebrow?: string;
   title: string;
   description: string;
+  locations?: LocationItem[];
   className?: string;
 };
 
@@ -29,6 +37,7 @@ const LocationsSection = ({
   eyebrow = 'Our Locations',
   title,
   description,
+  locations: sectionLocations = locations,
   className = 'bg-white dark:bg-background-6',
 }: LocationsSectionProps) => {
   return (
@@ -44,7 +53,7 @@ const LocationsSection = ({
               {description}
             </p>
             <div className="mt-8 space-y-5">
-              {locations.map((location, index) => (
+              {sectionLocations.map((location, index) => (
                 <RevealAnimation key={location.city} delay={0.18 + index * 0.05}>
                   <div>
                     <p className="text-xl font-normal text-secondary dark:text-accent">
@@ -56,14 +65,16 @@ const LocationsSection = ({
                     <p className="mt-1 text-sm leading-6 text-secondary/56 dark:text-accent/55">
                       {location.address}
                     </p>
-                    <a
-                      href={location.href}
-                      target="_blank"
-                      rel="noreferrer"
-                      className="mt-3 inline-block text-sm font-normal text-primary-600 transition-colors hover:text-primary-500 dark:text-primary-300 dark:hover:text-primary-200"
-                    >
-                      {location.cta}
-                    </a>
+                    {location.cta ? (
+                      <a
+                        href={locations[index]?.href ?? '#'}
+                        target="_blank"
+                        rel="noreferrer"
+                        className="mt-3 inline-block text-sm font-normal text-primary-600 transition-colors hover:text-primary-500 dark:text-primary-300 dark:hover:text-primary-200"
+                      >
+                        {location.cta}
+                      </a>
+                    ) : null}
                   </div>
                 </RevealAnimation>
               ))}

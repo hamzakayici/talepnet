@@ -1,9 +1,22 @@
 import { IPosition } from '@/interface';
+import { localizeHref } from '@/i18n/pathnames';
 import gradient45 from '@public/images/ns-img-533.png';
 import Image from 'next/image';
 import Link from 'next/link';
 import RevealAnimation from '../animation/RevealAnimation';
-const JobOverview = ({ data }: { data: Partial<IPosition> }) => {
+type Labels = {
+  jobOverview: string;
+  datePosted: string;
+  expirationDate: string;
+  location: string;
+  offeredSalary: string;
+  experience: string;
+  qualification: string;
+  jobSkills: string;
+  applyNow: string;
+};
+
+const JobOverview = ({ data, labels, locale }: { data: Partial<IPosition>; labels: Labels; locale: 'en' | 'tr' }) => {
   return (
     <RevealAnimation delay={0.4}>
       <div className="bg-background-1 dark:bg-background-5 relative col-span-12 overflow-hidden rounded-[20px] p-11 md:col-span-6">
@@ -15,34 +28,34 @@ const JobOverview = ({ data }: { data: Partial<IPosition> }) => {
         </RevealAnimation>
         <div className="space-y-8">
           <div>
-            <h5 className="mb-8">Job Overview</h5>
+            <h5 className="mb-8">{labels.jobOverview}</h5>
             <div className="border-stroke-4 dark:border-stroke-7 border-b py-4">
-              <p className="text-secondary dark:text-accent text-xl leading-[150%]">Date Posted</p>
+              <p className="text-secondary dark:text-accent text-xl leading-[150%]">{labels.datePosted}</p>
               <p className="text-lg leading-[150%]">{data?.datePosted}</p>
             </div>
             <div className="border-stroke-4 dark:border-stroke-7 border-b py-4">
-              <p className="text-secondary dark:text-accent text-xl leading-[150%]">Expiration date</p>
+              <p className="text-secondary dark:text-accent text-xl leading-[150%]">{labels.expirationDate}</p>
               <p className="text-lg leading-[150%]">{data?.expirationDate}</p>
             </div>
             <div className="border-stroke-4 dark:border-stroke-7 border-b py-4">
-              <p className="text-secondary dark:text-accent text-xl leading-[150%]">Location</p>
+              <p className="text-secondary dark:text-accent text-xl leading-[150%]">{labels.location}</p>
               <p className="text-lg leading-[150%]">{data?.location}</p>
             </div>
             <div className="border-stroke-4 dark:border-stroke-7 border-b py-4">
-              <p className="text-secondary dark:text-accent text-xl leading-[150%]">Offered Salary</p>
+              <p className="text-secondary dark:text-accent text-xl leading-[150%]">{labels.offeredSalary}</p>
               <p className="text-lg leading-[150%]">{data?.offeredSalary}</p>
             </div>
             <div className="border-stroke-4 dark:border-stroke-7 border-b py-4">
-              <p className="text-secondary dark:text-accent text-xl leading-[150%]">Experience</p>
+              <p className="text-secondary dark:text-accent text-xl leading-[150%]">{labels.experience}</p>
               <p className="text-lg leading-[150%]">{data?.experience}</p>
             </div>
             <div className="border-stroke-4 dark:border-stroke-7 border-b py-4">
-              <p className="text-secondary dark:text-accent text-xl leading-[150%]">Qualification</p>
+              <p className="text-secondary dark:text-accent text-xl leading-[150%]">{labels.qualification}</p>
               <p className="text-lg leading-[150%]">{data?.qualification}</p>
             </div>
           </div>
           <div>
-            <h5 className="mb-8">Job Skills</h5>
+            <h5 className="mb-8">{labels.jobSkills}</h5>
             <div className="flex flex-wrap items-center gap-3">
               {data?.jobSkills?.map((skill) => (
                 <span
@@ -55,9 +68,9 @@ const JobOverview = ({ data }: { data: Partial<IPosition> }) => {
           </div>
           <div className="w-full">
             <Link
-              href="/contact-us"
+              href={localizeHref('/contact-us', locale)}
               className="hover:btn-secondary dark:hover:btn-accent btn btn-primary btn-md w-full first-letter:uppercase before:content-none">
-              Apply Now
+              {labels.applyNow}
             </Link>
           </div>
         </div>

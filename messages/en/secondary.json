@@ -1,0 +1,34 @@
+{
+  "partnerships": {
+    "badge": "Partnerships",
+    "title": "Partner with TalepNET to help teams modernize procurement",
+    "description": "We are open to selective partnerships that can help customers adopt stronger procurement workflows while creating commercial value for the right partner model.",
+    "fit": "Best fit for consultants, implementation partners, and procurement-focused ecosystem collaborations.",
+    "areas": [
+      {
+        "title": "Referral partnerships",
+        "text": "For consultants, operators, and advisors who want to introduce TalepNET to teams with procurement workflow needs and create new revenue opportunities around qualified demand."
+      },
+      {
+        "title": "Implementation support",
+        "text": "For partners who can expand their service offering through rollout, configuration, onboarding, and change management support."
+      },
+      {
+        "title": "Ecosystem collaboration",
+        "text": "For organizations exploring complementary integration, co-sell, or channel opportunities around modern procurement operations."
+      }
+    ],
+    "ctaTitle": "Interested in partnering?",
+    "ctaText": "If you see a fit around referrals, implementation, or broader collaboration, reach out and we can discuss the right model.",
+    "ctaLabel": "Talk About Partnership"
+  },
+  "testimonial": {
+    "badge": "Testimonials",
+    "title": "Customer feedback and product trust signals",
+    "description": "See how teams describe their experience with TalepNET, from day-to-day usability to clearer procurement control."
+  },
+  "changelog": {
+    "title": "Changelog",
+    "description": "Track product updates, fixes, and release notes in one place so teams can stay aligned with what changed in TalepNET."
+  }
+}

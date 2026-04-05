@@ -1,0 +1,25 @@
+{
+  "metadata": {
+    "title": "Industries | TalepNET",
+    "description": "Explore TalepNET industry solutions for automotive, construction, education, healthcare, hospitality, nonprofit, and technology procurement workflows."
+  },
+  "hub": {
+    "badge": "Industries",
+    "title": "Procurement workflows adapted to how each industry actually operates",
+    "description": "TalepNET helps organizations connect requests, approvals, sourcing, suppliers, orders, receiving, budgets, and spend visibility in one workflow model shaped for operational reality.",
+    "primaryCta": "Request a Demo",
+    "secondaryCta": "Explore Industries",
+    "sectionEyebrow": "Industry solutions",
+    "sectionTitle": "A cleaner structure for sector-specific procurement pages",
+    "viewIndustry": "View Industry",
+    "items": [
+      { "title": "Automotive", "href": "/industries/automotive", "text": "Connected procurement control for plants, branches, warehouses, and service operations." },
+      { "title": "Construction", "href": "/industries/construction", "text": "Structured purchasing across projects, sites, suppliers, and budget-sensitive execution." },
+      { "title": "Education", "href": "/industries/education", "text": "Procurement workflows for schools, colleges, and multi-campus institutions." },
+      { "title": "Healthcare", "href": "/industries/healthcare", "text": "Procurement structure for hospitals, clinics, labs, and care-focused operations." },
+      { "title": "Hospitality", "href": "/industries/hospitality", "text": "Multi-property procurement control for hotels, restaurants, resorts, and support teams." },
+      { "title": "Non-Profit", "href": "/industries/non-profit", "text": "Mission-aligned purchasing with stronger accountability, budgets, and spend visibility." },
+      { "title": "Technology", "href": "/industries/technology", "text": "Collaborative spend control for fast-growing technology teams and operating units." }
+    ]
+  }
+}

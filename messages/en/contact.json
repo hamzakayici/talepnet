@@ -1,0 +1,28 @@
+{
+  "metadata": {
+    "title": "Contact Us | TalepNET",
+    "description": "Get in touch with TalepNET for demo requests, product questions, partnerships, or general business inquiries."
+  },
+  "hero": {
+    "title": "Get in touch with our team.",
+    "description": "Use this form for demo requests, product questions, partnership conversations, or general inquiries."
+  },
+  "form": {
+    "fullName": "Full name",
+    "fullNamePlaceholder": "Enter your full name",
+    "phoneNumber": "Phone number",
+    "phoneNumberPlaceholder": "Enter your phone number",
+    "emailAddress": "Email address",
+    "emailAddressPlaceholder": "Enter your email address",
+    "subject": "Subject",
+    "subjectPlaceholder": "Enter the subject",
+    "message": "Message",
+    "messagePlaceholder": "Write the details of your request or question",
+    "submit": "Send Message"
+  },
+  "locations": {
+    "eyebrow": "Our Locations",
+    "title": "Where TalepNET operates",
+    "description": "Get in touch with our team for any questions or business inquiries."
+  }
+}

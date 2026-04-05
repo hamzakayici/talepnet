@@ -29,17 +29,17 @@ const page = () => {
               </RevealAnimation>
               <RevealAnimation delay={0.4}>
                 <h2 className="pt-6 pb-3">
-                  Opps! <br />
-                  Lost in the page?
+                  Oops! <br />
+                  Aradığınız sayfa bulunamadı.
                 </h2>
               </RevealAnimation>
               <RevealAnimation delay={0.5}>
-                <p className="mb-10 md:mb-14">Don’t worry, we’ll help you find your way</p>
+                <p className="mb-10 md:mb-14">Endişelenmeyin, sizi doğru sayfaya yönlendirelim.</p>
               </RevealAnimation>
               <RevealAnimation delay={0.6} instant>
                 <div>
                   <LinkButton href="/" className="btn btn-lg btn-primary hover:btn-secondary dark:hover:btn-accent">
-                    Go to Home
+                    Ana Sayfaya Dön
                   </LinkButton>
                 </div>
               </RevealAnimation>

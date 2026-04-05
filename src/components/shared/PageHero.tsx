@@ -7,9 +7,11 @@ interface PageHeroProps {
   title?: string;
   heading?: string;
   link?: string;
+  homeLabel?: string;
+  homeHref?: string;
 }
 
-const PageHero = ({ className, title, heading, link }: PageHeroProps) => {
+const PageHero = ({ className, title, heading, link, homeLabel = 'Home', homeHref = '/' }: PageHeroProps) => {
   return (
     <section className={cn('xl:pt-[180px] md:pt-42 sm:pt-36 pt-32 ', className)} aria-label="Page hero section">
       <div className="main-container">
@@ -18,9 +20,9 @@ const PageHero = ({ className, title, heading, link }: PageHeroProps) => {
           <RevealAnimation delay={0.1}>
             <span className="hero-badge text-tagline-1 inline-block text-secondary dark:text-accent">
               <Link
-                href="/"
+                href={homeHref}
                 className="hover:text-primary-600 dark:hover:text-primary-400 transition-colors duration-300">
-                Home
+                {homeLabel}
               </Link>
               <span className="mx-2">-</span>
               <Link

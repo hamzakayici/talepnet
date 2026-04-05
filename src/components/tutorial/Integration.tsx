@@ -1,3 +1,8 @@
+'use client';
+
+import { useLocale } from '@/i18n/I18nProvider';
+import { localizeHref } from '@/i18n/pathnames';
+import { useTranslations } from '@/i18n/useTranslations';
 import confluence from '@public/images/icons/confluence.svg';
 import edge from '@public/images/icons/edge.svg';
 import figma from '@public/images/icons/figma.svg';
@@ -18,6 +23,9 @@ import Link from 'next/link';
 import RevealAnimation from '../animation/RevealAnimation';
 
 const Integration = () => {
+  const locale = useLocale();
+  const t = useTranslations('home');
+
   return (
     <section className="dark:bg-background-6 relative z-10 mx-auto my-14 w-[95%] overflow-hidden rounded-4xl bg-white px-10 py-[70px] md:my-20 md:min-h-[740px] md:px-[75px] lg:my-[100px] xl:my-[200px] 2xl:max-w-[1440px]">
       {/* bottom gradient */}
@@ -30,24 +38,21 @@ const Integration = () => {
       {/* content  */}
       <div className="relative z-10 mx-auto w-fit space-y-[25px] text-center">
         <RevealAnimation delay={0.2}>
-          <span className="badge badge-cyan mb-5">Entegrasyon</span>
+          <span className="badge badge-cyan mb-5">{t('integration.badge')}</span>
         </RevealAnimation>
 
         <RevealAnimation delay={0.3}>
-          <h2 className="mb-3">Şablonlar & araçlar</h2>
+          <h2 className="mb-3">{t('integration.title')}</h2>
         </RevealAnimation>
         <RevealAnimation delay={0.4}>
-          <p className="mx-auto mb-14 max-w-[490px] px-5 md:px-0">
-            Çeşitli projeler için kullanıma hazır şablonlar ile kurulumu basitleştirin. ERP, muhasebe
-            ve lojistik sistemlerinizle sorunsuz entegrasyon sağlayın.
-          </p>
+          <p className="mx-auto mb-14 max-w-[490px] px-5 md:px-0">{t('integration.description')}</p>
         </RevealAnimation>
         <RevealAnimation delay={0.5}>
           <div>
             <Link
-              href="/pricing"
+              href={localizeHref('/pricing', locale)}
               className="btn btn-secondary btn-md dark:btn-accent hover:btn-primary mx-auto inline-block w-[90%] md:mx-0 md:w-auto">
-              <span>Uygulamada görün</span>
+              <span>{t('integration.cta')}</span>
             </Link>
           </div>
         </RevealAnimation>

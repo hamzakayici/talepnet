@@ -2,37 +2,37 @@ import { FooterData } from '@/interface';
 
 export const footerLinks: FooterData[] = [
   {
-    title: 'Company',
+    title: 'Şirket',
     links: [
-      { label: 'About', href: '/about' },
-      { label: 'Partnerships', href: '/partnerships' },
-      { label: 'Careers', href: '/career' },
-      { label: 'Contact Us', href: '/contact-us' },
+      { label: 'Hakkımızda', href: '/about' },
+      { label: 'İş Ortaklıkları', href: '/partnerships' },
+      { label: 'Kariyer', href: '/career' },
+      { label: 'Bize Ulaşın', href: '/contact-us' },
     ],
   },
   {
-    title: 'Explore',
+    title: 'Keşfet',
     links: [
-      { label: 'Solutions', href: '/solutions' },
-      { label: 'Industries', href: '/industries' },
-      { label: 'Product Features', href: '/product-features' },
-      { label: 'Pricing', href: '/pricing' },
+      { label: 'Çözümler', href: '/solutions' },
+      { label: 'Sektörler', href: '/industries' },
+      { label: 'Ürün Özellikleri', href: '/product-features' },
+      { label: 'Fiyatlandırma', href: '/pricing' },
     ],
   },
   {
-    title: 'Resources',
+    title: 'Kaynaklar',
     links: [
       { label: 'Blog', href: '/blog' },
-      { label: 'FAQ', href: '/faq' },
-      { label: 'Tutorials', href: '/tutorial' },
+      { label: 'SSS', href: '/faq' },
+      { label: 'Eğitimler', href: '/tutorial' },
     ],
   },
   {
-    title: 'Legal',
+    title: 'Yasal',
     links: [
-      { label: 'Terms of Service', href: '/terms' },
-      { label: 'Privacy Policy', href: '/privacy' },
-      { label: 'Cookie Policy', href: '/cookies' },
+      { label: 'Hizmet Şartları', href: '/terms' },
+      { label: 'Gizlilik Politikası', href: '/privacy' },
+      { label: 'Çerez Politikası', href: '/cookies' },
     ],
   },
 ];

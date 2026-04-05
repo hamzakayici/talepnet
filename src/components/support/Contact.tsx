@@ -1,7 +1,15 @@
+'use client';
+
+import { useLocale } from '@/i18n/I18nProvider';
+import { localizeHref } from '@/i18n/pathnames';
+import { useTranslations } from '@/i18n/useTranslations';
 import RevealAnimation from '../animation/RevealAnimation';
 import LinkButton from '../ui/button/LinkButton';
 
 const Contact = () => {
+  const locale = useLocale();
+  const t = useTranslations('support');
+
   return (
     <section className="bg-background-12 py-20 dark:bg-background-5 md:py-24 xl:py-28">
       <div className="main-container">
@@ -10,15 +18,15 @@ const Contact = () => {
             <div className="grid gap-8 lg:grid-cols-[1fr_auto] lg:items-end">
               <div className="max-w-3xl">
                 <p className="text-3xl font-normal leading-tight text-white lg:text-5xl">
-                  Need help with something more specific?
+                  {t('cta.title')}
                 </p>
                 <p className="mt-5 max-w-2xl text-base leading-7 text-white/70">
-                  If you need direct help from our team, use the contact page and send us the details of your request.
+                  {t('cta.description')}
                 </p>
               </div>
               <div className="flex flex-wrap gap-3 lg:justify-end">
-                <LinkButton href="/contact-us" className="btn btn-primary btn-md">
-                  Contact Us
+                <LinkButton href={localizeHref('/contact-us', locale)} className="btn btn-primary btn-md">
+                  {t('cta.button')}
                 </LinkButton>
               </div>
             </div>

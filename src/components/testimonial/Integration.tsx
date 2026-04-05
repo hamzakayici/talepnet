@@ -1,3 +1,6 @@
+'use client';
+
+import { useI18n } from '@/i18n/I18nProvider';
 import { cn } from '@/utils/cn';
 import confluence from '@public/images/icons/confluence.svg';
 import edge from '@public/images/icons/edge.svg';
@@ -52,6 +55,9 @@ const marqueeTwoLogos: LogoItem[] = [
 ];
 
 const Integration = () => {
+  const { locale } = useI18n();
+  const isTr = locale === 'tr';
+
   return (
     <section
       className="bg-background-2 dark:bg-background-6 py-[50px] md:py-[70px] lg:py-[85px] xl:py-[100px]"
@@ -61,17 +67,20 @@ const Integration = () => {
           {/* integration heading  */}
           <div className="mx-auto w-full max-w-[1028px] text-center">
             <RevealAnimation delay={0.2}>
-              <span className="badge badge-green mb-5">Entegrasyonlar</span>
+              <span className="badge badge-green mb-5">{isTr ? 'Entegrasyonlar' : 'Integrations'}</span>
             </RevealAnimation>
             <RevealAnimation delay={0.3}>
               <h2 className="text-heading-3 lg:text-heading-2 mb-3">
-                50'den fazla entegrasyonla üretkenliğinizi zahmetsizce artırın.
+                {isTr
+                  ? "50'den fazla entegrasyonla üretkenliğinizi zahmetsizce artırın."
+                  : 'Increase productivity with more than 50 integrations.'}
               </h2>
             </RevealAnimation>
             <RevealAnimation delay={0.4}>
               <p className="text-secondary/60 dark:text-accent/60 mx-auto w-full max-w-[582px]">
-                Mevcut iş araçlarınız ile sorunsuz entegrasyon sağlayarak satın alma süreçlerinizi
-                tek bir platformda birleştirin.
+                {isTr
+                  ? 'Mevcut iş araçlarınız ile sorunsuz entegrasyon sağlayarak satın alma süreçlerinizi tek bir platformda birleştirin.'
+                  : 'Connect the tools you already use and bring procurement activity together in one platform.'}
               </p>
             </RevealAnimation>
           </div>

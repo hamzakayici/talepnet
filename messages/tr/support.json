@@ -1,0 +1,28 @@
+{
+  "hero": {
+    "badge": "Yardım Merkezi",
+    "title": "TalepNET'ten daha fazla değer almak için destek kaynakları",
+    "description": "Ürün rehberliği, eğitimler, blog içerikleri ve sık sorulan sorular için bu sayfayı başlangıç noktası olarak kullanın."
+  },
+  "resources": {
+    "badge": "Kaynaklar",
+    "title": "İhtiyacınıza en uygun kaynaktan başlayın",
+    "faqTitle": "SSS",
+    "faqText": "Ürün kapsamı, fiyatlandırma, güvenlik ve tedarikçi portalı akışları hakkında yanıtları bulun.",
+    "faqCta": "SSS'ye Git",
+    "tutorialsTitle": "Eğitimler",
+    "tutorialsText": "Temel iş akışları ve günlük kullanım için rehberli eğitimleri keşfedin.",
+    "tutorialsCta": "Eğitimleri Aç",
+    "blogTitle": "Blog",
+    "blogText": "Ürün güncellemelerini, satın alma içgörülerini ve pratik en iyi uygulamaları okuyun.",
+    "blogCta": "Blogu Oku",
+    "contactTitle": "Bize Ulaşın",
+    "contactText": "Yardım, yönlendirme veya takip gerektiren bir konu olduğunda ekibe doğrudan ulaşın.",
+    "contactCta": "İletişimi Aç"
+  },
+  "cta": {
+    "title": "Daha spesifik bir konuda yardıma mı ihtiyacınız var?",
+    "description": "Ekibimizden doğrudan destek almak için iletişim sayfasını kullanın ve talebinizin detaylarını paylaşın.",
+    "button": "Bize Ulaşın"
+  }
+}

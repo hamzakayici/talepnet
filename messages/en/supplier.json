@@ -1,0 +1,1102 @@
+{
+  "supplierPortal": {
+    "badge": "For Suppliers",
+    "title": "One supplier portal for RFQs, orders, agreements, and catalogs",
+    "description": "TalepNET Supplier Portal gives suppliers a structured workspace to respond to RFQs, manage orders, maintain agreements, create catalogs, and collaborate with buyers through one connected procurement experience.",
+    "primaryCta": "Request a Demo",
+    "secondaryCta": "See the Supplier Flow",
+    "heroCards": [
+      {
+        "eyebrow": "Respond",
+        "text": "RFQs and quotes in one queue"
+      },
+      {
+        "eyebrow": "Track",
+        "text": "Orders and agreements with more clarity"
+      },
+      {
+        "eyebrow": "Maintain",
+        "text": "Catalogs, profile, and brand presence"
+      }
+    ],
+    "heroHighlights": [
+      "Respond to RFQs through one supplier-facing workspace",
+      "Keep quotations, agreements, and orders in the same flow",
+      "Maintain catalogs and company profile information more easily",
+      "Reduce fragmented communication across sourcing and execution"
+    ],
+    "supportCopy": "Supplier relationships work better when RFQs, quotations, agreements, orders, catalog content, and communication do not live across disconnected channels. TalepNET Supplier Portal brings them together in one supplier-facing environment that keeps commercial interaction clearer, faster, and easier to manage.",
+    "sections": {
+      "introEyebrow": "Supplier portals, in practical terms",
+      "introText": "A supplier portal is a digital workspace where suppliers can interact with buyers through structured procurement workflows instead of fragmented email threads and manual follow-up. TalepNET Supplier Portal helps suppliers receive RFQs, submit quotes, track orders, manage agreements, maintain catalog content, and keep company information up to date in one connected platform.",
+      "problemEyebrow": "Why supplier collaboration often breaks down",
+      "problemText": "In many organizations, supplier interaction is still split across separate documents, inboxes, calls, and spreadsheets. That slows response time and weakens visibility for both buyers and suppliers.",
+      "workspaceEyebrow": "Supplier workspace",
+      "workspaceTitle": "A structured supplier workspace, not just a portal login",
+      "workspaceText": "TalepNET Supplier Portal is designed as a supplier operating layer inside procurement. It brings together RFQs, quotations, orders, agreements, catalogs, company profile management, and collaboration signals in one environment.",
+      "flowEyebrow": "Portal workflow",
+      "flowTitle": "How the supplier portal works in TalepNET",
+      "sourcingEyebrow": "Sourcing and execution",
+      "sourcingTitle": "One portal across sourcing, agreements, and order execution",
+      "sourcingText": "TalepNET Supplier Portal is designed to support more than one transaction point. Suppliers can respond to sourcing events, stay aligned on agreements, and continue into order tracking without switching between disconnected processes.",
+      "catalogEyebrow": "Supplier catalogs",
+      "catalogTitle": "Keep supplier offerings current and easier to discover",
+      "catalogText": "TalepNET extends the supplier experience into catalog creation and maintenance. Suppliers can shape how their offerings are presented, keep item information current, and contribute to a more scalable buyer discovery experience.",
+      "outcomesEyebrow": "Outcomes",
+      "outcomesTitle": "What changes when suppliers work in one connected portal",
+      "useCasesEyebrow": "Where it fits",
+      "useCasesTitle": "Where the TalepNET Supplier Portal delivers the most value",
+      "faqEyebrow": "FAQ",
+      "faqTitle": "Common questions about the supplier portal",
+      "finalTitle": "Give suppliers one place to respond, manage, and collaborate",
+      "finalText": "TalepNET Supplier Portal helps suppliers stay closer to RFQs, agreements, catalogs, and orders while giving buyers a cleaner and more connected collaboration model.",
+      "joinPortal": "Join Portal"
+    },
+    "painPoints": [
+      "RFQs arrive through fragmented channels",
+      "Quote and agreement history are hard to track",
+      "Order response actions are inconsistent",
+      "Catalog updates depend on manual follow-up",
+      "Buyer and supplier teams work from different records",
+      "Supplier profile and commercial information become outdated over time"
+    ],
+    "features": [
+      {
+        "title": "Supplier Workspace Dashboard",
+        "description": "Start from a supplier-facing workspace with visibility into RFQ activity, order volume, commercial trends, and profile strength."
+      },
+      {
+        "title": "New RFQ Inbox",
+        "description": "View incoming RFQs in a dedicated queue with clear deadlines and item-level detail."
+      },
+      {
+        "title": "Online Quote Submission",
+        "description": "Submit structured quotations with line-level pricing, notes, validity dates, and delivery commitments directly through the portal."
+      },
+      {
+        "title": "Submitted Quote History",
+        "description": "Review previously submitted quotations and keep commercial responses easier to track over time."
+      },
+      {
+        "title": "Active and Completed Orders",
+        "description": "Track active and completed purchase orders in separate views so execution status stays clear."
+      },
+      {
+        "title": "Order Actions",
+        "description": "Acknowledge, decline, or mark orders as fulfilled directly in the portal."
+      },
+      {
+        "title": "Agreement Visibility",
+        "description": "Access supplier agreements in one place, review commercial coverage, and stay aligned with active buying relationships."
+      },
+      {
+        "title": "Agreement Management",
+        "description": "Manage agreement-related records and keep negotiated terms easier to follow across active buyer relationships."
+      },
+      {
+        "title": "Supplier Catalog Creation",
+        "description": "Create and maintain supplier catalog content so buyers can discover offered items through a more structured digital experience."
+      },
+      {
+        "title": "Catalog Content Management",
+        "description": "Keep catalog items, descriptions, and commercial presentation up to date instead of relying on manual file exchange."
+      },
+      {
+        "title": "Company Profile Management",
+        "description": "Maintain supplier company data such as organization details, website, location, categories, and contact information."
+      },
+      {
+        "title": "Branding and Visual Identity",
+        "description": "Upload and manage supplier logo and cover image to strengthen company presentation inside the buyer ecosystem."
+      },
+      {
+        "title": "Profile Strength Guidance",
+        "description": "Improve supplier discoverability with profile completeness scoring that highlights missing information."
+      },
+      {
+        "title": "Collaboration Workspace",
+        "description": "Keep buyer-supplier interaction more organized by connecting RFQs, orders, agreements, catalogs, and profile data in one environment."
+      }
+    ],
+    "steps": [
+      {
+        "title": "Receive and respond",
+        "text": "Suppliers access RFQs and submit structured quotes through a dedicated portal workspace."
+      },
+      {
+        "title": "Stay aligned on commercial terms",
+        "text": "Agreements remain visible inside the same environment so supplier relationships are easier to manage operationally."
+      },
+      {
+        "title": "Track and act on orders",
+        "text": "Suppliers review active orders, respond to order events, and keep execution status visible."
+      },
+      {
+        "title": "Maintain digital presence",
+        "text": "Catalog content, company profile, and branding stay current inside the same supplier-facing system."
+      }
+    ],
+    "keyMessages": [
+      "RFQs and quotes stay structured",
+      "Agreements remain visible and actionable",
+      "Orders continue the same supplier journey",
+      "Buyer-supplier interaction stays connected",
+      "Commercial context is easier to preserve over time"
+    ],
+    "benefits": [
+      {
+        "title": "Faster responses to active RFQs",
+        "text": "RFQs are easier to review and answer when the workflow is structured and always accessible."
+      },
+      {
+        "title": "Stronger continuity across commercial activity",
+        "text": "Quotes, agreements, and orders remain part of the same supplier journey instead of becoming isolated records."
+      },
+      {
+        "title": "More reliable catalog content",
+        "text": "Supplier-managed catalog content helps keep offered items more current and easier to discover."
+      },
+      {
+        "title": "A clearer working model with buyers",
+        "text": "Both sides work from a shared digital environment across sourcing, agreements, and execution."
+      },
+      {
+        "title": "A stronger supplier presence",
+        "text": "Profile strength, branding, and structured commercial activity help suppliers present themselves more effectively."
+      }
+    ],
+    "useCases": [
+      "Responding to RFQs through a structured portal workflow",
+      "Tracking active and completed purchase orders",
+      "Managing agreement visibility with buyers",
+      "Maintaining supplier catalog content for easier item discovery",
+      "Keeping company profile and branding current",
+      "Reducing fragmented communication across sourcing and execution",
+      "Supporting longer-term buyer-supplier collaboration in one system"
+    ],
+    "faqs": [
+      {
+        "question": "What is the TalepNET Supplier Portal?",
+        "answer": "TalepNET Supplier Portal is a supplier-facing workspace where vendors can manage RFQs, quotations, orders, agreements, catalogs, and profile information in one connected environment."
+      },
+      {
+        "question": "Can suppliers submit quotations directly through the portal?",
+        "answer": "Yes. Suppliers can submit structured quotes with pricing, validity, delivery context, and notes directly through the portal."
+      },
+      {
+        "question": "Does the portal support order tracking and response actions?",
+        "answer": "Yes. Suppliers can review active and completed orders and respond with acknowledgement, decline, or fulfillment actions."
+      },
+      {
+        "question": "Can suppliers manage agreements in the portal?",
+        "answer": "Yes. TalepNET Supplier Portal gives suppliers visibility into agreement-related records and helps keep commercial relationships easier to manage."
+      },
+      {
+        "question": "Can suppliers create and maintain catalogs?",
+        "answer": "Yes. Suppliers can manage catalog content so buyers can access more current item information through a structured digital channel."
+      },
+      {
+        "question": "How does TalepNET improve supplier collaboration?",
+        "answer": "TalepNET connects RFQs, agreements, catalogs, orders, and profile management in one supplier-facing system, reducing fragmented communication and making collaboration more operational."
+      }
+    ]
+  },
+  "respondToRfqs": {
+    "badge": "For Suppliers",
+    "title": "Respond to RFQs without chasing emails, attachments, or missing context",
+    "description": "TalepNET gives suppliers a cleaner way to review quotation requests, understand what the buyer needs, submit structured pricing online, and keep every response visible inside the same portal workflow.",
+    "primaryCta": "Request a Demo",
+    "secondaryCta": "See the RFQ Flow",
+    "heroHighlights": [
+      "Review RFQs in one dedicated supplier workspace",
+      "See item details, notes, deadlines, and delivery context together",
+      "Submit structured pricing online instead of rebuilding email replies",
+      "Keep submitted quotes visible for later reference"
+    ],
+    "sections": {
+      "workspaceEyebrow": "RFQ workspace",
+      "workspaceTitle": "A better RFQ experience for suppliers and buyers",
+      "workspaceText": "Responding to RFQs should not feel like reconstructing the request from scattered documents and email threads. TalepNET gives suppliers a dedicated portal space where new RFQs, item details, deadlines, delivery context, and submitted quotes all stay connected.",
+      "problemEyebrow": "Why this matters",
+      "problemTitle": "When quotation workflows stay fragmented, everyone loses time",
+      "problemText": "Suppliers are often expected to respond quickly, but the information they need is not always delivered in a usable way. TalepNET turns RFQ response into a structured digital workflow rather than a loosely managed exchange.",
+      "capabilityEyebrow": "RFQ response",
+      "capabilityTitle": "Built for the way suppliers actually respond",
+      "capabilityText": "TalepNET’s RFQ experience is designed around practical supplier work. Suppliers can open incoming RFQs, review buyer information, inspect line items, enter pricing at item level, define delivery timing, set quote validity, add commercial notes, and submit everything through the portal in one structured response.",
+      "flowEyebrow": "RFQ flow",
+      "flowTitle": "From incoming request to submitted quote",
+      "supplierEyebrow": "Supplier experience",
+      "supplierTitle": "Less back-and-forth, more usable commercial detail",
+      "supplierText": "TalepNET reduces the manual work suppliers often face when responding to quotation requests. Instead of interpreting files, rewriting pricing into email replies, or managing separate records for each buyer, suppliers can respond through a more controlled digital process.",
+      "buyerEyebrow": "Buyer-side impact",
+      "buyerTitle": "Cleaner quotes on the buyer side too",
+      "buyerText": "A strong supplier RFQ experience improves procurement outcomes for buyers as well. When suppliers respond through a structured workflow, quotations are easier to compare, easier to import into purchasing decisions, and easier to trace later.",
+      "outcomesEyebrow": "Outcomes",
+      "outcomesTitle": "What improves with a better RFQ flow",
+      "useCasesEyebrow": "Where it fits",
+      "useCasesTitle": "Where this RFQ experience creates the most value",
+      "faqEyebrow": "FAQ",
+      "faqTitle": "Common questions about RFQ responses",
+      "finalTitle": "Make supplier quotations easier to submit and easier to evaluate",
+      "finalText": "TalepNET helps suppliers respond faster and helps buyers receive cleaner, more comparable RFQ responses through one connected portal workflow.",
+      "joinPortal": "Join Portal"
+    },
+    "painPoints": [
+      "RFQs arrive through disconnected communication channels",
+      "Item details are harder to review than they should be",
+      "Quote responses are rebuilt manually each time",
+      "Delivery expectations and deadlines are easy to miss",
+      "Suppliers cannot easily track what has already been submitted",
+      "Buyers receive inconsistent quotation formats from different vendors"
+    ],
+    "features": [
+      {
+        "title": "New RFQ Workspace",
+        "description": "Suppliers can access a dedicated list of incoming RFQs instead of relying on inbox search and manual document handling."
+      },
+      {
+        "title": "Clear Buyer Context",
+        "description": "Each RFQ can include buyer company, buyer contact, reference number, creation date, and deadline in one view."
+      },
+      {
+        "title": "Delivery and Note Visibility",
+        "description": "Delivery location and buyer notes remain visible alongside the RFQ so suppliers can price with better context."
+      },
+      {
+        "title": "Line-Level Quote Entry",
+        "description": "Suppliers can enter unit prices per item directly in the portal, making responses more structured and easier to compare."
+      },
+      {
+        "title": "Multi-Currency Quotation Support",
+        "description": "Quotes can be submitted with the selected currency so the commercial response reflects the right pricing basis."
+      },
+      {
+        "title": "Quote Validity Dates",
+        "description": "Suppliers can define how long the quoted pricing remains valid instead of leaving that condition outside the response."
+      },
+      {
+        "title": "Delivery Lead Time Input",
+        "description": "Delivery timing can be included as part of the quotation, helping buyers assess both price and operational fit."
+      },
+      {
+        "title": "Notes to Buyer",
+        "description": "Suppliers can attach commercial or operational notes directly to the quote instead of sending separate clarifications outside the record."
+      },
+      {
+        "title": "Submitted Quote History",
+        "description": "Previously quoted RFQs remain visible in a separate view so suppliers can track what was already sent."
+      },
+      {
+        "title": "Structured Digital Submission",
+        "description": "Quotes are submitted through the portal in a cleaner format, reducing ambiguity for both supplier and buyer teams."
+      }
+    ],
+    "steps": [
+      {
+        "title": "Receive the RFQ",
+        "text": "Suppliers access incoming quotation requests through the portal with reference, buyer, deadline, and item overview already attached."
+      },
+      {
+        "title": "Review the request in context",
+        "text": "Buyers’ notes, delivery location, and item descriptions help suppliers understand what they are pricing before they respond."
+      },
+      {
+        "title": "Build the quote",
+        "text": "Suppliers enter unit prices, choose currency, define delivery lead time, set quote validity, and add notes where needed."
+      },
+      {
+        "title": "Submit and keep it visible",
+        "text": "The quote is submitted through the same portal workflow and remains available in quoted RFQ history for later reference."
+      }
+    ],
+    "benefits": [
+      {
+        "title": "Faster supplier response cycles",
+        "text": "Suppliers spend less time decoding requests and more time preparing usable offers."
+      },
+      {
+        "title": "More consistent quote submissions",
+        "text": "Buyers receive structured pricing responses instead of mismatched formats from different vendors."
+      },
+      {
+        "title": "Clearer commercial detail",
+        "text": "Delivery timing, quote validity, and notes stay attached to the quotation itself."
+      },
+      {
+        "title": "Cleaner traceability",
+        "text": "Submitted quotes remain visible in the portal instead of disappearing into email history."
+      },
+      {
+        "title": "Less manual follow-up",
+        "text": "Both buyers and suppliers work from the same RFQ context, reducing avoidable clarification loops."
+      }
+    ],
+    "useCases": [
+      "Suppliers responding to recurring quotation requests from procurement teams",
+      "Vendors pricing multi-line RFQs that need item-level clarity",
+      "Organizations that want online quote submission instead of attachment-based replies",
+      "Procurement teams trying to improve quote comparability across suppliers",
+      "Supplier relationships where delivery timing and quote validity matter alongside price",
+      "Businesses that want a cleaner record of quoted RFQs over time"
+    ],
+    "faqs": [
+      {
+        "question": "How do suppliers receive RFQs in TalepNET?",
+        "answer": "Suppliers access incoming RFQs through the portal in a dedicated new-RFQ workspace, with buyer details, deadline, and request context visible in one place."
+      },
+      {
+        "question": "Can suppliers submit prices line by line?",
+        "answer": "Yes. TalepNET allows suppliers to enter unit prices at item level so the quote is more structured and easier for buyers to evaluate."
+      },
+      {
+        "question": "Can delivery timing and validity period be included in the quote?",
+        "answer": "Yes. Suppliers can define delivery lead time and quote validity as part of the RFQ response."
+      },
+      {
+        "question": "Are submitted quotes visible afterward?",
+        "answer": "Yes. Quoted RFQs remain available in a separate history view so suppliers can review what has already been submitted."
+      },
+      {
+        "question": "Why is this better than email-based RFQ handling?",
+        "answer": "TalepNET keeps the RFQ, item details, quote data, and submission history inside one workflow, reducing ambiguity and manual follow-up for both sides."
+      }
+    ]
+  },
+  "trackOrders": {
+    "badge": "For Suppliers",
+    "title": "Track orders with clearer status, faster response, and less follow-up",
+    "description": "TalepNET helps suppliers stay on top of purchase orders through a portal experience that keeps active and completed orders visible, makes order actions easier to manage, and gives both buyers and suppliers a cleaner view of execution.",
+    "primaryCta": "Request a Demo",
+    "secondaryCta": "See the Order Flow",
+    "heroHighlights": [
+      "Keep active and completed orders visible in one workspace",
+      "Review delivery context, notes, dates, and totals in the same record",
+      "Acknowledge, decline, or mark orders fulfilled through explicit actions",
+      "Reduce follow-up loops after the PO is sent"
+    ],
+    "sections": {
+      "workspaceEyebrow": "Order workspace",
+      "workspaceTitle": "Order tracking should not start after something goes wrong",
+      "workspaceText": "Once a supplier is selected, the real operational work begins. Buyers need to know whether an order was seen, accepted, declined, or fulfilled. Suppliers need a clear place to review the order, check delivery expectations, and act without relying on scattered emails or phone calls.",
+      "problemEyebrow": "Why this matters",
+      "problemTitle": "When order communication stays fragmented, execution gets harder to trust",
+      "problemText": "In many procurement environments, suppliers receive purchase orders by email and then the follow-up moves elsewhere. Acknowledgement may be informal, delivery intent may be unclear, and buyers often have to chase updates manually.",
+      "capabilityEyebrow": "Order tracking",
+      "capabilityTitle": "A supplier-facing order workspace with real operational context",
+      "capabilityText": "TalepNET’s order experience is designed to continue the supplier journey after sourcing. Suppliers can review active and completed orders, open full order details, check buyer company, expected date, delivery location, notes, line items, and totals, and take action directly from the portal.",
+      "flowEyebrow": "Order flow",
+      "flowTitle": "From placed order to visible supplier response",
+      "supplierEyebrow": "Supplier experience",
+      "supplierTitle": "A cleaner way to manage order follow-through",
+      "supplierText": "Suppliers should not have to reconstruct the state of an order from partial communication. TalepNET gives them a direct place to see what is active, what is complete, and what needs action.",
+      "buyerEyebrow": "Buyer-side impact",
+      "buyerTitle": "Order tracking improves procurement control too",
+      "buyerText": "A supplier-friendly order workspace also strengthens buyer control. When suppliers can act on orders directly through the system, buyers get clearer response signals, better traceability, and less uncertainty after placement.",
+      "outcomesEyebrow": "Outcomes",
+      "outcomesTitle": "What improves when orders stay visible",
+      "useCasesEyebrow": "Where it fits",
+      "useCasesTitle": "Where TalepNET order tracking creates the most value",
+      "faqEyebrow": "FAQ",
+      "faqTitle": "Common questions about order tracking",
+      "finalTitle": "Keep purchase orders visible after placement, not buried in follow-up",
+      "finalText": "TalepNET helps suppliers review orders, respond faster, and keep execution status clearer while giving procurement teams stronger visibility from PO issue to receipt.",
+      "joinPortal": "Join Portal"
+    },
+    "painPoints": [
+      "Orders are hard to track once they leave the buyer’s system",
+      "Suppliers do not always have one reliable place to review active POs",
+      "Acknowledgement and decline decisions happen outside the process record",
+      "Order history becomes harder to follow over time",
+      "Delivery expectations and notes are easy to lose in communication threads",
+      "Buyers and suppliers work from different execution views"
+    ],
+    "features": [
+      {
+        "title": "Active Order Workspace",
+        "description": "Suppliers can access active purchase orders through a dedicated portal list instead of relying on inbox search or manual follow-up."
+      },
+      {
+        "title": "Completed Order History",
+        "description": "Finished orders remain available in a separate completed view so past execution can still be reviewed when needed."
+      },
+      {
+        "title": "Order Detail View",
+        "description": "Suppliers can open each order with PO number, buyer company, dates, delivery location, notes, item lines, and order total in one place."
+      },
+      {
+        "title": "Order Status Visibility",
+        "description": "Active status information remains visible inside the order record, helping suppliers and buyers stay aligned on execution."
+      },
+      {
+        "title": "Acknowledge Orders",
+        "description": "Suppliers can confirm that an order has been received and recognized, giving buyers faster visibility into supplier-side response."
+      },
+      {
+        "title": "Decline Orders",
+        "description": "If an order cannot be accepted, suppliers can explicitly decline it through the portal instead of leaving the buyer to infer the outcome."
+      },
+      {
+        "title": "Mark Orders Fulfilled",
+        "description": "Suppliers can signal fulfillment directly in the portal, helping execution progress stay visible beyond simple order issuance."
+      },
+      {
+        "title": "Delivery Context",
+        "description": "Delivery location and expected date remain attached to the order so suppliers can review execution expectations in context."
+      },
+      {
+        "title": "Order Notes and Commercial Detail",
+        "description": "Buyer notes, line descriptions, quantities, units, and total amount remain part of the same supplier-facing record."
+      },
+      {
+        "title": "Structured Buyer-to-Supplier Order Delivery",
+        "description": "On the buyer side, TalepNET supports sending purchase orders through email, secure links, WhatsApp sharing, and portal-linked communication."
+      },
+      {
+        "title": "Secure Purchase Order Sharing",
+        "description": "Orders can be shared through secure document links instead of being limited to static attachments and manual forwarding."
+      },
+      {
+        "title": "Order Communication Traceability",
+        "description": "Buyer-side order communication logs remain visible, making it easier to understand how and when the order was sent."
+      },
+      {
+        "title": "Portal-Linked Supplier Experience",
+        "description": "Suppliers with linked portal access move from quotation into order review without leaving the structured procurement environment."
+      },
+      {
+        "title": "Downstream Receiving Continuity",
+        "description": "Orders in TalepNET do not stop at placement. They continue into receiving on the buyer side, which helps connect supplier execution to actual receipt outcomes."
+      }
+    ],
+    "steps": [
+      {
+        "title": "The buyer places the order",
+        "text": "TalepNET generates and shares the purchase order through structured supplier-facing channels, including portal-linked access where enabled."
+      },
+      {
+        "title": "The supplier reviews the order",
+        "text": "Suppliers open the order in the portal with delivery context, notes, dates, item lines, and total amount already attached."
+      },
+      {
+        "title": "The supplier takes action",
+        "text": "The order can be acknowledged, declined, or marked fulfilled directly in the portal depending on execution outcome."
+      },
+      {
+        "title": "Execution stays visible",
+        "text": "Buyer-side receiving and order history continue the process, helping both sides work from clearer operational status."
+      }
+    ],
+    "benefits": [
+      {
+        "title": "Faster acknowledgement cycles",
+        "text": "Buyers get clearer confirmation when suppliers can respond directly inside the portal."
+      },
+      {
+        "title": "Clearer execution status",
+        "text": "Order status becomes easier to interpret when acknowledgement, decline, and fulfillment are explicit actions."
+      },
+      {
+        "title": "A cleaner order history",
+        "text": "Active and completed orders stay separated and easier to navigate over time."
+      },
+      {
+        "title": "Less manual chasing",
+        "text": "Procurement teams spend less effort tracking basic order-state questions across multiple channels."
+      },
+      {
+        "title": "Stronger continuity into receiving",
+        "text": "Supplier-side order tracking connects more cleanly to buyer-side goods receipt and procurement closure."
+      }
+    ],
+    "useCases": [
+      "Suppliers managing recurring purchase orders from procurement teams",
+      "Buyers that want faster acknowledgement after PO placement",
+      "Organizations trying to reduce fragmented post-award follow-up",
+      "Supplier relationships where delivery expectations need to stay visible",
+      "Procurement teams that want portal-linked order response actions",
+      "Businesses that need cleaner order history across active and completed work",
+      "Teams that want order execution connected to downstream receiving"
+    ],
+    "faqs": [
+      {
+        "question": "How do suppliers track orders in TalepNET?",
+        "answer": "Suppliers access active and completed orders through the Supplier Portal, where they can open each order and review its status, details, and required actions."
+      },
+      {
+        "question": "Can suppliers acknowledge or decline orders directly in the portal?",
+        "answer": "Yes. TalepNET supports direct order acknowledgement and decline actions inside the supplier-facing workflow."
+      },
+      {
+        "question": "Can suppliers mark an order as fulfilled?",
+        "answer": "Yes. Suppliers can indicate fulfillment through the portal, helping order progress remain visible to the buyer."
+      },
+      {
+        "question": "What order details are visible to suppliers?",
+        "answer": "Suppliers can review PO number, buyer company, order and expected dates, delivery location, notes, item lines, quantities, and totals inside the order record."
+      },
+      {
+        "question": "How does TalepNET help buyers after the order is sent?",
+        "answer": "TalepNET keeps order communication, supplier response, secure document sharing, and receiving tied to the same procurement chain, so execution stays easier to follow."
+      },
+      {
+        "question": "Why is this better than tracking orders through email alone?",
+        "answer": "TalepNET gives both sides a structured order record with explicit status actions and clearer visibility instead of relying on fragmented communication."
+      }
+    ]
+  },
+  "manageAgreements": {
+    "badge": "For Suppliers",
+    "title": "Keep supplier agreements visible, usable, and easier to manage",
+    "description": "TalepNET helps suppliers stay aligned with buyer agreements by bringing commercial terms, covered items, agreement status, and related collaboration into one connected supplier experience.",
+    "primaryCta": "Request a Demo",
+    "secondaryCta": "See the Agreement Flow",
+    "heroHighlights": [
+      "Keep agreement terms and covered items easier to follow",
+      "See lifecycle status and validity periods more clearly",
+      "Connect agreements to catalogs, sourcing, and supplier records",
+      "Reduce drift between agreed terms and day-to-day procurement activity"
+    ],
+    "sections": {
+      "workspaceEyebrow": "Agreement workspace",
+      "workspaceTitle": "Agreements should stay active after they are signed",
+      "workspaceText": "Too often, supplier agreements become static documents that are hard to follow once day-to-day procurement begins. TalepNET gives suppliers a clearer way to stay aligned with active agreements by making terms, coverage, and agreement context visible inside the wider procurement relationship.",
+      "problemEyebrow": "Why this matters",
+      "problemTitle": "Commercial alignment weakens when agreements sit outside the workflow",
+      "problemText": "A supplier may know an agreement exists, but that does not always mean the commercial relationship stays easy to manage. Covered items may not be obvious, validity periods may be overlooked, and agreement-backed purchasing can drift without a shared operational view.",
+      "capabilityEyebrow": "Agreement management",
+      "capabilityTitle": "A supplier-facing view of commercial relationships",
+      "capabilityText": "TalepNET’s agreement model connects supplier relationships to structured commercial records rather than leaving them as detached files. On the buyer side, agreements can include lifecycle status, currency, dates, notes, covered items, pricing logic, discounts, and catalog visibility controls.",
+      "flowEyebrow": "Agreement flow",
+      "flowTitle": "From commercial agreement to active supplier relationship",
+      "supplierEyebrow": "Supplier perspective",
+      "supplierTitle": "Commercial relationships are easier to maintain when they stay visible",
+      "supplierText": "From the supplier side, agreements matter most when they help clarify what the buyer relationship actually covers. TalepNET creates the conditions for that by keeping supplier-linked commercial structure closer to the procurement workflow.",
+      "buyerEyebrow": "Buyer-side impact",
+      "buyerTitle": "Agreements become more valuable when suppliers are part of the picture",
+      "buyerText": "Buyer-side agreement management is stronger when suppliers can operate with better visibility into the relationship. TalepNET connects agreements to supplier records, item coverage, sourcing behavior, and catalog logic.",
+      "outcomesEyebrow": "Outcomes",
+      "outcomesTitle": "What improves when agreements stay operational",
+      "useCasesEyebrow": "Where it fits",
+      "useCasesTitle": "Where agreement management creates the most value",
+      "faqEyebrow": "FAQ",
+      "faqTitle": "Common questions about agreement management",
+      "finalTitle": "Make agreements easier to manage after they go live",
+      "finalText": "TalepNET helps buyers and suppliers keep commercial relationships visible, structured, and connected to real procurement activity instead of leaving them trapped in static documents.",
+      "joinPortal": "Join Portal"
+    },
+    "painPoints": [
+      "Agreement details are hard to track after signature",
+      "Covered items and commercial scope are not always clear",
+      "Expiry risk is easier to miss than it should be",
+      "Contract-backed buying can drift outside agreed terms",
+      "Suppliers and buyers may work from different versions of the relationship",
+      "Agreement knowledge often lives in documents instead of workflows"
+    ],
+    "features": [
+      {
+        "title": "Agreement Visibility",
+        "description": "Suppliers can access agreement-related records through the same portal environment used for RFQs, orders, and collaboration."
+      },
+      {
+        "title": "Active Agreement Tracking",
+        "description": "Keep active commercial relationships easier to follow instead of relying on separate files and scattered reminders."
+      },
+      {
+        "title": "Agreement Lifecycle Awareness",
+        "description": "Track whether agreements are active, expiring, expired, or no longer in use so commercial status stays clearer."
+      },
+      {
+        "title": "Validity and Date Context",
+        "description": "Agreement start and end periods remain visible so suppliers can stay aligned with the actual commercial window."
+      },
+      {
+        "title": "Covered Item Visibility",
+        "description": "Suppliers can understand which items are part of the agreement instead of treating the relationship as a broad, undefined commercial arrangement."
+      },
+      {
+        "title": "Unit-Level Commercial Structure",
+        "description": "Agreement-backed item terms can stay tied to units, pricing logic, and negotiated structure in a more operational format."
+      },
+      {
+        "title": "Discount Logic Awareness",
+        "description": "TalepNET supports item-level discount structures that can be reflected in agreement-backed supplier collaboration."
+      },
+      {
+        "title": "Agreement and Catalog Connection",
+        "description": "Agreements can connect to catalog visibility so contracted offerings are easier to surface in a structured buyer-supplier environment."
+      },
+      {
+        "title": "Agreement and Sourcing Continuity",
+        "description": "Buyer-side sourcing workflows can surface contracted suppliers and agreement-backed commercial context during procurement decisions."
+      },
+      {
+        "title": "Agreement Notes and Context",
+        "description": "Commercial notes and agreement-level context remain attached to the same relationship record rather than being lost in side communication."
+      },
+      {
+        "title": "Supplier-Linked Commercial Records",
+        "description": "Agreements remain tied directly to the supplier profile, making the relationship easier to manage over time."
+      },
+      {
+        "title": "Better Renewal Awareness",
+        "description": "Expiring agreements are easier to identify before they quietly fall out of operational use."
+      }
+    ],
+    "steps": [
+      {
+        "title": "Establish the agreement",
+        "text": "Buyers define the agreement with supplier, validity period, covered items, pricing logic, and relationship context."
+      },
+      {
+        "title": "Keep the agreement visible",
+        "text": "Agreement information stays connected to the supplier record and broader procurement activity."
+      },
+      {
+        "title": "Reuse it in operational processes",
+        "text": "Contract-backed context can influence sourcing, catalog visibility, and supplier selection instead of staying passive."
+      },
+      {
+        "title": "Monitor status over time",
+        "text": "Agreement lifecycle and expiry remain visible so both sides can manage continuity more proactively."
+      }
+    ],
+    "benefits": [
+      {
+        "title": "Stronger commercial continuity",
+        "text": "Agreements remain part of the active buyer-supplier relationship instead of becoming static reference documents."
+      },
+      {
+        "title": "Clearer coverage visibility",
+        "text": "Suppliers and buyers can stay clearer on which items and terms are actually in scope."
+      },
+      {
+        "title": "Earlier renewal awareness",
+        "text": "Expiring agreements are easier to spot before they create gaps in commercial alignment."
+      },
+      {
+        "title": "More disciplined sourcing",
+        "text": "Agreement-backed supplier context is easier to reuse during procurement decisions."
+      },
+      {
+        "title": "Cleaner relationship transparency",
+        "text": "Supplier records, agreements, sourcing, and catalog visibility remain more closely connected."
+      }
+    ],
+    "useCases": [
+      "Suppliers working under recurring commercial agreements with buyers",
+      "Organizations that want covered items and terms easier to follow",
+      "Procurement teams trying to increase agreement-backed purchasing",
+      "Supplier relationships that require renewal visibility",
+      "Businesses connecting agreements to catalogs and sourcing flows",
+      "Teams that want a cleaner commercial record across supplier collaboration"
+    ],
+    "faqs": [
+      {
+        "question": "What does Manage Agreements mean in TalepNET?",
+        "answer": "It means keeping supplier agreements visible as part of the active procurement relationship, with clearer access to terms, coverage, validity, and lifecycle context."
+      },
+      {
+        "question": "Can agreements be linked to specific items?",
+        "answer": "Yes. TalepNET’s agreement structure supports item-level coverage and commercial logic rather than only broad supplier-level records."
+      },
+      {
+        "question": "How do agreements connect to procurement workflows?",
+        "answer": "Agreement-backed supplier context can influence sourcing, supplier selection, and catalog visibility so negotiated terms remain operational."
+      },
+      {
+        "question": "Can TalepNET help with expiring agreements?",
+        "answer": "Yes. Agreement lifecycle visibility helps teams identify active, expiring, expired, and inactive records more clearly."
+      },
+      {
+        "question": "Why is this valuable for suppliers too?",
+        "answer": "Suppliers benefit when the commercial relationship is clearer, easier to follow, and better connected to actual procurement activity."
+      }
+    ]
+  },
+  "createCatalogs": {
+    "badge": "For Suppliers",
+    "title": "Create supplier catalogs that stay easier to publish, maintain, and reuse",
+    "description": "TalepNET helps suppliers turn their offerings into structured digital catalog content so buyers can discover items more easily, procurement teams can work from cleaner supplier data, and commercial relationships can scale with less manual exchange.",
+    "primaryCta": "Request a Demo",
+    "secondaryCta": "See the Catalog Flow",
+    "heroHighlights": [
+      "Turn supplier offerings into reusable digital catalog content",
+      "Keep item details current instead of resending files and spreadsheets",
+      "Make agreement-backed items easier to surface",
+      "Support cleaner buyer discovery across procurement workflows"
+    ],
+    "sections": {
+      "workspaceEyebrow": "Catalog workspace",
+      "workspaceTitle": "A catalog should do more than store item names",
+      "workspaceText": "Supplier catalogs are most useful when they make offerings easier to discover, easier to understand, and easier to use inside procurement workflows. TalepNET gives suppliers a structured way to maintain catalog content as part of the wider supplier relationship.",
+      "problemEyebrow": "Why this matters",
+      "problemTitle": "Item information loses value when it depends on manual sharing",
+      "problemText": "Many supplier relationships still rely on spreadsheets, PDFs, or repeated email exchanges to share product and service information. That makes procurement slower and creates unnecessary inconsistency.",
+      "capabilityEyebrow": "Catalog creation",
+      "capabilityTitle": "A supplier-facing layer for discoverable offerings",
+      "capabilityText": "TalepNET extends supplier collaboration beyond RFQs and orders into catalog creation and maintenance. Suppliers can shape how their offerings appear in the buyer environment, keep descriptions and commercial presentation current, and support a more scalable discovery experience.",
+      "flowEyebrow": "Catalog flow",
+      "flowTitle": "From supplier offering to usable catalog content",
+      "supplierEyebrow": "Supplier perspective",
+      "supplierTitle": "Your offerings should be easier to find and easier to trust",
+      "supplierText": "For suppliers, catalog creation is not only about visibility. It is also about control over how offerings are represented. TalepNET helps suppliers maintain a more consistent commercial presence by giving them a structured way to present products and services inside the procurement ecosystem.",
+      "buyerEyebrow": "Buyer-side impact",
+      "buyerTitle": "Better catalogs lead to better procurement behavior",
+      "buyerText": "Buyers benefit when supplier offerings are already structured, visible, and easier to evaluate. TalepNET connects catalog content to supplier management, agreements, and procurement workflows.",
+      "outcomesEyebrow": "Outcomes",
+      "outcomesTitle": "What improves with better supplier catalogs",
+      "useCasesEyebrow": "Where it fits",
+      "useCasesTitle": "Where catalog creation creates the most value",
+      "faqEyebrow": "FAQ",
+      "faqTitle": "Common questions about supplier catalogs",
+      "finalTitle": "Make supplier offerings easier to publish and easier to discover",
+      "finalText": "TalepNET helps suppliers create catalogs that strengthen buyer visibility, reduce manual sharing, and make digital procurement relationships more scalable.",
+      "joinPortal": "Join Portal"
+    },
+    "painPoints": [
+      "Product information is shared repeatedly through files and email",
+      "Buyers may work from outdated supplier content",
+      "Supplier offerings are harder to discover across the organization",
+      "Agreement-backed items are not always visible where they should be",
+      "Catalog maintenance becomes manual and inconsistent",
+      "Commercial presentation depends too much on ad hoc communication"
+    ],
+    "features": [
+      {
+        "title": "Supplier Catalog Creation",
+        "description": "Build a structured digital catalog instead of sharing product information through disconnected documents."
+      },
+      {
+        "title": "Catalog Item Maintenance",
+        "description": "Keep item records current over time so buyers work from more reliable supplier content."
+      },
+      {
+        "title": "Better Item Presentation",
+        "description": "Give offerings a cleaner structure with names, descriptions, and commercial context that are easier for buyers to review."
+      },
+      {
+        "title": "Discoverability in Buyer Workflows",
+        "description": "Help supplier offerings surface in a more searchable and usable buyer environment rather than staying buried in email history."
+      },
+      {
+        "title": "Catalog and Agreement Alignment",
+        "description": "Agreement-backed items can connect to catalog visibility so contracted offerings are easier to identify."
+      },
+      {
+        "title": "Catalog Price Visibility Control",
+        "description": "Commercial presentation can be shaped based on how pricing should appear in the buyer-facing experience."
+      },
+      {
+        "title": "Supplier-Owned Content Freshness",
+        "description": "Suppliers can maintain their own offering details more directly instead of waiting for buyers to manually update item records."
+      },
+      {
+        "title": "Cleaner Reuse Across Procurement",
+        "description": "Once catalog content is in place, it becomes easier for buyers to reuse supplier offerings across requests, sourcing, and purchasing."
+      },
+      {
+        "title": "Stronger Supplier Presence",
+        "description": "Catalogs complement supplier profile and branding by making the company’s offering easier to understand in context."
+      },
+      {
+        "title": "Better Collaboration Around Offered Items",
+        "description": "Catalog content helps anchor commercial discussions around clear item records rather than loosely described products or services."
+      }
+    ],
+    "steps": [
+      {
+        "title": "Structure the offering",
+        "text": "Suppliers define the items and supporting content they want buyers to discover in the platform."
+      },
+      {
+        "title": "Keep the catalog current",
+        "text": "Catalog content can be maintained over time so item data does not drift away from commercial reality."
+      },
+      {
+        "title": "Connect content to the relationship",
+        "text": "Catalog visibility can sit alongside agreements, supplier records, and broader procurement activity."
+      },
+      {
+        "title": "Support buyer discovery",
+        "text": "Buyers can work from a cleaner and more reusable supplier offering environment instead of relying on repeated manual sharing."
+      }
+    ],
+    "benefits": [
+      {
+        "title": "Stronger supplier discoverability",
+        "text": "Buyers can find relevant supplier offerings more easily when catalog content is structured and current."
+      },
+      {
+        "title": "Less repeated item sharing",
+        "text": "Suppliers spend less time resending the same product information through manual channels."
+      },
+      {
+        "title": "Clearer commercial consistency",
+        "text": "Item descriptions and presentation stay more aligned with the supplier’s intended offering."
+      },
+      {
+        "title": "Better agreement-backed visibility",
+        "text": "Catalogs can work alongside agreements to make covered offerings easier to surface."
+      },
+      {
+        "title": "More reusable procurement content",
+        "text": "Buyers can return to supplier offerings more easily across future demand and sourcing activity."
+      }
+    ],
+    "useCases": [
+      "Suppliers that want buyers to discover offerings more easily",
+      "Organizations trying to reduce manual product-sheet exchange",
+      "Procurement teams using catalog-backed purchasing workflows",
+      "Commercial relationships where agreement-linked items should stay visible",
+      "Suppliers that want stronger control over item presentation",
+      "Businesses scaling repeat buying across known supplier offerings"
+    ],
+    "faqs": [
+      {
+        "question": "What does Create Catalogs mean in TalepNET?",
+        "answer": "It means giving suppliers a structured way to publish and maintain their offerings inside the platform so buyers can discover and reuse them more easily."
+      },
+      {
+        "question": "Why is a supplier catalog useful?",
+        "answer": "It reduces repeated manual sharing, improves buyer visibility into supplier offerings, and creates a more scalable digital supplier presence."
+      },
+      {
+        "question": "Can catalogs connect with agreements?",
+        "answer": "Yes. Agreement-backed items can align with catalog visibility so negotiated offerings are easier to surface."
+      },
+      {
+        "question": "Does catalog creation help buyers too?",
+        "answer": "Yes. Buyers benefit from cleaner supplier item data, easier discovery, and better reuse across procurement workflows."
+      },
+      {
+        "question": "How is this better than sending product lists by email?",
+        "answer": "TalepNET keeps supplier offerings in a structured, reusable environment instead of relying on repeated file exchange and disconnected updates."
+      }
+    ]
+  },
+  "collaborate": {
+    "badge": "For Suppliers",
+    "title": "Collaborate with buyers in one connected supplier workspace",
+    "description": "TalepNET helps suppliers work with buyers through a more structured digital relationship by bringing RFQs, quotations, agreements, catalog content, purchase orders, delivery expectations, profile data, and supplier communication into one connected portal experience.",
+    "primaryCta": "Request a Demo",
+    "secondaryCta": "See Collaboration in Action",
+    "heroHighlights": [
+      "Keep RFQs, orders, agreements, and catalogs in one supplier workspace",
+      "Reduce fragmented communication across email, files, and side channels",
+      "Keep buyer-supplier interactions tied to the right procurement record",
+      "Support ongoing collaboration beyond a single transaction"
+    ],
+    "sections": {
+      "workspaceEyebrow": "Collaboration workspace",
+      "workspaceTitle": "Supplier collaboration works better when the relationship is not scattered across channels",
+      "workspaceText": "Most buyer-supplier collaboration still happens across disconnected messages, attachments, calls, and manual follow-up. TalepNET reduces that fragmentation by giving suppliers and buyers a more structured way to interact across the full commercial workflow.",
+      "problemEyebrow": "Why this matters",
+      "problemTitle": "The real problem is not lack of communication. It is lack of shared context.",
+      "problemText": "Suppliers and buyers already communicate. The issue is that they often do it without one reliable system of record. A quote may be sent, but the pricing context is lost later. An order may be shared, but acknowledgement happens somewhere else.",
+      "capabilityEyebrow": "Supplier collaboration",
+      "capabilityTitle": "A supplier-facing collaboration layer built into procurement",
+      "capabilityText": "TalepNET’s supplier collaboration model is not limited to a login page or a document viewer. It is designed as a shared operational environment where suppliers can receive RFQs, submit quotes, review quoted history, track active and completed orders, follow agreement-backed relationships, create catalogs, maintain company branding and profile data, and communicate with buyers with stronger process visibility.",
+      "journeysEyebrow": "Collaboration journeys",
+      "journeysTitle": "Where collaboration happens inside TalepNET",
+      "flowEyebrow": "Collaboration flow",
+      "flowTitle": "From buyer outreach to ongoing supplier interaction",
+      "supplierEyebrow": "Supplier experience",
+      "supplierTitle": "A portal that feels like a working environment, not a dead-end page",
+      "supplierText": "Supplier collaboration only works when the portal gives suppliers a reason to return. TalepNET does that by making the portal a practical workspace. Suppliers can see new RFQs, review what they already quoted, track active and completed orders, manage company profile quality, maintain catalog content, and stay aligned on agreements from one place.",
+      "buyerEyebrow": "Buyer-side impact",
+      "buyerTitle": "A stronger supplier experience improves procurement discipline too",
+      "buyerText": "Supplier collaboration is not only a supplier convenience feature. It improves procurement quality on the buyer side. When suppliers can respond in a structured way, buyers receive cleaner quote data, clearer order status, more current supplier information, and stronger continuity across sourcing and execution.",
+      "messagesEyebrow": "Messages and updates",
+      "messagesTitle": "Keep commercial conversations where the work already is",
+      "messagesText": "One of the biggest gaps in buyer-supplier relationships is that communication rarely stays attached to the transaction it refers to. TalepNET closes that gap by supporting message-oriented collaboration around RFQs, orders, and agreements.",
+      "outcomesEyebrow": "Outcomes",
+      "outcomesTitle": "What improves when supplier collaboration is connected",
+      "useCasesEyebrow": "Where it fits",
+      "useCasesTitle": "Where TalepNET collaboration creates the most value",
+      "faqEyebrow": "FAQ",
+      "faqTitle": "Common questions about supplier collaboration",
+      "finalTitle": "Make supplier collaboration part of the procurement system itself",
+      "finalText": "TalepNET helps buyers and suppliers work from the same commercial context across RFQs, agreements, catalogs, orders, and communication, creating a stronger digital relationship from first response to final execution.",
+      "joinPortal": "Join Portal"
+    },
+    "painPoints": [
+      "RFQ responses happen across fragmented channels",
+      "Clarifications are separated from the quote or order they belong to",
+      "Agreement context is hard to preserve during day-to-day procurement",
+      "Supplier catalogs and company details become outdated over time",
+      "Order follow-up depends too much on email and calls",
+      "Buyers and suppliers often work from different versions of the same process"
+    ],
+    "features": [
+      {
+        "title": "Portal-Based RFQ Collaboration",
+        "description": "Buyers can send RFQs through supplier-facing workflows, and suppliers can review and answer them inside the portal instead of reconstructing requests from attachments."
+      },
+      {
+        "title": "Online Quote Submission",
+        "description": "Suppliers can respond with line-level pricing, currency, validity date, delivery lead time, and commercial notes in a structured response format."
+      },
+      {
+        "title": "Quotation History",
+        "description": "Submitted quotations remain visible in the portal, making commercial history easier to track over time."
+      },
+      {
+        "title": "Buyer Context Inside RFQs",
+        "description": "Buyer company, buyer contact, request reference, notes, deadlines, and delivery location stay attached to the quotation workflow."
+      },
+      {
+        "title": "Supplier-Side Order Workspace",
+        "description": "Suppliers can review active and completed purchase orders from a dedicated portal area instead of relying only on inbox search."
+      },
+      {
+        "title": "Order Response Actions",
+        "description": "Suppliers can acknowledge, decline, or mark orders as fulfilled directly through the portal, giving buyers clearer execution signals."
+      },
+      {
+        "title": "Secure Order and RFQ Sharing",
+        "description": "Buyers can share RFQs and purchase orders through secure links and supplier-friendly digital delivery options, reducing friction in external communication."
+      },
+      {
+        "title": "Portal-Linked Supplier Accounts",
+        "description": "Supplier relationships can be connected to dedicated portal accounts so external collaboration stays tied to the right supplier identity."
+      },
+      {
+        "title": "Agreement-Aware Collaboration",
+        "description": "Supplier agreements can remain visible as part of the relationship, helping commercial terms stay closer to sourcing and execution activities."
+      },
+      {
+        "title": "Catalog Collaboration",
+        "description": "Suppliers can create and maintain catalog content so buyers work from cleaner, more current offering data inside the platform."
+      },
+      {
+        "title": "Supplier Profile Management",
+        "description": "Company information, categories, website, location, legal details, and contact data can be maintained inside the same supplier-facing environment."
+      },
+      {
+        "title": "Branding and Presentation",
+        "description": "Suppliers can manage logo and cover assets to create a stronger and more complete company presence in the buyer ecosystem."
+      },
+      {
+        "title": "Profile Strength Guidance",
+        "description": "The portal highlights profile completeness so suppliers can improve how they appear in discovery and supplier-facing evaluations."
+      },
+      {
+        "title": "Shared Process Visibility",
+        "description": "RFQs, agreements, catalogs, orders, and profile data remain part of one connected supplier relationship instead of separate process islands."
+      },
+      {
+        "title": "Message-Centered Collaboration Threads",
+        "description": "Buyer and supplier communication can be anchored to RFQs, orders, and agreement records so key updates and clarifications remain easier to follow in context."
+      },
+      {
+        "title": "Contextual Notifications and Follow-Ups",
+        "description": "Suppliers can stay aligned with new RFQs, order updates, agreement changes, and buyer messages through a more structured notification experience tied to active workflow events."
+      },
+      {
+        "title": "Activity Timeline by Commercial Record",
+        "description": "Collaboration history can stay connected to the relevant RFQ, order, or agreement, making it easier to understand what happened, when it happened, and what still needs action."
+      },
+      {
+        "title": "Procurement-to-Receiving Continuity",
+        "description": "On the buyer side, supplier collaboration does not stop at order placement. Orders continue into receiving, helping the execution record stay aligned with what suppliers communicated and delivered."
+      }
+    ],
+    "journeys": [
+      {
+        "title": "During sourcing",
+        "text": "Buyers send RFQs, suppliers review request details, submit quotes online, and keep commercial responses tied to the sourcing record."
+      },
+      {
+        "title": "Around commercial alignment",
+        "text": "Agreement-backed supplier relationships remain visible, helping both sides operate with clearer awareness of commercial coverage and active terms."
+      },
+      {
+        "title": "During order execution",
+        "text": "Orders move into supplier-facing review, acknowledgement, decline, fulfillment signaling, and execution follow-up inside the same relationship space."
+      },
+      {
+        "title": "Around supplier presence and discovery",
+        "text": "Suppliers can maintain catalogs, company profile data, branding, and offering visibility so collaboration is not limited to one transaction at a time."
+      }
+    ],
+    "steps": [
+      {
+        "title": "The buyer initiates the workflow",
+        "text": "A buyer shares an RFQ, order, or agreement-linked process through TalepNET’s structured procurement environment."
+      },
+      {
+        "title": "The supplier works inside the portal",
+        "text": "The supplier reviews the commercial record, responds with pricing or order action, and maintains related company or catalog information when needed."
+      },
+      {
+        "title": "Communication stays tied to context",
+        "text": "Notes, updates, and message-like exchanges remain attached to the relevant RFQ, order, or agreement instead of drifting into disconnected threads."
+      },
+      {
+        "title": "Execution remains visible",
+        "text": "Buyer-side procurement history, supplier response, and downstream receiving continue to reflect the same commercial interaction."
+      }
+    ],
+    "benefits": [
+      {
+        "title": "Faster commercial response",
+        "text": "Suppliers can move from RFQ review to structured quote submission with less manual handling and fewer lost details."
+      },
+      {
+        "title": "Better procurement traceability",
+        "text": "Buyers can see supplier response, order action, and collaboration history in the context of the same workflow."
+      },
+      {
+        "title": "Cleaner buyer-supplier communication",
+        "text": "Notes, updates, and message-centered interactions stay tied to RFQs, agreements, and orders instead of drifting into separate channels."
+      },
+      {
+        "title": "Better supplier data quality",
+        "text": "Profiles, branding, catalogs, and company details remain more current when suppliers maintain them directly."
+      },
+      {
+        "title": "Better execution visibility",
+        "text": "Order acknowledgement, decline, fulfillment, and downstream receiving connect collaboration to actual operational outcomes."
+      },
+      {
+        "title": "Stronger long-term supplier relationships",
+        "text": "The relationship becomes easier to manage when sourcing, agreements, communication, and execution all happen in one connected environment."
+      }
+    ],
+    "useCases": [
+      "Procurement teams that want suppliers to respond through structured digital workflows",
+      "Supplier relationships that span RFQs, agreements, catalogs, and orders",
+      "Organizations reducing fragmented email-based supplier coordination",
+      "Buyers that want clearer order acknowledgement and execution signals",
+      "Suppliers that want a stronger digital presence inside the customer relationship",
+      "Teams that need message-like collaboration tied to actual procurement records",
+      "Businesses scaling repeat supplier interaction across many active workflows"
+    ],
+    "faqs": [
+      {
+        "question": "What does Collaborate mean in the TalepNET Supplier Portal?",
+        "answer": "It means buyers and suppliers can interact through a shared digital workspace across RFQs, quotations, agreements, catalogs, orders, and communication flows instead of relying on disconnected external channels."
+      },
+      {
+        "question": "How does TalepNET improve supplier collaboration during RFQs?",
+        "answer": "Suppliers can review RFQs, price items line by line, submit quotes online, and keep commercial notes and response history tied to the same sourcing workflow."
+      },
+      {
+        "question": "Does collaboration continue after the supplier is selected?",
+        "answer": "Yes. TalepNET extends collaboration into order tracking, order response actions, agreement visibility, and buyer-supplier execution follow-up."
+      },
+      {
+        "question": "Can communication stay attached to specific RFQs or orders?",
+        "answer": "Yes. TalepNET’s collaboration model supports contextual communication and message-oriented updates tied to the relevant procurement record."
+      },
+      {
+        "question": "Does supplier collaboration include catalogs and company profile management?",
+        "answer": "Yes. Suppliers can maintain catalogs, branding, and company information as part of the broader relationship, not only during a single transaction."
+      },
+      {
+        "question": "Why is this better than email-based supplier communication?",
+        "answer": "TalepNET keeps interaction tied to the RFQ, order, or agreement it belongs to, creating better traceability, less ambiguity, and cleaner buyer-supplier coordination."
+      }
+    ]
+  }
+}

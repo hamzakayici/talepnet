@@ -1,4 +1,7 @@
 'use client';
+import { useLocale } from '@/i18n/I18nProvider';
+import { localizeHref } from '@/i18n/pathnames';
+import { useTranslations } from '@/i18n/useTranslations';
 import RevealAnimation from '@/components/animation/RevealAnimation';
 import LinkButton from '@/components/ui/button/LinkButton';
 import reviews from '@/data/json/testimonials/testimonials.json';
@@ -24,8 +27,11 @@ const ReviewsV1 = ({
   btnClassName,
   buttonLink,
   sliderClassName,
-  badgeText = 'Müşteri Başarısı',
+  badgeText,
 }: ReviewsV1Props) => {
+  const locale = useLocale();
+  const t = useTranslations('home');
+
   return (
     <section
       className={cn(
@@ -34,19 +40,17 @@ const ReviewsV1 = ({
       )}>
       <div className="main-container flex flex-col gap-[70px] max-[426px]:gap-10">
         <div className="flex flex-col items-center text-center">
-          {badgeText && (
+          {(badgeText || t('reviews.badge')) && (
             <RevealAnimation delay={0.1}>
-              <span className={cn('badge mb-5', badgeColor)}>{badgeText}</span>
+              <span className={cn('badge mb-5', badgeColor)}>{badgeText || t('reviews.badge')}</span>
             </RevealAnimation>
           )}
 
           <RevealAnimation delay={0.2}>
-            <h2 className="mx-auto mb-4 max-w-[750px] max-[426px]:mb-3">Gerçek çözümler. Gerçek sonuçlar.</h2>
+            <h2 className="mx-auto mb-4 max-w-[750px] max-[426px]:mb-3">{t('reviews.title')}</h2>
           </RevealAnimation>
           <RevealAnimation delay={0.3}>
-            <p className="max-[426px]:text-tagline-2 max-w-[490px] max-[426px]:max-w-[320px]">
-              &quot;TalepNET, satın alma süreçlerimizi dijitalleştirmemize yardımcı oldu. Kusursuz bir uygulama ve gerçek bir iş ortaklığı.&quot;
-            </p>
+            <p className="max-[426px]:text-tagline-2 max-w-[490px] max-[426px]:max-w-[320px]">{t('reviews.description')}</p>
           </RevealAnimation>
         </div>
 
@@ -119,12 +123,12 @@ const ReviewsV1 = ({
         <RevealAnimation delay={0.5}>
           <div className="text-center">
             <LinkButton
-              href={buttonLink || '/testimonial'}
+              href={buttonLink || localizeHref('/testimonial', locale)}
               className={cn(
                 'btn btn-md btn-secondary dark:btn-transparent hover:btn-white w-full sm:w-auto',
                 btnClassName,
               )}>
-              Tüm değerlendirmeleri gör
+              {t('reviews.cta')}
             </LinkButton>
           </div>
         </RevealAnimation>

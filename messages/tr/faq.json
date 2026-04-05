@@ -1,0 +1,136 @@
+{
+  "badge": "SSS",
+  "title": "Sık sorulan sorular",
+  "description": "TalepNET hakkında ürün kapsamı, fiyatlama, güvenlik ve tedarikçi tarafı iş birliği konularında net yanıtları bulun.",
+  "tabs": {
+    "product": "Ürün",
+    "pricing": "Fiyatlandırma",
+    "security": "Güvenlik",
+    "supplierPortal": "Tedarikçi Portalı"
+  },
+  "contact": {
+    "title": "Hâlâ sorularınız mı var?",
+    "description": "Sorunuz burada yer almıyorsa ekibimize ulaşın; doğru cevabı bulmanıza yardımcı olalım.",
+    "cta": "Bize Ulaşın"
+  },
+  "categories": {
+    "product": [
+      {
+        "id": "product-1",
+        "question": "TalepNET nedir?",
+        "answer": "TalepNET; organizasyonların talepleri, onayları, kaynak bulma süreçlerini, tedarikçileri, satın alma siparişlerini, teslim almayı, bütçeleri ve harcama görünürlüğünü tek bir bağlantılı iş akışında yönetmesine yardımcı olan bir satın alma yazılımıdır."
+      },
+      {
+        "id": "product-2",
+        "question": "TalepNET çevrim içi bir pazar yeri mi yoksa satın alma yazılımı mı?",
+        "answer": "TalepNET öncelikle bir satın alma yazılımıdır. Organizasyonların satın alma iş akışlarını kontrol etmesine yardımcı olurken, gerektiğinde portal ve pazar yeri benzeri etkileşimlerle tedarikçi tarafı iş birliğini de destekler."
+      },
+      {
+        "id": "product-3",
+        "question": "TalepNET ile hangi süreçleri yönetebilirim?",
+        "answer": "Ekipler satın alma taleplerini, onay iş akışlarını, tedarikçi koordinasyonunu, teklif karşılaştırmasını, satın alma siparişlerini, teslim almayı, bütçe odaklı kontrolleri ve satın alma raporlamasını tek sistemden yönetebilir."
+      },
+      {
+        "id": "product-4",
+        "question": "Başlangıç süreci nasıl işler?",
+        "answer": "Başlangıç süreci, ekiplerin hızlıca operasyonel hale gelmesine yardımcı olacak şekilde tasarlanır. Kapsama göre çalışma alanı kurulumu, süreç yapılandırması, ilk veri hazırlığı ve ilgili paydaşlar için devreye alma yönlendirmesi içerebilir."
+      },
+      {
+        "id": "product-5",
+        "question": "TalepNET sistem entegrasyonlarını destekliyor mu?",
+        "answer": "Evet. TalepNET; devreye alma kapsamı ve teknik gereksinimlere bağlı olarak finans, ERP ve ilgili sistemlerle entegrasyon ihtiyaçlarını destekleyebilir."
+      }
+    ],
+    "pricing": [
+      {
+        "id": "pricing-1",
+        "question": "Hangi fiyatlandırma planları mevcut?",
+        "answer": "TalepNET şu anda 1 kullanıcı için ücretsiz bir başlangıç sunar. Ardından iş akışı derinliği, operasyonel ölçek, raporlama, güvenlik ve devreye alma gereksinimlerine göre Team, Business ve Enterprise seçenekleri bulunur."
+      },
+      {
+        "id": "pricing-2",
+        "question": "Kurulum ücreti var mı?",
+        "answer": "Kurulum ihtiyacı devreye alma kapsamına bağlıdır. Küçük ekipler daha basit başlayabilirken, daha geniş uygulamalar, yapılandırma çalışmaları veya entegrasyon ihtiyaçları ek kurulum planlaması gerektirebilir."
+      },
+      {
+        "id": "pricing-3",
+        "question": "TalepNET'i ücretsiz deneyebilir miyim?",
+        "answer": "Evet. TalepNET, ekiplerin erişimi genişletmeden önce platformu keşfedebilmesi için 1 kullanıcıyla ücretsiz başlangıç sunar."
+      },
+      {
+        "id": "pricing-4",
+        "question": "Çok sayıda kullanıcı için özel plan alabilir miyim?",
+        "answer": "Evet. Daha büyük ekipler, çok şirketli yapılar ve daha karmaşık satın alma ortamları için özelleştirilmiş kurumsal kurulum desteklenebilir."
+      },
+      {
+        "id": "pricing-5",
+        "question": "Planımı daha sonra değiştirebilir miyim?",
+        "answer": "Evet. Kullanım, iş akışı karmaşıklığı, raporlama ihtiyacı veya güvenlik gereksinimleri büyüdükçe ekipler daha üst plana geçebilir."
+      }
+    ],
+    "security": [
+      {
+        "id": "security-1",
+        "question": "TalepNET veri güvenliğini nasıl sağlıyor?",
+        "answer": "TalepNET kontrollü erişim, iş akışı izlenebilirliği ve role duyarlı satın alma kayıtları gözetilerek tasarlanmıştır. Güvenlik yetenekleri plana ve devreye alma kapsamına göre daha da genişleyebilir."
+      },
+      {
+        "id": "security-2",
+        "question": "Verilerim nerede saklanıyor?",
+        "answer": "Veri saklama ve ortam detayları deployment ve servis kurulumuna bağlıdır. Ekibinizin özel hosting, uyumluluk veya güvenlik gereksinimleri varsa TalepNET bunları değerlendirme sürecinde ele alabilir."
+      },
+      {
+        "id": "security-3",
+        "question": "Verilerimi dışa aktarabilir veya silebilir miyim?",
+        "answer": "Veri erişimi, dışa aktarım ve silme talepleri hesap yapısı ve ilgili politikalara göre ele alınabilir. Organizasyonunuzun özel gereksinimleri varsa doğru süreç doğrudan görüşülebilir."
+      },
+      {
+        "id": "security-4",
+        "question": "TalepNET hangi verileri toplar?",
+        "answer": "Hesap ve iş akışı kullanımına bağlı olarak TalepNET; hesap bilgileri, operasyonel kullanım verileri, satın alma kayıtları ve hizmeti sunmak için gerekli destek bilgilerini işleyebilir."
+      },
+      {
+        "id": "security-5",
+        "question": "Verilerimin silinmesini talep edebilir miyim?",
+        "answer": "Evet. Organizasyonunuz veri silme veya hesap düzeyinde temizleme ihtiyacı duyuyorsa, talep uygun destek ve uyumluluk süreci üzerinden ele alınabilir."
+      },
+      {
+        "id": "security-6",
+        "question": "TalepNET çerezleri nasıl kullanır?",
+        "answer": "TalepNET, oturum sürekliliğini, platform işlevlerini ve seçili analitik ihtiyaçlarını desteklemek için çerezler ve benzeri teknolojiler kullanır. Çerez kullanımı site politikası üzerinden incelenebilir ve uygun olduğunda tarayıcı ayarları üzerinden yönetilebilir."
+      }
+    ],
+    "supplierPortal": [
+      {
+        "id": "supplier-1",
+        "question": "TalepNET üzerinden aldığım fırsatlar ne kadar nitelikli olur?",
+        "answer": "Fırsat kalitesi, iş akışına giren buyer talebine bağlıdır. TalepNET, gelen fırsatların daha net ve değerlendirmesi daha kolay olması için daha yapılandırılmış tedarikçi etkileşimi oluşturacak şekilde tasarlanmıştır."
+      },
+      {
+        "id": "supplier-2",
+        "question": "Müşterilere TalepNET üzerinden yanıt vermem gerekir mi?",
+        "answer": "TalepNET, özellikle RFQ'lar, sipariş takibi ve ilgili ticari etkileşimlerde tedarikçi yanıtını platform içinde kolaylaştırmak için tasarlanmıştır. Yapılandırılmış iş akışını kullanmak, her iki tarafın da daha iyi görünürlük sağlamasına yardımcı olur."
+      },
+      {
+        "id": "supplier-3",
+        "question": "TalepNET satışlardan komisyon alıyor mu?",
+        "answer": "Ticari koşullar ilgili modele ve partnerlik yapısına bağlıdır. Ekibiniz tedarikçi tarafı katılımı değerlendiriyorsa, doğru yapı doğrudan görüşülebilir."
+      },
+      {
+        "id": "supplier-4",
+        "question": "Teklif verilerim gizli mi?",
+        "answer": "TalepNET, satın alma kayıtlarını ve tedarikçi etkileşimlerini kopuk kanallara dağılmak yerine platform içinde yapılandırılmış biçimde tutacak şekilde tasarlanmıştır. Teklif görünürlüğü sistemde tanımlanan iş akışı ve erişim modelini izler."
+      },
+      {
+        "id": "supplier-5",
+        "question": "TalepNET alıcı ödemesini garanti eder mi?",
+        "answer": "Hayır. TalepNET satın alma ve tedarikçi iş birliği iş akışlarını destekler, ancak alıcı ile tedarikçi arasında ödeme garantörü olarak hareket etmez."
+      },
+      {
+        "id": "supplier-6",
+        "question": "Zaten büyük kurumsal şirketlerle çalışıyoruz. TalepNET bize nasıl ek değer sağlar?",
+        "answer": "TalepNET bu ilişkileri daha yapılandırılmış RFQ yönetimi, tedarikçi portalı iş akışları, sipariş görünürlüğü, sözleşme uyumu ve zaman içinde daha temiz alıcı-tedarikçi iş birliği ile güçlendirmeye yardımcı olabilir."
+      }
+    ]
+  }
+}

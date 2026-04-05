@@ -1,4 +1,5 @@
 'use client';
+import { useTranslations } from '@/i18n/useTranslations';
 import { useProgressStepsAnimation } from '@/hooks/useProgressStepsAnimation';
 import RevealAnimation from '../animation/RevealAnimation';
 
@@ -9,34 +10,34 @@ interface ProcessItem {
   progressWidth: string;
 }
 
-const processItems: ProcessItem[] = [
-  {
-    id: 1,
-    stepNumber: '01',
-    title: 'İş akışınızı tasarlayın',
-    progressWidth: '0%',
-  },
-  {
-    id: 2,
-    stepNumber: '02',
-    title: 'Tedarikçi ağınızı oluşturun',
-    progressWidth: '0%',
-  },
-  {
-    id: 3,
-    stepNumber: '03',
-    title: 'Online sipariş verin',
-    progressWidth: '0%',
-  },
-];
-
 const Process = () => {
+  const t = useTranslations('home');
   const { ref } = useProgressStepsAnimation({
     delay: 0.5,
     duration: 2,
     delayBetweenSteps: 2,
     triggerOnScroll: true,
   });
+  const processItems: ProcessItem[] = [
+    {
+      id: 1,
+      stepNumber: '01',
+      title: t('process.steps.0'),
+      progressWidth: '0%',
+    },
+    {
+      id: 2,
+      stepNumber: '02',
+      title: t('process.steps.1'),
+      progressWidth: '0%',
+    },
+    {
+      id: 3,
+      stepNumber: '03',
+      title: t('process.steps.2'),
+      progressWidth: '0%',
+    },
+  ];
 
   return (
     <RevealAnimation delay={0.1}>
@@ -44,11 +45,11 @@ const Process = () => {
         <div className="main-container">
           <div className="md:space-y-3 space-y-2 md:mb-[70px] mb-12 text-center">
             <RevealAnimation delay={0.1}>
-              <h2>Satın alma sürecinizi 3 adımda başlatın</h2>
+              <h2>{t('process.title')}</h2>
             </RevealAnimation>
             <RevealAnimation delay={0.2}>
               <p className="max-w-[402px] mx-auto">
-                TalepNET ile satın alma yönetiminizi hızla dijitalleştirin.
+                {t('process.description')}
               </p>
             </RevealAnimation>
           </div>

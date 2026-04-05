@@ -1,4 +1,7 @@
 'use client';
+import { useLocale } from '@/i18n/I18nProvider';
+import { localizeHref } from '@/i18n/pathnames';
+import { useTranslations } from '@/i18n/useTranslations';
 import { cn } from '@/utils/cn';
 import Link from 'next/link';
 import HoverBgTransform from '../hover-bg-transform';
@@ -6,6 +9,7 @@ import HoverBgTransform from '../hover-bg-transform';
 type ExploreItem = {
   label: string;
   href: string;
+  dividerBefore?: boolean;
 };
 
 type ExploreSection = {
@@ -14,52 +18,6 @@ type ExploreSection = {
   footerLink?: ExploreItem;
 };
 
-const exploreSections: ExploreSection[] = [
-  {
-    title: 'Company',
-    items: [
-      { label: 'About', href: '/about' },
-      { label: 'Solutions', href: '/solutions' },
-      { label: 'Industries', href: '/industries' },
-      { label: 'Partnerships', href: '/partnerships' },
-      { label: 'Contact Us', href: '/contact-us' },
-      { label: 'Careers', href: '/career' },
-    ],
-  },
-  {
-    title: 'Product Overview',
-    items: [
-      { label: 'Purchase Requests', href: '/purchase-requests' },
-      { label: 'Approvals', href: '/approvals' },
-      { label: 'Purchase Forms', href: '/purchase-forms' },
-      { label: 'Purchase Orders', href: '/purchase-orders' },
-      { label: 'Contract Management', href: '/contract-management' },
-      { label: 'Supplier Management', href: '/supplier-management' },
-      { label: 'Budget Management', href: '/budget-management' },
-    ],
-    footerLink: { label: 'View all features', href: '/product-features' },
-  },
-  {
-    title: 'For Suppliers',
-    items: [
-      { label: 'Supplier Portal', href: '/supplier-portal' },
-      { label: 'Respond to RFQs', href: '/respond-to-rfqs' },
-      { label: 'Track Orders', href: '/track-orders' },
-      { label: 'Manage Agreements', href: '/manage-agreements' },
-      { label: 'Create Catalogs', href: '/create-catalogs' },
-      { label: 'Collaborate', href: '/collaborate' },
-    ],
-  },
-  {
-    title: 'Access',
-    items: [
-      { label: 'Log In', href: 'https://app.talepnet.com/sign-in' },
-      { label: 'Sign Up', href: 'https://app.talepnet.com/sign-up' },
-      { label: 'Join as Supplier', href: 'https://portal.talepnet.com/sign-up' },
-    ],
-  },
-];
-
 const ExploreMenu = ({
   menuDropdownId,
   setMenuDropdownId,
@@ -67,7 +25,55 @@ const ExploreMenu = ({
   menuDropdownId: string | null;
   setMenuDropdownId: (id: string | null) => void;
 }) => {
+  const locale = useLocale();
+  const t = useTranslations('navbar');
   const handleClose = () => setMenuDropdownId(null);
+
+  const exploreSections: ExploreSection[] = [
+    {
+      title: t('explore.company'),
+      items: [
+        { label: t('explore.about'), href: localizeHref('/about', locale) },
+        { label: t('explore.solutions'), href: localizeHref('/solutions', locale) },
+        { label: t('explore.industries'), href: localizeHref('/industries', locale) },
+        { label: t('explore.partnerships'), href: localizeHref('/partnerships', locale) },
+        { label: t('explore.contactUs'), href: localizeHref('/contact-us', locale), dividerBefore: true },
+        { label: t('explore.careers'), href: localizeHref('/career', locale) },
+      ],
+    },
+    {
+      title: t('explore.productOverview'),
+      items: [
+        { label: t('explore.purchaseRequests'), href: localizeHref('/purchase-requests', locale) },
+        { label: t('explore.approvals'), href: localizeHref('/approvals', locale) },
+        { label: t('explore.purchaseForms'), href: localizeHref('/purchase-forms', locale) },
+        { label: t('explore.purchaseOrders'), href: localizeHref('/purchase-orders', locale) },
+        { label: t('explore.contractManagement'), href: localizeHref('/contract-management', locale) },
+        { label: t('explore.supplierManagement'), href: localizeHref('/supplier-management', locale) },
+        { label: t('explore.budgetManagement'), href: localizeHref('/budget-management', locale) },
+      ],
+      footerLink: { label: t('explore.viewAllFeatures'), href: localizeHref('/product-features', locale) },
+    },
+    {
+      title: t('explore.forSuppliers'),
+      items: [
+        { label: t('explore.supplierPortal'), href: localizeHref('/supplier-portal', locale) },
+        { label: t('explore.respondToRfqs'), href: localizeHref('/respond-to-rfqs', locale) },
+        { label: t('explore.trackOrders'), href: localizeHref('/track-orders', locale) },
+        { label: t('explore.manageAgreements'), href: localizeHref('/manage-agreements', locale) },
+        { label: t('explore.createCatalogs'), href: localizeHref('/create-catalogs', locale) },
+        { label: t('explore.collaborate'), href: localizeHref('/collaborate', locale) },
+      ],
+    },
+    {
+      title: t('explore.access'),
+      items: [
+        { label: t('explore.logIn'), href: 'https://app.talepnet.com/sign-in' },
+        { label: t('explore.signUp'), href: 'https://app.talepnet.com/sign-up' },
+        { label: t('explore.joinAsSupplier'), href: 'https://portal.talepnet.com/sign-up', dividerBefore: true },
+      ],
+    },
+  ];
 
   return (
     <div>
@@ -93,16 +99,8 @@ const ExploreMenu = ({
                   <p className="text-tagline-2 text-secondary/40 dark:text-accent/45 font-medium">{title}</p>
                 </div>
                 <ul className="my-4 flex-1">
-                  {items.map(({ label, href }) => (
-                    <li
-                      key={label}
-                      className={
-                        (title === 'Company' && label === 'Contact Us') ||
-                        (title === 'Access' && label === 'Join as Supplier')
-                          ? 'border-stroke-1/50 dark:border-background-7 mt-3 border-t pt-3'
-                          : ''
-                      }
-                    >
+                  {items.map(({ label, href, dividerBefore }) => (
+                    <li key={label} className={dividerBefore ? 'border-stroke-1/50 dark:border-background-7 mt-3 border-t pt-3' : ''}>
                       <Link href={href} onClick={handleClose} className="group relative block p-3">
                         <HoverBgTransform className="group-hover:opacity-100" />
                         <span className="text-tagline-1 text-secondary dark:text-accent relative z-10 font-normal">

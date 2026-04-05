@@ -1,3 +1,6 @@
+'use client';
+
+import { useTranslations } from '@/i18n/useTranslations';
 import feature1 from '@public/images/ns-img-287.png';
 import feature2 from '@public/images/ns-img-288.png';
 import feature3 from '@public/images/ns-img-289.png';
@@ -16,44 +19,45 @@ interface FeatureItem {
   alt: string;
 }
 
-const featuresData: FeatureItem[] = [
-  {
-    id: 1,
-    title: 'Talep Yönetimi',
-    description: 'Satın alma talepleri, kimin neye, ne kadar ihtiyaç duyduğunu anlamanızı sağlar.',
-    image: feature1,
-    darkImage: feature1Dark,
-    alt: 'TalepNET talep yönetimi arayüzü',
-  },
-  {
-    id: 2,
-    title: 'Sipariş Yönetimi',
-    description: 'Satın alma taleplerinden tek tıklamayla siparişlerinizi oluşturun ve yönetin.',
-    image: feature2,
-    darkImage: feature2Dark,
-    alt: 'TalepNET sipariş yönetimi arayüzü',
-  },
-  {
-    id: 3,
-    title: 'Onay Süreçleri',
-    description: 'Otomatik veya özelleştirilmiş iş akışında onayları kolayca takip edin.',
-    image: feature3,
-    darkImage: feature3Dark,
-    alt: 'TalepNET onay süreçleri arayüzü',
-  },
-];
-
 const FeatureV2 = () => {
+  const t = useTranslations('home');
+  const featuresData: FeatureItem[] = [
+    {
+      id: 1,
+      title: t('featureV2.items.0.title'),
+      description: t('featureV2.items.0.description'),
+      image: feature1,
+      darkImage: feature1Dark,
+      alt: 'TalepNET request management interface',
+    },
+    {
+      id: 2,
+      title: t('featureV2.items.1.title'),
+      description: t('featureV2.items.1.description'),
+      image: feature2,
+      darkImage: feature2Dark,
+      alt: 'TalepNET order management interface',
+    },
+    {
+      id: 3,
+      title: t('featureV2.items.2.title'),
+      description: t('featureV2.items.2.description'),
+      image: feature3,
+      darkImage: feature3Dark,
+      alt: 'TalepNET approval workflow interface',
+    },
+  ];
+
   return (
     <RevealAnimation delay={0.1}>
       <section className="bg-background-1 dark:bg-background-6 py-[100px]">
         <div className="main-container">
           <div className="mb-10 space-y-3 text-center md:mb-[70px]">
             <RevealAnimation delay={0.1}>
-              <h2>Satın alma süreçleri artık çok daha kolay</h2>
+              <h2>{t('featureV2.title')}</h2>
             </RevealAnimation>
             <RevealAnimation delay={0.2}>
-              <p>TalepNET iş akışınızı daha akıllı bir şekilde optimize eder.</p>
+              <p>{t('featureV2.description')}</p>
             </RevealAnimation>
           </div>
           <div className="grid grid-cols-12 items-center justify-items-center gap-y-14 md:gap-10 lg:gap-14">

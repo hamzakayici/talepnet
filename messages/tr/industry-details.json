@@ -1,0 +1,604 @@
+{
+  "automotive": {
+    "hero": {
+      "badge": "Sektör Çözümleri",
+      "title": "Otomotiv operasyonları için daha entegre bir satın alma yapısı",
+      "description": "TalepNET; fabrikalar, şubeler, depolar, servis operasyonları ve merkez ekipler arasında talepleri, onayları, tedarik süreçlerini, tedarikçileri, siparişleri, teslim almayı ve harcama görünürlüğünü bağlantılı şekilde yönetmeye yardımcı olur.",
+      "primaryCta": "Demo Talep Et",
+      "secondaryCta": "Otomotiv Akışını Gör",
+      "placeholder": "Otomotiv satın alma yer tutucusu",
+      "highlights": [
+        "Fabrika talebi, onaylar ve operasyonu tek akışta birleştirin",
+        "Tedarikçi, teklif ve sipariş geçmişini kararlara yaklaştırın",
+        "Sözleşmeleri ve anlaşmalı tedarikçileri tedarik sürecinde görünür kılın",
+        "Sipariş sonrası teslim alma ve tedarikçi takibini izleyin",
+        "Dağıtık operasyonlarda kontrol için harcama görünürlüğünden yararlanın"
+      ]
+    },
+    "intro": "Otomotiv satın alması sadece parça satın almakla ilgili değildir. Bakım, üretim desteği, servis operasyonları ve dolaylı harcamaların; onay disiplini ve teslimat görünürlüğü kaybolmadan ilerlemesini sağlamaktır.",
+    "problem": {
+      "eyebrow": "Otomotiv satın almasını kontrol etmek neden zorlaşır",
+      "title": "Dağıtık operasyonlar iş akışında hızla düzensizlik yaratır",
+      "description": "Fabrikalar, şubeler, depolar ve servis ekipleri farklı şartlarda satın alma yapar. Talepler, onaylar, tedarikçi iletişimi ve teslim alma e-posta, telefon ve Excel’e yayıldığında satın alma tutarlılığını kaybeder.",
+      "points": [
+        "Farklı lokasyonlar farklı satın alma alışkanlıkları izler",
+        "Acil talepler onay disiplinini bypass eder",
+        "Tedarikçi iletişimi parçalanır",
+        "Anlaşmalı tedarikçiler satın alma anında görünmez",
+        "Sipariş ve teslim alma merkezi olarak daha zor izlenir"
+      ]
+    },
+    "fit": {
+      "eyebrow": "TalepNET neden otomotiv için uygundur",
+      "title": "Merkezi kontrol ile saha uygulaması aynı sistemde yönetilebilir",
+      "description": "TalepNET; yapılandırılabilir iş akışları, satın alma uygulaması, tedarikçi iş birliği, teslim alma ve harcama görünürlüğü ile çok rollü ve çok lokasyonlu satın alma operasyonlarını tek modelde destekler.",
+      "placeholder": "Fabrika ve şube iş akışı yer tutucusu"
+    },
+    "capabilities": {
+      "eyebrow": "TalepNET otomotiv satın almasını nasıl destekler",
+      "title": "Talep, tedarik, uygulama ve harcama kontrolü için tek işletim modeli",
+      "items": [
+        { "title": "Lokasyonlar arası yapılandırılmış talep toplama", "text": "Bakım ekipleri, fabrika kullanıcıları, servis birimleri ve merkez satın alma için talepleri kontrollü formlar üzerinden standartlaştırın." },
+        { "title": "Gerçek yetki yapısına göre şekillenen onay akışları", "text": "Departman, eşik ve rollere göre onay rotaları kurarak kontrolü gerçek karar yapısına uyarlayın." },
+        { "title": "Daha iyi tedarik ve tedarikçi karşılaştırması", "text": "Onaylı talebi satın alma formuna çevirin, teklifleri karşılaştırın, önceki sipariş geçmişini ve anlaşmalı tedarikçileri karar anına taşıyın." },
+        { "title": "Entegre sipariş ve teslim alma süreci", "text": "Satın alma siparişlerini, tedarikçi iletişimini, teslimat bağlamını ve teslim almayı aynı satın alma zincirine bağlayın." }
+      ]
+    },
+    "useCases": {
+      "eyebrow": "Gerçek otomotiv satın alma senaryoları için tasarlandı",
+      "title": "Fabrika, servis operasyonları ve merkezi satın alma için yeterince esnek",
+      "items": [
+        { "title": "Fabrika ve şube satın alması", "text": "Fabrika, servis merkezi, depo ve idari birimler arasında yerel talepleri ortak yapıya alın." },
+        { "title": "MRO ve operasyonel tedarik alımı", "text": "Bakım, ekipman desteği, sarf malzeme ve günlük operasyon sürekliliği için tekrar eden satın almaları yönetin." },
+        { "title": "Tedarikçi yoğun ortamlar", "text": "Tekrarlayan kategorilerde teklif karşılaştırmasını ve anlaşmalı tedarikçi tekrar kullanımını iyileştirin." },
+        { "title": "Çok lokasyonlu harcama kontrolü", "text": "Şube ve maliyet merkezleri genelinde harcamanın nerede biriktiğini ve disiplinin nerede zayıfladığını görün." }
+      ]
+    },
+    "flow": {
+      "eyebrow": "Entegre bir otomotiv satın alma akışı",
+      "title": "Tüm adımlar aynı süreç içinde bağlantılı kalır.",
+      "description": "Talep, onay, satın alma, tedarikçi kararları, sipariş ve teslim alma tek görünür zincirin parçası olarak kalır.",
+      "steps": [
+        "Ekipler maliyet merkezi ve operasyonel bağlamla talep oluşturur.",
+        "Onaylar tanımlı organizasyon mantığına göre ilerler.",
+        "Satın alma, onaylı talebi satın alma formuna çevirir.",
+        "Alıcılar teklif toplar, tedarikçileri karşılaştırır ve sözleşme bilgisini kullanır.",
+        "Siparişler yapılandırılmış tedarikçi odaklı iş akışlarıyla oluşturulur.",
+        "Teslim alma süreci, gerçekten geleni kaydeder ve döngüyü kapatır."
+      ]
+    },
+    "benefits": {
+      "eyebrow": "Otomotiv ekipleri TalepNET ile ne kazanır",
+      "title": "Dağıtık operasyonlarda kontrolü kaybetmeden daha iyi koordinasyon",
+      "items": [
+        { "title": "Dağıtık operasyonlarda daha iyi kontrol", "text": "Fabrika ve şubeler yerel hızlarını kaybetmeden tek bağlantılı modelden ilerler." },
+        { "title": "Daha iyi tedarikçi koordinasyonu", "text": "RFQ, teklif, sipariş ve teslim alma süreci parçalanmak yerine aynı kayda bağlı kalır." },
+        { "title": "Daha iyi ticari disiplin", "text": "Anlaşmalı tedarikçiler, önceki siparişler ve teklif karşılaştırmaları alıcılara daha güçlü bağlam sağlar." },
+        { "title": "Daha iyi finansal kontrol", "text": "Maliyet merkezi, bütçe ve harcama görünürlüğü operasyon sürerken satın almayı daha kontrollü yönetmeye yardımcı olur." }
+      ]
+    },
+    "finalCta": {
+      "eyebrow": "Otomotiv satın almasını daha bağlantılı hale getirin",
+      "title": "Fabrika taleplerini, onayları, tedarik süreçlerini, tedarikçileri, siparişleri ve teslim almayı tek sistemde birleştirin.",
+      "description": "TalepNET, otomotiv ekiplerinin hız, tedarikçi koordinasyonu ve harcama görünürlüğünü tek yapı içinde yönetmesine yardımcı olur.",
+      "primaryCta": "Demo Talep Et",
+      "secondaryCta": "İletişime Geçin"
+    }
+  },
+  "construction": {
+    "hero": {
+      "badge": "Sektör Çözümleri",
+      "title": "İnşaat projeleri ve şantiyelerinde satın almaları yönetmenin daha iyi bir yolu",
+      "description": "TalepNET; inşaat şirketlerinin talepleri, onayları, tedarikçileri, kaynak bulmayı, satın alma siparişlerini, teslim almayı ve harcamaları tek bir entegre iş akışında yönetmelerine yardımcı olur.",
+      "primaryCta": "Demo Talep Et",
+      "secondaryCta": "İnşaat Akışını Gör",
+      "placeholder": "İnşaat satın alma yer tutucusu",
+      "highlights": [
+        "Proje ve şantiye taleplerini standartlaştırın",
+        "Onayları gerçek proje otoritesine göre hizalayın",
+        "Aktif işlerde tedarikçi koordinasyonunu iyileştirin",
+        "Tedarikten uygulamaya düzenli geçiş sağlayın",
+        "Projeler sürerken maliyet baskısını görünür tutun"
+      ]
+    },
+    "intro": "İnşaat satın alması şantiye aciliyeti, tedarikçi bağımlılığı, bütçe baskısı ve çok lokasyonlu operasyonlar ile şekillenir. TalepNET bu karmaşıklığı şantiyeyi yavaşlatmadan daha kontrollü hale getirir.",
+    "problem": {
+      "eyebrow": "İnşaat satın almasını kontrol altında tutmak neden zordur?",
+      "title": "Şantiye baskısı ve dağınık satın alma uygulamaları, tutarlılığı korumayı zorlaştırır",
+      "description": "İnşaat ekipleri baskı altında satın alma yapar. Talep telefon, WhatsApp veya Excel’de başladığında satın alma tutarlılığı, finans ise zamanlamayı kaybeder.",
+      "points": [
+        "Proje ve şantiye talepleri parçalı kanallardan gelir",
+        "Acil satın almalar onay ve bütçe disiplinini aşar",
+        "Tedarikçi iletişimi RFQ ve siparişler boyunca dağılır",
+        "Farklı lokasyonlar farklı alışkanlıklar izler",
+        "Harcama görünürlüğü çok geç gelir"
+      ]
+    },
+    "fit": {
+      "eyebrow": "TalepNET neden inşaat sektörü için uygundur?",
+      "title": "Operasyonel esneklik ve satın alma sistemi birlikte sürdürülebilir",
+      "description": "TalepNET; iş akışı disiplini, tedarikçi koordinasyonu ve harcama görünürlüğünü korurken operasyonel esneklik isteyen inşaat ekipleri için tasarlanmıştır.",
+      "placeholder": "Proje ve şantiye iş akışı yer tutucusu"
+    },
+    "capabilities": {
+      "eyebrow": "TalepNET inşaat satın almasını nasıl destekler?",
+      "title": "Şantiyeler, tedarikçiler, operasyon ve maliyet kontrolü için tek süreç zinciri",
+      "items": [
+        { "title": "Proje ve şantiye talebini merkezileştirin", "text": "Şantiye ekipleri, proje yöneticileri ve satın alma ekiplerinin aynı iş akışı üzerinde olması için talepleri yapılandırılmış formlarda toplayın." },
+        { "title": "Onayları gerçek proje otoritesine göre hizalayın", "text": "Departman, limit ve operasyon yapısına göre onay rotaları kurun." },
+        { "title": "Ticari disiplini koruyarak daha hızlı tedarik", "text": "Onaylı talebi satın alma formuna çevirin, teklif toplayın ve tedarikçi geçmişini karar anına taşıyın." },
+        { "title": "Proje düzeyinde teslim alma ve uygulama görünürlüğü", "text": "Gerçekte teslim edilen miktarları kaydedin ve sipariş sonrası takibi görünür tutun." }
+      ]
+    },
+    "useCases": {
+      "eyebrow": "Gerçek inşaat satın alma senaryoları için tasarlandı",
+      "title": "Şantiye aciliyeti, tedarikçi yoğun alım ve proje maliyet baskısına uyarlanmış yapı",
+      "items": [
+        { "title": "Çoklu şantiye satın alma kontrolü", "text": "Projeleri, şubeleri ve şantiyeleri tek sisteme alın; yerel hızı koruyun." },
+        { "title": "Malzeme, hizmet ve operasyonel satın alma", "text": "Doğrudan ve dolaylı satın alma ihtiyaçlarını aynı modelde yönetin." },
+        { "title": "Tedarikçi yoğun proje ortamları", "text": "Fiyat kadar zamanlama ve kalitenin de önemli olduğu kategorilerde tedarikçi karşılaştırmasını geliştirin." },
+        { "title": "Bütçe hassasiyetli proje yönetimi", "text": "Maliyet merkezi ve onay mantığını proje talebiyle daha yakın tutun." }
+      ]
+    },
+    "flow": {
+      "eyebrow": "Entegre bir inşaat satın alma akışı",
+      "title": "Sistem, projeler aktifken şantiye talebini, ticari kararları ve operasyon çıktısını bağlantılı tutar.",
+      "description": "TalepNET, ilk talepten teslim alma ve harcama görünürlüğüne kadar satın alma sürecini yapılandırılmış halde tutar.",
+      "steps": [
+        "Şantiye ve proje ekipleri operasyonel ve mali bağlamla talep oluşturur.",
+        "Onay akışı doğru yöneticilere ve fonksiyonlara gider.",
+        "Satın alma, onaylı talebi tedarik için satın alma formuna çevirir.",
+        "Alıcılar teklif toplar, tedarikçileri karşılaştırır ve geçmişi kullanır.",
+        "Satın alma siparişleri yapılandırılmış tedarikçi iş akışlarıyla oluşturulur.",
+        "Teslim alma süreci, gerçekten teslim edileni kaydeder."
+      ]
+    },
+    "benefits": {
+      "eyebrow": "İnşaat ekipleri TalepNET ile ne kazanır?",
+      "title": "Şantiye uygulama hızını yavaşlatmadan daha iyi proje kontrolü.",
+      "items": [
+        { "title": "Aktif projelerde daha iyi kontrol", "text": "Şantiyeler ve iş birimleri arasında satın alma daha tutarlı hale gelir." },
+        { "title": "Daha iyi tedarikçi uygulama görünürlüğü", "text": "RFQ, teklif, sipariş ve teslim alma aynı operasyon zincirine bağlı kalır." },
+        { "title": "Zaman baskısı altında daha iyi maliyet disiplini", "text": "Onaylar ve tedarik karşılaştırmaları ekiplerin hazırlıksız satın alma yapmasını engeller." },
+        { "title": "Projeler sürerken daha iyi harcama görünürlüğü", "text": "Yönetim, satın alma faaliyetini ticari sapma büyümeden önce görebilir." }
+      ]
+    },
+    "finalCta": {
+      "eyebrow": "İnşaat satın almasını tek operasyonel sisteme taşıyın",
+      "title": "Proje taleplerini, onayları, tedarikçileri, siparişleri, teslim almayı ve harcama görünürlüğünü tek yapı içinde birleştirin.",
+      "description": "TalepNET, inşaat ekiplerinin şantiyede hızlı hareket ederken ticari disiplini korumasına yardımcı olur.",
+      "primaryCta": "Demo Talep Et",
+      "secondaryCta": "İletişime Geçin"
+    }
+  },
+  "education": {
+    "hero": {
+      "badge": "Sektör Çözümleri",
+      "title": "Kampüsler ve bölümler birbiriyle entegre olduğunda, eğitimde satın alma süreçleri çok daha verimli ilerler.",
+      "description": "TalepNET; okulların, kolejlerin ve üniversitelerin talepleri, onayları, bütçeleri, tedarikçileri, tedarik süreçlerini, siparişleri ve teslim almayı tek entegre iş akışında yönetmesine yardımcı olur.",
+      "primaryCta": "Demo Talep Et",
+      "secondaryCta": "Eğitim Akışını Gör",
+      "placeholder": "Eğitim satın alma yer tutucusu",
+      "highlights": [
+        "Akademik, idari ve tesis ihtiyaçlarını birbirine bağlayın",
+        "Onay süreçlerini kurumsal yetkilerle uyumlandırın",
+        "Bütçeleri satın alma kararlarıyla uyumlu hale getirin",
+        "Tedarikçi karşılaştırması ve sipariş takibini iyileştirin",
+        "Çok lokasyonlu harcama aktivitelerinde görünürlük sağlayın"
+      ]
+    },
+    "intro": "Eğitim tedariki, akademik ekipleri, idari birimleri, kampüsleri ve tesisleri kapsar. TalepNET, gereksiz operasyonel sürtünme yaratmadan bu farklı talep kaynaklarını tek bir yönetilen sürece entegre eder.",
+    "problem": {
+      "eyebrow": "Eğitim satın alması neden kırılgan hale gelir?",
+      "title": "Aynı kurum içinde bile departmanlar farklı satın alma yapar",
+      "description": "Okullar ve üniversiteler satın alma kontrolüne ihtiyaç duyar; ancak birçok kurum hâlâ düzensiz formlar, e-postalar ve manuel takip ile ilerler.",
+      "points": [
+        "Talep birçok departman ve lokasyondan gelir",
+        "Onay yolları bütçe ve birime göre farklılaşır",
+        "Tedarikçi karşılaştırması tutarsızlaşır",
+        "Sipariş ve teslim alma takibi sonradan daha zor incelenir",
+        "Harcama görünürlüğü çoğu zaman geç gelir"
+      ]
+    },
+    "fit": {
+      "eyebrow": "TalepNET neden eğitim sektörü için uygundur?",
+      "title": "Kurumsal yönetim ve günlük satın alma işlemleri aynı iş akışı modelini kullanabilir",
+      "description": "TalepNET; talep kalitesini, onayları, tedarikçi kararlarını, sipariş uygulamasını ve bütçe görünürlüğünü tek bir satın alma sistemi içinde birleştirir.",
+      "placeholder": "Departman ve kampüs iş akışı yer tutucusu"
+    },
+    "capabilities": {
+      "eyebrow": "TalepNET eğitim satın almasını nasıl destekler?",
+      "title": "Kampüsler, departmanlar ve destek ekipleri için tek iş akışı modeli",
+      "items": [
+        { "title": "Farklı kurumsal kullanıcılar için yapılandırılmış talep girişi", "text": "Akademik, idari ve tesis ekiplerinden gelen talepleri kontrollü iş akışlarına alın." },
+        { "title": "Gerçek yetki çizgilerine göre onay disiplini", "text": "Departman, eşik ve karar yapısına göre onay yönlendirmeleri kurun." },
+        { "title": "Bağlantılı tedarik ve tedarikçi karşılaştırması", "text": "Onaylı talebi satın alma formu, teklifler ve tedarikçi karşılaştırmasıyla daha güçlü ticari bağlama taşıyın." },
+        { "title": "Sipariş uygulaması ve teslim alma sürekliliği", "text": "Satın alma siparişlerini, teslimat bağlamını ve teslim almayı aynı süreç zincirine bağlayın." }
+      ]
+    },
+    "useCases": {
+      "eyebrow": "Gerçek eğitim satın alma senaryoları için tasarlandı",
+      "title": "Akademik, idari ve tesis satın alma gerçeklerine uyarlanmış yapı",
+      "items": [
+        { "title": "Çok kampüslü satın alma koordinasyonu", "text": "Kampüsleri ve departmanları tek satın alma modeline alın." },
+        { "title": "Tesis ve operasyonel satın alma", "text": "Bakım, kampüs destek ve günlük operasyon alımlarını görünür hale getirin." },
+        { "title": "Departman bazlı satın alma", "text": "Departmanlara, uygulama başlamadan önce daha net bir talep ve onay yolu verin." },
+        { "title": "Bütçe hassasiyetli kurumsal harcama", "text": "Maliyet merkezi ve bütçe bağlamını onay ve sipariş uygulamasına yaklaştırın." }
+      ]
+    },
+    "flow": {
+      "eyebrow": "Entegre bir eğitim satın alma akışı",
+      "title": "Sistem, talep, finansal kontrol ve operasyon çıktısını kurum genelinde bağlantılı tutar.",
+      "description": "TalepNET; talep açan ekipler, onaylayanlar, satın alma, finans ve teslim alma ekipleri arasındaki karmaşıklıkları azaltır.",
+      "steps": [
+        "Departmanlar doğru operasyonel ve bütçe bağlamıyla talep oluşturur.",
+        "Onaylar tanımlı kurumsal mantığa göre ilerler.",
+        "Satın alma, tedarik ve tedarikçi kararlarını yönetir.",
+        "Siparişler yapılandırılmış iş akışlarıyla oluşturulur.",
+        "Teslim alma süreci, gerçekten teslim edileni kaydeder.",
+        "Harcama görünürlüğü kurumsal takibi destekler."
+      ]
+    },
+    "benefits": {
+      "eyebrow": "Eğitim ekipleri TalepNET ile ne kazanır",
+      "title": "Operasyonel desteği yavaşlatmadan daha iyi kurumsal kontrol",
+      "items": [
+        { "title": "Kampüsler ve departmanlar arasında daha iyi süreklilik", "text": "Yerel alışkanlıklar yerine daha bağlı süreç kaydıyla çalışılır." },
+        { "title": "Daha iyi onay ve bütçe disiplini", "text": "Finansal sahiplik satın alma kararına daha yakın kalır." },
+        { "title": "Daha iyi tedarikçi uygulama görünürlüğü", "text": "Teklifler, siparişler ve teslim alma aynı zincirde kalır." },
+        { "title": "Daha iyi denetlenebilirlik", "text": "Talebin ilk adımdan operasyonel kapanışa nasıl ilerlediği daha net görülür." }
+      ]
+    },
+    "finalCta": {
+      "eyebrow": "Eğitim satın almasını entegre bir işletim modeline taşıyın",
+      "title": "Departman taleplerini, onayları, bütçeleri, tedarikçileri, tedarik süreçlerini, siparişleri ve teslim almayı tek sistemde bağlayın.",
+      "description": "TalepNET, eğitim kurumlarının görünürlüğü ve kontrolü artırmasına yardımcı olurken günlük satın alma kullanımını zorlaştırmaz.",
+      "primaryCta": "Demo Talep Et",
+      "secondaryCta": "İletişime Geçin"
+    }
+  },
+  "healthcare": {
+    "hero": {
+      "badge": "Sektör Çözümleri",
+      "title": "Sağlık satın alması, kritik operasyonları yavaşlatmadan daha güçlü kontrol ister",
+      "description": "TalepNET; hastanelerin, kliniklerin, laboratuvarların ve bakım odaklı kuruluşların talepleri, onayları, tedarikçileri, tedarik süreçlerini, siparişleri, teslim almayı, bütçeleri ve harcama görünürlüğünü tek iş akışı içinde yönetmesine yardımcı olur.",
+      "primaryCta": "Demo Talep Et",
+      "secondaryCta": "Sağlık Akışını Gör",
+      "placeholder": "Sağlık satın alma yer tutucusu",
+      "highlights": [
+        "Acil talepleri yönetilen iş akışı içinde görünür tutun",
+        "Tedarikçi kararlarını operasyonlara bağlayın",
+        "Sipariş ve teslim alma sürekliliğini koruyun",
+        "Bakım operasyonlarında bütçe farkındalığı sağlayın",
+        "Parçalı satın alma alışkanlıklarını azaltın"
+      ]
+    },
+    "intro": "Sağlık satın alması aciliyet, tedarikçi bağımlılığı ve bütçe baskısı altında ilerler. TalepNET bu koşulları, kontrolü iş akışının dışına itmeden daha yönetilebilir hale getirir.",
+    "problem": {
+      "eyebrow": "Sağlık satın alması neden güven vermemeye başlar",
+      "title": "Aciliyet ve parçalı koordinasyon görünürlüğü hızla zayıflatır",
+      "description": "Hastaneler ve klinikler hızlı hareket etmek zorundadır. Parçalı talepler, tedarikçi iletişimi ve takip süreçleri satın almayı daha az görünür ve daha zor savunulur hale getirir.",
+      "points": [
+        "Acil talepler yapılandırılmış onayları aşabilir",
+        "Tedarikçi iletişimi farklı kanallara dağılır",
+        "Sipariş takibi sonradan daha zor incelenir",
+        "Teslim alma süreci, orijinal talep zincirinden kopabilir",
+        "Bütçe görünürlüğü satın almadan geriden gelir"
+      ]
+    },
+    "fit": {
+      "eyebrow": "TalepNET neden sağlık için uygundur",
+      "title": "Operasyonel aciliyet ve satın alma kontrolü birlikte yaşayabilir",
+      "description": "TalepNET; talep, onay, tedarik, tedarikçi, sipariş ve teslim alma iş akışlarını bağlantılı hale getirerek sağlık ekiplerinin daha net görünürlükle hareket etmesini destekler.",
+      "placeholder": "Klinik ve operasyon iş akışı yer tutucusu"
+    },
+    "capabilities": {
+      "eyebrow": "TalepNET sağlık satın almasını nasıl destekler",
+      "title": "Talep, tedarikçi, sipariş ve teslim alma boyunca tek işletim zinciri",
+      "items": [
+        { "title": "Sağlık operasyonlarında yapılandırılmış talep oluşturma", "text": "Departman ve operasyon taleplerini kontrollü talep ve onay iş akışlarına alın." },
+        { "title": "Daha güçlü bağlamla tedarikçi karşılaştırması", "text": "Satın alma formu, teklifler ve önceki sipariş geçmişiyle daha iyi tedarik kararları alın." },
+        { "title": "Entegre sipariş uygulaması", "text": "Tedarikçiye giden satın alma siparişlerini dağınık belgeler yerine aynı iş akışı içinde tutun." },
+        { "title": "Gerçek operasyonel kapanış için teslim alma sürekliliği", "text": "Gerçekte geleni kaydedin ve sonucu orijinal satın alma zincirine bağlayın." }
+      ]
+    },
+    "useCases": {
+      "eyebrow": "Gerçek sağlık satın alma senaryoları için tasarlandı",
+      "title": "Klinik aciliyet, tedarikçi bağımlılığı ve bütçe hassasiyetine uyarlanmış yapı",
+      "items": [
+        { "title": "Hastane ve klinik satın alması", "text": "Departmanlar ve bakım ortamları genelinde tekrar eden ve acil ihtiyaçları destekleyin." },
+        { "title": "Laboratuvar ve destek operasyonları", "text": "Günlük operasyon satın almalarını talepten teslim almaya kadar görünür tutun." },
+        { "title": "Tedarikçi yoğun tedarik süreçleri", "text": "Süreklilik ve zamanlamanın önemli olduğu kategorilerde teklif yönetimini iyileştirin." },
+        { "title": "Bütçe farkındalığıyla sağlık satın alması", "text": "Finansal görünürlüğü talebin taahhüde dönüştüğü noktaya yaklaştırın." }
+      ]
+    },
+    "flow": {
+      "eyebrow": "Entegre bir sağlık sektörü satın alma akışı",
+      "title": "Sistem, bakım operasyonları sürerken acil talebi, ticari kontrolü ve operasyon sonucunu bağlantılı tutar.",
+      "description": "TalepNET; departmanlar, satın alma, tedarikçiler ve teslim alma ekipleri arasındaki iş akışı karmaşasını azaltır.",
+      "steps": [
+        "Ekipler operasyonel ve finansal bağlamla talep oluşturur.",
+        "Onaylar tanımlı yönetim akışı mantığına göre ilerler.",
+        "Satın alma tedarik sürecini ve tedarikçi karşılaştırmasını yönetir.",
+        "Siparişler bağlantılı uygulama iş akışlarına geçer.",
+        "Teslim alma süreci, gerçek teslim edilen miktarları kaydeder.",
+        "Satın alma ve finans aynı operasyon zincirini inceleyebilir."
+      ]
+    },
+    "benefits": {
+      "eyebrow": "Sağlık ekipleri TalepNET ile ne kazanır",
+      "title": "Bakım operasyonları, satın alma ve finansal kontrol arasında daha iyi süreklilik",
+      "items": [
+        { "title": "Acil operasyonlarda daha iyi süreklilik", "text": "Talep hızla ilerlerken parçalı devir noktalarında kaybolmaz." },
+        { "title": "Daha iyi tedarikçi operasyon görünürlüğü", "text": "Teklif, sipariş ve teslim alma aynı iş akışı zincirine bağlı kalır." },
+        { "title": "Daha iyi finansal kontrol", "text": "Bütçe farkındalığı ve harcama görünürlüğü karar anına daha yakın olur." },
+        { "title": "Daha iyi izlenebilirlik", "text": "Ne talep edildiğini, kimin onayladığını, ne sipariş edildiğini ve neyin teslim alındığını görmek kolaylaşır." }
+      ]
+    },
+    "finalCta": {
+      "eyebrow": "Sağlık satın almasını tek bağlantılı işletim sistemine taşıyın",
+      "title": "Departman taleplerini, onayları, tedarikçileri, tedarik süreçlerini, siparişleri, teslim almayı, bütçeleri ve harcama görünürlüğünü tek yapı içinde bağlayın.",
+      "description": "TalepNET, sağlık organizasyonlarının satın almayı daha görünür ve daha yönetilebilir hale getirmesine yardımcı olur.",
+      "primaryCta": "Demo Talep Et",
+      "secondaryCta": "İletişime Geçin"
+    }
+  },
+  "hospitality": {
+    "hero": {
+      "badge": "Sektör Çözümleri",
+      "title": "Konaklama operasyonlarında satın almayı daha iyi yönetin",
+      "description": "TalepNET; otellerin, tatil köylerinin, restoranların ve çok tesisli operasyonların talep, onay, tedarikçi, sipariş, teslim alma ve bütçe süreçlerini daha yapılandırılmış hale getirir.",
+      "primaryCta": "Demo Talep Et",
+      "secondaryCta": "Konaklama Akışını Gör",
+      "placeholder": "Konaklama satın alma yer tutucusu",
+      "highlights": [
+        "Tesis bazlı talepleri tek iş akışı modeline alın",
+        "Tedarikçi koordinasyonunu oteller arasında tutarlı hale getirin",
+        "Sipariş ve teslim alma görünürlüğünü artırın",
+        "Dağıtık operasyonlarda bütçe kontrolünü destekleyin",
+        "Sipariş sonrası dağınık takip süreçlerini azaltın."
+      ]
+    },
+    "intro": "Konaklama ekipleri tesisler, lokasyonlar, departmanlar ve tedarikçi ilişkileri arasında satın alma yapar. TalepNET bu kararları operasyonel hızı kaybetmeden tek entegre modele taşır.",
+    "problem": {
+      "eyebrow": "Konaklama satın alması neden dağınıktır?",
+      "title": "Tesisler ve ekipler zaman baskısı altında farklı şekillerde satın alma yapar",
+      "description": "Konaklama operasyonları hız gerektirir; ancak dağınık talepler, tedarikçi koordinasyonu ve sipariş takibi gereksiz belirsizlik yaratır.",
+      "points": [
+        "Tesisler farklı satın alma rutinleri izler",
+        "Tedarikçi iletişimi e-posta ve telefon arasında dağılır",
+        "Sipariş durumu yerleşim sonrası daha zor takip edilir",
+        "Teslim alma orijinal zincirden kopar",
+        "Bütçe ve harcama görünürlüğü geç gelir"
+      ]
+    },
+    "fit": {
+      "eyebrow": "TalepNET neden konaklama için uygundur",
+      "title": "Çok tesisli operasyon ve merkezi kontrol bağlantılı kalabilir",
+      "description": "TalepNET; talep, onay, tedarik, tedarikçi, sipariş, teslim alma ve harcama kontrolü süreçlerini aynı işletim modeli içinde birleştirir.",
+      "placeholder": "Tesis ve tedarikçi iş akışı yer tutucusu"
+    },
+    "capabilities": {
+      "eyebrow": "TalepNET konaklama satın almasını nasıl destekler",
+      "title": "Talep, tedarikçi, operasyon ve görünürlük için tek entegre yapı",
+      "items": [
+        { "title": "Tesisler ve ekipler arası yapılandırılmış talepler", "text": "Farklı tesis ve departmanlardan gelen satın alma ihtiyaçlarını tek kontrollü süreçte toplayın." },
+        { "title": "Operasyonel gerçeğe uyan onay yönlendirmesi", "text": "Limitler, departmanlar ve yetki yapıları etrafında onay akışları oluşturun." },
+        { "title": "Tedarikçi karşılaştırması ve tedarik sürekliliği", "text": "Onaylı talebi teklifler, tedarikçi seçimi ve daha net ticari bağlamla ileri taşıyın." },
+        { "title": "Sipariş ve teslim alma görünürlüğü", "text": "Tedarikçi kararlarından sonra verilen siparişler ve teslim edilen miktarlar aynı iş akışı zincirinde kalsın." }
+      ]
+    },
+    "useCases": {
+      "eyebrow": "Gerçek konaklama satın alma senaryoları için tasarlandı",
+      "title": "Otel, restoran, resort ve destek operasyonları boyunca pratik kullanım alanları",
+      "items": [
+        { "title": "Çok tesisli satın alma kontrolü", "text": "Dağıtık satın almayı tek sistemde toplayın, yerel operasyon esnekliğini koruyun." },
+        { "title": "Operasyonel ve tekrar eden tedarik alımları", "text": "Günlük hizmet sürekliliği, tesis, F&B ve destek ekipleri için satın alma akışını yönetin." },
+        { "title": "Tedarikçi yoğun ortamlar", "text": "Zamanlamanın önemli olduğu kategorilerde teklif yönetimini ve sipariş takibini iyileştirin." },
+        { "title": "Bütçe hassasiyetli dağıtık operasyonlar", "text": "Maliyet merkezi ve harcama görünürlüğünü talebin siparişe dönüştüğü noktaya yaklaştırın." }
+      ]
+    },
+    "flow": {
+      "eyebrow": "Talepten teslim almaya tek iş akışı",
+      "title": "Talep, tedarikçi kararları ve operasyonel teslimat aynı zincir içinde kalır.",
+      "description": "TalepNET; talep açan ekipler, onaylayanlar, satın alma, tedarikçiler ve teslim alma ekipleri arasındaki boşlukları azaltır.",
+      "steps": [
+        "Tesisler ve ekipler operasyonel bağlamla talep oluşturur.",
+        "Onaylar tanımlı iş mantığına göre ilerler.",
+        "Satın alma tedarik sürecini ve tedarikçi karşılaştırmasını yönetir.",
+        "Siparişler yapılandırılmış uygulama iş akışlarına geçer.",
+        "Teslim alma süreci gerçekten teslim edileni kaydeder.",
+        "Bütçe ve harcama görünürlüğü daha düzgün bir operasyonel değerlendirme sağlar."
+      ]
+    },
+    "benefits": {
+      "eyebrow": "Konaklama ekipleri neden TalepNET’i seçer?",
+      "title": "Tesisler, tedarikçiler ve bütçeler bağlamında önem oluşturan sebepler",
+      "items": [
+        { "title": "Tesisler arasında daha iyi tutarlılık", "text": "Dağıtık ekipler düzensiz alışkanlıklar yerine tek süreç modeliyle çalışır." },
+        { "title": "Daha iyi tedarikçi koordinasyonu", "text": "RFQ, sipariş ve takip aynı iş akışı zincirinde daha kolay izlenir." },
+        { "title": "Daha iyi uygulama görünürlüğü", "text": "Verilen siparişler ve teslim alma sonuçları tedarikçi kararlarından sonra da görünür kalır." },
+        { "title": "Daha iyi bütçe farkındalığı", "text": "Harcama görünürlüğü, departman ve tesisler genelinde daha iyi kontrol sağlar." }
+      ]
+    },
+    "finalCta": {
+      "eyebrow": "Konaklama satın almasını bağlantılı işletim modeline taşıyın",
+      "title": "Tesisler arasında satın almayı sadeleştirin, tedarikçi koordinasyonunu iyileştirin ve bütçe içinde kalın.",
+      "description": "TalepNET, konaklama işletmelerine dağıtık satın almayı daha yapılandırılmış şekilde yönetme imkânı verir.",
+      "primaryCta": "Demo Talep Et",
+      "secondaryCta": "İletişime Geçin"
+    }
+  },
+  "nonProfit": {
+    "hero": {
+      "badge": "Sektör Uyumu",
+      "title": "Sivil toplum kuruluşları için daha net ve hesap verebilir satın alma süreçleri",
+      "description": "TalepNET; sivil toplum ekiplerinin talepleri, onayları, tedarikçileri, bütçeleri, siparişleri ve harcama görünürlüğünü tek entegre modelle yönetmesine yardımcı olur.",
+      "primaryCta": "Demo Talep Et",
+      "secondaryCta": "STK Akışını Gör",
+      "placeholder": "STK satın alma yer tutucusu",
+      "highlights": [
+        "Talep, onay, bütçe ve harcamayı tek süreçte birleştirin",
+        "Satın alma işlemlerini program ve departman yapılarıyla uyumlu tutun",
+        "Denetlenebilirliği ve süreç geçmişini iyileştirin",
+        "Tedarikçi ve sipariş kararlarını tek bir zincirde birleştirin",
+        "Dağınık ekipler arasındaki manuel etkileşimi azaltın"
+      ]
+    },
+    "intro": "Sivil toplum kuruluşlarının sadece ne harcandığını değil, yeni talep veya satın almanın arkasındaki bütçe yapısını da görebilmesi gerekir. TalepNET bu görünürlüğü sürecin içine yaklaştırır.",
+    "problem": {
+      "eyebrow": "STK satın alması zaman içinde neden daha zor incelenir",
+      "title": "Misyon odaklı organizasyonlar yine de yapılandırılmış finansal kontrole ihtiyaç duyar",
+      "description": "Talepler, onaylar, tedarikçiler ve teslim alma süreçleri ayrı rutinlerde kaldığında STK'lar hesap verebilirlik ve bütçe kontrolü için gereken sürekliliği kaybeder.",
+      "points": [
+        "Talep parçalı kanallarda başlayabilir",
+        "Bütçe sahipliği yeterince erken görünmeyebilir",
+        "Süreç geçmişini sonradan yeniden kurmak zorlaşır",
+        "Tedarikçi kararları orijinal talepten kopar",
+        "Uygulama ve teslim alma kayıt dışında kalabilir"
+      ]
+    },
+    "fit": {
+      "eyebrow": "Net süreç geçmişi ve daha şeffaf kayıtlarla hazır olun",
+      "title": "Geçmişi daha sonra yeniden oluşturmaya gerek kalmadan denetime hazır olur",
+      "description": "TalepNET; talebi, onayı, tedarikçi kararını, satın alma adımlarını, sipariş sürecini ve teslim alma faaliyetini aynı operasyonel kayda bağlar.",
+      "placeholder": "Denetim ve bütçe yer tutucusu"
+    },
+    "capabilities": {
+      "eyebrow": "TalepNET STK satın almasını nasıl destekler",
+      "title": "Bütçeler, onaylar, tedarikçiler ve operasyon boyunca tek bağlı model",
+      "items": [
+        { "title": "Bütçe farkındalığı olan talep ve onay iş akışları", "text": "Maliyet merkezi, onay mantığı ve harcama görünürlüğünü yeni talebin değerlendirildiği noktaya yaklaştırın." },
+        { "title": "Bağlantılı tedarikçi ve satın alma iş akışları", "text": "Tedarik, tedarikçi karşılaştırması, sipariş ve teslim almayı aynı süreç zincirine bağlayın." },
+        { "title": "Hesap verebilirliği destekleyen süreç geçmişi", "text": "Kimin talep açtığını, kimin onayladığını, kimin tedarik sürecini yönettiğini ve neyin teslim alındığını koruyun." },
+        { "title": "Dağıtık STK operasyonlarına uyan yapılar", "text": "Departman, program, lokasyon ve limitleri merkezi yönetimli iş akışı modeli içinde destekleyin." }
+      ]
+    },
+    "useCases": {
+      "eyebrow": "TalepNET STK satın almasına en iyi nerede uyar?",
+      "title": "Dağıtık, misyon odaklı organizasyonlar için pratik kullanım alanları",
+      "items": [
+        { "title": "Program ve departman satın alması", "text": "Farklı ekipleri ortak onay ve bütçe yapısıyla hizalayın." },
+        { "title": "Bütçe hassasiyetli operasyonel alımlar", "text": "Taahhütten önce talepleri daha net finansal sahiplikle değerlendirin." },
+        { "title": "Tedarikçi koordinasyonu ve sipariş takibi", "text": "Tedarikçi kararlarını ve teslim alma görünürlüğünü aynı süreç geçmişine alın." },
+        { "title": "Denetim ve inceleme hazırlığı", "text": "Talep, onay, tedarik, sipariş ve teslim alma aşamaları boyunca daha düzgün kayıt tutun." }
+      ]
+    },
+    "flow": {
+      "eyebrow": "İş akışlarını organizasyon gerçeğinize göre kurun",
+      "title": "Departmanlar, programlar, lokasyonlar ve limitler aynı merkezi yönetimli süreç modeline sığabilir.",
+      "description": "TalepNET’in iş akışı modeli, onay ve uygulama adımlarını rol sahipliği ve karar eşikleri etrafında şekillendirir.",
+      "steps": [
+        "Ekipler operasyonel ve bütçe bağlamıyla talep oluşturur.",
+        "Onaylar tanımlı merkezi yönetimli mantığa göre ilerler.",
+        "Satın alma tedarik sürecini ve tedarikçi kararlarını yönetir.",
+        "Siparişler yapılandırılmış uygulama iş akışlarına geçer.",
+        "Teslim alma süreci gerçek teslim edilen miktarları kaydeder.",
+        "Süreç geçmişi daha sonra inceleme için bağlı kalır."
+      ]
+    },
+    "benefits": {
+      "eyebrow": "STK’lar neden TalepNET’i seçer?",
+      "title": "Araçların ötesine geçen faydalar",
+      "items": [
+        { "title": "Daha iyi hesap verebilirlik", "text": "Her satın alma kararı süreç zinciri boyunca daha kolay incelenir." },
+        { "title": "Daha iyi bütçe görünürlüğü", "text": "Finansal sahiplik, olay olduktan sonra değil talep ve onay anında görünür kalır." },
+        { "title": "Daha iyi tedarikçi ve uygulama sürekliliği", "text": "Tedarikçi kararları, siparişler ve teslim alma daha kolay izlenir." },
+        { "title": "Daha iyi operasyonel kullanılabilirlik", "text": "Ekipler gereksiz sürtünme yaratmadan daha yapılandırılmış süreçten çalışır." }
+      ]
+    },
+    "finalCta": {
+      "eyebrow": "Ekibinizin odağını satın alma kaosuna değil etkiye verin",
+      "title": "Talebi, onayları, tedarikçileri, bütçeyi ve harcama görünürlüğünü tek bağlı satın alma modelinde yönetin.",
+      "description": "TalepNET, STK’lara hesap verebilirlik ve kontrolü destekleyen daha yapılandırılmış bir satın alma modeli sunar.",
+      "primaryCta": "Demo Talep Et",
+      "secondaryCta": "İletişime Geçin"
+    }
+  },
+  "technology": {
+    "hero": {
+      "badge": "Sektör Uyumu",
+      "title": "Teknoloji ekipleri için daha kontrollü ve esnek satın alma",
+      "description": "TalepNET; teknoloji şirketlerinin yazılım, hizmet, ekipman, tedarikçi, bütçe, sipariş ve harcama görünürlüğü süreçlerini tek bağlantılı satın alma alanında yönetmesine yardımcı olur.",
+      "primaryCta": "Demo Talep Et",
+      "secondaryCta": "Teknoloji Akışını Gör",
+      "placeholder": "Teknoloji satın alma yer tutucusu",
+      "highlights": [
+        "Yazılım, hizmet, ekipman ve operasyonel harcamayı tek iş akışında yönetin",
+        "Ekipler ve limitler büyüdükçe onay mantığını ölçekleyin",
+        "Tedarikçi, sözleşme, tedarik ve sipariş süreçlerini bağlı tutun",
+        "Bütçe ve harcama görünürlüğünü kararlara yaklaştırın",
+        "Talepten teslim almaya kadar her adımı izlenebilir tutun"
+      ]
+    },
+    "intro": "Teknoloji şirketleri hızlı hareket eder; satın alma süreci darboğaz oluşturmamalıdır. TalepNET; talep, onay, tedarikçi, bütçe ve uygulama süreçlerini aynı iş birliğine açık satın alma alanında tutar.",
+    "problem": {
+      "eyebrow": "Hızı kaybetmeden satın alma disiplini kurun",
+      "title": "Hızlı hareket eden ekipler yine de net harcama kontrolü ister",
+      "description": "Teknoloji organizasyonları aynı anda özerklik ve kontrol ister. Parçalı satın alma alışkanlıkları ekip ve harcama büyüdükçe bunu zorlaştırır.",
+      "points": [
+        "Talep ve onay süreçlerini temiz ölçeklemek zorlaşır",
+        "Tedarikçi ve tedarik bağlamı kararlardan kopar",
+        "Bütçe görünürlüğü operasyon talebinin gerisinde kalır",
+        "Sipariş uygulaması ve teslim alma takibi daha zor izlenir",
+        "Ekip ve maliyet merkezi genelinde harcamayı yorumlamak zorlaşır"
+      ]
+    },
+    "fit": {
+      "eyebrow": "Harcamayı olduktan sonra değil, olmadan önce kontrol edin",
+      "title": "Büyüme hızına uyum sağlayan onay ve iş akışı mantığı",
+      "description": "TalepNET; talep onayı, satın alma formu, satın alma onayı, satın alma siparişi ve teslim alma sürekliliği ile karar anını taahhüde yaklaştırır.",
+      "placeholder": "Teknoloji iş akışı yer tutucusu"
+    },
+    "capabilities": {
+      "eyebrow": "Hızlı büyüyen teknoloji ekipleri için satın alma yapısı",
+      "title": "Daha güçlü onay kontrolü, tedarikçi disiplini ve harcama görünürlüğü tek yerde",
+      "items": [
+        { "title": "Esnek onay iş akışları", "text": "Talepleri ve satın almaları limitler, departmanlar ve organizasyon mantığına göre doğru kişilere yönlendirin." },
+        { "title": "Bütçe uyumu ve harcama görünürlüğü", "text": "Maliyet merkezi, bütçe kontrolleri, yönetilen harcama görünümleri ve harcama içgörülerini aktif satın alma süreçleriyle bağlayın." },
+        { "title": "Merkezi tedarikçi ve tedarik koordinasyonu", "text": "Tedarikçi, kişi, sözleşme, teklif, satın alma formu ve sipariş süreçlerini tek sistemde yönetin." },
+        { "title": "Büyümeyle uyumlu satın alma uygulaması", "text": "Operasyon ölçeklenirken talep toplama, tedarik, satın alma onayı, satın alma siparişi ve teslim alma süreçlerini destekleyin." }
+      ]
+    },
+    "useCases": {
+      "eyebrow": "TalepNET teknoloji satın almasına en iyi nerede uyar?",
+      "title": "Araçlar, tedarikçiler ve bütçeler arasında ölçeklenen ekipler için pratik kullanım alanları",
+      "items": [
+        { "title": "Yazılım, hizmet ve ekipman harcaması", "text": "Tekrarlayan ve anlık teknoloji alımlarını tek süreç modelinde yönetin." },
+        { "title": "Ölçeklenebilir onay mantığı", "text": "Hızlı büyüyen ekiplerde departman ve limitler genelinde daha düzgün bir yönetim sağlayın." },
+        { "title": "Teklif ve tedarikçi karşılaştırması", "text": "Tekrarlayan kategorilerde birden çok tedarikçi varken tedarik kalitesini iyileştirin." },
+        { "title": "Ekipler ve projeler genelinde bütçe disiplini", "text": "Harcama görünürlüğünü maliyet merkezi, proje ve satın alma faaliyetiyle bağlayın." }
+      ]
+    },
+    "flow": {
+      "eyebrow": "Daha iyi bağlamla daha iyi karar verin",
+      "title": "Tedarikçi geçmişi, sözleşmeler, teklif bağlamı, siparişler ve teslim alma aynı satın alma zinciri içinde görünür kalır.",
+      "description": "TalepNET, ekipler hızlı hareket etmeye devam ederken satın alma ve finans ekiplerine kararların nasıl verildiğini daha net gösterir.",
+      "steps": [
+        "Ekipler doğru operasyonel ve finansal bağlamla talep oluşturur.",
+        "Onaylar tanımlı iş akışı mantığına göre ilerler.",
+        "Satın alma tedarik sürecini ve tedarikçi karşılaştırmasını yönetir.",
+        "Siparişler bağlantılı uygulama iş akışlarına geçer.",
+        "Teslim alma süreci gerçekten teslim edileni kaydeder.",
+        "Harcama görünürlüğü ekipler ve bütçeler genelinde daha net kontrol sağlar."
+      ]
+    },
+    "benefits": {
+      "eyebrow": "Teknoloji şirketleri neden TalepNET’i seçer?",
+      "title": "Fonksiyonların ötesine geçen faydalar",
+      "items": [
+        { "title": "Tam harcama görünürlüğü", "text": "Tedarikçi harcaması, kategori trendleri, maliyet merkezi davranışı ve bütçe baskısını daha net görün." },
+        { "title": "Kullanım kolaylığı", "text": "Talep açan ekipler, onaylayanlar, satın alma ve finans ekipleri için sistemi ilk günden kullanışlı tutun." },
+        { "title": "Süreçlerinize göre şekillenen yapı", "text": "Tek bir katı model yerine gerçek karar yapınızı iş akışlarına yansıtın." },
+        { "title": "Ağır sürtünme olmadan daha güçlü kontrol", "text": "Onay, tedarikçi ve uygulama süreçlerini görünür tutarken özerkliği koruyun." }
+      ]
+    },
+    "finalCta": {
+      "eyebrow": "Teknoloji satın almasını daha net ve bağlantılı hale getirin",
+      "title": "Talebi, onayı, tedarikçileri, tedarik süreçlerini, siparişleri, bütçeyi ve harcama görünürlüğünü tek satın alma sistemi içinde merkezileştirin.",
+      "description": "TalepNET, teknoloji şirketlerinin operasyonel kararları yavaşlatmadan kontrol ve görünürlüğü iyileştirmesine yardımcı olur.",
+      "primaryCta": "Demo Talep Et",
+      "secondaryCta": "İletişime Geçin"
+    }
+  }
+}

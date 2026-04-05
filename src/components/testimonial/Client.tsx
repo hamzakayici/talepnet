@@ -1,3 +1,6 @@
+'use client';
+
+import { useI18n } from '@/i18n/I18nProvider';
 import clientLogo10Dark from '@public/images/icons/client-logo-10-dark.svg';
 import clientLogo10 from '@public/images/icons/client-logo-10.svg';
 import clientLogo6Dark from '@public/images/icons/client-logo-6-dark.svg';
@@ -17,6 +20,9 @@ import Marquee from 'react-fast-marquee';
 import RevealAnimation from '../animation/RevealAnimation';
 
 const Client = () => {
+  const { locale } = useI18n();
+  const isTr = locale === 'tr';
+
   return (
     <section>
       <RevealAnimation delay={0.2}>
@@ -57,8 +63,10 @@ const Client = () => {
             </div>
             {/* Trust Metrics */}
             <div>
-              <p className="text-tagline-2 text-secondary dark:text-accent font-medium">500+ şirket tarafından tercih ediliyor</p>
-              <p className="text-tagline-3">Dünya Genelinde Müşteriler</p>
+              <p className="text-tagline-2 text-secondary dark:text-accent font-medium">
+                {isTr ? '500+ şirket tarafından tercih ediliyor' : 'Trusted by 500+ companies'}
+              </p>
+              <p className="text-tagline-3">{isTr ? 'Dünya Genelinde Müşteriler' : 'Customers worldwide'}</p>
             </div>
           </article>
           {/* Client Logos */}

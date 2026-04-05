@@ -1,0 +1,28 @@
+{
+  "hero": {
+    "badge": "Help Center",
+    "title": "Support resources for getting more out of TalepNET",
+    "description": "Use this page as a starting point for product guidance, tutorials, blog content, and common questions."
+  },
+  "resources": {
+    "badge": "Resources",
+    "title": "Start from the resource that fits what you need",
+    "faqTitle": "FAQ",
+    "faqText": "Find answers about product scope, pricing, security, and supplier portal workflows.",
+    "faqCta": "Go to FAQ",
+    "tutorialsTitle": "Tutorials",
+    "tutorialsText": "Explore guided tutorials for key workflows and day-to-day usage.",
+    "tutorialsCta": "Open Tutorials",
+    "blogTitle": "Blog",
+    "blogText": "Read product updates, procurement insights, and practical best practices.",
+    "blogCta": "Read the Blog",
+    "contactTitle": "Contact Us",
+    "contactText": "Reach the team directly when you need help, guidance, or a follow-up conversation.",
+    "contactCta": "Open Contact"
+  },
+  "cta": {
+    "title": "Need help with something more specific?",
+    "description": "If you need direct help from our team, use the contact page and send us the details of your request.",
+    "button": "Contact Us"
+  }
+}

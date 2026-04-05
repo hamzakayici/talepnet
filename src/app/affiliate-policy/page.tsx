@@ -5,7 +5,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   ...defaultMetadata,
-  title: 'İş Ortaklığı Politikası | TalepNET',
+  title: 'Affiliate Policy | TalepNET',
 };
 
 const page = () => {

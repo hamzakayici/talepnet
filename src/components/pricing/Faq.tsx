@@ -3,24 +3,24 @@ import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '..
 
 const pricingFaqs = [
   {
-    question: 'Can I start using TalepNET for free?',
+    question: 'TalepNET’i ücretsiz kullanmaya başlayabilir miyim?',
     answer:
-      'Yes. TalepNET supports a free starting point for 1 user, so teams can begin without committing to a paid rollout immediately.',
+      'Evet. TalepNET, 1 kullanıcı için ücretsiz bir başlangıç sunar; böylece ekipler ücretli bir devreye alma planına hemen geçmeden başlayabilir.',
   },
   {
-    question: 'When should a team move beyond the free starting point?',
+    question: 'Bir ekip ücretsiz başlangıç noktasının ötesine ne zaman geçmeli?',
     answer:
-      'Teams usually move into Team or Business plans when more users, higher transaction limits, stronger reporting, or additional workflow depth become necessary.',
+      'Ekipler genellikle daha fazla kullanıcıya, daha yüksek işlem limitlerine, daha güçlü raporlamaya veya daha derin iş akışlarına ihtiyaç duyduğunda Team ya da Business planına geçer.',
   },
   {
-    question: 'What is the difference between Business and Enterprise?',
+    question: 'Business ve Enterprise plan arasındaki fark nedir?',
     answer:
-      'Business adds broader workflow depth, reporting, and operational scale. Enterprise is designed for advanced security, integration, support, and larger rollout needs.',
+      'Business planı daha geniş iş akışı derinliği, raporlama ve operasyonel ölçek sunar. Enterprise plan ise gelişmiş güvenlik, entegrasyon, destek ve daha büyük devreye alma ihtiyaçları için tasarlanmıştır.',
   },
   {
-    question: 'How do I request custom pricing?',
+    question: 'Özel fiyat teklifi nasıl alabilirim?',
     answer:
-      'If your team needs a tailored rollout, custom integrations, or enterprise-specific requirements, use the Request a Quote path and our team will follow up.',
+      'Ekibinizin özel bir devreye alma planına, özel entegrasyonlara veya kurumsal gereksinimlere ihtiyacı varsa Teklif İste seçeneğini kullanın; ekibimiz sizinle iletişime geçecektir.',
   },
 ];
 
@@ -30,11 +30,11 @@ const Faq = () => {
       <div className="main-container">
         <div className="mx-auto max-w-3xl text-center">
           <RevealAnimation delay={0.12}>
-            <span className="badge badge-green !normal-case">Pricing FAQ</span>
+            <span className="badge badge-green !normal-case">Fiyatlandırma SSS</span>
           </RevealAnimation>
           <RevealAnimation delay={0.18}>
             <h2 className="mt-5 text-3xl font-normal text-secondary dark:text-accent sm:text-4xl">
-              Common questions about plans and rollout
+              Planlar ve devreye alma hakkında sık sorulan sorular
             </h2>
           </RevealAnimation>
         </div>

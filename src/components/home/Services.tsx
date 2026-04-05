@@ -1,3 +1,6 @@
+'use client';
+
+import { useTranslations } from '@/i18n/useTranslations';
 import RevealAnimation from '../animation/RevealAnimation';
 import LinkButton from '../ui/button/LinkButton';
 import { ReactNode } from 'react';
@@ -10,28 +13,29 @@ interface ServiceCard {
   description: string;
 }
 
-const servicesData: ServiceCard[] = [
-  {
-    id: 1,
-    icon: <Workflow className="text-secondary dark:text-accent size-10 sm:size-[52px]" strokeWidth={1.25} />,
-    title: 'Kurumsal Satın Alma Süreçleri',
-    description: 'İşletmenizin satın alma süreçlerini oluşturun ve TalepNET ile süreç onaylarını kolayca yönetin.',
-  },
-  {
-    id: 2,
-    icon: <ShoppingCart className="text-secondary dark:text-accent size-10 sm:size-[52px]" strokeWidth={1.25} />,
-    title: 'Online Teklif ve Siparişler',
-    description: 'Tedarikçilerinize talep gönderin, teklifler alın, onaylayın ve siparişleri online olarak gönderin.',
-  },
-  {
-    id: 3,
-    icon: <Users className="text-secondary dark:text-accent size-10 sm:size-[52px]" strokeWidth={1.25} />,
-    title: 'Tedarikçi Ağı',
-    description: 'Yeni tedarikçileri kategoriye göre arayın, gerçek yorumları okuyun ve talep gönderin.',
-  },
-];
-
 const Services = () => {
+  const t = useTranslations('home');
+  const servicesData: ServiceCard[] = [
+    {
+      id: 1,
+      icon: <Workflow className="text-secondary dark:text-accent size-10 sm:size-[52px]" strokeWidth={1.25} />,
+      title: t('services.items.0.title'),
+      description: t('services.items.0.description'),
+    },
+    {
+      id: 2,
+      icon: <ShoppingCart className="text-secondary dark:text-accent size-10 sm:size-[52px]" strokeWidth={1.25} />,
+      title: t('services.items.1.title'),
+      description: t('services.items.1.description'),
+    },
+    {
+      id: 3,
+      icon: <Users className="text-secondary dark:text-accent size-10 sm:size-[52px]" strokeWidth={1.25} />,
+      title: t('services.items.2.title'),
+      description: t('services.items.2.description'),
+    },
+  ];
+
   return (
     <RevealAnimation delay={0.1}>
       <section className="pt-[90px] pb-[50px] sm:pt-[100px] md:pt-[130px] md:pb-[100px] xl:pt-[200px]">
@@ -39,13 +43,12 @@ const Services = () => {
           <div className="mb-11 space-y-3 text-center md:mb-[70px]">
             <RevealAnimation delay={0.1}>
               <h2 className="mx-auto max-w-[400px] sm:max-w-[450px] md:max-w-[500px] lg:max-w-[828px]">
-                Satın alma süreçlerinizi iş akışı sihirbazı ile kolayca oluşturun
+                {t('services.title')}
               </h2>
             </RevealAnimation>
             <RevealAnimation delay={0.2}>
               <p className="mx-auto max-w-[390px] sm:max-w-[450px] md:max-w-[600px]">
-                TalepNET, tedarik sürecinizi basitleştiren sezgisel araçlar ve ihtiyaçlarınıza özel akıllı bir
-                yaklaşım sunar.
+                {t('services.description')}
               </p>
             </RevealAnimation>
           </div>
@@ -76,7 +79,7 @@ const Services = () => {
               <LinkButton
                 href="https://app.talepnet.com/sign-up"
                 className="btn btn-secondary dark:btn-transparent hover:btn-primary btn-md mx-auto w-[90%] md:mx-0 md:w-auto">
-                Ücretsiz denemeye başlayın
+                {t('services.cta')}
               </LinkButton>
             </div>
           </RevealAnimation>

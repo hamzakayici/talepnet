@@ -1,75 +1,42 @@
+'use client';
+
 import RevealAnimation from '@/components/animation/RevealAnimation';
 import LinkButton from '@/components/ui/button/LinkButton';
+import { useI18n } from '@/i18n/I18nProvider';
+import { localizeHref } from '@/i18n/pathnames';
 import Link from 'next/link';
 
-const industries = [
-  {
-    title: 'Automotive',
-    href: '/industries/automotive',
-    text: 'Connected procurement control for plants, branches, warehouses, and service operations.',
-  },
-  {
-    title: 'Construction',
-    href: '/industries/construction',
-    text: 'Structured purchasing across projects, sites, suppliers, and budget-sensitive execution.',
-  },
-  {
-    title: 'Education',
-    href: '/industries/education',
-    text: 'Procurement workflows for schools, colleges, and multi-campus institutions.',
-  },
-  {
-    title: 'Healthcare',
-    href: '/industries/healthcare',
-    text: 'Procurement structure for hospitals, clinics, labs, and care-focused operations.',
-  },
-  {
-    title: 'Hospitality',
-    href: '/industries/hospitality',
-    text: 'Multi-property procurement control for hotels, restaurants, resorts, and support teams.',
-  },
-  {
-    title: 'Non-Profit',
-    href: '/industries/non-profit',
-    text: 'Mission-aligned purchasing with stronger accountability, budgets, and spend visibility.',
-  },
-  {
-    title: 'Technology',
-    href: '/industries/technology',
-    text: 'Collaborative spend control for fast-growing technology teams and operating units.',
-  },
-];
-
 export default function IndustriesPage() {
+  const { messages, locale } = useI18n();
+  const industries = messages.industries.hub.items;
+
   return (
     <main className="overflow-x-hidden bg-white dark:bg-background-6">
       <section className="relative overflow-hidden bg-[radial-gradient(circle_at_top_left,rgba(59,130,246,0.12),transparent_28%),radial-gradient(circle_at_top_right,rgba(16,185,129,0.12),transparent_26%),linear-gradient(180deg,#f7fbff_0%,#ffffff_55%,#f8fafc_100%)] pt-32 dark:bg-background-7 md:pt-40 xl:pt-48">
         <div className="main-container relative z-10 pb-16 md:pb-20 xl:pb-24">
           <div className="max-w-3xl">
             <RevealAnimation delay={0.1}>
-              <span className="badge badge-green mb-6">Industries</span>
+              <span className="badge badge-green mb-6">{messages.industries.hub.badge}</span>
             </RevealAnimation>
             <RevealAnimation delay={0.2}>
               <h1 className="max-w-[12ch] text-4xl font-normal leading-tight text-secondary dark:text-accent sm:text-5xl xl:text-6xl">
-                Procurement workflows adapted to how each industry actually operates
+                {messages.industries.hub.title}
               </h1>
             </RevealAnimation>
             <RevealAnimation delay={0.3}>
               <p className="mt-6 max-w-2xl text-base leading-7 text-secondary/72 dark:text-accent/70 sm:text-lg">
-                Talepnet helps organizations connect requests, approvals, sourcing, suppliers,
-                orders, receiving, budgets, and spend visibility in one workflow model shaped for
-                operational reality.
+                {messages.industries.hub.description}
               </p>
             </RevealAnimation>
             <RevealAnimation delay={0.4}>
               <div className="mt-8 flex flex-wrap gap-3">
-                <LinkButton href="/contact-us" className="btn btn-primary btn-md">
-                  Request a Demo
+                <LinkButton href={localizeHref('/contact-us', locale)} className="btn btn-primary btn-md">
+                  {messages.industries.hub.primaryCta}
                 </LinkButton>
                 <LinkButton
                   href="#industry-list"
                   className="btn btn-white btn-md hover:btn-secondary dark:btn-transparent dark:hover:btn-accent">
-                  Explore Industries
+                  {messages.industries.hub.secondaryCta}
                 </LinkButton>
               </div>
             </RevealAnimation>
@@ -82,12 +49,12 @@ export default function IndustriesPage() {
           <div className="max-w-3xl space-y-4">
             <RevealAnimation delay={0.12}>
               <span className="hero-badge text-tagline-1 inline-block text-secondary dark:text-accent">
-                Industry solutions
+                {messages.industries.hub.sectionEyebrow}
               </span>
             </RevealAnimation>
             <RevealAnimation delay={0.2}>
               <h2 className="text-4xl font-normal leading-tight text-secondary dark:text-accent lg:text-heading-3">
-                A cleaner structure for sector-specific procurement pages
+                {messages.industries.hub.sectionTitle}
               </h2>
             </RevealAnimation>
           </div>
@@ -96,7 +63,7 @@ export default function IndustriesPage() {
             {industries.map((item, index) => (
               <RevealAnimation key={item.title} delay={0.22 + index * 0.05}>
                 <Link
-                  href={item.href}
+                  href={localizeHref(item.href, locale)}
                   className="group rounded-[26px] border border-stroke-3 bg-white p-7 transition-colors hover:border-primary-200 hover:bg-primary-50/40 dark:border-stroke-7 dark:bg-background-6 dark:hover:border-primary-500/20 dark:hover:bg-background-5">
                   <h3 className="text-2xl font-normal text-secondary dark:text-accent">
                     {item.title}
@@ -105,7 +72,7 @@ export default function IndustriesPage() {
                     {item.text}
                   </p>
                   <span className="mt-6 inline-block text-sm font-medium text-primary-600 dark:text-primary-300">
-                    View Industry
+                    {messages.industries.hub.viewIndustry}
                   </span>
                 </Link>
               </RevealAnimation>

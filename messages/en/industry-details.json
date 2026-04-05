@@ -1,0 +1,604 @@
+{
+  "automotive": {
+    "hero": {
+      "badge": "Industry Solutions",
+      "title": "A better way to manage procurement across automotive operations",
+      "description": "TalepNET helps automotive companies manage procurement across plants, branches, warehouses, service operations, and central teams with connected request, approval, sourcing, supplier, order, receiving, and spend workflows.",
+      "primaryCta": "Request a Demo",
+      "secondaryCta": "See the Automotive Flow",
+      "placeholder": "Automotive procurement placeholder",
+      "highlights": [
+        "Connect plant demand, approvals, and execution in one workflow",
+        "Bring supplier, quotation, and order history closer to decisions",
+        "Keep contracts and contracted suppliers visible during sourcing",
+        "Track receiving and supplier follow-through after order placement",
+        "Use spend visibility to support control across distributed operations"
+      ]
+    },
+    "intro": "Automotive procurement is not just about buying parts. It is about keeping maintenance, production support, service operations, and indirect spend moving without losing approval discipline or delivery visibility.",
+    "problem": {
+      "eyebrow": "Why automotive procurement becomes hard to control",
+      "title": "Distributed operations create workflow breaks quickly",
+      "description": "Plants, branches, depots, and service teams often buy under different conditions. When requests, approvals, supplier communication, and receiving are spread across email, calls, and spreadsheets, procurement loses consistency and management loses timing.",
+      "points": [
+        "Different sites follow different purchasing habits",
+        "Urgent demand bypasses approval discipline",
+        "Supplier communication becomes fragmented",
+        "Contracted suppliers are not always visible at purchase time",
+        "Orders and receipts become harder to follow centrally"
+      ]
+    },
+    "fit": {
+      "eyebrow": "Why TalepNET fits automotive environments",
+      "title": "Central control and site execution can live in the same system",
+      "description": "TalepNET supports multi-role, multi-branch procurement with configurable workflows, purchasing execution, supplier collaboration, receiving, and spend visibility in one connected operating model.",
+      "placeholder": "Plant and branch workflow placeholder"
+    },
+    "capabilities": {
+      "eyebrow": "How TalepNET supports automotive procurement",
+      "title": "One operating model across demand, sourcing, execution, and spend control",
+      "items": [
+        { "title": "Structured demand capture across locations", "text": "Standardize requests for maintenance teams, plant users, service units, and central buyers through controlled forms and request flows." },
+        { "title": "Approval workflows shaped by real authority structures", "text": "Reflect departments, thresholds, and roles in approval routing so control follows how decisions are actually made." },
+        { "title": "Better sourcing and supplier comparison", "text": "Convert approved demand into purchase forms, compare quotations, reuse previous order history, and surface contracted suppliers before committing spend." },
+        { "title": "Connected order and receiving execution", "text": "Keep purchase orders, supplier communication, delivery context, and receiving tied to the same purchasing chain." }
+      ]
+    },
+    "useCases": {
+      "eyebrow": "Built for real automotive procurement scenarios",
+      "title": "Flexible enough for plants, service operations, and central purchasing",
+      "items": [
+        { "title": "Plant and branch purchasing", "text": "Standardize local demand capture while preserving workflow flexibility across plants, service centers, depots, and administrative units." },
+        { "title": "MRO and operational supply buying", "text": "Manage recurring purchases for maintenance, equipment support, consumables, and day-to-day operational continuity." },
+        { "title": "Supplier-heavy sourcing environments", "text": "Improve quote comparison, supplier response handling, and contracted supplier reuse where multiple vendors compete in recurring categories." },
+        { "title": "Multi-location spend control", "text": "Bring visibility across branches and cost centers so procurement teams can see where spend is accumulating and where discipline is weakening." }
+      ]
+    },
+    "flow": {
+      "eyebrow": "A connected automotive procurement flow",
+      "title": "Keep requests, supplier decisions, and receiving connected across the same process.",
+      "description": "Requests, approvals, purchasing, supplier decisions, orders, and receiving remain part of one visible chain instead of separate operational handoffs.",
+      "steps": [
+        "Teams submit requests with cost center and operational context.",
+        "Approvals follow the configured organizational logic.",
+        "Purchasing converts approved demand into purchase forms.",
+        "Buyers collect quotations, compare suppliers, and reuse contract intelligence.",
+        "Orders are placed through structured supplier-facing workflows.",
+        "Receiving records what actually arrived and closes the loop."
+      ]
+    },
+    "benefits": {
+      "eyebrow": "What automotive teams gain with TalepNET",
+      "title": "Better coordination across distributed operations without losing control",
+      "items": [
+        { "title": "Better control across distributed operations", "text": "Plants and branches move through one connected model without losing local execution speed." },
+        { "title": "Better supplier coordination", "text": "RFQ, quote, order, and receiving activity stay attached to the process instead of being scattered." },
+        { "title": "Better commercial discipline", "text": "Contracted suppliers, previous orders, and quotation comparison give buyers stronger decision support." },
+        { "title": "Better financial control", "text": "Cost center, budget, and spend visibility help teams control procurement while operations are still moving." }
+      ]
+    },
+    "finalCta": {
+      "eyebrow": "Bring automotive procurement into one connected model",
+      "title": "Connect plant demand, approvals, sourcing, suppliers, orders, and receiving in one operational system.",
+      "description": "TalepNET gives automotive organizations a clearer way to manage supplier coordination and spend visibility across distributed operations.",
+      "primaryCta": "Request a Demo",
+      "secondaryCta": "Contact Us"
+    }
+  },
+  "construction": {
+    "hero": {
+      "badge": "Industry Solutions",
+      "title": "A better way to manage purchasing across construction projects and sites",
+      "description": "TalepNET helps construction companies manage requests, approvals, suppliers, sourcing, purchase orders, receiving, and spend visibility in one connected workflow.",
+      "primaryCta": "Request a Demo",
+      "secondaryCta": "See the Construction Flow",
+      "placeholder": "Construction procurement placeholder",
+      "highlights": [
+        "Standardize project and site demand capture",
+        "Keep approvals aligned with real project authority",
+        "Improve supplier coordination across active work",
+        "Move cleanly from sourcing into execution",
+        "Keep cost pressure visible while projects stay active"
+      ]
+    },
+    "intro": "Construction procurement is shaped by site urgency, supplier dependency, budget pressure, and multi-location execution. TalepNET gives teams a more structured way to control that complexity without slowing the field down.",
+    "problem": {
+      "eyebrow": "Why construction procurement is hard to keep under control?",
+      "title": "Site pressure and disconnected purchasing practices make consistency harder to maintain",
+      "description": "Construction organizations often buy under pressure. When demand starts on calls, WhatsApp messages, or spreadsheets, procurement loses consistency and finance loses timing.",
+      "points": [
+        "Project and site demand arrives through fragmented channels",
+        "Urgent purchasing bypasses approval and budget discipline",
+        "Supplier communication is hard to track across RFQs and orders",
+        "Different locations follow different procurement habits",
+        "Spend becomes visible too late"
+      ]
+    },
+    "fit": {
+      "eyebrow": "Why TalepNET fits construction environments?",
+      "title": "Operational flexibility and procurement structure can coexist",
+      "description": "TalepNET is built for organizations that need operational flexibility without sacrificing workflow discipline, supplier coordination, or spend visibility.",
+      "placeholder": "Project and site workflow placeholder"
+    },
+    "capabilities": {
+      "eyebrow": "How TalepNET supports construction procurement?",
+      "title": "One process chain across sites, suppliers, execution, and cost control",
+      "items": [
+        { "title": "Centralize project and site demand", "text": "Capture requests through structured forms so field teams, project managers, and procurement start from the same process record." },
+        { "title": "Keep approvals aligned with real project authority", "text": "Reflect departments, thresholds, and operational structures in routing logic without forcing every site into the same manual routine." },
+        { "title": "Source faster without losing commercial discipline", "text": "Generate purchase forms from approved demand, collect quotations, and reuse supplier history before making a decision." },
+        { "title": "Manage receipt and execution at project level", "text": "Record actual delivered quantities and keep order follow-through visible after supplier selection." }
+      ]
+    },
+    "useCases": {
+      "eyebrow": "Built for real construction purchasing scenarios",
+      "title": "Adapted for site-level urgency, supplier-heavy buying, and project cost pressure",
+      "items": [
+        { "title": "Multi-site procurement control", "text": "Standardize purchasing across projects, branches, and sites while preserving local operational speed." },
+        { "title": "Materials, services, and operational buying", "text": "Manage both direct and indirect procurement needs across materials, equipment support, and service vendors." },
+        { "title": "Supplier-heavy project environments", "text": "Improve supplier comparison and order follow-through in categories where timing and quality matter as much as price." },
+        { "title": "Budget-sensitive project execution", "text": "Keep project and departmental spend tied to cost center structures and approval logic." }
+      ]
+    },
+    "flow": {
+      "eyebrow": "A connected construction procurement flow",
+      "title": "Keep field demand, supplier decisions, and project execution connected in one process.",
+      "description": "Procurement remains structured from the first request through supplier decisions, order placement, receipt, and spend visibility.",
+      "steps": [
+        "Site or project teams submit requests with operational and cost-center context.",
+        "Approval logic routes demand through the right managers or functions.",
+        "Purchasing converts approved demand into purchase forms for sourcing.",
+        "Buyers collect quotations, compare suppliers, and reuse contract or order history.",
+        "Purchase orders are placed through structured supplier-facing workflows.",
+        "Receiving records what was actually delivered."
+      ]
+    },
+    "benefits": {
+      "eyebrow": "What construction teams gain with TalepNET?",
+      "title": "Better project control without slowing site execution down",
+      "items": [
+        { "title": "Better control across active projects", "text": "Procurement becomes more consistent across sites and business units without disconnecting field reality from central oversight." },
+        { "title": "Better supplier execution visibility", "text": "RFQ, quote, order, and receiving activity stay tied to the same operational chain." },
+        { "title": "Better cost discipline under time pressure", "text": "Approval workflows and sourcing comparisons help teams move fast without buying blindly." },
+        { "title": "Better spend visibility while projects are live", "text": "Management can see how purchasing activity is evolving before commercial drift becomes a larger issue." }
+      ]
+    },
+    "finalCta": {
+      "eyebrow": "Bring construction procurement into one connected system",
+      "title": "Connect project demand, approvals, suppliers, orders, receiving, and spend visibility in one structured model.",
+      "description": "TalepNET helps construction teams move faster in the field without giving up commercial discipline and cost control.",
+      "primaryCta": "Request a Demo",
+      "secondaryCta": "Contact Us"
+    }
+  },
+  "education": {
+    "hero": {
+      "badge": "Industry Solutions",
+      "title": "Educational procurement works better when campuses and departments stay connected",
+      "description": "TalepNET helps schools, colleges, and universities manage requests, approvals, budgets, suppliers, sourcing, orders, and receiving in one connected procurement workflow.",
+      "primaryCta": "Request a Demo",
+      "secondaryCta": "See the Education Flow",
+      "placeholder": "Educational procurement placeholder",
+      "highlights": [
+        "Connect academic, administrative, and facilities demand",
+        "Keep approvals aligned with institutional authority",
+        "Align budgets with purchasing decisions",
+        "Improve supplier comparison and order follow-through",
+        "Maintain visibility across multi-campus activity"
+      ]
+    },
+    "intro": "Education procurement spans academic teams, administrative units, campuses, and facilities. TalepNET brings those different demand sources into one governed process without adding unnecessary operational friction.",
+    "problem": {
+      "eyebrow": "Why education procurement becomes fragmented?",
+      "title": "Departments often buy differently even inside the same institution",
+      "description": "Schools and universities need purchasing control, but many still work across disconnected forms, inboxes, spreadsheets, and manual follow-up.",
+      "points": [
+        "Demand comes from many departments and locations",
+        "Approval paths differ across budgets and units",
+        "Supplier comparison becomes inconsistent",
+        "Order and receipt follow-through is harder to review later",
+        "Spend visibility often arrives too late"
+      ]
+    },
+    "fit": {
+      "eyebrow": "Why TalepNET fits education environments?",
+      "title": "Institutional governance and day-to-day purchasing can use the same workflow model",
+      "description": "TalepNET helps education teams connect request quality, approvals, supplier decisions, order execution, and budget visibility across one procurement system.",
+      "placeholder": "Department and campus workflow placeholder"
+    },
+    "capabilities": {
+      "eyebrow": "How TalepNET supports education procurement?",
+      "title": "One workflow model across campuses, departments, and support teams",
+      "items": [
+        { "title": "Structured request intake for different institutional users", "text": "Capture demand from academic, administrative, and facilities teams through controlled request workflows." },
+        { "title": "Approval discipline shaped by real authority lines", "text": "Reflect departments, thresholds, and decision structures in approval routing without losing usability." },
+        { "title": "Connected sourcing and supplier comparison", "text": "Move from approved demand into purchase forms, quotations, supplier comparison, and clearer commercial decisions." },
+        { "title": "Order execution and receiving continuity", "text": "Keep purchase orders, delivery context, and receiving attached to the same process chain." }
+      ]
+    },
+    "useCases": {
+      "eyebrow": "Built for real education procurement scenarios",
+      "title": "Adapted for academic, administrative, and facilities purchasing realities",
+      "items": [
+        { "title": "Multi-campus procurement coordination", "text": "Bring campuses and departments into one procurement model with clearer visibility and shared control." },
+        { "title": "Facilities and operational buying", "text": "Support recurring purchases for maintenance, campus support, and day-to-day operations." },
+        { "title": "Department-led purchasing", "text": "Give departments a cleaner request and approval path before procurement execution begins." },
+        { "title": "Budget-sensitive institutional spend", "text": "Keep cost center and budget context closer to approvals and order execution." }
+      ]
+    },
+    "flow": {
+      "eyebrow": "A connected education procurement flow",
+      "title": "Keep departmental demand, financial control, and operational follow-through connected across the institution.",
+      "description": "TalepNET reduces workflow breaks between requesters, approvers, buyers, finance teams, and receiving teams.",
+      "steps": [
+        "Departments submit requests with the right operational and budget context.",
+        "Approvals follow the configured institutional logic.",
+        "Purchasing turns approved demand into sourcing and supplier decisions.",
+        "Orders are placed through structured workflows.",
+        "Receiving records what actually arrived.",
+        "Spend visibility supports clearer institutional follow-through."
+      ]
+    },
+    "benefits": {
+      "eyebrow": "What education teams gain with TalepNET",
+      "title": "Better institutional control without slowing operational support down",
+      "items": [
+        { "title": "Better continuity across campuses and departments", "text": "Everyone works from a more connected process record instead of fragmented local routines." },
+        { "title": "Better approval and budget discipline", "text": "Financial ownership stays closer to the purchasing decision." },
+        { "title": "Better supplier execution visibility", "text": "Quotes, orders, and receiving remain tied to the same workflow chain." },
+        { "title": "Better auditability and review", "text": "It becomes easier to see how demand moved from request through operational closure." }
+      ]
+    },
+    "finalCta": {
+      "eyebrow": "Bring education procurement into one connected operating model",
+      "title": "Connect departmental demand, approvals, budgets, suppliers, sourcing, orders, and receiving in one procurement system.",
+      "description": "TalepNET helps education institutions improve visibility and control without making day-to-day purchasing more difficult.",
+      "primaryCta": "Request a Demo",
+      "secondaryCta": "Contact Us"
+    }
+  },
+  "healthcare": {
+    "hero": {
+      "badge": "Industry Solutions",
+      "title": "A more connected procurement model for healthcare operations",
+      "description": "TalepNET helps hospitals, clinics, laboratories, and care-focused organizations manage requests, approvals, suppliers, sourcing, orders, receiving, budgets, and spend visibility in one connected workflow.",
+      "primaryCta": "Request a Demo",
+      "secondaryCta": "See the Healthcare Flow",
+      "placeholder": "Healthcare procurement placeholder",
+      "highlights": [
+        "Keep urgent demand visible inside governed workflows",
+        "Connect supplier decisions to downstream execution",
+        "Preserve order and receiving continuity",
+        "Support budget-aware control in care operations",
+        "Reduce fragmented purchasing habits across teams"
+      ]
+    },
+    "intro": "Healthcare procurement often operates under urgency, supplier dependence, and budget pressure. TalepNET helps teams keep those conditions manageable without pushing control outside the workflow.",
+    "problem": {
+      "eyebrow": "Why healthcare procurement becomes difficult to trust",
+      "title": "Urgency and fragmented coordination weaken visibility fast",
+      "description": "Hospitals and clinics need to move quickly, but fragmented requests, supplier communication, and follow-through make it harder to keep purchasing visible and defensible.",
+      "points": [
+        "Urgent requests can bypass structured approval paths",
+        "Supplier communication gets fragmented across channels",
+        "Order follow-through becomes harder to review",
+        "Receiving may sit outside the original request chain",
+        "Budget visibility often lags behind purchasing activity"
+      ]
+    },
+    "fit": {
+      "eyebrow": "Why TalepNET fits healthcare environments",
+      "title": "Operational urgency and procurement control can coexist",
+      "description": "TalepNET supports connected request, approval, sourcing, supplier, order, and receiving workflows that help healthcare teams move faster with clearer visibility.",
+      "placeholder": "Clinical and operational workflow placeholder"
+    },
+    "capabilities": {
+      "eyebrow": "How TalepNET supports healthcare procurement",
+      "title": "One operating chain across demand, suppliers, orders, and receipt",
+      "items": [
+        { "title": "Structured request creation across care operations", "text": "Bring departmental and operational demand into controlled request and approval workflows." },
+        { "title": "Supplier comparison with stronger context", "text": "Use purchase forms, quotations, and previous order history to support better sourcing decisions." },
+        { "title": "Connected order execution", "text": "Keep supplier-facing purchase orders tied to the same workflow instead of treating them as disconnected documents." },
+        { "title": "Receiving continuity for real operational closure", "text": "Record what actually arrived and keep that outcome tied to the original purchasing chain." }
+      ]
+    },
+    "useCases": {
+      "eyebrow": "Built for real healthcare procurement scenarios",
+      "title": "Adapted for clinical urgency, supplier dependence, and budget-sensitive operations",
+      "items": [
+        { "title": "Hospital and clinic purchasing", "text": "Support recurring and urgent procurement needs across departments and care environments." },
+        { "title": "Laboratory and support operations", "text": "Keep day-to-day operational purchases visible across requests, suppliers, and receiving." },
+        { "title": "Supplier-heavy sourcing", "text": "Improve quotation handling and supplier comparison where continuity and timing matter." },
+        { "title": "Budget-aware healthcare buying", "text": "Keep financial visibility closer to the point where demand becomes commitment." }
+      ]
+    },
+    "flow": {
+      "eyebrow": "A connected healthcare procurement flow",
+      "title": "Keep urgent demand, supplier decisions, and receiving connected while care operations continue.",
+      "description": "TalepNET reduces workflow breaks between departments, procurement, suppliers, and receiving teams.",
+      "steps": [
+        "Teams submit requests with operational and financial context.",
+        "Approvals follow the configured governance logic.",
+        "Purchasing manages sourcing and supplier comparison.",
+        "Orders move into structured supplier-facing execution.",
+        "Receiving records actual delivered quantities.",
+        "Procurement and finance review the same operational chain."
+      ]
+    },
+    "benefits": {
+      "eyebrow": "What healthcare teams gain with TalepNET",
+      "title": "Better continuity between care operations, procurement, and financial control",
+      "items": [
+        { "title": "Better continuity across urgent operations", "text": "Demand can move faster without disappearing into fragmented handoffs." },
+        { "title": "Better supplier execution visibility", "text": "Quotations, orders, and receiving stay attached to the same workflow chain." },
+        { "title": "Better financial control", "text": "Budget-aware structures and spend visibility support decision-making earlier in the process." },
+        { "title": "Better traceability", "text": "It becomes easier to review what was requested, approved, ordered, and received." }
+      ]
+    },
+    "finalCta": {
+      "eyebrow": "Bring healthcare procurement into one connected model",
+      "title": "Connect departmental demand, approvals, suppliers, sourcing, orders, receiving, budgets, and spend visibility in one structured model.",
+      "description": "TalepNET helps healthcare organizations keep procurement more visible and easier to manage without slowing critical operations.",
+      "primaryCta": "Request a Demo",
+      "secondaryCta": "Contact Us"
+    }
+  },
+  "hospitality": {
+    "hero": {
+      "badge": "Industry Solutions",
+      "title": "Manage purchasing more effectively across hospitality operations",
+      "description": "TalepNET helps hotels, resorts, restaurants, and multi-property operations manage purchasing with more structure across requests, approvals, suppliers, orders, receiving, and budgets.",
+      "primaryCta": "Request a Demo",
+      "secondaryCta": "See the Hospitality Flow",
+      "placeholder": "Hospitality procurement placeholder",
+      "highlights": [
+        "Bring property-level demand into one workflow model",
+        "Keep supplier coordination more consistent across hotels",
+        "Improve order and receiving visibility",
+        "Support budget control across distributed operations",
+        "Reduce fragmented post-award follow-up"
+      ]
+    },
+    "intro": "Hospitality teams buy across properties, locations, departments, and supplier relationships. TalepNET helps bring those decisions into one connected operating model without slowing service-driven execution.",
+    "problem": {
+      "eyebrow": "Why hospitality procurement becomes fragmented",
+      "title": "Properties and teams often buy differently under time pressure",
+      "description": "Hospitality operations need speed, but fragmented demand, supplier coordination, and order follow-through create unnecessary uncertainty.",
+      "points": [
+        "Properties follow different purchasing routines",
+        "Supplier communication is scattered across email and calls",
+        "Order status is harder to track after placement",
+        "Receiving is often disconnected from the original purchase chain",
+        "Budget and spend visibility arrive too late"
+      ]
+    },
+    "fit": {
+      "eyebrow": "Why TalepNET fits hospitality environments",
+      "title": "Multi-property execution and central control can stay connected",
+      "description": "TalepNET supports connected workflows across requests, approvals, sourcing, suppliers, orders, receiving, and spend control so operations remain usable at property level and visible centrally.",
+      "placeholder": "Property and supplier workflow placeholder"
+    },
+    "capabilities": {
+      "eyebrow": "How TalepNET supports hospitality procurement",
+      "title": "One connected chain across demand, suppliers, execution, and visibility",
+      "items": [
+        { "title": "Structured requests across properties and teams", "text": "Capture purchasing needs from different properties and departments through one controlled process." },
+        { "title": "Approval routing that fits operational reality", "text": "Shape approval paths around thresholds, departments, and authority structures without slowing execution." },
+        { "title": "Supplier comparison and sourcing continuity", "text": "Move from approved demand into quotations, supplier selection, and purchase decisions with stronger context." },
+        { "title": "Order and receiving visibility", "text": "Keep placed orders and delivered quantities tied to the same workflow so follow-through remains visible." }
+      ]
+    },
+    "useCases": {
+      "eyebrow": "Built for real hospitality purchasing scenarios",
+      "title": "Practical use cases across hotels, restaurants, resorts, and support operations",
+      "items": [
+        { "title": "Multi-property procurement control", "text": "Bring distributed purchasing into one system while preserving local operational flexibility." },
+        { "title": "Operational and recurring supply buying", "text": "Support day-to-day purchasing for service continuity, facilities, food-related operations, and property support." },
+        { "title": "Supplier-heavy environments", "text": "Improve quotation handling, order follow-up, and supplier coordination where timing matters." },
+        { "title": "Budget-sensitive distributed operations", "text": "Keep cost center and spend visibility closer to the point where property demand turns into orders." }
+      ]
+    },
+    "flow": {
+      "eyebrow": "One workflow from request to receipt",
+      "title": "Keep demand, supplier decisions, and operational delivery connected across the same process.",
+      "description": "TalepNET helps hospitality teams reduce gaps between requesters, approvers, buyers, suppliers, and receiving teams.",
+      "steps": [
+        "Properties and teams submit requests with operational context.",
+        "Approvals follow the configured business logic.",
+        "Purchasing manages sourcing and supplier comparison.",
+        "Orders move into structured execution workflows.",
+        "Receiving captures what was actually delivered.",
+        "Budget and spend visibility support cleaner operational review."
+      ]
+    },
+    "benefits": {
+      "eyebrow": "Why hospitality teams choose TalepNET?",
+      "title": "Benefits that matter across properties, suppliers, and budgets",
+      "items": [
+        { "title": "Better consistency across properties", "text": "Distributed teams can work from one process model instead of fragmented local habits." },
+        { "title": "Better supplier coordination", "text": "RFQs, orders, and follow-up remain easier to review across the same workflow chain." },
+        { "title": "Better execution visibility", "text": "Placed orders and receiving outcomes stay visible after supplier decisions are made." },
+        { "title": "Better budget awareness", "text": "Spend visibility supports cleaner control across departments and properties." }
+      ]
+    },
+    "finalCta": {
+      "eyebrow": "Bring hospitality procurement into one connected operating model",
+      "title": "Manage purchasing, supplier coordination, and budget follow-through across properties in one model.",
+      "description": "TalepNET gives hospitality businesses a more structured way to manage distributed purchasing without losing operational speed.",
+      "primaryCta": "Request a Demo",
+      "secondaryCta": "Contact Us"
+    }
+  },
+  "nonProfit": {
+    "hero": {
+      "badge": "Industry Fit",
+      "title": "A clearer procurement model for nonprofit teams",
+      "description": "TalepNET helps nonprofit teams connect requests, approvals, suppliers, budgets, orders, and spend visibility in one structured procurement process.",
+      "primaryCta": "Request a Demo",
+      "secondaryCta": "See the Nonprofit Flow",
+      "placeholder": "Nonprofit procurement placeholder",
+      "highlights": [
+        "Connect demand, approvals, budgets, and spend in one process",
+        "Keep purchasing aligned with program and departmental structures",
+        "Improve auditability and workflow history",
+        "Bring supplier and order decisions into one chain",
+        "Reduce manual coordination across distributed teams"
+      ]
+    },
+    "intro": "Nonprofits need to know not only what has been spent, but what a new request or purchase will mean for the budget structure behind it. TalepNET helps bring that visibility closer to the purchasing process itself.",
+    "problem": {
+      "eyebrow": "Why nonprofit procurement becomes harder to review over time",
+      "title": "Mission-driven organizations still need structured financial control",
+      "description": "When requests, approvals, suppliers, and receipts sit in separate routines, nonprofits lose the continuity they need for accountability, budget control, and operational review.",
+      "points": [
+        "Demand can start in fragmented channels",
+        "Budget ownership is not always visible early enough",
+        "Workflow history becomes harder to reconstruct later",
+        "Supplier decisions are separated from the original request",
+        "Execution and receiving may sit outside the record"
+      ]
+    },
+    "fit": {
+      "eyebrow": "Keep a clearer process history and cleaner records",
+      "title": "Audit-ready visibility without rebuilding the history later",
+      "description": "TalepNET keeps requests, approvals, supplier decisions, purchase actions, order steps, and receiving activity tied to the same operational record.",
+      "placeholder": "Audit and budget placeholder"
+    },
+    "capabilities": {
+      "eyebrow": "How TalepNET supports nonprofit procurement",
+      "title": "One connected procurement model across budgets, approvals, suppliers, and execution",
+      "items": [
+        { "title": "Budget-aware request and approval workflows", "text": "Bring cost centers, approval logic, and spend visibility closer to the point where new demand is evaluated." },
+        { "title": "Connected supplier and purchasing workflows", "text": "Keep sourcing, supplier comparison, orders, and receiving attached to the same process chain." },
+        { "title": "Workflow history that supports accountability", "text": "Preserve who requested, who approved, who sourced, and what was actually received." },
+        { "title": "Structures that fit distributed nonprofit operations", "text": "Support departments, programs, locations, and thresholds inside one governed workflow model." }
+      ]
+    },
+    "useCases": {
+      "eyebrow": "Where TalepNET fits nonprofit procurement best",
+      "title": "Practical use cases for distributed, mission-driven organizations",
+      "items": [
+        { "title": "Program and departmental purchasing", "text": "Keep different teams aligned with shared approval and budget structures." },
+        { "title": "Budget-sensitive operational buying", "text": "Evaluate requests with clearer financial ownership before commitments move forward." },
+        { "title": "Supplier coordination and order follow-through", "text": "Bring supplier decisions and receipt visibility into the same workflow history." },
+        { "title": "Audit and review readiness", "text": "Maintain clearer records across request, approval, sourcing, order, and receipt stages." }
+      ]
+    },
+    "flow": {
+      "eyebrow": "Build workflows around your organization's reality",
+      "title": "Departments, programs, locations, and thresholds can all fit into the same governed process model.",
+      "description": "TalepNET's workflow model can reflect nonprofit operating complexity through configurable approval and execution steps shaped by role ownership and decision thresholds.",
+      "steps": [
+        "Teams submit requests with operational and budget context.",
+        "Approvals follow the configured governance logic.",
+        "Purchasing manages sourcing and supplier decisions.",
+        "Orders move into structured execution workflows.",
+        "Receiving records actual delivered quantities.",
+        "Workflow history remains connected for later review."
+      ]
+    },
+    "benefits": {
+      "eyebrow": "Why nonprofits choose TalepNET",
+      "title": "Benefits that support accountability and day-to-day use",
+      "items": [
+        { "title": "Better accountability", "text": "Each purchasing decision remains easier to review across the full process chain." },
+        { "title": "Better budget visibility", "text": "Financial ownership stays closer to requests and approvals instead of appearing only after the fact." },
+        { "title": "Better supplier and execution continuity", "text": "Supplier decisions, orders, and receipts remain easier to trace." },
+        { "title": "Better operational usability", "text": "Teams can work from a more structured process without adding unnecessary friction." }
+      ]
+    },
+    "finalCta": {
+      "eyebrow": "Bring nonprofit procurement into a clearer operating model",
+      "title": "Manage requests, approvals, suppliers, budgets, and spend visibility through one connected procurement model.",
+      "description": "TalepNET gives nonprofits a more structured way to support accountability and control while keeping operations usable.",
+      "primaryCta": "Request a Demo",
+      "secondaryCta": "Contact Us"
+    }
+  },
+  "technology": {
+    "hero": {
+      "badge": "Industry Fit",
+      "title": "A more controlled and flexible approach to technology purchasing",
+      "description": "TalepNET helps technology companies manage software, services, equipment, suppliers, budgets, orders, and spend visibility in one connected procurement space.",
+      "primaryCta": "Request a Demo",
+      "secondaryCta": "See the Technology Flow",
+      "placeholder": "Technology procurement placeholder",
+      "highlights": [
+        "Run software, services, equipment, and operational spend through one workflow",
+        "Scale approval logic as teams and thresholds grow",
+        "Keep suppliers, contracts, sourcing, and orders connected",
+        "Bring budget and spend visibility closer to decisions",
+        "Keep every action traceable from request to receipt"
+      ]
+    },
+    "intro": "Technology companies move fast, and purchasing should not become a bottleneck. TalepNET gives teams a connected procurement environment where requests, approvals, suppliers, budgets, and execution stay aligned.",
+    "problem": {
+      "eyebrow": "Maintain procurement discipline without slowing teams down",
+      "title": "Fast-moving teams still need clear spending control",
+      "description": "Technology organizations need systems that can support autonomy and control at the same time. Fragmented purchasing habits make that harder as teams and spend grow.",
+      "points": [
+        "Requests and approvals become harder to scale cleanly",
+        "Supplier and sourcing context gets separated from decisions",
+        "Budget visibility often lags behind operational demand",
+        "Order execution and receipt follow-through are harder to track",
+        "Spend becomes harder to interpret across teams and cost centers"
+      ]
+    },
+    "fit": {
+      "eyebrow": "Control spend before, not after, it happens",
+      "title": "Approval and workflow logic that can scale with growth",
+      "description": "TalepNET brings decision-making closer to the point of commitment through request approvals, purchase forms, purchase approvals, purchase orders, and receiving continuity.",
+      "placeholder": "Technology workflow placeholder"
+    },
+    "capabilities": {
+      "eyebrow": "Procurement structure for growing technology teams",
+      "title": "Approval control, supplier coordination, and spend visibility in one place",
+      "items": [
+        { "title": "Flexible approval workflows", "text": "Route requests and purchases through the right people based on thresholds, departments, and organizational logic." },
+        { "title": "Budget compliance and spend visibility", "text": "Connect cost centers, budget-aware controls, managed spend views, and spend insights to active procurement." },
+        { "title": "Centralized supplier and sourcing coordination", "text": "Manage suppliers, contacts, contracts, quotations, purchase forms, and orders in one connected system." },
+        { "title": "Procurement execution that keeps up with growth", "text": "Support structured request intake, sourcing, purchase approvals, purchase orders, and receiving as operations scale." }
+      ]
+    },
+    "useCases": {
+      "eyebrow": "Where TalepNET fits technology procurement best?",
+      "title": "Practical use cases for teams scaling across tools, vendors, and budgets",
+      "items": [
+        { "title": "Software, services, and equipment spend", "text": "Manage recurring and ad hoc technology purchases through one process model." },
+        { "title": "Scalable approval logic", "text": "Support fast-growing teams with clearer governance across departments and thresholds." },
+        { "title": "Quotation and supplier comparison", "text": "Improve sourcing quality where multiple vendors compete across recurring categories." },
+        { "title": "Budget discipline across teams and projects", "text": "Keep spend visibility connected to cost centers, projects, and procurement activity." }
+      ]
+    },
+    "flow": {
+      "eyebrow": "Make better decisions with better context",
+      "title": "Keep supplier history, quotations, orders, and receiving visible in the same procurement chain.",
+      "description": "TalepNET gives procurement and finance teams a clearer picture of how purchasing decisions are being made while teams continue to move fast.",
+      "steps": [
+        "Teams submit requests with the right operational and financial context.",
+        "Approvals follow the configured workflow logic.",
+        "Purchasing manages sourcing and supplier comparison.",
+        "Orders move into connected execution workflows.",
+        "Receiving records what was actually delivered.",
+        "Spend visibility supports clearer control across teams and budgets."
+      ]
+    },
+    "benefits": {
+      "eyebrow": "Why technology companies choose TalepNET?",
+      "title": "Benefits that support scale, visibility, and usability",
+      "items": [
+        { "title": "Full spending visibility", "text": "Gain a clearer view of supplier spend, category trends, cost center behavior, and budget pressure." },
+        { "title": "Ease of use", "text": "Keep the system usable for requesters, approvers, procurement, and finance teams from day one." },
+        { "title": "Built around your processes", "text": "Reflect real decision structures through configurable workflows rather than forcing one rigid model." },
+        { "title": "Stronger control without heavy friction", "text": "Support autonomy and speed while keeping approvals, suppliers, and execution visible." }
+      ]
+    },
+    "finalCta": {
+      "eyebrow": "Bring technology purchasing into a clearer operating model",
+      "title": "Centralize requests, approvals, suppliers, sourcing, orders, budgets, and spend visibility in one procurement system designed for growth.",
+      "description": "TalepNET helps technology companies improve control and visibility without slowing day-to-day decisions down.",
+      "primaryCta": "Request a Demo",
+      "secondaryCta": "Contact Us"
+    }
+  }
+}

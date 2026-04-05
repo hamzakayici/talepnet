@@ -1,3 +1,7 @@
+'use client';
+
+import { useI18n } from '@/i18n/I18nProvider';
+import { localizeHref } from '@/i18n/pathnames';
 import RevealAnimation from '@/components/animation/RevealAnimation';
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/components/ui/accordion';
 import LinkButton from '@/components/ui/button/LinkButton';
@@ -44,25 +48,6 @@ const pillars = [
     title: 'Finance gets cleaner inputs',
     text: 'Budgets, supplier visibility, execution records, and spend tracking create stronger conditions for reconciliation, review, and payment control. Finance works from a more complete process history rather than an isolated payable event.',
     icon: CreditCard,
-  },
-];
-
-const flow = [
-  {
-    title: 'Requests enter with context',
-    text: 'Employees and teams submit requests with organizational and cost-center context.',
-  },
-  {
-    title: 'Approvals validate demand',
-    text: 'Approvals route requests through the right stakeholders before commitments move forward.',
-  },
-  {
-    title: 'Purchasing selects the commercial path',
-    text: 'Purchasing teams source demand, compare suppliers, and select the right commercial path.',
-  },
-  {
-    title: 'Orders and receipts support payment control',
-    text: 'Purchase orders and receiving records create operational proof before AP and finance close the loop.',
   },
 ];
 
@@ -141,72 +126,10 @@ const features = [
   },
 ];
 
-const solutionAreas = [
-  'Purchase Requests',
-  'Approval Workflow',
-  'Source-to-Order',
-  'Supplier Management',
-  'Budget Control',
-  'Accounts Payable Foundation',
-];
-
-const outcomes = [
-  {
-    title: 'Less fragmented coordination between procurement and finance',
-    text: 'Both teams work from a more connected chain of decisions, reducing manual clarification and cross-functional friction.',
-  },
-  {
-    title: 'Better approval discipline before commitments become liabilities',
-    text: 'Requests and purchases are governed earlier, making it easier to control spending before it reaches the final payable stage.',
-  },
-  {
-    title: 'Stronger visibility from intake to payment preparation',
-    text: 'Leadership can understand how procurement commitments were formed, not just what eventually appeared in reporting.',
-  },
-  {
-    title: 'Cleaner spend control across suppliers, budgets, and execution records',
-    text: 'Spend becomes easier to interpret when it remains tied to suppliers, contracts, approvals, orders, and receipts.',
-  },
-  {
-    title: 'Better readiness for AP review and reconciliation',
-    text: 'Finance works from better procurement inputs, which reduces uncertainty and improves downstream control conditions.',
-  },
-];
-
-const faqs = [
-  {
-    question: 'What does procure-to-pay mean in Talepnet?',
-    answer:
-      'In Talepnet, procure-to-pay refers to the connected chain from request intake and approval through sourcing, supplier selection, purchase orders, receiving, and the procurement traceability finance needs before payment review.',
-  },
-  {
-    question: 'Does Talepnet support the full procure-to-pay process?',
-    answer:
-      'Talepnet strongly supports the procurement side of P2P, including requests, approvals, sourcing, suppliers, purchase orders, receiving, budgets, and spend visibility. It creates an AP-ready procurement foundation, even if invoice-side automation is not yet the strongest part of the product.',
-  },
-  {
-    question: 'How is Talepnet different from a standalone AP tool?',
-    answer:
-      'Talepnet improves the upstream side of procure-to-pay by reducing uncertainty before invoices reach finance. It helps teams create cleaner purchasing conditions rather than asking AP to resolve fragmented procurement history later.',
-  },
-  {
-    question: 'How does Talepnet support finance control?',
-    answer:
-      'Through cost centers, fiscal years, budget visibility, approval discipline, supplier traceability, purchase orders, and receiving records that keep financial ownership and operational evidence visible across the process.',
-  },
-  {
-    question: 'Why is receiving important in procure-to-pay?',
-    answer:
-      'Because payment control is much stronger when finance can see what was actually delivered, not only what was requested or ordered.',
-  },
-  {
-    question: 'Can Talepnet evolve toward deeper AP automation?',
-    answer:
-      'Yes. The existing procurement structure provides a strong base for future invoice workflows, matching logic, exception handling, and broader accounts payable automation.',
-  },
-];
-
 export default function ProcureToPayPage() {
+  const { locale, messages } = useI18n();
+  const page = messages.solutions.procureToPay;
+
   return (
     <main className="overflow-x-hidden bg-white dark:bg-background-6">
       <section className="relative overflow-hidden bg-[linear-gradient(135deg,#0f172a_0%,#11283c_42%,#183b52_100%)] pt-32 text-white dark:bg-[linear-gradient(135deg,#09111c_0%,#102135_46%,#163a4d_100%)] md:pt-40 xl:pt-48">
@@ -215,28 +138,28 @@ export default function ProcureToPayPage() {
           <div className="grid gap-14 lg:grid-cols-[0.88fr_1.12fr] lg:items-end">
             <div className="max-w-2xl">
               <RevealAnimation delay={0.1}>
-                <span className="badge badge-green mb-6">Strategic Solution</span>
+                <span className="badge badge-green mb-6">{page.badge}</span>
               </RevealAnimation>
               <RevealAnimation delay={0.2}>
                 <h1 className="max-w-[11ch] text-4xl font-normal leading-tight text-white sm:text-5xl xl:text-6xl">
-                  Procure-to-pay works best when every step stays connected
+                  {page.title}
                 </h1>
               </RevealAnimation>
               <RevealAnimation delay={0.3}>
                 <p className="mt-6 max-w-xl text-base leading-7 text-white/74 sm:text-lg">
-                  Talepnet helps teams connect request intake, approvals, sourcing, supplier coordination, orders, receiving, budget visibility, and AP control in one procurement system designed to reduce uncertainty across the full spend cycle.
+                  {page.description}
                 </p>
               </RevealAnimation>
               <RevealAnimation delay={0.4}>
                 <div className="mt-8 flex flex-wrap gap-3">
-                  <LinkButton href="/contact-us" className="btn btn-primary btn-md">
-                    Request a Demo
+                  <LinkButton href={localizeHref('/contact-us', locale)} className="btn btn-primary btn-md">
+                    {page.primaryCta}
                   </LinkButton>
                   <LinkButton
                     href="#ptp-flow"
                     className="btn btn-white btn-md hover:btn-secondary dark:btn-transparent dark:hover:btn-accent"
                   >
-                    See the P2P Flow
+                    {page.secondaryCta}
                   </LinkButton>
                 </div>
               </RevealAnimation>
@@ -244,7 +167,7 @@ export default function ProcureToPayPage() {
 
             <RevealAnimation delay={0.35} direction="right">
               <div className="overflow-hidden rounded-[30px] border border-white/10 bg-white/6 backdrop-blur-sm">
-                <ImagePlaceholder label="Procure-to-pay placeholder" className="min-h-[320px] sm:min-h-[390px]" />
+                <ImagePlaceholder label={page.heroPlaceholder} className="min-h-[320px] sm:min-h-[390px]" />
               </div>
             </RevealAnimation>
           </div>
@@ -256,24 +179,23 @@ export default function ProcureToPayPage() {
           <div className="space-y-4">
             <RevealAnimation delay={0.12}>
               <span className="hero-badge text-tagline-1 inline-block text-secondary dark:text-accent">
-                One operational chain from demand to payable readiness
+                {page.introEyebrow}
               </span>
             </RevealAnimation>
             <RevealAnimation delay={0.2}>
               <h2 className="text-4xl font-normal leading-tight text-secondary dark:text-accent lg:text-heading-3">
-                Procurement control should be in place before AP inherits the process
+                {page.introTitle}
               </h2>
             </RevealAnimation>
           </div>
 
           <RevealAnimation delay={0.24}>
             <div className="space-y-5 border-l border-stroke-3 pl-6 dark:border-stroke-7 md:pl-8">
-              <p className="text-base leading-7 text-secondary/72 dark:text-accent/70">
-                Procure-to-pay is often described as a finance process, but in practice it breaks down much earlier. By the time an invoice reaches accounts payable, the most important controls should already be in place. The need should be clearly requested, properly approved, financially owned, commercially sourced, supplier-aligned, ordered, and, where relevant, received. Talepnet strengthens procure-to-pay by connecting those upstream decisions instead of leaving finance to reconstruct them later.
-              </p>
-              <p className="text-base leading-7 text-secondary/72 dark:text-accent/70">
-                A stronger P2P model is not only about faster processing. It is about reducing ambiguity across teams. Procurement needs traceability. Finance needs confidence. Approvers need context. Requesters need visibility. Suppliers need structured engagement. Talepnet brings those conditions together in one system so the process feels usable for operations while remaining visible to finance and leadership.
-              </p>
+              {page.introParagraphs.map((paragraph: string) => (
+                <p key={paragraph} className="text-base leading-7 text-secondary/72 dark:text-accent/70">
+                  {paragraph}
+                </p>
+              ))}
             </div>
           </RevealAnimation>
         </div>
@@ -284,17 +206,17 @@ export default function ProcureToPayPage() {
           <RevealAnimation delay={0.12}>
             <div className="rounded-[28px] bg-white p-8 dark:bg-background-6 lg:p-10">
               <span className="hero-badge text-tagline-1 inline-block text-secondary dark:text-accent">
-                P2P discipline starts long before the invoice lands in finance
+                {page.coreEyebrow}
               </span>
               <p className="mt-5 text-base leading-8 text-secondary/72 dark:text-accent/70">
-                Talepnet connects the operational side of procurement with the control side of finance. That means requests are governed earlier, supplier decisions stay visible, orders and receipts support downstream review, and spend is easier to understand while commitments are still moving. Instead of treating procure-to-pay as a series of disconnected handoffs, Talepnet helps organizations manage it as one continuous chain.
+                {page.coreText}
               </p>
             </div>
           </RevealAnimation>
 
           <RevealAnimation delay={0.18}>
             <div className="overflow-hidden rounded-[28px] border border-stroke-3 bg-white dark:border-stroke-7 dark:bg-background-6">
-              <ImagePlaceholder label="P2P chain placeholder" className="min-h-[280px]" />
+              <ImagePlaceholder label={page.corePlaceholder} className="min-h-[280px]" />
             </div>
           </RevealAnimation>
         </div>
@@ -305,14 +227,14 @@ export default function ProcureToPayPage() {
           <div className="max-w-3xl space-y-4">
             <RevealAnimation delay={0.1}>
               <span className="hero-badge text-tagline-1 inline-block text-secondary dark:text-accent">
-                How Talepnet strengthens procure-to-pay
+                {page.pillarsEyebrow}
               </span>
             </RevealAnimation>
           </div>
 
           <div className="grid gap-10 lg:grid-cols-3">
-            {pillars.map((item, index) => {
-              const Icon = item.icon;
+            {page.pillars.map((item: { title: string; text: string }, index: number) => {
+              const Icon = pillars[index]?.icon ?? ClipboardList;
               return (
                 <RevealAnimation key={item.title} delay={0.18 + index * 0.06}>
                   <article className="space-y-5">
@@ -337,20 +259,19 @@ export default function ProcureToPayPage() {
         <div className="main-container grid gap-10 lg:grid-cols-[0.9fr_1.1fr] lg:items-start">
           <RevealAnimation delay={0.12}>
             <div className="max-w-xl">
-              <span className="text-tagline-1 text-primary-500">From internal demand to payment preparation</span>
+              <span className="text-tagline-1 text-primary-500">{page.summaryEyebrow}</span>
               <h2 className="mt-4 text-3xl font-normal leading-tight text-secondary dark:text-accent sm:text-4xl">
-                A connected process from request creation to AP-ready records
+                {page.summaryTitle}
               </h2>
             </div>
           </RevealAnimation>
           <RevealAnimation delay={0.18}>
             <div className="space-y-5 rounded-[30px] bg-white p-8 dark:bg-background-6 lg:p-10">
-              <p className="text-base leading-8 text-secondary/72 dark:text-accent/70">
-                In Talepnet, procure-to-pay begins with request creation and approval discipline, moves through sourcing and purchasing execution, continues into purchase orders and receiving, and creates a cleaner operational basis for downstream AP handling. The platform&apos;s value is not that it replaces every finance system. Its value is that it improves the quality and traceability of the procurement record before payment decisions are finalized.
-              </p>
-              <p className="text-base leading-8 text-secondary/72 dark:text-accent/70">
-                That matters because AP teams do not want more documents. They want fewer unknowns. Procurement leaders do not want more dashboards. They want a process they can trust. Talepnet supports both goals by connecting the procurement side of the chain to the financial side more coherently.
-              </p>
+              {page.summaryParagraphs.map((paragraph: string) => (
+                <p key={paragraph} className="text-base leading-8 text-secondary/72 dark:text-accent/70">
+                  {paragraph}
+                </p>
+              ))}
             </div>
           </RevealAnimation>
         </div>
@@ -360,17 +281,17 @@ export default function ProcureToPayPage() {
         <div className="main-container">
           <div className="mb-12 max-w-3xl space-y-4">
             <RevealAnimation delay={0.1}>
-              <span className="text-tagline-1 inline-block text-white/62">How the flow moves from request to payment control</span>
+              <span className="text-tagline-1 inline-block text-white/62">{page.flowEyebrow}</span>
             </RevealAnimation>
             <RevealAnimation delay={0.18}>
               <h2 className="text-4xl font-normal leading-tight text-white lg:text-heading-3">
-                One visible chain from demand validation to execution proof
+                {page.flowTitle}
               </h2>
             </RevealAnimation>
           </div>
 
           <div className="grid gap-5 lg:grid-cols-4">
-            {flow.map((item, index) => (
+            {page.steps.map((item: { title: string; text: string }, index: number) => (
               <RevealAnimation key={item.title} delay={0.24 + index * 0.08}>
                 <article className="rounded-[24px] border border-white/10 bg-white/5 p-7">
                   <span className="mb-5 inline-flex h-8 items-center rounded-full border border-white/10 px-3 text-sm text-white/70">
@@ -390,19 +311,19 @@ export default function ProcureToPayPage() {
           <div className="max-w-3xl space-y-4">
             <RevealAnimation delay={0.1}>
               <span className="hero-badge text-tagline-1 inline-block text-secondary dark:text-accent">
-                What Talepnet brings into the procure-to-pay flow
+                {page.featuresEyebrow}
               </span>
             </RevealAnimation>
             <RevealAnimation delay={0.18}>
               <h2 className="text-4xl font-normal leading-tight text-secondary dark:text-accent lg:text-heading-3">
-                The connected controls behind request, purchasing, receiving, and payment readiness
+                {page.featuresTitle}
               </h2>
             </RevealAnimation>
           </div>
 
           <div className="grid gap-5 md:grid-cols-2 xl:grid-cols-4">
-            {features.map((feature, index) => {
-              const Icon = feature.icon;
+            {page.features.map((feature: { title: string; description: string }, index: number) => {
+              const Icon = features[index]?.icon ?? ClipboardList;
               return (
                 <RevealAnimation key={feature.title} delay={0.2 + index * 0.03}>
                   <article className="rounded-[26px] border border-stroke-3 bg-background-3 p-7 dark:border-stroke-7 dark:bg-background-5">
@@ -424,10 +345,10 @@ export default function ProcureToPayPage() {
           <RevealAnimation delay={0.12}>
             <div className="rounded-[28px] bg-white p-8 dark:bg-background-6 lg:p-10">
               <span className="hero-badge text-tagline-1 inline-block text-secondary dark:text-accent">
-                The connected capabilities that make P2P work
+                {page.areasEyebrow}
               </span>
               <ul className="mt-6 grid gap-4 md:grid-cols-2">
-                {solutionAreas.map((item) => (
+                {page.areas.map((item: string) => (
                   <li key={item} className="flex items-start gap-3">
                     <CheckCircle2 className="mt-1 size-4 shrink-0 text-primary-500" />
                     <span className="text-base leading-7 text-secondary/72 dark:text-accent/70">{item}</span>
@@ -440,14 +361,13 @@ export default function ProcureToPayPage() {
           <RevealAnimation delay={0.18}>
             <div className="rounded-[28px] border border-stroke-3 bg-white p-8 dark:border-stroke-7 dark:bg-background-6 lg:p-10">
               <span className="hero-badge text-tagline-1 inline-block text-secondary dark:text-accent">
-                Procure-to-pay fails when teams inherit uncertainty
+                {page.mattersEyebrow}
               </span>
-              <p className="mt-6 text-base leading-8 text-secondary/72 dark:text-accent/70">
-                The biggest weakness in many P2P environments is not missing software. It is missing continuity. Procurement may approve demand, but AP cannot see why the purchase happened. Finance may see the invoice, but not the sourcing decision behind it. Suppliers may be selected, but receiving data remains incomplete. The problem is rarely one broken step. It is the lack of connection between steps.
-              </p>
-              <p className="mt-4 text-base leading-8 text-secondary/72 dark:text-accent/70">
-                Talepnet addresses that by bringing operational continuity into the procurement chain. Requests do not disappear after approval. Supplier decisions do not become disconnected from purchase execution. Receiving does not sit outside the record. Cost center context does not vanish after intake. This is what makes procure-to-pay more governable and more useful for both procurement and finance.
-              </p>
+              {page.mattersParagraphs.map((paragraph: string) => (
+                <p key={paragraph} className="mt-4 text-base leading-8 text-secondary/72 dark:text-accent/70">
+                  {paragraph}
+                </p>
+              ))}
             </div>
           </RevealAnimation>
         </div>
@@ -458,13 +378,13 @@ export default function ProcureToPayPage() {
           <RevealAnimation delay={0.12}>
             <div className="rounded-[28px] bg-background-3 p-8 dark:bg-background-5 lg:p-10">
               <span className="hero-badge text-tagline-1 inline-block text-secondary dark:text-accent">
-                For procurement leaders
+                {page.procurementEyebrow}
               </span>
               <h2 className="mt-5 text-3xl font-normal leading-tight text-secondary dark:text-accent">
-                Create stronger purchasing discipline without slowing the business
+                {page.procurementTitle}
               </h2>
               <p className="mt-5 text-base leading-8 text-secondary/72 dark:text-accent/70">
-                Procurement leaders need a system that helps teams move faster while preserving control. Talepnet supports that by giving buyers a structured sourcing workspace, by keeping approvals and supplier decisions visible, and by reducing workflow breaks between demand intake and order execution. That makes the commercial side of P2P more resilient and easier to manage at scale.
+                {page.procurementText}
               </p>
             </div>
           </RevealAnimation>
@@ -472,13 +392,13 @@ export default function ProcureToPayPage() {
           <RevealAnimation delay={0.18}>
             <div className="rounded-[28px] border border-stroke-3 bg-white p-8 dark:border-stroke-7 dark:bg-background-6 lg:p-10">
               <span className="hero-badge text-tagline-1 inline-block text-secondary dark:text-accent">
-                For finance and AP teams
+                {page.financeEyebrow}
               </span>
               <h2 className="mt-5 text-3xl font-normal leading-tight text-secondary dark:text-accent">
-                Give finance cleaner records and fewer surprises
+                {page.financeTitle}
               </h2>
               <p className="mt-5 text-base leading-8 text-secondary/72 dark:text-accent/70">
-                Finance teams do not want to spend time decoding incomplete procurement decisions. They want clarity around who requested something, who approved it, what was sourced, what was ordered, what was received, and where the cost belongs. Talepnet improves those conditions by preserving procurement context across the chain. While Talepnet is not yet a full invoice automation suite, it creates a much stronger foundation for downstream AP review, matching logic, and payment preparation.
+                {page.financeText}
               </p>
             </div>
           </RevealAnimation>
@@ -489,20 +409,19 @@ export default function ProcureToPayPage() {
         <div className="main-container grid gap-10 lg:grid-cols-[0.9fr_1.1fr] lg:items-start">
           <RevealAnimation delay={0.12}>
             <div className="max-w-xl">
-              <span className="text-tagline-1 text-primary-500">Why Talepnet is a strong foundation for AP control</span>
+              <span className="text-tagline-1 text-primary-500">{page.apFoundationEyebrow}</span>
               <h2 className="mt-4 text-3xl font-normal leading-tight text-secondary dark:text-accent sm:text-4xl">
-                Stronger procure-to-pay depends on better upstream procurement data
+                {page.apFoundationTitle}
               </h2>
             </div>
           </RevealAnimation>
           <RevealAnimation delay={0.18}>
             <div className="space-y-5 rounded-[30px] bg-white p-8 dark:bg-background-6 lg:p-10">
-              <p className="text-base leading-8 text-secondary/72 dark:text-accent/70">
-                A mature AP process depends on good upstream procurement data. That is why Talepnet fits naturally into procure-to-pay positioning even before full invoice automation is expanded. The platform already supports the process evidence that finance depends on: approved demand, supplier identity, quotation history, purchase approvals, purchase orders, receiving records, cost centers, and spend visibility.
-              </p>
-              <p className="text-base leading-8 text-secondary/72 dark:text-accent/70">
-                Over time, this foundation can support deeper finance-side extensions such as invoice capture, invoice approval workflows, matching against PO and receiving data, exception handling, and payment preparation logic. But even today, Talepnet improves the part of procure-to-pay that most often creates the downstream problem: fragmented procurement execution.
-              </p>
+              {page.apFoundationParagraphs.map((paragraph: string) => (
+                <p key={paragraph} className="text-base leading-8 text-secondary/72 dark:text-accent/70">
+                  {paragraph}
+                </p>
+              ))}
             </div>
           </RevealAnimation>
         </div>
@@ -513,18 +432,18 @@ export default function ProcureToPayPage() {
           <div className="max-w-3xl space-y-4">
             <RevealAnimation delay={0.1}>
               <span className="hero-badge text-tagline-1 inline-block text-secondary dark:text-accent">
-                Business outcomes across procurement and finance
+                {page.outcomesEyebrow}
               </span>
             </RevealAnimation>
             <RevealAnimation delay={0.18}>
               <h2 className="text-4xl font-normal leading-tight text-secondary dark:text-accent lg:text-heading-3">
-                What teams gain when the chain stays connected
+                {page.outcomesTitle}
               </h2>
             </RevealAnimation>
           </div>
 
           <div className="mt-12 grid gap-4 md:grid-cols-2 xl:grid-cols-5">
-            {outcomes.map((item, index) => (
+            {page.outcomes.map((item: { title: string; text: string }, index: number) => (
               <RevealAnimation key={item.title} delay={0.22 + index * 0.05}>
                 <div className="rounded-[22px] bg-background-3 p-6 dark:bg-background-5">
                   <h3 className="text-xl font-normal text-secondary dark:text-accent">{item.title}</h3>
@@ -540,16 +459,16 @@ export default function ProcureToPayPage() {
         <div className="main-container grid gap-10 lg:grid-cols-[0.9fr_1.1fr] lg:items-start">
           <RevealAnimation delay={0.12}>
             <div className="max-w-xl">
-              <span className="text-tagline-1 text-primary-500">What is procure-to-pay software?</span>
+              <span className="text-tagline-1 text-primary-500">{page.seoEyebrow}</span>
               <h2 className="mt-4 text-3xl font-normal leading-tight text-secondary dark:text-accent sm:text-4xl">
-                P2P software should improve both procurement efficiency and finance control
+                {page.seoTitle}
               </h2>
             </div>
           </RevealAnimation>
           <RevealAnimation delay={0.18}>
             <div className="rounded-[30px] bg-white p-8 dark:bg-background-6 lg:p-10">
               <p className="text-base leading-8 text-secondary/72 dark:text-accent/70">
-                Procure-to-pay software helps organizations manage the process from internal purchasing need through approval, supplier selection, order execution, receipt, and financial follow-through. A strong P2P system should improve both procurement efficiency and finance control. Talepnet supports this by connecting request workflows, sourcing, supplier management, purchase orders, receiving, budget control, and AP-ready traceability in one platform.
+                {page.seoText}
               </p>
             </div>
           </RevealAnimation>
@@ -560,18 +479,18 @@ export default function ProcureToPayPage() {
         <div className="main-container grid gap-10 lg:grid-cols-[0.82fr_1.18fr]">
           <div className="space-y-4">
             <RevealAnimation delay={0.1}>
-              <span className="hero-badge text-tagline-1 inline-block text-secondary dark:text-accent">FAQ</span>
+              <span className="hero-badge text-tagline-1 inline-block text-secondary dark:text-accent">{page.faqEyebrow}</span>
             </RevealAnimation>
             <RevealAnimation delay={0.18}>
               <h2 className="text-4xl font-normal leading-tight text-secondary dark:text-accent lg:text-heading-3">
-                Common questions about Procure-to-Pay
+                {page.faqTitle}
               </h2>
             </RevealAnimation>
           </div>
 
           <RevealAnimation delay={0.24}>
             <Accordion className="space-y-4" defaultValue="procure-to-pay-faq-1" animationDelay={0.08}>
-              {faqs.map((faq, index) => (
+              {page.faqs.map((faq: { question: string; answer: string }, index: number) => (
                 <AccordionItem
                   key={faq.question}
                   value={`procure-to-pay-faq-${index + 1}`}
@@ -605,21 +524,21 @@ export default function ProcureToPayPage() {
               <div className="grid gap-8 lg:grid-cols-[1fr_auto] lg:items-end">
                 <div className="max-w-3xl">
                   <span className="text-tagline-1 inline-block text-white/65">
-                    Build procure-to-pay on top of connected decisions, not disconnected handoffs
+                    {page.finalEyebrow}
                   </span>
                   <p className="mt-5 text-3xl font-normal leading-tight text-white lg:text-5xl">
-                    Talepnet helps organizations improve procurement discipline, strengthen finance visibility, and create cleaner payment conditions by connecting every step from request to receipt.
+                    {page.finalTitle}
                   </p>
                 </div>
                 <div className="flex flex-wrap gap-3 lg:justify-end">
-                  <LinkButton href="/contact-us" className="btn btn-primary btn-md">
-                    Request a Demo
+                  <LinkButton href={localizeHref('/contact-us', locale)} className="btn btn-primary btn-md">
+                    {page.primaryCta}
                   </LinkButton>
                   <LinkButton
-                    href="/contact-us"
+                    href={localizeHref('/contact-us', locale)}
                     className="btn btn-white btn-md hover:btn-secondary dark:btn-transparent dark:hover:btn-accent"
                   >
-                    Talk to Sales
+                    {page.finalSecondaryCta}
                   </LinkButton>
                 </div>
               </div>

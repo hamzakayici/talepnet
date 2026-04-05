@@ -1,0 +1,1102 @@
+{
+  "supplierPortal": {
+    "badge": "Tedarikçiler İçin",
+    "title": "RFQ’ları, siparişleri, sözleşmeleri ve katalogları tek bir tedarikçi portalında yönetin",
+    "description": "TalepNET Supplier Portal, tedarikçilere RFQ’lara yanıt vermek, siparişleri yönetmek, sözleşmeleri takip etmek, katalog oluşturmak ve buyer ekipleriyle tek bir bağlı procurement deneyimi içinde çalışmak için yapılandırılmış bir alan sunar.",
+    "primaryCta": "Demo Talep Et",
+    "secondaryCta": "Tedarikçi akışını görün",
+    "heroCards": [
+      {
+        "eyebrow": "Yanıtla",
+        "text": "RFQ ve teklifleri tek kuyrukta yönetin"
+      },
+      {
+        "eyebrow": "Takip et",
+        "text": "Sipariş ve sözleşmeleri daha net görün"
+      },
+      {
+        "eyebrow": "Güncel tut",
+        "text": "Katalog, profil ve marka görünürlüğünü koruyun"
+      }
+    ],
+    "heroHighlights": [
+      "RFQ’lara tek bir supplier workspace üzerinden yanıt verin",
+      "Teklifleri, sözleşmeleri ve siparişleri aynı akışta tutun",
+      "Katalog ve şirket profil bilgilerini daha kolay güncel tutun",
+      "Sourcing ve operasyon boyunca parçalı iletişimi azaltın"
+    ],
+    "supportCopy": "Supplier ilişkileri; RFQ’lar, teklifler, sözleşmeler, siparişler, katalog içeriği ve iletişim kopuk kanallarda dağılmadığında daha iyi çalışır. TalepNET Supplier Portal bunları tek bir supplier-facing ortamda bir araya getirerek ticari etkileşimi daha net, daha hızlı ve daha kolay yönetilebilir hale getirir.",
+    "sections": {
+      "introEyebrow": "Pratikte supplier portal nedir?",
+      "introText": "Supplier portal; tedarikçilerin buyer ekipleriyle parçalı e-posta zincirleri ve manuel takip yerine yapılandırılmış procurement iş akışları üzerinden etkileşime geçtiği dijital bir çalışma alanıdır. TalepNET Supplier Portal; tedarikçilerin RFQ almasını, teklif göndermesini, siparişleri takip etmesini, sözleşmeleri yönetmesini, katalog içeriğini güncel tutmasını ve şirket bilgilerini tek bir bağlı platformda korumasını sağlar.",
+      "problemEyebrow": "Supplier iş birliği neden bozulur?",
+      "problemText": "Birçok organizasyonda tedarikçi etkileşimi hâlâ ayrı dokümanlara, inbox’lara, aramalara ve spreadsheet’lere bölünmüş durumda. Bu da hem buyer hem supplier tarafında yanıt süresini yavaşlatır ve görünürlüğü zayıflatır.",
+      "workspaceEyebrow": "Tedarikçi çalışma alanı",
+      "workspaceTitle": "Sadece portal girişi değil, yapılandırılmış bir tedarikçi çalışma alanı",
+      "workspaceText": "TalepNET Supplier Portal, procurement içinde supplier operating layer olarak tasarlanmıştır. RFQ’ları, teklifleri, siparişleri, sözleşmeleri, katalogları, şirket profil yönetimini ve iş birliği sinyallerini tek bir ortamda bir araya getirir.",
+      "flowEyebrow": "Portal akışı",
+      "flowTitle": "TalepNET’te supplier portal nasıl çalışır",
+      "sourcingEyebrow": "Sourcing ve operasyon",
+      "sourcingTitle": "Sourcing, sözleşmeler ve sipariş operasyonu için tek portal",
+      "sourcingText": "TalepNET Supplier Portal yalnızca tek bir işlem noktasını desteklemek için tasarlanmadı. Tedarikçiler sourcing event’lerine yanıt verebilir, sözleşmelere bağlı kalabilir ve kopuk süreçler arasında geçiş yapmadan sipariş takibine devam edebilir.",
+      "catalogEyebrow": "Supplier katalogları",
+      "catalogTitle": "Tedarikçi tekliflerini güncel ve daha kolay keşfedilebilir tutun",
+      "catalogText": "TalepNET, tedarikçi deneyimini katalog oluşturma ve bakımına da uzatır. Tedarikçiler sundukları ürünlerin nasıl görüneceğini şekillendirebilir, ürün bilgilerini güncel tutabilir ve buyer discovery deneyimine katkı sağlayabilir.",
+      "outcomesEyebrow": "Kazanımlar",
+      "outcomesTitle": "Tedarikçiler tek bir bağlı portalda çalıştığında ne değişir?",
+      "useCasesEyebrow": "Nerede değer üretir",
+      "useCasesTitle": "TalepNET Supplier Portal en çok nerede değer sağlar?",
+      "faqEyebrow": "SSS",
+      "faqTitle": "Supplier portal hakkında sık sorulan sorular",
+      "finalTitle": "Tedarikçilere yanıt vermek, yönetmek ve iş birliği yapmak için tek bir alan verin",
+      "finalText": "TalepNET Supplier Portal, tedarikçilerin RFQ’lara, sözleşmelere, kataloglara ve siparişlere daha yakın kalmasını sağlarken buyer tarafına da daha temiz ve daha bağlı bir iş birliği modeli sunar.",
+      "joinPortal": "Portala Katıl"
+    },
+    "painPoints": [
+      "RFQ’lar parçalı kanallardan gelir",
+      "Teklif ve sözleşme geçmişini takip etmek zordur",
+      "Sipariş yanıt aksiyonları tutarsızdır",
+      "Katalog güncellemeleri manuel takibe bağlıdır",
+      "Buyer ve supplier ekipleri farklı kayıtlar üzerinden çalışır",
+      "Supplier profil ve ticari bilgiler zamanla güncelliğini kaybeder"
+    ],
+    "features": [
+      {
+        "title": "Tedarikçi Çalışma Alanı Panosu",
+        "description": "RFQ aktivitesi, sipariş hacmi, ticari trendler ve profil gücünü görebileceğiniz supplier-facing bir panelden başlayın."
+      },
+      {
+        "title": "Yeni RFQ Inbox",
+        "description": "Gelen RFQ’ları net deadline ve kalem bazlı detaylarla özel bir kuyrukta görüntüleyin."
+      },
+      {
+        "title": "Online teklif gönderimi",
+        "description": "Kalem bazlı fiyat, not, geçerlilik tarihi ve teslim taahhütlerini portal üzerinden yapılandırılmış biçimde gönderin."
+      },
+      {
+        "title": "Gönderilen teklif geçmişi",
+        "description": "Daha önce gönderilen teklifleri gözden geçirin ve ticari yanıtları zaman içinde daha kolay takip edin."
+      },
+      {
+        "title": "Aktif ve tamamlanan siparişler",
+        "description": "Aktif ve tamamlanan satın alma siparişlerini ayrı görünümlerde izleyerek operasyon durumunu net tutun."
+      },
+      {
+        "title": "Sipariş aksiyonları",
+        "description": "Siparişleri portal üzerinden onaylayın, reddedin veya fulfilled olarak işaretleyin."
+      },
+      {
+        "title": "Sözleşme görünürlüğü",
+        "description": "Supplier sözleşmelerine tek yerden erişin, ticari kapsamı gözden geçirin ve aktif buyer ilişkilerine uyumlu kalın."
+      },
+      {
+        "title": "Sözleşme yönetimi",
+        "description": "Agreement kayıtlarını yönetin ve müzakere edilmiş şartları aktif buyer ilişkilerinde daha kolay takip edin."
+      },
+      {
+        "title": "Supplier katalog oluşturma",
+        "description": "Buyer ekiplerinin sunulan ürünleri daha yapılandırılmış biçimde keşfetmesi için supplier katalog içeriği oluşturun ve yönetin."
+      },
+      {
+        "title": "Katalog içerik yönetimi",
+        "description": "Katalog kalemlerini, açıklamaları ve ticari sunumu manuel dosya paylaşımı yerine güncel tutun."
+      },
+      {
+        "title": "Şirket profil yönetimi",
+        "description": "Şirket bilgileri, web sitesi, lokasyon, kategoriler ve iletişim bilgilerini güncel tutun."
+      },
+      {
+        "title": "Marka ve görsel kimlik",
+        "description": "Buyer ekosisteminde şirket sunumunu güçlendirmek için logo ve kapak görselini yönetin."
+      },
+      {
+        "title": "Profil gücü yönlendirmesi",
+        "description": "Eksik alanları gösteren profil tamamlama yönlendirmesiyle discoverability’yi artırın."
+      },
+      {
+        "title": "İş birliği workspace’i",
+        "description": "RFQ’ları, siparişleri, sözleşmeleri, katalogları ve profil verisini tek ortamda bağlayarak buyer-supplier etkileşimini daha düzenli tutun."
+      }
+    ],
+    "steps": [
+      {
+        "title": "Al ve yanıt ver",
+        "text": "Tedarikçiler RFQ’lara erişir ve özel portal alanından yapılandırılmış teklifler gönderir."
+      },
+      {
+        "title": "Ticari şartlara bağlı kal",
+        "text": "Sözleşmeler aynı ortam içinde görünür kalır; böylece supplier ilişkileri operasyonel olarak daha kolay yönetilir."
+      },
+      {
+        "title": "Siparişleri takip et ve aksiyon al",
+        "text": "Tedarikçiler aktif siparişleri inceler, sipariş olaylarına yanıt verir ve operasyon durumunu görünür tutar."
+      },
+      {
+        "title": "Dijital varlığı koru",
+        "text": "Katalog içeriği, şirket profili ve marka unsurları aynı supplier-facing sistem içinde güncel kalır."
+      }
+    ],
+    "keyMessages": [
+      "RFQ ve teklifler yapılandırılmış kalır",
+      "Sözleşmeler görünür ve aksiyon alınabilir olur",
+      "Siparişler aynı supplier yolculuğunu sürdürür",
+      "Buyer-supplier etkileşimi bağlı kalır",
+      "Ticari bağlam zaman içinde daha kolay korunur"
+    ],
+    "benefits": [
+      {
+        "title": "Aktif RFQ’lara daha hızlı yanıt",
+        "text": "İş akışı yapılandırılmış ve erişilebilir olduğunda RFQ’ları gözden geçirmek ve yanıtlamak daha kolay olur."
+      },
+      {
+        "title": "Ticari aktivite boyunca daha güçlü süreklilik",
+        "text": "Teklifler, sözleşmeler ve siparişler izole kayıtlara dönüşmek yerine aynı supplier yolculuğunun parçası kalır."
+      },
+      {
+        "title": "Daha güvenilir katalog içeriği",
+        "text": "Supplier tarafından yönetilen katalog içeriği, sunulan kalemlerin daha güncel ve daha kolay keşfedilebilir kalmasına yardımcı olur."
+      },
+      {
+        "title": "Buyer tarafıyla daha net çalışma modeli",
+        "text": "Her iki taraf da sourcing, sözleşmeler ve operasyon boyunca ortak bir dijital ortamdan çalışır."
+      },
+      {
+        "title": "Daha güçlü supplier görünürlüğü",
+        "text": "Profil gücü, marka unsurları ve yapılandırılmış ticari aktivite supplier’ın kendini daha etkili göstermesine yardımcı olur."
+      }
+    ],
+    "useCases": [
+      "RFQ’lara yapılandırılmış portal iş akışı üzerinden yanıt vermek",
+      "Aktif ve tamamlanan satın alma siparişlerini takip etmek",
+      "Buyer tarafıyla sözleşme görünürlüğünü yönetmek",
+      "Kalem keşfini kolaylaştırmak için supplier katalog içeriğini güncel tutmak",
+      "Şirket profilini ve marka görünürlüğünü güncel tutmak",
+      "Sourcing ve operasyon boyunca parçalı iletişimi azaltmak",
+      "Uzun vadeli buyer-supplier iş birliğini tek sistemde desteklemek"
+    ],
+    "faqs": [
+      {
+        "question": "TalepNET Supplier Portal nedir?",
+        "answer": "TalepNET Supplier Portal; vendor’ların RFQ, teklif, sipariş, sözleşme, katalog ve profil bilgilerini tek bir bağlı ortamda yönetebildiği supplier-facing bir çalışma alanıdır."
+      },
+      {
+        "question": "Tedarikçiler portal üzerinden doğrudan teklif gönderebilir mi?",
+        "answer": "Evet. Tedarikçiler fiyat, geçerlilik, teslim bağlamı ve not içeren yapılandırılmış teklifleri portal üzerinden doğrudan gönderebilir."
+      },
+      {
+        "question": "Portal sipariş takibi ve yanıt aksiyonlarını destekliyor mu?",
+        "answer": "Evet. Tedarikçiler aktif ve tamamlanan siparişleri inceleyebilir ve onay, red veya fulfillment aksiyonları verebilir."
+      },
+      {
+        "question": "Tedarikçiler portal içinde sözleşmeleri yönetebilir mi?",
+        "answer": "Evet. TalepNET Supplier Portal, agreement kayıtlarına görünürlük sağlar ve ticari ilişkilerin daha kolay yönetilmesine yardımcı olur."
+      },
+      {
+        "question": "Tedarikçiler katalog oluşturabilir ve sürdürebilir mi?",
+        "answer": "Evet. Tedarikçiler katalog içeriğini yönetebilir; böylece buyer ekipleri daha güncel ürün bilgilerine yapılandırılmış dijital kanal üzerinden erişebilir."
+      },
+      {
+        "question": "TalepNET supplier iş birliğini nasıl iyileştirir?",
+        "answer": "TalepNET; RFQ’ları, sözleşmeleri, katalogları, siparişleri ve profil yönetimini tek supplier-facing sistemde birleştirerek parçalı iletişimi azaltır ve iş birliğini daha operasyonel hale getirir."
+      }
+    ]
+  },
+  "respondToRfqs": {
+    "badge": "Tedarikçiler İçin",
+    "title": "E-posta, ek dosya ve eksik bağlam peşinde koşmadan RFQ’lara yanıt verin",
+    "description": "TalepNET, tedarikçilere quotation request’leri daha temiz biçimde incelemek, buyer ihtiyacını anlamak, yapılandırılmış fiyat teklifini online göndermek ve her yanıtı aynı portal akışı içinde görünür tutmak için daha iyi bir yol sunar.",
+    "primaryCta": "Demo Talep Et",
+    "secondaryCta": "RFQ akışını görün",
+    "heroHighlights": [
+      "RFQ’ları özel supplier workspace içinde inceleyin",
+      "Kalem detaylarını, notları, deadline’ları ve teslim bağlamını birlikte görün",
+      "E-posta yanıtını baştan kurmak yerine online yapılandırılmış fiyat verin",
+      "Gönderilen teklifleri sonradan da görünür tutun"
+    ],
+    "sections": {
+      "workspaceEyebrow": "RFQ çalışma alanı",
+      "workspaceTitle": "Supplier ve buyer için daha iyi bir RFQ deneyimi",
+      "workspaceText": "RFQ’lara yanıt vermek, dağınık doküman ve e-posta zincirlerinden talebi yeniden kurmak gibi hissettirmemeli. TalepNET; yeni RFQ’ların, kalem detaylarının, deadline’ların, teslim bağlamının ve gönderilen tekliflerin bağlı kaldığı özel bir portal alanı sunar.",
+      "problemEyebrow": "Neden önemli?",
+      "problemTitle": "Quotation iş akışları parçalı kaldığında herkes zaman kaybeder",
+      "problemText": "Supplier ekiplerinden hızlı yanıt beklenir, ancak ihtiyaç duydukları bilgi her zaman kullanılabilir biçimde sunulmaz. TalepNET, RFQ yanıtını gevşek yönetilen bir bilgi alışverişi yerine yapılandırılmış dijital iş akışına dönüştürür.",
+      "capabilityEyebrow": "RFQ yanıtı",
+      "capabilityTitle": "Tedarikçilerin gerçekten nasıl yanıt verdiğine göre tasarlandı",
+      "capabilityText": "TalepNET’in RFQ deneyimi pratik supplier işi etrafında tasarlandı. Tedarikçiler gelen RFQ’ları açabilir, buyer bilgisini inceleyebilir, kalemleri görebilir, item level fiyat girebilir, teslim süresi ve teklif geçerliliği tanımlayabilir, ticari not ekleyebilir ve her şeyi portal üzerinden tek yapılandırılmış yanıt içinde gönderebilir.",
+      "flowEyebrow": "RFQ akışı",
+      "flowTitle": "Gelen talepten gönderilen teklife",
+      "supplierEyebrow": "Supplier deneyimi",
+      "supplierTitle": "Daha az gidip gelme, daha kullanışlı ticari detay",
+      "supplierText": "TalepNET, quotation request’lere yanıt verirken supplier ekiplerinin karşılaştığı manuel işi azaltır. Dosyaları yorumlamak, fiyatı e-postaya yeniden yazmak veya her buyer için ayrı kayıt tutmak yerine daha kontrollü dijital süreçten yanıt verilebilir.",
+      "buyerEyebrow": "Buyer tarafı etkisi",
+      "buyerTitle": "Buyer tarafında da daha temiz teklifler",
+      "buyerText": "Güçlü bir supplier RFQ deneyimi buyer tarafında da procurement sonuçlarını iyileştirir. Supplier ekipleri yapılandırılmış akıştan yanıt verdiğinde teklifler karşılaştırması, satın alma kararına aktarımı ve sonradan izlenmesi daha kolay olur.",
+      "outcomesEyebrow": "Kazanımlar",
+      "outcomesTitle": "Daha iyi RFQ akışıyla ne iyileşir?",
+      "useCasesEyebrow": "Nerede değer üretir",
+      "useCasesTitle": "Bu RFQ deneyimi en çok nerede değer sağlar?",
+      "faqEyebrow": "SSS",
+      "faqTitle": "RFQ yanıtları hakkında sık sorulan sorular",
+      "finalTitle": "Supplier tekliflerini göndermeyi ve değerlendirmeyi kolaylaştırın",
+      "finalText": "TalepNET, tedarikçilerin daha hızlı yanıt vermesine ve buyer ekiplerinin daha temiz, daha karşılaştırılabilir RFQ yanıtları almasına yardımcı olur.",
+      "joinPortal": "Portala Katıl"
+    },
+    "painPoints": [
+      "RFQ’lar kopuk iletişim kanallarından gelir",
+      "Kalem detaylarını gözden geçirmek gereğinden zor olur",
+      "Teklif yanıtları her seferinde manuel yeniden kurulur",
+      "Teslim beklentileri ve deadline’lar kolayca gözden kaçar",
+      "Tedarikçiler neyin gönderildiğini kolayca takip edemez",
+      "Buyer ekipleri farklı vendor’lardan tutarsız quotation formatları alır"
+    ],
+    "features": [
+      {
+        "title": "Yeni RFQ Workspace",
+        "description": "Inbox içinde arama ve manuel doküman yönetimi yerine gelen RFQ’lar için özel bir listeye erişin."
+      },
+      {
+        "title": "Net buyer bağlamı",
+        "description": "Her RFQ, buyer şirketi, buyer kontağı, referans numarası, oluşturma tarihi ve deadline bilgisini tek görünümde içerebilir."
+      },
+      {
+        "title": "Teslim ve not görünürlüğü",
+        "description": "Teslim lokasyonu ve buyer notları RFQ yanında görünür kalır; böylece daha iyi bağlamla fiyatlama yapılır."
+      },
+      {
+        "title": "Kalem bazlı teklif girişi",
+        "description": "Tedarikçiler portal üzerinden item başına birim fiyat girerek yanıtı daha yapılandırılmış ve karşılaştırılabilir hale getirebilir."
+      },
+      {
+        "title": "Çoklu para birimi desteği",
+        "description": "Teklifler seçilen para birimiyle gönderilebilir; böylece ticari yanıt doğru fiyatlama temeline dayanır."
+      },
+      {
+        "title": "Teklif geçerlilik tarihleri",
+        "description": "Tedarikçiler fiyat teklifinin ne kadar süre geçerli kalacağını yanıtın parçası olarak tanımlayabilir."
+      },
+      {
+        "title": "Teslim süresi girişi",
+        "description": "Teslim süresi teklifin parçası olarak eklenebilir; böylece buyer ekipleri fiyat kadar operasyonel uyumu da değerlendirebilir."
+      },
+      {
+        "title": "Buyer’a notlar",
+        "description": "Tedarikçiler ticari veya operasyonel notları kayıt dışı ayrı iletişim yerine doğrudan teklife ekleyebilir."
+      },
+      {
+        "title": "Gönderilen teklif geçmişi",
+        "description": "Önceden teklif verilen RFQ’lar ayrı görünümde kalır; böylece neyin gönderildiği kolayca takip edilir."
+      },
+      {
+        "title": "Yapılandırılmış dijital gönderim",
+        "description": "Teklifler portal üzerinden daha temiz formatta gönderilir; böylece her iki taraf için de belirsizlik azalır."
+      }
+    ],
+    "steps": [
+      {
+        "title": "RFQ’yu alın",
+        "text": "Tedarikçiler portal üzerinden referans, buyer, deadline ve kalem özeti ekli gelen quotation request’lere erişir."
+      },
+      {
+        "title": "Talebi bağlam içinde inceleyin",
+        "text": "Buyer notları, teslim lokasyonu ve item açıklamaları, fiyatlama öncesinde talebi daha iyi anlamayı sağlar."
+      },
+      {
+        "title": "Teklifi oluşturun",
+        "text": "Tedarikçiler birim fiyat girer, para birimi seçer, teslim süresi ve teklif geçerliliği tanımlar, gerekiyorsa not ekler."
+      },
+      {
+        "title": "Gönderin ve görünür tutun",
+        "text": "Teklif aynı portal akışı üzerinden gönderilir ve sonradan referans için teklif geçmişinde görünür kalır."
+      }
+    ],
+    "benefits": [
+      {
+        "title": "Daha hızlı supplier yanıt döngüsü",
+        "text": "Supplier ekipleri talebi çözmeye daha az, kullanılabilir teklif hazırlamaya daha çok zaman harcar."
+      },
+      {
+        "title": "Daha tutarlı quotation gönderimi",
+        "text": "Buyer ekipleri farklı vendor’lardan uyumsuz formatlar yerine yapılandırılmış fiyat yanıtları alır."
+      },
+      {
+        "title": "Daha net ticari detay",
+        "text": "Teslim süresi, teklif geçerliliği ve notlar doğrudan quotation kaydına bağlı kalır."
+      },
+      {
+        "title": "Daha temiz izlenebilirlik",
+        "text": "Gönderilen teklifler e-posta geçmişinde kaybolmak yerine portal içinde görünür kalır."
+      },
+      {
+        "title": "Daha az manuel takip",
+        "text": "Buyer ve supplier ekipleri aynı RFQ bağlamından çalıştığı için gereksiz açıklama döngüleri azalır."
+      }
+    ],
+    "useCases": [
+      "Procurement ekiplerinden gelen tekrar eden quotation request’lere yanıt veren tedarikçiler",
+      "Kalem bazlı netlik gerektiren çok satırlı RFQ’lara fiyat veren vendor’lar",
+      "Ek dosya yerine online quote submission isteyen organizasyonlar",
+      "Supplier karşılaştırmasını iyileştirmek isteyen procurement ekipleri",
+      "Teslim süresi ve teklif geçerliliğinin fiyat kadar önemli olduğu supplier ilişkileri",
+      "Zaman içinde daha temiz teklif geçmişi isteyen işletmeler"
+    ],
+    "faqs": [
+      {
+        "question": "Tedarikçiler TalepNET’te RFQ’ları nasıl alır?",
+        "answer": "Tedarikçiler gelen RFQ’lara portal içindeki özel new-RFQ workspace üzerinden erişir; buyer detayları, deadline ve talep bağlamı tek yerde görünür."
+      },
+      {
+        "question": "Tedarikçiler fiyatları kalem kalem girebilir mi?",
+        "answer": "Evet. TalepNET, supplier ekiplerinin item level birim fiyat girmesine izin verir; böylece teklif daha yapılandırılmış ve buyer için daha değerlendirilebilir olur."
+      },
+      {
+        "question": "Teslim süresi ve geçerlilik süresi teklife eklenebilir mi?",
+        "answer": "Evet. Supplier ekipleri delivery lead time ve quote validity bilgilerini RFQ yanıtının parçası olarak tanımlayabilir."
+      },
+      {
+        "question": "Gönderilen teklifler sonradan da görünür mü?",
+        "answer": "Evet. Teklif verilen RFQ’lar ayrı history view içinde görünür kalır; böylece daha önce ne gönderildiği incelenebilir."
+      },
+      {
+        "question": "Bu neden e-posta tabanlı RFQ yönetiminden daha iyi?",
+        "answer": "TalepNET; RFQ’yu, item detaylarını, quote verisini ve gönderim geçmişini tek iş akışı içinde tutar; böylece iki taraf için de belirsizlik ve manuel takip azalır."
+      }
+    ]
+  },
+  "trackOrders": {
+    "badge": "Tedarikçiler İçin",
+    "title": "Siparişleri daha net durum, daha hızlı yanıt ve daha az takip ihtiyacıyla izleyin",
+    "description": "TalepNET, tedarikçilerin satın alma siparişlerini aktif ve tamamlanan işler olarak görünür tutan, sipariş aksiyonlarını kolaylaştıran ve iki taraf için de operasyonu daha net gösteren bir portal deneyimi sunar.",
+    "primaryCta": "Demo Talep Et",
+    "secondaryCta": "Sipariş akışını görün",
+    "heroHighlights": [
+      "Aktif ve tamamlanan siparişleri tek workspace içinde görün",
+      "Teslim bağlamını, notları, tarihleri ve toplamları aynı kayıtta inceleyin",
+      "Siparişi onaylama, reddetme veya tamamlandı olarak işaretleme aksiyonlarını açık biçimde verin",
+      "PO gönderildikten sonra takip döngülerini azaltın"
+    ],
+    "sections": {
+      "workspaceEyebrow": "Sipariş workspace",
+      "workspaceTitle": "Sipariş takibi ancak sorun çıkınca başlamamalı",
+      "workspaceText": "Bir supplier seçildikten sonra asıl operasyon başlar. Buyer ekipleri siparişin görülüp görülmediğini, kabul edilip edilmediğini ya da tamamlanıp tamamlanmadığını bilmek ister. Supplier ekipleri ise siparişi görmek, teslim beklentisini kontrol etmek ve dağınık e-posta ya da telefon trafiğine bağlı kalmadan aksiyon almak ister.",
+      "problemEyebrow": "Neden önemli?",
+      "problemTitle": "Sipariş iletişimi parçalı kaldığında operasyon güven vermemeye başlar",
+      "problemText": "Birçok procurement ortamında tedarikçilere PO e-posta ile gider ve sonrası başka kanallarda ilerler. Onay gayriresmî olur, teslim niyeti netleşmez ve buyer ekipleri güncellemeleri manuel takip etmek zorunda kalır.",
+      "capabilityEyebrow": "Sipariş takibi",
+      "capabilityTitle": "Gerçek operasyon bağlamına sahip supplier-facing order workspace",
+      "capabilityText": "TalepNET’in sipariş deneyimi, supplier yolculuğunu sourcing sonrasında da sürdürmek için tasarlandı. Tedarikçiler aktif ve tamamlanan siparişleri görebilir, buyer şirketini, beklenen tarihi, teslim lokasyonunu, notları, kalemleri ve toplamları inceleyebilir ve portal içinden aksiyon alabilir.",
+      "flowEyebrow": "Sipariş akışı",
+      "flowTitle": "Verilen siparişten görünür supplier yanıtına",
+      "supplierEyebrow": "Supplier deneyimi",
+      "supplierTitle": "Sipariş takibini yönetmenin daha temiz yolu",
+      "supplierText": "Supplier ekipleri bir siparişin durumunu parçalı iletişimden yeniden kurmak zorunda kalmamalı. TalepNET onlara neyin aktif, neyin tamamlanmış ve neyin aksiyon gerektirdiğini göstermek için doğrudan bir alan sunar.",
+      "buyerEyebrow": "Buyer tarafı etkisi",
+      "buyerTitle": "Sipariş takibi procurement kontrolünü de güçlendirir",
+      "buyerText": "Supplier dostu bir sipariş alanı buyer kontrolünü de güçlendirir. Supplier ekipleri siparişlere doğrudan sistem içinde aksiyon verdiğinde buyer ekipleri daha net sinyaller, daha güçlü izlenebilirlik ve daha az belirsizlik elde eder.",
+      "outcomesEyebrow": "Kazanımlar",
+      "outcomesTitle": "Siparişler görünür kaldığında ne iyileşir?",
+      "useCasesEyebrow": "Nerede değer üretir",
+      "useCasesTitle": "TalepNET sipariş takibi en çok nerede değer sağlar?",
+      "faqEyebrow": "SSS",
+      "faqTitle": "Sipariş takibi hakkında sık sorulan sorular",
+      "finalTitle": "Satın alma siparişlerini verildikten sonra da görünür tutun",
+      "finalText": "TalepNET, tedarikçilerin siparişleri gözden geçirmesine, daha hızlı yanıt vermesine ve operasyon durumunu daha net tutmasına yardımcı olur; procurement ekiplerine de PO’dan teslim almaya kadar daha güçlü görünürlük sağlar.",
+      "joinPortal": "Portala Katıl"
+    },
+    "painPoints": [
+      "Siparişler buyer sisteminden çıktıktan sonra takip edilmesi zor hale gelir",
+      "Tedarikçilerin aktif PO’ları görebileceği tek güvenilir alan her zaman yoktur",
+      "Onay ve red kararları süreç kaydının dışında gerçekleşir",
+      "Sipariş geçmişi zamanla daha zor izlenir",
+      "Teslim beklentileri ve notlar iletişim zincirlerinde kaybolur",
+      "Buyer ve supplier ekipleri farklı operasyon görünümlerinden çalışır"
+    ],
+    "features": [
+      {
+        "title": "Aktif sipariş workspace",
+        "description": "Inbox araması ve manuel takip yerine aktif satın alma siparişlerine özel portal listesinden erişin."
+      },
+      {
+        "title": "Tamamlanan sipariş geçmişi",
+        "description": "Tamamlanan siparişler geçmiş operasyonun gerektiğinde incelenebilmesi için ayrı görünümde kalır."
+      },
+      {
+        "title": "Sipariş detay görünümü",
+        "description": "Her siparişi PO numarası, buyer şirketi, tarihler, teslim lokasyonu, notlar, kalemler ve toplamla birlikte tek yerde açın."
+      },
+      {
+        "title": "Sipariş durum görünürlüğü",
+        "description": "Aktif durum bilgisi sipariş kaydı içinde görünür kalır ve iki tarafın operasyonu aynı şekilde görmesine yardımcı olur."
+      },
+      {
+        "title": "Siparişi onayla",
+        "description": "Supplier ekipleri siparişin alındığını ve görüldüğünü portal üzerinden doğrulayabilir."
+      },
+      {
+        "title": "Siparişi reddet",
+        "description": "Sipariş kabul edilemeyecekse supplier ekipleri sessizlik yerine portal üzerinden açıkça red aksiyonu verebilir."
+      },
+      {
+        "title": "Fulfilled olarak işaretle",
+        "description": "Supplier ekipleri fulfillment sinyalini portal içinde vererek operasyon ilerlemesini görünür kılabilir."
+      },
+      {
+        "title": "Teslim bağlamı",
+        "description": "Teslim lokasyonu ve beklenen tarih siparişe bağlı kalır; böylece operasyon beklentisi bağlam içinde incelenir."
+      },
+      {
+        "title": "Sipariş notları ve ticari detay",
+        "description": "Buyer notları, kalem açıklamaları, miktarlar, birimler ve toplam tutar aynı supplier-facing kaydın parçası olur."
+      },
+      {
+        "title": "Yapılandırılmış buyer-to-supplier teslim",
+        "description": "Buyer tarafında TalepNET, satın alma siparişlerini e-posta, güvenli link, WhatsApp paylaşımı ve portal bağlı iletişimle göndermeyi destekler."
+      },
+      {
+        "title": "Güvenli purchase order paylaşımı",
+        "description": "Siparişler statik ek dosya yerine güvenli doküman linkleriyle paylaşılabilir."
+      },
+      {
+        "title": "Sipariş iletişimi izlenebilirliği",
+        "description": "Buyer tarafındaki iletişim logları siparişin ne zaman ve nasıl iletildiğini görmeyi kolaylaştırır."
+      },
+      {
+        "title": "Portal bağlı supplier deneyimi",
+        "description": "Portal erişimi olan tedarikçiler quotation sürecinden sipariş incelemesine kadar yapılandırılmış procurement ortamında kalır."
+      },
+      {
+        "title": "Receiving sürekliliği",
+        "description": "TalepNET’te siparişler yerleştirme ile bitmez; buyer tarafında receiving’e kadar devam ederek supplier operasyonunu gerçek teslim sonucu ile bağlar."
+      }
+    ],
+    "steps": [
+      {
+        "title": "Buyer siparişi verir",
+        "text": "TalepNET, purchase order’ı yapılandırılmış supplier-facing kanallardan üretir ve paylaşır."
+      },
+      {
+        "title": "Supplier siparişi inceler",
+        "text": "Tedarikçiler siparişi teslim bağlamı, notlar, tarihler, kalemler ve toplamlarla birlikte portalda açar."
+      },
+      {
+        "title": "Supplier aksiyon alır",
+        "text": "Sipariş, operasyon sonucuna göre portal içinden onaylanabilir, reddedilebilir veya fulfilled olarak işaretlenebilir."
+      },
+      {
+        "title": "Operasyon görünür kalır",
+        "text": "Buyer tarafındaki receiving ve sipariş geçmişi süreci sürdürür; böylece iki taraf da daha net operasyon durumundan çalışır."
+      }
+    ],
+    "benefits": [
+      {
+        "title": "Daha hızlı onay döngüleri",
+        "text": "Supplier ekipleri portal içinde doğrudan yanıt verdiğinde buyer ekipleri daha net onay sinyali alır."
+      },
+      {
+        "title": "Daha net operasyon durumu",
+        "text": "Onay, red ve fulfillment aksiyon olduğunda sipariş durumu gayriresmî mesajlara göre daha kolay yorumlanır."
+      },
+      {
+        "title": "Daha temiz sipariş geçmişi",
+        "text": "Aktif ve tamamlanan siparişler zaman içinde daha kolay gezilecek şekilde ayrılır."
+      },
+      {
+        "title": "Daha az manuel takip",
+        "text": "Procurement ekipleri temel sipariş durumu soruları için çoklu kanalları kovalamak zorunda kalmaz."
+      },
+      {
+        "title": "Receiving’e daha güçlü süreklilik",
+        "text": "Supplier tarafındaki sipariş takibi buyer tarafındaki goods receipt ve procurement closure ile daha temiz bağ kurar."
+      }
+    ],
+    "useCases": [
+      "Procurement ekiplerinden gelen tekrar eden purchase order’ları yöneten tedarikçiler",
+      "PO verildikten sonra daha hızlı onay isteyen buyer ekipleri",
+      "Post-award takip parçalanmasını azaltmak isteyen organizasyonlar",
+      "Teslim beklentilerinin görünür kalması gereken supplier ilişkileri",
+      "Portal bağlı sipariş yanıt aksiyonu isteyen procurement ekipleri",
+      "Aktif ve tamamlanan işlerde daha temiz sipariş geçmişi isteyen işletmeler",
+      "Sipariş operasyonunu downstream receiving’e bağlamak isteyen ekipler"
+    ],
+    "faqs": [
+      {
+        "question": "Tedarikçiler TalepNET’te siparişleri nasıl takip eder?",
+        "answer": "Tedarikçiler Supplier Portal üzerinden aktif ve tamamlanan siparişlere erişir; her siparişi açıp durumunu, detaylarını ve gereken aksiyonları inceleyebilir."
+      },
+      {
+        "question": "Tedarikçiler siparişleri portal içinde onaylayabilir veya reddedebilir mi?",
+        "answer": "Evet. TalepNET, supplier-facing iş akışı içinde doğrudan sipariş onayı ve red aksiyonlarını destekler."
+      },
+      {
+        "question": "Tedarikçiler siparişi fulfilled olarak işaretleyebilir mi?",
+        "answer": "Evet. Supplier ekipleri fulfillment bilgisini portal üzerinden ileterek sipariş ilerlemesini buyer tarafına görünür kılabilir."
+      },
+      {
+        "question": "Supplier ekipleri hangi sipariş detaylarını görür?",
+        "answer": "PO numarası, buyer şirketi, sipariş ve beklenen tarihler, teslim lokasyonu, notlar, kalemler, miktarlar ve toplam tutarlar sipariş kaydı içinde görünür."
+      },
+      {
+        "question": "TalepNET buyer tarafına sipariş gönderildikten sonra nasıl yardımcı olur?",
+        "answer": "TalepNET, sipariş iletişimini, supplier yanıtını, güvenli doküman paylaşımını ve receiving’i aynı procurement zincirine bağlı tutar."
+      },
+      {
+        "question": "Bu neden yalnızca e-posta ile sipariş takibinden daha iyidir?",
+        "answer": "TalepNET iki tarafa da açık durum aksiyonları ve daha net görünürlük sağlayan yapılandırılmış sipariş kaydı sunar; parçalı iletişime bağımlılığı azaltır."
+      }
+    ]
+  },
+  "manageAgreements": {
+    "badge": "Tedarikçiler İçin",
+    "title": "Supplier agreement’ları görünür, kullanılabilir ve yönetilebilir tutun",
+    "description": "TalepNET, ticari şartları, kapsanan kalemleri, agreement durumunu ve ilgili iş birliğini tek bir supplier deneyimi içinde bir araya getirerek tedarikçilerin buyer agreement’larına hizalı kalmasına yardımcı olur.",
+    "primaryCta": "Demo Talep Et",
+    "secondaryCta": "Agreement akışını görün",
+    "heroHighlights": [
+      "Agreement şartlarını ve kapsanan kalemleri daha kolay takip edin",
+      "Lifecycle durumunu ve geçerlilik dönemlerini daha net görün",
+      "Agreement’ları kataloglara, sourcing’e ve supplier kayıtlarına bağlayın",
+      "Mutabık kalınan şartlarla günlük procurement aktivitesi arasındaki kopmaları azaltın"
+    ],
+    "sections": {
+      "workspaceEyebrow": "Sözleşme çalışma alanı",
+      "workspaceTitle": "Agreement’lar imzadan sonra da aktif kalmalı",
+      "workspaceText": "Çok sık şekilde supplier agreement’ları, günlük procurement başladıktan sonra takibi zor statik dokümanlara dönüşür. TalepNET, şartları, kapsamı ve agreement bağlamını daha geniş procurement ilişkisi içinde görünür tutarak supplier ekiplerine daha net hizalanma sağlar.",
+      "problemEyebrow": "Neden önemli?",
+      "problemTitle": "Agreement’lar iş akışının dışında kaldığında ticari uyum zayıflar",
+      "problemText": "Bir supplier agreement’ın varlığını biliyor olabilir; ancak bu, ilişkinin kolay yönetildiği anlamına gelmez. Kapsanan kalemler net olmayabilir, geçerlilik dönemleri gözden kaçabilir ve contract-backed satın alma ortak operasyon görünümü olmadan dağılabilir.",
+      "capabilityEyebrow": "Agreement yönetimi",
+      "capabilityTitle": "Ticari ilişkilere supplier-facing bir bakış",
+      "capabilityText": "TalepNET’in agreement modeli, supplier ilişkilerini kopuk dosyalar yerine yapılandırılmış ticari kayıtlarla bağlar. Buyer tarafında lifecycle durumu, para birimi, tarih, not, kapsanan kalemler, fiyat mantığı, indirim ve katalog görünürlüğü gibi alanlar yönetilebilir.",
+      "flowEyebrow": "Agreement akışı",
+      "flowTitle": "Ticari agreement’tan aktif supplier ilişkisine",
+      "supplierEyebrow": "Supplier perspektifi",
+      "supplierTitle": "Ticari ilişkiler görünür kaldığında yönetmek kolaylaşır",
+      "supplierText": "Supplier tarafından bakıldığında agreement’ların en büyük değeri, buyer ilişkisini gerçekte neyin kapsadığını açıklığa kavuşturmasıdır. TalepNET bunu supplier bağlı ticari yapıyı procurement iş akışına yaklaştırarak sağlar.",
+      "buyerEyebrow": "Buyer tarafı etkisi",
+      "buyerTitle": "Supplier tarafı görünür olduğunda agreement’lar daha değerli hale gelir",
+      "buyerText": "Buyer tarafındaki agreement yönetimi, supplier ekipleri ilişkiyi daha görünür şekilde görebildiğinde güçlenir. TalepNET agreement’ları supplier kayıtları, item coverage, sourcing davranışı ve katalog mantığına bağlar.",
+      "outcomesEyebrow": "Kazanımlar",
+      "outcomesTitle": "Agreement’lar operasyonel kaldığında ne iyileşir?",
+      "useCasesEyebrow": "Nerede değer üretir",
+      "useCasesTitle": "Agreement yönetimi en çok nerede değer sağlar?",
+      "faqEyebrow": "SSS",
+      "faqTitle": "Agreement yönetimi hakkında sık sorulan sorular",
+      "finalTitle": "Agreement’ları canlıya geçtikten sonra da yönetilebilir tutun",
+      "finalText": "TalepNET, buyer ve supplier ekiplerinin ticari ilişkileri statik dokümanlara hapsetmeden görünür, yapılandırılmış ve gerçek procurement aktivitesine bağlı tutmasına yardımcı olur.",
+      "joinPortal": "Portala Katıl"
+    },
+    "painPoints": [
+      "Agreement detaylarını imza sonrasında takip etmek zordur",
+      "Kapsanan kalemler ve ticari kapsam her zaman net değildir",
+      "Sona erme riski olması gerekenden kolay gözden kaçar",
+      "Contract-backed satın alma mutabık kalınan şartların dışına taşabilir",
+      "Supplier ve buyer ekipleri ilişkinin farklı versiyonlarından çalışabilir",
+      "Agreement bilgisi iş akışı yerine dokümanlarda yaşar"
+    ],
+    "features": [
+      {
+        "title": "Agreement görünürlüğü",
+        "description": "Supplier ekipleri agreement kayıtlarına RFQ, sipariş ve iş birliği için kullandıkları aynı portal ortamından erişebilir."
+      },
+      {
+        "title": "Aktif agreement takibi",
+        "description": "Ayrı dosya ve dağınık hatırlatmalar yerine aktif ticari ilişkileri daha kolay izleyin."
+      },
+      {
+        "title": "Agreement lifecycle farkındalığı",
+        "description": "Agreement’ın aktif, sona yaklaşan, süresi dolmuş veya kullanım dışı olup olmadığını daha net izleyin."
+      },
+      {
+        "title": "Geçerlilik ve tarih bağlamı",
+        "description": "Başlangıç ve bitiş dönemleri görünür kalarak supplier ekiplerinin gerçek ticari pencereye hizalı kalmasını sağlar."
+      },
+      {
+        "title": "Kapsanan kalem görünürlüğü",
+        "description": "İlişkiyi belirsiz bir ticari çerçeve gibi görmek yerine hangi kalemlerin agreement kapsamına girdiğini anlayın."
+      },
+      {
+        "title": "Birim bazlı ticari yapı",
+        "description": "Agreement-backed item şartlarını birim, fiyat mantığı ve müzakere yapısıyla daha operasyonel formatta bağlı tutun."
+      },
+      {
+        "title": "İndirim mantığı görünürlüğü",
+        "description": "TalepNET, agreement-backed supplier iş birliğinde yansıyabilen item-level discount yapılarını destekler."
+      },
+      {
+        "title": "Agreement ve katalog bağlantısı",
+        "description": "Agreement’lar katalog görünürlüğüne bağlanarak contract kapsamındaki tekliflerin daha kolay öne çıkmasını sağlar."
+      },
+      {
+        "title": "Agreement ve sourcing sürekliliği",
+        "description": "Buyer tarafındaki sourcing akışları contract-backed supplier bağlamını procurement kararlarına taşıyabilir."
+      },
+      {
+        "title": "Agreement notları ve bağlamı",
+        "description": "Ticari notlar ve agreement düzeyindeki bağlam yan iletişimde kaybolmak yerine aynı ilişki kaydına bağlı kalır."
+      },
+      {
+        "title": "Supplier bağlı ticari kayıtlar",
+        "description": "Agreement’lar doğrudan supplier profiline bağlı kalır ve ilişkiyi zaman içinde daha yönetilebilir yapar."
+      },
+      {
+        "title": "Daha iyi renewal farkındalığı",
+        "description": "Sona yaklaşan agreement’lar operasyon dışında sessizce kalmadan önce daha kolay fark edilir."
+      }
+    ],
+    "steps": [
+      {
+        "title": "Agreement’ı oluşturun",
+        "text": "Buyer ekipleri supplier, geçerlilik dönemi, kapsanan kalemler, fiyat mantığı ve ilişki bağlamıyla agreement’ı tanımlar."
+      },
+      {
+        "title": "Agreement’ı görünür tutun",
+        "text": "Agreement bilgisi supplier kaydına ve daha geniş procurement aktivitesine bağlı kalır."
+      },
+      {
+        "title": "Operasyon süreçlerinde yeniden kullanın",
+        "text": "Contract-backed bağlam sourcing’i, katalog görünürlüğünü ve supplier seçimini etkileyebilir."
+      },
+      {
+        "title": "Durumu zaman içinde izleyin",
+        "text": "Lifecycle ve sona erme görünürlüğü iki tarafın sürekliliği daha proaktif yönetmesine yardımcı olur."
+      }
+    ],
+    "benefits": [
+      {
+        "title": "Daha güçlü ticari süreklilik",
+        "text": "Agreement’lar statik referans dokümanlar yerine aktif buyer-supplier ilişkisinin parçası olarak kalır."
+      },
+      {
+        "title": "Daha net kapsam görünürlüğü",
+        "text": "Supplier ve buyer ekipleri hangi kalem ve şartların gerçekten kapsamda olduğunu daha net görür."
+      },
+      {
+        "title": "Daha erken renewal farkındalığı",
+        "text": "Sona yaklaşan agreement’lar ticari uyumda boşluk yaratmadan önce daha kolay fark edilir."
+      },
+      {
+        "title": "Daha disiplinli sourcing",
+        "text": "Agreement-backed supplier bağlamı procurement kararlarında daha kolay yeniden kullanılır."
+      },
+      {
+        "title": "Daha temiz ilişki şeffaflığı",
+        "text": "Supplier kayıtları, agreement’lar, sourcing ve katalog görünürlüğü daha sıkı bağlı kalır."
+      }
+    ],
+    "useCases": [
+      "Buyer’larla tekrar eden ticari agreement’lar altında çalışan supplier ekipleri",
+      "Kapsanan kalemlerin ve şartların daha kolay izlenmesini isteyen organizasyonlar",
+      "Agreement-backed purchasing oranını artırmak isteyen procurement ekipleri",
+      "Renewal görünürlüğü gerektiren supplier ilişkileri",
+      "Agreement’ları katalog ve sourcing akışlarına bağlayan işletmeler",
+      "Supplier iş birliği boyunca daha temiz ticari kayıt isteyen ekipler"
+    ],
+    "faqs": [
+      {
+        "question": "TalepNET’te Manage Agreements ne anlama gelir?",
+        "answer": "Supplier agreement’larını aktif procurement ilişkisinin parçası olarak görünür tutmak; şartlara, kapsama, geçerliliğe ve lifecycle bağlamına daha net erişim sağlamak anlamına gelir."
+      },
+      {
+        "question": "Agreement’lar belirli kalemlere bağlanabilir mi?",
+        "answer": "Evet. TalepNET’in agreement yapısı, yalnızca supplier seviyesinde geniş kayıtlar yerine item-level coverage ve ticari mantığı destekler."
+      },
+      {
+        "question": "Agreement’lar procurement iş akışına nasıl bağlanır?",
+        "answer": "Agreement-backed supplier bağlamı sourcing’i, supplier seçimini ve katalog görünürlüğünü etkileyebilir; böylece müzakere edilmiş şartlar operasyonel kalır."
+      },
+      {
+        "question": "TalepNET sona yaklaşan agreement’lar için yardımcı olur mu?",
+        "answer": "Evet. Agreement lifecycle görünürlüğü aktif, sona yaklaşan, süresi dolmuş ve inaktif kayıtların daha net izlenmesine yardımcı olur."
+      },
+      {
+        "question": "Bu supplier ekipleri için neden değerli?",
+        "answer": "Çünkü ticari ilişkinin daha net, daha kolay izlenebilir ve gerçek procurement aktivitesine daha bağlı olması supplier tarafına da fayda sağlar."
+      }
+    ]
+  },
+  "createCatalogs": {
+    "badge": "Tedarikçiler İçin",
+    "title": "Supplier kataloglarını daha kolay yayınlayın, güncel tutun ve yeniden kullanın",
+    "description": "TalepNET, tedarikçilerin sunduklarını yapılandırılmış dijital katalog içeriğine dönüştürmesine yardımcı olur; böylece buyer ekipleri kalemleri daha kolay keşfeder, procurement ekipleri daha temiz supplier verisiyle çalışır ve ticari ilişkiler daha az manuel paylaşımla ölçeklenir.",
+    "primaryCta": "Demo Talep Et",
+    "secondaryCta": "Katalog akışını görün",
+    "heroHighlights": [
+      "Supplier tekliflerini yeniden kullanılabilir dijital katalog içeriğine dönüştürün",
+      "Dosya ve spreadsheet’leri tekrar tekrar göndermek yerine item detaylarını güncel tutun",
+      "Agreement-backed kalemleri daha görünür hale getirin",
+      "Procurement iş akışlarında daha temiz buyer discovery deneyimi sağlayın"
+    ],
+    "sections": {
+      "workspaceEyebrow": "Katalog workspace",
+      "workspaceTitle": "Bir katalog yalnızca item adı depolamamalı",
+      "workspaceText": "Supplier katalogları, teklifleri procurement iş akışlarında daha kolay keşfedilir, daha anlaşılır ve daha kullanılabilir hale getirdiğinde en faydalı olur. TalepNET, supplier ekiplerine katalog içeriğini daha geniş supplier ilişkisinin parçası olarak yönetme imkanı verir.",
+      "problemEyebrow": "Neden önemli?",
+      "problemTitle": "Item bilgisi manuel paylaşıma bağlı kaldığında değerini kaybeder",
+      "problemText": "Birçok supplier ilişkisi hâlâ ürün ve hizmet bilgisini spreadsheet, PDF veya tekrar eden e-posta zincirleriyle paylaşır. Bu da procurement’ı yavaşlatır ve gereksiz tutarsızlık yaratır.",
+      "capabilityEyebrow": "Katalog oluşturma",
+      "capabilityTitle": "Keşfedilebilir teklifler için supplier-facing katman",
+      "capabilityText": "TalepNET, supplier iş birliğini RFQ ve siparişlerin ötesine taşıyarak katalog oluşturma ve bakımını da kapsar. Supplier ekipleri tekliflerinin buyer ortamında nasıl görüneceğini şekillendirebilir, açıklamaları ve ticari sunumu güncel tutabilir.",
+      "flowEyebrow": "Katalog akışı",
+      "flowTitle": "Supplier teklifinden kullanılabilir katalog içeriğine",
+      "supplierEyebrow": "Supplier perspektifi",
+      "supplierTitle": "Teklifleriniz daha kolay bulunmalı ve daha çok güven vermeli",
+      "supplierText": "Supplier ekipleri için katalog oluşturma yalnızca görünürlük meselesi değildir. Aynı zamanda sunduklarının nasıl temsil edildiği üzerinde kontrol anlamına gelir. TalepNET, ürün ve hizmetleri procurement ekosisteminde daha tutarlı biçimde sunmayı sağlar.",
+      "buyerEyebrow": "Buyer tarafı etkisi",
+      "buyerTitle": "Daha iyi kataloglar daha iyi procurement davranışı üretir",
+      "buyerText": "Supplier teklifleri zaten yapılandırılmış, görünür ve değerlendirmesi kolay olduğunda buyer ekipleri fayda görür. TalepNET katalog içeriğini supplier yönetimi, agreement’lar ve procurement iş akışlarına bağlar.",
+      "outcomesEyebrow": "Kazanımlar",
+      "outcomesTitle": "Daha iyi supplier kataloglarıyla ne iyileşir?",
+      "useCasesEyebrow": "Nerede değer üretir",
+      "useCasesTitle": "Katalog oluşturma en çok nerede değer sağlar?",
+      "faqEyebrow": "SSS",
+      "faqTitle": "Supplier katalogları hakkında sık sorulan sorular",
+      "finalTitle": "Supplier tekliflerini yayınlamayı ve keşfetmeyi kolaylaştırın",
+      "finalText": "TalepNET, tedarikçilerin buyer görünürlüğünü güçlendiren, manuel paylaşımı azaltan ve dijital procurement ilişkilerini daha ölçeklenebilir hale getiren kataloglar oluşturmasına yardımcı olur.",
+      "joinPortal": "Portala Katıl"
+    },
+    "painPoints": [
+      "Ürün bilgisi dosya ve e-posta ile tekrar tekrar paylaşılır",
+      "Buyer ekipleri güncel olmayan supplier içeriğiyle çalışabilir",
+      "Supplier teklifleri organizasyon genelinde daha zor keşfedilir",
+      "Agreement-backed kalemler olması gereken yerde görünmeyebilir",
+      "Katalog bakımı manuel ve tutarsız hale gelir",
+      "Ticari sunum fazla ad hoc iletişime bağımlı kalır"
+    ],
+    "features": [
+      {
+        "title": "Supplier katalog oluşturma",
+        "description": "Ürün bilgisini kopuk dokümanlarla paylaşmak yerine yapılandırılmış dijital katalog oluşturun."
+      },
+      {
+        "title": "Katalog item bakımı",
+        "description": "Item kayıtlarını zaman içinde güncel tutarak buyer ekiplerinin daha güvenilir supplier içeriğiyle çalışmasını sağlayın."
+      },
+      {
+        "title": "Daha iyi item sunumu",
+        "description": "Teklifleri, buyer ekiplerinin daha kolay inceleyeceği isim, açıklama ve ticari bağlamla daha temiz yapılandırın."
+      },
+      {
+        "title": "Buyer iş akışlarında discoverability",
+        "description": "Supplier tekliflerinin e-posta geçmişinde kaybolmak yerine daha aranabilir ve kullanılabilir buyer ortamında görünmesini sağlayın."
+      },
+      {
+        "title": "Katalog ve agreement hizası",
+        "description": "Agreement-backed kalemler katalog görünürlüğüne bağlanarak sözleşmeli tekliflerin daha kolay öne çıkmasını sağlar."
+      },
+      {
+        "title": "Katalog fiyat görünürlüğü kontrolü",
+        "description": "Fiyatlamanın buyer-facing deneyimde nasıl görünmesi gerektiğine göre ticari sunumu şekillendirin."
+      },
+      {
+        "title": "Supplier-owned içerik güncelliği",
+        "description": "Buyer ekiplerinin manuel kayıt güncellemesini beklemek yerine teklif detaylarını doğrudan supplier tarafında güncel tutun."
+      },
+      {
+        "title": "Procurement boyunca daha temiz yeniden kullanım",
+        "description": "Katalog içeriği yerleştiğinde buyer ekipleri teklifleri request, sourcing ve purchasing boyunca daha kolay yeniden kullanabilir."
+      },
+      {
+        "title": "Daha güçlü supplier görünürlüğü",
+        "description": "Kataloglar, supplier profilini ve markayı tamamlayarak şirket teklifini bağlam içinde daha anlaşılır hale getirir."
+      },
+      {
+        "title": "Sunulan kalemler etrafında daha iyi iş birliği",
+        "description": "Katalog içeriği, ticari görüşmeleri belirsiz ürün tanımları yerine net item kayıtları etrafında toplar."
+      }
+    ],
+    "steps": [
+      {
+        "title": "Teklifi yapılandırın",
+        "text": "Supplier ekipleri platformda buyer ekiplerinin keşfetmesini istediği item ve destekleyici içeriği tanımlar."
+      },
+      {
+        "title": "Kataloğu güncel tutun",
+        "text": "Katalog içeriği zaman içinde korunur; böylece item verisi ticari gerçeklikten kopmaz."
+      },
+      {
+        "title": "İçeriği ilişkiye bağlayın",
+        "text": "Katalog görünürlüğü agreement’lar, supplier kayıtları ve daha geniş procurement aktivitesiyle yan yana durabilir."
+      },
+      {
+        "title": "Buyer discovery’yi destekleyin",
+        "text": "Buyer ekipleri tekrar eden manuel paylaşım yerine daha temiz ve yeniden kullanılabilir supplier teklif ortamından çalışır."
+      }
+    ],
+    "benefits": [
+      {
+        "title": "Daha güçlü supplier discoverability",
+        "text": "Katalog içeriği yapılandırılmış ve güncel olduğunda buyer ekipleri ilgili supplier tekliflerini daha kolay bulur."
+      },
+      {
+        "title": "Daha az tekrar eden item paylaşımı",
+        "text": "Supplier ekipleri aynı ürün bilgisini manuel kanallardan tekrar tekrar göndermek zorunda kalmaz."
+      },
+      {
+        "title": "Daha net ticari tutarlılık",
+        "text": "Item açıklamaları ve sunum biçimi supplier’ın amaçladığı teklife daha yakın kalır."
+      },
+      {
+        "title": "Agreement-backed daha iyi görünürlük",
+        "text": "Kataloglar agreement’larla birlikte çalışarak kapsanan tekliflerin daha kolay öne çıkmasını sağlar."
+      },
+      {
+        "title": "Daha çok yeniden kullanılabilir procurement içeriği",
+        "text": "Buyer ekipleri gelecekteki demand ve sourcing aktivitelerinde supplier tekliflerine daha kolay geri dönebilir."
+      }
+    ],
+    "useCases": [
+      "Buyer ekiplerinin teklifleri daha kolay keşfetmesini isteyen supplier’lar",
+      "Manuel product-sheet paylaşımını azaltmak isteyen organizasyonlar",
+      "Catalog-backed purchasing iş akışları kullanan procurement ekipleri",
+      "Agreement bağlı kalemlerin görünür kalması gereken ticari ilişkiler",
+      "Item sunumu üzerinde daha güçlü kontrol isteyen supplier’lar",
+      "Bilinen supplier teklifleriyle tekrar eden alımı ölçekleyen işletmeler"
+    ],
+    "faqs": [
+      {
+        "question": "TalepNET’te Create Catalogs ne anlama gelir?",
+        "answer": "Supplier ekiplerine tekliflerini platform içinde yayınlama ve sürdürme için yapılandırılmış yol vermek; buyer ekiplerinin bunları daha kolay keşfetmesini ve yeniden kullanmasını sağlamak anlamına gelir."
+      },
+      {
+        "question": "Supplier kataloğu neden faydalıdır?",
+        "answer": "Tekrar eden manuel paylaşımı azaltır, buyer ekiplerinin supplier tekliflerine görünürlüğünü artırır ve daha ölçeklenebilir dijital supplier varlığı oluşturur."
+      },
+      {
+        "question": "Kataloglar agreement’larla bağlanabilir mi?",
+        "answer": "Evet. Agreement-backed kalemler katalog görünürlüğüyle hizalanabilir; böylece müzakere edilmiş teklifler daha kolay öne çıkar."
+      },
+      {
+        "question": "Katalog oluşturma buyer tarafına da fayda sağlar mı?",
+        "answer": "Evet. Buyer ekipleri daha temiz supplier item verisi, daha kolay discovery ve procurement iş akışları boyunca daha iyi reuse elde eder."
+      },
+      {
+        "question": "Bu neden ürün listelerini e-posta ile göndermekten daha iyidir?",
+        "answer": "TalepNET supplier tekliflerini tekrar eden dosya paylaşımı ve kopuk güncellemeler yerine yapılandırılmış, yeniden kullanılabilir ortamda tutar."
+      }
+    ]
+  },
+  "collaborate": {
+    "badge": "Tedarikçiler İçin",
+    "title": "Buyer ekipleriyle tek bir bağlı supplier workspace içinde iş birliği yapın",
+    "description": "TalepNET, RFQ’ları, teklifleri, agreement’ları, katalog içeriğini, purchase order’ları, teslim beklentilerini, profil verisini ve supplier iletişimini tek bir bağlı portal deneyiminde bir araya getirerek supplier ile buyer tarafının daha yapılandırılmış dijital ilişki kurmasını sağlar.",
+    "primaryCta": "Demo Talep Et",
+    "secondaryCta": "İş birliğini görün",
+    "heroHighlights": [
+      "RFQ’ları, siparişleri, agreement’ları ve katalogları tek supplier workspace içinde tutun",
+      "E-posta, dosya ve yan kanallardaki parçalı iletişimi azaltın",
+      "Buyer-supplier etkileşimlerini doğru procurement kaydına bağlı tutun",
+      "Tek bir işlem ötesinde süren iş birliğini destekleyin"
+    ],
+    "sections": {
+      "workspaceEyebrow": "İş birliği workspace’i",
+      "workspaceTitle": "Supplier iş birliği, ilişki kanallara dağıldığında zayıflar",
+      "workspaceText": "Buyer-supplier iş birliği çoğu zaman hâlâ kopuk mesajlar, ek dosyalar, aramalar ve manuel takipler arasında yürür. TalepNET bu parçalanmayı azaltarak iki tarafa da tam ticari iş akışı boyunca daha yapılandırılmış etkileşim sağlar.",
+      "problemEyebrow": "Neden önemli?",
+      "problemTitle": "Asıl problem iletişim eksikliği değil, ortak bağlam eksikliği",
+      "problemText": "Supplier ve buyer ekipleri zaten iletişim kurar. Sorun, bunu güvenilir tek kayıt sistemi olmadan yapmalarıdır. Teklif gönderilir ama fiyat bağlamı kaybolur. Sipariş paylaşılır ama onay başka yerde gerçekleşir.",
+      "capabilityEyebrow": "Supplier iş birliği",
+      "capabilityTitle": "Procurement içine gömülü supplier-facing iş birliği katmanı",
+      "capabilityText": "TalepNET’in supplier collaboration modeli yalnızca giriş ekranı veya doküman görüntüleyici değildir. Supplier ekiplerinin RFQ almasını, teklif vermesini, teklif geçmişini incelemesini, aktif ve tamamlanan siparişleri takip etmesini, agreement ilişkilerini görmesini, katalog oluşturmasını, şirket profili ve marka varlıklarını yönetmesini ve buyer ekipleriyle daha görünür süreç içinde iletişim kurmasını sağlar.",
+      "journeysEyebrow": "İş birliği yolculukları",
+      "journeysTitle": "TalepNET içinde iş birliğinin yaşandığı yerler",
+      "flowEyebrow": "İş birliği akışı",
+      "flowTitle": "Buyer erişiminden sürekli supplier etkileşimine",
+      "supplierEyebrow": "Supplier deneyimi",
+      "supplierTitle": "Çıkmaz bir sayfa değil, çalışan bir ortam gibi hissettiren portal",
+      "supplierText": "Supplier iş birliği, portalın supplier ekiplerine geri dönmek için neden vermesiyle çalışır. TalepNET bunu portali pratik çalışma alanına dönüştürerek yapar. Supplier ekipleri yeni RFQ’ları görebilir, teklif geçmişini inceleyebilir, aktif ve tamamlanan siparişleri takip edebilir, şirket profilini ve katalog içeriğini yönetebilir, agreement’lara hizalı kalabilir.",
+      "buyerEyebrow": "Buyer tarafı etkisi",
+      "buyerTitle": "Daha güçlü supplier deneyimi procurement disiplinini de iyileştirir",
+      "buyerText": "Supplier iş birliği sadece supplier kolaylığı değildir. Buyer tarafında quote verisini temizler, sipariş durumunu netleştirir, supplier bilgisini güncel tutar ve sourcing ile operasyon arasındaki sürekliliği güçlendirir.",
+      "messagesEyebrow": "Mesajlar ve güncellemeler",
+      "messagesTitle": "Ticari konuşmaları işin zaten olduğu yerde tutun",
+      "messagesText": "Buyer-supplier ilişkilerindeki en büyük boşluklardan biri, iletişimin ilgili olduğu işlem kaydına bağlı kalmamasıdır. TalepNET, RFQ, sipariş ve agreement etrafında mesaj odaklı iş birliği sağlayarak bu boşluğu kapatır.",
+      "outcomesEyebrow": "Kazanımlar",
+      "outcomesTitle": "Supplier iş birliği bağlandığında ne iyileşir?",
+      "useCasesEyebrow": "Nerede değer üretir",
+      "useCasesTitle": "TalepNET iş birliği modeli en çok nerede değer sağlar?",
+      "faqEyebrow": "SSS",
+      "faqTitle": "Supplier iş birliği hakkında sık sorulan sorular",
+      "finalTitle": "Supplier iş birliğini procurement sisteminin parçası haline getirin",
+      "finalText": "TalepNET, buyer ve supplier ekiplerinin RFQ’lar, agreement’lar, kataloglar, siparişler ve iletişim boyunca aynı ticari bağlamdan çalışmasına yardımcı olur.",
+      "joinPortal": "Portala Katıl"
+    },
+    "painPoints": [
+      "RFQ yanıtları parçalı kanallar üzerinden ilerler",
+      "Açıklamalar ait oldukları teklif veya siparişten ayrılır",
+      "Agreement bağlamını günlük procurement içinde korumak zorlaşır",
+      "Supplier katalogları ve şirket bilgileri zamanla güncelliğini kaybeder",
+      "Sipariş sonrası takip fazla e-posta ve çağrıya bağlı kalır",
+      "Buyer ve supplier ekipleri aynı sürecin farklı versiyonlarından çalışır"
+    ],
+    "features": [
+      {
+        "title": "Portal tabanlı RFQ iş birliği",
+        "description": "Buyer ekipleri RFQ’ları supplier-facing akışlardan gönderebilir; supplier ekipleri ise ek dosyalardan talebi yeniden kurmadan portal içinde yanıtlar."
+      },
+      {
+        "title": "Online quote submission",
+        "description": "Supplier ekipleri line-level fiyat, para birimi, geçerlilik tarihi, teslim süresi ve ticari notlarla yapılandırılmış yanıt gönderebilir."
+      },
+      {
+        "title": "Quotation geçmişi",
+        "description": "Gönderilen teklifler portal içinde görünür kalır; böylece ticari geçmiş zaman içinde daha kolay izlenir."
+      },
+      {
+        "title": "RFQ içinde buyer bağlamı",
+        "description": "Buyer şirketi, buyer kontağı, talep referansı, notlar, deadline ve teslim lokasyonu teklif akışına bağlı kalır."
+      },
+      {
+        "title": "Supplier-side order workspace",
+        "description": "Supplier ekipleri aktif ve tamamlanan purchase order’ları inbox aramasına bağlı kalmadan özel portal alanından inceleyebilir."
+      },
+      {
+        "title": "Sipariş yanıt aksiyonları",
+        "description": "Supplier ekipleri siparişleri onaylayabilir, reddedebilir veya fulfilled olarak işaretleyebilir; buyer tarafına daha net operasyon sinyali verir."
+      },
+      {
+        "title": "Güvenli order ve RFQ paylaşımı",
+        "description": "Buyer ekipleri RFQ ve purchase order’ları güvenli linkler ve supplier-friendly dijital teslim seçenekleriyle paylaşabilir."
+      },
+      {
+        "title": "Portal bağlı supplier hesapları",
+        "description": "Supplier ilişkileri doğru kimliğe bağlı portal hesaplarıyla eşleştirilebilir."
+      },
+      {
+        "title": "Agreement-aware iş birliği",
+        "description": "Supplier agreement’ları ilişkinin parçası olarak görünür kalır; böylece ticari şartlar sourcing ve operasyona daha yakın durur."
+      },
+      {
+        "title": "Katalog iş birliği",
+        "description": "Supplier ekipleri katalog içeriği oluşturup sürdürebilir; buyer ekipleri de platform içinde daha temiz ve güncel teklif verisiyle çalışır."
+      },
+      {
+        "title": "Supplier profil yönetimi",
+        "description": "Şirket bilgileri, kategoriler, web sitesi, lokasyon, yasal detaylar ve iletişim verisi aynı supplier-facing ortamda tutulabilir."
+      },
+      {
+        "title": "Marka ve sunum",
+        "description": "Supplier ekipleri logo ve kapak görsellerini yöneterek buyer ekosisteminde daha güçlü şirket görünürlüğü oluşturabilir."
+      },
+      {
+        "title": "Profil gücü yönlendirmesi",
+        "description": "Portal, discovery ve değerlendirme görünümünü güçlendirmek için profil tamamlama seviyesini gösterir."
+      },
+      {
+        "title": "Paylaşılan süreç görünürlüğü",
+        "description": "RFQ’lar, agreement’lar, kataloglar, siparişler ve profil verisi ayrı süreç adaları yerine tek supplier ilişkisi içinde kalır."
+      },
+      {
+        "title": "Mesaj odaklı iş birliği başlıkları",
+        "description": "Buyer ve supplier iletişimi RFQ, sipariş ve agreement kayıtlarına bağlanarak ana güncellemelerin bağlam içinde takip edilmesini sağlar."
+      },
+      {
+        "title": "Bağlamsal bildirimler ve takipler",
+        "description": "Supplier ekipleri yeni RFQ, sipariş güncellemesi, agreement değişikliği ve buyer mesajlarını aktif olaylara bağlı yapılandırılmış bildirim deneyimiyle izleyebilir."
+      },
+      {
+        "title": "Ticari kayıt bazlı aktivite zaman akışı",
+        "description": "İş birliği geçmişi ilgili RFQ, sipariş veya agreement’a bağlı kalarak ne olduğunu, ne zaman olduğunu ve sıradaki işi anlamayı kolaylaştırır."
+      },
+      {
+        "title": "Procurement-to-receiving sürekliliği",
+        "description": "Buyer tarafında supplier iş birliği sipariş yerleştirmede bitmez; receiving’e kadar uzanarak operasyon kaydını supplier teslimiyle hizalı tutar."
+      }
+    ],
+    "journeys": [
+      {
+        "title": "Sourcing sırasında",
+        "text": "Buyer ekipleri RFQ gönderir, supplier ekipleri talebi inceler, online teklif verir ve ticari yanıtları sourcing kaydına bağlı tutar."
+      },
+      {
+        "title": "Ticari hizalanma etrafında",
+        "text": "Agreement-backed supplier ilişkileri görünür kalır; iki taraf aktif şartlar ve ticari kapsam hakkında daha net çalışır."
+      },
+      {
+        "title": "Sipariş operasyonu sırasında",
+        "text": "Siparişler supplier-facing inceleme, onay, red, fulfillment sinyali ve operasyon takibine aynı ilişki alanı içinde geçer."
+      },
+      {
+        "title": "Supplier görünürlüğü ve discovery etrafında",
+        "text": "Supplier ekipleri katalog, şirket profili, marka ve teklif görünürlüğünü yönetebilir; iş birliği tek seferlik işlemle sınırlı kalmaz."
+      }
+    ],
+    "steps": [
+      {
+        "title": "Buyer iş akışını başlatır",
+        "text": "Buyer ekipleri TalepNET’in yapılandırılmış procurement ortamı üzerinden RFQ, sipariş veya agreement bağlı süreç paylaşır."
+      },
+      {
+        "title": "Supplier portal içinde çalışır",
+        "text": "Supplier ekipleri ticari kaydı inceler, fiyat veya sipariş aksiyonu verir ve gerektiğinde şirket ya da katalog bilgisini günceller."
+      },
+      {
+        "title": "İletişim bağlama bağlı kalır",
+        "text": "Notlar, güncellemeler ve mesaj benzeri etkileşimler kopuk zincirlere dağılmak yerine ilgili RFQ, sipariş veya agreement’a bağlı kalır."
+      },
+      {
+        "title": "Operasyon görünür kalır",
+        "text": "Buyer tarafındaki procurement geçmişi, supplier yanıtı ve downstream receiving aynı ticari etkileşimi yansıtmaya devam eder."
+      }
+    ],
+    "benefits": [
+      {
+        "title": "Daha hızlı ticari yanıt",
+        "text": "Supplier ekipleri RFQ incelemesinden yapılandırılmış teklif gönderimine daha az manuel işlemle geçer."
+      },
+      {
+        "title": "Daha iyi procurement izlenebilirliği",
+        "text": "Buyer ekipleri supplier yanıtını, sipariş aksiyonunu ve iş birliği geçmişini aynı iş akışının bağlamında görür."
+      },
+      {
+        "title": "Daha temiz buyer-supplier iletişimi",
+        "text": "Notlar, güncellemeler ve mesaj odaklı etkileşimler RFQ, agreement ve siparişlere bağlı kalır."
+      },
+      {
+        "title": "Daha iyi supplier veri kalitesi",
+        "text": "Profil, marka, katalog ve şirket detayları supplier ekipleri doğrudan yönettiğinde daha güncel kalır."
+      },
+      {
+        "title": "Daha iyi operasyon görünürlüğü",
+        "text": "Sipariş onayı, red, fulfillment ve downstream receiving; iş birliğini gerçek operasyon sonucuna bağlar."
+      },
+      {
+        "title": "Daha güçlü uzun vadeli supplier ilişkileri",
+        "text": "Sourcing, agreement, iletişim ve operasyon tek bağlı ortamda ilerlediğinde ilişkiyi yönetmek kolaylaşır."
+      }
+    ],
+    "useCases": [
+      "Supplier ekiplerinin yapılandırılmış dijital iş akışlarından yanıt vermesini isteyen procurement ekipleri",
+      "RFQ, agreement, katalog ve siparişleri kapsayan supplier ilişkileri",
+      "Parçalı e-posta tabanlı supplier koordinasyonunu azaltan organizasyonlar",
+      "Daha net sipariş onayı ve operasyon sinyali isteyen buyer ekipleri",
+      "Müşteri ilişkisinde daha güçlü dijital varlık isteyen supplier ekipleri",
+      "Mesaj benzeri iş birliğini gerçek procurement kayıtlarına bağlamak isteyen ekipler",
+      "Tekrarlayan supplier etkileşimini çok sayıda aktif iş akışına ölçekleyen işletmeler"
+    ],
+    "faqs": [
+      {
+        "question": "TalepNET Supplier Portal içindeki Collaborate ne anlama gelir?",
+        "answer": "Buyer ve supplier ekiplerinin RFQ, teklif, agreement, katalog, sipariş ve iletişim akışları boyunca kopuk dış kanallar yerine ortak dijital workspace içinde etkileşime girmesi anlamına gelir."
+      },
+      {
+        "question": "TalepNET RFQ sırasında supplier iş birliğini nasıl iyileştirir?",
+        "answer": "Supplier ekipleri RFQ’ları inceleyebilir, kalem bazında fiyat verebilir, online teklif gönderebilir ve ticari notları aynı sourcing kaydına bağlı tutabilir."
+      },
+      {
+        "question": "Supplier seçildikten sonra iş birliği devam eder mi?",
+        "answer": "Evet. TalepNET iş birliğini sipariş takibi, sipariş aksiyonları, agreement görünürlüğü ve buyer-supplier operasyon takibine kadar taşır."
+      },
+      {
+        "question": "İletişim belirli RFQ veya siparişlere bağlı kalabilir mi?",
+        "answer": "Evet. TalepNET’in collaboration modeli, bağlamsal iletişimi ve mesaj odaklı güncellemeleri ilgili procurement kaydına bağlar."
+      },
+      {
+        "question": "Supplier iş birliği katalog ve şirket profil yönetimini de kapsar mı?",
+        "answer": "Evet. Supplier ekipleri katalog, marka ve şirket bilgilerini daha geniş ilişkinin parçası olarak yönetebilir."
+      },
+      {
+        "question": "Bu neden e-posta tabanlı supplier iletişiminden daha iyidir?",
+        "answer": "TalepNET etkileşimi ait olduğu RFQ, sipariş veya agreement’a bağlı tutar; böylece daha iyi izlenebilirlik, daha az belirsizlik ve daha temiz buyer-supplier koordinasyonu sağlar."
+      }
+    ]
+  }
+}

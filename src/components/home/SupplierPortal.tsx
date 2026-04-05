@@ -1,3 +1,8 @@
+'use client';
+
+import { useLocale } from '@/i18n/I18nProvider';
+import { localizeHref } from '@/i18n/pathnames';
+import { useTranslations } from '@/i18n/useTranslations';
 import featureImage1 from '@public/images/ns-img-158.png';
 import profitChart from '@public/images/ns-img-159.png';
 import featureImage1Dark from '@public/images/ns-img-dark-112.png';
@@ -7,42 +12,44 @@ import RevealAnimation from '../animation/RevealAnimation';
 import LinkButton from '../ui/button/LinkButton';
 import { ClipboardCheck, Scale, BellRing, FileSignature } from 'lucide-react';
 
-const featureList = [
-  {
-    icon: (
-      <div className="flex size-[52px] shrink-0 items-center justify-center rounded-2xl bg-primary-500/10 text-primary-500">
-        <ClipboardCheck className="size-[26px]" strokeWidth={1.75} />
-      </div>
-    ),
-    text: 'Tedarikçi performans puanlama ve değerlendirme',
-  },
-  {
-    icon: (
-      <div className="flex size-[52px] shrink-0 items-center justify-center rounded-2xl bg-primary-500/10 text-primary-500">
-        <Scale className="size-[26px]" strokeWidth={1.75} />
-      </div>
-    ),
-    text: 'Otomatik teklif toplama ve karşılaştırma',
-  },
-  {
-    icon: (
-      <div className="flex size-[52px] shrink-0 items-center justify-center rounded-2xl bg-primary-500/10 text-primary-500">
-        <BellRing className="size-[26px]" strokeWidth={1.75} />
-      </div>
-    ),
-    text: 'Gerçek zamanlı sipariş takibi ve bildirimler',
-  },
-  {
-    icon: (
-      <div className="flex size-[52px] shrink-0 items-center justify-center rounded-2xl bg-primary-500/10 text-primary-500">
-        <FileSignature className="size-[26px]" strokeWidth={1.75} />
-      </div>
-    ),
-    text: 'Güvenli belge paylaşımı ve sözleşme yönetimi',
-  },
-];
-
 const SupplierPortal = () => {
+  const locale = useLocale();
+  const t = useTranslations('home');
+  const featureList = [
+    {
+      icon: (
+        <div className="flex size-[52px] shrink-0 items-center justify-center rounded-2xl bg-primary-500/10 text-primary-500">
+          <ClipboardCheck className="size-[26px]" strokeWidth={1.75} />
+        </div>
+      ),
+      text: t('supplierManagement.items.0'),
+    },
+    {
+      icon: (
+        <div className="flex size-[52px] shrink-0 items-center justify-center rounded-2xl bg-primary-500/10 text-primary-500">
+          <Scale className="size-[26px]" strokeWidth={1.75} />
+        </div>
+      ),
+      text: t('supplierManagement.items.1'),
+    },
+    {
+      icon: (
+        <div className="flex size-[52px] shrink-0 items-center justify-center rounded-2xl bg-primary-500/10 text-primary-500">
+          <BellRing className="size-[26px]" strokeWidth={1.75} />
+        </div>
+      ),
+      text: t('supplierManagement.items.2'),
+    },
+    {
+      icon: (
+        <div className="flex size-[52px] shrink-0 items-center justify-center rounded-2xl bg-primary-500/10 text-primary-500">
+          <FileSignature className="size-[26px]" strokeWidth={1.75} />
+        </div>
+      ),
+      text: t('supplierManagement.items.3'),
+    },
+  ];
+
   return (
     <section className="dark:bg-background-7 pt-14 pb-14 md:pt-16 md:pb-16 lg:pt-[88px] lg:pb-[88px] xl:pt-[100px] xl:pb-[100px]">
       <div className="main-container">
@@ -77,20 +84,19 @@ const SupplierPortal = () => {
             <div className="space-y-8">
               <div className="space-y-5">
                 <RevealAnimation delay={0.2}>
-                  <span className="badge badge-green">Tedarikçi Yönetimi</span>
+                  <span className="badge badge-green !normal-case">{t('supplierManagement.badge')}</span>
                 </RevealAnimation>
                 <RevealAnimation delay={0.3}>
                   <div className="space-y-3">
                     <h2>
-                      Tedarikçilerinizi <span className="text-primary-500 font-bold">tek platformdan </span>yönetin
+                      {t('supplierManagement.titleBefore')}{' '}
+                      <span className="text-primary-500 font-bold">{t('supplierManagement.titleHighlight')} </span>
+                      {t('supplierManagement.titleAfter')}
                     </h2>
                   </div>
                 </RevealAnimation>
                 <RevealAnimation delay={0.35}>
-                  <p className="max-w-[480px]">
-                    TalepNET ile tedarikçi ilişkilerinizi güçlendirin, teklif süreçlerinizi
-                    hızlandırın ve tedarik zincirinizi uçtan uca kontrol altına alın.
-                  </p>
+                  <p className="max-w-[480px]">{t('supplierManagement.description')}</p>
                 </RevealAnimation>
               </div>
               <div>
@@ -110,9 +116,9 @@ const SupplierPortal = () => {
               <RevealAnimation delay={0.8}>
                 <div>
                   <LinkButton
-                    href="/supplier-management"
+                    href={localizeHref('/supplier-management', locale)}
                     className="btn btn-secondary hover:btn-white btn-md dark:btn-transparent dark:hover:btn-accent w-[85%] md:w-auto">
-                    Tedarikçi Yönetimini Keşfet
+                    {t('supplierManagement.cta')}
                   </LinkButton>
                 </div>
               </RevealAnimation>

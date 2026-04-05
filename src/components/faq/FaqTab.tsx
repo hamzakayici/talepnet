@@ -1,24 +1,27 @@
+'use client';
+
+import { useTranslations } from '@/i18n/useTranslations';
 import { TabProvider } from '@/context/TabContext';
 import RevealAnimation from '../animation/RevealAnimation';
 import FaqTabContent from './FaqTabContent';
 import FaqTabList from './FaqTabList';
 
 const FaqTab = () => {
+  const t = useTranslations('faq');
+
   return (
     <section className="pt-32 pb-[100px] sm:pt-36 md:pt-42 xl:pt-[180px]">
       <div className="main-container">
         <div className="space-y-5 text-center">
           <RevealAnimation delay={0.2}>
-            <span className="badge badge-cyan">FAQ</span>
+            <span className="badge badge-cyan">{t('badge')}</span>
           </RevealAnimation>
           <div className="space-y-3 text-center">
             <RevealAnimation delay={0.3}>
-              <h2>Commonly asked questions</h2>
+              <h2>{t('title')}</h2>
             </RevealAnimation>
             <RevealAnimation delay={0.4}>
-              <p className="mx-auto max-w-[600px]">
-                Find clear answers about TalepNET across product scope, pricing, security, and supplier-side collaboration.
-              </p>
+              <p className="mx-auto max-w-[600px]">{t('description')}</p>
             </RevealAnimation>
           </div>
         </div>

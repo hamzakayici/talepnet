@@ -1,3 +1,7 @@
+'use client';
+
+import { useI18n } from '@/i18n/I18nProvider';
+import { localizeHref } from '@/i18n/pathnames';
 import RevealAnimation from '../animation/RevealAnimation';
 import LinkButton from '../ui/button/LinkButton';
 
@@ -28,81 +32,6 @@ type CapabilityRow = {
   enterprise: MixedValue;
 };
 
-const planCards: PlanCard[] = [
-  {
-    name: 'Free',
-    subtitle: 'Start with 1 user',
-    summary: 'A simple entry point for teams that want to explore TalepNET before expanding access.',
-    ctaLabel: 'Get Started Free',
-    ctaHref: 'https://app.talepnet.com/sign-up',
-    featured: true,
-  },
-  {
-    name: 'Team',
-    subtitle: 'For growing teams',
-    summary: 'Structured procurement workflows for teams that need control without heavy rollout complexity.',
-    ctaLabel: 'Get Started',
-    ctaHref: 'https://app.talepnet.com/sign-up',
-  },
-  {
-    name: 'Business',
-    subtitle: 'For broader operational scale',
-    summary: 'More workflow depth, higher limits, and stronger reporting for organizations with wider purchasing activity.',
-    ctaLabel: 'Get Started',
-    ctaHref: 'https://app.talepnet.com/sign-up',
-  },
-  {
-    name: 'Enterprise',
-    subtitle: 'For advanced rollout needs',
-    summary: 'Advanced security, integration, and support options for larger organizations and more complex procurement models.',
-    ctaLabel: 'Get Started',
-    ctaHref: 'https://app.talepnet.com/sign-up',
-  },
-];
-
-const coreLimits: LimitRow[] = [
-  { feature: 'Procurement contracts', team: '100', business: 'Unlimited', enterprise: 'Unlimited' },
-  { feature: 'Cost centers', team: '100', business: 'Unlimited', enterprise: 'Unlimited' },
-  { feature: 'RFQ per month', team: '200', business: '1000', enterprise: 'Unlimited' },
-  { feature: 'Purchase orders per month', team: '200', business: '1000', enterprise: 'Unlimited' },
-  { feature: 'Storage', team: '100 GB', business: '500 GB', enterprise: 'Unlimited' },
-];
-
-const workflowAndOperations: CapabilityRow[] = [
-  { feature: 'Workflow: Request', team: true, business: true, enterprise: true },
-  { feature: 'Workflow: Approvals', team: true, business: true, enterprise: true },
-  { feature: 'Workflow: Purchase', team: true, business: true, enterprise: true },
-  { feature: 'Workflow: Warehouse', team: false, business: true, enterprise: true },
-  { feature: 'Workflow: Receiving', team: true, business: true, enterprise: true },
-  { feature: 'Workflow: Advanced rules', team: false, business: true, enterprise: true },
-  { feature: 'Proxy approval', team: false, business: true, enterprise: true },
-  { feature: 'Approval reminder / escalation', team: false, business: true, enterprise: true },
-  { feature: 'Budget control', team: true, business: true, enterprise: true },
-  { feature: 'Supplier onboarding', team: true, business: true, enterprise: true },
-  { feature: 'Supplier performance', team: false, business: true, enterprise: true },
-];
-
-const reports: CapabilityRow[] = [
-  { feature: 'Dashboard', team: 'Standard', business: 'Advanced', enterprise: 'Advanced' },
-  { feature: 'Analytics', team: 'Standard', business: 'Operational + spend basics', enterprise: 'Advanced' },
-  { feature: 'Scheduled reports', team: false, business: true, enterprise: true },
-  { feature: 'Excel/CSV export', team: false, business: true, enterprise: true },
-];
-
-const securityAndSupport: CapabilityRow[] = [
-  { feature: '2FA support', team: false, business: true, enterprise: true },
-  { feature: 'Webhooks / API', team: false, business: false, enterprise: true },
-  { feature: 'SSO / SAML', team: false, business: false, enterprise: true },
-  { feature: 'IP allowlist + session management', team: false, business: false, enterprise: true },
-  { feature: 'Support', team: 'Standard', business: 'Priority', enterprise: 'Dedicated' },
-];
-
-const columns: { key: PlanKey; label: string }[] = [
-  { key: 'team', label: 'Team' },
-  { key: 'business', label: 'Business' },
-  { key: 'enterprise', label: 'Enterprise' },
-];
-
 const renderValue = (value: MixedValue) => {
   if (typeof value === 'boolean') {
     return value ? (
@@ -118,16 +47,20 @@ const renderValue = (value: MixedValue) => {
 const ComparisonTable = ({
   title,
   rows,
+  featureColumn,
+  columns,
 }: {
   title: string;
   rows: LimitRow[] | CapabilityRow[];
+  featureColumn: string;
+  columns: { key: PlanKey; label: string }[];
 }) => {
   return (
     <div className="mt-12">
       <h3 className="mb-6 text-2xl font-normal text-secondary dark:text-accent">{title}</h3>
       <div className="overflow-hidden rounded-[28px] border border-stroke-3 bg-white dark:border-stroke-7 dark:bg-background-6">
         <div className="grid grid-cols-[1.6fr_repeat(3,minmax(120px,1fr))] gap-4 border-b border-stroke-3 bg-background-3 px-7 py-5 text-left dark:border-stroke-7 dark:bg-background-5">
-          <div className="text-lg font-medium text-secondary dark:text-accent">Feature</div>
+          <div className="text-lg font-medium text-secondary dark:text-accent">{featureColumn}</div>
           {columns.map((column) => (
             <div key={column.key} className="text-lg font-medium text-secondary dark:text-accent">
               {column.label}
@@ -151,22 +84,34 @@ const ComparisonTable = ({
 };
 
 const Pricing = () => {
+  const { locale, messages } = useI18n();
+  const pricing = messages.pricing;
+  const planCards = pricing.plans as PlanCard[];
+  const coreLimits = pricing.coreLimits as LimitRow[];
+  const workflowAndOperations = pricing.workflowAndOperations as CapabilityRow[];
+  const reports = pricing.reports as CapabilityRow[];
+  const securityAndSupport = pricing.securityAndSupport as CapabilityRow[];
+  const columns: { key: PlanKey; label: string }[] = [
+    { key: 'team', label: pricing.comparison.columns.team },
+    { key: 'business', label: pricing.comparison.columns.business },
+    { key: 'enterprise', label: pricing.comparison.columns.enterprise },
+  ];
+
   return (
     <section className="bg-background-1 pt-32 pb-20 dark:bg-background-6 sm:pt-36 md:pt-40 md:pb-24 xl:pt-[180px] xl:pb-28">
       <div className="main-container">
         <div className="mx-auto max-w-3xl text-center">
           <RevealAnimation delay={0.12}>
-            <span className="badge badge-green !normal-case">Pricing</span>
+            <span className="badge badge-green !normal-case">{pricing.badge}</span>
           </RevealAnimation>
           <RevealAnimation delay={0.18}>
             <h1 className="mt-5 text-4xl font-normal leading-tight text-secondary dark:text-accent sm:text-5xl xl:text-6xl">
-              Plans built for teams growing procurement with more structure
+              {pricing.title}
             </h1>
           </RevealAnimation>
           <RevealAnimation delay={0.24}>
             <p className="mx-auto mt-6 max-w-3xl text-base leading-8 text-secondary/72 dark:text-accent/70 sm:text-lg">
-              Start free with 1 user, then move into Team, Business, or Enterprise as purchasing volume,
-              workflow depth, reporting, and control needs grow.
+              {pricing.description}
             </p>
           </RevealAnimation>
         </div>
@@ -183,9 +128,7 @@ const Pricing = () => {
               >
                 <p className="text-tagline-1 text-primary-600 dark:text-primary-300">{plan.subtitle}</p>
                 <h2 className="mt-4 text-3xl font-normal text-secondary dark:text-accent">{plan.name}</h2>
-                <p className="mt-4 text-base leading-7 text-secondary/72 dark:text-accent/70">
-                  {plan.summary}
-                </p>
+                <p className="mt-4 text-base leading-7 text-secondary/72 dark:text-accent/70">{plan.summary}</p>
                 <div className="mt-10" />
                 <LinkButton
                   href={plan.ctaHref}
@@ -205,27 +148,49 @@ const Pricing = () => {
         <RevealAnimation delay={0.34}>
           <section className="mt-16 rounded-[32px] border border-stroke-3 bg-white p-6 dark:border-stroke-7 dark:bg-background-5 md:p-8 xl:p-10">
             <div className="max-w-2xl">
-              <h2 className="text-3xl font-normal text-secondary dark:text-accent">Compare plans in detail</h2>
+              <h2 className="text-3xl font-normal text-secondary dark:text-accent">{pricing.comparison.title}</h2>
               <p className="mt-3 text-base leading-7 text-secondary/72 dark:text-accent/70">
-                Review key limits and capabilities side by side.
+                {pricing.comparison.description}
               </p>
             </div>
 
-            <ComparisonTable title="Core limits" rows={coreLimits} />
-            <ComparisonTable title="Workflow and operations" rows={workflowAndOperations} />
-            <ComparisonTable title="Reports" rows={reports} />
-            <ComparisonTable title="Security and support" rows={securityAndSupport} />
+            <ComparisonTable
+              title={pricing.comparison.sections.coreLimits}
+              rows={coreLimits}
+              featureColumn={pricing.comparison.featureColumn}
+              columns={columns}
+            />
+            <ComparisonTable
+              title={pricing.comparison.sections.workflowAndOperations}
+              rows={workflowAndOperations}
+              featureColumn={pricing.comparison.featureColumn}
+              columns={columns}
+            />
+            <ComparisonTable
+              title={pricing.comparison.sections.reports}
+              rows={reports}
+              featureColumn={pricing.comparison.featureColumn}
+              columns={columns}
+            />
+            <ComparisonTable
+              title={pricing.comparison.sections.securityAndSupport}
+              rows={securityAndSupport}
+              featureColumn={pricing.comparison.featureColumn}
+              columns={columns}
+            />
 
             <div className="mt-12 rounded-[28px] border border-stroke-3 bg-background-3 p-7 dark:border-stroke-7 dark:bg-background-6">
-              <h3 className="text-3xl font-normal text-secondary dark:text-accent">Need a custom quote?</h3>
+              <h3 className="text-3xl font-normal text-secondary dark:text-accent">
+                {pricing.comparison.customQuote.title}
+              </h3>
               <p className="mt-4 max-w-3xl text-base leading-7 text-secondary/72 dark:text-accent/70">
-                For tailored pricing, custom integrations, or specialized rollout needs, request a quote from our team.
+                {pricing.comparison.customQuote.description}
               </p>
               <LinkButton
-                href="/contact-us"
+                href={localizeHref('/contact-us', locale)}
                 className="btn btn-md btn-white mt-7 hover:btn-secondary dark:btn-transparent dark:hover:btn-accent"
               >
-                Request a Quote
+                {pricing.comparison.customQuote.cta}
               </LinkButton>
             </div>
           </section>

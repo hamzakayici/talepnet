@@ -1,6 +1,12 @@
+'use client';
+
+import { useI18n } from '@/i18n/I18nProvider';
 import RevealAnimation from '../animation/RevealAnimation';
 
 const ContactInfo = () => {
+  const { messages } = useI18n();
+  const contact = messages.contact;
+
   return (
     <section
       className="pt-32 pb-14 sm:pt-36 md:pt-42 md:pb-16 lg:pb-20 xl:pt-[180px] xl:pb-[100px]"
@@ -10,12 +16,10 @@ const ContactInfo = () => {
           {/* heading  */}
           <div className="mx-auto max-w-[680px] space-y-3 text-center">
             <RevealAnimation delay={0.2}>
-              <h2>Get in touch with our team.</h2>
+              <h2>{contact.hero.title}</h2>
             </RevealAnimation>
             <RevealAnimation delay={0.3}>
-              <p>
-                Use this form for demo requests, product questions, partnership conversations, or general inquiries.
-              </p>
+              <p>{contact.hero.description}</p>
             </RevealAnimation>
           </div>
           <div className="flex items-center justify-center">
@@ -31,13 +35,13 @@ const ContactInfo = () => {
                     <label
                       htmlFor="fullname"
                       className="text-tagline-2 text-secondary dark:text-accent block font-medium">
-                      Full name
+                      {contact.form.fullName}
                     </label>
                     <input
                       type="text"
                       id="fullname"
                       name="fullname"
-                      placeholder="Enter your full name"
+                      placeholder={contact.form.fullNamePlaceholder}
                       required={true}
                       autoComplete="name"
                       className="dark:focus-visible:border-stroke-4/20 dark:border-stroke-7 dark:bg-background-6 border-stroke-3 bg-background-1 text-tagline-2 placeholder:text-secondary/60 focus:border-secondary placeholder:text-tagline-2 dark:placeholder:text-accent/60 dark:text-accent h-[48px] w-full rounded-full border px-[18px] py-3 font-normal placeholder:font-normal focus:outline-none xl:h-[41px]"
@@ -48,13 +52,13 @@ const ContactInfo = () => {
                     <label
                       htmlFor="number"
                       className="text-tagline-2 text-secondary dark:text-accent block font-medium">
-                      Phone number
+                      {contact.form.phoneNumber}
                     </label>
                     <input
                       type="text"
                       id="number"
                       name="number"
-                      placeholder="Enter your phone number"
+                      placeholder={contact.form.phoneNumberPlaceholder}
                       required={true}
                       autoComplete="tel"
                       className="dark:focus-visible:border-stroke-4/20 dark:border-stroke-7 dark:bg-background-6 border-stroke-3 bg-background-1 text-tagline-2 placeholder:text-secondary/60 focus:border-secondary placeholder:text-tagline-2 dark:placeholder:text-accent/60 dark:text-accent h-[48px] w-full rounded-full border px-[18px] py-3 font-normal placeholder:font-normal focus:outline-none xl:h-[41px]"
@@ -64,13 +68,13 @@ const ContactInfo = () => {
                 {/* email  */}
                 <div className="space-y-2">
                   <label htmlFor="email" className="text-tagline-2 text-secondary dark:text-accent block font-medium">
-                    Email address
+                    {contact.form.emailAddress}
                   </label>
                   <input
                     type="email"
                     id="email"
                     name="email"
-                    placeholder="Enter your email address"
+                    placeholder={contact.form.emailAddressPlaceholder}
                     required={true}
                     autoComplete="email"
                     className="dark:focus-visible:border-stroke-4/20 dark:border-stroke-7 dark:bg-background-6 border-stroke-3 bg-background-1 text-tagline-2 placeholder:text-secondary/60 focus:border-secondary placeholder:text-tagline-2 dark:placeholder:text-accent/60 dark:text-accent h-[48px] w-full rounded-full border px-[18px] py-3 font-normal placeholder:font-normal focus:outline-none xl:h-[41px]"
@@ -79,13 +83,13 @@ const ContactInfo = () => {
                 {/* subject  */}
                 <div className="space-y-2">
                   <label htmlFor="subject" className="text-tagline-2 text-secondary dark:text-accent block font-medium">
-                    Subject
+                    {contact.form.subject}
                   </label>
                   <input
                     type="text"
                     id="subject"
                     name="subject"
-                    placeholder="Enter the subject"
+                    placeholder={contact.form.subjectPlaceholder}
                     required={true}
                     className="dark:focus-visible:border-stroke-4/20 dark:border-stroke-7 dark:bg-background-6 border-stroke-3 bg-background-1 text-tagline-2 placeholder:text-secondary/60 focus:border-secondary placeholder:text-tagline-2 dark:placeholder:text-accent/60 dark:text-accent h-[48px] w-full rounded-full border px-[18px] py-3 font-normal placeholder:font-normal focus:outline-none xl:h-[41px]"
                   />
@@ -93,13 +97,13 @@ const ContactInfo = () => {
                 {/* message */}
                 <div className="space-y-2">
                   <label htmlFor="message" className="text-tagline-2 text-secondary dark:text-accent block font-medium">
-                    Message
+                    {contact.form.message}
                   </label>
                   <textarea
                     id="message"
                     name="message"
                     rows={7}
-                    placeholder="Write the details of your request or question"
+                    placeholder={contact.form.messagePlaceholder}
                     required={true}
                     className="dark:bg-background-6 dark:border-stroke-7 border-stroke-3 bg-background-1 text-tagline-2 placeholder:text-secondary/60 focus:border-secondary dark:focus-visible:border-stroke-4/20 placeholder:text-tagline-2 dark:placeholder:text-accent/60 dark:text-accent w-full rounded-xl border px-[18px] py-3 font-normal placeholder:font-normal focus:outline-none"
                     defaultValue={''}
@@ -109,7 +113,7 @@ const ContactInfo = () => {
                 <button
                   type="submit"
                   className="btn btn-md btn-secondary hover:btn-primary dark:btn-accent w-full first-letter:uppercase before:content-none">
-                  Send Message
+                  {contact.form.submit}
                 </button>
               </form>
             </RevealAnimation>

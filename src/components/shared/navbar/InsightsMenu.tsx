@@ -1,4 +1,7 @@
 'use client';
+import { useLocale } from '@/i18n/I18nProvider';
+import { localizeHref } from '@/i18n/pathnames';
+import { useTranslations } from '@/i18n/useTranslations';
 import {
   BlogIcon,
   ContactIcon,
@@ -18,39 +21,6 @@ type InsightsLink = {
   icon: ComponentType;
 };
 
-const insightLinks: InsightsLink[] = [
-  {
-    title: 'Help Center',
-    description: 'Find support resources',
-    href: '/support',
-    icon: SupportIcon,
-  },
-  {
-    title: 'FAQ',
-    description: 'Browse common questions',
-    href: '/faq',
-    icon: FaqIcon,
-  },
-  {
-    title: 'Blog',
-    description: 'Read the latest articles',
-    href: '/blog',
-    icon: BlogIcon,
-  },
-  {
-    title: 'Tutorials',
-    description: 'Explore guided tutorials',
-    href: '/tutorial',
-    icon: TutorialIcon,
-  },
-  {
-    title: 'Contact Us',
-    description: 'Get in touch with our team',
-    href: '/contact-us',
-    icon: ContactIcon,
-  },
-];
-
 const InsightsMenu = ({
   menuDropdownId,
   setMenuDropdownId,
@@ -58,6 +28,41 @@ const InsightsMenu = ({
   menuDropdownId: string | null;
   setMenuDropdownId: (id: string | null) => void;
 }) => {
+  const locale = useLocale();
+  const t = useTranslations('navbar');
+  const insightLinks: InsightsLink[] = [
+    {
+      title: t('resources.helpCenter'),
+      description: t('resources.helpCenterDesc'),
+      href: localizeHref('/support', locale),
+      icon: SupportIcon,
+    },
+    {
+      title: t('resources.faq'),
+      description: t('resources.faqDesc'),
+      href: localizeHref('/faq', locale),
+      icon: FaqIcon,
+    },
+    {
+      title: t('resources.blog'),
+      description: t('resources.blogDesc'),
+      href: localizeHref('/blog', locale),
+      icon: BlogIcon,
+    },
+    {
+      title: t('resources.tutorials'),
+      description: t('resources.tutorialsDesc'),
+      href: localizeHref('/tutorial', locale),
+      icon: TutorialIcon,
+    },
+    {
+      title: t('resources.contactUs'),
+      description: t('resources.contactUsDesc'),
+      href: localizeHref('/contact-us', locale),
+      icon: ContactIcon,
+    },
+  ];
+
   return (
     <div>
       <div

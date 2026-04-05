@@ -1,0 +1,93 @@
+{
+  "badge": "Fiyatlandırma",
+  "title": "Farklı ekip ihtiyaçları için esnek planlar",
+  "description": "Ekibinize, iş akışlarınıza ve operasyonel ihtiyaçlarınıza uygun planı seçin.",
+  "plans": [
+    {
+      "name": "Free",
+      "subtitle": "1 kullanıcıyla başlayın",
+      "summary": "TalepNET'i denemek isteyen ekipler için sade bir başlangıç seçeneği.",
+      "ctaLabel": "Ücretsiz Başlayın",
+      "ctaHref": "https://app.talepnet.com/sign-up",
+      "featured": true
+    },
+    {
+      "name": "Team",
+      "subtitle": "Büyüyen ekipler için",
+      "summary": "Daha fazla yapı ve günlük kontrol ihtiyacı olan ekipler için pratik bir seçenek.",
+      "ctaLabel": "Başlayın",
+      "ctaHref": "https://app.talepnet.com/sign-up",
+      "featured": false
+    },
+    {
+      "name": "Business",
+      "subtitle": "Daha geniş ekip ihtiyaçları için",
+      "summary": "Daha geniş iş akışları, daha yüksek limitler ve daha fazla raporlama ihtiyacı olan kuruluşlar için tasarlanmıştır.",
+      "ctaLabel": "Başlayın",
+      "ctaHref": "https://app.talepnet.com/sign-up",
+      "featured": false
+    },
+    {
+      "name": "Enterprise",
+      "subtitle": "İleri seviye kurumsal ihtiyaçlar için",
+      "summary": "Gelişmiş güvenlik, entegrasyon ve özel destek ihtiyacı olan kuruluşlar için uygundur.",
+      "ctaLabel": "Başlayın",
+      "ctaHref": "https://app.talepnet.com/sign-up",
+      "featured": false
+    }
+  ],
+  "comparison": {
+    "title": "Planları detaylı karşılaştırın",
+    "description": "Temel limitleri ve yetenekleri yan yana inceleyin.",
+    "featureColumn": "Özellik",
+    "columns": {
+      "team": "Team",
+      "business": "Business",
+      "enterprise": "Enterprise"
+    },
+    "sections": {
+      "coreLimits": "Temel limitler",
+      "workflowAndOperations": "İş akışları ve operasyonlar",
+      "reports": "Raporlar",
+      "securityAndSupport": "Güvenlik ve destek"
+    },
+    "customQuote": {
+      "title": "Özel bir teklif mi gerekiyor?",
+      "description": "Özel fiyatlama, entegrasyon veya belirli uygulama ihtiyaçları için ekibimizle iletişime geçin.",
+      "cta": "Teklif İsteyin"
+    }
+  },
+  "coreLimits": [
+    { "feature": "Satın alma sözleşmeleri", "team": "100", "business": "Sınırsız", "enterprise": "Sınırsız" },
+    { "feature": "Maliyet merkezleri", "team": "100", "business": "Sınırsız", "enterprise": "Sınırsız" },
+    { "feature": "Aylık RFQ", "team": "200", "business": "1000", "enterprise": "Sınırsız" },
+    { "feature": "Aylık satın alma siparişi", "team": "200", "business": "1000", "enterprise": "Sınırsız" },
+    { "feature": "Depolama", "team": "100 GB", "business": "500 GB", "enterprise": "Sınırsız" }
+  ],
+  "workflowAndOperations": [
+    { "feature": "İş akışı: Talep", "team": true, "business": true, "enterprise": true },
+    { "feature": "İş akışı: Onaylar", "team": true, "business": true, "enterprise": true },
+    { "feature": "İş akışı: Satın alma", "team": true, "business": true, "enterprise": true },
+    { "feature": "İş akışı: Depo", "team": false, "business": true, "enterprise": true },
+    { "feature": "İş akışı: Teslim alma", "team": true, "business": true, "enterprise": true },
+    { "feature": "İş akışı: Gelişmiş kurallar", "team": false, "business": true, "enterprise": true },
+    { "feature": "Vekaleten onay", "team": false, "business": true, "enterprise": true },
+    { "feature": "Onay hatırlatma / eskalasyon", "team": false, "business": true, "enterprise": true },
+    { "feature": "Bütçe kontrolü", "team": true, "business": true, "enterprise": true },
+    { "feature": "Tedarikçi kaydı", "team": true, "business": true, "enterprise": true },
+    { "feature": "Tedarikçi performansı", "team": false, "business": true, "enterprise": true }
+  ],
+  "reports": [
+    { "feature": "Gösterge paneli", "team": "Standart", "business": "Gelişmiş", "enterprise": "Gelişmiş" },
+    { "feature": "Analitik", "team": "Standart", "business": "Operasyonel + harcama temel görünümü", "enterprise": "Gelişmiş" },
+    { "feature": "Zamanlanmış raporlar", "team": false, "business": true, "enterprise": true },
+    { "feature": "Excel/CSV dışa aktarım", "team": false, "business": true, "enterprise": true }
+  ],
+  "securityAndSupport": [
+    { "feature": "2FA desteği", "team": false, "business": true, "enterprise": true },
+    { "feature": "Webhooks / API", "team": false, "business": false, "enterprise": true },
+    { "feature": "SSO / SAML", "team": false, "business": false, "enterprise": true },
+    { "feature": "IP izin listesi + oturum yönetimi", "team": false, "business": false, "enterprise": true },
+    { "feature": "Destek", "team": "Standart", "business": "Öncelikli", "enterprise": "Özel" }
+  ]
+}

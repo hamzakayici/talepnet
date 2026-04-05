@@ -1,3 +1,6 @@
+'use client';
+
+import { useI18n } from '@/i18n/I18nProvider';
 import testimonials from '@/data/json/testimonials/testimonials.json';
 import { XIcon } from '@/icons';
 import { cn } from '@/utils/cn';
@@ -11,6 +14,9 @@ interface ReviewsProps {
 }
 
 const Reviews = ({ className, badgeClass }: ReviewsProps) => {
+  const { messages } = useI18n();
+  const testimonial = messages.secondary.testimonial;
+
   return (
     <section
       className={cn(
@@ -22,11 +28,11 @@ const Reviews = ({ className, badgeClass }: ReviewsProps) => {
           {/* heading  */}
           <div className="space-y-5 text-center">
             <RevealAnimation delay={0.1}>
-              <span className={cn('badge badge-white', badgeClass)}>Değerlendirmeler</span>
+              <span className={cn('badge badge-white', badgeClass)}>{testimonial.badge}</span>
             </RevealAnimation>
 
             <RevealAnimation delay={0.2}>
-              <h2 id="reviews-heading">Mutlu müşterilerimizden başarı hikayeleri</h2>
+              <h2 id="reviews-heading">{testimonial.title}</h2>
             </RevealAnimation>
           </div>
 

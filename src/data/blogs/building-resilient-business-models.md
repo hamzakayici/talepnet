@@ -23,7 +23,7 @@ Dijital satın alma platformları, tedarikçi karşılaştırması ve otomatik t
 
 #### Süreç Şeffaflığı
 
-Her satın alma talebi, onay adımı ve sipariş durumu gerçek zamanlı olarak izlenebilir. Bu şeffaflık, kurumsal yönetişim ve denetim süreçlerini güçlendirir.
+Her satın alma talebi, onay adımı ve sipariş durumu gerçek zamanlı olarak izlenebilir. Bu şeffaflık, kurumsal yönetim ve denetim süreçlerini güçlendirir.
 
 #### Zaman Verimliliği
 

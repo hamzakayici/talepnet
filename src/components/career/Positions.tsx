@@ -1,20 +1,31 @@
 import LinkButton from '@/components/ui/button/LinkButton';
-import { IPosition } from '@/interface';
-import getMarkDownData from '@/utils/getMarkDownData';
+import { localizeHref } from '@/i18n/pathnames';
 import RevealAnimation from '../animation/RevealAnimation';
 
-const Positions = () => {
-  const positions = getMarkDownData<IPosition & { [key: string]: unknown }>('src/data/career');
+type Props = {
+  positions: {
+    slug: string;
+    title: string;
+    employmentType: string[];
+    shortDescription: string;
+  }[];
+  badge: string;
+  title: string;
+  viewRoleLabel: string;
+  locale: 'en' | 'tr';
+};
+
+const Positions = ({ positions, badge, title, viewRoleLabel, locale }: Props) => {
 
   return (
-    <section className="pt-10 pb-20 xl:pt-14 xl:pb-28">
+    <section id="current-openings" className="pt-10 pb-20 xl:pt-14 xl:pb-28">
       <div className="main-container">
         <div className="mb-14 text-center">
           <RevealAnimation delay={0.1}>
-            <span className="badge badge-green mb-5">Open Roles</span>
+            <span className="badge badge-green mb-5">{badge}</span>
           </RevealAnimation>
           <RevealAnimation delay={0.2}>
-            <h2>Current openings</h2>
+            <h2>{title}</h2>
           </RevealAnimation>
         </div>
         <div className="grid grid-cols-1 gap-8 md:grid-cols-2">
@@ -35,9 +46,9 @@ const Positions = () => {
                   </div>
                   <div>
                     <LinkButton
-                      href={`/career/${singlePost?.slug}`}
+                      href={localizeHref(`/career/${singlePost?.slug}`, locale)}
                       className="btn hover:btn-secondary dark:btn-transparent dark:hover:btn-accent btn-md btn-white">
-                      View Role
+                      {viewRoleLabel}
                     </LinkButton>
                   </div>
                 </div>

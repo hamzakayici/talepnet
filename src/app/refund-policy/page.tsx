@@ -4,7 +4,7 @@ import { Metadata } from 'next';
 
 export const metadata: Metadata = {
   ...defaultMetadata,
-  title: 'İade Politikası | TalepNET',
+  title: 'Refund Policy | TalepNET',
 };
 
 const RefundPolicy = () => {

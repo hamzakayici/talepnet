@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import { Locale, defaultLocale, locales } from '@/i18n/config';
 
 export const DEFAULT_URL = 'https://www.talepnet.com';
 export const DEFAULT_TITLE = 'TalepNET | Organizasyonlar İçin Akıllı Satın Alma Yönetimi';
@@ -46,6 +47,52 @@ const generateMetadata = (title?: string, description?: string, canonicaUrl?: st
       title: title ?? defaultMetadata.twitter?.title,
       description: description ?? defaultMetadata.twitter?.description,
       images: imageUrl ? [imageUrl] : defaultMetadata.twitter?.images,
+    },
+  };
+};
+
+const normalizePathname = (pathname?: string) => {
+  if (!pathname || pathname === '/') {
+    return '/';
+  }
+
+  return pathname.startsWith('/') ? pathname : `/${pathname}`;
+};
+
+export const buildLocalizedUrl = (pathname: string = '/', locale: Locale = defaultLocale) => {
+  const normalized = normalizePathname(pathname);
+  return normalized === '/' ? `${DEFAULT_URL}/${locale}` : `${DEFAULT_URL}/${locale}${normalized}`;
+};
+
+export const buildLocaleAlternates = (pathname: string = '/', locale: Locale = defaultLocale) => {
+  const normalized = normalizePathname(pathname);
+
+  return {
+    canonical: buildLocalizedUrl(normalized, locale),
+    languages: {
+      'x-default': buildLocalizedUrl(normalized, defaultLocale),
+      ...Object.fromEntries(locales.map((item) => [item, buildLocalizedUrl(normalized, item)])),
+    },
+  };
+};
+
+export const localizeMetadata = (
+  metadata: Metadata = defaultMetadata,
+  pathname: string = '/',
+  locale: Locale = defaultLocale,
+): Metadata => {
+  const alternates = buildLocaleAlternates(pathname, locale);
+
+  return {
+    ...metadata,
+    alternates: {
+      ...metadata.alternates,
+      canonical: alternates.canonical,
+      languages: alternates.languages,
+    },
+    openGraph: {
+      ...metadata.openGraph,
+      url: alternates.canonical,
     },
   };
 };
